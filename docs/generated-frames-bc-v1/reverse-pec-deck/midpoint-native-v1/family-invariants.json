@@ -1,0 +1,80 @@
+{
+  "inputs": [
+    {
+      "slot": 6,
+      "name": "quarter-closed",
+      "file": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/quarter-closed.png",
+      "sha256": "f0fb840aee2577901b79817c2c5be09fe9237e18b4ca32165fe1b5e81f39a1a2",
+      "progress": 0.18373493975903615
+    },
+    {
+      "slot": 1,
+      "name": "midpoint",
+      "file": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/midpoint.png",
+      "sha256": "a4df021f0560426a442744a055782b52ab324025814061349a04e6b1bd045a9d",
+      "progress": 0.3674698795180723
+    },
+    {
+      "slot": 7,
+      "name": "quarter-open",
+      "file": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/quarter-open.png",
+      "sha256": "64700f96112c934baf69b1a4f6d3448a121e252f75d60d880aa35e9bef0b97e5",
+      "progress": 0.5542168674698795
+    }
+  ],
+  "activeSourceOrder": [
+    {
+      "slot": 0,
+      "progress": 0,
+      "source": "original-sheet-cell-0"
+    },
+    {
+      "slot": 6,
+      "progress": 0.18373493975903615,
+      "source": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/quarter-closed.png"
+    },
+    {
+      "slot": 1,
+      "progress": 0.3674698795180723,
+      "source": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/midpoint.png"
+    },
+    {
+      "slot": 7,
+      "progress": 0.5542168674698795,
+      "source": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/quarter-open.png"
+    },
+    {
+      "slot": 3,
+      "progress": 0.7409638554216867,
+      "source": "original-sheet-cell-3"
+    },
+    {
+      "slot": 4,
+      "progress": 0.8313253012048193,
+      "source": "original-sheet-cell-4"
+    },
+    {
+      "slot": 5,
+      "progress": 0.927710843373494,
+      "source": "original-sheet-cell-5"
+    },
+    {
+      "slot": 8,
+      "progress": 1,
+      "source": "original-sheet-cell-8"
+    }
+  ],
+  "originalSheetCellsUsed": [
+    0,
+    3,
+    4,
+    5,
+    8
+  ],
+  "worldGeometrySha256": "33a601184986fab124fed5a70a108b490d16742520a60bc4f8edcb702410884c",
+  "generator": "scripts/render-reverse-pec-deck-midpoint.py",
+  "generatorSha256": "2aefd32a01f83edb175d19ead7accdab36c9ee0ccc7ac39d32210d8fd6179486",
+  "review": "Three native equipment-only poses approved by root and independent reviewer before temporal interpolation. Original sheet and all rejected/redundant source poses preserved.",
+  "approvedMidpointReproducedByteExact": true,
+  "approvedMidpointSha256": "a4df021f0560426a442744a055782b52ab324025814061349a04e6b1bd045a9d"
+}

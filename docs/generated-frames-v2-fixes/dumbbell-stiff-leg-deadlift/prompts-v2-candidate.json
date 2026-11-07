@@ -1,0 +1,23 @@
+{
+  "mode": "builtin-image_gen",
+  "intent": "edit",
+  "useCase": "sketch-to-render",
+  "grid": [
+    3,
+    3
+  ],
+  "sourceAsset": "docs/generated-frames-v2-fixes/dumbbell-stiff-leg-deadlift/sheet-v2-candidate.png",
+  "generatedImagePath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b7a9-cd05-7d42-aaf1-58b2a0fe7c23\\exec-e959d56a-fc68-4922-9e38-ecdb92a7c9e5.png",
+  "prompt": "Use case: sketch-to-render. EDIT IMAGE 1 INTO A REALISTIC 3D-STYLE EXERCISE ILLUSTRATION SHEET. Keep the exact 3x3 layout, camera, joint positions and SAME bone lengths from this geometric pose guide. Replace ONLY the colored stick skeleton with a photorealistically shaded muscular adult human; add muscles and skin around the existing bones, not different proportions. Render the black blocks as two fixed-size black hex dumbbells, near and far at both sides of legs. Image2 is ONLY the approved man's skin, shorts and rendering-style reference. Do not copy image2's apparatus, pose or camera. No other references.\nThis is a dumbbell stiff-leg deadlift hip hinge, nine increasing descent stages in row-major order. Strict ORTHOGRAPHIC SIDE VIEW, man faces RIGHT, camera locked. Same tan muscular shirtless man, short dark hair, charcoal shorts, black sneakers with white soles, warm off-white studio background.\nMost important: Every femur EXACTLY80px, tibia EXACTLY80px, hip-to-shoulder EXACTLY110px, arm EXACTLY146px in this 418px-cell guide. Preserve these projected lengths. The hips MUST NOT GROW or inflate on descent, no long thigh at bottom. Knee flexion stays about15 degrees, and all soles stay fixed on floor. Follow the guide's ankle, knee, hip and shoulder landmarks strictly in every cell. Pelvis tilts with trunk but stays same volume. Realistic quads, hamstrings, calves/glutes, muscle volume held constant.\nThe ankle is at (190,376) in EVERY cell; feet don't slide. Knee coordinates of successive9cells approximately (204,297),(200,297),(196,296),(192,296),(189,296),(185,296),(181,296),(177,297),(173,298). Hip coordinates approximately (197,217),(190,217),(182,218),(174,219),(167,220),(159,221),(152,223),(145,225),(137,227). This establishes constant leg lengths and identical15degree soft knee flexion. NEVER replace this hip hinge with a squat. The torso rotates forward with a straight neutral spine around the moving hips. Neck follows torso; no looking up at bottom. Torso angles from horizontal90,82,74,66,58,49,41,33,25 degrees. Arms straight, hands/dumbbells track very close to legs; bottom dumbbells around MID-SHIN, clearly above floor. Maintain exact dumbbell size/count.\nAll nine full bodies and weights contained with margins. Same scale/position/lights/floor across cells. Finished realistic muscular color rendering, NOT schematic, no stick lines, colored skeleton, overlay, labels, numbers, captions, arrows or watermarks. Nine frames of ONE descent only.",
+  "references": [
+    {
+      "role": "edit target / exact pose guide",
+      "path": "docs/generated-frames-v2-fixes/dumbbell-stiff-leg-deadlift/reference-geometry.png"
+    },
+    {
+      "role": "character rendering style only",
+      "path": "docs/generated-frames-v4/pec-deck/pose-00.png"
+    }
+  ],
+  "status": "candidate; final measurements pending"
+}

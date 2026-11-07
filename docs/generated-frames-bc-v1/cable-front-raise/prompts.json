@@ -1,0 +1,23 @@
+{
+  "exercise": "cable-front-raise",
+  "generationMode": "built-in image_gen",
+  "intent": "generate",
+  "grid": [
+    3,
+    3
+  ],
+  "phase": "one lifting phase, row-major nine poses",
+  "prompt": "Use case: scientific-educational. Asset: a single coherent 3-by-3 animation pose sheet for a fitness reference guide, nine equally sized SQUARE cells, EXACT row-major chronological order. Large SQUARE canvas. No gutters, grid lines, captions, numbers, arrows, motion trails or watermarks. Input image1 is the approved CHARACTER/STYLE reference: same anatomically defined muscular adult man, natural warm tan skin, short dark hair, charcoal black shorts and black trainers, colored realistic fitness illustration against off-white floor/background. Input image2 is ONLY this exercise's apparatus/action reference, never its exact camera. Every cell depicts THE SAME PERSON AND SAME EQUIPMENT in the same locked camera, framing, scale, light and colors. Sequential consistency: copy static elements mentally from the preceding cell; do not make nine variants. Only the exercise motion progresses. Skin texture, facial identity, apparatus bolts/rails/pads/weights and lighting stay consistent. The equipment is rigid, all visible connections mechanically attached, no bending supports, disappearances, extra limbs, transparent feet or object penetration. Keep the moving range fully inside each cell with identical generous margins. Demonstrate only the LIFTING half of a bilateral CABLE FRONT RAISE USING LOW PULLEY AND SHORT STRAIGHT BAR. Fixed side three-quarter view, man faces diagonally image-right, low pulley tower BEHIND HIM to image-left. Cable emerges from a fixed pulley near floor level BEHIND his feet, passes BETWEEN HIS LEGS below the pelvis and leads forward to the center attachment of a short straight bar; preserve this real cable route in EVERY pose, with correct occlusion by legs. He stands hip-width, feet planted, hands pronated overhand on bar about shoulder width, elbows fixed slightly bent about10degrees. Pose1 bar in FRONT OF UPPER THIGHS; poses2..8 raise the entire arms forward progressively; pose9 bar straight in front at shoulder height, arms near horizontal. No biceps curl: elbows do NOT bend more as bar rises. Head, trunk, pelvis, knees and feet stay fixed, spine neutral, no backward lean or momentum. Weight stack rises progressively as cable is pulled; connected taut cable never disappears, disconnects or cuts through flesh. Tower, support frame, base, low pulley and their textures stay identical across cells. Nine poses only thigh-height→shoulder-height, no return frames.",
+  "references": [
+    {
+      "path": "docs/generated-frames-v4/pec-deck/pose-00.png",
+      "role": "approved character and colored illustration style"
+    },
+    {
+      "path": "dist/assets/thumbnails/cable-front-raise.webp",
+      "role": "exercise apparatus and action only"
+    }
+  ],
+  "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b714-7077-7191-a9ae-c351cb0cb7c5\\exec-9437f59e-5b9b-42e8-84a8-4bb2b2d3c320.png",
+  "workspaceAsset": "docs/generated-frames-bc-v1/cable-front-raise/sheet.png"
+}

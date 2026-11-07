@@ -1,0 +1,30 @@
+{
+  "id": "reverse-pec-deck",
+  "generationMode": "built-in image_gen",
+  "intent": "generate corrected sheet",
+  "prompt": "Use case: scientific-educational. Create a NEW corrected 3x3 motion sheet for a REVERSE PEC DECK / MACHINE REAR DELT FLY. Exactly nine equal SQUARE cells in a square sheet, chronological row-major. No borders, gutters, text, numbers, arrows or trails. Image1 is character/style reference (ignore his chest exercise); image2 shows the rear-delt machine equipment and seated orientation. Same muscular adult male, warm natural skin, dark hair, black shorts/shoes, realistic colored illustration, off-white floor/background. New CAMERA: symmetrically BEHIND the athlete, elevated about30degrees and offset only slightly to one side. This shows BOTH upper arms reaching FORWARD in the first pose, and opening LATERALLY in later poses, with unambiguous arm geometry. Use the SAME camera, crop and scale across all cells.\nMan sits FACING AWAY FROM VIEWER TOWARD MACHINE, sternum against vertical chest pad, feet firmly planted. His head, torso, chest contact, pelvis, thighs and feet stay stationary. BOTH ELBOWS keep a CONSTANT SMALL bend of about10–15degrees IN ALL NINE CELLS; the elbow angle MUST NOT change. All motion is horizontal shoulder abduction, NOT elbow extension and NOT a row.\nCRITICAL START POSE CELL1: both nearly-straight arms point FORWARD, directly AWAY from the camera toward the front of his chest and machine center; hands and handles are CLOSE TOGETHER in front of the chest, separated only about15–25cm. From this elevated rear view the arms project forward/upward in the image on either side of his head/chest pad; they are NOT already spread out to the left and right. Cell1 hands should be no farther apart than his shoulder width. He is reaching forward with almost-straight elbows, not bent elbows close to ribs.\nCells2..8: progressively spread the arms in eight small equal angular increments OUT TO THE SIDES while keeping the same small elbow bend, chest supported and shoulders relaxed. Hands separate smoothly along a horizontal 3D arc around the shoulder joints. CELL9: arms open to the sides approximately in line with torso/shoulders, nearly making a T, left hand far image-left and right hand far image-right, stopping before excessive shoulder extension. Hands now more than3times farther apart than in cell1. Upper arms don't move up/down; elbows don't curl or straighten during this exercise.\nMACHINE: select the reverse-fly setting on a gray pec-deck with TWO independent overhead pivots and rigid arm levers, shoulder-height vertical grips. Start position has the two levers ADJUSTED CLOSED/FORWARD near machine center; end position has levers opened widely to the sides, following the same horizontal shoulder arc. Each lever retains ONE physical shape, length and width as it rotates at its pivot; grips attached. Don't redraw the metal shape, form S bends or let the arm disconnect. Fixed overhead beam, supporting post behind the chest pad, chest pad, seat, base and tower remain identical and complete throughout. Weights may be inside an OPAQUE enclosed tower so no false plate motion is needed. Do NOT copy the reference's already-wide-open pose into cell1. Show the full body and apparatus inside every cell with fixed margins. Nine OPENING keyframes only, no return sequence.",
+  "references": [
+    {
+      "path": "docs/generated-frames-v4/pec-deck/pose-00.png",
+      "role": "character and art style"
+    },
+    {
+      "path": "dist/assets/thumbnails/reverse-pec-deck.webp",
+      "role": "equipment and seated orientation"
+    }
+  ],
+  "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b715-116a-7270-8b2e-aec09b7e4988\\exec-5aeaf725-03a8-4816-804b-1245fa26d691.png",
+  "grid": [
+    3,
+    3
+  ],
+  "rowMajor": true,
+  "poses": 9,
+  "phase": "opening only",
+  "revision": 2,
+  "rejectedDraft": {
+    "sheet": "sheet-v1-small-range-rejected.png",
+    "prompt": "prompts-v1-small-range-rejected.json",
+    "reason": "Start already almost open with changing elbow bend; insufficient pure shoulder-abduction range."
+  }
+}

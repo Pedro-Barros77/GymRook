@@ -1,0 +1,12 @@
+{
+  "mode": "builtin-image_gen",
+  "intent": "precise-object-edit",
+  "source": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b7a9-cd05-7d42-aaf1-58b2a0fe7c23\\exec-6add1d40-7fa0-4d56-a72c-fbd07f8e32aa.png",
+  "prompt": "Use case: precise-object-edit. Edit IMAGE1, the realistic SINGLE raised seated calf machine pose. IMAGE2 is the same picture annotated ONLY to show three new target positions; the colored marks must NOT appear in final. IMAGE3 is the original down position for fixed platform/forefoot location reference.\nFix one small alignment problem: the raised pose's forefoot contact migrated up and forward. Keep ball/forefoot planted at exactly the SAME place on platform as IMAGE3. In the512px composition, final contact should be(337,479), the RED CIRCLE in image2. Move BOTH rigid shoes slightly BACK/LEFT about7px and DOWN about8px so the forefoot soles press firmly on that same platform point. Do not move or change the solid platform, machine base, camera or framing. No floating toes, no shoes penetrating platform.\nTo preserve the SAME shin length, move BOTH KNEES DOWN about8px along with ankles, reducing calf-raise amplitude: near knee center becomes(280,308), ankle center(269,433), BLUE CIRCLES in image2. Knee and ankle must move down together by8px; tibia must not grow or shrink and stays~126px. Both hips fixed on seat. Final heel still raised modestly, about3–5cm, knees remain near90deg, NOT standing on extreme tiptoes. Thigh muscle volume and femur length unchanged.\nLower the attached thigh pad and hand grip modestly by8px with the knee/thigh, and rotate the ONE rigid lever down slightly about2degrees so front plate center becomes~(420,279). Plate radius constant55px. Rear pivot/base/seat/hips/platform remain EXACTLY fixed. Arms/hands may follow pad slightly; torso/head do not move.\nPreserve all original style, identity, muscles, skin, shorts, shoes, materials, background, lighting, gray frame/seat geometry and original fixed apparatus proportions. This is a tiny precise correction to foot contact/knee/lever only. Do not include red/blue marks, lines, numbers, labels, text, arrows or watermark. Output ONE full square realistic image, no grid.",
+  "references": [
+    "endpoint-v3.png",
+    "reference-contact-correction.png",
+    "reference-first-pose.png"
+  ],
+  "status": "candidate corrected contact; await 2-key RIFE19frame QA before promotion"
+}

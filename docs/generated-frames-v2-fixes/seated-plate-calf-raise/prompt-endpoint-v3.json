@@ -1,0 +1,11 @@
+{
+  "mode": "builtin-image_gen",
+  "intent": "precise-object-edit",
+  "source": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b7a9-cd05-7d42-aaf1-58b2a0fe7c23\\exec-3e642fce-6ead-4e29-af62-e773e4f502ee.png",
+  "prompt": "Use case: precise-object-edit. Create ONE SINGLE SIDE-PROFILE IMAGE (not a sprite sheet) by editing image1, the approved initial seated calf machine pose. Image2 gives exact endpoint joint positions and machine lever.\nChange the small plantarflexion of BOTH feet and the knee/thigh pad that rise with them. Preserve ALL existing upper body/head/torso/hips/seat/frame/base/platform/rear pivot positions, scale and camera. Hips stay fixed seated. Femur and tibia MUST stay their same length125px on this512px composition. The current knee joint center is(280,322) and ankle joint center(265,447). Move knee center UP to(280,305), move ankle UP to(273,431). Knee and ankle BOTH rise by16–17pixels, so tibia still126pixels long. DO NOT hold knee stationary, do not make shin shorter! Lower knee image coordinate means anatomically higher knee. Thigh rotates a few degrees upward around hip at(155,315). Keep muscle volumes constant.\nFoot ball/forefoot contact stays fixed(345,475). Heel rises only21pixels: heel(244,483)→(245,462). Rigid shoe rotates12degrees only. Keep the shoe size/length. This is a small realistic calf raise, not a high tiptoe.\nMachine rear pivot stays exactly(82,343). Rotate the ONE rigid lever upwards6degrees, no bending/stretching. Plate radius55 constant, center moves(422,310)→(417,275). Thigh pad stays fixed-size, center moves(255,277)→(247,259), sitting on raised lower thighs. Handle and hands rise modestly with the pad; forearms may rotate, upper arms/torso stay. Seat and pelvis absolutely fixed. Nothing clips or floats.\nKeep same photographic educational render, muscular tan shirtless man, charcoal shorts, black sneakers white soles, neutral off-white studio background/light. ONE square fullbody/apparatus endpoint picture, no text, numbers, arrows, colored skeleton, labels, diagrams or watermark.",
+  "references": [
+    "reference-first-pose.png",
+    "reference-ik-endpoint-v3.png"
+  ],
+  "status": "single endpoint now lifts knee and ankle together; measuring before release"
+}

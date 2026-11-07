@@ -1,0 +1,18 @@
+{
+  "exercise": "lying-leg-curl",
+  "generationMode": "built-in image_gen",
+  "intent": "generate",
+  "grid": [
+    3,
+    3
+  ],
+  "sequence": "9 forward keyframes: knee flexion 5,17,30,42,55,67,80,92,105 degrees",
+  "references": [
+    "dist/assets/thumbnails/lying-leg-curl.webp",
+    "docs/generated-frames-v4/pec-deck/pose-00.png"
+  ],
+  "prompt": "Use case: scientific-educational. Asset: ONE square 3 by 3 contact sheet of NINE sequential animation keyframes, arranged row-major left to right then top to bottom. Each cell is an equal square and contains the ENTIRE same scene at exactly the same scale, framing, camera, lighting and floor position. No gutters, borders, labels, numerals, arrows, text, diagrams, duplicates, or motion trails. A realistic colored gym instruction illustration matching reference images: muscular adult man with the SAME identity, warm tan skin, dark short hair, black/dark charcoal shorts, black trainers with white sole. Detailed muscles but realistic anatomy and joint articulation. Plain warm off-white studio background. Treat this as nine successive exposures of ONE locked-off animation scene, not nine independent redesigns. Skin texture, machine parts, clothing, dumbbells, lighting and all fixed objects must remain identical between cells. Smooth small monotonic changes in pose, equal increments between the nine keyframes. Use wide enough framing for the complete movement in every cell; no crop of feet, head, hands, machine, or equipment. Reference 1 supplies exercise/equipment identification; Reference 2 supplies the approved muscular character rendering style. Do not include the pec-deck machine from reference 2. EXERCISE: lying leg curl / mesa flexora. All nine cells show the same side three-quarter view, man's head to the RIGHT and feet to the LEFT. Use a proper lying leg curl machine: rigid gray steel fixed frame and fixed contoured black bench, fixed cable tower with same plate count. The man lies PRONE, face down, chest, pelvis and thighs resting firmly on the same bench in all cells. Both knees align with one FIXED machine hinge at the bench's rear edge. Hands hold fixed handles. A single rigid padded cylinder sits across BOTH posterior lower shins just ABOVE the heels, physically connected to the machine's rigid knee-pivot lever. The shins and lever rotate together around the fixed knee hinge. Only the knees flex: hips, pelvis, chest, shoulders, head, bench and machine frame do not move or morph. Nine poses represent ONLY the lifting half-repetition: flexion angles 5, 17, 30, 42, 55, 67, 80, 92 and 105 degrees. Cell1 legs almost straight, heels low and posterior ankle pad low; cell9 knees flexed and heels approaching glutes but NOT contacting glutes. Feet and ankles keep neutral alignment; no twisting legs, no growing limbs, no raised hips, no lumbar arch. The selected plates rise a small consistent distance along the stationary tower rods as knee flexion increases, rather than floating/disappearing or changing plate count. Keep joints and the roller mechanically coherent in all nine cells. Do not draw a seated leg curl or an abdominal exercise.",
+  "sources": [
+    "https://www.nasm.org/resource-center/exercise-library/lying-leg-curl"
+  ]
+}

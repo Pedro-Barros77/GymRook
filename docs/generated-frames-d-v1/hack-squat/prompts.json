@@ -1,0 +1,14 @@
+{
+  "id": "hack-squat",
+  "generationMode": "built-in image_gen",
+  "prompt": "Use case: scientific-educational. Asset: coherent animation keyframe sheet for an offline exercise guide. Input 1 is the approved character/style reference only. Preserve that adult muscular man's identity, tan skin, short dark hair, anatomical definition, black shorts, black shoes, realistic colored fitness illustration on warm off-white background. Input 2 is the equipment/action reference for this exercise. Use locked camera, focal length, crop, floor and illumination across EVERY cell. Each cell is the SAME SCENE photographed at a later moment, not nine variants. Skin color, face, body proportions, machine topology, metal surfaces and background must not morph. No labels, no arrows, no watermarks, no borders or gutters. Keep full body and entire apparatus visible inside each cell with generous fixed margins. Machine components are rigid; anchored supports stay pixel-consistent; levers only rotate on their physical axes. Human joints must bend naturally. All hands/feet contact correct supports; no intersections. Create ONE SQUARE 3 by 3 contact sheet, exactly nine equally sized SQUARE cells in row-major chronological order, nine poses of only the LOWERING half of a HACK SQUAT on a 45degree sled machine. Same man backed against angled black backrest, shoulders under pads, hands holding handles. Side three-quarter camera clearly shows two feet on a fixed angled footplate and the 45degree parallel rails. Pose1 upright legs with soft unlocked knees, sled high; poses2..8 lower sled by bending knees and hips gradually; pose9 comfortable bottom approximately90degree knees/thighs nearparallel to footplate. Heels and whole feet stay planted in EXACT SAME position and orientation on fixed plate across all nine. Knees track toward toes, torso and pelvis remain supported with neutral spine. The ENTIRE sled assembly (shoulder pads, handles, backrest and attached weight plates) and man descend together along the SAME straight fixed rails, no bending rails or floating pads. Fixed base/plate/rails never move. Same number and diameter of weight plates every cell. Do not confuse with leg press, Smith squat, barbell squat, or seated equipment. Lowering only with controlled progressively deeper positions; no return frames. Composition reference is image2.",
+  "references": [
+    "docs/generated-frames-v4/pec-deck/pose-00.png",
+    "dist/assets/thumbnails/hack-squat.webp"
+  ],
+  "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b26c-8c92-7253-ac21-547f0416b759\\exec-142191b0-135d-4232-b7d2-e0744c132c96.png",
+  "grid": [
+    3,
+    3
+  ]
+}

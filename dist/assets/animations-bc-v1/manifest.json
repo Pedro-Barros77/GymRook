@@ -1,0 +1,1072 @@
+{
+  "pipeline": "Generated colored pose sheets -> translation-only registration -> Practical-RIFE 4.25 -> PNG loops -> encoded media",
+  "render": "generated-interpolated",
+  "preferredFormat": "MP4",
+  "fps": 12,
+  "gifTimingNote": "Cumulative centisecond rounding uses 80/90 ms delays at 12 fps and preserves the exact loop duration.",
+  "encoder": {
+    "package": "imageio-ffmpeg 0.8.1",
+    "ffmpeg": "9.0.2-essentials_build-www.gyan.dev",
+    "script": "scripts/encode-3d.py",
+    "scriptSha256": "ffb13e12a9d76343e853b2207110005176a98bd16fb851f1e6453a349123de44"
+  },
+  "animations": [
+    {
+      "id": "machine-shoulder-press",
+      "source": "output/bc-animations/machine-shoulder-press/frames",
+      "frameCount": 36,
+      "fps": 12,
+      "fpsNumerator": 12,
+      "fpsDenominator": 1,
+      "durationSeconds": 3.0,
+      "width": 512,
+      "height": 512,
+      "video": "machine-shoulder-press.mp4",
+      "gif": "machine-shoulder-press.gif",
+      "poster": "machine-shoulder-press-poster.webp",
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "gifFrameDelaysMilliseconds": [
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80
+      ],
+      "files": {
+        "machine-shoulder-press.mp4": {
+          "bytes": 206246,
+          "sha256": "435d67179162ae23764abf144f377d8ab821bde2458beb1e3a22c9915385fc39"
+        },
+        "machine-shoulder-press.gif": {
+          "bytes": 4049689,
+          "sha256": "0674647574eecad35d528179d079cf207606aded511958ac890c336ff151cd99"
+        },
+        "machine-shoulder-press-poster.webp": {
+          "bytes": 23734,
+          "sha256": "fb7231e84267e8f8461bd429de3f46f53c038308b6b881e63c919a1b85512ebb"
+        }
+      },
+      "render": "generated-interpolated"
+    },
+    {
+      "id": "dumbbell-lateral-raise",
+      "source": "output/bc-animations/dumbbell-lateral-raise/frames",
+      "frameCount": 36,
+      "fps": 12,
+      "fpsNumerator": 12,
+      "fpsDenominator": 1,
+      "durationSeconds": 3.0,
+      "width": 512,
+      "height": 512,
+      "video": "dumbbell-lateral-raise.mp4",
+      "gif": "dumbbell-lateral-raise.gif",
+      "poster": "dumbbell-lateral-raise-poster.webp",
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "gifFrameDelaysMilliseconds": [
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80
+      ],
+      "files": {
+        "dumbbell-lateral-raise.mp4": {
+          "bytes": 141947,
+          "sha256": "5aa46cf7d4795ba92047967337644f98ef616722332e556564aad0a5f7c839e5"
+        },
+        "dumbbell-lateral-raise.gif": {
+          "bytes": 2934731,
+          "sha256": "d597d0c88ab1944e787c6a269ef32b61d4e732c8aecb35325b0fbb5a4c495453"
+        },
+        "dumbbell-lateral-raise-poster.webp": {
+          "bytes": 12140,
+          "sha256": "53265e44392eefa5c391bde1c0d87cff2c91dbb9922950e84da8745bd3336bd6"
+        }
+      },
+      "render": "generated-interpolated"
+    },
+    {
+      "id": "cable-front-raise",
+      "source": "output/bc-animations/cable-front-raise/frames",
+      "frameCount": 36,
+      "fps": 12,
+      "fpsNumerator": 12,
+      "fpsDenominator": 1,
+      "durationSeconds": 3.0,
+      "width": 512,
+      "height": 512,
+      "video": "cable-front-raise.mp4",
+      "gif": "cable-front-raise.gif",
+      "poster": "cable-front-raise-poster.webp",
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "gifFrameDelaysMilliseconds": [
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80
+      ],
+      "files": {
+        "cable-front-raise.mp4": {
+          "bytes": 169848,
+          "sha256": "d521fb2b391843ed9c932d6483372bece8154569580c4e60a891807e3add66a0"
+        },
+        "cable-front-raise.gif": {
+          "bytes": 3866623,
+          "sha256": "454d1eea5852572a20ce34072237645ee3648564e78bdaf167d58d7178c8b9d9"
+        },
+        "cable-front-raise-poster.webp": {
+          "bytes": 17604,
+          "sha256": "7fe0ae2797dadf8da466541e98de7cd3c56c04d9cacc4c7abf1320e27e251a14"
+        }
+      },
+      "render": "generated-interpolated"
+    },
+    {
+      "id": "dumbbell-shrug",
+      "source": "output/bc-animations/dumbbell-shrug/frames",
+      "frameCount": 36,
+      "fps": 12,
+      "fpsNumerator": 12,
+      "fpsDenominator": 1,
+      "durationSeconds": 3.0,
+      "width": 512,
+      "height": 512,
+      "video": "dumbbell-shrug.mp4",
+      "gif": "dumbbell-shrug.gif",
+      "poster": "dumbbell-shrug-poster.webp",
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "gifFrameDelaysMilliseconds": [
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80
+      ],
+      "files": {
+        "dumbbell-shrug.mp4": {
+          "bytes": 136373,
+          "sha256": "86f2714ce285c6d11bf8a41766703a9a0c015a2b8ade77ddd86aa2ca1cdbcf41"
+        },
+        "dumbbell-shrug.gif": {
+          "bytes": 3682052,
+          "sha256": "932309259165ec1d0dc781993d2894d9cf21ede9a707d329978dcb144e10b571"
+        },
+        "dumbbell-shrug-poster.webp": {
+          "bytes": 13600,
+          "sha256": "6f5bfd870a855d4aac0602447ca8b7d3ed6dd2c48d0ee2a0201b2147d52388dc"
+        }
+      },
+      "render": "generated-interpolated"
+    },
+    {
+      "id": "reverse-pec-deck",
+      "source": "output/bc-animations/reverse-pec-deck/frames",
+      "frameCount": 36,
+      "fps": 12,
+      "fpsNumerator": 12,
+      "fpsDenominator": 1,
+      "durationSeconds": 3.0,
+      "width": 512,
+      "height": 512,
+      "video": "reverse-pec-deck.mp4",
+      "gif": "reverse-pec-deck.gif",
+      "poster": "reverse-pec-deck-poster.webp",
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "gifFrameDelaysMilliseconds": [
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80
+      ],
+      "files": {
+        "reverse-pec-deck.mp4": {
+          "bytes": 150030,
+          "sha256": "0edf2f740aff144298dc257d98ead0e1a5fbf4c143eb7d9ffd0453784a20ae4c"
+        },
+        "reverse-pec-deck.gif": {
+          "bytes": 3668223,
+          "sha256": "70e0037f3b1a7c78c530fdd4333cb0ca099765bd7128e2dae1687f83e6617eb4"
+        },
+        "reverse-pec-deck-poster.webp": {
+          "bytes": 18452,
+          "sha256": "85a654b65ccd8ba84b8be150f1dd155eaedfc48842a013a12f88fba5e38c81aa"
+        }
+      },
+      "render": "generated-interpolated"
+    },
+    {
+      "id": "standing-machine-calf-raise",
+      "source": "output/bc-animations/standing-machine-calf-raise/frames",
+      "frameCount": 36,
+      "fps": 12,
+      "fpsNumerator": 12,
+      "fpsDenominator": 1,
+      "durationSeconds": 3.0,
+      "width": 512,
+      "height": 512,
+      "video": "standing-machine-calf-raise.mp4",
+      "gif": "standing-machine-calf-raise.gif",
+      "poster": "standing-machine-calf-raise-poster.webp",
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "gifFrameDelaysMilliseconds": [
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80
+      ],
+      "files": {
+        "standing-machine-calf-raise.mp4": {
+          "bytes": 135283,
+          "sha256": "727755c890b1f52e4e056d1ffd1f176e393dcbfc1d8b1ad7575a92a987a6f0ba"
+        },
+        "standing-machine-calf-raise.gif": {
+          "bytes": 3209940,
+          "sha256": "f768c9912ede8418b1ba2ced7092c13b9775994461241299f5c6734a674017fa"
+        },
+        "standing-machine-calf-raise-poster.webp": {
+          "bytes": 17190,
+          "sha256": "23883336d55636bd727783f4ee593e290abc30c3d28bcec71d740ea6ee86aa30"
+        }
+      },
+      "render": "generated-interpolated"
+    },
+    {
+      "id": "stair-calf-raise",
+      "source": "output/bc-animations/stair-calf-raise/frames",
+      "frameCount": 36,
+      "fps": 12,
+      "fpsNumerator": 12,
+      "fpsDenominator": 1,
+      "durationSeconds": 3.0,
+      "width": 512,
+      "height": 512,
+      "video": "stair-calf-raise.mp4",
+      "gif": "stair-calf-raise.gif",
+      "poster": "stair-calf-raise-poster.webp",
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "gifFrameDelaysMilliseconds": [
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80
+      ],
+      "files": {
+        "stair-calf-raise.mp4": {
+          "bytes": 120814,
+          "sha256": "c7ea3c6c125b01f6b7ee9f19626d97a19d9cca8d02c60b91d308cec35f411ae2"
+        },
+        "stair-calf-raise.gif": {
+          "bytes": 2551066,
+          "sha256": "c4e641b93bc2731837bacf88cb631ec3d6f919db6cc9a757998f77e9f2cb3889"
+        },
+        "stair-calf-raise-poster.webp": {
+          "bytes": 11480,
+          "sha256": "430cdefb83899afee6f5cd7960bc936daeb251378b1d9bd125b984d42db6635b"
+        }
+      },
+      "render": "generated-interpolated"
+    },
+    {
+      "id": "lat-pulldown",
+      "source": "output/bc-animations/lat-pulldown/frames",
+      "frameCount": 36,
+      "fps": 12,
+      "fpsNumerator": 12,
+      "fpsDenominator": 1,
+      "durationSeconds": 3.0,
+      "width": 512,
+      "height": 512,
+      "video": "lat-pulldown.mp4",
+      "gif": "lat-pulldown.gif",
+      "poster": "lat-pulldown-poster.webp",
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "gifFrameDelaysMilliseconds": [
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80
+      ],
+      "files": {
+        "lat-pulldown.mp4": {
+          "bytes": 174914,
+          "sha256": "929c89377949c9566bb0d8d6ae2fffc6ca3d1bf67ee1094c52d3b25243af625f"
+        },
+        "lat-pulldown.gif": {
+          "bytes": 3752067,
+          "sha256": "c554e669545722b4457d3ca447bf5782373ab0f17285c95bfdaaad626c3eb597"
+        },
+        "lat-pulldown-poster.webp": {
+          "bytes": 21412,
+          "sha256": "e8a287b307756c8af097b6d6258962858e78b1c01365f95b6841092617a8c434"
+        }
+      },
+      "render": "generated-interpolated"
+    },
+    {
+      "id": "unilateral-converging-row",
+      "source": "output/bc-animations/unilateral-converging-row/frames",
+      "frameCount": 36,
+      "fps": 12,
+      "fpsNumerator": 12,
+      "fpsDenominator": 1,
+      "durationSeconds": 3.0,
+      "width": 512,
+      "height": 512,
+      "video": "unilateral-converging-row.mp4",
+      "gif": "unilateral-converging-row.gif",
+      "poster": "unilateral-converging-row-poster.webp",
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "gifFrameDelaysMilliseconds": [
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80
+      ],
+      "files": {
+        "unilateral-converging-row.mp4": {
+          "bytes": 192588,
+          "sha256": "a278bdee8ae0d54674d394e89fd27d59035215830c2d565600f22afa48ec5a19"
+        },
+        "unilateral-converging-row.gif": {
+          "bytes": 4215740,
+          "sha256": "cf480c4be1f3ecfb890a0095bc93ba12cdbd6542f3765bc52f2ee882892225f9"
+        },
+        "unilateral-converging-row-poster.webp": {
+          "bytes": 24930,
+          "sha256": "c4f4b22c2d9360d3698e330be6b4e07b11f75c72e525f63eadc406e23663fb58"
+        }
+      },
+      "render": "generated-interpolated"
+    },
+    {
+      "id": "seated-cable-row",
+      "source": "output/bc-animations/seated-cable-row/frames",
+      "frameCount": 36,
+      "fps": 12,
+      "fpsNumerator": 12,
+      "fpsDenominator": 1,
+      "durationSeconds": 3.0,
+      "width": 512,
+      "height": 512,
+      "video": "seated-cable-row.mp4",
+      "gif": "seated-cable-row.gif",
+      "poster": "seated-cable-row-poster.webp",
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "gifFrameDelaysMilliseconds": [
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80
+      ],
+      "files": {
+        "seated-cable-row.mp4": {
+          "bytes": 149484,
+          "sha256": "144df8508907127ab03bed820cb746852ffe4a5cbb3112994e42b68cd613e057"
+        },
+        "seated-cable-row.gif": {
+          "bytes": 3910569,
+          "sha256": "e20c0ea0a888e715f93ac168496c6d38ced4657a44c51139561aa6a1e066cb89"
+        },
+        "seated-cable-row-poster.webp": {
+          "bytes": 21346,
+          "sha256": "242fe96857c07c785b5fd7532086d62ba224d3814009c22af33e018ef4a388f7"
+        }
+      },
+      "render": "generated-interpolated"
+    },
+    {
+      "id": "rope-triceps-pushdown",
+      "source": "output/bc-animations/rope-triceps-pushdown/frames",
+      "frameCount": 36,
+      "fps": 12,
+      "fpsNumerator": 12,
+      "fpsDenominator": 1,
+      "durationSeconds": 3.0,
+      "width": 512,
+      "height": 512,
+      "video": "rope-triceps-pushdown.mp4",
+      "gif": "rope-triceps-pushdown.gif",
+      "poster": "rope-triceps-pushdown-poster.webp",
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "gifFrameDelaysMilliseconds": [
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80
+      ],
+      "files": {
+        "rope-triceps-pushdown.mp4": {
+          "bytes": 137240,
+          "sha256": "016e93b2d9f3d5936e006a9de1f7aab51fbcb2c1f27976694a43d6f36e4549f9"
+        },
+        "rope-triceps-pushdown.gif": {
+          "bytes": 3508292,
+          "sha256": "2338b414fe131468e864cdd366c803a251290d7b66e314cb7a7c0997e47fb062"
+        },
+        "rope-triceps-pushdown-poster.webp": {
+          "bytes": 16494,
+          "sha256": "e0cafe3678a1c9e8cc059c901026e6bad3b2df6a3fed716f7b4670faa3cba9b3"
+        }
+      },
+      "render": "generated-interpolated"
+    },
+    {
+      "id": "dumbbell-lying-triceps-extension",
+      "source": "output/bc-animations/dumbbell-lying-triceps-extension/frames",
+      "frameCount": 36,
+      "fps": 12,
+      "fpsNumerator": 12,
+      "fpsDenominator": 1,
+      "durationSeconds": 3.0,
+      "width": 512,
+      "height": 512,
+      "video": "dumbbell-lying-triceps-extension.mp4",
+      "gif": "dumbbell-lying-triceps-extension.gif",
+      "poster": "dumbbell-lying-triceps-extension-poster.webp",
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "gifFrameDelaysMilliseconds": [
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80
+      ],
+      "files": {
+        "dumbbell-lying-triceps-extension.mp4": {
+          "bytes": 130794,
+          "sha256": "78b9c2a55ae4e5a1584c8d81e91fd6c9ac5f6714a1cabb9296c86b590cc24660"
+        },
+        "dumbbell-lying-triceps-extension.gif": {
+          "bytes": 2734617,
+          "sha256": "d842c5d6910f2b8a64bf381d56c813082a17c94e9988bd61343ff0b5198af5d6"
+        },
+        "dumbbell-lying-triceps-extension-poster.webp": {
+          "bytes": 17980,
+          "sha256": "f52bc15ef7be2e4fcad4ac2d776fc03c8483d324f69724a955e13f9a25574f5f"
+        }
+      },
+      "render": "generated-interpolated"
+    },
+    {
+      "id": "bench-dip",
+      "source": "output/bc-animations/bench-dip/frames",
+      "frameCount": 36,
+      "fps": 12,
+      "fpsNumerator": 12,
+      "fpsDenominator": 1,
+      "durationSeconds": 3.0,
+      "width": 512,
+      "height": 512,
+      "video": "bench-dip.mp4",
+      "gif": "bench-dip.gif",
+      "poster": "bench-dip-poster.webp",
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "gifFrameDelaysMilliseconds": [
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80
+      ],
+      "files": {
+        "bench-dip.mp4": {
+          "bytes": 175179,
+          "sha256": "5716b0660adf6a0fdcea92bb3ffaa1b9c72ca63dc38d218aedb2f8eac0a00de5"
+        },
+        "bench-dip.gif": {
+          "bytes": 3352305,
+          "sha256": "18078bc8f4f068e415f10dfaf5601d80c677f21872237a635a72ed29471ade28"
+        },
+        "bench-dip-poster.webp": {
+          "bytes": 19004,
+          "sha256": "06e3fa4e61bedc9a6bcdf1997c7ef07984e7071eee4dd0ee14eb4082b36316dd"
+        }
+      },
+      "render": "generated-interpolated"
+    },
+    {
+      "id": "machine-ab-crunch",
+      "source": "output/bc-animations/machine-ab-crunch/frames",
+      "frameCount": 36,
+      "fps": 12,
+      "fpsNumerator": 12,
+      "fpsDenominator": 1,
+      "durationSeconds": 3.0,
+      "width": 512,
+      "height": 512,
+      "video": "machine-ab-crunch.mp4",
+      "gif": "machine-ab-crunch.gif",
+      "poster": "machine-ab-crunch-poster.webp",
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "gifFrameDelaysMilliseconds": [
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80,
+        80,
+        90,
+        80
+      ],
+      "files": {
+        "machine-ab-crunch.mp4": {
+          "bytes": 208485,
+          "sha256": "dfe6661528f46ffe3dd3b9a5f9bdb14cf86f6f6413a319a068061df66ee145f1"
+        },
+        "machine-ab-crunch.gif": {
+          "bytes": 4081236,
+          "sha256": "b62bf01bd544d97fa81761df17d2795d09170cd5c05124ba9cab5585727774ab"
+        },
+        "machine-ab-crunch-poster.webp": {
+          "bytes": 24714,
+          "sha256": "ab718173ccb46bbe2d0d59b414c8cc687585099e3cba35b033466a25d394068e"
+        }
+      },
+      "render": "generated-interpolated"
+    }
+  ],
+  "coverage": {
+    "expectedAnimationCount": 14,
+    "encodedAnimationCount": 14,
+    "pendingIds": [],
+    "complete": true
+  },
+  "reviews": {
+    "B": {
+      "file": "docs/bc-animations-v1-review-b.md",
+      "sha256": "48fcdc5c94ac86d8b13de1409767bfc404efef8f7795019ee46e02a3994402ca"
+    },
+    "C": {
+      "file": "docs/bc-animations-v1-review-c.md",
+      "sha256": "822244c9a7e6cc6f7540d58090bd637c9fe3decc9d08f9728cfefee43c543510"
+    }
+  },
+  "sourceReferenceProvenance": {
+    "reverse-pec-deck": {
+      "nativeReferences": [
+        {
+          "id": "quarter-closed",
+          "image": {
+            "file": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/quarter-closed.png",
+            "sha256": "f0fb840aee2577901b79817c2c5be09fe9237e18b4ca32165fe1b5e81f39a1a2"
+          },
+          "metadata": {
+            "file": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/quarter-closed-metadata.json",
+            "sha256": "870ee6ae327d58863d69ed643f9dc6a981f1973b2d65811e4eb8a9db1a471f3c"
+          }
+        },
+        {
+          "id": "midpoint",
+          "image": {
+            "file": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/midpoint.png",
+            "sha256": "a4df021f0560426a442744a055782b52ab324025814061349a04e6b1bd045a9d"
+          },
+          "metadata": {
+            "file": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/midpoint-metadata.json",
+            "sha256": "ae71e6eeeac291922e59e863f2532bed5873997fb5e0f51df04c92ff27fb41c5"
+          }
+        },
+        {
+          "id": "quarter-open",
+          "image": {
+            "file": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/quarter-open.png",
+            "sha256": "64700f96112c934baf69b1a4f6d3448a121e252f75d60d880aa35e9bef0b97e5"
+          },
+          "metadata": {
+            "file": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/quarter-open-metadata.json",
+            "sha256": "710f1a4afa9534a52819fd3d68b8880689544bb5e0d825b2520dc938cfa2a305"
+          }
+        }
+      ],
+      "geometryGenerator": {
+        "file": "scripts/render-reverse-pec-deck-midpoint.py",
+        "sha256": "2aefd32a01f83edb175d19ead7accdab36c9ee0ccc7ac39d32210d8fd6179486"
+      },
+      "familyInvariants": {
+        "file": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/family-invariants.json",
+        "sha256": "cc6dfe95b2c17d98e8ea611c031f28cf4854a1f8e87c0531d82f6874881cd3cf"
+      },
+      "cleanPlate": {
+        "file": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/clean-plate.png",
+        "sha256": "744df8a16cef6fca2e8aef3ec96c5d273e35c6dc4690a90a14f317544a763c0f"
+      },
+      "foregroundHumanMask": {
+        "file": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/foreground-human-mask.png",
+        "sha256": "10ee0e8c5cb4e19011b93e1c810166dd92a5e0e0ce3e2f7e0b7f162706859a6d"
+      },
+      "fixedCapMask": {
+        "file": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/fixed-cap-mask.png",
+        "sha256": "b7422521647901c37001031a9d288b84f03258156e7f0dff96bffc35a292f2f6"
+      },
+      "sourceHandMask": {
+        "file": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/far-hand-source-mask.png",
+        "sha256": "30aee2c496f9c79bfbfb213ff2310e6014a0aa84f26373cd9337f5252028a0c9"
+      },
+      "material": {
+        "file": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/material-profile.png",
+        "sha256": "89f42d26578a023830e34eac8062ebbe22e980dac72e003ac0dd4c75fb192860"
+      },
+      "rubberMaterial": {
+        "file": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/rubber-profile.png",
+        "sha256": "605c73b6bc17f49d7d14daf12c60f5743c81548f56600bfa082377bfea64c847"
+      },
+      "rasterComposition": {
+        "file": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/composition.json",
+        "sha256": "43ec8574d168d63ad6d9fba8db5481d4c27b24f36b16f92006e358688f2ca78e"
+      }
+    }
+  }
+}

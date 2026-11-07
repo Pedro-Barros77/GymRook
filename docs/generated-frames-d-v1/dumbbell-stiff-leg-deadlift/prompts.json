@@ -1,0 +1,18 @@
+{
+  "exercise": "dumbbell-stiff-leg-deadlift",
+  "generationMode": "built-in image_gen",
+  "intent": "generate",
+  "grid": [
+    3,
+    3
+  ],
+  "sequence": "9 forward keyframes: upright to 75–80 degree hip hinge; small constant knee flexion",
+  "references": [
+    "dist/assets/thumbnails/dumbbell-stiff-leg-deadlift.webp",
+    "docs/generated-frames-v4/pec-deck/pose-00.png"
+  ],
+  "prompt": "Use case: scientific-educational. Asset: ONE square 3 by 3 contact sheet of NINE sequential animation keyframes, arranged row-major left to right then top to bottom. Each cell is an equal square and contains the ENTIRE same scene at exactly the same scale, framing, camera, lighting and floor position. No gutters, borders, labels, numerals, arrows, text, diagrams, duplicates, or motion trails. A realistic colored gym instruction illustration matching reference images: muscular adult man with the SAME identity, warm tan skin, dark short hair, black/dark charcoal shorts, black trainers with white sole. Detailed muscles but realistic anatomy and joint articulation. Plain warm off-white studio background. Treat this as nine successive exposures of ONE locked-off animation scene, not nine independent redesigns. Skin texture, machine parts, clothing, dumbbells, lighting and all fixed objects must remain identical between cells. Smooth small monotonic changes in pose, equal increments between the nine keyframes. Use wide enough framing for the complete movement in every cell; no crop of feet, head, hands, machine, or equipment. Reference 1 supplies exercise/equipment identification; Reference 2 supplies the approved muscular character rendering style. Do not include the pec-deck machine from reference 2. EXERCISE: dumbbell stiff-leg deadlift / stiff com halteres. Same fixed mostly-SIDE view with a small three-quarter component, man facing RIGHT, feet on the same two footprints in all nine cells, full body and both dumbbells visible. The man holds exactly TWO identical dark hex dumbbells in straight relaxed arms in front of his thighs, neutral wrists and closed grips. Nine frames show ONLY the lowering half: body upright in cell1; hip-hinge increases in equal small steps through cells2–8; cell9 torso about 75–80 degrees forward from vertical (almost horizontal), weights adjacent to the MID SHINS. Knees maintain a SMALL 15-degree bend through every frame; not locked straight and not becoming a squat. Hips travel BACK as the long neutral spine and torso incline FORWARD as one unit. Head and neck remain aligned to the spine, gaze lowers with torso, never looking sharply up. Shoulders stay stable, arms hang toward the floor; dumbbells remain close to thighs/shins, never extending out in front, never touching or passing through legs, never rotating into a barbell. Heels, toes and both complete soles stay planted. Cell1 tall hips, cell9 hips back and still high, chest lower, thighs near vertical with slight knee bend; preserve the hamstring-hinge pattern. Do not round the lumbar spine, do not overarch, do not bend knees deeply, do not lift heels, do not reach floor or hyperextend at upright. One unchanging anatomy and dumbbell geometry in all nine cells.",
+  "sources": [
+    "https://www.acefitness.org/continuing-education/prosource/january-2016/5767/ace-technique-series-romanian-deadlift/"
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "exerciseId": "machine-ab-crunch",
+  "reviewer": "fix_upper manual visual review",
+  "annotationFile": "docs\\generated-frames-v2-fixes\\machine-ab-crunch\\landmarks.json",
+  "annotationSha256": "619831ce8fe2b44aac4ef07cf8d320a89c2094425d977e0bdee09392a55a14aa",
+  "coordinateSpace": "actual-raster-512-pixels",
+  "projectionNotes": "Near-side arm. Humeral-head and elbow centers estimated ±6px; chest pad hides some proximal arm boundary, and clothed hip ±8px. Upper arm projection changes with trunk/lever rotation. Lower leg and apparatus landmarks remain in same plane.",
+  "limits": "Lengths/ratios/angles are 2D projections measured manually on actual raster art. Foreshortening, occlusion and landmark uncertainty require visual interpretation. No automatic anatomy or exercise approval is inferred.",
+  "poseMeasurements": [
+    {
+      "file": "output/final-animations/machine-ab-crunch/anchors/anchor_00.png",
+      "sha256": "d2d5726585a3bc2d9e50934204e036303b71404ee0344fa71eb823299f5a091b",
+      "points": {
+        "shoulder": [
+          235,
+          156
+        ],
+        "elbow": [
+          211,
+          221
+        ],
+        "wrist": [
+          254,
+          210
+        ],
+        "hip": [
+          267,
+          296
+        ],
+        "knee": [
+          310,
+          334
+        ],
+        "ankle": [
+          292,
+          451
+        ],
+        "leverPivot": [
+          155,
+          129
+        ],
+        "backrestTop": [
+          207,
+          80
+        ]
+      },
+      "projectedLengthsPixels": {
+        "upperArm": 69.28924880528002,
+        "forearm": 44.384682042344295,
+        "thigh": 57.38466694161429,
+        "lowerLeg": 118.37651794169315,
+        "trunk": 143.61058456812992
+      },
+      "projectedRatios": {
+        "forearmToUpperArm": 0.6405709804572461,
+        "lowerLegToThigh": 2.062859719341661
+      },
+      "projectedJointInteriorDegrees": {
+        "elbow": 55.38497048610536,
+        "knee": 122.72154315355392
+      },
+      "visibilityNotes": "Near-side arm. Humeral-head and elbow centers estimated ±6px; chest pad hides some proximal arm boundary, and clothed hip ±8px. Upper arm projection changes with trunk/lever rotation. Lower leg and apparatus landmarks remain in same plane."
+    },
+    {
+      "file": "output/final-animations/machine-ab-crunch/anchors/anchor_04.png",
+      "sha256": "f68058ba17490de2828dcac76f945abfd34bf82f7609b5cea105c868ff3e54ae",
+      "points": {
+        "shoulder": [
+          246,
+          167
+        ],
+        "elbow": [
+          213,
+          241
+        ],
+        "wrist": [
+          254,
+          249
+        ],
+        "hip": [
+          267,
+          296
+        ],
+        "knee": [
+          310,
+          334
+        ],
+        "ankle": [
+          292,
+          451
+        ],
+        "leverPivot": [
+          155,
+          129
+        ],
+        "backrestTop": [
+          207,
+          80
+        ]
+      },
+      "projectedLengthsPixels": {
+        "upperArm": 81.02468759581859,
+        "forearm": 41.773197148410844,
+        "thigh": 57.38466694161429,
+        "lowerLeg": 118.37651794169315,
+        "trunk": 130.6981254647518
+      },
+      "projectedRatios": {
+        "forearmToUpperArm": 0.5155613478794409,
+        "lowerLegToThigh": 2.062859719341661
+      },
+      "projectedJointInteriorDegrees": {
+        "elbow": 77.00665202088115,
+        "knee": 122.72154315355392
+      },
+      "visibilityNotes": "Near-side arm. Humeral-head and elbow centers estimated ±6px; chest pad hides some proximal arm boundary, and clothed hip ±8px. Upper arm projection changes with trunk/lever rotation. Lower leg and apparatus landmarks remain in same plane."
+    },
+    {
+      "file": "output/final-animations/machine-ab-crunch/anchors/anchor_08.png",
+      "sha256": "ebb0ab2f58c0f9fa7594638b616b62a37c215627820395518ed5f307487eba8f",
+      "points": {
+        "shoulder": [
+          273,
+          173
+        ],
+        "elbow": [
+          219,
+          249
+        ],
+        "wrist": [
+          249,
+          281
+        ],
+        "hip": [
+          267,
+          296
+        ],
+        "knee": [
+          310,
+          334
+        ],
+        "ankle": [
+          292,
+          451
+        ],
+        "leverPivot": [
+          155,
+          129
+        ],
+        "backrestTop": [
+          207,
+          80
+        ]
+      },
+      "projectedLengthsPixels": {
+        "upperArm": 93.23089616645332,
+        "forearm": 43.86342439892262,
+        "thigh": 57.38466694161429,
+        "lowerLeg": 118.37651794169315,
+        "trunk": 123.14625451064275
+      },
+      "projectedRatios": {
+        "forearmToUpperArm": 0.4704816343351392,
+        "lowerLegToThigh": 2.062859719341661
+      },
+      "projectedJointInteriorDegrees": {
+        "elbow": 101.45281442100755,
+        "knee": 122.72154315355392
+      },
+      "visibilityNotes": "Near-side arm. Humeral-head and elbow centers estimated ±6px; chest pad hides some proximal arm boundary, and clothed hip ±8px. Upper arm projection changes with trunk/lever rotation. Lower leg and apparatus landmarks remain in same plane."
+    }
+  ],
+  "segmentSummary": {
+    "upperArm": {
+      "samples": 3,
+      "minimum": 69.28924880528002,
+      "maximum": 93.23089616645332,
+      "mean": 81.18161085585065,
+      "rangeDividedByMean": 0.2949146624311884,
+      "coefficientOfVariation": 0.12040616503492307
+    },
+    "forearm": {
+      "samples": 3,
+      "minimum": 41.773197148410844,
+      "maximum": 44.384682042344295,
+      "mean": 43.34043452989258,
+      "rangeDividedByMean": 0.06025516177352279,
+      "coefficientOfVariation": 0.0260369077781716
+    },
+    "thigh": {
+      "samples": 3,
+      "minimum": 57.38466694161429,
+      "maximum": 57.38466694161429,
+      "mean": 57.38466694161429,
+      "rangeDividedByMean": 0.0,
+      "coefficientOfVariation": 0.0
+    },
+    "lowerLeg": {
+      "samples": 3,
+      "minimum": 118.37651794169315,
+      "maximum": 118.37651794169315,
+      "mean": 118.37651794169315,
+      "rangeDividedByMean": 0.0,
+      "coefficientOfVariation": 0.0
+    },
+    "trunk": {
+      "samples": 3,
+      "minimum": 123.14625451064275,
+      "maximum": 143.61058456812992,
+      "mean": 132.48498818117483,
+      "rangeDividedByMean": 0.15446527443171112,
+      "coefficientOfVariation": 0.06377727067433146
+    }
+  },
+  "ratioSummary": {
+    "forearmToUpperArm": {
+      "samples": 3,
+      "minimum": 0.4704816343351392,
+      "maximum": 0.6405709804572461,
+      "mean": 0.542204654223942,
+      "rangeDividedByMean": 0.31369953171198056,
+      "coefficientOfVariation": 0.13269719428147614
+    },
+    "lowerLegToThigh": {
+      "samples": 3,
+      "minimum": 2.062859719341661,
+      "maximum": 2.062859719341661,
+      "mean": 2.062859719341661,
+      "rangeDividedByMean": 0.0,
+      "coefficientOfVariation": 0.0
+    }
+  },
+  "angleSummary": {
+    "elbow": {
+      "samples": 3,
+      "minimum": 55.38497048610536,
+      "maximum": 101.45281442100755,
+      "mean": 77.94814564266468,
+      "rangeDividedByMean": 0.5910062844354195,
+      "coefficientOfVariation": 0.24142842137586137
+    },
+    "knee": {
+      "samples": 3,
+      "minimum": 122.72154315355392,
+      "maximum": 122.72154315355392,
+      "mean": 122.72154315355392,
+      "rangeDividedByMean": 0.0,
+      "coefficientOfVariation": 0.0
+    }
+  },
+  "fixedLandmarkDisplacement": {
+    "leverPivot": {
+      "sampleCount": 3,
+      "medianPixels": [
+        155,
+        129
+      ],
+      "maximumDisplacementFromMedianPixels": 0.0
+    },
+    "backrestTop": {
+      "sampleCount": 3,
+      "medianPixels": [
+        207,
+        80
+      ],
+      "maximumDisplacementFromMedianPixels": 0.0
+    }
+  },
+  "reviewVerdict": "Visual motion review: mechanical and limb counts pass. Projected measurements require visual interpretation; no certification of exact 3D segment length."
+}

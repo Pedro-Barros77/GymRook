@@ -1,0 +1,60 @@
+{
+  "version": 5,
+  "mode": "builtin-image_gen",
+  "model": "builtin model managed by tool; identifier not exposed",
+  "intent": "precise-object-edit",
+  "sourceAsset": "docs/generated-frames-v2-fixes/seated-plate-calf-raise/sheet-two-keyframes-v5.png",
+  "authoritativeKind": "two actual raster keyframes; interpolation source index owned by pipeline",
+  "grid": [
+    2,
+    1
+  ],
+  "cellSize": [
+    512,
+    512
+  ],
+  "status": "candidate released for nineteen actual RIFE forward-frame review; not final publication approval",
+  "keyframes": [
+    {
+      "cell": 0,
+      "source": "reference-first-pose.png",
+      "provenance": "Accepted down pose from cell0 of sheet-v2.png; trim2px, uniform resize512, no warp",
+      "prompt": "prompt-v2.json"
+    },
+    {
+      "cell": 1,
+      "source": "endpoint-v5.png",
+      "provenance": "Builtin imagegen, uniform resize of1254square to512; no native human or foot deformation",
+      "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b7a9-cd05-7d42-aaf1-58b2a0fe7c23\\exec-e48078e5-2392-4d2f-9c9d-a16a74970ffc.png"
+    }
+  ],
+  "promptHistory": [
+    "prompt-endpoint-v3.json",
+    "prompt-endpoint-v4.json"
+  ],
+  "finalPrompt": {
+    "prompt": "Use case: precise-object-edit. Make ONE PRECISE LOCAL ANATOMY CORRECTION to IMAGE1, the current raised seated calf-machine endpoint. IMAGE2 only marks the new knee/pad/plate positions; do NOT render colored marks.\nLOCK ALL EXISTING FEET, SHOES, SOLES, TOES, ANKLES AND FOREFOOT CONTACT PIXEL-FOR-PIXEL. Do not move, resize, rotate, extend or redraw the existing feet or ankles AT ALL. Their current platform contact is correct and must stay identical. Also lock hips/pelvis, seat, torso/head/shoulders, fixed chassis/base/platform, camera and rear pivot.\nChange ONLY the TWO KNEES/THIGHS and the attached moving pad/lever/plate. The current shin is about12pixels too short: raise BOTH KNEE JOINT CENTERS UP12pixels, WITHOUT moving ankles. On this512px composition, near knee center(280,306) must become(279,294), BLUE CIRCLE in guide2. This lengthens the visible tibia back to its natural constant~128px, matching the initial down pose's127.9px shin. The unchanged near ankle is~(269,422). Do not lower or raise the ankles, do not lift the entire leg. Keep knee/calf/quad muscular volume and contours natural. Femur length stays constant~125px around fixed hip(155,315): move knee slightly backwards1–2px if needed. Both legs rise together. No expanding shorts/glutes. The thighs tilt upward slightly as knees rise, while pelvis stays on stationary seat.\nRaise the thigh pad with the thighs about12pixels: center becomes(249,256), GREEN circle. Rigid lever rotates UP about4degrees around the EXACT SAME fixed rear pivot(82,343). The ONE circular plate center moves from(417,279) to(412,256), ORANGE circle. Plate radius55px unchanged, same rigid constant-length lever radius~341px. No bending, stretching or adding supports. Seat remains completely fixed. Hands/handle move modestly upward with the pad, forearms can rotate; shoulders/head/torso stay identical.\nPreserve all materials, tan muscular skin, shorts, black shoes white soles, machine design, light/shadow, backdrop, framing, scale and camera. Do NOT alter the feet/ankles, they are locked. Output ONE square realistic colored endpoint, no grid, no numbers, text, guide lines, colored circles, arrows or watermark.",
+    "references": [
+      {
+        "role": "edit target, feet and ankles locked",
+        "path": "endpoint-v4.png"
+      },
+      {
+        "role": "supporting correction guide only",
+        "path": "reference-knee-only-v5.png"
+      }
+    ]
+  },
+  "rejectedPreserved": [
+    "sheet.png",
+    "sheet-v2.png",
+    "sheet-v3-first-candidate.png",
+    "sheet-v3-geometry-candidate.png"
+  ],
+  "backupOption": "endpoint-v4.png and its two-key source/QA are retained",
+  "notes": [
+    "Final motion is19direct RIFE forward timestamps plus17exact temporal reverse copies,36at12fps.",
+    "Geometry guide does not count as generated anatomy; two-key file provenance is explicit.",
+    "Physical forefoot contact must remain on fixed platform; surface landmark flow is not identical to the rolling sole contact point."
+  ]
+}

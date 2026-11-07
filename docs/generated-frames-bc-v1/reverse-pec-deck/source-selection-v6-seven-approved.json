@@ -1,0 +1,21 @@
+{
+  "status": "Selected source poses approved by root and independent reviewer before temporal interpolation",
+  "source": "sheet-v6-annotated-repair-candidate.png",
+  "sourceSha256": "5a4065dee9d3f710b0c44ab7531ca480c9707568c04349a00f72eb8eb58164da",
+  "selectedCells": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "excludedCells": {
+    "1": "Two hands but an extra unused third grip/lever to image-left of head",
+    "2": "Retains an extra middle hand and obsolete lever branch"
+  },
+  "review": "Each of seven selected poses enlarged and checked separately for exactly two arms/hands and exactly two complete levers/grips. All pass this structural source count. Both motion endpoints reviewed in the fixed rear-side camera; apparent near-hand image-right projection accepted with depth perspective. Temporal fidelity, cadence and intermediate occlusions still require final frame review.",
+  "evidence": "output/animation-bc-qa/reverse-v6-seven-selected.png",
+  "previousSelection": "source-selection-v6-candidate.json was an eight-cell candidate superseded because it counted hands but missed an empty grip in cell1."
+}

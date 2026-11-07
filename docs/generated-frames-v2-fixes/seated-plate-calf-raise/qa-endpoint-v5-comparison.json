@@ -1,0 +1,40 @@
+{
+  "mode": "supporting motion QA",
+  "method": "Pyramidal Lucas-Kanade on actual endpoint-v4.png→endpoint-v5.png, matching small local edits, forward/backward error checked. Previous failed large single start-to-end tracking was not used; ankles can match a wrong shoe feature across the larger motion.",
+  "uncertainty": "Knee/ankle points are manually initialized surface proxies, not bone centers. Validate all19actual final frames.",
+  "localChangesPixels": {
+    "knee": [
+      -3.10479736328125,
+      -13.9969482421875
+    ],
+    "ankle": [
+      0.158843994140625,
+      -0.2158203125
+    ],
+    "forefoot": [
+      -0.257720947265625,
+      -0.11273193359375
+    ],
+    "heel": [
+      0.2260284423828125,
+      -0.06494140625
+    ],
+    "rearPivot": [
+      -0.017059326171875,
+      -0.25048828125
+    ]
+  },
+  "maxForwardBackwardErrorsPixels": {
+    "knee": 0.015405332669615746,
+    "ankle": 0.00267616705968976,
+    "forefoot": 0.001953125,
+    "heel": 0.0012325664283707738,
+    "pivot": 0.003741111606359482
+  },
+  "tibiaProxyPixels": {
+    "initial": 127.88275909423828,
+    "v4": 115.67565155029297,
+    "v5": 130.01150512695312
+  },
+  "status": "v5 endpoint candidate released for interpolation study; feet retained and knee rose, improves source proportions"
+}

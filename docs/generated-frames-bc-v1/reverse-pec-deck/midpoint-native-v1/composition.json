@@ -1,0 +1,521 @@
+{
+  "purpose": "Clean source-pixel human plate for native far metal midpoint; no generated/drawn anatomy",
+  "sources": [
+    {
+      "path": "docs\\generated-frames-bc-v1\\reverse-pec-deck\\sheet-v6-annotated-repair-candidate.png",
+      "sha256": "5a4065dee9d3f710b0c44ab7531ca480c9707568c04349a00f72eb8eb58164da",
+      "crop": [
+        0,
+        0,
+        418,
+        418
+      ]
+    },
+    {
+      "path": "docs\\generated-frames-bc-v1\\reverse-pec-deck\\midpoint-v7-candidate.png",
+      "sha256": "7e9834be77cecd2d8813d743d47894570a664aa55ceb9ac3a0607ebeb5c46617"
+    }
+  ],
+  "normalization": {
+    "size": [
+      512,
+      512
+    ],
+    "resize": "Pillow LANCZOS, RGB",
+    "translation_xy": [
+      0,
+      0
+    ],
+    "registration": "fixed base NCC 0.9937604 at ROI [40,405,265,505]; integer shift [0,0]"
+  },
+  "plate": {
+    "base": "normalized V7",
+    "replacement": "normalized V6 closed cell0",
+    "polygon_xy": [
+      [
+        245,
+        43
+      ],
+      [
+        255,
+        45
+      ],
+      [
+        255,
+        63
+      ],
+      [
+        224,
+        85
+      ],
+      [
+        215,
+        106
+      ],
+      [
+        212,
+        130
+      ],
+      [
+        212,
+        149
+      ],
+      [
+        218,
+        162
+      ],
+      [
+        218,
+        184
+      ],
+      [
+        215,
+        211
+      ],
+      [
+        209,
+        227
+      ],
+      [
+        191,
+        228
+      ],
+      [
+        180,
+        207
+      ],
+      [
+        178,
+        179
+      ],
+      [
+        178,
+        153
+      ],
+      [
+        181,
+        127
+      ],
+      [
+        176,
+        110
+      ],
+      [
+        181,
+        90
+      ],
+      [
+        197,
+        72
+      ],
+      [
+        219,
+        54
+      ],
+      [
+        236,
+        45
+      ]
+    ],
+    "boundary": "Gaussian sigma0.6, clamped inside binary replacement polygon",
+    "changed_pixels": 6833,
+    "outside_polygon_identical_to_v7": true
+  },
+  "foreground": {
+    "mask": "foreground-human-mask.png",
+    "reference_rgb": "clean-plate.png",
+    "format": "L, binary0/255",
+    "polygon_xy": [
+      [
+        213,
+        95
+      ],
+      [
+        217,
+        85
+      ],
+      [
+        226,
+        78
+      ],
+      [
+        237,
+        73
+      ],
+      [
+        247,
+        71
+      ],
+      [
+        259,
+        73
+      ],
+      [
+        267,
+        76
+      ],
+      [
+        271,
+        80
+      ],
+      [
+        270,
+        87
+      ],
+      [
+        265,
+        91
+      ],
+      [
+        267,
+        98
+      ],
+      [
+        269,
+        101
+      ],
+      [
+        270,
+        106
+      ],
+      [
+        267,
+        111
+      ],
+      [
+        270,
+        119
+      ],
+      [
+        270,
+        123
+      ],
+      [
+        266,
+        126
+      ],
+      [
+        265,
+        136
+      ],
+      [
+        260,
+        140
+      ],
+      [
+        254,
+        140
+      ],
+      [
+        253,
+        153
+      ],
+      [
+        264,
+        155
+      ],
+      [
+        278,
+        160
+      ],
+      [
+        289,
+        169
+      ],
+      [
+        306,
+        173
+      ],
+      [
+        340,
+        174
+      ],
+      [
+        357,
+        171
+      ],
+      [
+        361,
+        164
+      ],
+      [
+        366,
+        163
+      ],
+      [
+        369,
+        165
+      ],
+      [
+        374,
+        163
+      ],
+      [
+        380,
+        164
+      ],
+      [
+        385,
+        163
+      ],
+      [
+        389,
+        166
+      ],
+      [
+        390,
+        173
+      ],
+      [
+        387,
+        181
+      ],
+      [
+        389,
+        187
+      ],
+      [
+        386,
+        193
+      ],
+      [
+        378,
+        197
+      ],
+      [
+        366,
+        195
+      ],
+      [
+        351,
+        193
+      ],
+      [
+        330,
+        200
+      ],
+      [
+        309,
+        205
+      ],
+      [
+        292,
+        207
+      ],
+      [
+        279,
+        203
+      ],
+      [
+        271,
+        220
+      ],
+      [
+        201,
+        220
+      ],
+      [
+        193,
+        206
+      ],
+      [
+        189,
+        192
+      ],
+      [
+        188,
+        176
+      ],
+      [
+        192,
+        166
+      ],
+      [
+        199,
+        159
+      ],
+      [
+        209,
+        151
+      ],
+      [
+        220,
+        140
+      ],
+      [
+        224,
+        130
+      ],
+      [
+        218,
+        120
+      ],
+      [
+        214,
+        111
+      ],
+      [
+        212,
+        102
+      ]
+    ],
+    "scope": "head, hair, neck, upper torso and near arm/hand; no machine/backrest/metal",
+    "lower_edge_y": 220
+  },
+  "hand": {
+    "rgba": "hand-far-source.png",
+    "source": "normalized V6 closed cell0",
+    "crop_xyxy": [
+      309,
+      162,
+      343,
+      176
+    ],
+    "contact_center_full512": [
+      329,
+      169
+    ],
+    "contact_center_in_crop": [
+      20,
+      7
+    ],
+    "polygon_full_xy": [
+      [
+        309,
+        172
+      ],
+      [
+        313,
+        166
+      ],
+      [
+        318,
+        162
+      ],
+      [
+        324,
+        161
+      ],
+      [
+        330,
+        162
+      ],
+      [
+        335,
+        161
+      ],
+      [
+        340,
+        163
+      ],
+      [
+        343,
+        167
+      ],
+      [
+        342,
+        171
+      ],
+      [
+        338,
+        174
+      ],
+      [
+        332,
+        174
+      ],
+      [
+        326,
+        171
+      ],
+      [
+        322,
+        171
+      ],
+      [
+        318,
+        174
+      ],
+      [
+        312,
+        175
+      ]
+    ],
+    "skin_threshold": "R>130,R-G>15,R-B>25 within polygon",
+    "transform_allowed": "translation only; renderer occludes using foreground-human-mask.png"
+  },
+  "suggested_new_far_grip_center_full512": [
+    252.3,
+    167
+  ],
+  "suggested_far_pivot_full512": [
+    240.1,
+    24.5
+  ],
+  "fixed_cap": "Overlay original cap from qa/canonical-closed-512.png or qa/v7-base-512.png last; cap excluded from human mask",
+  "layer_order": [
+    "clean-plate",
+    "native far lever and black grip",
+    "translated source hand",
+    "foreground-human",
+    "original fixed cap"
+  ],
+  "outputs": {
+    "clean-plate.png": {
+      "sha256": "744df8a16cef6fca2e8aef3ec96c5d273e35c6dc4690a90a14f317544a763c0f",
+      "bytes": 270521,
+      "size": [
+        512,
+        512
+      ]
+    },
+    "removal-region-mask.png": {
+      "sha256": "b0f43dafbbd8aa3b8768fd62182dca2ba6dda76344bd9ca5b4c48b36bbc40860",
+      "bytes": 949,
+      "size": [
+        512,
+        512
+      ]
+    },
+    "source-blend-mask.png": {
+      "sha256": "6c9fb0a8268600276e2b4c525ffdf748d04e82ea9895e667585f3524cbbb3733",
+      "bytes": 1457,
+      "size": [
+        512,
+        512
+      ]
+    },
+    "foreground-human-mask.png": {
+      "sha256": "10ee0e8c5cb4e19011b93e1c810166dd92a5e0e0ce3e2f7e0b7f162706859a6d",
+      "bytes": 1155,
+      "size": [
+        512,
+        512
+      ]
+    },
+    "foreground-human.png": {
+      "sha256": "4dd030347aca6af21195728859429945e4a6c8eca35d879066092a710c3b8845",
+      "bytes": 308913,
+      "size": [
+        512,
+        512
+      ]
+    },
+    "hand-far-source.png": {
+      "sha256": "d9ddd1658168842fd5e861889c507b3d94e7355284d5ecb1baba84538eadc23d",
+      "bytes": 1268,
+      "size": [
+        34,
+        14
+      ]
+    },
+    "hand-far-source-mask-full.png": {
+      "sha256": "ae8e732fa85d7696c0791c01d8a5c3aa407954a44503d4b2e1ad51e905ea11fd",
+      "bytes": 449,
+      "size": [
+        512,
+        512
+      ]
+    }
+  }
+}

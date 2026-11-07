@@ -1,0 +1,223 @@
+{
+  "source": "docs/generated-frames-v2-fixes/dumbbell-stiff-leg-deadlift/sheet.png",
+  "sha256": "25b936dfe41375bf32075f60282313c49e47b0b0d24c5e25a1dd90b4610787bd",
+  "grid": [
+    3,
+    3
+  ],
+  "cellPixels": [
+    418,
+    418
+  ],
+  "method": "Manual near-side surface-landmark estimates on the final generated sheet. Orange lines/blue points in qa-joint-landmarks.png show the estimates. These are not the exact input-guide coordinates. Bone centers under shorts/roller cannot be observed directly.",
+  "uncertaintyPixels": {
+    "visibleAnkle": 4,
+    "visibleKnee": 5,
+    "hipUnderShorts": 7,
+    "mechanicalPivotAndRoller": 2
+  },
+  "acceptanceLimits": {
+    "femurAndTibiaRangeOverMeanPercent": 10,
+    "mechanicalLeverRadiusRangeOverMeanPercent": 10,
+    "scope": "Screen-space geometry screening only, not clinical or 3D skeletal validation"
+  },
+  "summary": {
+    "femur": {
+      "minimum": 67.35725647619564,
+      "maximum": 70.68238818828917,
+      "mean": 68.81898353701601,
+      "rangeOverMeanPercent": 4.831707097657171
+    },
+    "tibia": {
+      "minimum": 69.18092222571191,
+      "maximum": 72.11102550927978,
+      "mean": 71.09846053496821,
+      "rangeOverMeanPercent": 4.121190897131686
+    }
+  },
+  "poses": [
+    {
+      "hip": [
+        174,
+        197
+      ],
+      "knee": [
+        177,
+        265
+      ],
+      "ankle": [
+        173,
+        337
+      ],
+      "pose": 0,
+      "segmentLengthsPixels": {
+        "femur": 68.06614430096654,
+        "tibia": 72.11102550927978
+      }
+    },
+    {
+      "hip": [
+        169,
+        197
+      ],
+      "knee": [
+        175,
+        265
+      ],
+      "ankle": [
+        173,
+        337
+      ],
+      "pose": 1,
+      "segmentLengthsPixels": {
+        "femur": 68.26419266350405,
+        "tibia": 72.02777242147643
+      }
+    },
+    {
+      "hip": [
+        163,
+        198
+      ],
+      "knee": [
+        175,
+        265
+      ],
+      "ankle": [
+        173,
+        337
+      ],
+      "pose": 2,
+      "segmentLengthsPixels": {
+        "femur": 68.06614430096654,
+        "tibia": 72.02777242147643
+      }
+    },
+    {
+      "hip": [
+        156,
+        199
+      ],
+      "knee": [
+        173,
+        265
+      ],
+      "ankle": [
+        173,
+        337
+      ],
+      "pose": 3,
+      "segmentLengthsPixels": {
+        "femur": 68.15423684555495,
+        "tibia": 72.0
+      }
+    },
+    {
+      "hip": [
+        151,
+        201
+      ],
+      "knee": [
+        172,
+        265
+      ],
+      "ankle": [
+        173,
+        337
+      ],
+      "pose": 4,
+      "segmentLengthsPixels": {
+        "femur": 67.35725647619564,
+        "tibia": 72.00694410957877
+      }
+    },
+    {
+      "hip": [
+        145,
+        202
+      ],
+      "knee": [
+        170,
+        266
+      ],
+      "ankle": [
+        173,
+        337
+      ],
+      "pose": 5,
+      "segmentLengthsPixels": {
+        "femur": 68.70953354520753,
+        "tibia": 71.06335201775947
+      }
+    },
+    {
+      "hip": [
+        141,
+        203
+      ],
+      "knee": [
+        169,
+        267
+      ],
+      "ankle": [
+        173,
+        337
+      ],
+      "pose": 6,
+      "segmentLengthsPixels": {
+        "femur": 69.85699678629192,
+        "tibia": 70.11419257183242
+      }
+    },
+    {
+      "hip": [
+        138,
+        204
+      ],
+      "knee": [
+        168,
+        268
+      ],
+      "ankle": [
+        173,
+        337
+      ],
+      "pose": 7,
+      "segmentLengthsPixels": {
+        "femur": 70.68238818828917,
+        "tibia": 69.18092222571191
+      }
+    },
+    {
+      "hip": [
+        135,
+        205
+      ],
+      "knee": [
+        166,
+        268
+      ],
+      "ankle": [
+        173,
+        337
+      ],
+      "pose": 8,
+      "segmentLengthsPixels": {
+        "femur": 70.21395872616783,
+        "tibia": 69.35416353759881
+      }
+    }
+  ],
+  "geometryScreenResult": "within manual screen-space range limits; interpolated motion still must be reviewed",
+  "visualReview": {
+    "camera": "side profile, no planned camera move or scale change",
+    "body": "same muscular colored character, no obvious calf/thigh growth at peak",
+    "feet": "constant-scale shoes; curl feet rotate as rigid pieces, stiff soles remain planted",
+    "equipment": "two fixed-size dumbbells, no machine",
+    "limitations": [
+      "Landmarks are approximate surface proxies; projection and hidden joint centers prevent proof of exact bone lengths.",
+      "Knee flexion in stiff remains soft but not mathematically identical in every generated source.",
+      "Do not equate a passing source screen with perfect anatomical execution; review final interpolation."
+    ]
+  }
+}

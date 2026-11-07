@@ -1,0 +1,51 @@
+{
+  "id": "alternating-lunge",
+  "generationMode": "built-in image_gen generation with approved character/style reference",
+  "prompt": "Use case: scientific-educational. Create a colored realistic fitness animation SPRITE SHEET: EXACTLY 4 columns by 4 rows, sixteen equal square cells, a large square image. No cell borders, gutters, text, arrows, numbers or watermarks. Chronological row-major sequence.\nInput is a CHARACTER AND ART STYLE reference only: preserve the same adult muscular man, warm skin, short dark hair, defined leg/torso muscles, charcoal shorts and black trainers. Ignore the chest machine; there is NO machine or bench here. He is standing holding TWO identical small black hex dumbbells vertically at his sides with relaxed straight arms.\nCAMERA: locked straight FRONTAL view, slightly ELEVATED looking gently downward about20degrees, wide enough to see the full head, both hips, both knees, both shoes and both dumbbells in each cell. The man faces the camera in EVERY cell. Both hips and the entire front of the shorts stay visible, left and right legs never exchange sides or overlap at the hips. Constant camera, crop, lens, floor, body scale, lighting from viewer-left and off-white background. No rotating, no camera cuts, no whole-person horizontal mirroring.\nDEMONSTRATE TWO ALTERNATING FORWARD LUNGES: one with the leg on the LEFT SIDE OF THE IMAGE forward, then one with the leg on the RIGHT SIDE OF THE IMAGE forward. Both legs use SEPARATE PARALLEL HIP-WIDTH TRACKS aimed toward the camera. A forward foot moves DOWNWARD in the image toward the viewer, staying on its own left/right track, NOT sideways. Rear heel lifts naturally, front heel stays planted, front knee follows its own toes; torso stays upright, spine neutral, hips level. Both knees bend naturally, rear knee approaches but does not strike the floor. Return to the same standing place between repetitions, NOT walking across the room.\nTOP TWO ROWS CELLS1–8: IMAGE-LEFT leg leads; IMAGE-RIGHT leg remains behind and supports as the left foot returns.\n1:standing feet hip-width with one leg on each side.\n2:image-LEFT foot steps forward toward camera/downward in image; image-right foot stays back.\n3:image-LEFT shoe planted ahead, shallow descent.\n4:deeper image-left-forward lunge.\n5:bottom, IMAGE-LEFT knee/thigh clearly in foreground, image-left front heel planted; IMAGE-RIGHT knee lower and farther back, image-right rear heel raised on toes. Both knees still clearly separated left/right.\n6:rising from same image-left-forward lunge.\n7:lift IMAGE-LEFT FRONT foot back toward standing, body supported by IMAGE-RIGHT foot still at its original track behind.\n8:standing returned, feet side by side.\nBOTTOM TWO ROWS CELLS9–16: IMAGE-RIGHT leg leads; IMAGE-LEFT leg remains behind and supports as the right foot returns.\n9:standing again.\n10:image-RIGHT foot steps forward toward camera/downward in image; image-left foot stays back.\n11:image-RIGHT shoe planted ahead, shallow descent.\n12:deeper image-right-forward lunge.\n13:bottom, IMAGE-RIGHT knee/thigh clearly in foreground, image-right front heel planted; IMAGE-LEFT knee lower and farther back, image-left rear heel raised on toes. Opposite leg visibly leads compared with cell5.\n14:rising from same image-right-forward lunge.\n15:lift IMAGE-RIGHT FRONT foot back toward standing, body supported by IMAGE-LEFT foot still at its original track behind.\n16:standing returned to pose1, feet side by side.\nEvery limb remains attached to its own same hip. NO leg crossing, no swapping sides during a repetition, no rear foot stepping forward to become a walking lunge. The left-side leading leg remains visibly on the left of the image for the first repetition; the right-side leading leg remains visibly on the right of the image for the second repetition. Foreground placement and shoe size can show depth, but body proportions and identity never morph. Dumbbells stay clear of thighs, hands retain grips. Both feet stay fully inside the frame with fixed generous margins. Realistic colored skin and clearly defined muscles, no simplified mannequin.",
+  "references": [
+    {
+      "path": "docs/generated-frames-v4/pec-deck/pose-00.png",
+      "role": "character, color and realistic illustration style only"
+    }
+  ],
+  "generatedOutputHint": "Generated images are saved to C:\\Users\\pedrao\\.codex\\generated_images\\01a1b6f6-5054-7d21-8cfc-90547e0704cd as C:\\Users\\pedrao\\.codex\\generated_images\\01a1b6f6-5054-7d21-8cfc-90547e0704cd\\exec-68b5a9ba-22a8-44bf-b504-0073204e2374.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "candidate": "docs/generated-frames-d-v1/alternating-lunge/sheet-frontal.png",
+  "grid": {
+    "columns": 4,
+    "rows": 4,
+    "cellOrder": "row-major",
+    "poses": 16
+  },
+  "intendedOutput": {
+    "fps": 12,
+    "frameCount": 48,
+    "durationSeconds": 4
+  },
+  "inspection": {
+    "status": "usable-candidate-pending-parent-review",
+    "observations": [
+      "Fixed frontal/slightly elevated camera makes both hips and left/right knee tracks visible.",
+      "Cells2–7 use the leg on image-LEFT as the leading leg; cells10–15 use the image-RIGHT leg.",
+      "Bottom5 and13 have opposite foreground knees/feet; each thigh connects continuously to its corresponding hip without swapping sides.",
+      "Cell7/15 lift the previous front foot backward while opposite rear foot supports return; cell8/16 stand again.",
+      "Head, both shoes, both dumbbells fit all cells; no scene flipping was used."
+    ],
+    "limitations": [
+      "Small generated framing/texture differences remain between cells; register anchors before interpolation.",
+      "Frontal view shows side-to-side knee track and alternation clearly; sagittal depth remains less explicit than a side view.",
+      "Visual pilot review does not certify biomechanics or personal exercise suitability."
+    ],
+    "qa": "output/animation-d-qa/lunge-frontal-contralateral-onion.png"
+  },
+  "history": [
+    {
+      "candidate": "sheet-v1-same-leg-rejected.png",
+      "verdict": "Rejected: repeats same leg in both halves."
+    },
+    {
+      "candidate": "sheet-alternated.png",
+      "verdict": "Not promoted: edit altered thigh/shorts shape but lead-leg identity still ambiguous; changed to frontal view for clear identification."
+    }
+  ]
+}
+

@@ -1,0 +1,140 @@
+{
+  "exerciseId": "preacher-curl",
+  "reviewer": "interpolation_options with independent fix_upper landmark cross-check",
+  "annotationFile": "docs\\generated-frames-v2-fixes\\preacher-curl\\landmarks-pipeline.json",
+  "annotationSha256": "4450b91b70584e7da66f50c6277940a92aa3119a8ae87513f6b7ce3ee80b50c6",
+  "coordinateSpace": "actual-raster-512-pixels",
+  "projectionNotes": "The pad partially occludes the anatomical elbow center. Estimated displacement about15pixels has uncertainty about8pixels per landmark; no clear loss of pad contact was observed. Wrist obscured by dumbbells, therefore no fabricated wrist/forearm measurement. Root and fix_upper accepted the illustrative pilot after review, without certifying a perfectly fixed elbow or exact anatomical motion.",
+  "limits": "Lengths/ratios/angles are 2D projections measured manually on actual raster art. Foreshortening, occlusion and landmark uncertainty require visual interpretation. No automatic anatomy or exercise approval is inferred.",
+  "poseMeasurements": [
+    {
+      "file": "output/final-animations/preacher-curl/anchors/anchor_00.png",
+      "sha256": "38df2119b1e0a6b944622e649168e2302579ec1842ef628a0732e72959e08550",
+      "points": {
+        "shoulder": [
+          181,
+          147
+        ],
+        "elbow": [
+          242,
+          238
+        ],
+        "hip": [
+          180,
+          320
+        ]
+      },
+      "projectedLengthsPixels": {
+        "upperArm": 109.55363982999378,
+        "torso": 173.0028901492689
+      },
+      "projectedRatios": {
+        "upperArmToTorso": 0.6332474546261605
+      },
+      "projectedJointInteriorDegrees": {},
+      "visibilityNotes": "The pad partially occludes the anatomical elbow center. Estimated displacement about15pixels has uncertainty about8pixels per landmark; no clear loss of pad contact was observed. Wrist obscured by dumbbells, therefore no fabricated wrist/forearm measurement. Root and fix_upper accepted the illustrative pilot after review, without certifying a perfectly fixed elbow or exact anatomical motion."
+    },
+    {
+      "file": "output/final-animations/preacher-curl/anchors/anchor_04.png",
+      "sha256": "8cb4564f103570dfcf2e3d19e1396badf74c3979cc348f3e6d01127facb57bc2",
+      "points": {
+        "shoulder": [
+          181,
+          147
+        ],
+        "elbow": [
+          240,
+          228
+        ],
+        "hip": [
+          180,
+          320
+        ]
+      },
+      "projectedLengthsPixels": {
+        "upperArm": 100.20977996183805,
+        "torso": 173.0028901492689
+      },
+      "projectedRatios": {
+        "upperArmToTorso": 0.5792376062352247
+      },
+      "projectedJointInteriorDegrees": {},
+      "visibilityNotes": "The pad partially occludes the anatomical elbow center. Estimated displacement about15pixels has uncertainty about8pixels per landmark; no clear loss of pad contact was observed. Wrist obscured by dumbbells, therefore no fabricated wrist/forearm measurement. Root and fix_upper accepted the illustrative pilot after review, without certifying a perfectly fixed elbow or exact anatomical motion."
+    },
+    {
+      "file": "output/final-animations/preacher-curl/anchors/anchor_08.png",
+      "sha256": "2cbe0060cdf4dccd5e8f3307fe1f9982f4dce0cc985918d3f71ee354a39cd407",
+      "points": {
+        "shoulder": [
+          181,
+          147
+        ],
+        "elbow": [
+          235,
+          225
+        ],
+        "hip": [
+          180,
+          320
+        ]
+      },
+      "projectedLengthsPixels": {
+        "upperArm": 94.86832980505137,
+        "torso": 173.0028901492689
+      },
+      "projectedRatios": {
+        "upperArmToTorso": 0.5483626876013337
+      },
+      "projectedJointInteriorDegrees": {},
+      "visibilityNotes": "The pad partially occludes the anatomical elbow center. Estimated displacement about15pixels has uncertainty about8pixels per landmark; no clear loss of pad contact was observed. Wrist obscured by dumbbells, therefore no fabricated wrist/forearm measurement. Root and fix_upper accepted the illustrative pilot after review, without certifying a perfectly fixed elbow or exact anatomical motion."
+    }
+  ],
+  "segmentSummary": {
+    "upperArm": {
+      "samples": 3,
+      "minimum": 94.86832980505137,
+      "maximum": 109.55363982999378,
+      "mean": 101.5439165322944,
+      "rangeDividedByMean": 0.14462028377910738,
+      "coefficientOfVariation": 0.05976744995175703
+    },
+    "torso": {
+      "samples": 3,
+      "minimum": 173.0028901492689,
+      "maximum": 173.0028901492689,
+      "mean": 173.0028901492689,
+      "rangeDividedByMean": 0.0,
+      "coefficientOfVariation": 0.0
+    }
+  },
+  "ratioSummary": {
+    "upperArmToTorso": {
+      "samples": 3,
+      "minimum": 0.5483626876013337,
+      "maximum": 0.6332474546261605,
+      "mean": 0.586949249487573,
+      "rangeDividedByMean": 0.14462028377910727,
+      "coefficientOfVariation": 0.059767449951756986
+    }
+  },
+  "angleSummary": {},
+  "fixedLandmarkDisplacement": {
+    "shoulder": {
+      "sampleCount": 3,
+      "medianPixels": [
+        181,
+        147
+      ],
+      "maximumDisplacementFromMedianPixels": 0.0
+    },
+    "hip": {
+      "sampleCount": 3,
+      "medianPixels": [
+        180,
+        320
+      ],
+      "maximumDisplacementFromMedianPixels": 0.0
+    }
+  },
+  "reviewVerdict": "Accepted illustrative source by root and independent visual reviewer; measurements remain approximate projections and do not certify biomechanics."
+}

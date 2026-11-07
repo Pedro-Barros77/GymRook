@@ -1,0 +1,339 @@
+{
+  "exerciseId": "reverse-pec-deck",
+  "reviewer": "fix_upper manual actual pipeline-anchor review",
+  "annotationFile": "docs\\generated-frames-v2-fixes\\reverse-pec-deck\\landmarks.json",
+  "annotationSha256": "5fedfcc72cb453210f1989736c60b5af38e5666cdfc3fdb676f03461adb40cd5",
+  "coordinateSpace": "actual-raster-512-pixels",
+  "projectionNotes": "Both arms rear/elevated camera. First arms strongly foreshortened toward machine, source comparison with known physical20degree guide predicts projected38â†’16â†’10degrees vs measuredâ‰ˆ46/41â†’23/19â†’12/7. Joint-center uncertaintyÂ±4px is large relative to first projected27px upperarm. Exact physical bend cannot be certified from bitmap.",
+  "limits": "Lengths/ratios/angles are 2D projections measured manually on actual raster art. Foreshortening, occlusion and landmark uncertainty require visual interpretation. No automatic anatomy or exercise approval is inferred.",
+  "poseMeasurements": [
+    {
+      "file": "output/final-animations/reverse-pec-deck/anchors/anchor_00.png",
+      "sha256": "a121f7dc173ad2c407296169710049084b687731baabd5ce59988f833d8a5d87",
+      "points": {
+        "shoulderLeft": [
+          151,
+          207
+        ],
+        "elbowLeft": [
+          138,
+          183
+        ],
+        "wristLeft": [
+          145,
+          161
+        ],
+        "shoulderRight": [
+          215,
+          207
+        ],
+        "elbowRight": [
+          228,
+          183
+        ],
+        "wristRight": [
+          223,
+          161
+        ],
+        "hip": [
+          163,
+          294
+        ],
+        "knee": [
+          122,
+          325
+        ],
+        "ankle": [
+          112,
+          397
+        ],
+        "towerBase": [
+          423,
+          372
+        ],
+        "seatFoot": [
+          184,
+          421
+        ]
+      },
+      "projectedLengthsPixels": {
+        "upperArmLeft": 27.294688127912362,
+        "forearmLeft": 23.08679276123039,
+        "upperArmRight": 27.294688127912362,
+        "forearmRight": 22.561028345356956,
+        "thigh": 51.40038910358559,
+        "lowerLeg": 72.69112738154499
+      },
+      "projectedRatios": {
+        "forearmToUpperArmLeft": 0.8458346420020513,
+        "forearmToUpperArmRight": 0.8265721242033675,
+        "lowerLegToThigh": 1.414213562373095
+      },
+      "projectedJointInteriorDegrees": {
+        "elbowLeft": 133.90694715570652,
+        "elbowRight": 138.7528053103499,
+        "knee": 135.0
+      },
+      "visibilityNotes": "Both arms rear/elevated camera. First arms strongly foreshortened toward machine, source comparison with known physical20degree guide predicts projected38â†’16â†’10degrees vs measuredâ‰ˆ46/41â†’23/19â†’12/7. Joint-center uncertaintyÂ±4px is large relative to first projected27px upperarm. Exact physical bend cannot be certified from bitmap."
+    },
+    {
+      "file": "output/final-animations/reverse-pec-deck/anchors/anchor_04.png",
+      "sha256": "0c588829cf2b40c614e6d817878b9d612aa37bc7af0c36667c79ad073b7545de",
+      "points": {
+        "shoulderLeft": [
+          148,
+          212
+        ],
+        "elbowLeft": [
+          110,
+          207
+        ],
+        "wristLeft": [
+          83,
+          191
+        ],
+        "shoulderRight": [
+          213,
+          212
+        ],
+        "elbowRight": [
+          252,
+          206
+        ],
+        "wristRight": [
+          285,
+          189
+        ],
+        "hip": [
+          163,
+          294
+        ],
+        "knee": [
+          122,
+          325
+        ],
+        "ankle": [
+          112,
+          397
+        ],
+        "towerBase": [
+          423,
+          372
+        ],
+        "seatFoot": [
+          184,
+          421
+        ]
+      },
+      "projectedLengthsPixels": {
+        "upperArmLeft": 38.3275357934736,
+        "forearmLeft": 31.38470965295043,
+        "upperArmRight": 39.45883931389772,
+        "forearmRight": 37.12142238654117,
+        "thigh": 51.40038910358559,
+        "lowerLeg": 72.69112738154499
+      },
+      "projectedRatios": {
+        "forearmToUpperArmLeft": 0.8188553999940327,
+        "forearmToUpperArmRight": 0.9407631605997774,
+        "lowerLegToThigh": 1.414213562373095
+      },
+      "projectedJointInteriorDegrees": {
+        "elbowLeft": 156.84518968267702,
+        "elbowRight": 161.49083388761215,
+        "knee": 135.0
+      },
+      "visibilityNotes": "Both arms rear/elevated camera. First arms strongly foreshortened toward machine, source comparison with known physical20degree guide predicts projected38â†’16â†’10degrees vs measuredâ‰ˆ46/41â†’23/19â†’12/7. Joint-center uncertaintyÂ±4px is large relative to first projected27px upperarm. Exact physical bend cannot be certified from bitmap."
+    },
+    {
+      "file": "output/final-animations/reverse-pec-deck/anchors/anchor_08.png",
+      "sha256": "2228d296f6e1f354c382d0d2bda5cba0f53f81b8c8a5a832ac7bd209b6ba0a4e",
+      "points": {
+        "shoulderLeft": [
+          149,
+          213
+        ],
+        "elbowLeft": [
+          104,
+          215
+        ],
+        "wristLeft": [
+          56,
+          207
+        ],
+        "shoulderRight": [
+          213,
+          212
+        ],
+        "elbowRight": [
+          268,
+          211
+        ],
+        "wristRight": [
+          319,
+          204
+        ],
+        "hip": [
+          163,
+          294
+        ],
+        "knee": [
+          122,
+          325
+        ],
+        "ankle": [
+          112,
+          397
+        ],
+        "towerBase": [
+          423,
+          372
+        ],
+        "seatFoot": [
+          184,
+          421
+        ]
+      },
+      "projectedLengthsPixels": {
+        "upperArmLeft": 45.044422518220834,
+        "forearmLeft": 48.662100242385755,
+        "upperArmRight": 55.00909015790027,
+        "forearmRight": 51.478150704935004,
+        "thigh": 51.40038910358559,
+        "lowerLeg": 72.69112738154499
+      },
+      "projectedRatios": {
+        "forearmToUpperArmLeft": 1.0803135554174668,
+        "forearmToUpperArmRight": 0.9358117096132673,
+        "lowerLegToThigh": 1.414213562373095
+      },
+      "projectedJointInteriorDegrees": {
+        "elbowLeft": 167.99287341216132,
+        "elbowRight": 173.2263331292431,
+        "knee": 135.0
+      },
+      "visibilityNotes": "Both arms rear/elevated camera. First arms strongly foreshortened toward machine, source comparison with known physical20degree guide predicts projected38â†’16â†’10degrees vs measuredâ‰ˆ46/41â†’23/19â†’12/7. Joint-center uncertaintyÂ±4px is large relative to first projected27px upperarm. Exact physical bend cannot be certified from bitmap."
+    }
+  ],
+  "segmentSummary": {
+    "upperArmLeft": {
+      "samples": 3,
+      "minimum": 27.294688127912362,
+      "maximum": 45.044422518220834,
+      "mean": 36.8888821465356,
+      "rangeDividedByMean": 0.4811675864776897,
+      "coefficientOfVariation": 0.19836211220732508
+    },
+    "forearmLeft": {
+      "samples": 3,
+      "minimum": 23.08679276123039,
+      "maximum": 48.662100242385755,
+      "mean": 34.37786755218886,
+      "rangeDividedByMean": 0.743946885080339,
+      "coefficientOfVariation": 0.30989209223205866
+    },
+    "upperArmRight": {
+      "samples": 3,
+      "minimum": 27.294688127912362,
+      "maximum": 55.00909015790027,
+      "mean": 40.587539199903446,
+      "rangeDividedByMean": 0.6828303113792579,
+      "coefficientOfVariation": 0.27945699124277196
+    },
+    "forearmRight": {
+      "samples": 3,
+      "minimum": 22.561028345356956,
+      "maximum": 51.478150704935004,
+      "mean": 37.053533812277706,
+      "rangeDividedByMean": 0.7804146969106721,
+      "coefficientOfVariation": 0.31860559990752424
+    },
+    "thigh": {
+      "samples": 3,
+      "minimum": 51.40038910358559,
+      "maximum": 51.40038910358559,
+      "mean": 51.40038910358559,
+      "rangeDividedByMean": 0.0,
+      "coefficientOfVariation": 0.0
+    },
+    "lowerLeg": {
+      "samples": 3,
+      "minimum": 72.69112738154499,
+      "maximum": 72.69112738154499,
+      "mean": 72.69112738154499,
+      "rangeDividedByMean": 0.0,
+      "coefficientOfVariation": 0.0
+    }
+  },
+  "ratioSummary": {
+    "forearmToUpperArmLeft": {
+      "samples": 3,
+      "minimum": 0.8188553999940327,
+      "maximum": 1.0803135554174668,
+      "mean": 0.9150011991378503,
+      "rangeDividedByMean": 0.2857462434691781,
+      "coefficientOfVariation": 0.1283181340884021
+    },
+    "forearmToUpperArmRight": {
+      "samples": 3,
+      "minimum": 0.8265721242033675,
+      "maximum": 0.9407631605997774,
+      "mean": 0.901048998138804,
+      "rangeDividedByMean": 0.12673121731701778,
+      "coefficientOfVariation": 0.05848947567489307
+    },
+    "lowerLegToThigh": {
+      "samples": 3,
+      "minimum": 1.414213562373095,
+      "maximum": 1.414213562373095,
+      "mean": 1.414213562373095,
+      "rangeDividedByMean": 0.0,
+      "coefficientOfVariation": 0.0
+    }
+  },
+  "angleSummary": {
+    "elbowLeft": {
+      "samples": 3,
+      "minimum": 133.90694715570652,
+      "maximum": 167.99287341216132,
+      "mean": 152.9150034168483,
+      "rangeDividedByMean": 0.2229076643547927,
+      "coefficientOfVariation": 0.09279867975903869
+    },
+    "elbowRight": {
+      "samples": 3,
+      "minimum": 138.7528053103499,
+      "maximum": 173.2263331292431,
+      "mean": 157.82332410906838,
+      "rangeDividedByMean": 0.21843113502709688,
+      "coefficientOfVariation": 0.09067541446330632
+    },
+    "knee": {
+      "samples": 3,
+      "minimum": 135.0,
+      "maximum": 135.0,
+      "mean": 135.0,
+      "rangeDividedByMean": 0.0,
+      "coefficientOfVariation": 0.0
+    }
+  },
+  "fixedLandmarkDisplacement": {
+    "towerBase": {
+      "sampleCount": 3,
+      "medianPixels": [
+        423,
+        372
+      ],
+      "maximumDisplacementFromMedianPixels": 0.0
+    },
+    "seatFoot": {
+      "sampleCount": 3,
+      "medianPixels": [
+        184,
+        421
+      ],
+      "maximumDisplacementFromMedianPixels": 0.0
+    }
+  },
+  "reviewVerdict": "PASS visual canonical19 +18onions; no visible extra limbs, no gross anatomical distortion or machine clipping. Projection limits remain."
+}

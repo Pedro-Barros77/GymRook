@@ -1,0 +1,117 @@
+{
+  "exerciseId": "cable-biceps-curl",
+  "coordinateSpace": "actual-raster-512-pixels",
+  "reviewer": "interpolation_options with independent fix_upper landmark cross-check",
+  "manualUncertaintyPixels": 5,
+  "projectionNotes": "Three-quarter view: the forearm rotates toward the camera and its projected length changes. The near shoulder is the estimated joint center, not the center of biceps mass. Cross-checked manually by fix_upper. Projected ratios are not 3D bone lengths.",
+  "segments": {
+    "upperArm": [
+      "shoulder",
+      "elbow"
+    ],
+    "forearm": [
+      "elbow",
+      "wrist"
+    ],
+    "torso": [
+      "shoulder",
+      "hip"
+    ]
+  },
+  "ratios": {
+    "forearmToUpperArm": [
+      "forearm",
+      "upperArm"
+    ],
+    "upperArmToTorso": [
+      "upperArm",
+      "torso"
+    ]
+  },
+  "angles": {
+    "elbowInterior": [
+      "shoulder",
+      "elbow",
+      "wrist"
+    ]
+  },
+  "fixedPoints": [
+    "shoulder",
+    "hip"
+  ],
+  "poses": [
+    {
+      "file": "output/final-animations/cable-biceps-curl/anchors/anchor_00.png",
+      "sha256": "cd861f688bf96a7cc56531b49453dae814e4c6cc38de1e4c5b4590236b5d81e0",
+      "points": {
+        "shoulder": [
+          166,
+          120
+        ],
+        "elbow": [
+          164,
+          195
+        ],
+        "wrist": [
+          191,
+          278
+        ],
+        "hip": [
+          176,
+          276
+        ]
+      },
+      "uncertaintyPixels": 5,
+      "visibilityNotes": "Three-quarter view: the forearm rotates toward the camera and its projected length changes. The near shoulder is the estimated joint center, not the center of biceps mass. Cross-checked manually by fix_upper. Projected ratios are not 3D bone lengths."
+    },
+    {
+      "file": "output/final-animations/cable-biceps-curl/anchors/anchor_04.png",
+      "sha256": "581540132efafbc8cd46a8ec2bbf5176ab3d47944d1e005bfa16fac90f26a31a",
+      "points": {
+        "shoulder": [
+          166,
+          120
+        ],
+        "elbow": [
+          161,
+          189
+        ],
+        "wrist": [
+          213,
+          212
+        ],
+        "hip": [
+          176,
+          276
+        ]
+      },
+      "uncertaintyPixels": 5,
+      "visibilityNotes": "Three-quarter view: the forearm rotates toward the camera and its projected length changes. The near shoulder is the estimated joint center, not the center of biceps mass. Cross-checked manually by fix_upper. Projected ratios are not 3D bone lengths."
+    },
+    {
+      "file": "output/final-animations/cable-biceps-curl/anchors/anchor_08.png",
+      "sha256": "15111898a18810e950b085735d7c9319f8030bc6fa46c908346e1c025eb6471a",
+      "points": {
+        "shoulder": [
+          166,
+          120
+        ],
+        "elbow": [
+          157,
+          188
+        ],
+        "wrist": [
+          214,
+          159
+        ],
+        "hip": [
+          176,
+          276
+        ]
+      },
+      "uncertaintyPixels": 5,
+      "visibilityNotes": "Three-quarter view: the forearm rotates toward the camera and its projected length changes. The near shoulder is the estimated joint center, not the center of biceps mass. Cross-checked manually by fix_upper. Projected ratios are not 3D bone lengths."
+    }
+  ],
+  "reviewVerdict": "Accepted illustrative source by root and independent visual reviewer; measurements remain approximate projections and do not certify biomechanics."
+}

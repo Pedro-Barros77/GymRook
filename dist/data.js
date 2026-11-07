@@ -141,18 +141,18 @@
       equipment: 'Máquina de panturrilha em pé', equipmentEn: 'Standing calf raise machine',
       primary: ['Gastrocnêmio', 'Sóleo'], secondary: ['Estabilizadores do tornozelo'], muscleIds: ['calves'],
       setup: ['Ajuste os apoios e posicione a parte da frente dos pés na plataforma.', 'Deixe os calcanhares livres e os joelhos quase estendidos, sem travá-los.'],
-      steps: ['Eleve os calcanhares, pressionando a plataforma com a parte da frente dos pés.', 'Desça lentamente até a amplitude confortável.', 'Após 15 repetições, siga para as 20 na escada.'],
+      steps: ['Eleve os calcanhares, pressionando a plataforma com a parte da frente dos pés.', 'Desça lentamente até a amplitude confortável.', 'Após 15 repetições, siga para as 20 na máquina de panturrilha sentada.'],
       cues: ['Suba e desça sem quicar.', 'Distribua o apoio na parte da frente do pé, sem rolar os tornozelos para fora.'],
       mistakes: ['Impulsionar com joelhos ou quadril.', 'Fazer repetições rápidas e muito curtas.', 'Deixar os pés escorregarem da plataforma.']
     },
-    'stair-calf-raise': {
-      name: 'Panturrilha no degrau', nameEn: 'Calf raise on a step',
-      equipment: 'Degrau firme + corrimão ou apoio', equipmentEn: 'Stable step + hand support',
-      primary: ['Gastrocnêmio', 'Sóleo'], secondary: ['Estabilizadores do tornozelo'], muscleIds: ['calves'],
-      setup: ['Apoie a parte da frente dos dois pés na borda de um degrau firme.', 'Segure um apoio estável e deixe os calcanhares livres.'],
-      steps: ['Suba os calcanhares de forma controlada.', 'Desça lentamente até a amplitude confortável, mantendo o equilíbrio.'],
-      cues: ['Use o apoio para equilibrar, sem puxar o corpo.', 'A referência é com os dois pés e peso corporal; carga extra não foi especificada.'],
-      mistakes: ['Quicar no ponto mais baixo.', 'Ficar sem apoio em um degrau instável.', 'Deixar o tornozelo tombar para os lados.']
+    'seated-plate-calf-raise': {
+      name: 'Panturrilha sentada na máquina', nameEn: 'Plate-loaded seated calf raise',
+      equipment: 'Máquina de panturrilha sentada com anilhas', equipmentEn: 'Plate-loaded seated calf raise machine',
+      primary: ['Sóleo'], secondary: ['Gastrocnêmio', 'Estabilizadores do tornozelo'], muscleIds: ['calves'],
+      setup: ['Sente com os joelhos perto de 90° e apoie a parte da frente dos pés na plataforma, deixando os calcanhares livres.', 'Ajuste as almofadas sobre a parte baixa das coxas, acima dos joelhos. Aprenda a trava e a colocação das anilhas com o professor.'],
+      steps: ['Eleve os calcanhares devagar, mantendo a parte da frente dos pés apoiada; os apoios das coxas e a alavanca com anilhas sobem juntos.', 'Desça os calcanhares com controle até a amplitude confortável, sem deixar a carga cair.', 'Faça 20 repetições após as 15 em pé; complete a dupla três vezes. Trave a alavanca antes de sair.'],
+      cues: ['Joelhos continuam dobrados e quadril permanece no assento; o movimento vem dos tornozelos.', 'Ênfase no sóleo. O gastrocnêmio também participa, com menor contribuição nesta posição.', 'Distribua o apoio na parte da frente dos pés, sem tombar os tornozelos para os lados.'],
+      mistakes: ['Quicar os calcanhares para impulsionar a carga.', 'Estender os joelhos ou levantar o quadril do banco.', 'Puxar as alças para ajudar ou sair sem travar a alavanca.']
     },
     'lat-pulldown': {
       name: 'Puxada alta', nameEn: 'Lat pulldown',
@@ -163,13 +163,13 @@
       cues: ['Uma pequena inclinação do tronco pode ficar constante.', 'Pegada de referência: palmas para a frente; confirme a variação da ficha.'],
       mistakes: ['Puxar a barra atrás da nuca.', 'Balançar o tronco para mover a carga.', 'Soltar a volta ou elevar os ombros sem controle.']
     },
-    'unilateral-converging-row': {
-      name: 'Remada convergente unilateral', nameEn: 'Single-arm converging machine row',
-      equipment: 'Máquina de remada convergente com braços independentes', equipmentEn: 'Converging row machine with independent arms',
+    'unilateral-cable-row': {
+      name: 'Remada unilateral na polia baixa', nameEn: 'Single-arm seated cable row',
+      equipment: 'Polia baixa com cabo de aço + pegador individual', equipmentEn: 'Low cable row station + single D-handle',
       primary: ['Latíssimo do dorso', 'Romboides'], secondary: ['Trapézio médio', 'Deltoide posterior', 'Bíceps'], muscleIds: ['lats', 'midBack', 'traps', 'deltoidRear', 'biceps'],
-      setup: ['Ajuste banco e apoio peitoral para alcançar a alça sem arredondar o tronco.', 'Segure uma alça; mantenha os pés firmes e o peito apoiado.'],
-      steps: ['Puxe o cotovelo para trás, acompanhando o trajeto da máquina.', 'Retorne devagar sem girar o tronco.', 'Faça 10 de um lado, aguarde os 30 s da ficha e execute o outro lado.'],
-      cues: ['Deixe a escápula acompanhar o movimento, com controle.', 'Carga alta na ficha: o peito deve continuar apoiado.'],
+      setup: ['Prenda um pegador individual à polia baixa. Sente com os pés apoiados e joelhos levemente dobrados.', 'Segure o pegador com uma mão e apoie a outra na coxa ou em apoio fixo; mantenha o tronco ereto e estável.'],
+      steps: ['Puxe o pegador em direção à lateral da cintura, levando o cotovelo para trás junto ao corpo.', 'Estenda o braço devagar, sem girar o tronco nem arredondar a lombar.', 'Faça 10 de um lado, aguarde os 30 s da ficha e execute o outro lado.'],
+      cues: ['Deixe a escápula acompanhar o movimento, com controle; mantenha o ombro longe da orelha.', 'A ficha pede carga alta; ajuste o peso na polia para manter o tronco estável durante todas as repetições.'],
       mistakes: ['Girar o corpo para terminar a puxada.', 'Elevar o ombro.', 'Soltar o braço para a frente.']
     },
     'seated-cable-row': {
@@ -282,41 +282,27 @@
     }
   };
 
-  const pilotIds = ['incline-dumbbell-press', 'pec-deck', 'push-up', 'reverse-cable-curl'];
+  const finalMotionIds = new Set([
+    'incline-dumbbell-press', 'high-cable-crossover', 'pec-deck', 'push-up',
+    'cable-biceps-curl', 'preacher-curl', 'reverse-cable-curl', 'floor-crunch',
+    'reverse-crunch', 'forearm-plank', 'lying-leg-curl', 'dumbbell-stiff-leg-deadlift',
+    'alternating-lunge', 'dumbbell-lateral-raise', 'reverse-pec-deck',
+    'seated-plate-calf-raise', 'unilateral-cable-row', 'machine-ab-crunch'
+  ]);
+  const legMotionIds = new Set(['leg-extension', 'hack-squat', 'machine-hip-abduction', 'machine-hip-adduction']);
   Object.entries(exercises).forEach(([id, exercise]) => {
     exercise.id = id;
-    exercise.pilot = pilotIds.includes(id);
-    exercise.media = exercise.pilot ? {
-      gif: `assets/animations/${id}.gif`,
-      poster: `assets/animations/${id}-poster.webp`,
-      frameCount: 16,
-      render: 'generated'
-    } : null;
-    if (id === 'pec-deck') {
-      exercise.media = {
-        video: 'assets/animations-pec-deck-v5/pec-deck.mp4',
-        gif: 'assets/animations-pec-deck-v5/pec-deck.gif',
-        poster: 'assets/animations-pec-deck-v5/pec-deck-poster.webp',
-        fps: 24,
-        frameCount: 72,
-        render: 'generated-interpolated',
-        legacy: {
-          gif: 'assets/animations-pec-deck-v4/pec-deck.gif',
-          poster: 'assets/animations-pec-deck-v4/pec-deck-poster.webp',
-          frameCount: 72
-        }
-      };
-    }
-    if (id === 'reverse-cable-curl') {
-      exercise.media.experimental = {
-        video: `assets/animations-interpolated/${id}.mp4`,
-        gif: `assets/animations-interpolated/${id}.gif`,
-        poster: `assets/animations-interpolated/${id}-poster.webp`,
-        fps: 24,
-        frameCount: 72,
-        render: 'generated-interpolated'
-      };
-    }
+    exercise.pilot = true;
+    const directory = finalMotionIds.has(id) ? 'animations-v2' : legMotionIds.has(id) ? 'animations-d-v1' : 'animations-bc-v1';
+    exercise.media = {
+      video: `assets/${directory}/${id}.mp4`,
+      gif: `assets/${directory}/${id}.gif`,
+      poster: `assets/${directory}/${id}-poster.webp`,
+      fps: 12,
+      frameCount: id === 'alternating-lunge' ? 48 : 36,
+      render: id === 'forearm-plank' ? 'generated-static-hold' : 'generated-interpolated',
+      ...(id === 'forearm-plank' ? { isometric: true } : {})
+    };
   });
 
   window.GYMROOK_DATA = {
@@ -343,14 +329,14 @@
           { id: 'b-front', title: 'Elevação frontal na polia', prescription: '3 × 12', note: '', exerciseIds: ['cable-front-raise'] },
           { id: 'b-shrug', title: 'Encolhimento com halteres', prescription: '3 × 20', note: '', exerciseIds: ['dumbbell-shrug'] },
           { id: 'b-reverse-fly', title: 'Crucifixo inverso na máquina', prescription: '4 × 12', note: '', exerciseIds: ['reverse-pec-deck'] },
-          { id: 'b-calves', title: 'Panturrilha na máquina + no degrau', prescription: '3 voltas · 15 + 20', note: '15 em pé na máquina e, em seguida, 20 no degrau.', exerciseIds: ['standing-machine-calf-raise', 'stair-calf-raise'] }
+          { id: 'b-calves', title: 'Panturrilha em pé + sentada', prescription: '3 voltas · 15 + 20', note: '15 em pé na máquina e, em seguida, 20 sentada na máquina com anilhas.', exerciseIds: ['standing-machine-calf-raise', 'seated-plate-calf-raise'] }
         ]
       },
       {
         id: 'C', name: 'Costas e tríceps', subtitle: 'Back & triceps',
         blocks: [
           { id: 'c-pulldown', title: 'Puxada alta', prescription: '4 × 12', note: 'Aumentar a carga a cada série.', exerciseIds: ['lat-pulldown'] },
-          { id: 'c-unilateral-row', title: 'Remada convergente unilateral', prescription: '3 × 10', note: 'Carga alta. Intervalo de 30 segundos entre os lados.', exerciseIds: ['unilateral-converging-row'] },
+          { id: 'c-unilateral-row', title: 'Remada unilateral na polia baixa', prescription: '3 × 10', note: 'Carga alta. Intervalo de 30 segundos entre os lados. Ajuste o peso na polia para manter o tronco estável.', exerciseIds: ['unilateral-cable-row'] },
           { id: 'c-cable-row', title: 'Remada baixa na polia', prescription: '5 séries · 20 / 15 / 12 / 10 / 8', note: 'Aumentar a carga a cada série.', exerciseIds: ['seated-cable-row'] },
           { id: 'c-rope', title: 'Tríceps na polia com corda', prescription: '3 × 12', note: '', exerciseIds: ['rope-triceps-pushdown'] },
           { id: 'c-extension', title: 'Tríceps testa com halteres', prescription: '3 × 15', note: '', exerciseIds: ['dumbbell-lying-triceps-extension'] },
@@ -396,7 +382,9 @@
       { title: 'ACE · Abdominais superiores e inferiores', url: 'https://www.acefitness.org/continuing-education/prosource/august-2014/4934/can-you-train-upper-and-lower-abs-separately/' },
       { title: 'ACE · Biblioteca de exercícios', url: 'https://www.acefitness.org/resources/everyone/exercise-library/' },
       { title: 'Life Fitness · Instruções de máquinas Circuit Series', url: 'https://kb.cybexintl.com/Product_Info/Life_Fitness_Circuit_Series_Machine_Use_Instructions.pdf' },
-      { title: 'NASM · Dumbbell Romanian Deadlift: referência para o movimento do quadril', url: 'https://www.nasm.org/resource-center/exercise-library/dumbbell-romanian-deadlift' }
+      { title: 'NASM · Dumbbell Romanian Deadlift: referência para o movimento do quadril', url: 'https://www.nasm.org/resource-center/exercise-library/dumbbell-romanian-deadlift' },
+      { title: 'Life Fitness · Panturrilha sentada com anilhas e ênfase no sóleo', url: 'https://www.lifefitness.com/en-eu/catalog/strength-training/plate-loaded/life-fitness-calf-raise' },
+      { title: 'ACE · Panturrilhas: movimento do tornozelo e músculos envolvidos', url: 'https://www.acefitness.org/continuing-education/prosource/september-2014/4975/best-exercises-for-great-legs-and-pain-free-knees/' }
     ]
   };
 })();

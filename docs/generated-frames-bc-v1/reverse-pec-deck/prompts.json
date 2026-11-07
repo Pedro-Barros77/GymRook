@@ -1,0 +1,330 @@
+{
+  "mode": "built-in image_gen edit",
+  "prompt": "Use case: precise-object-edit. LOCAL OBJECT REMOVAL ONLY. Image1 is the EDIT TARGET: a3x3pose sheet with RED translucent marks on the unwanted objects in six middle cells. Image2 is the identical unmarked sheet for accurate original colors and anatomy. Image3 is the correct OPEN endpoint showing the intended count of TWO arms/hands and TWO machine levers.\nRemove COMPLETELY the objects marked RED in Image1: the EXTRA middle hand/forearm at the old forward position, the vertical grip it holds including its shaft tip if visible below the real near arm, and the ENTIRE obsolete curved middle lever branch leading up to its overhead pivot. Those red-marked objects are ghosts, not legitimate anatomy. Rebuild the clean off-white background/chest pad/real near forearm that should be behind them. Remove all red annotations in the output. Do not simply recolor or unmark the ghost objects; they must cease to exist.\nKeep the other TWO real arms/hands EXACTLY where they already are: the near visible arm and its rightmost grip, and the opened far arm and its leftmost grip. Preserve those two remaining complete lever assemblies and their correct pivot connections. There must be exactly TWO arms, TWO hands, TWO grips, TWO unbranched lever arms per cell, not three. No unused ghost lever can remain parked in the middle.\nChange only these marked local regions in the six affected cells; keep the first two cells and final cell, camera, body, head, torso, legs, feet, machine fixed structure, scale, textures and illumination unchanged. No new motion poses, no camera change, no new scene, no body or arm reshaping elsewhere. Same square3x3sheet, nine equally sized cells, no borders or text. The intended result is the original illustration with the six unwanted red-marked hand/lever duplicates erased and the proper surfaces behind them restored.",
+  "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b714-7077-7191-a9ae-c351cb0cb7c5\\exec-17a00a9c-6fc7-48c5-acdd-7422c2f202e7.png",
+  "references": [
+    "docs/generated-frames-bc-v1/reverse-pec-deck/sheet-v4-ghost-marked-input.png",
+    "docs/generated-frames-bc-v1/reverse-pec-deck/sheet-v4-endpoints-three-arms-rejected.png",
+    "docs/generated-frames-bc-v1/reverse-pec-deck/endpoint-open-v4-candidate.png"
+  ],
+  "review": "Six marked ghost hand/lever regions mostly removed. Cell2 (top-right) retains the ghost hand/branch; single-cell repair required. No promotion yet.",
+  "revision": 6,
+  "selectedSheet": "sheet.png",
+  "selectedCells": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "excludedCells": {
+    "1": "Unused third empty machine lever remains in this source cell.",
+    "2": "Third hand/arm remains in this source cell."
+  },
+  "selectionReview": "Root source QA selected seven cells; no further generation. Motion QA pending.",
+  "generationHistory": {
+    "previousSelectedSheet": {
+      "file": "sheet-v2-ambiguous-elbows.png",
+      "sha256": "6373406b6bde0a950aea999a25ce9cbfcfaa66afd185c1d83fab632de2b8ca9a"
+    },
+    "previousSelectedPrompt": {
+      "file": "prompts-v2-ambiguous-elbows.json",
+      "sha256": "ec293b5acb38837fb59e3c20a8982212501f9d185f56675eb1aff5df111d94ff"
+    },
+    "selectedSheet": {
+      "file": "sheet.png",
+      "candidate": "sheet-v6-annotated-repair-candidate.png",
+      "sha256": "5a4065dee9d3f710b0c44ab7531ca480c9707568c04349a00f72eb8eb58164da"
+    },
+    "selectedCells": [
+      0,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "excludedCells": [
+      1,
+      2
+    ],
+    "historicalSheets": [
+      {
+        "file": "sheet-v1-small-range-rejected.png",
+        "sha256": "5487782ac1c5f1608a29ee73a4fb99c2df2cc766b9c757a7968d3754b7d91300"
+      },
+      {
+        "file": "sheet-v2-ambiguous-elbows.png",
+        "sha256": "6373406b6bde0a950aea999a25ce9cbfcfaa66afd185c1d83fab632de2b8ca9a"
+      },
+      {
+        "file": "sheet-v3-side-candidate.png",
+        "sha256": "409564539df95e339c68d4d0046736b2c5662d759d4c7ad41dcb24a6f78b73e8"
+      },
+      {
+        "file": "sheet-v4-endpoints-three-arms-rejected.png",
+        "sha256": "e3b3b62d5d29106611bebe26db6c6494957b6820f71bf4a08cc3a7072211c3a2"
+      },
+      {
+        "file": "sheet-v4-ghost-marked-input.png",
+        "sha256": "db9c43e389050d446845d22943e8194e7a00e6bb216316979427d4ebec3a635a"
+      },
+      {
+        "file": "sheet-v5-text-repair-three-arms-rejected.png",
+        "sha256": "620e6a400806c23e74d9ebcc5eda5e081502d1242a908a40a27349ab0dac42af"
+      },
+      {
+        "file": "sheet-v6-annotated-repair-candidate.png",
+        "sha256": "5a4065dee9d3f710b0c44ab7531ca480c9707568c04349a00f72eb8eb58164da"
+      }
+    ],
+    "historicalPrompts": [
+      {
+        "file": "prompts-v1-small-range-rejected.json",
+        "sha256": "f3c69462343dac12d3654773cd891997df8836b298685380b072496dba8b0a0e"
+      },
+      {
+        "file": "prompts-v2-ambiguous-elbows.json",
+        "sha256": "ec293b5acb38837fb59e3c20a8982212501f9d185f56675eb1aff5df111d94ff"
+      },
+      {
+        "file": "prompts-v3-side-candidate.json",
+        "sha256": "dc3ccc76f18e6d53101ce7160de06c8ebb6783d922c70b5fc9169502b061648f"
+      },
+      {
+        "file": "prompts-v4-endpoints-sheet-rejected.json",
+        "sha256": "2daab6292f1baef6a0ab5040b318286573881705728d2e97ca48518f6b3f3987"
+      },
+      {
+        "file": "prompts-v4-open-endpoint.json",
+        "sha256": "55a5b1dedbcca3427410bde94961d3b1b10a2428eb7ac170bbc5a17fb664fda3"
+      },
+      {
+        "file": "prompts-v5-text-repair-rejected.json",
+        "sha256": "090d9af6141543ead382e931c0992daf0d2592da5748e7c41b294cae60060860"
+      },
+      {
+        "file": "prompts-v6-annotated-repair.json",
+        "sha256": "9ddea3e7254377c70987637dbc4754461d73424201fb2d66a395318eb82ce274"
+      }
+    ],
+    "previousOutputBackup": "backups/bc-reverse-pec-deck-v2-before-v6-20261107",
+    "allPreservedSourceFiles": [
+      {
+        "file": "cell02-ghost-marked-input.png",
+        "sha256": "31b0cea9165d92cf444a92c602b80d5e03b7119f73b7d20c9971fe05c5386fc4"
+      },
+      {
+        "file": "cell02-ghost-target.png",
+        "sha256": "c653288f21ee23e3dbf8acca3cc4c12f945641b36f42742f6bb2c58c49bf8450"
+      },
+      {
+        "file": "cell03-clean-reference.png",
+        "sha256": "3a5484ae509a6f3ba84552c8dcb553fc265047b1b074ae93ea7469a1ac0513f5"
+      },
+      {
+        "file": "endpoint-closed-rear-unused-candidate.png",
+        "sha256": "ecb9f5640f2913bc9fd3c7277a7570e28c9638c9779bc9aa575fcf571f7dd0c1"
+      },
+      {
+        "file": "endpoint-closed-v3.png",
+        "sha256": "3c671360f9031e2b5af923835d99177d7885d350529f9cab737054e186fb491f"
+      },
+      {
+        "file": "endpoint-open-rear-reference-v2.png",
+        "sha256": "675b67b22a6cbb2aa17d03c1397ddd871c6412dadc96d40be2054488f395213e"
+      },
+      {
+        "file": "endpoint-open-v4-candidate.png",
+        "sha256": "dc392e78fbea33b3ef5e20bfccf47f2f82f1373b7c0bd956430fecf8cd44165d"
+      },
+      {
+        "file": "ghost-mark-annotations.json",
+        "sha256": "def2d31549539de425aa0a5d7dbae20864a980bae454f9081c8e797722486685"
+      },
+      {
+        "file": "prompts-unused-closed-rear.json",
+        "sha256": "f2929797152b42ba54d2b198ad39cfa781e5ab03efa49ad28c65b2a601733a31"
+      },
+      {
+        "file": "prompts-v1-small-range-rejected.json",
+        "sha256": "f3c69462343dac12d3654773cd891997df8836b298685380b072496dba8b0a0e"
+      },
+      {
+        "file": "prompts-v2-ambiguous-elbows.json",
+        "sha256": "ec293b5acb38837fb59e3c20a8982212501f9d185f56675eb1aff5df111d94ff"
+      },
+      {
+        "file": "prompts-v3-side-candidate.json",
+        "sha256": "dc3ccc76f18e6d53101ce7160de06c8ebb6783d922c70b5fc9169502b061648f"
+      },
+      {
+        "file": "prompts-v4-endpoints-sheet-rejected.json",
+        "sha256": "2daab6292f1baef6a0ab5040b318286573881705728d2e97ca48518f6b3f3987"
+      },
+      {
+        "file": "prompts-v4-open-endpoint.json",
+        "sha256": "55a5b1dedbcca3427410bde94961d3b1b10a2428eb7ac170bbc5a17fb664fda3"
+      },
+      {
+        "file": "prompts-v5-text-repair-rejected.json",
+        "sha256": "090d9af6141543ead382e931c0992daf0d2592da5748e7c41b294cae60060860"
+      },
+      {
+        "file": "prompts-v6-annotated-repair.json",
+        "sha256": "9ddea3e7254377c70987637dbc4754461d73424201fb2d66a395318eb82ce274"
+      },
+      {
+        "file": "sheet-v1-small-range-rejected.png",
+        "sha256": "5487782ac1c5f1608a29ee73a4fb99c2df2cc766b9c757a7968d3754b7d91300"
+      },
+      {
+        "file": "sheet-v2-ambiguous-elbows.png",
+        "sha256": "6373406b6bde0a950aea999a25ce9cbfcfaa66afd185c1d83fab632de2b8ca9a"
+      },
+      {
+        "file": "sheet-v3-side-candidate.png",
+        "sha256": "409564539df95e339c68d4d0046736b2c5662d759d4c7ad41dcb24a6f78b73e8"
+      },
+      {
+        "file": "sheet-v4-endpoints-three-arms-rejected.png",
+        "sha256": "e3b3b62d5d29106611bebe26db6c6494957b6820f71bf4a08cc3a7072211c3a2"
+      },
+      {
+        "file": "sheet-v4-ghost-marked-input.png",
+        "sha256": "db9c43e389050d446845d22943e8194e7a00e6bb216316979427d4ebec3a635a"
+      },
+      {
+        "file": "sheet-v5-text-repair-three-arms-rejected.png",
+        "sha256": "620e6a400806c23e74d9ebcc5eda5e081502d1242a908a40a27349ab0dac42af"
+      },
+      {
+        "file": "sheet-v6-annotated-repair-candidate.png",
+        "sha256": "5a4065dee9d3f710b0c44ab7531ca480c9707568c04349a00f72eb8eb58164da"
+      },
+      {
+        "file": "source-selection-v6-candidate.json",
+        "sha256": "19f073bdc45e84c3ca0ca54a2a8b9dad8540ddea0724bd55cf217b2ccf33090b"
+      },
+      {
+        "file": "source-selection-v6-seven-approved.json",
+        "sha256": "5c750261dadc4f3440e48f419631744e94cf506dfb7bb30e197b7f8f6ef5471e"
+      },
+      {
+        "file": "visual-review.json",
+        "sha256": "97c5f04d9ee1b4bbf02bd0756019015e79fbb442d466c22e469b6cf899df194f"
+      }
+    ]
+  },
+  "nativeMidpointReference": {
+    "file": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/midpoint.png",
+    "sha256": "a4df021f0560426a442744a055782b52ab324025814061349a04e6b1bd045a9d",
+    "sourceSheetPreserved": "sheet-v6-annotated-repair-candidate.png",
+    "activeCellSlots": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "originalSheetCellsUsed": [
+      0,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "replacedOriginalCell": 1,
+    "progress": 0.3674698795180723,
+    "generator": "scripts/render-reverse-pec-deck-midpoint.py",
+    "generatorSha256": "de90d5e12ba306fc1efa8ff303539af3f1bbab396ca0fd348e729a097ca3108b",
+    "metadata": "midpoint-native-v1/midpoint-metadata.json",
+    "approval": "Root and independent reviewer approved this one equipment-only native reference; no new human rendering/generation."
+  },
+  "nativeReferenceFamily": {
+    "inputs": [
+      {
+        "slot": 6,
+        "name": "quarter-closed",
+        "file": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/quarter-closed.png",
+        "sha256": "f0fb840aee2577901b79817c2c5be09fe9237e18b4ca32165fe1b5e81f39a1a2",
+        "progress": 0.18373493975903615
+      },
+      {
+        "slot": 1,
+        "name": "midpoint",
+        "file": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/midpoint.png",
+        "sha256": "a4df021f0560426a442744a055782b52ab324025814061349a04e6b1bd045a9d",
+        "progress": 0.3674698795180723
+      },
+      {
+        "slot": 7,
+        "name": "quarter-open",
+        "file": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/quarter-open.png",
+        "sha256": "64700f96112c934baf69b1a4f6d3448a121e252f75d60d880aa35e9bef0b97e5",
+        "progress": 0.5542168674698795
+      }
+    ],
+    "activeSourceOrder": [
+      {
+        "slot": 0,
+        "progress": 0,
+        "source": "original-sheet-cell-0"
+      },
+      {
+        "slot": 6,
+        "progress": 0.18373493975903615,
+        "source": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/quarter-closed.png"
+      },
+      {
+        "slot": 1,
+        "progress": 0.3674698795180723,
+        "source": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/midpoint.png"
+      },
+      {
+        "slot": 7,
+        "progress": 0.5542168674698795,
+        "source": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/quarter-open.png"
+      },
+      {
+        "slot": 3,
+        "progress": 0.7409638554216867,
+        "source": "original-sheet-cell-3"
+      },
+      {
+        "slot": 4,
+        "progress": 0.8313253012048193,
+        "source": "original-sheet-cell-4"
+      },
+      {
+        "slot": 5,
+        "progress": 0.927710843373494,
+        "source": "original-sheet-cell-5"
+      },
+      {
+        "slot": 8,
+        "progress": 1,
+        "source": "original-sheet-cell-8"
+      }
+    ],
+    "originalSheetCellsUsed": [
+      0,
+      3,
+      4,
+      5,
+      8
+    ],
+    "worldGeometrySha256": "33a601184986fab124fed5a70a108b490d16742520a60bc4f8edcb702410884c",
+    "generator": "scripts/render-reverse-pec-deck-midpoint.py",
+    "generatorSha256": "2aefd32a01f83edb175d19ead7accdab36c9ee0ccc7ac39d32210d8fd6179486",
+    "review": "Three native equipment-only poses approved by root and independent reviewer before temporal interpolation. Original sheet and all rejected/redundant source poses preserved."
+  }
+}

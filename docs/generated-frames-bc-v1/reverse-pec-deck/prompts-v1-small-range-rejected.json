@@ -1,0 +1,24 @@
+{
+  "id": "reverse-pec-deck",
+  "generationMode": "built-in image_gen",
+  "intent": "generate",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE contact sheet for an exercise animation: EXACTLY 3 columns by 3 rows, nine equally sized SQUARE cells, read left-to-right then top-to-bottom as consecutive keyframes of ONLY ONE phase of motion. No cell borders, no gutters, no labels, no numbers, no text, no motion arrows, no watermarks. Image1 is CHARACTER AND ART STYLE reference only: the same adult muscular man with warm natural skin, short dark hair, well-defined anatomy, black shorts and black shoes; do not copy that chest exercise. Image2 is the equipment/action reference. Maintain same character identity, pose-independent body proportions, skin color, surface detail and realistic colored illustration across all nine. Minimal warm off-white background and floor. The camera, lens, scale, framing, lighting and stationary scene must stay LOCKED in every cell. Entire body and machine fit each cell with the same generous margins. The machine is ONE RIGID consistent object, not nine variants. Fixed frame/base/supports/tower/pivots never change shape or position and never disappear. Levers only rotate on their actual hinges; grips remain attached to the same levers; all cables remain physically connected and taut. Hands retain grips, joints bend anatomically, feet/chest remain in correct contact with supports. Avoid duplicated limbs, hand/weight penetration, shifting clothing and changing metal texture. Keep shoulders/neck controlled. EXERCISE: REVERSE PEC DECK / REAR DELT FLY. Use a rear three-quarter view, showing the man's broad muscular back and BOTH arms, seated FACING THE MACHINE with his CHEST against the vertical black pad, feet fixed on floor. This is the opposite seated orientation from a chest fly: his back faces the viewer, his sternum touches the pad. Set the apparatus in rear-delt mode with two independent rigid overhead lever arms and shoulder-height handles. Pose1 both hands forward in front of the chest toward the machine, arms reaching forward at shoulder height and elbows slightly bent. Across poses2..8 smoothly OPEN BOTH ARMS laterally/backward around the shoulders, preserving the same slight elbow bend. Pose9 both upper arms open to the sides approximately in line with torso, stopping there without extreme shoulder extension. Hands follow the machine's natural horizontal arc in the SCENE'S three-quarter diagonal perspective, never pointing both machine arms straight at the camera. Each machine arm has a fixed shape, width, elbow and length; it rotates as one piece around its overhead pivot. No curving or S-shape morphing. Chest/head/pelvis/thighs/feet remain in the SAME place; do not row, bend elbows substantially or rock back off the pad. Fixed post behind pad must remain complete in all poses. If weights are visible, the selected weight block rises gradually as he opens; use one consistent plate count. Nine evenly progressing opening poses ONLY, no return sequence.",
+  "references": [
+    {
+      "path": "docs/generated-frames-v4/pec-deck/pose-00.png",
+      "role": "character and art style"
+    },
+    {
+      "path": "dist/assets/thumbnails/reverse-pec-deck.webp",
+      "role": "equipment and action reference"
+    }
+  ],
+  "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b715-116a-7270-8b2e-aec09b7e4988\\exec-1c491c64-4aa2-4a7a-995a-24b5c40f31d0.png",
+  "grid": [
+    3,
+    3
+  ],
+  "rowMajor": true,
+  "poses": 9,
+  "phase": "outward only"
+}

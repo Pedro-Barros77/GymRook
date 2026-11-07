@@ -1,0 +1,1001 @@
+{
+  "sourceIndex": "docs/generated-frames-v2-fixes/seated-plate-calf-raise/source-index-two-keys-v5.json",
+  "sourceIndexSha256": "fa43fd6674cb1c72856bc279dee74787837b15bb6c9d496f4b060b65c375c0c5",
+  "method": "Manual initial surface-proxy landmarks tracked sequentially with pyramidal Lucas-Kanade over all19actual rendered forward PNGs; forward/backward error also measured. No pose is inferred from interpolation timestep. Surface points and hidden joint proxies do not establish bone-center locations or clinical correctness. Visual crop/contact review required.",
+  "initialLandmarkUncertaintyPixels": {
+    "hipSurfaceProxy": 7,
+    "kneeSurfaceProxy": 5,
+    "ankleSurfaceProxy": 4,
+    "forefootContactBoundary": 3,
+    "mechanicalCenter": 2
+  },
+  "trackingMaxForwardBackwardErrorPixels": 0.13439537584781647,
+  "forwardBackwardErrorPerFrame": [
+    [
+      0.000762939453125,
+      0.0007846045191399753,
+      0.00025895022554323077,
+      6.823938019806519e-05,
+      7.62939453125e-05,
+      3.814697265625e-05,
+      6.823938019806519e-05
+    ],
+    [
+      0.0006974117713980377,
+      0.0002200653834734112,
+      3.0517578125e-05,
+      9.1552734375e-05,
+      7.62939453125e-05,
+      0.0,
+      0.0002157918643206358
+    ],
+    [
+      9.770392352947965e-05,
+      0.0008550369529984891,
+      0.00018310546875,
+      0.00043373627704568207,
+      4.57763671875e-05,
+      6.151014531496912e-05,
+      0.00013647876039613038
+    ],
+    [
+      0.02010432258248329,
+      0.0033276756294071674,
+      0.0011353195877745748,
+      0.009951725602149963,
+      0.059464454650878906,
+      0.00010235906665911898,
+      0.00344253983348608
+    ],
+    [
+      0.0022688438184559345,
+      0.0020589756313711405,
+      0.005468780640512705,
+      0.004053786862641573,
+      0.08938303589820862,
+      9.918212890625e-05,
+      0.003311262698844075
+    ],
+    [
+      0.023294754326343536,
+      0.0006573687423951924,
+      0.0009175596060231328,
+      0.009308211505413055,
+      0.08536408096551895,
+      0.0001100326917367056,
+      8.63167442730628e-05
+    ],
+    [
+      0.04192764312028885,
+      0.00116207473911345,
+      0.0012456256663426757,
+      0.0011775989551097155,
+      0.13439537584781647,
+      0.0002539568522479385,
+      0.0013483106158673763
+    ],
+    [
+      0.0020807976834475994,
+      0.0011108566541224718,
+      0.004015932325273752,
+      0.005352073349058628,
+      0.0925905779004097,
+      0.00012302029062993824,
+      0.0003479539300315082
+    ],
+    [
+      0.015040251426398754,
+      0.0014067908050492406,
+      0.013358544558286667,
+      0.002205726457759738,
+      0.07507442682981491,
+      0.000651006877887994,
+      0.0008440745295956731
+    ],
+    [
+      0.038197197020053864,
+      0.004403105936944485,
+      0.003974907100200653,
+      0.0026578339748084545,
+      0.09460525959730148,
+      0.000450586638180539,
+      0.00213710218667984
+    ],
+    [
+      0.01683787815272808,
+      0.0021701839286834,
+      0.0018147056689485908,
+      0.01171016413718462,
+      0.04106468707323074,
+      0.010002237744629383,
+      0.0019206688739359379
+    ],
+    [
+      0.0021288609132170677,
+      0.004578043706715107,
+      0.0032361585181206465,
+      0.002471735468134284,
+      0.061882682144641876,
+      0.00017794652376323938,
+      0.0010258627589792013
+    ],
+    [
+      0.017775487154722214,
+      0.000885009765625,
+      0.0012286878190934658,
+      0.005606021732091904,
+      0.060960959643125534,
+      0.0001954078470589593,
+      0.00036748030106537044
+    ],
+    [
+      0.0629996731877327,
+      0.002443122211843729,
+      0.007610878441482782,
+      0.0032510890159755945,
+      0.07722211629152298,
+      9.187007526634261e-05,
+      0.002903182525187731
+    ],
+    [
+      0.0007171630859375,
+      0.006296391133219004,
+      0.0003571990819182247,
+      0.01605590060353279,
+      0.0138173196464777,
+      9.650505671743304e-05,
+      0.0002625221386551857
+    ],
+    [
+      8.63167442730628e-05,
+      0.0001726334885461256,
+      0.0001258271950064227,
+      9.650505671743304e-05,
+      3.4119690099032596e-05,
+      6.151014531496912e-05,
+      3.0517578125e-05
+    ],
+    [
+      0.0004164838755968958,
+      0.00020471813331823796,
+      0.0001643421855987981,
+      4.31583721365314e-05,
+      0.0,
+      9.187007526634261e-05,
+      6.823938019806519e-05
+    ],
+    [
+      0.00026118839741684496,
+      0.0001100326917367056,
+      9.1552734375e-05,
+      0.00034119689371436834,
+      0.00012302029062993824,
+      0.00020142178982496262,
+      6.823938019806519e-05
+    ]
+  ],
+  "summary": {
+    "femurProxyPixels": {
+      "min": 122.73621368408203,
+      "max": 126.09963989257812,
+      "rangeOverMeanPercent": 2.7043725696814542,
+      "endChangeFromStartPercent": -2.666911502673941
+    },
+    "tibiaProxyPixels": {
+      "min": 127.67008209228516,
+      "max": 129.22557067871094,
+      "rangeOverMeanPercent": 1.2106798357169917,
+      "endChangeFromStartPercent": 1.0350469092043513
+    },
+    "leverRadiusPixels": {
+      "min": 341.3258972167969,
+      "max": 342.25390625,
+      "rangeOverMeanPercent": 0.2715486629805822,
+      "endChangeFromStartPercent": 0.19205833684876605
+    }
+  },
+  "maxForefootDisplacementPixels": 5.343555450439453,
+  "maxPivotDisplacementPixels": 0.36090317368507385,
+  "limits": {
+    "tibiaAndFemurProxyRangeOverMeanPercent": 10,
+    "forefootDisplacementPixels": 5,
+    "pivotDisplacementPixels": 3,
+    "leverRadiusRangeOverMeanPercent": 5
+  },
+  "poses": [
+    {
+      "frame": 1,
+      "sha256": "8b3bbe007f3f6984c97f4d73f9c3fe8b6cc3b8df24da4dc9f945b8582a6584c6",
+      "landmarks": {
+        "hipSurfaceProxy": [
+          155.0,
+          315.0
+        ],
+        "kneeSurfaceProxy": [
+          281.0,
+          320.0
+        ],
+        "ankleSurfaceProxy": [
+          266.0,
+          447.0
+        ],
+        "forefootContactBoundary": [
+          342.0,
+          479.0
+        ],
+        "heelOutsoleEdge": [
+          246.0,
+          474.0
+        ],
+        "rearPivot": [
+          82.0,
+          343.0
+        ],
+        "plateHub": [
+          422.0,
+          310.0
+        ]
+      },
+      "femurProxyPixels": 126.09916687011719,
+      "tibiaProxyPixels": 127.88275909423828,
+      "forefootDisplacementFromStartPixels": 0.0,
+      "pivotDisplacementFromStartPixels": 0.0,
+      "leverRadiusPixels": 341.59771728515625
+    },
+    {
+      "frame": 2,
+      "sha256": "8e1c841d00938efe8967c5971d784270b0f28ff5f4f9749cafeee3014542f77b",
+      "landmarks": {
+        "hipSurfaceProxy": [
+          154.9993133544922,
+          315.00115966796875
+        ],
+        "kneeSurfaceProxy": [
+          280.9990539550781,
+          320.0009765625
+        ],
+        "ankleSurfaceProxy": [
+          265.9999694824219,
+          446.9997863769531
+        ],
+        "forefootContactBoundary": [
+          341.99993896484375,
+          479.0002136230469
+        ],
+        "heelOutsoleEdge": [
+          245.99998474121094,
+          474.00006103515625
+        ],
+        "rearPivot": [
+          82.0,
+          343.00006103515625
+        ],
+        "plateHub": [
+          422.00091552734375,
+          310.0007629394531
+        ]
+      },
+      "femurProxyPixels": 126.0988998413086,
+      "tibiaProxyPixels": 127.8814697265625,
+      "forefootDisplacementFromStartPixels": 0.00022217132209334522,
+      "pivotDisplacementFromStartPixels": 6.103515625e-05,
+      "leverRadiusPixels": 341.59857177734375
+    },
+    {
+      "frame": 3,
+      "sha256": "cb37674326262082a7c119ca674d3431096804cdff5a893a03ca25ea63723cda",
+      "landmarks": {
+        "hipSurfaceProxy": [
+          154.99908447265625,
+          315.0011901855469
+        ],
+        "kneeSurfaceProxy": [
+          280.9996032714844,
+          320.0
+        ],
+        "ankleSurfaceProxy": [
+          266.00048828125,
+          447.00006103515625
+        ],
+        "forefootContactBoundary": [
+          342.00054931640625,
+          479.001220703125
+        ],
+        "heelOutsoleEdge": [
+          246.00006103515625,
+          473.9999694824219
+        ],
+        "rearPivot": [
+          82.0,
+          343.00006103515625
+        ],
+        "plateHub": [
+          422.0009765625,
+          309.9994812011719
+        ]
+      },
+      "femurProxyPixels": 126.09963989257812,
+      "tibiaProxyPixels": 127.8827133178711,
+      "forefootDisplacementFromStartPixels": 0.001338605536147952,
+      "pivotDisplacementFromStartPixels": 6.103515625e-05,
+      "leverRadiusPixels": 341.5987548828125
+    },
+    {
+      "frame": 4,
+      "sha256": "650620e666ab2e97a9f681aaa68846b74daebcb36db44df8434ce4a3411fb68f",
+      "landmarks": {
+        "hipSurfaceProxy": [
+          154.99917602539062,
+          315.0014953613281
+        ],
+        "kneeSurfaceProxy": [
+          280.99908447265625,
+          320.0009460449219
+        ],
+        "ankleSurfaceProxy": [
+          266.00030517578125,
+          447.0000915527344
+        ],
+        "forefootContactBoundary": [
+          341.9744873046875,
+          478.99359130859375
+        ],
+        "heelOutsoleEdge": [
+          245.9998779296875,
+          474.0002136230469
+        ],
+        "rearPivot": [
+          82.0,
+          343.0
+        ],
+        "plateHub": [
+          421.9912414550781,
+          309.9997253417969
+        ]
+      },
+      "femurProxyPixels": 126.09905242919922,
+      "tibiaProxyPixels": 127.88176727294922,
+      "forefootDisplacementFromStartPixels": 0.02630530297756195,
+      "pivotDisplacementFromStartPixels": 0.0,
+      "leverRadiusPixels": 341.5890197753906
+    },
+    {
+      "frame": 5,
+      "sha256": "8329748f70fe26bfabe7b8c195eb2b4460b6359d8c3a5912781ad59416ebccd9",
+      "landmarks": {
+        "hipSurfaceProxy": [
+          155.05543518066406,
+          314.46826171875
+        ],
+        "kneeSurfaceProxy": [
+          280.7410888671875,
+          318.06268310546875
+        ],
+        "ankleSurfaceProxy": [
+          266.0309143066406,
+          444.8824768066406
+        ],
+        "forefootContactBoundary": [
+          342.285888671875,
+          478.2130126953125
+        ],
+        "heelOutsoleEdge": [
+          246.32135009765625,
+          472.56829833984375
+        ],
+        "rearPivot": [
+          81.99591064453125,
+          343.0172424316406
+        ],
+        "plateHub": [
+          421.65570068359375,
+          305.8344421386719
+        ]
+      },
+      "femurProxyPixels": 125.73704528808594,
+      "tibiaProxyPixels": 127.67008209228516,
+      "forefootDisplacementFromStartPixels": 0.837306022644043,
+      "pivotDisplacementFromStartPixels": 0.01772073097527027,
+      "leverRadiusPixels": 341.6889343261719
+    },
+    {
+      "frame": 6,
+      "sha256": "393daf9c7bcbb1d64d3c9a0b4f50b1937de9f125112a9d5e747f07e75e109317",
+      "landmarks": {
+        "hipSurfaceProxy": [
+          154.55535888671875,
+          313.40826416015625
+        ],
+        "kneeSurfaceProxy": [
+          280.357666015625,
+          315.9072570800781
+        ],
+        "ankleSurfaceProxy": [
+          266.2509765625,
+          443.0429992675781
+        ],
+        "forefootContactBoundary": [
+          341.9644775390625,
+          478.0446472167969
+        ],
+        "heelOutsoleEdge": [
+          246.4767608642578,
+          471.4045715332031
+        ],
+        "rearPivot": [
+          81.99479675292969,
+          342.98858642578125
+        ],
+        "plateHub": [
+          420.9949951171875,
+          302.7989196777344
+        ]
+      },
+      "femurProxyPixels": 125.8271255493164,
+      "tibiaProxyPixels": 127.91596984863281,
+      "forefootDisplacementFromStartPixels": 0.9560129642486572,
+      "pivotDisplacementFromStartPixels": 0.012543662451207638,
+      "leverRadiusPixels": 341.3741760253906
+    },
+    {
+      "frame": 7,
+      "sha256": "11a9f702ff0194f8a7c9e7295925426fd4652a9411fa1a46794e0e455fdbcda4",
+      "landmarks": {
+        "hipSurfaceProxy": [
+          154.48019409179688,
+          312.6269226074219
+        ],
+        "kneeSurfaceProxy": [
+          280.0267028808594,
+          314.09759521484375
+        ],
+        "ankleSurfaceProxy": [
+          266.5306396484375,
+          441.4032287597656
+        ],
+        "forefootContactBoundary": [
+          341.8388366699219,
+          477.9565734863281
+        ],
+        "heelOutsoleEdge": [
+          247.1876220703125,
+          469.52801513671875
+        ],
+        "rearPivot": [
+          81.9988021850586,
+          342.97430419921875
+        ],
+        "plateHub": [
+          420.9313049316406,
+          300.84930419921875
+        ]
+      },
+      "femurProxyPixels": 125.55512237548828,
+      "tibiaProxyPixels": 128.01901245117188,
+      "forefootDisplacementFromStartPixels": 1.0557994842529297,
+      "pivotDisplacementFromStartPixels": 0.02572370320558548,
+      "leverRadiusPixels": 341.5402526855469
+    },
+    {
+      "frame": 8,
+      "sha256": "17a2dcfd52a0ac9efcb7c250d49b7f505a930770009fa408b324c2f3773b4f52",
+      "landmarks": {
+        "hipSurfaceProxy": [
+          154.526611328125,
+          311.65679931640625
+        ],
+        "kneeSurfaceProxy": [
+          279.7642822265625,
+          311.849609375
+        ],
+        "ankleSurfaceProxy": [
+          266.9452209472656,
+          439.2760314941406
+        ],
+        "forefootContactBoundary": [
+          341.70623779296875,
+          477.30230712890625
+        ],
+        "heelOutsoleEdge": [
+          247.22093200683594,
+          466.6806335449219
+        ],
+        "rearPivot": [
+          82.00405883789062,
+          342.9612731933594
+        ],
+        "plateHub": [
+          420.5516662597656,
+          297.1659851074219
+        ]
+      },
+      "femurProxyPixels": 125.23782348632812,
+      "tibiaProxyPixels": 128.06959533691406,
+      "forefootDisplacementFromStartPixels": 1.7229212522506714,
+      "pivotDisplacementFromStartPixels": 0.03893892467021942,
+      "leverRadiusPixels": 341.63092041015625
+    },
+    {
+      "frame": 9,
+      "sha256": "f147ed11958e76ee6e66cd4f6cde42a98e7050f74160472ad957a117cf2133a0",
+      "landmarks": {
+        "hipSurfaceProxy": [
+          154.60986328125,
+          310.6083679199219
+        ],
+        "kneeSurfaceProxy": [
+          279.2968444824219,
+          309.33343505859375
+        ],
+        "ankleSurfaceProxy": [
+          267.3067321777344,
+          437.0110778808594
+        ],
+        "forefootContactBoundary": [
+          341.3916320800781,
+          476.9342956542969
+        ],
+        "heelOutsoleEdge": [
+          247.5714111328125,
+          463.63037109375
+        ],
+        "rearPivot": [
+          82.01600646972656,
+          342.9523010253906
+        ],
+        "plateHub": [
+          419.92950439453125,
+          292.97149658203125
+        ]
+      },
+      "femurProxyPixels": 124.69349670410156,
+      "tibiaProxyPixels": 128.23939514160156,
+      "forefootDisplacementFromStartPixels": 2.1534266471862793,
+      "pivotDisplacementFromStartPixels": 0.050313014537096024,
+      "leverRadiusPixels": 341.58984375
+    },
+    {
+      "frame": 10,
+      "sha256": "d897b6591fbf3f4d38be39a0ffaf77c384ac204faec745f2a2536fc6c07257da",
+      "landmarks": {
+        "hipSurfaceProxy": [
+          154.9102783203125,
+          309.4280090332031
+        ],
+        "kneeSurfaceProxy": [
+          278.92120361328125,
+          306.3849792480469
+        ],
+        "ankleSurfaceProxy": [
+          267.5709228515625,
+          434.5760803222656
+        ],
+        "forefootContactBoundary": [
+          341.3117370605469,
+          476.40753173828125
+        ],
+        "heelOutsoleEdge": [
+          248.10220336914062,
+          461.38458251953125
+        ],
+        "rearPivot": [
+          82.00724792480469,
+          342.92523193359375
+        ],
+        "plateHub": [
+          419.4656677246094,
+          288.9375305175781
+        ]
+      },
+      "femurProxyPixels": 124.04825592041016,
+      "tibiaProxyPixels": 128.69261169433594,
+      "forefootDisplacementFromStartPixels": 2.682274580001831,
+      "pivotDisplacementFromStartPixels": 0.0751185491681099,
+      "leverRadiusPixels": 341.7497253417969
+    },
+    {
+      "frame": 11,
+      "sha256": "18ff7e1f1f445d51435484045e6f54ed52063fad30a3c486f153386b3f34454d",
+      "landmarks": {
+        "hipSurfaceProxy": [
+          154.83663940429688,
+          308.3452453613281
+        ],
+        "kneeSurfaceProxy": [
+          278.5130310058594,
+          303.8814392089844
+        ],
+        "ankleSurfaceProxy": [
+          267.78875732421875,
+          432.05828857421875
+        ],
+        "forefootContactBoundary": [
+          341.178466796875,
+          476.0053405761719
+        ],
+        "heelOutsoleEdge": [
+          247.89859008789062,
+          458.1211242675781
+        ],
+        "rearPivot": [
+          82.00944519042969,
+          342.91314697265625
+        ],
+        "plateHub": [
+          418.79791259765625,
+          285.53814697265625
+        ]
+      },
+      "femurProxyPixels": 123.75691986083984,
+      "tibiaProxyPixels": 128.6247100830078,
+      "forefootDisplacementFromStartPixels": 3.105302333831787,
+      "pivotDisplacementFromStartPixels": 0.08736509084701538,
+      "leverRadiusPixels": 341.64068603515625
+    },
+    {
+      "frame": 12,
+      "sha256": "f423c7f9182a4ef3e66f5fb619d03909b3adeb8f47fcc025ce026f25be58c42b",
+      "landmarks": {
+        "hipSurfaceProxy": [
+          154.9225311279297,
+          307.2563781738281
+        ],
+        "kneeSurfaceProxy": [
+          278.0915832519531,
+          300.9923095703125
+        ],
+        "ankleSurfaceProxy": [
+          268.1781005859375,
+          429.5704345703125
+        ],
+        "forefootContactBoundary": [
+          340.9685363769531,
+          475.62176513671875
+        ],
+        "heelOutsoleEdge": [
+          247.76011657714844,
+          455.8612976074219
+        ],
+        "rearPivot": [
+          82.19792938232422,
+          342.7294006347656
+        ],
+        "plateHub": [
+          417.98089599609375,
+          281.46624755859375
+        ]
+      },
+      "femurProxyPixels": 123.32823181152344,
+      "tibiaProxyPixels": 128.95973205566406,
+      "forefootDisplacementFromStartPixels": 3.532193183898926,
+      "pivotDisplacementFromStartPixels": 0.33526116609573364,
+      "leverRadiusPixels": 341.3258972167969
+    },
+    {
+      "frame": 13,
+      "sha256": "2b4c7dfbb9334958881be951ce8603c09f3fe714f60b0b0e255018e0a2ccd686",
+      "landmarks": {
+        "hipSurfaceProxy": [
+          154.81973266601562,
+          306.22869873046875
+        ],
+        "kneeSurfaceProxy": [
+          277.6851501464844,
+          298.84600830078125
+        ],
+        "ankleSurfaceProxy": [
+          268.5963439941406,
+          427.42767333984375
+        ],
+        "forefootContactBoundary": [
+          340.57122802734375,
+          475.022216796875
+        ],
+        "heelOutsoleEdge": [
+          247.76959228515625,
+          453.8473205566406
+        ],
+        "rearPivot": [
+          82.19390869140625,
+          342.70440673828125
+        ],
+        "plateHub": [
+          417.5995178222656,
+          277.8477478027344
+        ]
+      },
+      "femurProxyPixels": 123.08702087402344,
+      "tibiaProxyPixels": 128.90248107910156,
+      "forefootDisplacementFromStartPixels": 4.226600170135498,
+      "pivotDisplacementFromStartPixels": 0.35351938009262085,
+      "leverRadiusPixels": 341.61865234375
+    },
+    {
+      "frame": 14,
+      "sha256": "577a969a8531a7b71b770892ab545fabc6a09794dc143bc38eb2c217ae1f054a",
+      "landmarks": {
+        "hipSurfaceProxy": [
+          154.30081176757812,
+          305.52996826171875
+        ],
+        "kneeSurfaceProxy": [
+          277.48468017578125,
+          296.8437805175781
+        ],
+        "ankleSurfaceProxy": [
+          268.8243713378906,
+          425.54345703125
+        ],
+        "forefootContactBoundary": [
+          340.43621826171875,
+          474.87420654296875
+        ],
+        "heelOutsoleEdge": [
+          247.79827880859375,
+          452.08807373046875
+        ],
+        "rearPivot": [
+          82.1941146850586,
+          342.6960754394531
+        ],
+        "plateHub": [
+          417.0235595703125,
+          274.2687683105469
+        ]
+      },
+      "femurProxyPixels": 123.48973846435547,
+      "tibiaProxyPixels": 128.99072265625,
+      "forefootDisplacementFromStartPixels": 4.412208557128906,
+      "pivotDisplacementFromStartPixels": 0.36062535643577576,
+      "leverRadiusPixels": 341.7499694824219
+    },
+    {
+      "frame": 15,
+      "sha256": "6edc6cdd336adce994503ad43113fd5abf7c98ce4e0dafc6a1f38fb54d2b1b90",
+      "landmarks": {
+        "hipSurfaceProxy": [
+          154.52345275878906,
+          304.748046875
+        ],
+        "kneeSurfaceProxy": [
+          277.0772399902344,
+          295.2137451171875
+        ],
+        "ankleSurfaceProxy": [
+          269.029052734375,
+          423.635009765625
+        ],
+        "forefootContactBoundary": [
+          340.0240478515625,
+          474.6995849609375
+        ],
+        "heelOutsoleEdge": [
+          247.8544921875,
+          450.0086975097656
+        ],
+        "rearPivot": [
+          82.19188690185547,
+          342.6943359375
+        ],
+        "plateHub": [
+          416.5809020996094,
+          271.32281494140625
+        ]
+      },
+      "femurProxyPixels": 122.9240951538086,
+      "tibiaProxyPixels": 128.67320251464844,
+      "forefootDisplacementFromStartPixels": 4.732647895812988,
+      "pivotDisplacementFromStartPixels": 0.36090317368507385,
+      "leverRadiusPixels": 341.9208984375
+    },
+    {
+      "frame": 16,
+      "sha256": "aaeff3d6782d21d35d944b1ed2af07462d6ce8c477063b20167c75b773ec05c1",
+      "landmarks": {
+        "hipSurfaceProxy": [
+          154.64425659179688,
+          303.7134094238281
+        ],
+        "kneeSurfaceProxy": [
+          276.8810729980469,
+          292.63812255859375
+        ],
+        "ankleSurfaceProxy": [
+          269.0625915527344,
+          421.626953125
+        ],
+        "forefootContactBoundary": [
+          340.35650634765625,
+          473.9186096191406
+        ],
+        "heelOutsoleEdge": [
+          247.88661193847656,
+          447.98974609375
+        ],
+        "rearPivot": [
+          82.18927001953125,
+          342.70245361328125
+        ],
+        "plateHub": [
+          415.5613708496094,
+          265.3909912109375
+        ]
+      },
+      "femurProxyPixels": 122.7375259399414,
+      "tibiaProxyPixels": 129.22557067871094,
+      "forefootDisplacementFromStartPixels": 5.340561866760254,
+      "pivotDisplacementFromStartPixels": 0.35264286398887634,
+      "leverRadiusPixels": 342.2192687988281
+    },
+    {
+      "frame": 17,
+      "sha256": "de9d9d53cbff7a0aa1a4264180af6377d51e81a0ed6a0d5b3064f90b57a187cb",
+      "landmarks": {
+        "hipSurfaceProxy": [
+          154.64553833007812,
+          303.71209716796875
+        ],
+        "kneeSurfaceProxy": [
+          276.8812255859375,
+          292.6382751464844
+        ],
+        "ankleSurfaceProxy": [
+          269.061767578125,
+          421.6079406738281
+        ],
+        "forefootContactBoundary": [
+          340.3587646484375,
+          473.91473388671875
+        ],
+        "heelOutsoleEdge": [
+          247.88954162597656,
+          447.98907470703125
+        ],
+        "rearPivot": [
+          82.18927764892578,
+          342.70245361328125
+        ],
+        "plateHub": [
+          415.58013916015625,
+          265.33856201171875
+        ]
+      },
+      "femurProxyPixels": 122.73627471923828,
+      "tibiaProxyPixels": 129.2064971923828,
+      "forefootDisplacementFromStartPixels": 5.343555450439453,
+      "pivotDisplacementFromStartPixels": 0.35264694690704346,
+      "leverRadiusPixels": 342.2493896484375
+    },
+    {
+      "frame": 18,
+      "sha256": "308ec16ed023e512b2f6fa6ee6d5774218af15a2c4b65e959c14f5d04cae0570",
+      "landmarks": {
+        "hipSurfaceProxy": [
+          154.64495849609375,
+          303.71270751953125
+        ],
+        "kneeSurfaceProxy": [
+          276.88128662109375,
+          292.6381530761719
+        ],
+        "ankleSurfaceProxy": [
+          269.0603332519531,
+          421.60772705078125
+        ],
+        "forefootContactBoundary": [
+          340.3596496582031,
+          473.91552734375
+        ],
+        "heelOutsoleEdge": [
+          247.8899688720703,
+          447.9881286621094
+        ],
+        "rearPivot": [
+          82.18929290771484,
+          342.70245361328125
+        ],
+        "plateHub": [
+          415.58172607421875,
+          265.3253173828125
+        ]
+      },
+      "femurProxyPixels": 122.73697662353516,
+      "tibiaProxyPixels": 129.2064971923828,
+      "forefootDisplacementFromStartPixels": 5.342528343200684,
+      "pivotDisplacementFromStartPixels": 0.3526551425457001,
+      "leverRadiusPixels": 342.25390625
+    },
+    {
+      "frame": 19,
+      "sha256": "5423a20b11278466b1fb8a0c51fb3c769b87bd576428183191d7eebd80ba8266",
+      "landmarks": {
+        "hipSurfaceProxy": [
+          154.64581298828125,
+          303.7126159667969
+        ],
+        "kneeSurfaceProxy": [
+          276.8813781738281,
+          292.6380615234375
+        ],
+        "ankleSurfaceProxy": [
+          269.06036376953125,
+          421.6075439453125
+        ],
+        "forefootContactBoundary": [
+          340.3588562011719,
+          473.91497802734375
+        ],
+        "heelOutsoleEdge": [
+          247.89051818847656,
+          447.9892578125
+        ],
+        "rearPivot": [
+          82.18936157226562,
+          342.70233154296875
+        ],
+        "plateHub": [
+          415.5816650390625,
+          265.3251953125
+        ]
+      },
+      "femurProxyPixels": 122.73621368408203,
+      "tibiaProxyPixels": 129.20640563964844,
+      "forefootDisplacementFromStartPixels": 5.343295097351074,
+      "pivotDisplacementFromStartPixels": 0.3527950048446655,
+      "leverRadiusPixels": 342.2537841796875
+    }
+  ],
+  "reviewStatus": "accepted after reviewing all19actual forward frames in detailed crops,18transition overlays, and exact17frame mirrored return",
+  "physicalContactReview": {
+    "result": "accepted: no visible open gap or forefoot lift from fixed platform in any of19frames; same shoe/ankle as root-accepted v4 within~.3px endpoint local tracking",
+    "manualPhysicalContactDisplacementEstimatePixels": 3,
+    "uncertaintyPixels": 3,
+    "materialPointTrackingNote": "5.34px Lucas-Kanade displacement is a rubber/sole surface point rolling on the curved outsole, not a measurement of the instantaneous physical contact locus; do not claim exact foot immobility from this track. Root independently accepted the physical support on v4; v5 preserved feet while correcting knee position."
+  },
+  "visualReviewNotes": [
+    "Tibia remains same apparent length across rising ankle+knee; original shrinking source problem no longer visible.",
+    "Thighs and pad rise together; fixed seat and rear pivot do not move.",
+    "One plate and rigid lever keep their size and pivot radius; no stretched front support exists.",
+    "No extra limbs, detached soles, floating shoes, gross limb morphs or visible discontinuities apparent in19intermediates."
+  ],
+  "seam36to1MAE": 0.0012346903483072917,
+  "maxReturnMirrorMAE": 0,
+  "all36FrameSha256": [
+    "8b3bbe007f3f6984c97f4d73f9c3fe8b6cc3b8df24da4dc9f945b8582a6584c6",
+    "8e1c841d00938efe8967c5971d784270b0f28ff5f4f9749cafeee3014542f77b",
+    "cb37674326262082a7c119ca674d3431096804cdff5a893a03ca25ea63723cda",
+    "650620e666ab2e97a9f681aaa68846b74daebcb36db44df8434ce4a3411fb68f",
+    "8329748f70fe26bfabe7b8c195eb2b4460b6359d8c3a5912781ad59416ebccd9",
+    "393daf9c7bcbb1d64d3c9a0b4f50b1937de9f125112a9d5e747f07e75e109317",
+    "11a9f702ff0194f8a7c9e7295925426fd4652a9411fa1a46794e0e455fdbcda4",
+    "17a2dcfd52a0ac9efcb7c250d49b7f505a930770009fa408b324c2f3773b4f52",
+    "f147ed11958e76ee6e66cd4f6cde42a98e7050f74160472ad957a117cf2133a0",
+    "d897b6591fbf3f4d38be39a0ffaf77c384ac204faec745f2a2536fc6c07257da",
+    "18ff7e1f1f445d51435484045e6f54ed52063fad30a3c486f153386b3f34454d",
+    "f423c7f9182a4ef3e66f5fb619d03909b3adeb8f47fcc025ce026f25be58c42b",
+    "2b4c7dfbb9334958881be951ce8603c09f3fe714f60b0b0e255018e0a2ccd686",
+    "577a969a8531a7b71b770892ab545fabc6a09794dc143bc38eb2c217ae1f054a",
+    "6edc6cdd336adce994503ad43113fd5abf7c98ce4e0dafc6a1f38fb54d2b1b90",
+    "aaeff3d6782d21d35d944b1ed2af07462d6ce8c477063b20167c75b773ec05c1",
+    "de9d9d53cbff7a0aa1a4264180af6377d51e81a0ed6a0d5b3064f90b57a187cb",
+    "308ec16ed023e512b2f6fa6ee6d5774218af15a2c4b65e959c14f5d04cae0570",
+    "5423a20b11278466b1fb8a0c51fb3c769b87bd576428183191d7eebd80ba8266",
+    "308ec16ed023e512b2f6fa6ee6d5774218af15a2c4b65e959c14f5d04cae0570",
+    "de9d9d53cbff7a0aa1a4264180af6377d51e81a0ed6a0d5b3064f90b57a187cb",
+    "aaeff3d6782d21d35d944b1ed2af07462d6ce8c477063b20167c75b773ec05c1",
+    "6edc6cdd336adce994503ad43113fd5abf7c98ce4e0dafc6a1f38fb54d2b1b90",
+    "577a969a8531a7b71b770892ab545fabc6a09794dc143bc38eb2c217ae1f054a",
+    "2b4c7dfbb9334958881be951ce8603c09f3fe714f60b0b0e255018e0a2ccd686",
+    "f423c7f9182a4ef3e66f5fb619d03909b3adeb8f47fcc025ce026f25be58c42b",
+    "18ff7e1f1f445d51435484045e6f54ed52063fad30a3c486f153386b3f34454d",
+    "d897b6591fbf3f4d38be39a0ffaf77c384ac204faec745f2a2536fc6c07257da",
+    "f147ed11958e76ee6e66cd4f6cde42a98e7050f74160472ad957a117cf2133a0",
+    "17a2dcfd52a0ac9efcb7c250d49b7f505a930770009fa408b324c2f3773b4f52",
+    "11a9f702ff0194f8a7c9e7295925426fd4652a9411fa1a46794e0e455fdbcda4",
+    "393daf9c7bcbb1d64d3c9a0b4f50b1937de9f125112a9d5e747f07e75e109317",
+    "8329748f70fe26bfabe7b8c195eb2b4460b6359d8c3a5912781ad59416ebccd9",
+    "650620e666ab2e97a9f681aaa68846b74daebcb36db44df8434ce4a3411fb68f",
+    "cb37674326262082a7c119ca674d3431096804cdff5a893a03ca25ea63723cda",
+    "8e1c841d00938efe8967c5971d784270b0f28ff5f4f9749cafeee3014542f77b"
+  ]
+}

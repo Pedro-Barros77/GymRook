@@ -1,0 +1,27 @@
+{
+  "mode": "builtin-image_gen",
+  "intent": "generate",
+  "useCase": "scientific-educational",
+  "grid": [
+    3,
+    3
+  ],
+  "sourceAsset": "docs/generated-frames-v2-fixes/lying-leg-curl/sheet-v1-rejected.png",
+  "generatedImagePath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b7a9-cd05-7d42-aaf1-58b2a0fe7c23\\exec-6412e57b-1198-4619-be69-8ac807d76c41.png",
+  "prompt": "Use case: scientific-educational. Asset type: final 3x3 exercise-animation keyframe sheet, nine equal square cells in row-major chronological order, no gutters or text. Generate a NEW precise high-quality full-color realistic educational render of a muscular adult man performing a prone lying leg curl on a selectorized machine. Input 1 is a GEOMETRIC REFERENCE ONLY: follow its nine exact joint positions, constant bone lengths and locked apparatus placement; replace its stick figure with a finished realistic muscular human. Input 2 is the APPROVED CHARACTER, skin color, clothes and render-style reference only. Input 3 is old apparatus context and is NOT a valid anatomy reference; its lower-leg growth must be corrected.\nCamera: strict orthographic SIDE PROFILE, looking horizontally at the man's left side. Man's head points RIGHT, feet LEFT. Absolutely no camera perspective, camera move, framing change or zoom across cells. Full apparatus and all shoes fit inside each cell with generous margin. Same tan muscular shirtless man, charcoal gym shorts, black sneakers with white soles, fixed warm off-white studio backdrop, consistent shadows and materials.\nCritical kinematics: the hip, torso, head, upper arms, hands, BOTH thighs and BOTH knees remain in the identical image coordinates in ALL NINE CELLS. Chest and pelvis stay supported on the pad. The knees align with the machine's fixed pivot. The tibias are RIGID segments of the SAME screen-space length in every cell. Only the shins and attached rigid feet rotate smoothly upward around those FIXED knees: 0,12.5,25,37.5,50,62.5,75,87.5,100 degrees flexion. This is nine stages of ONE ascending motion, NOT repeated cycles. Neither shin nor calf nor shoe may lengthen, thicken, bulge or change scale as it rises. Keep femur, tibia, feet and torso true constant lengths; near/far legs parallel and similarly sized. Show muscular natural anatomy, not a skinny mannequin.\nMachine: rigid stable gray steel bench/frame and fixed tower. One rigid lever pivots exactly at the knee; its radius never changes. A constant-diameter black padded roller follows the back of the lower shins just above the heels, staying at the same fixed distance from knee in every frame; roller cannot move independently or grow. Visible weight stack has a fixed block of EIGHT identical rectangular plates lifting as one intact block, exposing a growing gap beneath the block, not adding or stretching plates. Its dimensions/count NEVER change. Absolutely no bent steel, vanishing supports, moving bench, floor sliding or penetrating body/equipment. Use geometry reference to keep all invariants. No numbers, arrows, anatomy overlays, captions, logos or watermarks. Final sheet must be 3x3, exactly nine individually complete poses.",
+  "references": [
+    {
+      "role": "geometry-only reference",
+      "path": "docs/generated-frames-v2-fixes/lying-leg-curl/reference-geometry.png"
+    },
+    {
+      "role": "character render style",
+      "path": "docs/generated-frames-v4/pec-deck/pose-00.png"
+    },
+    {
+      "role": "old apparatus context; not valid anatomy",
+      "path": "docs/generated-frames-d-v1/lying-leg-curl/sheet.png"
+    }
+  ],
+  "status": "rejected: copied old oblique camera and growing shin; retry omits old artwork"
+}

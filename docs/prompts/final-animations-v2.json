@@ -1,0 +1,561 @@
+{
+  "mode": "built-in image_gen for new raster art; local Practical-RIFE 4.25 for interpolation; no external image API",
+  "config": "docs/generated-frames-v2-fixes/config.json",
+  "notes": [
+    "Each exercise folder preserves final and rejected prompt iterations. The selected inputs are the hashes/paths frozen by the final config and build report, not every file in the prompt history.",
+    "The seated calf source uses two real generated key images, not nine artificially claimed generated poses.",
+    "The isometric plank has a single fixed pose."
+  ],
+  "exercises": [
+    {
+      "id": "high-cable-crossover",
+      "sourceKind": "pose-sheet",
+      "promptFiles": [
+        "docs/generated-frames-v2-fixes/high-cable-crossover/prompt.json"
+      ],
+      "sourceReview": "Root and fix_legs independently reviewed the actual source poses and found no blocking exercise/anatomy/structure issue. See cross-review-leg-agent.json. Final temporal-frame QA remains required.",
+      "sheet": "docs/generated-frames-v2-fixes/high-cable-crossover/sheet.png",
+      "sheetSha256": "67d7992a26f933e1f69057cb60ce4b8915d827e34d611ded09c47ea05646ddbb"
+    },
+    {
+      "id": "cable-biceps-curl",
+      "sourceKind": "pose-sheet",
+      "promptFiles": [
+        "docs/generated-frames-v2-fixes/cable-biceps-curl/prompt.json"
+      ],
+      "sourceReview": "Root and fix_legs independently reviewed the actual source poses and found no blocking exercise/anatomy/structure issue. See cross-review-leg-agent.json. Final temporal-frame QA remains required.",
+      "sheet": "docs/generated-frames-v2-fixes/cable-biceps-curl/sheet.png",
+      "sheetSha256": "9a421ea0ec346301f2ae9896b9091915cbe4169bca1579a95ddab1dca92ed390"
+    },
+    {
+      "id": "preacher-curl",
+      "sourceKind": "pose-sheet",
+      "promptFiles": [
+        "docs/generated-frames-v2-fixes/preacher-curl/prompt.json"
+      ],
+      "sourceReview": "Root and fix_legs independently reviewed the actual source poses and found no blocking exercise/anatomy/structure issue. See cross-review-leg-agent.json. Final temporal-frame QA remains required.",
+      "sheet": "docs/generated-frames-v2-fixes/preacher-curl/sheet.png",
+      "sheetSha256": "e3916b71cd55a5d0a37b0c551cf1640f526d5660c54d8d969bec9d0072f46894"
+    },
+    {
+      "id": "floor-crunch",
+      "sourceKind": "pose-sheet",
+      "promptFiles": [
+        "docs/generated-frames-v2-fixes/floor-crunch/prompt.json"
+      ],
+      "sourceReview": "Root and fix_legs independently reviewed the actual source poses and found no blocking exercise/anatomy/structure issue. See cross-review-leg-agent.json. Final temporal-frame QA remains required.",
+      "sheet": "docs/generated-frames-v2-fixes/floor-crunch/sheet.png",
+      "sheetSha256": "d7e0d5ab208bb26451caaf4b3b24cdfda02721959ce07e7edcbd82c7c7e3de23"
+    },
+    {
+      "id": "reverse-crunch",
+      "sourceKind": "pose-sheet",
+      "promptFiles": [
+        "docs/generated-frames-v2-fixes/reverse-crunch/prompt.json"
+      ],
+      "sourceReview": "Root and fix_legs independently reviewed the actual source poses and found no blocking exercise/anatomy/structure issue. See cross-review-leg-agent.json. Final temporal-frame QA remains required.",
+      "sheet": "docs/generated-frames-v2-fixes/reverse-crunch/sheet.png",
+      "sheetSha256": "0e5c54d36ba1110081d8b13861a4b3cbb751d5e49f74f15f816cf66109d694cc"
+    },
+    {
+      "id": "forearm-plank",
+      "sourceKind": "isometric-hold",
+      "promptFiles": [
+        "docs/generated-frames-v2-fixes/forearm-plank/prompt.json"
+      ],
+      "sourceReview": "Root approved the actual side-profile source: aligned isometric posture, stable pelvis. Render the same image throughout; no fabricated breathing or repetitions.",
+      "sheet": "docs/generated-frames-v2-fixes/forearm-plank/source.png",
+      "sheetSha256": "f53e0f2e1f198bad6f2400cf940d464bb579528ed7fcf53cff31d778ab412732"
+    },
+    {
+      "id": "lying-leg-curl",
+      "sourceKind": "pose-sheet",
+      "promptFiles": [
+        "docs/generated-frames-v2-fixes/lying-leg-curl/prompts-v1-rejected.json",
+        "docs/generated-frames-v2-fixes/lying-leg-curl/prompts-v2-candidate.json",
+        "docs/generated-frames-v2-fixes/lying-leg-curl/prompts.json"
+      ],
+      "sourceReview": "Root and fix_legs approved the new source plus actual source landmark measurements. Interpolated motion review pending.",
+      "sheet": "docs/generated-frames-v2-fixes/lying-leg-curl/sheet.png",
+      "sheetSha256": "a0775a3c45508a27eb4f5b9978df100183edc843df7e0aa8ed9f507988c90070"
+    },
+    {
+      "id": "dumbbell-stiff-leg-deadlift",
+      "sourceKind": "pose-sheet",
+      "promptFiles": [
+        "docs/generated-frames-v2-fixes/dumbbell-stiff-leg-deadlift/prompts-v2-candidate.json",
+        "docs/generated-frames-v2-fixes/dumbbell-stiff-leg-deadlift/prompts.json"
+      ],
+      "sourceReview": "Root and fix_legs approved the new source plus actual source landmark measurements. Interpolated motion review pending.",
+      "sheet": "docs/generated-frames-v2-fixes/dumbbell-stiff-leg-deadlift/sheet.png",
+      "sheetSha256": "25b936dfe41375bf32075f60282313c49e47b0b0d24c5e25a1dd90b4610787bd"
+    },
+    {
+      "id": "alternating-lunge",
+      "sourceKind": "pose-sheet",
+      "promptFiles": [],
+      "sourceReview": "Existing frontal source approved by root. New standing end reference 15=0 authorized for loop correction; revised motion still requires review.",
+      "sheet": "docs/generated-frames-d-v1/alternating-lunge/sheet.png",
+      "sheetSha256": "840cfa2b2ecda5fe6d3044595c42af0002b80912f740a34e7cd8299ea0dfd674",
+      "generation": "No new image generation; reuses the previously approved pilot images, with exact 24-to-12 fps sampling or local interpolation."
+    },
+    {
+      "id": "dumbbell-lateral-raise",
+      "sourceKind": "pose-sheet",
+      "promptFiles": [
+        "docs/generated-frames-v2-fixes/dumbbell-lateral-raise/prompts.json"
+      ],
+      "sourceReview": "Root and fix_upper approved the final V4 lateral or V6 reverse source, all9cells0..8. Reverse machine has a clear tower gap; 2D elbow projection interpreted with source guide, not mistaken for 3D flexion.",
+      "sheet": "docs/generated-frames-v2-fixes/dumbbell-lateral-raise/sheet.png",
+      "sheetSha256": "391260b6a170f65f9db8ca214cc0a9a471758a93d783c96623f0f29d30bb1b69"
+    },
+    {
+      "id": "reverse-pec-deck",
+      "sourceKind": "pose-sheet",
+      "promptFiles": [
+        "docs/generated-frames-v2-fixes/reverse-pec-deck/prompts.json"
+      ],
+      "sourceReview": "Root and fix_upper approved the final V4 lateral or V6 reverse source, all9cells0..8. Reverse machine has a clear tower gap; 2D elbow projection interpreted with source guide, not mistaken for 3D flexion.",
+      "sheet": "docs/generated-frames-v2-fixes/reverse-pec-deck/sheet.png",
+      "sheetSha256": "71903f6d89bc711aed28e0525a20f08c2389d78dd52a520c4389ade77a195154"
+    },
+    {
+      "id": "seated-plate-calf-raise",
+      "sourceKind": "image-keyframes",
+      "promptFiles": [
+        "docs/generated-frames-v2-fixes/seated-plate-calf-raise/prompt-endpoint-v3.json",
+        "docs/generated-frames-v2-fixes/seated-plate-calf-raise/prompt-endpoint-v4.json",
+        "docs/generated-frames-v2-fixes/seated-plate-calf-raise/prompt-endpoint-v5.json",
+        "docs/generated-frames-v2-fixes/seated-plate-calf-raise/prompt-v2.json",
+        "docs/generated-frames-v2-fixes/seated-plate-calf-raise/prompt-v3-first-candidate.json",
+        "docs/generated-frames-v2-fixes/seated-plate-calf-raise/prompt-v3-geometry-candidate.json",
+        "docs/generated-frames-v2-fixes/seated-plate-calf-raise/prompt.json",
+        "docs/generated-frames-v2-fixes/seated-plate-calf-raise/prompts-two-keyframes-v3.json",
+        "docs/generated-frames-v2-fixes/seated-plate-calf-raise/prompts-two-keyframes-v5.json"
+      ],
+      "sourceReview": "Root and fix_legs released actual sourcefirst + endpoint-v5, correcting knee rise while retaining forefoot/ankle and fixed rear lever apparatus. Actual19forward-frame visual review follows this study.",
+      "sheet": "docs/generated-frames-v2-fixes/seated-plate-calf-raise/source-index-two-keys-v5.json",
+      "sheetSha256": "fa43fd6674cb1c72856bc279dee74787837b15bb6c9d496f4b060b65c375c0c5"
+    },
+    {
+      "id": "unilateral-cable-row",
+      "sourceKind": "pose-sheet",
+      "promptFiles": [
+        "docs/generated-frames-v2-fixes/unilateral-cable-row/prompts.json"
+      ],
+      "sourceReview": "Root and fix_upper approved all nine new cable-row poses, limb counts/lengths and fixed bench/footplate/pulley/tower. Interpolated motion review pending.",
+      "sheet": "docs/generated-frames-v2-fixes/unilateral-cable-row/sheet.png",
+      "sheetSha256": "fb4bfa1a08a418b674a0c717372b8993eeaf1060cbc2fb669825ee9f19e3a770"
+    },
+    {
+      "id": "machine-ab-crunch",
+      "sourceKind": "pose-sheet",
+      "promptFiles": [
+        "docs/generated-frames-v2-fixes/machine-ab-crunch/prompts.json"
+      ],
+      "sourceReview": "Root and fix_upper approved all nine corrected abdominal-machine poses: vertical fixed backrest and seated pelvis, limbs consistent. Interpolated motion review pending.",
+      "sheet": "docs/generated-frames-v2-fixes/machine-ab-crunch/sheet.png",
+      "sheetSha256": "97db27faa0a9978d3ce3f7e3e5fa7e2c559751da1fd2d1177bab1aaf939b1017"
+    },
+    {
+      "id": "incline-dumbbell-press",
+      "sourceKind": "pose-sheet",
+      "promptFiles": [],
+      "sourceReview": "Existing colored source approved by root for conversion: use first nine forward cells of the 4x4 sheet, no new human generation. New 12-fps interpolation requires motion review.",
+      "sheet": "docs/generated-frames-v2/incline-dumbbell-press.png",
+      "sheetSha256": "3acc07d059ee0a943ae97c4bcf72c7c6dd02d3cea5e105c53e4ba85f6148c1f5",
+      "generation": "No new image generation; reuses the previously approved pilot images, with exact 24-to-12 fps sampling or local interpolation."
+    },
+    {
+      "id": "push-up",
+      "sourceKind": "pose-sheet",
+      "promptFiles": [],
+      "sourceReview": "Existing colored source approved by root for conversion: use first nine forward cells of the 4x4 sheet, no new human generation. New 12-fps interpolation requires motion review.",
+      "sheet": "docs/generated-frames-v2/push-up.png",
+      "sheetSha256": "15a75ba9635946993b79619752e0e09294af0b215ede6390825e03f5548423a1",
+      "generation": "No new image generation; reuses the previously approved pilot images, with exact 24-to-12 fps sampling or local interpolation."
+    },
+    {
+      "id": "reverse-cable-curl",
+      "sourceKind": "decimated-png-loop",
+      "promptFiles": [],
+      "sourceReview": "Existing 24-fps sequence approved by root for direct 12-fps odd-frame sampling. No new frame interpolation or generated human art.",
+      "sheet": "dist/assets/animations-interpolated/manifest.json",
+      "sheetSha256": "c61fdc73ed9211b0d0ff7b85d258309a896da1bfdc67c9fb59438fa906c32a12",
+      "sourceFrames": [
+        {
+          "sourceFrame": 1,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0001.png",
+          "sha256": "f998467443fc96d335f5eb00d89db09e6bc78e14b0190d0f6ef44b8b9f8bb2b0"
+        },
+        {
+          "sourceFrame": 3,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0003.png",
+          "sha256": "798629fc0239ff82835f00ee868139fe4c90a0221e1df724b5f7210c5cecb926"
+        },
+        {
+          "sourceFrame": 5,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0005.png",
+          "sha256": "ca2d85b93823a9b4bdbe53703e588d82ae63bce6cf25ca62f55e4206f32935fe"
+        },
+        {
+          "sourceFrame": 7,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0007.png",
+          "sha256": "a0c42cd47e2f0dc6da7291a2684bfff4615977b9592f2f7937d244a87cc82b55"
+        },
+        {
+          "sourceFrame": 9,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0009.png",
+          "sha256": "2ab7fc24ef2ce5edeb5d35fb8f74dde9043b1dc57bf91d217e474742e8d021b1"
+        },
+        {
+          "sourceFrame": 11,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0011.png",
+          "sha256": "83acf37518cf2256a06e34a076ed356d8d223ae84aec1d0794566bd0bc9fdbad"
+        },
+        {
+          "sourceFrame": 13,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0013.png",
+          "sha256": "cdcef4bc3432f93caa10d11a06108258c2633872ab00419be99b87ba3d99fb03"
+        },
+        {
+          "sourceFrame": 15,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0015.png",
+          "sha256": "d46ec439b7ce69325c1541d86a8e2a8106f93a3558addd39dd88645df9133ede"
+        },
+        {
+          "sourceFrame": 17,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0017.png",
+          "sha256": "6d272d0d8400f29e5ee6027eaea2097d2c79b006af749f01f3e3fd199fb43a40"
+        },
+        {
+          "sourceFrame": 19,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0019.png",
+          "sha256": "b0910abc88cfeecc99c12176113038839e1aaba0bbd35efc034fb35390baa6ec"
+        },
+        {
+          "sourceFrame": 21,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0021.png",
+          "sha256": "bbf582ac192cd378f4eeb835633b620de97a6e1a11e86f93b88f249d2c77ff58"
+        },
+        {
+          "sourceFrame": 23,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0023.png",
+          "sha256": "c368c4f87b99dfeb08c208e6d9675117987035b6ca04757c6acc5a9b16a5fde6"
+        },
+        {
+          "sourceFrame": 25,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0025.png",
+          "sha256": "153a030e8234b8dbbc80128c788a821825b5f566cb99bbe349caba50fb9068b4"
+        },
+        {
+          "sourceFrame": 27,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0027.png",
+          "sha256": "4393b40a49871578c53c4f83fa7ccffbaae16cfc1f775a9a975c6d5ea327b2c2"
+        },
+        {
+          "sourceFrame": 29,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0029.png",
+          "sha256": "070df9a9f26ca8d91c9233c6ac3e35c18b0ff01854c91ce1c11073bbffa381c9"
+        },
+        {
+          "sourceFrame": 31,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0031.png",
+          "sha256": "f6fa2d103cec26e32f0c0c177f75d08f89503ec60c499f4b3461c7b1fddb9c23"
+        },
+        {
+          "sourceFrame": 33,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0033.png",
+          "sha256": "3c0ced628f3afdc67d672f29a37950f0f6101870a99ae5da3f2eea1a389ffb79"
+        },
+        {
+          "sourceFrame": 35,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0035.png",
+          "sha256": "f42bbcaffad4c99370597d97d42382b2f8b7aa9d83b553eb404a5564a6924c50"
+        },
+        {
+          "sourceFrame": 37,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0037.png",
+          "sha256": "4a2b4081c1dae5614b3aa173b655a27885974650f0920a978d95bb2be39b6b57"
+        },
+        {
+          "sourceFrame": 39,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0039.png",
+          "sha256": "f42bbcaffad4c99370597d97d42382b2f8b7aa9d83b553eb404a5564a6924c50"
+        },
+        {
+          "sourceFrame": 41,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0041.png",
+          "sha256": "3c0ced628f3afdc67d672f29a37950f0f6101870a99ae5da3f2eea1a389ffb79"
+        },
+        {
+          "sourceFrame": 43,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0043.png",
+          "sha256": "f6fa2d103cec26e32f0c0c177f75d08f89503ec60c499f4b3461c7b1fddb9c23"
+        },
+        {
+          "sourceFrame": 45,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0045.png",
+          "sha256": "070df9a9f26ca8d91c9233c6ac3e35c18b0ff01854c91ce1c11073bbffa381c9"
+        },
+        {
+          "sourceFrame": 47,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0047.png",
+          "sha256": "4393b40a49871578c53c4f83fa7ccffbaae16cfc1f775a9a975c6d5ea327b2c2"
+        },
+        {
+          "sourceFrame": 49,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0049.png",
+          "sha256": "153a030e8234b8dbbc80128c788a821825b5f566cb99bbe349caba50fb9068b4"
+        },
+        {
+          "sourceFrame": 51,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0051.png",
+          "sha256": "c368c4f87b99dfeb08c208e6d9675117987035b6ca04757c6acc5a9b16a5fde6"
+        },
+        {
+          "sourceFrame": 53,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0053.png",
+          "sha256": "bbf582ac192cd378f4eeb835633b620de97a6e1a11e86f93b88f249d2c77ff58"
+        },
+        {
+          "sourceFrame": 55,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0055.png",
+          "sha256": "b0910abc88cfeecc99c12176113038839e1aaba0bbd35efc034fb35390baa6ec"
+        },
+        {
+          "sourceFrame": 57,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0057.png",
+          "sha256": "6d272d0d8400f29e5ee6027eaea2097d2c79b006af749f01f3e3fd199fb43a40"
+        },
+        {
+          "sourceFrame": 59,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0059.png",
+          "sha256": "d46ec439b7ce69325c1541d86a8e2a8106f93a3558addd39dd88645df9133ede"
+        },
+        {
+          "sourceFrame": 61,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0061.png",
+          "sha256": "cdcef4bc3432f93caa10d11a06108258c2633872ab00419be99b87ba3d99fb03"
+        },
+        {
+          "sourceFrame": 63,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0063.png",
+          "sha256": "83acf37518cf2256a06e34a076ed356d8d223ae84aec1d0794566bd0bc9fdbad"
+        },
+        {
+          "sourceFrame": 65,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0065.png",
+          "sha256": "2ab7fc24ef2ce5edeb5d35fb8f74dde9043b1dc57bf91d217e474742e8d021b1"
+        },
+        {
+          "sourceFrame": 67,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0067.png",
+          "sha256": "a0c42cd47e2f0dc6da7291a2684bfff4615977b9592f2f7937d244a87cc82b55"
+        },
+        {
+          "sourceFrame": 69,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0069.png",
+          "sha256": "ca2d85b93823a9b4bdbe53703e588d82ae63bce6cf25ca62f55e4206f32935fe"
+        },
+        {
+          "sourceFrame": 71,
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0071.png",
+          "sha256": "798629fc0239ff82835f00ee868139fe4c90a0221e1df724b5f7210c5cecb926"
+        }
+      ],
+      "generation": "No new image generation; reuses the previously approved pilot images, with exact 24-to-12 fps sampling or local interpolation."
+    },
+    {
+      "id": "pec-deck",
+      "sourceKind": "decimated-png-loop",
+      "promptFiles": [],
+      "sourceReview": "Existing 24-fps sequence approved by root for direct 12-fps odd-frame sampling. No new frame interpolation or generated human art.",
+      "sheet": "dist/assets/animations-pec-deck-v5/manifest.json",
+      "sheetSha256": "d90e8f028637fb992d681a57585041c692924c853974e322c664023caf5a472a",
+      "sourceFrames": [
+        {
+          "sourceFrame": 1,
+          "file": "output/pec-deck-v5/frames/frame_0001.png",
+          "sha256": "f7c962f06b03c4ec8a454507e9d42c8ef82091db3ea68d18be9e58c46579fd3a"
+        },
+        {
+          "sourceFrame": 3,
+          "file": "output/pec-deck-v5/frames/frame_0003.png",
+          "sha256": "3d3c8d12669fc218db934b889d77dce46a733bd1f5b1b7da8848191c2d349303"
+        },
+        {
+          "sourceFrame": 5,
+          "file": "output/pec-deck-v5/frames/frame_0005.png",
+          "sha256": "ba2a17cd98d36e455d574ffe993a6e1826ed786ad5e4043cd111152142169eb6"
+        },
+        {
+          "sourceFrame": 7,
+          "file": "output/pec-deck-v5/frames/frame_0007.png",
+          "sha256": "b08f74d1650be2814e78f00f3f1e7282e4ee7b62877f6a7166883a12574c0212"
+        },
+        {
+          "sourceFrame": 9,
+          "file": "output/pec-deck-v5/frames/frame_0009.png",
+          "sha256": "c48b1d9cdf61f23c3b5c73b10d85068dc10512c01d831f6df58744f1dafd4956"
+        },
+        {
+          "sourceFrame": 11,
+          "file": "output/pec-deck-v5/frames/frame_0011.png",
+          "sha256": "1fb25b6302cf4244f7b159ef066aac84bd99a5d1680b053bb36c18da7d1e5c52"
+        },
+        {
+          "sourceFrame": 13,
+          "file": "output/pec-deck-v5/frames/frame_0013.png",
+          "sha256": "d8e73717a8ca29bfb22ec2fbabcb2d8d2dc016228943038331a38bb85f69a9d7"
+        },
+        {
+          "sourceFrame": 15,
+          "file": "output/pec-deck-v5/frames/frame_0015.png",
+          "sha256": "b78176cb24aca0e34851b0498b33464ce512d86b5ac8141e7f42d5b7a9b24ef8"
+        },
+        {
+          "sourceFrame": 17,
+          "file": "output/pec-deck-v5/frames/frame_0017.png",
+          "sha256": "3ca8a5a9e65141ec7024d5e6172a2812f0f015422b4df4a547518ff880fd65d3"
+        },
+        {
+          "sourceFrame": 19,
+          "file": "output/pec-deck-v5/frames/frame_0019.png",
+          "sha256": "98b990edf51a645bde057df6cf20343da865a4c1cedba9a528376c0ab95758f7"
+        },
+        {
+          "sourceFrame": 21,
+          "file": "output/pec-deck-v5/frames/frame_0021.png",
+          "sha256": "1c900a6c70ce6a818464770955fcbb7d5756bdb7e3fe9b616b93d80cfd305e43"
+        },
+        {
+          "sourceFrame": 23,
+          "file": "output/pec-deck-v5/frames/frame_0023.png",
+          "sha256": "41467b1fb7f296eeaf2d5f872e3030d35f3be5a3b8345a7b0ffe7ec19017b031"
+        },
+        {
+          "sourceFrame": 25,
+          "file": "output/pec-deck-v5/frames/frame_0025.png",
+          "sha256": "c936b87657afaa8331ec7c9f09cfeb69866f0804657c4927bf14e6c3545f3cf4"
+        },
+        {
+          "sourceFrame": 27,
+          "file": "output/pec-deck-v5/frames/frame_0027.png",
+          "sha256": "ffd4f5e8048d51cec512b328cdf6b9993e750d69d84bb720781a497d7a6aced8"
+        },
+        {
+          "sourceFrame": 29,
+          "file": "output/pec-deck-v5/frames/frame_0029.png",
+          "sha256": "c41b2e220bffc71625bdf7f0c2d8c2a91704bb7e4bcf63b779a42deafdb0f2ad"
+        },
+        {
+          "sourceFrame": 31,
+          "file": "output/pec-deck-v5/frames/frame_0031.png",
+          "sha256": "eb72765483a48ada5827a79ee6454684c0fed690295bb02eda3d773ba8fc3e26"
+        },
+        {
+          "sourceFrame": 33,
+          "file": "output/pec-deck-v5/frames/frame_0033.png",
+          "sha256": "48386663c4f9e251fd9e5edabd74ec4db23c49865a3f320e81bd4240368bc1bf"
+        },
+        {
+          "sourceFrame": 35,
+          "file": "output/pec-deck-v5/frames/frame_0035.png",
+          "sha256": "1da85ff42c0e28b0832071e08b10befbe6a22720ae62106a8702d085607638fa"
+        },
+        {
+          "sourceFrame": 37,
+          "file": "output/pec-deck-v5/frames/frame_0037.png",
+          "sha256": "df3b4cbca39ebdd8ccad45de76983ce4907fc8c511447cbdaed863142433b325"
+        },
+        {
+          "sourceFrame": 39,
+          "file": "output/pec-deck-v5/frames/frame_0039.png",
+          "sha256": "1da85ff42c0e28b0832071e08b10befbe6a22720ae62106a8702d085607638fa"
+        },
+        {
+          "sourceFrame": 41,
+          "file": "output/pec-deck-v5/frames/frame_0041.png",
+          "sha256": "48386663c4f9e251fd9e5edabd74ec4db23c49865a3f320e81bd4240368bc1bf"
+        },
+        {
+          "sourceFrame": 43,
+          "file": "output/pec-deck-v5/frames/frame_0043.png",
+          "sha256": "eb72765483a48ada5827a79ee6454684c0fed690295bb02eda3d773ba8fc3e26"
+        },
+        {
+          "sourceFrame": 45,
+          "file": "output/pec-deck-v5/frames/frame_0045.png",
+          "sha256": "c41b2e220bffc71625bdf7f0c2d8c2a91704bb7e4bcf63b779a42deafdb0f2ad"
+        },
+        {
+          "sourceFrame": 47,
+          "file": "output/pec-deck-v5/frames/frame_0047.png",
+          "sha256": "ffd4f5e8048d51cec512b328cdf6b9993e750d69d84bb720781a497d7a6aced8"
+        },
+        {
+          "sourceFrame": 49,
+          "file": "output/pec-deck-v5/frames/frame_0049.png",
+          "sha256": "c936b87657afaa8331ec7c9f09cfeb69866f0804657c4927bf14e6c3545f3cf4"
+        },
+        {
+          "sourceFrame": 51,
+          "file": "output/pec-deck-v5/frames/frame_0051.png",
+          "sha256": "41467b1fb7f296eeaf2d5f872e3030d35f3be5a3b8345a7b0ffe7ec19017b031"
+        },
+        {
+          "sourceFrame": 53,
+          "file": "output/pec-deck-v5/frames/frame_0053.png",
+          "sha256": "1c900a6c70ce6a818464770955fcbb7d5756bdb7e3fe9b616b93d80cfd305e43"
+        },
+        {
+          "sourceFrame": 55,
+          "file": "output/pec-deck-v5/frames/frame_0055.png",
+          "sha256": "98b990edf51a645bde057df6cf20343da865a4c1cedba9a528376c0ab95758f7"
+        },
+        {
+          "sourceFrame": 57,
+          "file": "output/pec-deck-v5/frames/frame_0057.png",
+          "sha256": "3ca8a5a9e65141ec7024d5e6172a2812f0f015422b4df4a547518ff880fd65d3"
+        },
+        {
+          "sourceFrame": 59,
+          "file": "output/pec-deck-v5/frames/frame_0059.png",
+          "sha256": "b78176cb24aca0e34851b0498b33464ce512d86b5ac8141e7f42d5b7a9b24ef8"
+        },
+        {
+          "sourceFrame": 61,
+          "file": "output/pec-deck-v5/frames/frame_0061.png",
+          "sha256": "d8e73717a8ca29bfb22ec2fbabcb2d8d2dc016228943038331a38bb85f69a9d7"
+        },
+        {
+          "sourceFrame": 63,
+          "file": "output/pec-deck-v5/frames/frame_0063.png",
+          "sha256": "1fb25b6302cf4244f7b159ef066aac84bd99a5d1680b053bb36c18da7d1e5c52"
+        },
+        {
+          "sourceFrame": 65,
+          "file": "output/pec-deck-v5/frames/frame_0065.png",
+          "sha256": "c48b1d9cdf61f23c3b5c73b10d85068dc10512c01d831f6df58744f1dafd4956"
+        },
+        {
+          "sourceFrame": 67,
+          "file": "output/pec-deck-v5/frames/frame_0067.png",
+          "sha256": "b08f74d1650be2814e78f00f3f1e7282e4ee7b62877f6a7166883a12574c0212"
+        },
+        {
+          "sourceFrame": 69,
+          "file": "output/pec-deck-v5/frames/frame_0069.png",
+          "sha256": "ba2a17cd98d36e455d574ffe993a6e1826ed786ad5e4043cd111152142169eb6"
+        },
+        {
+          "sourceFrame": 71,
+          "file": "output/pec-deck-v5/frames/frame_0071.png",
+          "sha256": "3d3c8d12669fc218db934b889d77dce46a733bd1f5b1b7da8848191c2d349303"
+        }
+      ],
+      "generation": "No new image generation; reuses the previously approved pilot images, with exact 24-to-12 fps sampling or local interpolation."
+    }
+  ]
+}

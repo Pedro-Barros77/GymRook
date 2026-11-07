@@ -1,59 +1,64 @@
 # Estado das demonstrações
 
-Atualização editorial: 7 de novembro de 2026.
+Atualização: 7 de novembro de 2026.
 
 ## Seleção ativa
 
-Os quatro movimentos piloto são supino inclinado com halteres, crucifixo na máquina (voador), flexão de braços e rosca inversa na polia. São ilustrações geradas; permanecem em revisão técnica e não certificam anatomia, contato físico ou execução.
+Os **31 exercícios** têm MP4 a **12 fps**, GIF de compatibilidade e pôster. O ciclo normal tem 36 quadros em três segundos; o afundo alternado tem 48 quadros em quatro segundos. A prancha é uma sustentação estável: vídeo com 36 quadros iguais e GIF com uma imagem de 3.000 ms. A interface identifica a isometria.
 
-O crucifixo usa a **v5**, com MP4 como mídia principal e GIF de compatibilidade: 72 quadros, 24 fps e ciclo de três segundos. O detalhe oferece **Ver versão anterior** para consultar o GIF v4 preservado, também de 72 quadros; a v3 permanece em disco. Os outros três pilotos mantêm seus GIFs coloridos de 16 quadros; a rosca inversa também oferece o teste opcional **Testar versão suavizada**, com retorno ao original.
+A revisão atual publica 18 conjuntos em `dist/assets/animations-v2/`; os outros 13 conjuntos aprovados continuam em `animations-d-v1` e `animations-bc-v1`. As versões antigas a 24 fps continuam preservadas em disco, sem aparecer como seleções atuais.
 
-## Crucifixo v4: base preservada
+## Alterações desta revisão
 
-A montagem usa 15 poses em resolução integral na diagonal aprovada, listadas em [landmarks.json](generated-frames-v4/pec-deck/landmarks.json). As poses são estabilizadas globalmente e a distribuição temporal considera as duas mãos. Practical-RIFE 4.25 em CPU, escala 1, interpola a ida; somente o primeiro intervalo usa FILM com midpoints recursivos, para evitar a duplicação do pegador. O quadro 19 recebe uma correção gerada por imagem, limitada a uma faixa de 25 × 80 px na borda da alavanca. A volta copia os quadros em ordem espelhada, incluindo essa correção. A saída compreende 72 PNGs, MP4 e GIF a 24 fps, em três segundos.
+| Pedido | Resultado |
+| --- | --- |
+| Flexora: perna crescendo no alto | Novas poses em perfil, medidas nas próprias imagens; fêmur e tíbia acompanhados. Quadril apoiado, rolo e alavanca seguem o joelho fixo. |
+| Stiff: distorção de pernas/quadril no fundo | Nova sequência em perfil, com pés plantados, flexão suave dos joelhos e amplitude controlada pelo quadril. |
+| Afundo: salto no fechamento | Mesma referência em pé nas chaves 0, 8 e 15; o retorno do pé chega à postura inicial e mantém uma breve pausa antes de recomeçar. |
+| Lateral: cotovelos travados | Novas poses com flexão visível durante todo o trajeto. |
+| Crucifixo inverso: orientação e braços | Banco alinhado à máquina, vista posterior elevada, abertura dos dois braços juntos e torre afastada da área de passagem das mãos/alavancas. |
+| Panturrilha no degrau | Substituída por panturrilha sentada em máquina com anilhas; texto, equipamento, combinação e mapa muscular atualizados. O mapa destaca sóleo principal e gastrocnêmio secundário. |
+| Remada unilateral com ferragens móveis | Substituída por remada unilateral sentada na polia baixa, com cabo de aço e pegador individual. |
+| Abdominal: banco móvel e pesos deformando | Assento e encosto vertical fixos; o apoio frontal acompanha a flexão. A torre tem proteção opaca, como no aparelho ilustrado, sem placas expostas se multiplicando. |
+| Completar A e reduzir FPS | Crossover, rosca na polia, Scott, supra, infra e prancha acrescentados. Os quatro pilotos anteriores passam para 12 fps. |
 
-Para manter quantidade e textura fixas das placas, a montagem reutiliza o mesmo sprite de nove placas da pose 08 sobre o fundo vazio gerado `tower-clean`. O script monta essa composição; não usa o corpo da tentativa Blender. Interpolação pode introduzir deformações, especialmente em oclusões, e não é validação da execução.
+A panturrilha sentada usa duas referências geradas e revisadas, em vez de nove poses com variações de anatomia. A segunda referência foi ajustada para que joelho e tornozelo subissem juntos, mantendo o antepé no apoio. O pivô traseiro fica fixo; almofada e anilha sobem na mesma alavanca.
 
-- Fontes: [poses e configuração](generated-frames-v4/pec-deck/); [prompts iniciais](prompts/pec-deck-v4.json), [adicionais](prompts/pec-deck-v4-additional.json) e [correção da borda](prompts/pec-deck-v4-edge-repair.json). Todas as gerações usaram o `image_gen` integrado.
-- Montagem: `python scripts/build-pec-deck-v4.py --config docs/generated-frames-v4/pec-deck/landmarks.json --film-intervals 0`.
-- Saída: [mídia v4](../dist/assets/animations-pec-deck-v4/); [auditoria e revisão](pec-deck-v4-review.md).
-- A v3 permanece em `dist/assets/animations/pec-deck-v3.gif` e `pec-deck-v3-poster.webp`; suas fontes e revisão anteriores estão em `docs/generated-frames-v3/` e `docs/pec-deck-perspective-review-20261107.md`.
+O supra faz uma flexão curta do tronco, o infra mostra uma pequena elevação da pelve com joelhos dobrados, e a prancha mantém a postura. Não se acrescentou acompanhamento de carga, histórico ou progresso.
 
-Practical-RIFE 4.25 é o backend padrão do script. O backend anterior pode ser escolhido explicitamente com `--backend rife-ncnn-v4.6`. A primeira tentativa com sete poses e RIFE NCNN foi rejeitada por imagens fantasma e arquivada em `output/pec-deck-v4-rife-rejected/`.
+## Fontes, montagem e revisão
 
-Embora uma revisão anterior da v4 tenha aprovado correções de duplicações e oclusão, a v4 foi posteriormente reprovada quanto à continuidade estrutural do aparelho: a coluna desaparecia em parte da sequência e as alavancas mudavam de perfil. Essa distinção está na [auditoria](pec-deck-v5-review.md).
+O `image_gen` integrado produziu as novas ilustrações. Cada pasta em [generated-frames-v2-fixes](generated-frames-v2-fixes/) preserva os prompts e as versões geradas. A [configuração](generated-frames-v2-fixes/config.json) e o [relatório de montagem](final-animations-build.json) registram recortes, fontes, hashes e tempos.
 
-## Crucifixo v5: correção estrutural
+`scripts/build-final-animations.py` reutiliza os mecanismos D/B+C sem modificá-los. `prepareReady` libera somente a extração; `motionReady` exige revisão das fontes. A interpolação local usa Practical-RIFE 4.25, com registro por translação em regiões fixas. A volta normal reutiliza os 17 quadros interiores em ordem inversa; não há espelhamento lateral da imagem. A conversão dos dois ciclos antigos de 72 quadros usa exatamente os quadros ímpares para manter três segundos a 12 fps.
 
-A v5 substitui a coluna que desaparecia nos quadros 11–14 por uma coluna canônica fixa. As alavancas do aparelho usam a mesma malha rígida 3D em toda a ida, com material prateado derivado da fonte; o conector preto acompanha o eixo da haste. O corpo e o movimento são mantidos da v4: 37 quadros de ida e 35 espelhados, em 72 quadros a 24 fps. Limpezas RGBA seletivas removem a silhueta metálica antiga e harmonizam apenas fundo ou pele antes ocluídos. Uma remoção antisserrilhada de até dois pixels fica restrita ao suporte fixo. A partir de `y=164`, os pixels permanecem idênticos à v4; não há novos quadros humanos nem deformação da geometria do corpo.
+As revisões cruzadas incluem:
+- [fontes da ficha A](generated-frames-v2-fixes/cross-review-leg-agent.json);
+- [pernas e emendas](generated-frames-v2-fixes/qa-leg-temporal.json);
+- [remada, abdominal e novos movimentos A](generated-frames-v2-fixes/upper-independent-motion-review.json);
+- medidas e sobreposições nos diretórios de cada exercício;
+- [resumo desta revisão](final-animations-review.md).
 
-A [revisão visual independente](pec-deck-v5-review.md) aprovou a correção após examinar 37 quadros canônicos e 36 sobreposições entre quadros vizinhos. Isso não certifica anatomia, contato físico ou execução. A edição limpa da estrutura foi feita uma vez com o `image_gen` integrado: [fontes](generated-frames-v5/pec-deck/) e [prompt](prompts/pec-deck-v5-structure.json). A mídia usa nomes `pec-deck.*` em `dist/assets/animations-pec-deck-v5/`.
+As medidas são estimativas manuais de projeções 2D nos próprios arquivos, com SHA e incerteza. Elas não provam comprimentos 3D ou ângulos anatômicos exatos. No Scott há um pequeno deslocamento aparente do centro do cotovelo ao longo do apoio, cerca de 15 px com incerteza de 8 px por oclusão; o contato do braço com o apoio permanece visível, sem deformação ou duplicação evidente. Isso foi registrado e aceito para este piloto ilustrativo.
 
-Para reproduzir a montagem com as fontes e o backup preservados:
+## Verificação e uso offline
 
 ```sh
-python scripts/prepare-pec-deck-v5-plate.py
-python scripts/prepare-pec-deck-v5-cleanups.py
-python scripts/render-pec-deck-rigid-levers.py
-python scripts/build-pec-deck-v5.py
+python scripts/verify-final-animations.py
+npm run build
+npm run check
 ```
 
-O renderizador usa por padrão os ajustes registrados do eixo das hastes. As máscaras efetivas ficam em `docs/generated-frames-v5/pec-deck/effective-tower-masks/`. Não se substitui a área superior inteira da cabeça por um retângulo: essa abordagem foi rejeitada por criar uma emenda de exposição.
+O verificador dos 18 conjuntos confere os PNGs e entradas congelados, decodifica integralmente MP4 H.264/yuv420p de 512 × 512 a 12 fps, confere GIFs, duração, loop, pôsteres e integridade. Os tipos de ciclo, decimação e isometria têm regras próprias. Essas verificações não aprovam biomecânica.
 
-A v4 anterior à alteração estrutural foi preservada e verificada em `backups/pec-deck-v4-before-structure-20261107/` (173 arquivos, cerca de 111 MB). Uma tentativa anterior baseada em uma faixa de painel foi rejeitada e preservada no backup do projeto.
+A suíte Node verifica os 31 exercícios, cards, mapas, navegação, reprodução manual e operações offline, incluindo requisições Range. A interface foi verificada em DOM em memória; não houve teste desta revisão em telefone real.
 
-## Rosca inversa: teste opcional
+O build e o check final passaram: **179 arquivos, 156,36 MiB e versão `fa4a7521fef8d86c`**. O verificador de mídia passou em **18/18**; os 31 vídeos também responderam corretamente às requisições Range em HTTP local, e os 31 pôsteres responderam a HEAD. O arquivo `asset-manifest.json` registra 163.957.200 bytes. Após publicar, abra o guia com conexão e refaça o download offline para obter a revisão completa.
 
-O teste mantém as nove poses ascendentes da folha gerada, estabilizadas por detalhes fixos da torre. A altura visual da barra redistribui o tempo e RIFE-v4.6 interpola os instantes intermediários; a volta reutiliza os quadros interiores em ordem inversa. O ciclo tem 72 quadros em três segundos a 24 fps. O GIF original continua como seleção inicial.
+## Preservação
 
-Fontes e relatórios locais: `output/generated-motion/reverse-cable-curl/`; mídias de comparação: `dist/assets/animations-interpolated/`; scripts: `scripts/prepare-generated-motion.py`, `scripts/interpolate-generated.py` e `scripts/verify-generated-motion.py`.
+O snapshot `backups/visual-v1-before-fixes-20261107/` tem manifesto SHA-256 e preserva 2.862 arquivos anteriores, incluindo mídias, fontes, scripts, configurações e PNGs. `scripts/verify-visual-backup.py` confere o arquivo e a preservação dos originais por escopo. Novas fontes rejeitadas também ficaram versionadas nas pastas de trabalho.
 
-## Preservação e limites
+As revisões [D v1](leg-animations-v1-review.md), [B v1](bc-animations-v1-review-b.md), [C v1](bc-animations-v1-review-c.md) e [voador v5](pec-deck-v5-review.md) registram o histórico anterior. As aprovações históricas não se sobrepõem às correções solicitadas agora.
 
-O snapshot `backups/2d-v2-20261106/` preserva as versões anteriores com manifesto SHA-256. Fontes e prompts das primeiras versões permanecem em `docs/generated-frames/`, `docs/generated-frames-v2/` e `docs/prompts/`.
-
-A tentativa Blender foi rejeitada por problemas de anatomia, contato e fidelidade à execução. Cenas e documentação foram preservadas, e suas mídias foram arquivadas fora da pasta publicada em `backups/3d-trial-20261106/animations-3d/`; ela não é oferecida como alternativa na interface.
-
-Na v4, `scripts/verify-3d.py`, `npm run build` e `npm run check` passaram; esses testes de arquivos e interface não detectaram os problemas estruturais identificados depois. Para a v5, a codificação e `scripts/verify-3d.py` passaram: MP4 H.264/yuv420p de 512 × 512, 72 quadros a 24 fps em três segundos; GIF de 72 quadros, loop contínuo e duração de 3.000 ms (60 quadros de 40 ms e 12 de 50 ms); e pôster WebP de 512 × 512. O digest dos PNGs corresponde à revisão congelada (`f80dd9538e59e20105b05d915fbe7409272c5261e0614044f07bd0bf3b428d56`), e quatro arquivos da v4 continuam idênticos. A verificação de movimento confirmou ainda 16 arquivos originais preservados.
-
-`npm run build` e `npm run check` passaram: 59 arquivos, 27,80 MB, cache `becf6b95b6040fef`, 31 movimentos e quatro pilotos verificados, além de interface em DOM em memória e operações offline. Em HTTP local na porta 4173, a página respondeu 200 e uma requisição Range ao novo MP4 respondeu 206 com 1.024 bytes. A revisão visual está descrita acima; não houve teste de layout em navegador real ou em telefone. Controles, contagem, continuidade ou cache não certificam anatomia nem execução correta.
+A tentativa de corpo Blender permanece arquivada em `backups/3d-trial-20261106/` e não é oferecida na interface.

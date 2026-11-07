@@ -1,0 +1,24 @@
+{
+  "id": "seated-cable-row",
+  "generationMode": "built-in image_gen",
+  "intent": "generate",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE contact sheet for an exercise animation: EXACTLY 3 columns by 3 rows, nine equally sized SQUARE cells, read left-to-right then top-to-bottom as consecutive keyframes of ONLY ONE phase of motion. No cell borders, no gutters, no labels, no numbers, no text, no motion arrows, no watermarks. Image1 is CHARACTER AND ART STYLE reference only: the same adult muscular man with warm natural skin, short dark hair, well-defined anatomy, black shorts and black shoes; do not copy that chest exercise. Image2 is the equipment/action reference. Maintain same character identity, pose-independent body proportions, skin color, surface detail and realistic colored illustration across all nine. Minimal warm off-white background and floor. The camera, lens, scale, framing, lighting and stationary scene must stay LOCKED in every cell. Entire body and machine fit each cell with the same generous margins. The machine is ONE RIGID consistent object, not nine variants. Fixed frame/base/supports/tower/pivots never change shape or position and never disappear. Levers only rotate on their actual hinges; grips remain attached to the same levers; all cables remain physically connected and taut. Hands retain grips, joints bend anatomically, feet/chest remain in correct contact with supports. Avoid duplicated limbs, hand/weight penetration, shifting clothing and changing metal texture. Keep shoulders/neck controlled. EXERCISE: SEATED LOW CABLE ROW with TWO HANDS on a small metal V-handle/close neutral-grip triangle attachment. Three-quarter side view: man faces diagonally image-right toward a low cable station. Both feet firmly on the fixed angled footplate, knees softly bent at one constant angle, hips on the bench. Neutral spine, torso upright, chest elevated, head aligned. Pose1 arms reaching forward almost extended while torso stays upright; do not round low back or lean forward. Across poses2..8 bend elbows progressively and bring the SAME two-handed V handle toward the abdomen. Pose9 handle reaches low abdomen, elbows beside torso and drawn slightly behind, forearms aligned with cable; no shrugging. Both hands remain wrapped around the SAME two sides of the V-handle, no changing attachment or grip. The cable remains one taut physically continuous line from the V-handle to the fixed LOW PULLEY ahead of feet, and selected stack block rises as handle pulls toward body. Fixed tower/rods, bench, footplate, frame, shoe contacts, pelvis/head/torso stay the same. No knee extension or torso rocking; this is an arm/scapular pull, not a leg press. No extra feet or wrists, no handle through abdomen. Nine chronological PULL poses ONLY from reach to contraction, no return sequence.",
+  "references": [
+    {
+      "path": "docs/generated-frames-v4/pec-deck/pose-00.png",
+      "role": "character and art style"
+    },
+    {
+      "path": "dist/assets/thumbnails/seated-cable-row.webp",
+      "role": "equipment and action reference"
+    }
+  ],
+  "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b715-116a-7270-8b2e-aec09b7e4988\\exec-45968f29-dba4-4427-bd6b-f77ba484b8b1.png",
+  "grid": [
+    3,
+    3
+  ],
+  "rowMajor": true,
+  "poses": 9,
+  "phase": "outward only"
+}

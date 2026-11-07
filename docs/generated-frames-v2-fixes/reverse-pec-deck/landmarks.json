@@ -1,0 +1,223 @@
+{
+  "exerciseId": "reverse-pec-deck",
+  "coordinateSpace": "actual-raster-512-pixels",
+  "reviewer": "fix_upper manual actual pipeline-anchor review",
+  "projectionNotes": "Both arms rear/elevated camera. First arms strongly foreshortened toward machine, source comparison with known physical20degree guide predicts projected38\u00e2\u2020\u201916\u00e2\u2020\u201910degrees vs measured\u00e2\u2030\u02c646/41\u00e2\u2020\u201923/19\u00e2\u2020\u201912/7. Joint-center uncertainty\u00c2\u00b14px is large relative to first projected27px upperarm. Exact physical bend cannot be certified from bitmap.",
+  "poses": [
+    {
+      "file": "output/final-animations/reverse-pec-deck/anchors/anchor_00.png",
+      "sha256": "a121f7dc173ad2c407296169710049084b687731baabd5ce59988f833d8a5d87",
+      "points": {
+        "shoulderLeft": [
+          151,
+          207
+        ],
+        "elbowLeft": [
+          138,
+          183
+        ],
+        "wristLeft": [
+          145,
+          161
+        ],
+        "shoulderRight": [
+          215,
+          207
+        ],
+        "elbowRight": [
+          228,
+          183
+        ],
+        "wristRight": [
+          223,
+          161
+        ],
+        "hip": [
+          163,
+          294
+        ],
+        "knee": [
+          122,
+          325
+        ],
+        "ankle": [
+          112,
+          397
+        ],
+        "towerBase": [
+          423,
+          372
+        ],
+        "seatFoot": [
+          184,
+          421
+        ]
+      },
+      "visibilityNotes": "Both arms rear/elevated camera. First arms strongly foreshortened toward machine, source comparison with known physical20degree guide predicts projected38\u00e2\u2020\u201916\u00e2\u2020\u201910degrees vs measured\u00e2\u2030\u02c646/41\u00e2\u2020\u201923/19\u00e2\u2020\u201912/7. Joint-center uncertainty\u00c2\u00b14px is large relative to first projected27px upperarm. Exact physical bend cannot be certified from bitmap."
+    },
+    {
+      "file": "output/final-animations/reverse-pec-deck/anchors/anchor_04.png",
+      "sha256": "0c588829cf2b40c614e6d817878b9d612aa37bc7af0c36667c79ad073b7545de",
+      "points": {
+        "shoulderLeft": [
+          148,
+          212
+        ],
+        "elbowLeft": [
+          110,
+          207
+        ],
+        "wristLeft": [
+          83,
+          191
+        ],
+        "shoulderRight": [
+          213,
+          212
+        ],
+        "elbowRight": [
+          252,
+          206
+        ],
+        "wristRight": [
+          285,
+          189
+        ],
+        "hip": [
+          163,
+          294
+        ],
+        "knee": [
+          122,
+          325
+        ],
+        "ankle": [
+          112,
+          397
+        ],
+        "towerBase": [
+          423,
+          372
+        ],
+        "seatFoot": [
+          184,
+          421
+        ]
+      },
+      "visibilityNotes": "Both arms rear/elevated camera. First arms strongly foreshortened toward machine, source comparison with known physical20degree guide predicts projected38\u00e2\u2020\u201916\u00e2\u2020\u201910degrees vs measured\u00e2\u2030\u02c646/41\u00e2\u2020\u201923/19\u00e2\u2020\u201912/7. Joint-center uncertainty\u00c2\u00b14px is large relative to first projected27px upperarm. Exact physical bend cannot be certified from bitmap."
+    },
+    {
+      "file": "output/final-animations/reverse-pec-deck/anchors/anchor_08.png",
+      "sha256": "2228d296f6e1f354c382d0d2bda5cba0f53f81b8c8a5a832ac7bd209b6ba0a4e",
+      "points": {
+        "shoulderLeft": [
+          149,
+          213
+        ],
+        "elbowLeft": [
+          104,
+          215
+        ],
+        "wristLeft": [
+          56,
+          207
+        ],
+        "shoulderRight": [
+          213,
+          212
+        ],
+        "elbowRight": [
+          268,
+          211
+        ],
+        "wristRight": [
+          319,
+          204
+        ],
+        "hip": [
+          163,
+          294
+        ],
+        "knee": [
+          122,
+          325
+        ],
+        "ankle": [
+          112,
+          397
+        ],
+        "towerBase": [
+          423,
+          372
+        ],
+        "seatFoot": [
+          184,
+          421
+        ]
+      },
+      "visibilityNotes": "Both arms rear/elevated camera. First arms strongly foreshortened toward machine, source comparison with known physical20degree guide predicts projected38\u00e2\u2020\u201916\u00e2\u2020\u201910degrees vs measured\u00e2\u2030\u02c646/41\u00e2\u2020\u201923/19\u00e2\u2020\u201912/7. Joint-center uncertainty\u00c2\u00b14px is large relative to first projected27px upperarm. Exact physical bend cannot be certified from bitmap."
+    }
+  ],
+  "segments": {
+    "upperArmLeft": [
+      "shoulderLeft",
+      "elbowLeft"
+    ],
+    "forearmLeft": [
+      "elbowLeft",
+      "wristLeft"
+    ],
+    "upperArmRight": [
+      "shoulderRight",
+      "elbowRight"
+    ],
+    "forearmRight": [
+      "elbowRight",
+      "wristRight"
+    ],
+    "thigh": [
+      "hip",
+      "knee"
+    ],
+    "lowerLeg": [
+      "knee",
+      "ankle"
+    ]
+  },
+  "ratios": {
+    "forearmToUpperArmLeft": [
+      "forearmLeft",
+      "upperArmLeft"
+    ],
+    "forearmToUpperArmRight": [
+      "forearmRight",
+      "upperArmRight"
+    ],
+    "lowerLegToThigh": [
+      "lowerLeg",
+      "thigh"
+    ]
+  },
+  "angles": {
+    "elbowLeft": [
+      "shoulderLeft",
+      "elbowLeft",
+      "wristLeft"
+    ],
+    "elbowRight": [
+      "shoulderRight",
+      "elbowRight",
+      "wristRight"
+    ],
+    "knee": [
+      "hip",
+      "knee",
+      "ankle"
+    ]
+  },
+  "fixedPoints": [
+    "towerBase",
+    "seatFoot"
+  ],
+  "reviewVerdict": "PASS visual canonical19 +18onions; no visible extra limbs, no gross anatomical distortion or machine clipping. Projection limits remain."
+}

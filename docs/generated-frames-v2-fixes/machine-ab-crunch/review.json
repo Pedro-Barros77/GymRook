@@ -1,0 +1,30 @@
+{
+  "exerciseId": "machine-ab-crunch",
+  "status": "motion-reviewed-pass",
+  "selected": "sheet.png",
+  "sourceFramesReviewed": 9,
+  "counts": {
+    "arms": 2,
+    "hands": 2,
+    "legs": 2,
+    "feet": 2
+  },
+  "checks": {
+    "backrest": "Vertical backrest remains at constant orientation and fixed height behind moving upper back in all nine poses.",
+    "seat": "Pelvis remains seated; seat/chassis/feet stay fixed.",
+    "resistance": "Opaque tower hides internal resistance; no stretching/multiplication of exposed plates.",
+    "motion": "Chest pad and handles move forward/down while upper trunk curls toward pelvis. No chair movement.",
+    "geometry": "Exactly two human arms/hands and legs/feet, no obvious length distortions."
+  },
+  "limitations": [
+    "Visual source review only; final interpolated motion still requires review."
+  ],
+  "motionReview": {
+    "reviewer": "fix_upper independent manual review",
+    "forwardFramesReviewed": 19,
+    "adjacentOnionPairsReviewed": 18,
+    "landmarks": "landmarks.json",
+    "geometryAudit": "geometry-audit.json",
+    "verdict": "PASS visual: two arms/hands/legs, stable apparatus, continuous contacts, no visible generated ghosts or gross limb growth; projection limits stated in landmarks."
+  }
+}

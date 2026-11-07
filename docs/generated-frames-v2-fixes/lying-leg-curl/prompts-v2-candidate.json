@@ -1,0 +1,23 @@
+{
+  "mode": "builtin-image_gen",
+  "intent": "edit",
+  "useCase": "sketch-to-render",
+  "grid": [
+    3,
+    3
+  ],
+  "sourceAsset": "docs/generated-frames-v2-fixes/lying-leg-curl/sheet-v2-candidate.png",
+  "generatedImagePath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b7a9-cd05-7d42-aaf1-58b2a0fe7c23\\exec-6668a93f-a710-419a-bfd3-9e95e9c8219b.png",
+  "prompt": "Use case: sketch-to-render, anatomical exercise animation source sheet.\nEDIT INPUT IMAGE 1, the 3x3 geometric pose guide. Keep its STRICT SIDE PROFILE camera, exact joint centers, exact constant bone lengths, nine distinct pose angles, machine/bench frame positions and layout. Replace the schematic colored sticks with a finished REALISTIC MUSCULAR HUMAN and the gray line machine with a realistic gray steel gym machine. Input image 2 is ONLY the character's skin, clothes and muscle-rendering style. DO NOT copy image2's camera or machine. Do not use any previous prone-curl picture.\nNine equal square cells, 3x3 row-major, no gutters or numbers. Same tan shirtless muscular man with charcoal shorts and black shoes, lies prone HEAD RIGHT and FEET LEFT on fixed flat padded bench. STRICT PROFILE (no visible width perspective to torso/legs); left thigh and left shin full projected length. Upper body, thighs, hip, knees identical across ALL cells. Only the shins/feet rotate UP around the SAME KNEE POINT. Follow EXACT guide lengths: within each 418px cell, knee=(140,235), hip=(228,228), shoulder=(315,218). Shin knee-to-ankle length=86px in every pose, NEVER larger. Ankle positions across 9 cells: (54,235), (56,216), (62,199), (72,183), (85,169), (100,159), (118,152), (136,149), (155,150). Foot heel-to-toe length=25px constant, rigidly rotates with shin. Camera orthographic side-on makes all limb lengths invariant. DO NOT inflate calves, extend feet or lengthen the tibia at the top. Near and far leg overlap with only a small offset. Anatomical muscular contours remain realistic and constant in scale.\nKeep bench horizontal fixed at y255 and its legs/base/tower stationary. One rigid lever rotates from the SAME knee-axis to the same spot above ankle, constant radius, gray metal NEVER bends or stretches. The black roller keeps constant size. Enclose the pulley in a fixed black opaque tower shroud, with a small window showing ONE BLOCK of EIGHT identical plates lifting as a rigid block with space below, never multiplying. Machine must remain proportional to human exactly as guide. Hands hold stationary front handles. Chest and hips stay on pad. Neck neutral. Full equipment visible with margins.\nSame clean off-white background and fixed soft shading all nine poses. The main purpose is CORRECT CONSTANT ANATOMY in a frozen side-profile camera. Render art, no overlay skeleton, no labels, no watermark.",
+  "references": [
+    {
+      "role": "edit target / exact pose guide",
+      "path": "docs/generated-frames-v2-fixes/lying-leg-curl/reference-geometry.png"
+    },
+    {
+      "role": "character rendering style only",
+      "path": "docs/generated-frames-v4/pec-deck/pose-00.png"
+    }
+  ],
+  "status": "candidate; final measurements pending"
+}

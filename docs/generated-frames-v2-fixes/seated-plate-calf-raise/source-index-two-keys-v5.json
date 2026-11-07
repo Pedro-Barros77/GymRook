@@ -1,0 +1,20 @@
+{
+  "sourceKind": "image-keyframes",
+  "reviewedKeyCount": 2,
+  "inputs": [
+    {
+      "file": "docs/generated-frames-v2-fixes/seated-plate-calf-raise/reference-first-pose.png",
+      "sha256": "8b3bbe007f3f6984c97f4d73f9c3fe8b6cc3b8df24da4dc9f945b8582a6584c6",
+      "progress": 0.0
+    },
+    {
+      "file": "docs/generated-frames-v2-fixes/seated-plate-calf-raise/endpoint-v5.png",
+      "sha256": "57315f6d3c24cc67f26de817a5422a27edc0ac73cc6e9139a974ea5677f70332",
+      "progress": 1.0
+    }
+  ],
+  "diagnosticContactSheet": "docs/generated-frames-v2-fixes/seated-plate-calf-raise/sheet-two-keyframes-v5.png",
+  "provenance": "Two actual reviewed raster inputs. Endpoint-v5 raises knee/pad while retaining foot/ankle support and fixed rear apparatus. No nine manufactured source keys. Final actual intermediate review follows interpolation.",
+  "priorStudyArchive": "backups/calf-two-key-v4-before-v5-20261107/manifest.json",
+  "authority": "Root/fix_legs released the final two-key interpolation study; source anatomical proxies and contact corrections are documented beside the PNGs."
+}

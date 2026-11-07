@@ -1,0 +1,339 @@
+{
+  "exerciseId": "dumbbell-lateral-raise",
+  "reviewer": "fix_upper manual actual pipeline-anchor review",
+  "annotationFile": "docs\\generated-frames-v2-fixes\\dumbbell-lateral-raise\\landmarks.json",
+  "annotationSha256": "0483fac1aebb47b179061acf75c744e36adb0826c653ce78df95891caea044c5",
+  "coordinateSpace": "actual-raster-512-pixels",
+  "projectionNotes": "Both arms in front20degree view. Near/far hand directions and surface occlusion change projected elbow angle. Manual shoulder/elbow/wrist centersÂ±4px, hip under shortsÂ±8px. Visible bend throughout, never a locked limb; exact physical25degrees cannot be certified from raster.",
+  "limits": "Lengths/ratios/angles are 2D projections measured manually on actual raster art. Foreshortening, occlusion and landmark uncertainty require visual interpretation. No automatic anatomy or exercise approval is inferred.",
+  "poseMeasurements": [
+    {
+      "file": "output/final-animations/dumbbell-lateral-raise/anchors/anchor_00.png",
+      "sha256": "90a5c21a1149d02f1dc9bd51791a6cb81fca51205210343e29262d037215b7a1",
+      "points": {
+        "shoulderLeft": [
+          204,
+          125
+        ],
+        "elbowLeft": [
+          177,
+          187
+        ],
+        "wristLeft": [
+          178,
+          248
+        ],
+        "shoulderRight": [
+          298,
+          124
+        ],
+        "elbowRight": [
+          316,
+          184
+        ],
+        "wristRight": [
+          326,
+          244
+        ],
+        "hip": [
+          235,
+          262
+        ],
+        "knee": [
+          218,
+          349
+        ],
+        "ankle": [
+          217,
+          447
+        ],
+        "headTop": [
+          254,
+          17
+        ],
+        "heel": [
+          211,
+          488
+        ]
+      },
+      "projectedLengthsPixels": {
+        "upperArmLeft": 67.62396025078685,
+        "forearmLeft": 61.00819617067857,
+        "upperArmRight": 62.6418390534633,
+        "forearmRight": 60.8276253029822,
+        "thigh": 88.64536084872124,
+        "lowerLeg": 98.00510190801293
+      },
+      "projectedRatios": {
+        "forearmToUpperArmLeft": 0.9021683430610484,
+        "forearmToUpperArmRight": 0.9710383063796593,
+        "lowerLegToThigh": 1.1055863608617338
+      },
+      "projectedJointInteriorDegrees": {
+        "elbowLeft": 155.5284604933634,
+        "elbowRight": 172.76307797403203,
+        "knee": 169.52821754045695
+      },
+      "visibilityNotes": "Both arms in front20degree view. Near/far hand directions and surface occlusion change projected elbow angle. Manual shoulder/elbow/wrist centersÂ±4px, hip under shortsÂ±8px. Visible bend throughout, never a locked limb; exact physical25degrees cannot be certified from raster."
+    },
+    {
+      "file": "output/final-animations/dumbbell-lateral-raise/anchors/anchor_04.png",
+      "sha256": "b8585c6e2d70041befc06a99dfcf07ae688c81cde5436cd19a113a3f1fc721da",
+      "points": {
+        "shoulderLeft": [
+          201,
+          124
+        ],
+        "elbowLeft": [
+          155,
+          160
+        ],
+        "wristLeft": [
+          128,
+          202
+        ],
+        "shoulderRight": [
+          300,
+          128
+        ],
+        "elbowRight": [
+          348,
+          168
+        ],
+        "wristRight": [
+          380,
+          205
+        ],
+        "hip": [
+          235,
+          262
+        ],
+        "knee": [
+          218,
+          349
+        ],
+        "ankle": [
+          217,
+          447
+        ],
+        "headTop": [
+          254,
+          17
+        ],
+        "heel": [
+          211,
+          488
+        ]
+      },
+      "projectedLengthsPixels": {
+        "upperArmLeft": 58.412327466040935,
+        "forearmLeft": 49.92995093127971,
+        "upperArmRight": 62.48199740725323,
+        "forearmRight": 48.91829923454004,
+        "thigh": 88.64536084872124,
+        "lowerLeg": 98.00510190801293
+      },
+      "projectedRatios": {
+        "forearmToUpperArmLeft": 0.8547844795314379,
+        "forearmToUpperArmRight": 0.782918300701785,
+        "lowerLegToThigh": 1.1055863608617338
+      },
+      "projectedJointInteriorDegrees": {
+        "elbowLeft": 160.78226880393368,
+        "elbowRight": 170.66094735116093,
+        "knee": 169.52821754045695
+      },
+      "visibilityNotes": "Both arms in front20degree view. Near/far hand directions and surface occlusion change projected elbow angle. Manual shoulder/elbow/wrist centersÂ±4px, hip under shortsÂ±8px. Visible bend throughout, never a locked limb; exact physical25degrees cannot be certified from raster."
+    },
+    {
+      "file": "output/final-animations/dumbbell-lateral-raise/anchors/anchor_08.png",
+      "sha256": "858f042ab6183a2ae9e2b0c3b3d8db85705aa876edcdb4725cb421879fa4d844",
+      "points": {
+        "shoulderLeft": [
+          199,
+          121
+        ],
+        "elbowLeft": [
+          139,
+          123
+        ],
+        "wristLeft": [
+          99,
+          151
+        ],
+        "shoulderRight": [
+          298,
+          124
+        ],
+        "elbowRight": [
+          365,
+          138
+        ],
+        "wristRight": [
+          409,
+          166
+        ],
+        "hip": [
+          235,
+          262
+        ],
+        "knee": [
+          218,
+          349
+        ],
+        "ankle": [
+          217,
+          447
+        ],
+        "headTop": [
+          254,
+          17
+        ],
+        "heel": [
+          211,
+          488
+        ]
+      },
+      "projectedLengthsPixels": {
+        "upperArmLeft": 60.03332407921454,
+        "forearmLeft": 48.82622246293481,
+        "upperArmRight": 68.4470598345904,
+        "forearmRight": 52.15361924162119,
+        "thigh": 88.64536084872124,
+        "lowerLeg": 98.00510190801293
+      },
+      "projectedRatios": {
+        "forearmToUpperArmLeft": 0.8133186561268563,
+        "forearmToUpperArmRight": 0.7619555809651424,
+        "lowerLegToThigh": 1.1055863608617338
+      },
+      "projectedJointInteriorDegrees": {
+        "elbowLeft": 146.91713223443773,
+        "elbowRight": 159.33124191693506,
+        "knee": 169.52821754045695
+      },
+      "visibilityNotes": "Both arms in front20degree view. Near/far hand directions and surface occlusion change projected elbow angle. Manual shoulder/elbow/wrist centersÂ±4px, hip under shortsÂ±8px. Visible bend throughout, never a locked limb; exact physical25degrees cannot be certified from raster."
+    }
+  ],
+  "segmentSummary": {
+    "upperArmLeft": {
+      "samples": 3,
+      "minimum": 58.412327466040935,
+      "maximum": 67.62396025078685,
+      "mean": 62.023203932014106,
+      "rangeDividedByMean": 0.14851913801233363,
+      "coefficientOfVariation": 0.06473775061434833
+    },
+    "forearmLeft": {
+      "samples": 3,
+      "minimum": 48.82622246293481,
+      "maximum": 61.00819617067857,
+      "mean": 53.254789854964365,
+      "rangeDividedByMean": 0.22874888326328024,
+      "coefficientOfVariation": 0.10329534344969059
+    },
+    "upperArmRight": {
+      "samples": 3,
+      "minimum": 62.48199740725323,
+      "maximum": 68.4470598345904,
+      "mean": 64.52363209843564,
+      "rangeDividedByMean": 0.09244771618307263,
+      "coefficientOfVariation": 0.04300826856197764
+    },
+    "forearmRight": {
+      "samples": 3,
+      "minimum": 48.91829923454004,
+      "maximum": 60.8276253029822,
+      "mean": 53.96651459304781,
+      "rangeDividedByMean": 0.22067991898769707,
+      "coefficientOfVariation": 0.09317106933698256
+    },
+    "thigh": {
+      "samples": 3,
+      "minimum": 88.64536084872124,
+      "maximum": 88.64536084872124,
+      "mean": 88.64536084872124,
+      "rangeDividedByMean": 0.0,
+      "coefficientOfVariation": 0.0
+    },
+    "lowerLeg": {
+      "samples": 3,
+      "minimum": 98.00510190801293,
+      "maximum": 98.00510190801293,
+      "mean": 98.00510190801293,
+      "rangeDividedByMean": 0.0,
+      "coefficientOfVariation": 0.0
+    }
+  },
+  "ratioSummary": {
+    "forearmToUpperArmLeft": {
+      "samples": 3,
+      "minimum": 0.8133186561268563,
+      "maximum": 0.9021683430610484,
+      "mean": 0.8567571595731142,
+      "rangeDividedByMean": 0.10370463315236512,
+      "coefficientOfVariation": 0.042368532746427996
+    },
+    "forearmToUpperArmRight": {
+      "samples": 3,
+      "minimum": 0.7619555809651424,
+      "maximum": 0.9710383063796593,
+      "mean": 0.8386373960155289,
+      "rangeDividedByMean": 0.24931242800272807,
+      "coefficientOfVariation": 0.11210078817664139
+    },
+    "lowerLegToThigh": {
+      "samples": 3,
+      "minimum": 1.1055863608617338,
+      "maximum": 1.1055863608617338,
+      "mean": 1.1055863608617338,
+      "rangeDividedByMean": 0.0,
+      "coefficientOfVariation": 0.0
+    }
+  },
+  "angleSummary": {
+    "elbowLeft": {
+      "samples": 3,
+      "minimum": 146.91713223443773,
+      "maximum": 160.78226880393368,
+      "mean": 154.40928717724495,
+      "rangeDividedByMean": 0.08979470615378392,
+      "coefficientOfVariation": 0.03701507335826999
+    },
+    "elbowRight": {
+      "samples": 3,
+      "minimum": 159.33124191693506,
+      "maximum": 172.76307797403203,
+      "mean": 167.58508908070934,
+      "rangeDividedByMean": 0.08014935058230731,
+      "coefficientOfVariation": 0.035200680301962474
+    },
+    "knee": {
+      "samples": 3,
+      "minimum": 169.52821754045695,
+      "maximum": 169.52821754045695,
+      "mean": 169.52821754045695,
+      "rangeDividedByMean": 0.0,
+      "coefficientOfVariation": 0.0
+    }
+  },
+  "fixedLandmarkDisplacement": {
+    "headTop": {
+      "sampleCount": 3,
+      "medianPixels": [
+        254,
+        17
+      ],
+      "maximumDisplacementFromMedianPixels": 0.0
+    },
+    "heel": {
+      "sampleCount": 3,
+      "medianPixels": [
+        211,
+        488
+      ],
+      "maximumDisplacementFromMedianPixels": 0.0
+    }
+  },
+  "reviewVerdict": "PASS visual canonical19 +18onions; no visible extra limbs, no gross anatomical distortion or machine clipping. Projection limits remain."
+}

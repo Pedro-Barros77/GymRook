@@ -1,0 +1,17 @@
+{
+  "verdict": "PASS source anchor; final interpolated loop still pending",
+  "review_scope": "512px full image; two complete lever assemblies including mostly hidden far gear; head/torso/near arm opacity and no ghost hand",
+  "midpoint_sha256": "a4df021f0560426a442744a055782b52ab324025814061349a04e6b1bd045a9d",
+  "clean_plate_sha256": "744df8a16cef6fca2e8aef3ec96c5d273e35c6dc4690a90a14f317544a763c0f",
+  "human_mask_sha256": "10ee0e8c5cb4e19011b93e1c810166dd92a5e0e0ce3e2f7e0b7f162706859a6d",
+  "masked_human_pixels": 12927,
+  "masked_human_pixels_byte_identical": true,
+  "pixels_changed_vs_clean_plate": 238,
+  "changed_bbox_xyxy": [
+    236,
+    61,
+    264,
+    155
+  ],
+  "visual_observation": "Opaque far metal runs from fixed cap behind hair; grip and translated hand occluded by opaque human; no additional far hand/branch remains."
+}

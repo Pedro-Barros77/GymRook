@@ -1,0 +1,30 @@
+{
+  "workouts": [
+    "B",
+    "C"
+  ],
+  "generationMode": "built-in image_gen pose sheets, with local assembly and three equipment-only projected key references for reverse pec deck",
+  "fps": 12,
+  "assemblyConfig": "docs/generated-frames-bc-v1/config.json",
+  "exercises": {
+    "machine-shoulder-press": "docs/generated-frames-bc-v1/machine-shoulder-press/prompts.json",
+    "dumbbell-lateral-raise": "docs/generated-frames-bc-v1/dumbbell-lateral-raise/prompts.json",
+    "cable-front-raise": "docs/generated-frames-bc-v1/cable-front-raise/prompts.json",
+    "dumbbell-shrug": "docs/generated-frames-bc-v1/dumbbell-shrug/prompts.json",
+    "reverse-pec-deck": "docs/generated-frames-bc-v1/reverse-pec-deck/prompts.json",
+    "standing-machine-calf-raise": "docs/generated-frames-bc-v1/standing-machine-calf-raise/prompts.json",
+    "stair-calf-raise": "docs/generated-frames-bc-v1/stair-calf-raise/prompts.json",
+    "lat-pulldown": "docs/generated-frames-bc-v1/lat-pulldown/prompts.json",
+    "unilateral-converging-row": "docs/generated-frames-bc-v1/unilateral-converging-row/prompts.json",
+    "seated-cable-row": "docs/generated-frames-bc-v1/seated-cable-row/prompts.json",
+    "rope-triceps-pushdown": "docs/generated-frames-bc-v1/rope-triceps-pushdown/prompts.json",
+    "dumbbell-lying-triceps-extension": "docs/generated-frames-bc-v1/dumbbell-lying-triceps-extension/prompts.json",
+    "bench-dip": "docs/generated-frames-bc-v1/bench-dip/prompts.json",
+    "machine-ab-crunch": "docs/generated-frames-bc-v1/machine-ab-crunch/prompts.json"
+  },
+  "selectionNotes": {
+    "dumbbell-lying-triceps-extension": "Use source cells 0..7 only, ending near 90 degrees elbow flexion. Cell 8 remains preserved but is excluded because it rotates the grip abruptly.",
+    "reverse-pec-deck": "Five generated poses (source cells 0,3,4,5,8) plus three equipment-only projected references form the eight-key sequence. The generated human pixels are retained; rigid metal and the original hand cutout are composited behind the opaque foreground mask. All rejected sources remain archived."
+  },
+  "preservedAssets": "docs/generated-frames-bc-v1/preserved-media.json"
+}

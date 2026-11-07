@@ -1,0 +1,23 @@
+{
+  "exercise": "machine-shoulder-press",
+  "generationMode": "built-in image_gen",
+  "intent": "generate",
+  "grid": [
+    3,
+    3
+  ],
+  "phase": "one lifting phase, row-major nine poses",
+  "prompt": "Use case: scientific-educational. Asset: a single coherent 3-by-3 animation pose sheet for a fitness reference guide, nine equally sized SQUARE cells, EXACT row-major chronological order. Large SQUARE canvas. No gutters, grid lines, captions, numbers, arrows, motion trails or watermarks. Input image1 is the approved CHARACTER/STYLE reference: same anatomically defined muscular adult man, natural warm tan skin, short dark hair, charcoal black shorts and black trainers, colored realistic fitness illustration against off-white floor/background. Input image2 is ONLY this exercise's apparatus/action reference, never its exact camera. Every cell depicts THE SAME PERSON AND SAME EQUIPMENT in the same locked camera, framing, scale, light and colors. Sequential consistency: copy static elements mentally from the preceding cell; do not make nine variants. Only the exercise motion progresses. Skin texture, facial identity, apparatus bolts/rails/pads/weights and lighting stay consistent. The equipment is rigid, all visible connections mechanically attached, no bending supports, disappearances, extra limbs, transparent feet or object penetration. Keep the moving range fully inside each cell with identical generous margins. Demonstrate only the UPWARD half of a SEATED MACHINE SHOULDER PRESS in 9 progressive poses. Fixed three-quarter front-left view shows both arms/handles and the complete gray machine. Man sits back supported, feet planted, pelvis stable, holding machine handles with neutral straight wrists. Pose1 handles near shoulder height, elbows about90degrees, forearms close to vertical. Poses2..8 press upward in eight progressively higher steps. Pose9 handles above head and arms nearly straight without elbow hyperextension; upper arms do not turn backward. Keep head/trunk/hips/feet stationary and spine neutral, no shrugging or arching torso. TWO sturdy independent lever arms rotate on their fixed pivots, retaining exact length, thickness and curve. Fixed backrest, seat, base and outer support frame do not move. The loaded weight plates in a visible selectorized weight stack rise progressively as handles rise, without changing plate count or texture. This must be a recognizable SHOULDER PRESS, not chest press, pulldown, dumbbell press or pec deck. Nine poses only low→high, no return phase.",
+  "references": [
+    {
+      "path": "docs/generated-frames-v4/pec-deck/pose-00.png",
+      "role": "approved character and colored illustration style"
+    },
+    {
+      "path": "dist/assets/thumbnails/machine-shoulder-press.webp",
+      "role": "exercise apparatus and action only"
+    }
+  ],
+  "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b714-7077-7191-a9ae-c351cb0cb7c5\\exec-e471fbfc-5ee6-43e0-ae59-c359f6893b59.png",
+  "workspaceAsset": "docs/generated-frames-bc-v1/machine-shoulder-press/sheet.png"
+}

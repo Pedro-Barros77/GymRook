@@ -1,0 +1,387 @@
+{
+  "source": "docs/generated-frames-v2-fixes/seated-plate-calf-raise/sheet-v2.png",
+  "sourceSHA256": "aec2de7037686bba557b65defc5ec2cda6c790d8f94a58e1193f6427f5fbfa50",
+  "method": "Manual surface estimates on all9 actual frozen512px anchors. Hip/knee centers are hidden anatomical proxies, uncertainty~5-7px; ankle/contact/plate~3-4px. Not inferred from the IK guide.",
+  "result": "rejected",
+  "uncertaintyPixels": {
+    "hip": 7,
+    "knee": 5,
+    "ankle": 4,
+    "contact": 3,
+    "mechanicalCenter": 3
+  },
+  "poses": [
+    {
+      "hip": [
+        155,
+        315
+      ],
+      "knee": [
+        281,
+        320
+      ],
+      "ankle": [
+        266,
+        447
+      ],
+      "ballContact": [
+        344,
+        479
+      ],
+      "heel": [
+        245,
+        485
+      ],
+      "rearPivot": [
+        82,
+        343
+      ],
+      "padCenter": [
+        254,
+        277
+      ],
+      "plateCenter": [
+        422,
+        310
+      ],
+      "index": 0,
+      "file": "output/final-animations/candidates/calf-v2/seated-plate-calf-raise/anchors/anchor_00.png",
+      "sha256": "8b3bbe007f3f6984c97f4d73f9c3fe8b6cc3b8df24da4dc9f945b8582a6584c6",
+      "femurPixels": 126.09916732476864,
+      "tibiaPixels": 127.88275880665071,
+      "leverRadiusPixels": 341.5977166200032
+    },
+    {
+      "hip": [
+        155,
+        315
+      ],
+      "knee": [
+        281,
+        319
+      ],
+      "ankle": [
+        267,
+        445
+      ],
+      "ballContact": [
+        344,
+        479
+      ],
+      "heel": [
+        245,
+        483
+      ],
+      "rearPivot": [
+        82,
+        343
+      ],
+      "padCenter": [
+        254,
+        276
+      ],
+      "plateCenter": [
+        422,
+        302
+      ],
+      "index": 1,
+      "file": "output/final-animations/candidates/calf-v2/seated-plate-calf-raise/anchors/anchor_01.png",
+      "sha256": "21a15724cdb3fbe37c72f8f67a516ed1e56b6dbb8587586d62c4ed45510912da",
+      "femurPixels": 126.0634760745554,
+      "tibiaPixels": 126.77539193392383,
+      "leverRadiusPixels": 342.4631367023318
+    },
+    {
+      "hip": [
+        155,
+        315
+      ],
+      "knee": [
+        281,
+        317
+      ],
+      "ankle": [
+        268,
+        442
+      ],
+      "ballContact": [
+        344,
+        479
+      ],
+      "heel": [
+        245,
+        481
+      ],
+      "rearPivot": [
+        82,
+        343
+      ],
+      "padCenter": [
+        254,
+        275
+      ],
+      "plateCenter": [
+        422,
+        295
+      ],
+      "index": 2,
+      "file": "output/final-animations/candidates/calf-v2/seated-plate-calf-raise/anchors/anchor_02.png",
+      "sha256": "f705d31f3e20cc5e8e154f1c7842f5bfd2207c2fd8d5b3f703c2cff469d2dbba",
+      "femurPixels": 126.01587201618692,
+      "tibiaPixels": 125.67418191498204,
+      "leverRadiusPixels": 343.3715189120961
+    },
+    {
+      "hip": [
+        155,
+        315
+      ],
+      "knee": [
+        282,
+        314
+      ],
+      "ankle": [
+        270,
+        439
+      ],
+      "ballContact": [
+        344,
+        479
+      ],
+      "heel": [
+        246,
+        478
+      ],
+      "rearPivot": [
+        82,
+        343
+      ],
+      "padCenter": [
+        254,
+        275
+      ],
+      "plateCenter": [
+        422,
+        290
+      ],
+      "index": 3,
+      "file": "output/final-animations/candidates/calf-v2/seated-plate-calf-raise/anchors/anchor_03.png",
+      "sha256": "4fa0bb5b668b1394b97696d94eae99e89e9ed9b102c2ee9c024803f5a149e71f",
+      "femurPixels": 127.00393694685216,
+      "tibiaPixels": 125.57467897629681,
+      "leverRadiusPixels": 344.1060882925497
+    },
+    {
+      "hip": [
+        155,
+        315
+      ],
+      "knee": [
+        282,
+        313
+      ],
+      "ankle": [
+        272,
+        435
+      ],
+      "ballContact": [
+        344,
+        479
+      ],
+      "heel": [
+        246,
+        475
+      ],
+      "rearPivot": [
+        82,
+        343
+      ],
+      "padCenter": [
+        254,
+        274
+      ],
+      "plateCenter": [
+        422,
+        283
+      ],
+      "index": 4,
+      "file": "output/final-animations/candidates/calf-v2/seated-plate-calf-raise/anchors/anchor_04.png",
+      "sha256": "5ab4cb30b6eb61d18e2b6c46fca94987a195b68c5811ab3a2f0e9daea1bab7b2",
+      "femurPixels": 127.01574705523721,
+      "tibiaPixels": 122.40914998479485,
+      "leverRadiusPixels": 345.2535300326414
+    },
+    {
+      "hip": [
+        155,
+        315
+      ],
+      "knee": [
+        282,
+        310
+      ],
+      "ankle": [
+        276,
+        430
+      ],
+      "ballContact": [
+        344,
+        479
+      ],
+      "heel": [
+        247,
+        468
+      ],
+      "rearPivot": [
+        82,
+        343
+      ],
+      "padCenter": [
+        253,
+        272
+      ],
+      "plateCenter": [
+        421,
+        276
+      ],
+      "index": 5,
+      "file": "output/final-animations/candidates/calf-v2/seated-plate-calf-raise/anchors/anchor_05.png",
+      "sha256": "ce6a9cc56ff7dd601c37a5983443a2b4e0e3f9e8f1cb0d178eacff72f5374f02",
+      "femurPixels": 127.09838708654017,
+      "tibiaPixels": 120.14990636700472,
+      "leverRadiusPixels": 345.5575205374642
+    },
+    {
+      "hip": [
+        155,
+        315
+      ],
+      "knee": [
+        282,
+        307
+      ],
+      "ankle": [
+        280,
+        424
+      ],
+      "ballContact": [
+        344,
+        479
+      ],
+      "heel": [
+        250,
+        460
+      ],
+      "rearPivot": [
+        82,
+        343
+      ],
+      "padCenter": [
+        252,
+        270
+      ],
+      "plateCenter": [
+        421,
+        269
+      ],
+      "index": 6,
+      "file": "output/final-animations/candidates/calf-v2/seated-plate-calf-raise/anchors/anchor_06.png",
+      "sha256": "42f1f5b8ced20aa8c8ef44b4c5f6aacd7a5e7c16d5381357d59e3a45426052e0",
+      "femurPixels": 127.251719045363,
+      "tibiaPixels": 117.01709276853532,
+      "leverRadiusPixels": 346.9827085028878
+    },
+    {
+      "hip": [
+        155,
+        315
+      ],
+      "knee": [
+        282,
+        304
+      ],
+      "ankle": [
+        285,
+        417
+      ],
+      "ballContact": [
+        344,
+        479
+      ],
+      "heel": [
+        256,
+        449
+      ],
+      "rearPivot": [
+        82,
+        343
+      ],
+      "padCenter": [
+        251,
+        267
+      ],
+      "plateCenter": [
+        421,
+        260
+      ],
+      "index": 7,
+      "file": "output/final-animations/candidates/calf-v2/seated-plate-calf-raise/anchors/anchor_07.png",
+      "sha256": "8f738e5fafd88f106bc77d632ac3ec0a2ff6fc8aa9cc8591253ae883bc16acbe",
+      "femurPixels": 127.47548783981962,
+      "tibiaPixels": 113.03981599418853,
+      "leverRadiusPixels": 349.0128937446294
+    },
+    {
+      "hip": [
+        155,
+        315
+      ],
+      "knee": [
+        282,
+        301
+      ],
+      "ankle": [
+        291,
+        410
+      ],
+      "ballContact": [
+        344,
+        479
+      ],
+      "heel": [
+        263,
+        438
+      ],
+      "rearPivot": [
+        82,
+        343
+      ],
+      "padCenter": [
+        250,
+        264
+      ],
+      "plateCenter": [
+        421,
+        250
+      ],
+      "index": 8,
+      "file": "output/final-animations/candidates/calf-v2/seated-plate-calf-raise/anchors/anchor_08.png",
+      "sha256": "ef68d83dd00942675f2515c9b1e10cd6bc390a0bc64d6d55493ce37a684f3da9",
+      "femurPixels": 127.76932339180638,
+      "tibiaPixels": 109.37092849564732,
+      "leverRadiusPixels": 351.5252480263687
+    }
+  ],
+  "summary": {
+    "tibiaStart": 127.88275880665071,
+    "tibiaEnd": 109.37092849564732,
+    "tibiaEndChangePercent": -14.475626334423952,
+    "heelRisePixels": 47,
+    "kneeRisePixels": 19,
+    "ankleRisePixels": 37,
+    "padRisePixels": 13,
+    "plateRisePixels": 60
+  },
+  "reason": "Ankle rise exceeds knee rise by18px, estimated shin shortens~14%; excessive heel lift and pad lift inconsistent with rear-pivot lever. This supersedes an earlier rough visual estimate of28% shortening.",
+  "replacementStrategy": "Two imagegen endpoints with a much smaller heel rise and constant shin, RIFE19halfcycle; verify forefoot contact and all19 actual interpolated tibia lengths."
+}

@@ -1,0 +1,75 @@
+{
+  "source": "sheet-v6-annotated-repair-candidate.png cell0",
+  "reference": "same sheet cell3",
+  "redRemovalPolygon": [
+    [
+      214,
+      35
+    ],
+    [
+      239,
+      41
+    ],
+    [
+      264,
+      66
+    ],
+    [
+      279,
+      92
+    ],
+    [
+      279,
+      125
+    ],
+    [
+      285,
+      132
+    ],
+    [
+      285,
+      145
+    ],
+    [
+      280,
+      152
+    ],
+    [
+      254,
+      152
+    ],
+    [
+      249,
+      144
+    ],
+    [
+      250,
+      133
+    ],
+    [
+      257,
+      124
+    ],
+    [
+      256,
+      95
+    ],
+    [
+      245,
+      78
+    ],
+    [
+      222,
+      58
+    ]
+  ],
+  "blueProposedFarLeverPivot": [
+    196,
+    20
+  ],
+  "blueProposedFarGrip": [
+    206,
+    143
+  ],
+  "blueInterpretation": "Guide only: lever/grip may be physically hidden by opaque head/torso/near arm; do not paint blue or translucent objects into those surfaces."
+}

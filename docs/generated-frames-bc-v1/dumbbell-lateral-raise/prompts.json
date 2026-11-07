@@ -1,0 +1,23 @@
+{
+  "exercise": "dumbbell-lateral-raise",
+  "generationMode": "built-in image_gen",
+  "intent": "generate",
+  "grid": [
+    3,
+    3
+  ],
+  "phase": "one lifting phase, row-major nine poses",
+  "prompt": "Use case: scientific-educational. Asset: a single coherent 3-by-3 animation pose sheet for a fitness reference guide, nine equally sized SQUARE cells, EXACT row-major chronological order. Large SQUARE canvas. No gutters, grid lines, captions, numbers, arrows, motion trails or watermarks. Input image1 is the approved CHARACTER/STYLE reference: same anatomically defined muscular adult man, natural warm tan skin, short dark hair, charcoal black shorts and black trainers, colored realistic fitness illustration against off-white floor/background. Input image2 is ONLY this exercise's apparatus/action reference, never its exact camera. Every cell depicts THE SAME PERSON AND SAME EQUIPMENT in the same locked camera, framing, scale, light and colors. Sequential consistency: copy static elements mentally from the preceding cell; do not make nine variants. Only the exercise motion progresses. Skin texture, facial identity, apparatus bolts/rails/pads/weights and lighting stay consistent. The equipment is rigid, all visible connections mechanically attached, no bending supports, disappearances, extra limbs, transparent feet or object penetration. Keep the moving range fully inside each cell with identical generous margins. Demonstrate only the LIFTING half of a bilateral DUMBBELL LATERAL RAISE in 9 progressive poses. Straight-on front view with a slight three-quarter angle reveals both arms and both identical dumbbells clearly. Full body visible, shoes planted at hip width. Pose1 upper arms beside torso and dumbbells beside outer thighs, elbows softly bent about10degrees. Poses2..8 lift upper arms sideways in the scapular plane (slightly forward of a pure sideways T), while retaining that SAME slight elbow bend. Pose9 upper arms near shoulder height, elbows and dumbbells around shoulder level, not overhead. Natural neutral thumb/wrist orientation, no forced thumbs-down pouring position. Shoulder blades move naturally but do NOT shrug shoulders toward ears. Head, trunk, pelvis, feet and knees remain stationary, no swing or knee drive. Two dumbbells retain identical size/material/shape, hands keep their grips. From thighs to shoulder height only, nine distinct smoothly progressing positions, no return frames.",
+  "references": [
+    {
+      "path": "docs/generated-frames-v4/pec-deck/pose-00.png",
+      "role": "approved character and colored illustration style"
+    },
+    {
+      "path": "dist/assets/thumbnails/dumbbell-lateral-raise.webp",
+      "role": "exercise apparatus and action only"
+    }
+  ],
+  "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b714-7077-7191-a9ae-c351cb0cb7c5\\exec-428490d2-a8cf-44cd-9ec7-28f226d5c4e7.png",
+  "workspaceAsset": "docs/generated-frames-bc-v1/dumbbell-lateral-raise/sheet.png"
+}

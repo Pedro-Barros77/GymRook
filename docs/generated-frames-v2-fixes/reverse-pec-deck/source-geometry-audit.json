@@ -1,0 +1,192 @@
+{
+  "exerciseId": "reverse-pec-deck",
+  "reviewer": "fix_upper manual source review",
+  "annotationFile": "docs\\generated-frames-v2-fixes\\reverse-pec-deck\\source-landmarks.json",
+  "annotationSha256": "94d00d604fd21e9095c2a376d19782190b72c98dd2d436ce68d566284934fa0c",
+  "coordinateSpace": "actual-raster-512-pixels",
+  "projectionNotes": "Source V6 unaligned crops resized512. Actual joint centers manually estimatedÂ±4px (foreshortened first upper arm onlyâ‰ˆ27px). Do not use outer biceps outline or olecranon skin as joint center. Guide predicts projected flexion38â†’16â†’10degrees for physically constant20degrees at rear-elevation28; apparent U alone is not proof of90degreephysical elbowflexion.",
+  "limits": "Lengths/ratios/angles are 2D projections measured manually on actual raster art. Foreshortening, occlusion and landmark uncertainty require visual interpretation. No automatic anatomy or exercise approval is inferred.",
+  "poseMeasurements": [
+    {
+      "file": "docs/generated-frames-v2-fixes/reverse-pec-deck/qa-v6-00-512.png",
+      "sha256": "a121f7dc173ad2c407296169710049084b687731baabd5ce59988f833d8a5d87",
+      "points": {
+        "shoulderLeft": [
+          151,
+          207
+        ],
+        "elbowLeft": [
+          138,
+          183
+        ],
+        "wristLeft": [
+          145,
+          161
+        ],
+        "shoulderRight": [
+          215,
+          207
+        ],
+        "elbowRight": [
+          228,
+          183
+        ],
+        "wristRight": [
+          223,
+          161
+        ]
+      },
+      "projectedLengthsPixels": {
+        "upperArmLeft": 27.294688127912362,
+        "forearmLeft": 23.08679276123039,
+        "upperArmRight": 27.294688127912362,
+        "forearmRight": 22.561028345356956
+      },
+      "projectedRatios": {},
+      "projectedJointInteriorDegrees": {
+        "elbowLeft": 133.90694715570652,
+        "elbowRight": 138.7528053103499
+      },
+      "visibilityNotes": "Both forearm and upper arm foreshortened toward machine front, fully forward/away from rear camera."
+    },
+    {
+      "file": "docs/generated-frames-v2-fixes/reverse-pec-deck/qa-v6-04-512.png",
+      "sha256": "8515e5bb8adc4e698fad84adf3754f23be270ca0196e78678870a04d157cff50",
+      "points": {
+        "shoulderLeft": [
+          148,
+          212
+        ],
+        "elbowLeft": [
+          110,
+          207
+        ],
+        "wristLeft": [
+          83,
+          191
+        ],
+        "shoulderRight": [
+          213,
+          212
+        ],
+        "elbowRight": [
+          252,
+          206
+        ],
+        "wristRight": [
+          285,
+          189
+        ]
+      },
+      "projectedLengthsPixels": {
+        "upperArmLeft": 38.3275357934736,
+        "forearmLeft": 31.38470965295043,
+        "upperArmRight": 39.45883931389772,
+        "forearmRight": 37.12142238654117
+      },
+      "projectedRatios": {},
+      "projectedJointInteriorDegrees": {
+        "elbowLeft": 156.84518968267702,
+        "elbowRight": 161.49083388761215
+      },
+      "visibilityNotes": ""
+    },
+    {
+      "file": "docs/generated-frames-v2-fixes/reverse-pec-deck/qa-v6-08-512.png",
+      "sha256": "c87e6e67381722bd8a8a685a57dc697752f80699e236500d2277bae8534ae329",
+      "points": {
+        "shoulderLeft": [
+          149,
+          213
+        ],
+        "elbowLeft": [
+          104,
+          215
+        ],
+        "wristLeft": [
+          56,
+          207
+        ],
+        "shoulderRight": [
+          213,
+          212
+        ],
+        "elbowRight": [
+          268,
+          211
+        ],
+        "wristRight": [
+          319,
+          204
+        ]
+      },
+      "projectedLengthsPixels": {
+        "upperArmLeft": 45.044422518220834,
+        "forearmLeft": 48.662100242385755,
+        "upperArmRight": 55.00909015790027,
+        "forearmRight": 51.478150704935004
+      },
+      "projectedRatios": {},
+      "projectedJointInteriorDegrees": {
+        "elbowLeft": 167.99287341216132,
+        "elbowRight": 173.2263331292431
+      },
+      "visibilityNotes": ""
+    }
+  ],
+  "segmentSummary": {
+    "upperArmLeft": {
+      "samples": 3,
+      "minimum": 27.294688127912362,
+      "maximum": 45.044422518220834,
+      "mean": 36.8888821465356,
+      "rangeDividedByMean": 0.4811675864776897,
+      "coefficientOfVariation": 0.19836211220732508
+    },
+    "forearmLeft": {
+      "samples": 3,
+      "minimum": 23.08679276123039,
+      "maximum": 48.662100242385755,
+      "mean": 34.37786755218886,
+      "rangeDividedByMean": 0.743946885080339,
+      "coefficientOfVariation": 0.30989209223205866
+    },
+    "upperArmRight": {
+      "samples": 3,
+      "minimum": 27.294688127912362,
+      "maximum": 55.00909015790027,
+      "mean": 40.587539199903446,
+      "rangeDividedByMean": 0.6828303113792579,
+      "coefficientOfVariation": 0.27945699124277196
+    },
+    "forearmRight": {
+      "samples": 3,
+      "minimum": 22.561028345356956,
+      "maximum": 51.478150704935004,
+      "mean": 37.053533812277706,
+      "rangeDividedByMean": 0.7804146969106721,
+      "coefficientOfVariation": 0.31860559990752424
+    }
+  },
+  "ratioSummary": {},
+  "angleSummary": {
+    "elbowLeft": {
+      "samples": 3,
+      "minimum": 133.90694715570652,
+      "maximum": 167.99287341216132,
+      "mean": 152.9150034168483,
+      "rangeDividedByMean": 0.2229076643547927,
+      "coefficientOfVariation": 0.09279867975903869
+    },
+    "elbowRight": {
+      "samples": 3,
+      "minimum": 138.7528053103499,
+      "maximum": 173.2263331292431,
+      "mean": 157.82332410906838,
+      "rangeDividedByMean": 0.21843113502709688,
+      "coefficientOfVariation": 0.09067541446330632
+    }
+  },
+  "fixedLandmarkDisplacement": {},
+  "reviewVerdict": "Measured projected flexion is consistent with slight/moderate physical bend and foreshortening (not90degreephysical elbows), within manual landmark uncertainty and generated-scene camera uncertainty. Cannot certify exact constant3D joint angle from raster."
+}

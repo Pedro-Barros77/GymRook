@@ -292,6 +292,35 @@ async function assertExperimentalControls(ui) {
   }
 }
 
+async function assertAllMotionControls(ui) {
+  const ids = Object.keys(ui.data.exercises);
+  const settle = () => new Promise(resolve => setImmediate(resolve));
+  for (const [index, id] of ids.entries()) {
+    const media = ui.data.exercises[id].media;
+    assert(media && media.fps === 12 && media.render === (media.isometric ? 'generated-static-hold' : 'generated-interpolated'), `${id}: missing 12 fps generated demonstration`);
+    assert.equal(media.frameCount, id === 'alternating-lunge' ? 48 : 36, `${id}: incorrect motion cycle`);
+    assert(!media.experimental && !media.legacy, `${id}: unexpected comparison version`);
+    ui.location.hash = '#exercise/' + id;
+    const video = ui.main.querySelector('#demo-video');
+    const toggle = ui.main.querySelector('#media-toggle');
+    assert(video && video.getAttribute('src') === media.video, `${id}: primary video is missing`);
+    assert.equal(video.getAttribute('poster'), media.poster, `${id}: wrong motion poster`);
+    assert.equal(video.getAttribute('autoplay'), null, `${id}: motion must not autoplay`);
+    assert(video.paused && video.playCalls === 0 && toggle.getAttribute('aria-pressed') === 'false', `${id}: motion must start paused`);
+    const caption = ui.main.querySelector('.media-caption').textContent;
+    assert(caption.includes(media.isometric ? 'Sustentação isométrica' : 'movimento interpolado · 12 fps'), `${id}: caption must identify its movement or hold`);
+    assert(!ui.main.querySelector('#media-experimental') && !ui.main.querySelector('#media-version'), `${id}: unexpected version selector`);
+    toggle.click(); await settle();
+    assert(!video.paused && toggle.getAttribute('aria-pressed') === 'true', `${id}: manual playback failed`);
+    toggle.click();
+    assert(video.paused && toggle.getAttribute('aria-pressed') === 'false', `${id}: manual pause failed`);
+    toggle.click(); await settle();
+    ui.location.hash = index + 1 < ids.length ? '#exercise/' + ids[index + 1] : '';
+    assert(video.paused, `${id}: navigating away must stop playback`);
+  }
+  ui.location.hash = '';
+}
+
 export async function checkUI() {
   const html = await read('index.html');
   const scripts = await Promise.all(['data.js', 'anatomy.js', 'app.js'].map(async name => [name, await read(name)]));
@@ -333,6 +362,12 @@ export async function checkUI() {
     assert.equal(ui.document.activeElement?.dataset.workout, expected, 'Tab keyboard navigation lost focus');
   }
   assert.equal(total, 31);
+  const allExercises = Object.values(ui.data.exercises);
+  assert.equal(allExercises.filter(exercise => exercise.media).length, 31, 'Expected 31 exercises with demonstrations');
+  assert.equal(allExercises.filter(exercise => !exercise.media).length, 0, 'Every exercise must have a demonstration');
+  const calfMap = ui.window.GYMROOK_ANATOMY(ui.data.exercises['seated-plate-calf-raise']);
+  assert(calfMap.includes('data-region="soleus" data-emphasis="primary"'), 'Seated calf raise must highlight soleus as primary');
+  assert(calfMap.includes('data-region="gastrocnemius" data-emphasis="secondary"'), 'Seated calf raise must show gastrocnemius as secondary');
 
   for (const workout of ui.data.workouts) {
     const ids = workout.blocks.flatMap(block => block.exerciseIds);
@@ -369,7 +404,8 @@ export async function checkUI() {
   dialog.close();
   await assertMediaControls(ui);
   await assertExperimentalControls(ui);
-  console.log('UI: all 31 cards/maps, paired navigation, manual playback, opt-in experiment with original GIF default, and guide controls passed (in-memory DOM; no browser/layout test).');
+  await assertAllMotionControls(ui);
+  console.log('UI: all 31 cards/maps and demonstrations at 12 fps, seated-calf muscle emphasis, paired navigation, manual playback and guide controls passed (in-memory DOM; no browser/layout test).');
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {

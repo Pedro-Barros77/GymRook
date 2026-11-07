@@ -1,0 +1,14 @@
+{
+  "id": "stair-calf-raise",
+  "generationMode": "built-in image_gen",
+  "prompt": "Use case: scientific-educational. Make one coherent motion-keyframe contact sheet for a mobile exercise guide. Input1 is approved CHARACTER AND ART STYLE only: same adult muscular athletic man, naturally colored tan skin, short dark hair, defined muscles, black shorts and black trainers, realistic colored fitness illustration. Input2 is exercise/equipment reference. Preserve that exercise's apparatus and contacts; correct any pose ambiguity as specified. ONE SQUARE image with exactly THREE columns by THREE rows, nine equal SQUARE cells read left-to-right then top-to-bottom. These are consecutive moments of ONE same scene, not independent variants. Locked camera, crop, scale, lens, illumination, floor and background in every cell. Same body proportions/skin/textures and identical machine topology. No borders, gutters, text, labels, arrows or numbers. Entire body, shoes, hands and relevant equipment remain fully in each cell with fixed margins. Static supports remain fixed; moving components only undergo rigid physical motion. Hands stay on intended grips, feet on intended supports, no intersections or extra limbs. Show ONLY the specified first half-repetition from initial pose to final, progressing monotonically over nine poses. Exercise: TWO-LEG BODYWEIGHT CALF RAISE ON A STEP with hand support, not climbing stairs. Fixed side/rear three-quarter camera clearly shows the two heels hanging OUTSIDE the BACK edge of a stable raised stair tread. Man faces toward the staircase, holds a fixed handrail gently for balance. Only the balls of both feet/toes rest on the stair tread, aligned hip-width; the rear halves of both shoes and heels project into EMPTY SPACE behind the tread edge. Pose1 heels drop modestly BELOW level of supporting tread; poses2..8 progressively lift heels by plantarflexing ankles; pose9 high on toes/forefeet, calves contracted. SAME exact forefoot contact points in every cell. Keep knees nearly straight with slight natural unlock, hips/trunk upright, no bending knees to move. Body rises several centimeters because ankles rotate, not because camera moves. Both calves/shoes must be individually visible. Handrail/staircase/base/floor never move or change. Anatomically correct ankles, feet tilt as rigid shoes pivoting around forefeet, no rolling ankles outward, no jumping. Free hand relaxed by side, gripping hand retains contact with fixed railing. Supporting image only identifies the simple step/rail design; correct the forefoot-only support so heels have room to descend.",
+  "references": [
+    "docs/generated-frames-v4/pec-deck/pose-00.png",
+    "dist/assets/thumbnails/stair-calf-raise.webp"
+  ],
+  "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b26c-8c92-7253-ac21-547f0416b759\\exec-d6bcf297-4a8c-4fa5-b863-da5020315e37.png",
+  "grid": [
+    3,
+    3
+  ]
+}

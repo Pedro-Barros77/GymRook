@@ -1,0 +1,19 @@
+{
+  "status": "Candidate source selection, root not yet promoted",
+  "source": "sheet-v6-annotated-repair-candidate.png",
+  "sourceSha256": "5a4065dee9d3f710b0c44ab7531ca480c9707568c04349a00f72eb8eb58164da",
+  "selectedCells": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "excludedCells": [
+    2
+  ],
+  "reason": "Cell2 retains a third hand/lever; remaining eight cells have only two complete human/machine arms. Cell2 is close to the valid neighboring cell3, so its omission preserves the full range."
+}

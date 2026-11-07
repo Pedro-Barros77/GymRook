@@ -1,0 +1,18 @@
+{
+  "exercise": "reverse-pec-deck",
+  "mode": "built-in image_gen edit",
+  "intent": "Generate a validated open endpoint before a new sequence",
+  "prompt": "Use case: precise-object-edit. Produce ONE SINGLE SQUARE endpoint image (not a grid). Image1 is the EDIT TARGET and fixes the exact camera, body position, perspective, identity, equipment design, framing and illumination. Image2 is only a MOVEMENT reference showing the desired OPEN end of a reverse pec deck from another camera; DO NOT copy its camera or change Image1 camera. Change ONLY BOTH human arms and their TWO hinged machine levers from the forward closed pose of Image1 to the WIDE OPEN endpoint of a BILATERAL REVERSE PEC DECK FLY. Keep head, face, hair, torso, chest against its pad, pelvis, thighs, feet, chair, black back/chest pad, tower, overhead beam, fixed pivot housings and floor identical to Image1. The man still faces image-right and sits facing the machine.\nCRITICAL MOVEMENT: both arms swing HORIZONTALLY OUT TO THE SIDES about the SHOULDER JOINTS. They stop roughly in the shoulder/torso frontal plane, not reaching FORWARD along his gaze. Both elbows retain their SAME SMALL about10degree bend; do not curl, row, press or lengthen the forearms. His back blades mildly retract, but torso does not twist.\nThe NEAR left arm must open LATERALLY TOWARD THE VIEWER (out of the image depth), not travel farther image-right. In this fixed rear-side camera its projected reach will become SHORTER than Image1, and its hand will be CLOSER/LARGER and somewhat lower in the image, while the nearly straight upper arm/forearm are seen foreshortened. Move the near grip LEFTWARD from its forward position, toward roughly above the FRONT KNEE rather than beyond it. The near hand stays connected to its original near/rightmost overhead pivot through a single rigid lever that rotates in the horizontal plane.\nThe FAR right arm MUST ALSO OPEN to the opposite lateral side, AWAY from the viewer, rather than remaining in front of the chest. The FAR hand/grip travels visibly IMAGE-LEFT to approximately over the LEFT SIDE of the weight tower, LEFT of the torso/chest pad. The far arm may be partly occluded naturally by the torso, but the separated FAR hand and connected rigid machine lever must be clearly visible in their open lateral position. Preserve true depth occlusion; do not draw that far arm through the chest or through the near arm. Far grip remains connected to its original far/leftmost pivot.\nBoth hands must end far separated in the correct two lateral directions, like the wide-open shoulder abduction of Image2, projected into Image1's UNCHANGED camera. This is NOT the same initial forward-reaching pose with longer arms or wider lever curves. Do not change camera or rotate the man to fake the opening. Do not make the far arm stationary. Both hands retain grips; metal arms retain physical length, thickness and curvature, with only rigid pivot rotation. Realistic muscular colored skin and dark shorts/shoes as before; no text, arrows or trail. Keep every limb and hand naturally connected.",
+  "references": [
+    {
+      "path": "docs/generated-frames-bc-v1/reverse-pec-deck/endpoint-closed-v3.png",
+      "role": "edit target and exact camera/body/equipment reference"
+    },
+    {
+      "path": "docs/generated-frames-bc-v1/reverse-pec-deck/endpoint-open-rear-reference-v2.png",
+      "role": "open movement pose only, not camera"
+    }
+  ],
+  "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b714-7077-7191-a9ae-c351cb0cb7c5\\exec-2fd63dbe-0582-4329-90e3-5fd0c1426f4d.png",
+  "projectAsset": "docs/generated-frames-bc-v1/reverse-pec-deck/endpoint-open-v4-candidate.png"
+}

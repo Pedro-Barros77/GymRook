@@ -1,0 +1,29 @@
+{
+  "exerciseId": "unilateral-cable-row",
+  "status": "motion-reviewed-pass",
+  "selected": "sheet.png",
+  "sourceFramesReviewed": 9,
+  "counts": {
+    "arms": 2,
+    "hands": 2,
+    "legs": 2,
+    "feet": 2
+  },
+  "checks": {
+    "cable": "One thin taut cable from D-handle to fixed low pulley in every pose; no moving metal linkage.",
+    "motion": "Right elbow bends and shoulder retracts; left hand stays on thigh; torso remains upright.",
+    "geometry": "No visible arm/leg growth, penetrations, duplicate handle or cable.",
+    "fixedParts": "Bench, footplate, pulley and tower remain structurally fixed. Minor raster drift may be normalized by pipeline."
+  },
+  "limitations": [
+    "Visual source review only; final interpolated motion still requires review."
+  ],
+  "motionReview": {
+    "reviewer": "fix_upper independent manual review",
+    "forwardFramesReviewed": 19,
+    "adjacentOnionPairsReviewed": 18,
+    "landmarks": "landmarks.json",
+    "geometryAudit": "geometry-audit.json",
+    "verdict": "PASS visual: two arms/hands/legs, stable apparatus, continuous contacts, no visible generated ghosts or gross limb growth; projection limits stated in landmarks."
+  }
+}

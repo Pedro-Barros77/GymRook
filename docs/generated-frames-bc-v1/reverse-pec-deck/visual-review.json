@@ -1,0 +1,29 @@
+{
+  "movement": "Nine opening positions: hands initially close in front of the body, then lateral opening to torso line. Rear elevated view makes shoulder abduction and both machine arms visible. Chest remains facing the support.",
+  "qa": "Second generation selected; first draft rejected for small range and changing elbow bend. Current phase has a much larger hand separation with body/seat/feet fixed. Elbow appearance is foreshortened near the start; no claim of a measured 3D joint angle.",
+  "registrationROI": [
+    0.12,
+    0.81,
+    0.83,
+    0.99
+  ],
+  "generationMode": "built-in image_gen",
+  "sheet": "sheet.png",
+  "size": [
+    1254,
+    1254
+  ],
+  "grid": [
+    3,
+    3
+  ],
+  "cellSize": [
+    418,
+    418
+  ],
+  "frameOrder": "row-major",
+  "phase": "outward only; return will reuse time-reversed poses",
+  "sourceSha256": "6373406b6bde0a950aea999a25ce9cbfcfaa66afd185c1d83fab632de2b8ca9a",
+  "sourceVisualStatus": "usable for pilot; interpolated motion still needs review",
+  "registrationNote": "Proposed fixed-feature rectangle only; inspect template match. Do not freeze an entire human or apparatus rectangle."
+}

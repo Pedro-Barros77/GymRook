@@ -1,0 +1,29 @@
+{
+  "movement": "Viewer-near arm pulls from reach to ribs; viewer-far arm/handle stays extended and stationary. Chest/hips stay on support and shoes on floor.",
+  "qa": "Near working lever follows its pivot and far lever remains separate. Small surface/position variations remain as expected for generated poses; review intermediate frames for rigid-arm continuity.",
+  "registrationROI": [
+    0.05,
+    0.84,
+    0.95,
+    0.99
+  ],
+  "generationMode": "built-in image_gen",
+  "sheet": "sheet.png",
+  "size": [
+    1254,
+    1254
+  ],
+  "grid": [
+    3,
+    3
+  ],
+  "cellSize": [
+    418,
+    418
+  ],
+  "frameOrder": "row-major",
+  "phase": "outward only; return will reuse time-reversed poses",
+  "sourceSha256": "7d075133afe53d6234fc6eacef89be863b2d9e61bf28b0cba95a027b08d8c0c2",
+  "sourceVisualStatus": "usable for pilot; interpolated motion still needs review",
+  "registrationNote": "Proposed fixed-feature rectangle only; inspect template match. Do not freeze an entire human or apparatus rectangle."
+}

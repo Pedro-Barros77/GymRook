@@ -1,0 +1,71 @@
+{
+  "version": 3,
+  "mode": "builtin-image_gen",
+  "model": "builtin model managed by tool; identifier not exposed",
+  "intent": "precise-object-edit",
+  "sourceAsset": "docs/generated-frames-v2-fixes/seated-plate-calf-raise/sheet-two-keyframes-v3.png",
+  "grid": [
+    2,
+    1
+  ],
+  "cellSize": [
+    512,
+    512
+  ],
+  "status": "candidate for two-keyframe RIFE study; no source promotion yet",
+  "keyframes": [
+    {
+      "cell": 0,
+      "source": "docs/generated-frames-v2-fixes/seated-plate-calf-raise/reference-first-pose.png",
+      "origin": "source cell0 of sheet-v2.png, cropped [2,2,416,416] and uniformly resized to512 by pipeline; from anchors/anchor_00.png. Anatomy of start was accepted; the later v2poses were rejected.",
+      "imagegenPromptIndex": "docs/generated-frames-v2-fixes/seated-plate-calf-raise/prompt-v2.json"
+    },
+    {
+      "cell": 1,
+      "source": "docs/generated-frames-v2-fixes/seated-plate-calf-raise/endpoint-v4.png",
+      "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b7a9-cd05-7d42-aaf1-58b2a0fe7c23\\exec-6add1d40-7fa0-4d56-a72c-fbd07f8e32aa.png",
+      "technicalTransform": "Uniform downsample of square1254px generated image to512px, no body or apparatus warp"
+    }
+  ],
+  "prompts": [
+    {
+      "stage": "single endpoint generation",
+      "prompt": "Use case: precise-object-edit. Create ONE SINGLE SIDE-PROFILE IMAGE (not a sprite sheet) by editing image1, the approved initial seated calf machine pose. Image2 gives exact endpoint joint positions and machine lever.\nChange the small plantarflexion of BOTH feet and the knee/thigh pad that rise with them. Preserve ALL existing upper body/head/torso/hips/seat/frame/base/platform/rear pivot positions, scale and camera. Hips stay fixed seated. Femur and tibia MUST stay their same length125px on this512px composition. The current knee joint center is(280,322) and ankle joint center(265,447). Move knee center UP to(280,305), move ankle UP to(273,431). Knee and ankle BOTH rise by16–17pixels, so tibia still126pixels long. DO NOT hold knee stationary, do not make shin shorter! Lower knee image coordinate means anatomically higher knee. Thigh rotates a few degrees upward around hip at(155,315). Keep muscle volumes constant.\nFoot ball/forefoot contact stays fixed(345,475). Heel rises only21pixels: heel(244,483)→(245,462). Rigid shoe rotates12degrees only. Keep the shoe size/length. This is a small realistic calf raise, not a high tiptoe.\nMachine rear pivot stays exactly(82,343). Rotate the ONE rigid lever upwards6degrees, no bending/stretching. Plate radius55 constant, center moves(422,310)→(417,275). Thigh pad stays fixed-size, center moves(255,277)→(247,259), sitting on raised lower thighs. Handle and hands rise modestly with the pad; forearms may rotate, upper arms/torso stay. Seat and pelvis absolutely fixed. Nothing clips or floats.\nKeep same photographic educational render, muscular tan shirtless man, charcoal shorts, black sneakers white soles, neutral off-white studio background/light. ONE square fullbody/apparatus endpoint picture, no text, numbers, arrows, colored skeleton, labels, diagrams or watermark.",
+      "references": [
+        {
+          "role": "edit target/accepted start pose",
+          "path": "reference-first-pose.png"
+        },
+        {
+          "role": "supporting geometric guide only",
+          "path": "reference-ik-endpoint-v3.png"
+        }
+      ],
+      "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b7a9-cd05-7d42-aaf1-58b2a0fe7c23\\exec-3e642fce-6ead-4e29-af62-e773e4f502ee.png"
+    },
+    {
+      "stage": "foot contact correction",
+      "prompt": "Use case: precise-object-edit. Edit IMAGE1, the realistic SINGLE raised seated calf machine pose. IMAGE2 is the same picture annotated ONLY to show three new target positions; the colored marks must NOT appear in final. IMAGE3 is the original down position for fixed platform/forefoot location reference.\nFix one small alignment problem: the raised pose's forefoot contact migrated up and forward. Keep ball/forefoot planted at exactly the SAME place on platform as IMAGE3. In the512px composition, final contact should be(337,479), the RED CIRCLE in image2. Move BOTH rigid shoes slightly BACK/LEFT about7px and DOWN about8px so the forefoot soles press firmly on that same platform point. Do not move or change the solid platform, machine base, camera or framing. No floating toes, no shoes penetrating platform.\nTo preserve the SAME shin length, move BOTH KNEES DOWN about8px along with ankles, reducing calf-raise amplitude: near knee center becomes(280,308), ankle center(269,433), BLUE CIRCLES in image2. Knee and ankle must move down together by8px; tibia must not grow or shrink and stays~126px. Both hips fixed on seat. Final heel still raised modestly, about3–5cm, knees remain near90deg, NOT standing on extreme tiptoes. Thigh muscle volume and femur length unchanged.\nLower the attached thigh pad and hand grip modestly by8px with the knee/thigh, and rotate the ONE rigid lever down slightly about2degrees so front plate center becomes~(420,279). Plate radius constant55px. Rear pivot/base/seat/hips/platform remain EXACTLY fixed. Arms/hands may follow pad slightly; torso/head do not move.\nPreserve all original style, identity, muscles, skin, shorts, shoes, materials, background, lighting, gray frame/seat geometry and original fixed apparatus proportions. This is a tiny precise correction to foot contact/knee/lever only. Do not include red/blue marks, lines, numbers, labels, text, arrows or watermark. Output ONE full square realistic image, no grid.",
+      "references": [
+        {
+          "role": "edit target",
+          "path": "endpoint-v3.png"
+        },
+        {
+          "role": "supporting target-point guide only, no marks in final",
+          "path": "reference-contact-correction.png"
+        },
+        {
+          "role": "fixed initial platform and forefoot contact",
+          "path": "reference-first-pose.png"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Two real generated endpoints; no synthetic nine-pose sheet is being described as independently generated anatomy.",
+    "Intermediate RIFE poses are intended to be generated directly at19cosine times for36-frame12fps mirrored motion.",
+    "Previous1/2/3grid candidates are preserved and not selected. Geometry guide is a supporting reference, never final avatar art.",
+    "Accept only after all19actual forward RIFE frames pass forefoot contact and tibia screen-space continuity checks."
+  ]
+}

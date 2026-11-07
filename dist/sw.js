@@ -1,5 +1,5 @@
 /* Generated asset list: npm run build. All URLs stay within this application's scope. */
-const VERSION = 'becf6b95b6040fef';
+const VERSION = 'fa4a7521fef8d86c';
 const ROOT = new URL('./', self.location.href);
 // Include the scope in every cache name: GitHub Pages projects share an origin.
 const PREFIX = 'gymrook-' + encodeURIComponent(ROOT.pathname) + '-';

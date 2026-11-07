@@ -1,0 +1,91 @@
+{
+  "exerciseId": "preacher-curl",
+  "coordinateSpace": "actual-raster-512-pixels",
+  "reviewer": "interpolation_options with independent fix_upper landmark cross-check",
+  "manualUncertaintyPixels": 8,
+  "projectionNotes": "The pad partially occludes the anatomical elbow center. Estimated displacement about15pixels has uncertainty about8pixels per landmark; no clear loss of pad contact was observed. Wrist obscured by dumbbells, therefore no fabricated wrist/forearm measurement. Root and fix_upper accepted the illustrative pilot after review, without certifying a perfectly fixed elbow or exact anatomical motion.",
+  "segments": {
+    "upperArm": [
+      "shoulder",
+      "elbow"
+    ],
+    "torso": [
+      "shoulder",
+      "hip"
+    ]
+  },
+  "ratios": {
+    "upperArmToTorso": [
+      "upperArm",
+      "torso"
+    ]
+  },
+  "angles": {},
+  "fixedPoints": [
+    "shoulder",
+    "hip"
+  ],
+  "poses": [
+    {
+      "file": "output/final-animations/preacher-curl/anchors/anchor_00.png",
+      "sha256": "38df2119b1e0a6b944622e649168e2302579ec1842ef628a0732e72959e08550",
+      "points": {
+        "shoulder": [
+          181,
+          147
+        ],
+        "elbow": [
+          242,
+          238
+        ],
+        "hip": [
+          180,
+          320
+        ]
+      },
+      "uncertaintyPixels": 8,
+      "visibilityNotes": "The pad partially occludes the anatomical elbow center. Estimated displacement about15pixels has uncertainty about8pixels per landmark; no clear loss of pad contact was observed. Wrist obscured by dumbbells, therefore no fabricated wrist/forearm measurement. Root and fix_upper accepted the illustrative pilot after review, without certifying a perfectly fixed elbow or exact anatomical motion."
+    },
+    {
+      "file": "output/final-animations/preacher-curl/anchors/anchor_04.png",
+      "sha256": "8cb4564f103570dfcf2e3d19e1396badf74c3979cc348f3e6d01127facb57bc2",
+      "points": {
+        "shoulder": [
+          181,
+          147
+        ],
+        "elbow": [
+          240,
+          228
+        ],
+        "hip": [
+          180,
+          320
+        ]
+      },
+      "uncertaintyPixels": 8,
+      "visibilityNotes": "The pad partially occludes the anatomical elbow center. Estimated displacement about15pixels has uncertainty about8pixels per landmark; no clear loss of pad contact was observed. Wrist obscured by dumbbells, therefore no fabricated wrist/forearm measurement. Root and fix_upper accepted the illustrative pilot after review, without certifying a perfectly fixed elbow or exact anatomical motion."
+    },
+    {
+      "file": "output/final-animations/preacher-curl/anchors/anchor_08.png",
+      "sha256": "2cbe0060cdf4dccd5e8f3307fe1f9982f4dce0cc985918d3f71ee354a39cd407",
+      "points": {
+        "shoulder": [
+          181,
+          147
+        ],
+        "elbow": [
+          235,
+          225
+        ],
+        "hip": [
+          180,
+          320
+        ]
+      },
+      "uncertaintyPixels": 8,
+      "visibilityNotes": "The pad partially occludes the anatomical elbow center. Estimated displacement about15pixels has uncertainty about8pixels per landmark; no clear loss of pad contact was observed. Wrist obscured by dumbbells, therefore no fabricated wrist/forearm measurement. Root and fix_upper accepted the illustrative pilot after review, without certifying a perfectly fixed elbow or exact anatomical motion."
+    }
+  ],
+  "reviewVerdict": "Accepted illustrative source by root and independent visual reviewer; measurements remain approximate projections and do not certify biomechanics."
+}

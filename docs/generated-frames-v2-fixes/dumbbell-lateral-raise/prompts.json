@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "exerciseId": "dumbbell-lateral-raise",
+  "mode": "built-in image_gen",
+  "selectedVersion": 4,
+  "generatedSource": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b7aa-9ac4-7563-93b1-de0a88168cbd\\exec-fa6f8015-e70f-49d7-9991-317647144888.png",
+  "references": [
+    "docs/generated-frames-v4/pec-deck/pose-00.png",
+    "docs/generated-frames-v2-fixes/dumbbell-lateral-raise/pose-guide.png"
+  ],
+  "guideScript": "docs/generated-frames-v2-fixes/upper-pose-guides.py",
+  "prompts": [
+    {
+      "version": 1,
+      "prompt": "Use case: scientific-educational. Asset: a single animation sprite sheet for a novice exercise guide. Exactly 3 columns by 3 rows, NINE equal SQUARE cells in row-major chronological order, 9 different successive poses of ONE FORWARD HALF REP, no return yet. Same fixed orthographic camera, framing, scale, lighting, floor, person proportions, clothing, face and surface textures across all nine cells. No gutters, gridlines, borders, labels, arrows or text. Each cell shows the whole person, whole apparatus if any, with generous room, no cut-off hands/feet. Reference image is ONLY identity/material/style reference, not pose or machine geometry: muscular adult man, realistically defined muscles, tan natural skin, short dark hair, black shorts and black trainers, matte charcoal grey apparatus, warm off-white studio background and soft fixed floor shadow. Polished realistic colored educational 3D-render illustration; NOT simple low-poly or cartoon. Joint rotations must change continuously across nine poses; all body segment lengths stay identical. Exactly two arms/hands, two legs/feet. Render each cell separately at identical local coordinates. Exercise: standing dumbbell LATERAL RAISE with a CLEAR small CONSTANT ELBOW BEND. Camera front, turned only 10 degrees so elbow angles are visible. Fix elbow FLEXION at 25 degrees in EVERY cell: the forearm never forms a straight line with upper arm, even in the first and last cells. The fist is always visibly a little forward of the elbow (scapular plane, natural wrist neutral). Upper-arm abduction angles in cells 1 through 9: 8,18,28,38,48,58,68,78,88 degrees. Both arms rise simultaneously with the SAME fixed 25-degree bend. End upper arms at shoulder height; hands slightly below shoulder height, not above. Torso/head/hips/knees/feet NEVER move. No shrugging. Two identical compact dark dumbbells rigidly held; neutral grip and level wrists, no pouring jug internal rotation. Blackshorts and legs identical in every frame. Small elbow bend must remain obvious from beginning to end. Start dumbbells beside thighs with hands slightly forward, do not straighten elbows to lower. No large textural changes."
+    },
+    {
+      "version": 2,
+      "prompt": "Use case: sketch-to-render, scientific-educational animation sprite sheet. INPUT1 is the authoritative NINE-POSE JOINT/MECHANICAL GUIDE, NOT final style. INPUT2 is character/rendering style only. Replace the guide mannequin with the realistic muscular tan man from input2, retaining EXACT skeletal joint locations, proportions, camera and contact locations from INPUT1 in each corresponding cell. Nine equal square cells, 3columns/3rows, chronological left-to-right top-to-bottom, full forward halfrep only. No gutters/gridlines/numbers/text/joint markers. Offwhite background, soft lighting, black shorts/trainers, grey equipment. Fixed camera/floor/torso/head/feet/pelvis and all lengths across all cells. Smooth incremental pose changes, rigid objects, no extra limbs. CRITICAL anatomical guide is physically constructed in 3D with a fixed bend, so do not straighten the elbows or reinterpret them as curls. Anatomically detailed real muscles, no cylinders/simple polygon mannequin. Standing dumbbell lateral raise. Every cell has exactly25degrees ELBOW FLEXION in physical3D; the visible kink is toward FRONT of body. Camera35degrees around front permits seeing the bend. Follow joint guide exactly. Upper arms rotate out/up from8degrees to88degrees, two arms simultaneously. Forearms point a little forward throughout, wrists neutral, elbows not locked. Do not duplicate the old straight-elbow image. Hands should be clearly set forward of elbows, not straight continuation. Two stable compact dumbbells. Raise with shoulders relaxed, no shrug. Maintain CONSTANT elbow25degree flexion from first to last."
+    },
+    {
+      "version": 3,
+      "prompt": "Use case: sketch-to-render, scientific-educational. Generate ONE 3x3 sheet of nine equal square cells, nine successive forward half-rep poses. INPUT1 is an EXACT joint and machine reference for ALL9poses. INPUT2 is ONLY style/identity/material reference. Transform input1 into realistic detailed muscular man using style2: tan skin, dark hair, black shorts/trainers, grey machines, offwhite background. Must keep identical local composition, proportions, scale and camera in all9cells. No text, no gridlines, no bone markers. Full body, no cropping. DUMBBELL LATERAL RAISE. Follow the guide's OBVIOUS 25degree BENT ELBOW in EVERY FRAME, including the peak. The lower arm must NOT form a straight line with the upper arm. At the peak the elbow is at shoulder height, but the hand is noticeably LOWER than elbow due25degreeflexion, exactly as guide1. At start forearms slope slightly inward with elbow bent, then rise while preserving this SAME angle. Do not replace this with the old locked-elbow raise. Both upper arms raise simultaneously8→88degrees, elbow angle constant25flexion. Camera front20degrees. Wrist neutral, compact dumbbells. Torso/head/hips/feet/legs absolutelyfixed. Need visible bend rather than straight arms."
+    },
+    {
+      "version": 4,
+      "prompt": "Use case: precise-object-edit. Target input1 is a 3x3 nine-pose animation sprite sheet. Keep its nine cells, identical person, identity, muscular proportions, face, torso, legs, feet, pose timings, dumbbells, camera, background and lighting. Correct ONLY ELBOW FLEXION: input currently bends about40degrees at the top. Make it only a modest20-25degrees CONSTANT in ALL nine poses, never straight/locked. In later cells lift hands a little closer to elbow height by modestly opening elbow; do not change shoulders or elbow positions. In first cells already20-25degrees visible slight bend. The elbow angle between upperarm and forearm must be155-160degrees EVERYcell, no elbow90, no elbow180. Both arms move in unison; forearms slope moderately downward toward hands when raised. Keep final hands lower than elbows by about12px localcell418. No other changes. Nine equal squarecells, no gutters/text/gridlines."
+    }
+  ],
+  "layout": {
+    "columns": 3,
+    "rows": 3,
+    "poses": 9,
+    "order": "row-major forward half-rep",
+    "return": "exact reverse in pipeline"
+  }
+}

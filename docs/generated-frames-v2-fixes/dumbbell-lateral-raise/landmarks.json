@@ -1,0 +1,223 @@
+{
+  "exerciseId": "dumbbell-lateral-raise",
+  "coordinateSpace": "actual-raster-512-pixels",
+  "reviewer": "fix_upper manual actual pipeline-anchor review",
+  "projectionNotes": "Both arms in front20degree view. Near/far hand directions and surface occlusion change projected elbow angle. Manual shoulder/elbow/wrist centers\u00c2\u00b14px, hip under shorts\u00c2\u00b18px. Visible bend throughout, never a locked limb; exact physical25degrees cannot be certified from raster.",
+  "poses": [
+    {
+      "file": "output/final-animations/dumbbell-lateral-raise/anchors/anchor_00.png",
+      "sha256": "90a5c21a1149d02f1dc9bd51791a6cb81fca51205210343e29262d037215b7a1",
+      "points": {
+        "shoulderLeft": [
+          204,
+          125
+        ],
+        "elbowLeft": [
+          177,
+          187
+        ],
+        "wristLeft": [
+          178,
+          248
+        ],
+        "shoulderRight": [
+          298,
+          124
+        ],
+        "elbowRight": [
+          316,
+          184
+        ],
+        "wristRight": [
+          326,
+          244
+        ],
+        "hip": [
+          235,
+          262
+        ],
+        "knee": [
+          218,
+          349
+        ],
+        "ankle": [
+          217,
+          447
+        ],
+        "headTop": [
+          254,
+          17
+        ],
+        "heel": [
+          211,
+          488
+        ]
+      },
+      "visibilityNotes": "Both arms in front20degree view. Near/far hand directions and surface occlusion change projected elbow angle. Manual shoulder/elbow/wrist centers\u00c2\u00b14px, hip under shorts\u00c2\u00b18px. Visible bend throughout, never a locked limb; exact physical25degrees cannot be certified from raster."
+    },
+    {
+      "file": "output/final-animations/dumbbell-lateral-raise/anchors/anchor_04.png",
+      "sha256": "b8585c6e2d70041befc06a99dfcf07ae688c81cde5436cd19a113a3f1fc721da",
+      "points": {
+        "shoulderLeft": [
+          201,
+          124
+        ],
+        "elbowLeft": [
+          155,
+          160
+        ],
+        "wristLeft": [
+          128,
+          202
+        ],
+        "shoulderRight": [
+          300,
+          128
+        ],
+        "elbowRight": [
+          348,
+          168
+        ],
+        "wristRight": [
+          380,
+          205
+        ],
+        "hip": [
+          235,
+          262
+        ],
+        "knee": [
+          218,
+          349
+        ],
+        "ankle": [
+          217,
+          447
+        ],
+        "headTop": [
+          254,
+          17
+        ],
+        "heel": [
+          211,
+          488
+        ]
+      },
+      "visibilityNotes": "Both arms in front20degree view. Near/far hand directions and surface occlusion change projected elbow angle. Manual shoulder/elbow/wrist centers\u00c2\u00b14px, hip under shorts\u00c2\u00b18px. Visible bend throughout, never a locked limb; exact physical25degrees cannot be certified from raster."
+    },
+    {
+      "file": "output/final-animations/dumbbell-lateral-raise/anchors/anchor_08.png",
+      "sha256": "858f042ab6183a2ae9e2b0c3b3d8db85705aa876edcdb4725cb421879fa4d844",
+      "points": {
+        "shoulderLeft": [
+          199,
+          121
+        ],
+        "elbowLeft": [
+          139,
+          123
+        ],
+        "wristLeft": [
+          99,
+          151
+        ],
+        "shoulderRight": [
+          298,
+          124
+        ],
+        "elbowRight": [
+          365,
+          138
+        ],
+        "wristRight": [
+          409,
+          166
+        ],
+        "hip": [
+          235,
+          262
+        ],
+        "knee": [
+          218,
+          349
+        ],
+        "ankle": [
+          217,
+          447
+        ],
+        "headTop": [
+          254,
+          17
+        ],
+        "heel": [
+          211,
+          488
+        ]
+      },
+      "visibilityNotes": "Both arms in front20degree view. Near/far hand directions and surface occlusion change projected elbow angle. Manual shoulder/elbow/wrist centers\u00c2\u00b14px, hip under shorts\u00c2\u00b18px. Visible bend throughout, never a locked limb; exact physical25degrees cannot be certified from raster."
+    }
+  ],
+  "segments": {
+    "upperArmLeft": [
+      "shoulderLeft",
+      "elbowLeft"
+    ],
+    "forearmLeft": [
+      "elbowLeft",
+      "wristLeft"
+    ],
+    "upperArmRight": [
+      "shoulderRight",
+      "elbowRight"
+    ],
+    "forearmRight": [
+      "elbowRight",
+      "wristRight"
+    ],
+    "thigh": [
+      "hip",
+      "knee"
+    ],
+    "lowerLeg": [
+      "knee",
+      "ankle"
+    ]
+  },
+  "ratios": {
+    "forearmToUpperArmLeft": [
+      "forearmLeft",
+      "upperArmLeft"
+    ],
+    "forearmToUpperArmRight": [
+      "forearmRight",
+      "upperArmRight"
+    ],
+    "lowerLegToThigh": [
+      "lowerLeg",
+      "thigh"
+    ]
+  },
+  "angles": {
+    "elbowLeft": [
+      "shoulderLeft",
+      "elbowLeft",
+      "wristLeft"
+    ],
+    "elbowRight": [
+      "shoulderRight",
+      "elbowRight",
+      "wristRight"
+    ],
+    "knee": [
+      "hip",
+      "knee",
+      "ankle"
+    ]
+  },
+  "fixedPoints": [
+    "headTop",
+    "heel"
+  ],
+  "reviewVerdict": "PASS visual canonical19 +18onions; no visible extra limbs, no gross anatomical distortion or machine clipping. Projection limits remain."
+}

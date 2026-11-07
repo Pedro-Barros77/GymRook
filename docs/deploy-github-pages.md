@@ -26,7 +26,7 @@ Se o Git solicitar identificação no primeiro commit, configure `user.name` e `
 https://SEU_USUARIO.github.io/GymRook/
 ```
 
-Só `dist/` entra no site publicado. Fontes e scripts ficam no repositório; `.cache/`, `output/` e `backups/` ficam fora do Git conforme `.gitignore`. Os backups locais continuam preservados. O download offline do piloto tem cerca de 27,8 MB.
+Só `dist/` entra no site publicado. Fontes e scripts ficam no repositório; `.cache/`, `output/` e `backups/` ficam fora do Git conforme `.gitignore`. Os backups locais continuam preservados. O pacote offline atual tem cerca de 156,36 MiB, com 31 demonstrações a 12 fps e versões anteriores preservadas.
 
 ## Testar no celular
 

@@ -1,0 +1,6 @@
+{
+  "generationMode": "built-in image_gen edit",
+  "target": "sheet-v1-neck-rejected.png",
+  "purpose": "Head follows torso rather than looking horizontally forward during deep hinge.",
+  "prompt": "Use case: precise-object-edit. Edit target is the supplied square 3x3 exercise-animation contact sheet. Correct ONLY the man's HEAD/NECK alignment in cells 3 through 9 (row-major): as his torso hinges forward, the head should naturally follow the spine, chin gently tucked and gaze directed toward the floor a few feet ahead, rather than craning upward to look horizontally forward. In the last row especially, keep the back of the head in line with the upper spine and the face angled diagonally downward. Same man, same face proportions, skin, hair, same nine poses and same 3x3 layout. Keep all pixels of his torso, spine, shoulders, arms, hands, dumbbells, hips, shorts, knees, lower legs, feet, floor and background unchanged. Do NOT deepen the bend or change equipment, camera, scale, character position, joint positions, lighting, skin texture, composition, grid/cell boundaries. Cells1/2 should remain unchanged. No labels, borders, texts or additional figures. We need the same nine progressive stiff/hip-hinge keyframes, only removing neck hyperextension."
+}

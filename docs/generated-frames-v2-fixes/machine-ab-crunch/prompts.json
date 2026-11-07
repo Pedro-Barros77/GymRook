@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "exerciseId": "machine-ab-crunch",
+  "mode": "built-in image_gen",
+  "selectedVersion": 1,
+  "generatedSource": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b7aa-9ac4-7563-93b1-de0a88168cbd\\exec-ceb5b3d5-ddb6-44b3-8296-fdc12df46fc9.png",
+  "references": [
+    "docs/generated-frames-v4/pec-deck/pose-00.png"
+  ],
+  "prompts": [
+    {
+      "version": 1,
+      "prompt": "Use case: scientific-educational. Asset: a single animation sprite sheet for a novice exercise guide. Exactly 3 columns by 3 rows, NINE equal SQUARE cells in row-major chronological order, 9 different successive poses of ONE FORWARD HALF REP, no return yet. Same fixed orthographic camera, framing, scale, lighting, floor, person proportions, clothing, face and surface textures across all nine cells. No gutters, gridlines, borders, labels, arrows or text. Each cell shows the whole person, whole apparatus if any, with generous room, no cut-off hands/feet. Reference image is ONLY identity/material/style reference, not pose or machine geometry: muscular adult man, realistically defined muscles, tan natural skin, short dark hair, black shorts and black trainers, matte charcoal grey apparatus, warm off-white studio background and soft fixed floor shadow. Polished realistic colored educational 3D-render illustration; NOT simple low-poly or cartoon. Joint rotations must change continuously across nine poses; all body segment lengths stay identical. Exactly two arms/hands, two legs/feet. Render each cell separately at identical local coordinates. Exercise: seated ABDOMINAL CRUNCH MACHINE, chest-pad style. Camera three-quarter front from the athlete's left, whole apparatus visible. Machine has a horizontal black SEAT and a TALL VERTICAL BACKREST rigidly BOLTED to fixed chassis, with TWO visible fixed bracket supports. Backrest stays VERTICAL and absolutely STILL in EVERY cell; it does NOT follow the man's back. Athlete pelvis stays on seat, knees bent90 and feet planted on fixed foot support. Machine resistance tower is fully OPAQUE grey casing, no visible plates or weight stack. Moving top lever pivots on a fixed shoulder-height bearing, has a padded chest roller touching upper chest and two short handles beside shoulders held by hands. ONLY this upper lever/chest roller and upper body MOVE; lower chair/backrest/chassis/seat/tower/feet remain identical. Start man seated upright touching backrest. Nine smooth abdominal crunch positions at 0,4,8,12,16,20,24,28,32 degrees of THORACIC flexion: curl ribs toward pelvis, rounded upper trunk, no deep hip hinge; hips remain fixed. As he curls forward, UPPER BACK SEPARATES from the FIXED vertical backrest and the gap widens visibly; backrest remains upright behind him with its top at exactly the same point in every cell. Do NOT paste the backrest to his back. Hands keep same elbows and handle grip as chest pad lever rotates forward-down. Head follows trunk neutral, neck not yanked. Machine frame, backrest, seat all geometrically rigid; no stretching/multiplying weights (opaque cover). In final cell visibly show fixed vertical backrest behind forward-curled upper back. Exactly same apparatus 9times; same metal tubing, supports, seat and backrest dimensions and orientations."
+    }
+  ],
+  "layout": {
+    "columns": 3,
+    "rows": 3,
+    "poses": 9,
+    "order": "row-major forward half-rep",
+    "return": "exact reverse in pipeline"
+  }
+}

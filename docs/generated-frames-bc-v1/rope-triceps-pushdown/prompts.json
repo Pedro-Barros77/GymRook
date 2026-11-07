@@ -1,0 +1,14 @@
+{
+  "id": "rope-triceps-pushdown",
+  "generationMode": "built-in image_gen",
+  "prompt": "Use case: scientific-educational. Make one coherent motion-keyframe contact sheet for a mobile exercise guide. Input1 is approved CHARACTER AND ART STYLE only: same adult muscular athletic man, naturally colored tan skin, short dark hair, defined muscles, black shorts and black trainers, realistic colored fitness illustration. Input2 is exercise/equipment reference. Preserve that exercise's apparatus and contacts; correct any pose ambiguity as specified. ONE SQUARE image with exactly THREE columns by THREE rows, nine equal SQUARE cells read left-to-right then top-to-bottom. These are consecutive moments of ONE same scene, not independent variants. Locked camera, crop, scale, lens, illumination, floor and background in every cell. Same body proportions/skin/textures and identical machine topology. No borders, gutters, text, labels, arrows or numbers. Entire body, shoes, hands and relevant equipment remain fully in each cell with fixed margins. Static supports remain fixed; moving components only undergo rigid physical motion. Hands stay on intended grips, feet on intended supports, no intersections or extra limbs. Show ONLY the specified first half-repetition from initial pose to final, progressing monotonically over nine poses. Exercise: TRICEPS ROPE PUSHDOWN at HIGH CABLE PULLEY. Fixed three-quarter side/front camera shows cable tower and both forearms. Pose1 elbows flexed around90degrees, forearms pointing forward/up, rope handles held around upper abdomen. Upper arms lie beside the ribcage, elbows anchored to their same position. Poses2..8 extend ONLY both elbows progressively, lowering hands; pose9 elbows nearly straight and rope ends naturally apart alongside upper thighs. No backward shoulder swing, no torso lean, no squat, no wrist folding. Feet, head, torso and upper arms stay fixed. Two hands each hold one BLACK rope end with a rubber stopper; continuous rope rises to ONE central metal swivel and ONE taut cable going to high pulley throughout every cell. Same length/thickness of rope and attached parts. Weight stack lifts as hands descend; machine frame/base/pulley remain rigid and stationary. No extra rope segments, no detached hand/clip, no rope through torso, no hands intersecting thighs. All nine poses only bent→extended elbows.",
+  "references": [
+    "docs/generated-frames-v4/pec-deck/pose-00.png",
+    "dist/assets/thumbnails/rope-triceps-pushdown.webp"
+  ],
+  "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b26c-8c92-7253-ac21-547f0416b759\\exec-5a6fa5ff-87f5-4c58-8cf0-35e01704568c.png",
+  "grid": [
+    3,
+    3
+  ]
+}

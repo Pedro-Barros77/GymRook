@@ -1,0 +1,14 @@
+{
+  "id": "standing-machine-calf-raise",
+  "generationMode": "built-in image_gen",
+  "prompt": "Use case: scientific-educational. Make one coherent motion-keyframe contact sheet for a mobile exercise guide. Input1 is approved CHARACTER AND ART STYLE only: same adult muscular athletic man, naturally colored tan skin, short dark hair, defined muscles, black shorts and black trainers, realistic colored fitness illustration. Input2 is exercise/equipment reference. Preserve that exercise's apparatus and contacts; correct any pose ambiguity as specified. ONE SQUARE image with exactly THREE columns by THREE rows, nine equal SQUARE cells read left-to-right then top-to-bottom. These are consecutive moments of ONE same scene, not independent variants. Locked camera, crop, scale, lens, illumination, floor and background in every cell. Same body proportions/skin/textures and identical machine topology. No borders, gutters, text, labels, arrows or numbers. Entire body, shoes, hands and relevant equipment remain fully in each cell with fixed margins. Static supports remain fixed; moving components only undergo rigid physical motion. Hands stay on intended grips, feet on intended supports, no intersections or extra limbs. Show ONLY the specified first half-repetition from initial pose to final, progressing monotonically over nine poses. Exercise: standing CALF RAISE MACHINE, same gray selectorized apparatus with shoulder yoke as reference. Camera from side-rear three-quarter, distinctly shows both calves, ankles and shoes on a narrow raised fixed foot platform. Pose1 heels lowered modestly BELOW the platform surface with forefeet/toes resting firmly at the platform BACK EDGE, heels hanging freely OUTSIDE the edge, knees soft nearly straight. Poses2..8 progressively plantarflex both ankles and lift heels; pose9 high on forefeet, a comfortable full calf contraction. Toes/balls of both feet remain pinned to the SAME exact platform contact points in every pose. The entire body and shoulder-loaded YOKE rise together several centimeters, fixed torso/knee angles: no squat, hip thrust or knee bounce. Same shoulder pad thickness/position relative to shoulder, same hand grips; hands/yoke move together. Frame, tower, platform and rails stay perfectly fixed. The connected weight stack rises naturally as shoulder yoke/body rises. Distinguish moving yoke and weight plates from fixed frame. Muscular calf definition, anatomically natural ankle rotation, no heel passing through platform. Do not show whole feet supported flat on a wide platform; heels MUST be free beyond the edge throughout.",
+  "references": [
+    "docs/generated-frames-v4/pec-deck/pose-00.png",
+    "dist/assets/thumbnails/standing-machine-calf-raise.webp"
+  ],
+  "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b26c-8c92-7253-ac21-547f0416b759\\exec-da2ab379-5b67-4308-89ec-d06e96a2d9dd.png",
+  "grid": [
+    3,
+    3
+  ]
+}

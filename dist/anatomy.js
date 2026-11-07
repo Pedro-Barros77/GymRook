@@ -30,6 +30,8 @@
     quads: /quadriceps|reto femoral|vasto/,
     hamstrings: /posterior.*coxa|isquiotibi|semitend|semimembr|biceps femoral|hamstring/,
     calves: /panturrilha|gastrocnemio|soleo|calf/,
+    gastrocnemius: /gastrocnemio|panturrilha|calf/,
+    soleus: /soleo|panturrilha|calf/,
     adductors: /adutor|adductor/,
     abductors: /abdutor|abductor|gluteo medio|gluteo minimo/
   };
@@ -44,7 +46,7 @@
     if (matches(exercise.primary)) return 'primary';
     if (matches(exercise.secondary)) return 'secondary';
     // The finer arm regions should not inherit a neighbouring muscle's emphasis.
-    if (region === 'brachialis' || region === 'wristFlexors' || region === 'wristExtensors') return 'rest';
+    if (['brachialis', 'wristFlexors', 'wristExtensors', 'gastrocnemius', 'soleus'].includes(region)) return 'rest';
     return 'primary';
   }
 
@@ -119,7 +121,7 @@
       muscle('quads', 'M-24 416 C-18 428-15 443-18 457 C-20 468-28 477-34 474 C-39 470-34 453-29 441 C-27 431-27 423-24 416Z'),
       neutral('M-43 478 C-49 481-49 490-43 494 C-39 497-34 495-31 491 C-27 484-32 477-37 476Z'),
       // Anterior shin includes tibialis, peroneal contour and visible calf edge.
-      muscle('calves', 'M-50 494 C-61 503-67 521-64 539 C-62 557-52 574-43 588 C-41 573-44 555-47 538 C-50 520-49 507-46 499Z'),
+      muscle('calves', 'M-50 494 C-61 503-67 521-64 539 C-62 557-52 574-43 588 C-41 573-44 555-47 538 C-50 520-49 507-46 499Z', 'gastrocnemius'),
       neutral('M-39 497 C-32 508-27 528-29 548 C-31 571-33 596-32 620 C-34 624-36 625-38 623 C-42 606-43 586-47 564 C-51 542-50 516-39 497Z'),
       neutral('M-49 548 C-49 571-43 597-41 619 C-42 624-44 627-46 627 C-51 603-55 574-49 548Z'),
       neutral('M-25 546 C-21 567-26 596-30 620 C-31 624-33 626-35 627 C-34 602-30 569-25 546Z'),
@@ -169,10 +171,10 @@
       muscle('adductors', 'M-9 359 C-9 383-12 411-17 435 L-22 456 C-20 428-16 389-9 359Z'),
       neutral('M-44 480 C-48 485-47 492-42 496 C-37 493-31 488-29 481 L-34 478Z'),
       // Gastrocnemius medial/lateral heads, soleus edges, Achilles tendon.
-      muscle('calves', 'M-47 497 C-61 504-67 522-63 540 C-60 557-50 572-42 581 C-38 567-39 551-41 535 C-44 519-44 507-43 500Z'),
-      muscle('calves', 'M-36 496 C-24 494-16 508-16 525 C-16 546-28 571-39 586 C-39 570-35 554-35 539 C-35 522-35 508-36 496Z'),
-      muscle('calves', 'M-62 541 C-60 562-49 588-44 606 C-43 611-42 615-41 618 C-39 599-42 583-49 565 C-54 553-58 545-62 541Z'),
-      muscle('calves', 'M-18 544 C-19 568-29 593-34 611 C-35 616-36 619-38 622 C-36 598-31 574-23 553 C-21 549-19 546-18 544Z'),
+      muscle('calves', 'M-47 497 C-61 504-67 522-63 540 C-60 557-50 572-42 581 C-38 567-39 551-41 535 C-44 519-44 507-43 500Z', 'gastrocnemius'),
+      muscle('calves', 'M-36 496 C-24 494-16 508-16 525 C-16 546-28 571-39 586 C-39 570-35 554-35 539 C-35 522-35 508-36 496Z', 'gastrocnemius'),
+      muscle('calves', 'M-62 541 C-60 562-49 588-44 606 C-43 611-42 615-41 618 C-39 599-42 583-49 565 C-54 553-58 545-62 541Z', 'soleus'),
+      muscle('calves', 'M-18 544 C-19 568-29 593-34 611 C-35 616-36 619-38 622 C-36 598-31 574-23 553 C-21 549-19 546-18 544Z', 'soleus'),
       neutral('M-40 583 C-40 597-41 613-39 628 L-33 628 C-34 611-35 597-36 585Z'),
       neutral('M-43 628 C-46 637-47 646-43 653 C-39 659-30 660-25 654 L-26 644 C-29 637-29 632-29 627 C-33 632-39 632-43 628Z'),
       line('M-39 636 C-41 643-39 649-34 653 M-30 638 C-30 644-29 649-28 653', 1.2),

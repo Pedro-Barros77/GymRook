@@ -1,0 +1,44 @@
+{
+  "exerciseId": "dumbbell-lateral-raise",
+  "status": "motion-reviewed-pass",
+  "selected": "sheet.png",
+  "sourceFramesReviewed": 9,
+  "selectedCells": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "rejectedCells": [],
+  "counts": {
+    "arms": 2,
+    "hands": 2,
+    "legs": 2,
+    "feet": 2,
+    "levers": 0
+  },
+  "checks": {
+    "elbows": "Visible slight/moderate bend throughout; never locked straight. Projected flexion visually about20\u00e2\u20ac\u201c40degrees, with some camera/pose variation.",
+    "motion": "Both shoulders abduct together; arms end at shoulder height, hands slightly lower.",
+    "geometry": "No apparent limb length growth; same two dumbbells, contact throughout. Head/torso/hips/legs/feet stable.",
+    "guidance": "Guide uses constant25degree physical elbow flexion; raster does not permit certifying exact3D joint angle."
+  },
+  "limitations": [
+    "Visual source review only; not a professional biomechanical validation.",
+    "Final interpolated motion needs anatomical and mechanical review."
+  ],
+  "selectedVersion": 4,
+  "motionReview": {
+    "reviewer": "fix_upper independent manual review",
+    "forwardFramesReviewed": 19,
+    "adjacentOnionPairsReviewed": 18,
+    "landmarks": "landmarks.json",
+    "geometryAudit": "geometry-audit.json",
+    "verdict": "PASS visual. Exact3D joint-angle certification excluded; see projection notes."
+  }
+}

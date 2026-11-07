@@ -1,0 +1,49 @@
+{
+  "exerciseId": "reverse-pec-deck",
+  "status": "motion-reviewed-pass",
+  "selected": "sheet.png",
+  "sourceFramesReviewed": 9,
+  "selectedCells": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "rejectedCells": [],
+  "counts": {
+    "arms": 2,
+    "hands": 2,
+    "legs": 2,
+    "feet": 2,
+    "levers": 2
+  },
+  "checks": {
+    "bilateral": "Both hands and arms open on every pose; no stationary arm.",
+    "orientation": "Rear-centered elevated view, chest faces centerline chestpad; chair aligned with machine.",
+    "fixedParts": "Two pivots and crossbar fixed; two levers rotate. Entire scene zoomed out for clearance.",
+    "clearance": "Last hand/lever ends near x332 on512crop, tower starts nearx368: approximately36px visible white airgap; allposes insideframe.",
+    "elbows": "Actual 2D flexion L/R\u224846/41,23/19,12/7degrees; constant physical20degree guide predicts projected38/16/10. Consistent with fore-shortening, not physical90degree extension; see source-landmarks visual and SHA audit.",
+    "resistance": "Covered tower; no exposed plate multiplication.",
+    "geometry": "No extra hands/levers, duplicates or obvious limb growth."
+  },
+  "limitations": [
+    "Visual source review only; not a professional biomechanical validation.",
+    "Final interpolated motion needs anatomical and mechanical review."
+  ],
+  "selectedVersion": 6,
+  "sourceGeometryAnnotation": "source-landmarks.json",
+  "sourceGeometryAudit": "source-geometry-audit.json",
+  "motionReview": {
+    "reviewer": "fix_upper independent manual review",
+    "forwardFramesReviewed": 19,
+    "adjacentOnionPairsReviewed": 18,
+    "landmarks": "landmarks.json",
+    "geometryAudit": "geometry-audit.json",
+    "verdict": "PASS visual. Exact3D joint-angle certification excluded; see projection notes."
+  }
+}

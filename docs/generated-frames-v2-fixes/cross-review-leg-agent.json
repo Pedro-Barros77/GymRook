@@ -1,0 +1,14 @@
+{
+  "scope": "Independent visual review of root-generated source art; final interpolation review pending",
+  "reviewerTask": "fix_legs",
+  "findings": {
+    "high-cable-crossover": {"status": "source acceptable", "notes": ["Both hands move symmetrically down/forward from high pulleys into a low meeting position.", "Fixed wide tower stance and planted staggered feet; no visible rigid-arm collision.", "Enclosed stacks avoid visible plate morphing; final interpolated cable endpoints need checking."]},
+    "cable-biceps-curl": {"status": "source acceptable", "notes": ["Palms-up bar and fixed low pulley attachment.", "Elbows remain close to torso; no whole-body swing apparent.", "Cables remain thin straight steel rather than articulated metal arms."]},
+    "preacher-curl": {"status": "source acceptable", "notes": ["Upper arms remain supported on the fixed Scott pad; both sides curl together.", "Weight bar/plates stay similar in size and table/chair/feet are fixed.", "Bottom elbow is softly extended, not visibly hyperextended; top does not require raising shoulders."]},
+    "floor-crunch": {"status": "source acceptable", "notes": ["Feet and knees remain planted; shoulders curl off floor while pelvis stays supported.", "Arms crossed on chest avoid pulling the neck; gradual neck/trunk movement."]},
+    "reverse-crunch": {"status": "source acceptable, modest range", "notes": ["Bent knees remain together; pelvis curls a small amount off the mat.", "Head/shoulders stay supported and hands anchor on mat.", "Movement amplitude is deliberately modest, not a large leg swing; inspect the rendered frames to keep the pelvic lift visible."]},
+    "forearm-plank": {"status": "source acceptable", "source": "docs/generated-frames-v2-fixes/forearm-plank/source.png", "notes": ["Forearms and toes support the body, elbows approximately under shoulders.", "Back/hip/knees form a stable continuous line, head follows spine.", "An isometric hold should remain still rather than inventing a repetitive exercise motion."]},
+    "seated-plate-calf-raise": {"status": "not reviewed; root is replacing rejected source"}
+  },
+  "limitations": ["Visual art screening does not validate clinical execution or exact joint anatomy.", "No final RIFE frames for the six source sheets were available during this review."]
+}

@@ -1,0 +1,346 @@
+{
+  "source": "docs/generated-frames-v2-fixes/lying-leg-curl/sheet.png",
+  "sha256": "a0775a3c45508a27eb4f5b9978df100183edc843df7e0aa8ed9f507988c90070",
+  "grid": [
+    3,
+    3
+  ],
+  "cellPixels": [
+    418,
+    418
+  ],
+  "method": "Manual near-side surface-landmark estimates on the final generated sheet. Orange lines/blue points in qa-joint-landmarks.png show the estimates. These are not the exact input-guide coordinates. Bone centers under shorts/roller cannot be observed directly.",
+  "uncertaintyPixels": {
+    "visibleAnkle": 4,
+    "visibleKnee": 5,
+    "hipUnderShorts": 7,
+    "mechanicalPivotAndRoller": 2
+  },
+  "acceptanceLimits": {
+    "femurAndTibiaRangeOverMeanPercent": 10,
+    "mechanicalLeverRadiusRangeOverMeanPercent": 10,
+    "scope": "Screen-space geometry screening only, not clinical or 3D skeletal validation"
+  },
+  "summary": {
+    "femur": {
+      "minimum": 78.31347265956222,
+      "maximum": 78.31347265956222,
+      "mean": 78.31347265956221,
+      "rangeOverMeanPercent": 0.0
+    },
+    "tibia": {
+      "minimum": 76.66159403508382,
+      "maximum": 84.75848040166836,
+      "mean": 81.12120407146469,
+      "rangeOverMeanPercent": 9.981220642942496
+    },
+    "mechanicalLeverRadius": {
+      "minimum": 65.85590330410783,
+      "maximum": 70.83784299369935,
+      "mean": 68.54457422811305,
+      "rangeOverMeanPercent": 7.268175119174089
+    }
+  },
+  "poses": [
+    {
+      "hip": [
+        210,
+        218
+      ],
+      "knee": [
+        132,
+        225
+      ],
+      "ankle": [
+        53,
+        216
+      ],
+      "pivot": [
+        132,
+        225
+      ],
+      "roller": [
+        63,
+        217
+      ],
+      "shoulder": [
+        315,
+        198
+      ],
+      "pose": 0,
+      "segmentLengthsPixels": {
+        "femur": 78.31347265956222,
+        "tibia": 79.51100552753688,
+        "mechanicalLeverRadius": 69.46221994724903
+      }
+    },
+    {
+      "hip": [
+        210,
+        218
+      ],
+      "knee": [
+        132,
+        225
+      ],
+      "ankle": [
+        57,
+        201
+      ],
+      "pivot": [
+        132,
+        225
+      ],
+      "roller": [
+        66,
+        201
+      ],
+      "shoulder": [
+        315,
+        198
+      ],
+      "pose": 1,
+      "segmentLengthsPixels": {
+        "femur": 78.31347265956222,
+        "tibia": 78.74642849044012,
+        "mechanicalLeverRadius": 70.22819946431775
+      }
+    },
+    {
+      "hip": [
+        210,
+        218
+      ],
+      "knee": [
+        132,
+        225
+      ],
+      "ankle": [
+        66,
+        186
+      ],
+      "pivot": [
+        132,
+        225
+      ],
+      "roller": [
+        76,
+        188
+      ],
+      "shoulder": [
+        315,
+        198
+      ],
+      "pose": 2,
+      "segmentLengthsPixels": {
+        "femur": 78.31347265956222,
+        "tibia": 76.66159403508382,
+        "mechanicalLeverRadius": 67.11929677819934
+      }
+    },
+    {
+      "hip": [
+        210,
+        218
+      ],
+      "knee": [
+        132,
+        225
+      ],
+      "ankle": [
+        72,
+        176
+      ],
+      "pivot": [
+        132,
+        225
+      ],
+      "roller": [
+        83,
+        181
+      ],
+      "shoulder": [
+        315,
+        198
+      ],
+      "pose": 3,
+      "segmentLengthsPixels": {
+        "femur": 78.31347265956222,
+        "tibia": 77.46612162745726,
+        "mechanicalLeverRadius": 65.85590330410783
+      }
+    },
+    {
+      "hip": [
+        210,
+        218
+      ],
+      "knee": [
+        132,
+        225
+      ],
+      "ankle": [
+        79,
+        162
+      ],
+      "pivot": [
+        132,
+        225
+      ],
+      "roller": [
+        88,
+        174
+      ],
+      "shoulder": [
+        315,
+        198
+      ],
+      "pose": 4,
+      "segmentLengthsPixels": {
+        "femur": 78.31347265956222,
+        "tibia": 82.3286098510111,
+        "mechanicalLeverRadius": 67.35725647619564
+      }
+    },
+    {
+      "hip": [
+        210,
+        218
+      ],
+      "knee": [
+        132,
+        225
+      ],
+      "ankle": [
+        90,
+        154
+      ],
+      "pivot": [
+        132,
+        225
+      ],
+      "roller": [
+        97,
+        166
+      ],
+      "shoulder": [
+        315,
+        198
+      ],
+      "pose": 5,
+      "segmentLengthsPixels": {
+        "femur": 78.31347265956222,
+        "tibia": 82.49242389456137,
+        "mechanicalLeverRadius": 68.60029154456998
+      }
+    },
+    {
+      "hip": [
+        210,
+        218
+      ],
+      "knee": [
+        132,
+        225
+      ],
+      "ankle": [
+        99,
+        147
+      ],
+      "pivot": [
+        132,
+        225
+      ],
+      "roller": [
+        102,
+        164
+      ],
+      "shoulder": [
+        315,
+        198
+      ],
+      "pose": 6,
+      "segmentLengthsPixels": {
+        "femur": 78.31347265956222,
+        "tibia": 84.69356528095862,
+        "mechanicalLeverRadius": 67.97793759742936
+      }
+    },
+    {
+      "hip": [
+        210,
+        218
+      ],
+      "knee": [
+        132,
+        225
+      ],
+      "ankle": [
+        104,
+        145
+      ],
+      "pivot": [
+        132,
+        225
+      ],
+      "roller": [
+        105,
+        161
+      ],
+      "shoulder": [
+        315,
+        198
+      ],
+      "pose": 7,
+      "segmentLengthsPixels": {
+        "femur": 78.31347265956222,
+        "tibia": 84.75848040166836,
+        "mechanicalLeverRadius": 69.46221994724903
+      }
+    },
+    {
+      "hip": [
+        210,
+        218
+      ],
+      "knee": [
+        132,
+        225
+      ],
+      "ankle": [
+        112,
+        144
+      ],
+      "pivot": [
+        132,
+        225
+      ],
+      "roller": [
+        109,
+        158
+      ],
+      "shoulder": [
+        315,
+        198
+      ],
+      "pose": 8,
+      "segmentLengthsPixels": {
+        "femur": 78.31347265956222,
+        "tibia": 83.43260753446461,
+        "mechanicalLeverRadius": 70.83784299369935
+      }
+    }
+  ],
+  "geometryScreenResult": "within manual screen-space range limits; interpolated motion still must be reviewed",
+  "visualReview": {
+    "camera": "side profile, no planned camera move or scale change",
+    "body": "same muscular colored character, no obvious calf/thigh growth at peak",
+    "feet": "constant-scale shoes; curl feet rotate as rigid pieces, stiff soles remain planted",
+    "equipment": "curl bench/tower fixed, external roller lever rotates about fixed knee pivot; tower enclosed with opaque cover",
+    "limitations": [
+      "Landmarks are approximate surface proxies; projection and hidden joint centers prevent proof of exact bone lengths.",
+      "Knee flexion in stiff remains soft but not mathematically identical in every generated source.",
+      "Do not equate a passing source screen with perfect anatomical execution; review final interpolation."
+    ]
+  }
+}

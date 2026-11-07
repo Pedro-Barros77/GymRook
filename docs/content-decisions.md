@@ -1,6 +1,6 @@
 # Conteúdo do guia GymRook
 
-Revisão editorial: 6 de novembro de 2026. Idioma principal: português brasileiro. Nomes dos exercícios e dos equipamentos também aparecem em inglês para facilitar a identificação na academia.
+Revisão editorial: 7 de novembro de 2026. Idioma principal: português brasileiro. Nomes dos exercícios e dos equipamentos também aparecem em inglês para facilitar a identificação na academia.
 
 ## Escopo e contrato
 
@@ -8,7 +8,7 @@ Revisão editorial: 6 de novembro de 2026. Idioma principal: português brasilei
 
 Os campos `restNote` e `safetyNote` são avisos gerais opcionais. Os arrays `primary` e `secondary` contêm nomes em português. `muscleIds` usa apenas as regiões do mapa acordado. Os realces são esquemáticos: não expressam porcentagens de ativação nem uma hierarquia quantitativa entre os músculos.
 
-Existem quatro movimentos com mídia, distribuídos em três blocos piloto:
+Os 31 movimentos têm demonstração em MP4 a 12 fps, GIF de compatibilidade e pôster. A prancha mostra uma postura isométrica estável. Os primeiros quatro pilotos eram:
 
 | Bloco | IDs dos movimentos |
 | --- | --- |
@@ -16,7 +16,14 @@ Existem quatro movimentos com mídia, distribuídos em três blocos piloto:
 | Peck deck + flexão | `pec-deck`, `push-up` |
 | Rosca inversa rest-pause | `reverse-cable-curl` |
 
-Cada piloto aponta para `assets/animations/<id>.gif` e `assets/animations/<id>-poster.webp`. Os outros 27 movimentos têm `media: null` e `pilot: false`. A existência e a qualidade dos arquivos de mídia são verificadas pela etapa de produção visual. Nenhuma foto, GIF ou vídeo de exercício externo foi incorporado por esta etapa de conteúdo.
+As mídias atuais apontam para `animations-v2`, `animations-bc-v1` ou `animations-d-v1`, conforme a revisão. Todos os exercícios têm `media` e `pilot: true`; não há movimentos pendentes. Fontes anteriores ficam preservadas. Nenhuma foto, GIF ou vídeo de exercício externo foi incorporado.
+
+## Substituições solicitadas em 7 de novembro
+
+- `stair-calf-raise` foi substituído por `seated-plate-calf-raise`: panturrilha sentada na máquina com anilhas, mantendo 20 repetições após as 15 em pé e três voltas. Texto, equipamento e ilustração mudam juntos. O mapa distingue sóleo principal e gastrocnêmio secundário, com regiões curvas próprias; o sóleo é profundo e aparece pelas bordas da panturrilha no desenho de superfície. Referências: [Life Fitness](https://www.lifefitness.com/en-eu/catalog/strength-training/plate-loaded/life-fitness-calf-raise) e [ACE](https://www.acefitness.org/continuing-education/prosource/september-2014/4975/best-exercises-for-great-legs-and-pain-free-knees/).
+- `unilateral-converging-row` foi substituído por `unilateral-cable-row`: remada unilateral sentada na polia baixa, com cabo de aço e pegador individual. Mantém três séries de dez por lado e 30 segundos entre lados. A carga depende do controle do tronco; não se presume equivalência de peso entre aparelhos.
+
+Na tabela abaixo, a coluna registra a ficha recebida antes dessas duas substituições.
 
 ## Ficha preservada
 
@@ -66,6 +73,6 @@ Não foram usados textos de agregadores, fóruns ou resultados promocionais como
 
 ## Validação executada
 
-Carregamento real de `dist/data.js` em Node com `window` simulado: quatro treinos, 26 blocos, 31 exercícios, 31 referências únicas, nenhuma referência ausente. Todos os movimentos possuem os campos de texto e os sete arrays previstos. Todos os IDs musculares pertencem ao contrato. Exatamente os quatro movimentos piloto possuem `media` e `pilot: true`.
+Carregamento de `dist/data.js` em Node com `window` simulado: quatro treinos, 26 blocos, 31 exercícios, 31 referências únicas, nenhuma referência ausente. Todos os movimentos possuem os campos de texto, os arrays previstos e demonstrações. A revisão dos cards e mapas confere a ênfase do sóleo na nova panturrilha sentada. As verificações técnicas não certificam execução ou anatomia.
 
 A revisão editorial não certifica biomecânica de animações geradas. A publicação deve manter claro seu caráter ilustrativo e solicitar validação técnica do professor, especialmente em carga alta, falha e rest-pause.

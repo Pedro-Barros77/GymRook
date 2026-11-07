@@ -16,13 +16,13 @@ O modo offline exige HTTP em localhost ou HTTPS na hospedagem. Abrir `dist/index
 
 ## Estado atual
 
-As demonstrações piloto de supino inclinado, flexão e rosca inversa mantêm os GIFs coloridos de 16 quadros gerados por imagem. O crucifixo na máquina usa a versão **v5**: MP4 e GIF de 72 quadros, a 24 fps, em um ciclo de três segundos. O GIF v4 de 72 quadros está disponível no detalhe por **Ver versão anterior**; a v3 permanece preservada em disco.
+Os 31 exercícios das fichas A, B, C e D têm demonstrações coloridas em MP4 a **12 fps**, GIF de compatibilidade e pôster no card. Os ciclos duram três segundos, com 36 quadros; o afundo alternado dura quatro segundos, com 48 quadros. A prancha mostra uma sustentação isométrica estável, sem uma repetição de subida e descida.
 
-A v4 parte de 15 poses em resolução integral na diagonal aprovada, estabilizadas globalmente. O tempo considera as duas mãos. Practical-RIFE 4.25 interpola a ida; o primeiro intervalo usa FILM para evitar uma mão duplicada. Uma pequena correção gerada por imagem limpa a borda da alavanca no quadro 19. A volta reutiliza os quadros em ordem espelhada. Os pesos usam o mesmo sprite de nove placas sobre o fundo vazio `tower-clean`, com transição suave da máscara. O corpo articulado da tentativa Blender não participa desse processo. A revisão está em [docs/pec-deck-v4-review.md](docs/pec-deck-v4-review.md).
+A revisão corrige flexora, stiff, fechamento do afundo, flexão dos cotovelos na lateral, crucifixo inverso e banco do abdominal. A panturrilha no degrau foi substituída pela máquina sentada com anilhas, e a remada unilateral usa cabo de aço em polia. Os nomes, equipamentos, instruções, combinações e mapa muscular acompanham essas substituições.
 
-A **v5** mantém o corpo e o movimento da v4, com 37 quadros de ida e 35 espelhados. Ela substitui a coluna gerada que desaparecia nos quadros 11–14 por uma coluna canônica fixa e usa uma mesma malha rígida 3D para as alavancas do aparelho, com material prateado derivado da fonte. O conector preto acompanha o eixo da haste. Limpezas RGBA seletivas removem o metal antigo e harmonizam apenas o fundo ou a pele antes ocluídos; uma correção de borda antisserrilhada de até dois pixels é restrita ao suporte fixo. A área a partir de `y=164` permanece idêntica à v4; não há novos quadros humanos nem deformação da geometria do corpo. A revisão visual foi aprovada após examinar 37 quadros canônicos e 36 sobreposições entre vizinhos: [auditoria v5](docs/pec-deck-v5-review.md). Isso não certifica anatomia ou execução.
+A ficha A também está completa: crossover, rosca na polia, Scott, supra, infra e prancha foram acrescentados; os quatro pilotos anteriores passaram para 12 fps. As versões anteriores continuam em disco e no backup local, sem seletores de comparação na interface atual.
 
-A rosca inversa conserva o teste opcional **Testar versão suavizada**, com retorno ao GIF original. A interpolação pode criar artefatos; fluidez e estabilidade não validam anatomia, contato físico ou execução. As demonstrações permanecem em revisão técnica.
+As [fontes e configuração](docs/generated-frames-v2-fixes/config.json) registram poses geradas pelo `image_gen` integrado e interpolação local Practical-RIFE. O corpo articulado da tentativa Blender não participa das novas demonstrações. A revisão visual confere proporções projetadas, peças fixas, cabos, bilateralidade e emendas; ela não certifica biomecânica ou execução.
 
 Detalhes: [estado da mídia](docs/current-media-status.md).
 
@@ -31,8 +31,7 @@ Detalhes: [estado da mídia](docs/current-media-status.md).
 - Ficha ABCD completa: 26 blocos e 31 movimentos, com a programação recebida.
 - Nomes e equipamentos bilíngues; mapas musculares detalhados de frente e costas, com legenda e nomes.
 - Preparação, execução, pontos de atenção, erros comuns e glossário.
-- Quatro demonstrações coloridas nos blocos piloto: supino inclinado com halteres, voador + flexão e rosca inversa na polia com rest-pause. O voador usa MP4 com GIF de compatibilidade e oferece a versão anterior.
-- Imagens estáticas originais nos outros 27 movimentos, cuja animação permanece em preparação.
+- Demonstrações para os 31 exercícios, todas com MP4 a 12 fps, GIF de compatibilidade e pôster; a prancha mantém a postura isométrica.
 - Cards inteiramente clicáveis com imagem e equipamento em português e inglês.
 - Botões Anterior/Próximo no topo e no fim dos detalhes. Séries, repetições e observações ficam nos detalhes.
 - Tela inicial prática, sem marca, slogan ou apresentação comercial.
@@ -42,10 +41,10 @@ Detalhes: [estado da mídia](docs/current-media-status.md).
 
 ## Conferir o guia
 
-1. Abra o treino A e consulte os três blocos piloto.
+1. Abra qualquer treino e selecione um card pela imagem e pelo equipamento.
 2. Confira a identificação dos equipamentos, os músculos e as instruções.
 3. Reproduza as demonstrações e observe a posição baixa, a posição alta e a emenda do loop.
-   No voador, use **Ver versão anterior** para comparar com a v4. Na rosca inversa, use **Testar versão suavizada** para comparar com o original.
+   Na prancha, observe a postura sustentada; ela não faz repetições de subida e descida.
 4. Volte ao início e escolha **Baixar para usar offline**. Mantenha o guia aberto até a confirmação.
 5. Desative a conexão e reabra o mesmo endereço no mesmo navegador. Confira também a reprodução das demonstrações.
 
@@ -61,6 +60,21 @@ O descanso de revezamento entre três amigos e o máximo de um minuto quando o r
 
 Fontes e decisões: [docs/content-decisions.md](docs/content-decisions.md). As demonstrações continuam sendo um piloto para revisão técnica; testes de arquivos, código ou continuidade não validam anatomia ou execução.
 
+## Produzir a revisão atual
+
+```sh
+python scripts/build-final-animations.py --prepare-only
+# Rever fontes, proporções e mecânica antes de liberar motionReady na configuração.
+python scripts/build-final-animations.py --no-encode
+# Rever quadros e emendas antes de exportar os PNGs congelados.
+python scripts/build-final-animations.py --encode-only
+python scripts/verify-final-animations.py
+npm run build
+npm run check
+```
+
+O runtime de interpolação já está em cache local; a publicação no Pages usa somente Node.js e `dist/`. As fontes e os quadros anteriores ficam preservados. O snapshot local completo desta rodada está em `backups/visual-v1-before-fixes-20261107/`, com manifesto SHA-256.
+
 ## Fontes visuais preservadas
 
 - [GIFs e pôsteres dos demais pilotos e versão anterior do voador](dist/assets/animations/)
@@ -72,6 +86,9 @@ Fontes e decisões: [docs/content-decisions.md](docs/content-decisions.md). As d
 - [Prompt da correção da borda](docs/prompts/pec-deck-v4-edge-repair.json)
 - [Relatório de revisão da v4](docs/pec-deck-v4-review.md)
 - [Fontes da v5](docs/generated-frames-v5/pec-deck/), [prompt da edição](docs/prompts/pec-deck-v5-structure.json) e [auditoria visual](docs/pec-deck-v5-review.md)
+- [Fontes e configuração do treino D](docs/generated-frames-d-v1/config.json) e [índice de prompts](docs/prompts/leg-animations-v1.json)
+- [Fontes e configuração dos treinos B/C](docs/generated-frames-bc-v1/config.json) e [índice de prompts](docs/prompts/bc-animations-v1.json)
+- [Revisão visual do treino B](docs/bc-animations-v1-review-b.md) e [do treino C](docs/bc-animations-v1-review-c.md)
 - [Fontes das poses coloridas](docs/generated-frames-v2/)
 - [Nova perspectiva do crucifixo](docs/generated-frames-v3/)
 - [Prompts da revisão do crucifixo](docs/prompts/pec-deck-perspective-v3.json)
@@ -82,7 +99,7 @@ Fontes e decisões: [docs/content-decisions.md](docs/content-decisions.md). As d
 - [Prompts das miniaturas](docs/prompts/thumbnail-prompts.json)
 - [Montagem e tamanhos dos GIFs](docs/animation-build.json)
 
-O `image_gen` integrado produziu as ilustrações. As folhas coloridas contêm 16 poses em uma grade 4 × 4. A montagem recorta as células, corrige pequenos deslocamentos globais pela posição dos pés e usa uma paleta compartilhada sem pontilhado por quadro. Isso reduz variações de codificação; não corrige toda mudança de anatomia, objetos ou perspectiva entre poses.
+O `image_gen` integrado produziu as ilustrações. As folhas coloridas dos pilotos originais contêm 16 poses em uma grade 4 × 4. A montagem recorta as células, corrige pequenos deslocamentos globais pela posição dos pés e usa uma paleta compartilhada sem pontilhado por quadro. Isso reduz variações de codificação; não corrige toda mudança de anatomia, objetos ou perspectiva entre poses.
 
 O mapa muscular é uma ilustração vetorial original, com silhueta contínua, contornos curvos e grupos destacados. As cores não indicam porcentagem de ativação.
 
@@ -116,6 +133,32 @@ python scripts/build-pec-deck-v5.py
 ```
 
 O renderizador usa por padrão os ajustes registrados do eixo das hastes. As máscaras efetivas em `docs/generated-frames-v5/pec-deck/effective-tower-masks/` preservam a limpeza revisada sem substituir toda a área superior da cabeça por um retângulo, abordagem rejeitada por criar uma emenda de exposição. Os arquivos distribuídos `pec-deck.*` ficam em `dist/assets/animations-pec-deck-v5/`.
+
+Para produzir as animações do treino D, a [configuração](docs/generated-frames-d-v1/config.json) especifica as folhas, recortes e tempos: nove poses na ida para cada um dos seis ciclos espelhados; o afundo usa 16 poses para um ciclo completo com as duas pernas. O processo usa Python 3.14 com Pillow, NumPy, OpenCV e imageio-ffmpeg, além do runtime local isolado Python 3.11 com PyTorch e o modelo Practical-RIFE 4.25 já em cache. Os caminhos locais do runtime e modelo estão na configuração. Não há download durante a montagem.
+
+```sh
+python scripts/build-leg-animations.py --prepare-only
+python scripts/build-leg-animations.py --no-encode
+# Após revisar os quadros intermediários e as emendas:
+python scripts/build-leg-animations.py --encode-only
+python scripts/verify-leg-animations.py
+```
+
+O primeiro comando extrai e registra as poses; o segundo interpola usando `scripts/rife-batch.py` sem publicar a mídia. `--encode-only` confere os hashes da configuração, das fontes e dos PNGs registrados e codifica os quadros já revisados sem interpolar novamente. O comando sem opções reconstrói os quadros e requer nova revisão antes de usar o resultado. O verificador confere os arquivos e ciclos; não substitui revisão visual ou técnica. O site e sua publicação no Pages usam apenas os arquivos prontos e Node.js para as verificações: não instalam Python nem usam API.
+
+A interpolação final usa Practical-RIFE 4.25. No afundo, os quadros 18 e 42 usam tempo efetivo 0,9 para corrigir a opacidade do tênis; uma tentativa com FILM foi rejeitada e não integra a mídia ativa. A aprovação visual e seus limites estão em [docs/leg-animations-v1-review.md](docs/leg-animations-v1-review.md).
+
+Para os treinos B/C, o adaptador reutiliza o mecanismo do treino D sem alterá-lo. Cada ciclo usa 19 quadros de ida e 17 cópias byte a byte na volta. A seleção do tríceps testa usa apenas as células 0 a 7 da folha. A interpolação usa o runtime local Practical-RIFE 4.25 em CPU, sem gerar uma imagem nova por quadro. As fontes e os tempos estão em [config.json](docs/generated-frames-bc-v1/config.json).
+
+```sh
+python scripts/build-bc-animations.py --prepare-only
+python scripts/build-bc-animations.py --no-encode
+# Após revisar os quadros intermediários e as emendas:
+python scripts/build-bc-animations.py --encode-only
+python scripts/verify-bc-animations.py
+```
+
+O verificador B/C também reutiliza as verificações técnicas do treino D. A revisão visual e a verificação das 14 mídias exportadas passaram. No crucifixo inverso, oito referências combinam cinco poses geradas com três projeções de equipamento rígido sobre o mesmo corpo raster, usando máscara humana opaca e recorte de mão, sem criar uma nova malha humana. A configuração exige SHA-256 para os três PNGs externos; geometria, máscaras e procedência estão em [midpoint-native-v1](docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/).
 
 ## Backups e teste 3D arquivado
 
@@ -168,9 +211,15 @@ O build atualiza `dist/asset-manifest.json` e a versão do service worker a part
 
 Para a v5, a codificação e `scripts/verify-3d.py` passaram: MP4 H.264/yuv420p de 512 × 512, 72 quadros a 24 fps em três segundos; GIF de 72 quadros em 3.000 ms e loop contínuo; e pôster WebP de 512 × 512. O digest dos PNGs corresponde à revisão congelada (`f80dd9538e59e20105b05d915fbe7409272c5261e0614044f07bd0bf3b428d56`), e quatro arquivos da v4 continuam idênticos. A verificação de movimento também confirmou 16 arquivos originais preservados.
 
-`npm run build` e `npm run check` passaram: o build registrou 59 arquivos, 27,80 MB e versão de cache `becf6b95b6040fef`; a suíte verificou 31 movimentos, quatro pilotos, interface em DOM em memória e operações offline. Em HTTP local na porta 4173, a página respondeu 200 e uma requisição Range ao novo MP4 respondeu 206 com 1.024 bytes. A revisão visual da v5 está na auditoria; não houve teste de layout em navegador real ou em telefone. Continuidade e integridade de arquivos não validam anatomia ou execução.
+Para o treino D, `scripts/verify-leg-animations.py` passou: os sete MP4s H.264/yuv420p de 512 × 512 foram decodificados integralmente a 12 fps; os GIFs têm seis ciclos de 36 quadros e 3.000 ms e um de 48 quadros e 4.000 ms. As 21 mídias somam 28.161.046 bytes. Naquela entrega, os 53 assets anteriores permaneceram byte a byte idênticos; os 24 exercícios fora do treino D e os textos, prescrições e blocos da ficha estavam iguais.
 
-O código oferece suporte a vídeos MP4, usados na v5 do crucifixo e no teste opcional da rosca. Seus controles começam pausados, interrompem a reprodução ao navegar/trocar de versão e tratam falhas de `play()`. O service worker suporta HTTP Range (206), sufixos e erros 416 sem substituir o vídeo completo por um fragmento.
+Na entrega do treino D, `npm run build` e `npm run check` passaram: o build registrou 81 arquivos, 54,67 MB e versão de cache `af7ac858a8220dad`; a suíte verificou os 31 movimentos, 11 animados, interface em DOM em memória e operações offline, incluindo falhas e recuperação. Em HTTP local na porta 4173, o guia respondeu 200, os sete MP4s do treino D responderam 206 a requisições Range de 1.024 bytes e os sete pôsteres responderam 200 a requisições HEAD. Não houve teste de layout em navegador real ou em telefone. Continuidade e integridade de arquivos não validam anatomia ou execução.
+
+Para B/C, `scripts/verify-bc-animations.py` passou: os 14 MP4s H.264/yuv420p e GIFs foram verificados em 512 × 512, 12 fps, 36 quadros e três segundos, sem perda de quadros nos GIFs. As 42 mídias somam 52.006.455 bytes; o manifesto está completo, com 14 de 14 movimentos. Os 75 assets anteriores permanecem byte a byte idênticos; os quatro pilotos originais, as instruções e prescrições dos 31 exercícios e os blocos de treino permanecem iguais.
+
+As verificações da revisão atual e o tamanho do pacote estão registrados em [docs/current-media-status.md](docs/current-media-status.md). Os resultados acima sobre versões anteriores são históricos.
+
+O código oferece suporte a vídeos MP4, usados na v5 do crucifixo, nos treinos B/C/D e no teste opcional da rosca. Seus controles começam pausados, interrompem a reprodução ao navegar/trocar de versão e tratam falhas de `play()`. O service worker suporta HTTP Range (206), sufixos e erros 416 sem substituir o vídeo completo por um fragmento.
 
 `scripts/check-ui.mjs` percorre os quatro treinos e os 31 detalhes em um DOM em memória. Confere cards, etiquetas bilíngues, mapas, navegação e controles de mídia. Não substitui inspeção visual ou teste em aparelho real. Não houve validação desta versão em Android ou iPhone real.
 

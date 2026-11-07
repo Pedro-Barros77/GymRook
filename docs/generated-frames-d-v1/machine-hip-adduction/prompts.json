@@ -1,0 +1,50 @@
+{
+  "id": "machine-hip-adduction",
+  "mode": "built-in image_gen generation with local visual references",
+  "grid": {
+    "columns": 3,
+    "rows": 3,
+    "cellOrder": "row-major",
+    "phase": "closing",
+    "poses": 9
+  },
+  "intendedOutput": {
+    "fps": 12,
+    "frameCount": 36,
+    "forwardFrames": 19,
+    "mirroredInteriorFrames": 17,
+    "durationSeconds": 3
+  },
+  "prompt": "Use case: scientific-educational. Asset: one motion sprite sheet for an exercise demonstration, 9 square cells in an exact 3x3 grid. Read left to right, top to bottom: the cells are consecutive poses of the SAME man using the SAME machine in ONE locked scene. Each cell has precisely the same camera, position, scale, shadows, lighting and full body/machine framing. No gutter, lines, borders, captions, numbers or arrows. A large square image, ideally 1536x1536 or higher, each cell square. Match the colored realistic exercise illustration of the references: muscular athletic adult man with natural warm skin, short dark hair, defined muscular legs/torso, charcoal shorts and black trainers. Reference 1 is machine/style guidance; reference 2 is character/skin/render style only (ignore the chest machine in reference 2). Off-white studio floor and background. Front camera only slightly 3/4 so both thighs, both knees and both pads remain visible. Seated upright, back and pelvis resting against seat/backrest; hands hold low fixed side handles, head/torso/pelvis/hands never move. A grey selectorized hip machine with a black padded chair and TWO separate hinged leg-pad lever assemblies with attached footrests, exactly the same shape in all cells. Every lever is rigid and pivots about its fixed mechanical hip hinge; no bending, changing thickness, vanishing supports or changing feet count. A safety cover encloses the weight stack so internal weights are not visible; cover, fixed base, seat and backrest must be pixel-consistent. No skin texture flicker, warping, thin anatomy, extra limbs, floating feet, intersecting legs or footrest. Whole machine and both shoes in every cell, with the same margins. Exercise: SEATED HIP ADDUCTION (cadeira ADUTORA), moving the thighs INWARD against medial pads. Exactly TWO broad black pads are clearly positioned on the INSIDE/medial surfaces of the thighs just above the knees, BETWEEN the knees, never the lateral outside. Each leg presses its own inner pad toward the center. The feet rest on the two lever footrests; knees remain bent about 90 degrees, feet directly below their respective knees. Start comfortably open and progressively close both thighs symmetrically from the hip in 9 smooth monotonic steps. Nine cell poses with each thigh's angle away from the centerline: 1=40deg; 2=39deg; 3=34deg; 4=28deg; 5=21deg; 6=14deg; 7=9deg; 8=6deg; 9=5deg. The last cell has nearly parallel thighs, the two pads still fit between them with no body intersections. Pads and footrests follow each thigh rigidly. This sheet contains ONLY the closing phase, NOT a return phase. Do not repeat the same pose or close then open.",
+  "references": [
+    {
+      "path": "dist/assets/thumbnails/machine-hip-adduction.webp",
+      "role": "equipment and render style reference"
+    },
+    {
+      "path": "docs/generated-frames-v4/pec-deck/pose-00.png",
+      "role": "character and colored skin/render style only; ignore chest equipment"
+    }
+  ],
+  "generatedOutputHint": "Generated images are saved to C:\\Users\\pedrao\\.codex\\generated_images\\01a1b6f6-5054-7d21-8cfc-90547e0704cd as C:\\Users\\pedrao\\.codex\\generated_images\\01a1b6f6-5054-7d21-8cfc-90547e0704cd\\exec-0a434a4f-36d1-4058-b1e0-8e5aa03495ee.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "savedSheet": "docs/generated-frames-d-v1/machine-hip-adduction/sheet.png",
+  "inspection": {
+    "status": "usable-pilot-anchors",
+    "observations": [
+      "Nine poses progress from comfortably open thighs to near parallel, with both knees remaining bent.",
+      "Two pads remain medial/between thighs, appropriate to the closing phase.",
+      "Same seated character, covered weight stack, chair and overall framing remain recognizable."
+    ],
+    "limitations": [
+      "Generated anchor scenes are not pixel-identical; root should globally register fixed machine-cover/base and inspect consecutive frames.",
+      "Some hand/handle and local machine appearance drift remains. This is a visual pilot inspection, not professional biomechanical validation."
+    ],
+    "suggestedRegistrationBounds": [
+      0.16,
+      0.1,
+      0.35,
+      0.8
+    ]
+  }
+}
+

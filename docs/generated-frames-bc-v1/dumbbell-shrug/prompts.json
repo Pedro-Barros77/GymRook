@@ -1,0 +1,23 @@
+{
+  "exercise": "dumbbell-shrug",
+  "generationMode": "built-in image_gen",
+  "intent": "generate",
+  "grid": [
+    3,
+    3
+  ],
+  "phase": "one lifting phase, row-major nine poses",
+  "prompt": "Use case: scientific-educational. Asset: a single coherent 3-by-3 animation pose sheet for a fitness reference guide, nine equally sized SQUARE cells, EXACT row-major chronological order. Large SQUARE canvas. No gutters, grid lines, captions, numbers, arrows, motion trails or watermarks. Input image1 is the approved CHARACTER/STYLE reference: same anatomically defined muscular adult man, natural warm tan skin, short dark hair, charcoal black shorts and black trainers, colored realistic fitness illustration against off-white floor/background. Input image2 is ONLY this exercise's apparatus/action reference, never its exact camera. Every cell depicts THE SAME PERSON AND SAME EQUIPMENT in the same locked camera, framing, scale, light and colors. Sequential consistency: copy static elements mentally from the preceding cell; do not make nine variants. Only the exercise motion progresses. Skin texture, facial identity, apparatus bolts/rails/pads/weights and lighting stay consistent. The equipment is rigid, all visible connections mechanically attached, no bending supports, disappearances, extra limbs, transparent feet or object penetration. Keep the moving range fully inside each cell with identical generous margins. Demonstrate only the ELEVATING half of a DUMBBELL SHRUG in9progressive poses. Fixed FRONT three-quarter camera FRAMED FROM HEAD TO JUST BELOW KNEES (feet may lie outside the crop), so the small shoulder motion is clear. Same crop and body scale in every cell. He holds two identical black dumbbells at his sides, palms inward. Pose1 shoulders naturally lowered, arms straight alongside thighs. Poses2..8 raise ONLY the shoulder girdle gradually VERTICALLY toward the ears. Pose9 shoulders visibly elevated close toward ears, trapezius contracted. Dumbbells travel upward slightly because the shoulders rise; ELBOWS REMAIN STRAIGHT in all9poses. No elbow curl, no lateral raise, no rolling shoulders, no arm rotation, no head/neck movement, no knee or hip drive. The head stays aligned and in EXACT SAME position, eyes level, torso/pelvis motionless, relaxed jaw. Do not shorten the torso or lengthen arms; retain actual human upper-limb anatomy and consistent body proportions. Nine distinct low→high shoulder positions, no return phase.",
+  "references": [
+    {
+      "path": "docs/generated-frames-v4/pec-deck/pose-00.png",
+      "role": "approved character and colored illustration style"
+    },
+    {
+      "path": "dist/assets/thumbnails/dumbbell-shrug.webp",
+      "role": "exercise apparatus and action only"
+    }
+  ],
+  "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b714-7077-7191-a9ae-c351cb0cb7c5\\exec-865f4a62-4f9e-48ec-9882-a079a56de82d.png",
+  "workspaceAsset": "docs/generated-frames-bc-v1/dumbbell-shrug/sheet.png"
+}

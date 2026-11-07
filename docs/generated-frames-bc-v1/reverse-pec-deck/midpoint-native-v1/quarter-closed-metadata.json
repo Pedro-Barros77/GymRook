@@ -1,0 +1,175 @@
+{
+  "status": "approved source reference; final temporal loop approved by root and independent reviewer",
+  "generator": "scripts/render-reverse-pec-deck-midpoint.py",
+  "generatorSha256": "2aefd32a01f83edb175d19ead7accdab36c9ee0ccc7ac39d32210d8fd6179486",
+  "source": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/source-closed-512.png",
+  "sourceSha256": "2d0a7cd51aedb3af0ffdd7e62be08940b772e7f123fc6172f1b8dd8828a95ac1",
+  "size": [
+    512,
+    512
+  ],
+  "supersampling": 4,
+  "pose": "quarter-closed",
+  "geometry": {
+    "type": "Fixed world-space curved tube, fixed section and source-sampled transverse material; rigid yaw with a fixed weak-perspective camera.",
+    "controlPoints512": [
+      [
+        248.82787168070232,
+        47.61604793720154
+      ],
+      [
+        266.6848122605725,
+        60.36858038735484
+      ],
+      [
+        290.5,
+        89.2775135239648
+      ],
+      [
+        290.5,
+        140.27751352396479
+      ]
+    ],
+    "halfWidthPixels": 7,
+    "fixedPivotCapCenterApprox512": [
+      251,
+      34
+    ],
+    "mountExit512": [
+      241,
+      48
+    ],
+    "gripCenter512": [
+      290.5,
+      168.27751352396479
+    ],
+    "gripRadiusPixels": 8,
+    "gripLengthPixels": 56,
+    "worldControlRadialVerticalTransverse": [
+      [
+        16.0,
+        16.240000000000002,
+        -10.0
+      ],
+      [
+        45.0,
+        32.3,
+        -4.0
+      ],
+      [
+        90.0,
+        66.6,
+        1.0
+      ],
+      [
+        90.0,
+        117.6,
+        1.0
+      ]
+    ],
+    "worldGripCenter": [
+      [
+        90.0,
+        145.6,
+        1.0
+      ]
+    ],
+    "yawRadians": 0.4432209254891388,
+    "yawDegrees": 25.394688422409985,
+    "cameraDepthYFactor": 0.14,
+    "worldGeometrySha256": "33a601184986fab124fed5a70a108b490d16742520a60bc4f8edcb702410884c",
+    "projectionSha256": "2fee3df72127291c5a09561f8073979fac8c999f54a1baeab3785850c2a2028b",
+    "geometryInvariant": "World control points, tube section, grip and camera stay fixed. No screen-space control-point interpolation or metal length scaling."
+  },
+  "material": {
+    "metalPatchPixels": [
+      321,
+      110,
+      336,
+      126
+    ],
+    "rubberPatchPixels": [
+      321,
+      141,
+      338,
+      155
+    ],
+    "method": "One median transverse source RGB profile; no changing noise, lighting or texture."
+  },
+  "hand": {
+    "sourceHandCenter": [
+      329,
+      168
+    ],
+    "targetHandCenter": [
+      290.5,
+      168.27751352396479
+    ],
+    "integerTranslationPixels": [
+      -38,
+      0
+    ],
+    "sourcePolygon": [
+      [
+        315,
+        174
+      ],
+      [
+        317,
+        166
+      ],
+      [
+        322,
+        161
+      ],
+      [
+        327,
+        159
+      ],
+      [
+        335,
+        160
+      ],
+      [
+        341,
+        162
+      ],
+      [
+        344,
+        167
+      ],
+      [
+        343,
+        174
+      ]
+    ],
+    "method": "Copy source RGB pixels with a binary skin mask; integer translation only, no resampling or hand drawing."
+  },
+  "coordinateNote": "Root guide pivot196,20 and grip206,143 in418px. Actual fixed cap is near251,34 in the512 reference; attachment exits its underside. Grip raised about6source pixels for camera elevation.",
+  "layers": [
+    "clean-plate",
+    "metal",
+    "rubber-grip",
+    "translated-original-far-hand",
+    "opaque-original-human",
+    "fixed-original-cap"
+  ],
+  "cleanPlate": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/clean-plate.png",
+  "cleanPlateSha256": "744df8a16cef6fca2e8aef3ec96c5d273e35c6dc4690a90a14f317544a763c0f",
+  "humanMask": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/foreground-human-mask.png",
+  "humanMaskSha256": "10ee0e8c5cb4e19011b93e1c810166dd92a5e0e0ce3e2f7e0b7f162706859a6d",
+  "fixedCapMaskSha256": "b7422521647901c37001031a9d288b84f03258156e7f0dff96bffc35a292f2f6",
+  "midpointSha256": "f0fb840aee2577901b79817c2c5be09fe9237e18b4ca32165fe1b5e81f39a1a2",
+  "humanPixelsPreserved": 12927,
+  "outputs": {
+    "quarter-closed-metal-layer.png": "6c560da6b68792af0892898eb79920429266fb1e6238a76780d4e705d8b80709",
+    "quarter-closed-grip-layer.png": "af712539e985562a7a0b0d1288f67f508eb868cea0810e92109c87b56a982d9c",
+    "quarter-closed-far-hand-layer.png": "eba2baa8e2723aa80012a0ec4ffc345ed6c5a4a6d743c818238dd27cb90c8f18"
+  },
+  "approval": {
+    "root": true,
+    "independentReviewer": "bc_shoulders",
+    "motionLoopBin32Sha256": "2ed86eb0ec346a3337720109f5322b166797c1526a857fa1c83742678d47e10b",
+    "review": "docs/bc-animations-v1-review-b.md"
+  }
+}

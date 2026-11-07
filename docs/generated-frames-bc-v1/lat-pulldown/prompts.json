@@ -1,0 +1,24 @@
+{
+  "id": "lat-pulldown",
+  "generationMode": "built-in image_gen",
+  "intent": "generate",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE contact sheet for an exercise animation: EXACTLY 3 columns by 3 rows, nine equally sized SQUARE cells, read left-to-right then top-to-bottom as consecutive keyframes of ONLY ONE phase of motion. No cell borders, no gutters, no labels, no numbers, no text, no motion arrows, no watermarks. Image1 is CHARACTER AND ART STYLE reference only: the same adult muscular man with warm natural skin, short dark hair, well-defined anatomy, black shorts and black shoes; do not copy that chest exercise. Image2 is the equipment/action reference. Maintain same character identity, pose-independent body proportions, skin color, surface detail and realistic colored illustration across all nine. Minimal warm off-white background and floor. The camera, lens, scale, framing, lighting and stationary scene must stay LOCKED in every cell. Entire body and machine fit each cell with the same generous margins. The machine is ONE RIGID consistent object, not nine variants. Fixed frame/base/supports/tower/pivots never change shape or position and never disappear. Levers only rotate on their actual hinges; grips remain attached to the same levers; all cables remain physically connected and taut. Hands retain grips, joints bend anatomically, feet/chest remain in correct contact with supports. Avoid duplicated limbs, hand/weight penetration, shifting clothing and changing metal texture. Keep shoulders/neck controlled. EXERCISE: FRONT LAT PULLDOWN, wide pronated grip on a long bar. Three-quarter front-side view clearly shows face/chest, both hands and the upper pulley. Man seated with thighs UNDER the thigh restraint pad and feet flat in fixed positions. Small constant torso recline, spine neutral, chest elevated; torso/head/hips/feet NEVER rock or lean farther back. Pose1 arms extended naturally overhead holding the same long bar slightly wider than shoulder width, palms facing forward/pronated, no shrugging. Poses2..8 bring elbows DOWN by the sides progressively, bar passes IN FRONT OF FACE without intersecting face. Pose9 bar reaches the upper chest/clavicle area, elbows down and back, wrists neutral. Do NOT pull behind the neck. This is not a shoulder press. Preserve the bar's physical straight length and shaped ends; both hands stay at exactly the same grip locations. The center bar link stays joined to ONE taut vertical cable running over the fixed overhead pulley. The cable extends downward farther as the bar descends, while the SAME selected stack plates rise on their vertical guide rods. One block rises; no plates appear/disappear. Same rigid tower, seat, thigh pads, foot placements, base and camera in every cell. Nine chronological DOWNWARD PULL poses ONLY, no return frames.",
+  "references": [
+    {
+      "path": "docs/generated-frames-v4/pec-deck/pose-00.png",
+      "role": "character and art style"
+    },
+    {
+      "path": "dist/assets/thumbnails/lat-pulldown.webp",
+      "role": "equipment and action reference"
+    }
+  ],
+  "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b715-116a-7270-8b2e-aec09b7e4988\\exec-7a61e95a-a53b-48be-a782-0a51efc3a542.png",
+  "grid": [
+    3,
+    3
+  ],
+  "rowMajor": true,
+  "poses": 9,
+  "phase": "outward only"
+}

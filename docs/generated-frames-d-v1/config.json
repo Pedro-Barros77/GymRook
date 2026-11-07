@@ -1,0 +1,527 @@
+{
+  "version": 1,
+  "fps": 12,
+  "size": 512,
+  "notes": [
+    "Source sheets are row-major. All source cells remain read-only.",
+    "Only translation is permitted; no rotation, scale, human deformation or optical-flow prewarp.",
+    "Review all extracted sources before running interpolation. preserveStaticRects is empty until fixed regions have been checked visually."
+  ],
+  "interpolation": {
+    "engine": "Practical-RIFE 4.25",
+    "python": ".cache/qa-pec-deck-interpolation/python311/python.exe",
+    "helper": "scripts/rife-batch.py",
+    "modelDirectory": ".cache/qa-pec-deck-interpolation/rife425",
+    "threads": 8,
+    "scale": 1,
+    "officialModelSource": "https://github.com/hzwer/Practical-RIFE#trained-model",
+    "officialWeightsSource": "https://drive.google.com/file/d/1ZKjcbmt1hypiFprJPIKW0Tt0lr_2i7bg/view",
+    "runtimeInstall": "Use the existing isolated local runtime; this build does not download anything."
+  },
+  "exercises": {
+    "leg-extension": {
+      "sheet": "docs/generated-frames-d-v1/leg-extension/sheet.png",
+      "prepareReady": true,
+      "sourceReview": "Approved extracted sources by d_posterior/root; visual motion review remains pending.",
+      "grid": [
+        3,
+        3
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "ping-pong",
+      "frameCount": 36,
+      "phaseEasing": "cosine",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": true,
+        "regions": [
+          [
+            0.05,
+            0.83,
+            0.58,
+            0.98
+          ]
+        ],
+        "maxTranslationPixels": 10,
+        "minScore": 0.55
+      },
+      "preserveStaticRects": [],
+      "anchors": [
+        {
+          "cell": 0,
+          "progress": 0.0
+        },
+        {
+          "cell": 1,
+          "progress": 0.125
+        },
+        {
+          "cell": 2,
+          "progress": 0.25
+        },
+        {
+          "cell": 3,
+          "progress": 0.375
+        },
+        {
+          "cell": 4,
+          "progress": 0.5
+        },
+        {
+          "cell": 5,
+          "progress": 0.625
+        },
+        {
+          "cell": 6,
+          "progress": 0.75
+        },
+        {
+          "cell": 7,
+          "progress": 0.875
+        },
+        {
+          "cell": 8,
+          "progress": 1.0
+        }
+      ]
+    },
+    "hack-squat": {
+      "sheet": "docs/generated-frames-d-v1/hack-squat/sheet.png",
+      "prepareReady": true,
+      "sourceReview": "Approved extracted sources by d_posterior/root; visual motion review remains pending.",
+      "grid": [
+        3,
+        3
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "ping-pong",
+      "frameCount": 36,
+      "phaseEasing": "cosine",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": true,
+        "regions": [
+          [
+            0.05,
+            0.8,
+            0.95,
+            0.99
+          ]
+        ],
+        "maxTranslationPixels": 10,
+        "minScore": 0.55
+      },
+      "preserveStaticRects": [],
+      "anchors": [
+        {
+          "cell": 0,
+          "progress": 0.0
+        },
+        {
+          "cell": 1,
+          "progress": 0.125
+        },
+        {
+          "cell": 2,
+          "progress": 0.25
+        },
+        {
+          "cell": 3,
+          "progress": 0.375
+        },
+        {
+          "cell": 4,
+          "progress": 0.5
+        },
+        {
+          "cell": 5,
+          "progress": 0.625
+        },
+        {
+          "cell": 6,
+          "progress": 0.75
+        },
+        {
+          "cell": 7,
+          "progress": 0.875
+        },
+        {
+          "cell": 8,
+          "progress": 1.0
+        }
+      ]
+    },
+    "lying-leg-curl": {
+      "sheet": "docs/generated-frames-d-v1/lying-leg-curl/sheet.png",
+      "prepareReady": true,
+      "sourceReview": "Approved extracted sources by d_posterior/root; visual motion review remains pending.",
+      "grid": [
+        3,
+        3
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "ping-pong",
+      "frameCount": 36,
+      "phaseEasing": "cosine",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": true,
+        "regions": [
+          [
+            0.1,
+            0.78,
+            0.9,
+            0.98
+          ]
+        ],
+        "maxTranslationPixels": 10,
+        "minScore": 0.55
+      },
+      "preserveStaticRects": [],
+      "anchors": [
+        {
+          "cell": 0,
+          "progress": 0.0
+        },
+        {
+          "cell": 1,
+          "progress": 0.125
+        },
+        {
+          "cell": 2,
+          "progress": 0.25
+        },
+        {
+          "cell": 3,
+          "progress": 0.375
+        },
+        {
+          "cell": 4,
+          "progress": 0.5
+        },
+        {
+          "cell": 5,
+          "progress": 0.625
+        },
+        {
+          "cell": 6,
+          "progress": 0.75
+        },
+        {
+          "cell": 7,
+          "progress": 0.875
+        },
+        {
+          "cell": 8,
+          "progress": 1.0
+        }
+      ]
+    },
+    "dumbbell-stiff-leg-deadlift": {
+      "sheet": "docs/generated-frames-d-v1/dumbbell-stiff-leg-deadlift/sheet.png",
+      "prepareReady": true,
+      "sourceReview": "Approved extracted sources by d_posterior/root; visual motion review remains pending.",
+      "grid": [
+        3,
+        3
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "ping-pong",
+      "frameCount": 36,
+      "phaseEasing": "cosine",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": true,
+        "regions": [
+          [
+            0.15,
+            0.84,
+            0.85,
+            0.99
+          ]
+        ],
+        "maxTranslationPixels": 10,
+        "minScore": 0.55
+      },
+      "preserveStaticRects": [],
+      "anchors": [
+        {
+          "cell": 0,
+          "progress": 0.0
+        },
+        {
+          "cell": 1,
+          "progress": 0.125
+        },
+        {
+          "cell": 2,
+          "progress": 0.25
+        },
+        {
+          "cell": 3,
+          "progress": 0.375
+        },
+        {
+          "cell": 4,
+          "progress": 0.5
+        },
+        {
+          "cell": 5,
+          "progress": 0.625
+        },
+        {
+          "cell": 6,
+          "progress": 0.75
+        },
+        {
+          "cell": 7,
+          "progress": 0.875
+        },
+        {
+          "cell": 8,
+          "progress": 1.0
+        }
+      ]
+    },
+    "machine-hip-abduction": {
+      "sheet": "docs/generated-frames-d-v1/machine-hip-abduction/sheet.png",
+      "prepareReady": true,
+      "sourceReview": "Approved extracted sources by d_posterior/root; visual motion review remains pending.",
+      "grid": [
+        3,
+        3
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "ping-pong",
+      "frameCount": 36,
+      "phaseEasing": "cosine",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": true,
+        "regions": [
+          [
+            0.107421875,
+            0.01953125,
+            0.302734375,
+            0.41015625
+          ]
+        ],
+        "maxTranslationPixels": 10,
+        "minScore": 0.72
+      },
+      "preserveStaticRects": [],
+      "anchors": [
+        {
+          "cell": 0,
+          "progress": 0.0
+        },
+        {
+          "cell": 1,
+          "progress": 0.125
+        },
+        {
+          "cell": 2,
+          "progress": 0.25
+        },
+        {
+          "cell": 3,
+          "progress": 0.375
+        },
+        {
+          "cell": 4,
+          "progress": 0.5
+        },
+        {
+          "cell": 5,
+          "progress": 0.625
+        },
+        {
+          "cell": 6,
+          "progress": 0.75
+        },
+        {
+          "cell": 7,
+          "progress": 0.875
+        },
+        {
+          "cell": 8,
+          "progress": 1.0
+        }
+      ]
+    },
+    "machine-hip-adduction": {
+      "sheet": "docs/generated-frames-d-v1/machine-hip-adduction/sheet.png",
+      "prepareReady": true,
+      "sourceReview": "Approved extracted sources by d_posterior/root; visual motion review remains pending.",
+      "grid": [
+        3,
+        3
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "ping-pong",
+      "frameCount": 36,
+      "phaseEasing": "cosine",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": true,
+        "regions": [
+          [
+            0.107421875,
+            0.01953125,
+            0.302734375,
+            0.41015625
+          ]
+        ],
+        "maxTranslationPixels": 10,
+        "minScore": 0.72
+      },
+      "preserveStaticRects": [],
+      "anchors": [
+        {
+          "cell": 0,
+          "progress": 0.0
+        },
+        {
+          "cell": 1,
+          "progress": 0.125
+        },
+        {
+          "cell": 2,
+          "progress": 0.25
+        },
+        {
+          "cell": 3,
+          "progress": 0.375
+        },
+        {
+          "cell": 4,
+          "progress": 0.5
+        },
+        {
+          "cell": 5,
+          "progress": 0.625
+        },
+        {
+          "cell": 6,
+          "progress": 0.75
+        },
+        {
+          "cell": 7,
+          "progress": 0.875
+        },
+        {
+          "cell": 8,
+          "progress": 1.0
+        }
+      ]
+    },
+    "alternating-lunge": {
+      "sheet": "docs/generated-frames-d-v1/alternating-lunge/sheet.png",
+      "prepareReady": true,
+      "sourceReview": "Frontal alternating-leg source cycle approved by root/d_hips; interpolated motion review remains pending.",
+      "grid": [
+        4,
+        4
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "periodic",
+      "frameCount": 48,
+      "phaseEasing": "linear",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": false,
+        "regions": [],
+        "maxTranslationPixels": 10,
+        "minScore": 0.55
+      },
+      "preserveStaticRects": [],
+      "anchors": [
+        {
+          "cell": 0,
+          "progress": 0.0
+        },
+        {
+          "cell": 1,
+          "progress": 0.0625
+        },
+        {
+          "cell": 2,
+          "progress": 0.125
+        },
+        {
+          "cell": 3,
+          "progress": 0.1875
+        },
+        {
+          "cell": 4,
+          "progress": 0.25
+        },
+        {
+          "cell": 5,
+          "progress": 0.3125
+        },
+        {
+          "cell": 6,
+          "progress": 0.375
+        },
+        {
+          "cell": 7,
+          "progress": 0.4375
+        },
+        {
+          "cell": 0,
+          "progress": 0.5,
+          "note": "Reuse exact initial standing pose at cycle midpoint, keeping the original progress 0.5."
+        },
+        {
+          "cell": 9,
+          "progress": 0.5625
+        },
+        {
+          "cell": 10,
+          "progress": 0.625
+        },
+        {
+          "cell": 11,
+          "progress": 0.6875
+        },
+        {
+          "cell": 12,
+          "progress": 0.75
+        },
+        {
+          "cell": 13,
+          "progress": 0.8125
+        },
+        {
+          "cell": 14,
+          "progress": 0.875
+        },
+        {
+          "cell": 15,
+          "progress": 0.9375
+        }
+      ],
+      "interpolationOverrides": [
+        {
+          "interval": 5,
+          "frames": [
+            18
+          ],
+          "engine": "Practical-RIFE 4.25",
+          "timestep": 0.9,
+          "reason": "Root approved occlusion retiming: timeline requests 2/3; effective interpolation time .9 avoids the translucent rear shoe. FILM candidate was rejected for a detached third shoe."
+        },
+        {
+          "interval": 13,
+          "frames": [
+            42
+          ],
+          "engine": "Practical-RIFE 4.25",
+          "timestep": 0.9,
+          "reason": "Same approved occlusion retiming for the opposite leg; timeline time 2/3, effective time .9."
+        }
+      ]
+    }
+  }
+}

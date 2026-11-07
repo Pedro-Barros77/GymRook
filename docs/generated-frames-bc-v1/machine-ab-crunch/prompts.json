@@ -1,0 +1,14 @@
+{
+  "id": "machine-ab-crunch",
+  "generationMode": "built-in image_gen",
+  "prompt": "Use case: scientific-educational. Make one coherent motion-keyframe contact sheet for a mobile exercise guide. Input1 is approved CHARACTER AND ART STYLE only: same adult muscular athletic man, naturally colored tan skin, short dark hair, defined muscles, black shorts and black trainers, realistic colored fitness illustration. Input2 is exercise/equipment reference. Preserve that exercise's apparatus and contacts; correct any pose ambiguity as specified. ONE SQUARE image with exactly THREE columns by THREE rows, nine equal SQUARE cells read left-to-right then top-to-bottom. These are consecutive moments of ONE same scene, not independent variants. Locked camera, crop, scale, lens, illumination, floor and background in every cell. Same body proportions/skin/textures and identical machine topology. No borders, gutters, text, labels, arrows or numbers. Entire body, shoes, hands and relevant equipment remain fully in each cell with fixed margins. Static supports remain fixed; moving components only undergo rigid physical motion. Hands stay on intended grips, feet on intended supports, no intersections or extra limbs. Show ONLY the specified first half-repetition from initial pose to final, progressing monotonically over nine poses. Exercise: SEATED MACHINE ABDOMINAL CRUNCH on the gray selectorized apparatus in reference, black chest pad/shoulder handles and lower shin restraints. Fixed side three-quarter camera shows spine curve and chest-pad linkage, both hips remain seated, feet fixed as reference. Pose1 seated upright with neutral spine, chest contacting padded roller, hands holding fixed handles on the MOVING upper lever near sides of head. Poses2..8 gradually flex upper trunk in a short controlled CRUNCH, bringing ribs toward pelvis; pose9 upper trunk curled forward about25–35degrees, not a deep hip hinge. Pelvis/seat/thighs/feet stay fixed; head follows trunk with relaxed neck, chin not jammed to chest. Upper arms/hands do not pull the handles independently: torso flexion drives the padded upper lever downward via same rigid machine pivot. Chest stays against pad, upper linkage/pad/handles rotate together as a rigid unit, not changing shape. Frame/tower/seat/lower-leg supports remain absolutely fixed, weight stack rises progressively during crunch. No arms over face, no changing machine parts or bench, no pulling only with biceps, no pelvis leaving seat. Nine poses upright→short abdominal flexion only.",
+  "references": [
+    "docs/generated-frames-v4/pec-deck/pose-00.png",
+    "dist/assets/thumbnails/machine-ab-crunch.webp"
+  ],
+  "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b26c-8c92-7253-ac21-547f0416b759\\exec-ad0d63d4-600a-4e52-9b1c-953cacf26340.png",
+  "grid": [
+    3,
+    3
+  ]
+}

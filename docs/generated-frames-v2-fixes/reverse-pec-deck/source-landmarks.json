@@ -1,0 +1,150 @@
+{
+  "exerciseId": "reverse-pec-deck",
+  "coordinateSpace": "actual-raster-512-pixels",
+  "reviewer": "fix_upper manual source review",
+  "projectionNotes": "Source V6 unaligned crops resized512. Actual joint centers manually estimated\u00c2\u00b14px (foreshortened first upper arm only\u00e2\u2030\u02c627px). Do not use outer biceps outline or olecranon skin as joint center. Guide predicts projected flexion38\u00e2\u2020\u201916\u00e2\u2020\u201910degrees for physically constant20degrees at rear-elevation28; apparent U alone is not proof of90degreephysical elbowflexion.",
+  "poses": [
+    {
+      "file": "docs/generated-frames-v2-fixes/reverse-pec-deck/qa-v6-00-512.png",
+      "sha256": "a121f7dc173ad2c407296169710049084b687731baabd5ce59988f833d8a5d87",
+      "points": {
+        "shoulderLeft": [
+          151,
+          207
+        ],
+        "elbowLeft": [
+          138,
+          183
+        ],
+        "wristLeft": [
+          145,
+          161
+        ],
+        "shoulderRight": [
+          215,
+          207
+        ],
+        "elbowRight": [
+          228,
+          183
+        ],
+        "wristRight": [
+          223,
+          161
+        ]
+      },
+      "visibilityNotes": "Both forearm and upper arm foreshortened toward machine front, fully forward/away from rear camera."
+    },
+    {
+      "file": "docs/generated-frames-v2-fixes/reverse-pec-deck/qa-v6-04-512.png",
+      "sha256": "8515e5bb8adc4e698fad84adf3754f23be270ca0196e78678870a04d157cff50",
+      "points": {
+        "shoulderLeft": [
+          148,
+          212
+        ],
+        "elbowLeft": [
+          110,
+          207
+        ],
+        "wristLeft": [
+          83,
+          191
+        ],
+        "shoulderRight": [
+          213,
+          212
+        ],
+        "elbowRight": [
+          252,
+          206
+        ],
+        "wristRight": [
+          285,
+          189
+        ]
+      },
+      "visibilityNotes": ""
+    },
+    {
+      "file": "docs/generated-frames-v2-fixes/reverse-pec-deck/qa-v6-08-512.png",
+      "sha256": "c87e6e67381722bd8a8a685a57dc697752f80699e236500d2277bae8534ae329",
+      "points": {
+        "shoulderLeft": [
+          149,
+          213
+        ],
+        "elbowLeft": [
+          104,
+          215
+        ],
+        "wristLeft": [
+          56,
+          207
+        ],
+        "shoulderRight": [
+          213,
+          212
+        ],
+        "elbowRight": [
+          268,
+          211
+        ],
+        "wristRight": [
+          319,
+          204
+        ]
+      },
+      "visibilityNotes": ""
+    }
+  ],
+  "segments": {
+    "upperArmLeft": [
+      "shoulderLeft",
+      "elbowLeft"
+    ],
+    "forearmLeft": [
+      "elbowLeft",
+      "wristLeft"
+    ],
+    "upperArmRight": [
+      "shoulderRight",
+      "elbowRight"
+    ],
+    "forearmRight": [
+      "elbowRight",
+      "wristRight"
+    ]
+  },
+  "angles": {
+    "elbowLeft": [
+      "shoulderLeft",
+      "elbowLeft",
+      "wristLeft"
+    ],
+    "elbowRight": [
+      "shoulderRight",
+      "elbowRight",
+      "wristRight"
+    ]
+  },
+  "guidePhysicalProjection": {
+    "cameraElevation": 28,
+    "horizontalAbduction": [
+      20,
+      55,
+      90
+    ],
+    "constantElbowFlexion20Projected": [
+      37.7856,
+      15.6437,
+      9.6967
+    ],
+    "constantElbowFlexion90Projected": [
+      118.0889,
+      127.962,
+      90
+    ]
+  },
+  "reviewVerdict": "Measured projected flexion is consistent with slight/moderate physical bend and foreshortening (not90degreephysical elbows), within manual landmark uncertainty and generated-scene camera uncertainty. Cannot certify exact constant3D joint angle from raster."
+}

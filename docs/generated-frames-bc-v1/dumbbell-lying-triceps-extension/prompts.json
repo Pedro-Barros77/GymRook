@@ -1,0 +1,14 @@
+{
+  "id": "dumbbell-lying-triceps-extension",
+  "generationMode": "built-in image_gen",
+  "prompt": "Use case: scientific-educational. Make one coherent motion-keyframe contact sheet for a mobile exercise guide. Input1 is approved CHARACTER AND ART STYLE only: same adult muscular athletic man, naturally colored tan skin, short dark hair, defined muscles, black shorts and black trainers, realistic colored fitness illustration. Input2 is exercise/equipment reference. Preserve that exercise's apparatus and contacts; correct any pose ambiguity as specified. ONE SQUARE image with exactly THREE columns by THREE rows, nine equal SQUARE cells read left-to-right then top-to-bottom. These are consecutive moments of ONE same scene, not independent variants. Locked camera, crop, scale, lens, illumination, floor and background in every cell. Same body proportions/skin/textures and identical machine topology. No borders, gutters, text, labels, arrows or numbers. Entire body, shoes, hands and relevant equipment remain fully in each cell with fixed margins. Static supports remain fixed; moving components only undergo rigid physical motion. Hands stay on intended grips, feet on intended supports, no intersections or extra limbs. Show ONLY the specified first half-repetition from initial pose to final, progressing monotonically over nine poses. Exercise: LYING TWO-DUMBBELL TRICEPS EXTENSION (skull crusher), neutral grip, black flat bench. Man supine with head/back/hips continuously supported and feet fixed flat on floor. Camera fixed side three-quarter seeing BOTH arms and head clearance. Pose1 arms reach almost vertically above upper chest with elbows near straight, TWO identical small black hex dumbbells held independently, palms facing each other. Poses2..8 gradually flex elbows while upper arms/elbow centers remain in the SAME nearly vertical position, no shoulder-press or fly motion. Pose9 elbows bent about100degrees, dumbbells lowered safely beside the temples/sides of head, not touching skull and not passing through the bench or face. Forearms describe arcs about elbows, wrists neutral, hands grip centers of handles, upper arms do not rotate backward or turn inside-out. SAME muscles/proportions, both elbows remain at shoulder-width, do not flare. Bench, feet and body stay absolutely fixed. The equipment reference has bent arms; derive the initial straight-arm position and nine consecutive poses ending in that side-of-head position with visible clearance. No arms disappear behind one another completely.",
+  "references": [
+    "docs/generated-frames-v4/pec-deck/pose-00.png",
+    "dist/assets/thumbnails/dumbbell-lying-triceps-extension.webp"
+  ],
+  "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b26c-8c92-7253-ac21-547f0416b759\\exec-78a3e78e-215e-4c09-a8bd-89274fccb060.png",
+  "grid": [
+    3,
+    3
+  ]
+}

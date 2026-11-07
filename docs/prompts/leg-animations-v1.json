@@ -1,0 +1,20 @@
+{
+  "workout": "D",
+  "generationMode": "built-in image_gen; generated pose sheets and focused image edits",
+  "fps": 12,
+  "assemblyConfig": "docs/generated-frames-d-v1/config.json",
+  "exercises": {
+    "leg-extension": "docs/generated-frames-d-v1/leg-extension/prompts.json",
+    "hack-squat": "docs/generated-frames-d-v1/hack-squat/prompts.json",
+    "lying-leg-curl": "docs/generated-frames-d-v1/lying-leg-curl/prompts.json",
+    "dumbbell-stiff-leg-deadlift": "docs/generated-frames-d-v1/dumbbell-stiff-leg-deadlift/prompts.json",
+    "machine-hip-abduction": "docs/generated-frames-d-v1/machine-hip-abduction/prompts.json",
+    "machine-hip-adduction": "docs/generated-frames-d-v1/machine-hip-adduction/prompts.json",
+    "alternating-lunge": "docs/generated-frames-d-v1/alternating-lunge/prompts.json"
+  },
+  "focusedRepairs": [
+    "docs/generated-frames-d-v1/dumbbell-stiff-leg-deadlift/neck-repair-prompt.json",
+    "docs/generated-frames-d-v1/alternating-lunge/prompts-frontal.json"
+  ],
+  "preservedAssets": "docs/generated-frames-d-v1/preserved-media.json"
+}

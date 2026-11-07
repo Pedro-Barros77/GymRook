@@ -1,0 +1,14 @@
+{
+  "id": "bench-dip",
+  "generationMode": "built-in image_gen",
+  "prompt": "Use case: scientific-educational. Make one coherent motion-keyframe contact sheet for a mobile exercise guide. Input1 is approved CHARACTER AND ART STYLE only: same adult muscular athletic man, naturally colored tan skin, short dark hair, defined muscles, black shorts and black trainers, realistic colored fitness illustration. Input2 is exercise/equipment reference. Preserve that exercise's apparatus and contacts; correct any pose ambiguity as specified. ONE SQUARE image with exactly THREE columns by THREE rows, nine equal SQUARE cells read left-to-right then top-to-bottom. These are consecutive moments of ONE same scene, not independent variants. Locked camera, crop, scale, lens, illumination, floor and background in every cell. Same body proportions/skin/textures and identical machine topology. No borders, gutters, text, labels, arrows or numbers. Entire body, shoes, hands and relevant equipment remain fully in each cell with fixed margins. Static supports remain fixed; moving components only undergo rigid physical motion. Hands stay on intended grips, feet on intended supports, no intersections or extra limbs. Show ONLY the specified first half-repetition from initial pose to final, progressing monotonically over nine poses. Exercise: BENCH TRICEPS DIP with BENT KNEES, stable black flat bench. Fixed side three-quarter camera shows bench contact, both elbows and both feet. Pose1 man supporting weight with palms on the bench edge beside hips, fingers wrapping edge facing forward, elbows almost straight, pelvis a little in front of bench rather than sitting. Both knees bent and both soles FLAT on floor, feet hip-width and fixed. Poses2..8 slowly bend elbows BACKWARDS, lowering body very close to the bench front edge; pose9 comfortable shallow bottom with elbows about70–90degrees, upper arms near horizontal, shoulders not forced into an extreme stretch. Torso remains upright, head aligned, chest natural. Hands stay fixed to the SAME exact bench-edge points in every pose; hips do not touch or pass through bench. Both feet stay fixed flat; knees can bend naturally while torso and pelvis descend. No side-flared elbows, no shoulder shrug, no feet sliding or limbs turning inside-out. Same bench geometry, floor/shadows/camera, stable anatomy. Lowering phase only, no return frames.",
+  "references": [
+    "docs/generated-frames-v4/pec-deck/pose-00.png",
+    "dist/assets/thumbnails/bench-dip.webp"
+  ],
+  "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b26c-8c92-7253-ac21-547f0416b759\\exec-de2e18ee-fe2e-4aea-b790-3cfc84fb6a0c.png",
+  "grid": [
+    3,
+    3
+  ]
+}

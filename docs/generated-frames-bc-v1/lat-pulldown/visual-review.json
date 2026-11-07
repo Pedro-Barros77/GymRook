@@ -1,0 +1,29 @@
+{
+  "movement": "Pronated wide bar pulled in front of face to upper chest; cable stays attached to central link, selected block rises, thighs/feet and torso stay supported.",
+  "qa": "Initial elbows have a soft bend rather than a locked overhead extension; otherwise clear pulling phase with no behind-neck path or torso rocking material to the pilot.",
+  "registrationROI": [
+    0.1,
+    0.85,
+    0.3,
+    0.97
+  ],
+  "generationMode": "built-in image_gen",
+  "sheet": "sheet.png",
+  "size": [
+    1254,
+    1254
+  ],
+  "grid": [
+    3,
+    3
+  ],
+  "cellSize": [
+    418,
+    418
+  ],
+  "frameOrder": "row-major",
+  "phase": "outward only; return will reuse time-reversed poses",
+  "sourceSha256": "8203d45a63b1ea3ea50763247f84732de91527ea330ea26ecac941e8cc830e0b",
+  "sourceVisualStatus": "usable for pilot; interpolated motion still needs review",
+  "registrationNote": "Proposed fixed-feature rectangle only; inspect template match. Do not freeze an entire human or apparatus rectangle."
+}

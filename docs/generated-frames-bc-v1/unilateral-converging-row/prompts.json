@@ -1,0 +1,24 @@
+{
+  "id": "unilateral-converging-row",
+  "generationMode": "built-in image_gen",
+  "intent": "generate",
+  "prompt": "Use case: scientific-educational. Create ONE SQUARE contact sheet for an exercise animation: EXACTLY 3 columns by 3 rows, nine equally sized SQUARE cells, read left-to-right then top-to-bottom as consecutive keyframes of ONLY ONE phase of motion. No cell borders, no gutters, no labels, no numbers, no text, no motion arrows, no watermarks. Image1 is CHARACTER AND ART STYLE reference only: the same adult muscular man with warm natural skin, short dark hair, well-defined anatomy, black shorts and black shoes; do not copy that chest exercise. Image2 is the equipment/action reference. Maintain same character identity, pose-independent body proportions, skin color, surface detail and realistic colored illustration across all nine. Minimal warm off-white background and floor. The camera, lens, scale, framing, lighting and stationary scene must stay LOCKED in every cell. Entire body and machine fit each cell with the same generous margins. The machine is ONE RIGID consistent object, not nine variants. Fixed frame/base/supports/tower/pivots never change shape or position and never disappear. Levers only rotate on their actual hinges; grips remain attached to the same levers; all cables remain physically connected and taut. Hands retain grips, joints bend anatomically, feet/chest remain in correct contact with supports. Avoid duplicated limbs, hand/weight penetration, shifting clothing and changing metal texture. Keep shoulders/neck controlled. EXERCISE: SINGLE-ARM CHEST-SUPPORTED CONVERGING MACHINE ROW with independent left/right lever arms. Three-quarter front-side view similar to equipment reference; show BOTH arms and handles clearly. Man seated, sternum firmly against the angled vertical chest pad, feet flat fixed. Only the VIEWER-NEAR arm performs the row. The far arm remains comfortably extended, hand resting on the FAR independent handle in exactly the SAME position throughout every cell; that far machine arm does not move. Pose1 the NEAR working arm reaches forward to its own handle with almost-straight elbow. Across poses2..8 bend ONLY the near elbow gradually and pull that near handle toward the near ribs, elbow tracking backward by the side. Pose9 near elbow is back by torso, near hand beside lower ribs, not above chest. Natural scapular motion is small; do not rotate or lean torso, lift chest off support or move neck. Do not accidentally row with both arms, exchange which arm works, or switch camera. Machine near lever rotates rigidly around its hinge in a converging arc, the lever shape/length and handle stay consistent. Far lever/handle, chest pad, seat, tower, base, shoe placements and all fixed supports remain EXACTLY stationary. If stack visible, selected plates rise as near handle is pulled; keep same topology/plate count. Nine consecutive poses of ONLY ONE NEAR-ARM PULL phase; no return or opposite-side repetition.",
+  "references": [
+    {
+      "path": "docs/generated-frames-v4/pec-deck/pose-00.png",
+      "role": "character and art style"
+    },
+    {
+      "path": "dist/assets/thumbnails/unilateral-converging-row.webp",
+      "role": "equipment and action reference"
+    }
+  ],
+  "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b715-116a-7270-8b2e-aec09b7e4988\\exec-5a7754d8-766a-4ece-8bb7-bc698ea7207e.png",
+  "grid": [
+    3,
+    3
+  ],
+  "rowMajor": true,
+  "poses": 9,
+  "phase": "outward only"
+}

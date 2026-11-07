@@ -1,0 +1,174 @@
+{
+  "exerciseId": "unilateral-cable-row",
+  "coordinateSpace": "actual-raster-512-pixels",
+  "reviewer": "fix_upper manual visual review",
+  "projectionNotes": "Working right arm seen in three-quarter projection. Shoulder/humeral-head center estimated \u00b15px, clothed hip \u00b18px. Forearm and upper arm change projected length while elbow and shoulder rotate; 2D lengths are not physical bone length. Seated lower limb is in the same orientation across poses.",
+  "poses": [
+    {
+      "file": "output/final-animations/unilateral-cable-row/anchors/anchor_00.png",
+      "sha256": "2599747021ca27794f6167f9bb298b0051554388ebeddd1bca87be96dbbc7bf7",
+      "points": {
+        "shoulder": [
+          84,
+          181
+        ],
+        "elbow": [
+          146,
+          234
+        ],
+        "wrist": [
+          216,
+          262
+        ],
+        "hip": [
+          105,
+          317
+        ],
+        "knee": [
+          184,
+          345
+        ],
+        "ankle": [
+          244,
+          447
+        ],
+        "pulley": [
+          419,
+          385
+        ],
+        "benchFoot": [
+          43,
+          468
+        ]
+      },
+      "visibilityNotes": "Working right arm seen in three-quarter projection. Shoulder/humeral-head center estimated \u00b15px, clothed hip \u00b18px. Forearm and upper arm change projected length while elbow and shoulder rotate; 2D lengths are not physical bone length. Seated lower limb is in the same orientation across poses."
+    },
+    {
+      "file": "output/final-animations/unilateral-cable-row/anchors/anchor_04.png",
+      "sha256": "8018ae7ffca06377c718b0823435c12e4db55794e27ea84686c46427b5c696ea",
+      "points": {
+        "shoulder": [
+          75,
+          173
+        ],
+        "elbow": [
+          48,
+          239
+        ],
+        "wrist": [
+          128,
+          263
+        ],
+        "hip": [
+          105,
+          317
+        ],
+        "knee": [
+          184,
+          345
+        ],
+        "ankle": [
+          244,
+          447
+        ],
+        "pulley": [
+          419,
+          385
+        ],
+        "benchFoot": [
+          43,
+          468
+        ]
+      },
+      "visibilityNotes": "Working right arm seen in three-quarter projection. Shoulder/humeral-head center estimated \u00b15px, clothed hip \u00b18px. Forearm and upper arm change projected length while elbow and shoulder rotate; 2D lengths are not physical bone length. Seated lower limb is in the same orientation across poses."
+    },
+    {
+      "file": "output/final-animations/unilateral-cable-row/anchors/anchor_08.png",
+      "sha256": "1bbaf177c5e6439f39dba220accb3d9b7f9c16bd8e85168f426b6fa223ba42d4",
+      "points": {
+        "shoulder": [
+          69,
+          173
+        ],
+        "elbow": [
+          27,
+          239
+        ],
+        "wrist": [
+          90,
+          262
+        ],
+        "hip": [
+          105,
+          317
+        ],
+        "knee": [
+          184,
+          345
+        ],
+        "ankle": [
+          244,
+          447
+        ],
+        "pulley": [
+          419,
+          385
+        ],
+        "benchFoot": [
+          43,
+          468
+        ]
+      },
+      "visibilityNotes": "Working right arm seen in three-quarter projection. Shoulder/humeral-head center estimated \u00b15px, clothed hip \u00b18px. Forearm and upper arm change projected length while elbow and shoulder rotate; 2D lengths are not physical bone length. Seated lower limb is in the same orientation across poses."
+    }
+  ],
+  "segments": {
+    "upperArm": [
+      "shoulder",
+      "elbow"
+    ],
+    "forearm": [
+      "elbow",
+      "wrist"
+    ],
+    "thigh": [
+      "hip",
+      "knee"
+    ],
+    "lowerLeg": [
+      "knee",
+      "ankle"
+    ],
+    "trunk": [
+      "shoulder",
+      "hip"
+    ]
+  },
+  "ratios": {
+    "forearmToUpperArm": [
+      "forearm",
+      "upperArm"
+    ],
+    "lowerLegToThigh": [
+      "lowerLeg",
+      "thigh"
+    ]
+  },
+  "angles": {
+    "elbow": [
+      "shoulder",
+      "elbow",
+      "wrist"
+    ],
+    "knee": [
+      "hip",
+      "knee",
+      "ankle"
+    ]
+  },
+  "fixedPoints": [
+    "pulley",
+    "benchFoot"
+  ],
+  "reviewVerdict": "Visual motion review: mechanical and limb counts pass. Projected measurements require visual interpretation; no certification of exact 3D segment length."
+}

@@ -1,0 +1,270 @@
+{
+  "exerciseId": "unilateral-cable-row",
+  "reviewer": "fix_upper manual visual review",
+  "annotationFile": "docs\\generated-frames-v2-fixes\\unilateral-cable-row\\landmarks.json",
+  "annotationSha256": "b037af63824b55aa622de7cfc74bbbc3555b0d359c5145ef983fe41bf9bded3b",
+  "coordinateSpace": "actual-raster-512-pixels",
+  "projectionNotes": "Working right arm seen in three-quarter projection. Shoulder/humeral-head center estimated ±5px, clothed hip ±8px. Forearm and upper arm change projected length while elbow and shoulder rotate; 2D lengths are not physical bone length. Seated lower limb is in the same orientation across poses.",
+  "limits": "Lengths/ratios/angles are 2D projections measured manually on actual raster art. Foreshortening, occlusion and landmark uncertainty require visual interpretation. No automatic anatomy or exercise approval is inferred.",
+  "poseMeasurements": [
+    {
+      "file": "output/final-animations/unilateral-cable-row/anchors/anchor_00.png",
+      "sha256": "2599747021ca27794f6167f9bb298b0051554388ebeddd1bca87be96dbbc7bf7",
+      "points": {
+        "shoulder": [
+          84,
+          181
+        ],
+        "elbow": [
+          146,
+          234
+        ],
+        "wrist": [
+          216,
+          262
+        ],
+        "hip": [
+          105,
+          317
+        ],
+        "knee": [
+          184,
+          345
+        ],
+        "ankle": [
+          244,
+          447
+        ],
+        "pulley": [
+          419,
+          385
+        ],
+        "benchFoot": [
+          43,
+          468
+        ]
+      },
+      "projectedLengthsPixels": {
+        "upperArm": 81.5659242576212,
+        "forearm": 75.39230729988306,
+        "thigh": 83.81527307120105,
+        "lowerLeg": 118.33849753989612,
+        "trunk": 137.6117727521886
+      },
+      "projectedRatios": {
+        "forearmToUpperArm": 0.9243113222350164,
+        "lowerLegToThigh": 1.411896581657231
+      },
+      "projectedJointInteriorDegrees": {
+        "elbow": 161.2763059925979,
+        "knee": 139.98141792904258
+      },
+      "visibilityNotes": "Working right arm seen in three-quarter projection. Shoulder/humeral-head center estimated ±5px, clothed hip ±8px. Forearm and upper arm change projected length while elbow and shoulder rotate; 2D lengths are not physical bone length. Seated lower limb is in the same orientation across poses."
+    },
+    {
+      "file": "output/final-animations/unilateral-cable-row/anchors/anchor_04.png",
+      "sha256": "8018ae7ffca06377c718b0823435c12e4db55794e27ea84686c46427b5c696ea",
+      "points": {
+        "shoulder": [
+          75,
+          173
+        ],
+        "elbow": [
+          48,
+          239
+        ],
+        "wrist": [
+          128,
+          263
+        ],
+        "hip": [
+          105,
+          317
+        ],
+        "knee": [
+          184,
+          345
+        ],
+        "ankle": [
+          244,
+          447
+        ],
+        "pulley": [
+          419,
+          385
+        ],
+        "benchFoot": [
+          43,
+          468
+        ]
+      },
+      "projectedLengthsPixels": {
+        "upperArm": 71.30918594402827,
+        "forearm": 83.5224520712844,
+        "thigh": 83.81527307120105,
+        "lowerLeg": 118.33849753989612,
+        "trunk": 147.09180806557515
+      },
+      "projectedRatios": {
+        "forearmToUpperArm": 1.1712719892335122,
+        "lowerLegToThigh": 1.411896581657231
+      },
+      "projectedJointInteriorDegrees": {
+        "elbow": 84.45022057678126,
+        "knee": 139.98141792904258
+      },
+      "visibilityNotes": "Working right arm seen in three-quarter projection. Shoulder/humeral-head center estimated ±5px, clothed hip ±8px. Forearm and upper arm change projected length while elbow and shoulder rotate; 2D lengths are not physical bone length. Seated lower limb is in the same orientation across poses."
+    },
+    {
+      "file": "output/final-animations/unilateral-cable-row/anchors/anchor_08.png",
+      "sha256": "1bbaf177c5e6439f39dba220accb3d9b7f9c16bd8e85168f426b6fa223ba42d4",
+      "points": {
+        "shoulder": [
+          69,
+          173
+        ],
+        "elbow": [
+          27,
+          239
+        ],
+        "wrist": [
+          90,
+          262
+        ],
+        "hip": [
+          105,
+          317
+        ],
+        "knee": [
+          184,
+          345
+        ],
+        "ankle": [
+          244,
+          447
+        ],
+        "pulley": [
+          419,
+          385
+        ],
+        "benchFoot": [
+          43,
+          468
+        ]
+      },
+      "projectedLengthsPixels": {
+        "upperArm": 78.23042886243178,
+        "forearm": 67.06713054842886,
+        "thigh": 83.81527307120105,
+        "lowerLeg": 118.33849753989612,
+        "trunk": 148.43180252223578
+      },
+      "projectedRatios": {
+        "forearmToUpperArm": 0.8573023505516814,
+        "lowerLegToThigh": 1.411896581657231
+      },
+      "projectedJointInteriorDegrees": {
+        "elbow": 77.58490244572693,
+        "knee": 139.98141792904258
+      },
+      "visibilityNotes": "Working right arm seen in three-quarter projection. Shoulder/humeral-head center estimated ±5px, clothed hip ±8px. Forearm and upper arm change projected length while elbow and shoulder rotate; 2D lengths are not physical bone length. Seated lower limb is in the same orientation across poses."
+    }
+  ],
+  "segmentSummary": {
+    "upperArm": {
+      "samples": 3,
+      "minimum": 71.30918594402827,
+      "maximum": 81.5659242576212,
+      "mean": 77.03517968802709,
+      "rangeDividedByMean": 0.13314356317633214,
+      "coefficientOfVariation": 0.05545179968825129
+    },
+    "forearm": {
+      "samples": 3,
+      "minimum": 67.06713054842886,
+      "maximum": 83.5224520712844,
+      "mean": 75.32729663986544,
+      "rangeDividedByMean": 0.21845097669610114,
+      "coefficientOfVariation": 0.08918432574043997
+    },
+    "thigh": {
+      "samples": 3,
+      "minimum": 83.81527307120105,
+      "maximum": 83.81527307120105,
+      "mean": 83.81527307120105,
+      "rangeDividedByMean": 0.0,
+      "coefficientOfVariation": 0.0
+    },
+    "lowerLeg": {
+      "samples": 3,
+      "minimum": 118.33849753989612,
+      "maximum": 118.33849753989612,
+      "mean": 118.33849753989612,
+      "rangeDividedByMean": 0.0,
+      "coefficientOfVariation": 0.0
+    },
+    "trunk": {
+      "samples": 3,
+      "minimum": 137.6117727521886,
+      "maximum": 148.43180252223578,
+      "mean": 144.37846111333317,
+      "rangeDividedByMean": 0.07494213254949256,
+      "coefficientOfVariation": 0.03335637619150247
+    }
+  },
+  "ratioSummary": {
+    "forearmToUpperArm": {
+      "samples": 3,
+      "minimum": 0.8573023505516814,
+      "maximum": 1.1712719892335122,
+      "mean": 0.9842952206734034,
+      "rangeDividedByMean": 0.3189791356164761,
+      "coefficientOfVariation": 0.13716722871719686
+    },
+    "lowerLegToThigh": {
+      "samples": 3,
+      "minimum": 1.411896581657231,
+      "maximum": 1.411896581657231,
+      "mean": 1.411896581657231,
+      "rangeDividedByMean": 0.0,
+      "coefficientOfVariation": 0.0
+    }
+  },
+  "angleSummary": {
+    "elbow": {
+      "samples": 3,
+      "minimum": 77.58490244572693,
+      "maximum": 161.2763059925979,
+      "mean": 107.7704763383687,
+      "rangeDividedByMean": 0.7765707862708497,
+      "coefficientOfVariation": 0.35202597008814934
+    },
+    "knee": {
+      "samples": 3,
+      "minimum": 139.98141792904258,
+      "maximum": 139.98141792904258,
+      "mean": 139.98141792904258,
+      "rangeDividedByMean": 0.0,
+      "coefficientOfVariation": 0.0
+    }
+  },
+  "fixedLandmarkDisplacement": {
+    "pulley": {
+      "sampleCount": 3,
+      "medianPixels": [
+        419,
+        385
+      ],
+      "maximumDisplacementFromMedianPixels": 0.0
+    },
+    "benchFoot": {
+      "sampleCount": 3,
+      "medianPixels": [
+        43,
+        468
+      ],
+      "maximumDisplacementFromMedianPixels": 0.0
+    }
+  },
+  "reviewVerdict": "Visual motion review: mechanical and limb counts pass. Projected measurements require visual interpretation; no certification of exact 3D segment length."
+}

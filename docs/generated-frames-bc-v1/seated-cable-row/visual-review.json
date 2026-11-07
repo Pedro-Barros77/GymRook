@@ -1,0 +1,29 @@
+{
+  "movement": "Both hands pull a close neutral V handle toward abdomen, feet stay on plate, knees softly bent and torso remains nearly upright. One taut cable connects to the low pulley.",
+  "qa": "Clear reach-to-pull phase without large trunk rocking or knee extension. Preserve handle/cable contact in interpolation.",
+  "registrationROI": [
+    0.025,
+    0.86,
+    0.96,
+    0.99
+  ],
+  "generationMode": "built-in image_gen",
+  "sheet": "sheet.png",
+  "size": [
+    1254,
+    1254
+  ],
+  "grid": [
+    3,
+    3
+  ],
+  "cellSize": [
+    418,
+    418
+  ],
+  "frameOrder": "row-major",
+  "phase": "outward only; return will reuse time-reversed poses",
+  "sourceSha256": "4a13e8c7da89af74d1c1a7a2ad4e7b8c4307f739fd76f92898c45c245aa70dc2",
+  "sourceVisualStatus": "usable for pilot; interpolated motion still needs review",
+  "registrationNote": "Proposed fixed-feature rectangle only; inspect template match. Do not freeze an entire human or apparatus rectangle."
+}

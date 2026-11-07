@@ -12,6 +12,11 @@ const text = async file => (await read(file)).toString('utf8');
 const fail = message => { throw new Error(message); };
 const nonempty = value => typeof value === 'string' && value.trim().length > 0;
 const stringList = value => Array.isArray(value) && value.length > 0 && value.every(nonempty);
+const legMotionIds = ['leg-extension', 'hack-squat', 'lying-leg-curl', 'dumbbell-stiff-leg-deadlift', 'machine-hip-abduction', 'machine-hip-adduction', 'alternating-lunge'];
+const bcMotionIds = ['machine-shoulder-press', 'dumbbell-lateral-raise', 'cable-front-raise', 'dumbbell-shrug', 'reverse-pec-deck', 'standing-machine-calf-raise', 'seated-plate-calf-raise', 'lat-pulldown', 'unilateral-cable-row', 'seated-cable-row', 'rope-triceps-pushdown', 'dumbbell-lying-triceps-extension', 'bench-dip', 'machine-ab-crunch'];
+const aMotionIds = ['incline-dumbbell-press', 'high-cable-crossover', 'pec-deck', 'push-up', 'cable-biceps-curl', 'preacher-curl', 'reverse-cable-curl', 'floor-crunch', 'reverse-crunch', 'forearm-plank'];
+const pilotIds = [...aMotionIds, ...legMotionIds, ...bcMotionIds];
+const revisedIds = new Set([...aMotionIds, 'lying-leg-curl', 'dumbbell-stiff-leg-deadlift', 'alternating-lunge', 'dumbbell-lateral-raise', 'reverse-pec-deck', 'seated-plate-calf-raise', 'unilateral-cable-row', 'machine-ab-crunch']);
 async function walk(directory = root) {
   const result = [];
   for (const entry of await readdir(directory, { withFileTypes: true })) {
@@ -65,9 +70,17 @@ function gifFrames(bytes, file) {
 }
 
 async function checkVideoMedia(id, media, renderManifests) {
-  assert(['3d', 'generated-interpolated'].includes(media.render), `${id}: video must identify its rendering/interpolation source`);
-  assert.equal(media.fps, 24, `${id}: motion video must run at 24 fps`);
-  assert.equal(media.frameCount, 72, `${id}: motion cycle must contain 72 frames`);
+  assert(pilotIds.includes(id), `${id}: unexpected motion video`);
+  const fps = 12;
+  const frames = id === 'alternating-lunge' ? 48 : 36;
+  const duration = frames / fps;
+  assert(['generated-static-hold', 'generated-interpolated'].includes(media.render), `${id}: video must identify its rendering/interpolation source`);
+  assert.equal(media.fps, fps, `${id}: motion video has the wrong frame rate`);
+  assert.equal(media.frameCount, frames, `${id}: motion cycle has the wrong frame count`);
+  const directory = revisedIds.has(id) ? 'animations-v2' : legMotionIds.includes(id) ? 'animations-d-v1' : 'animations-bc-v1';
+  assert.equal(media.video, `assets/${directory}/${id}.mp4`, `${id}: incorrect video path`);
+  assert.equal(media.gif, `assets/${directory}/${id}.gif`, `${id}: incorrect GIF path`);
+  assert.equal(media.poster, `assets/${directory}/${id}-poster.webp`, `${id}: incorrect poster path`);
   const video = await exists(media.video);
   const gif = await exists(media.gif);
   const poster = await exists(media.poster);
@@ -77,16 +90,19 @@ async function checkVideoMedia(id, media, renderManifests) {
   if (!renderManifests.has(manifestPath)) renderManifests.set(manifestPath, JSON.parse(await text(manifestPath)));
   const renders = renderManifests.get(manifestPath);
   assert.equal(renders.preferredFormat, 'MP4', `${id}: motion manifest must prefer MP4`);
-  assert.equal(renders.fps, 24, `${id}: motion manifest has the wrong frame rate`);
+  assert.equal(renders.fps, fps, `${id}: motion manifest has the wrong frame rate`);
   const record = renders.animations.find(animation => animation.id === id);
   assert(record, `${id}: missing motion record`);
-  assert.equal(record.frameCount, 72, `${id}: manifest must record 72 frames`);
-  assert.equal(record.fps, 24, `${id}: manifest must record 24 fps`);
-  assert.equal(record.durationSeconds, 3, `${id}: cycle must last three seconds`);
+  assert.equal(record.frameCount, frames, `${id}: manifest has the wrong frame count`);
+  assert.equal(record.fps, fps, `${id}: manifest has the wrong frame rate`);
+  assert.equal(record.durationSeconds, duration, `${id}: manifest has the wrong cycle duration`);
   const actualGifFrames = gifFrames(await read(gif), gif);
-  assert(actualGifFrames >= 2, `${id}: compatibility GIF must contain motion frames`);
+  assert(actualGifFrames >= (media.isometric ? 1 : 2), `${id}: compatibility GIF must contain the required frames`);
   assert.equal(actualGifFrames, record.gifFrames, `${id}: compatibility GIF count differs from its manifest`);
-  assert.equal(record.gifDurationMilliseconds, 3000, `${id}: compatibility GIF must last three seconds`);
+  if (media.isometric) assert.equal(actualGifFrames, 1, `${id}: isometric demonstration must preserve a stable posture`);
+  else if (id === 'alternating-lunge') assert(actualGifFrames <= frames, `${id}: too many compatibility GIF frames`);
+  else assert.equal(actualGifFrames, frames, `${id}: compatibility GIF has the wrong frame count`);
+  assert.equal(record.gifDurationMilliseconds, duration * 1000, `${id}: compatibility GIF has the wrong duration`);
   for (const [file, filename] of [[video, record.video], [gif, record.gif], [poster, record.poster]]) {
     assert.equal(path.posix.basename(file), filename, `${id}: manifest references the wrong media file`);
     const expected = record.files[filename];
@@ -130,6 +146,11 @@ async function checkStatic() {
     if (exercise.pilot) pilots.push(id);
     if (exercise.media) {
       assert(exercise.pilot, `${id}: media should identify a pilot`);
+      if (pilotIds.includes(id)) {
+        assert(exercise.media.video, `${id}: expected a motion video`);
+        assert.equal(exercise.media.render, id === 'forearm-plank' ? 'generated-static-hold' : 'generated-interpolated', `${id}: expected generated illustration with correct motion or hold type`);
+        assert(!exercise.media.experimental && !exercise.media.legacy, `${id}: unexpected comparison version`);
+      }
       const poster = await exists(exercise.media.poster);
       const gif = await exists(exercise.media.gif);
       assert(gif.toLowerCase().endsWith('.gif'), `${id}: animation must be a GIF`);
@@ -154,7 +175,11 @@ async function checkStatic() {
       assert((await read(poster)).length > 0, `${id}: empty poster`);
     } else assert(!exercise.pilot, `${id}: pilot is missing media`);
   }
-  assert.deepEqual(pilots.sort(), ['incline-dumbbell-press', 'pec-deck', 'push-up', 'reverse-cable-curl'].sort(), 'Visual pilot exercises do not match the prescribed set');
+  assert.deepEqual(pilots.sort(), [...pilotIds].sort(), 'Visual pilot exercises do not match the prescribed set');
+  assert(data.exercises['pec-deck'].media?.video, 'Pec deck must preserve its primary video');
+  assert(!data.exercises['stair-calf-raise'] && !data.exercises['unilateral-converging-row'], 'Replaced exercises must not remain in the active guide');
+  assert(data.exercises['seated-plate-calf-raise'].primary.includes('Sóleo'), 'Seated calf raise must emphasize soleus');
+  assert(data.exercises['forearm-plank'].media.isometric, 'Plank must identify its isometric hold');
   const manifest = JSON.parse(await text('manifest.webmanifest'));
   assert.equal(manifest.start_url, './', 'PWA start_url must be scope-relative');
   assert.equal(manifest.scope, './', 'PWA scope must be relative');

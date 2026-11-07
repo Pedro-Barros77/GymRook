@@ -1,0 +1,14 @@
+{
+  "id": "leg-extension",
+  "generationMode": "built-in image_gen",
+  "prompt": "Use case: scientific-educational. Asset: coherent animation keyframe sheet for an offline exercise guide. Input 1 is the approved character/style reference only. Preserve that adult muscular man's identity, tan skin, short dark hair, anatomical definition, black shorts, black shoes, realistic colored fitness illustration on warm off-white background. Input 2 is the equipment/action reference for this exercise. Use locked camera, focal length, crop, floor and illumination across EVERY cell. Each cell is the SAME SCENE photographed at a later moment, not nine variants. Skin color, face, body proportions, machine topology, metal surfaces and background must not morph. No labels, no arrows, no watermarks, no borders or gutters. Keep full body and entire apparatus visible inside each cell with generous fixed margins. Machine components are rigid; anchored supports stay pixel-consistent; levers only rotate on their physical axes. Human joints must bend naturally. All hands/feet contact correct supports; no intersections. Create ONE SQUARE 3 by 3 contact sheet, exactly nine equally sized SQUARE cells in row-major chronological order, the nine poses of only the lifting half of a SEATED LEG EXTENSION. Left-side three-quarter view of a gray selectorized leg extension machine, man seated torso/back/hips supported, hands holding side grips. Knees exactly aligned with machine lever pivot, thighs stay horizontal on seat, roller rests against FRONT of lower shins just above ankles throughout. Pose1 knees bent90degrees and feet below knees; poses2..8 extend the knees in eight small evenly progressing steps; pose9 legs almost straight horizontal without hyperextension. Both legs move together, only lower legs and the rigid padded swing arm rotate. Use actual leg extension geometry, roller center follows an arc around knees, connected lever must stay attached to pivot. The weight stack rises gradually as knees extend; fixed tower/backrest/base remain unchanged. Torso/pelvis/head/hands/thighs NEVER move. Visible ankles and feet do not stretch, roll or change shoe shape. Nine poses ONLY start90deg→finish~5deg flexion, no return frames. Use precise consecutive-frame consistency, matching each pose to the previous one. Supporting exercise reference is the second image.",
+  "references": [
+    "docs/generated-frames-v4/pec-deck/pose-00.png",
+    "dist/assets/thumbnails/leg-extension.webp"
+  ],
+  "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b26c-8c92-7253-ac21-547f0416b759\\exec-126d3369-141b-4a47-8495-148cc99953bc.png",
+  "grid": [
+    3,
+    3
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "previousSelectedSheet": {
+    "file": "sheet-v2-ambiguous-elbows.png",
+    "sha256": "6373406b6bde0a950aea999a25ce9cbfcfaa66afd185c1d83fab632de2b8ca9a"
+  },
+  "previousSelectedPrompt": {
+    "file": "prompts-v2-ambiguous-elbows.json",
+    "sha256": "ec293b5acb38837fb59e3c20a8982212501f9d185f56675eb1aff5df111d94ff"
+  },
+  "selectedSheet": {
+    "file": "sheet.png",
+    "candidate": "sheet-v6-annotated-repair-candidate.png",
+    "sha256": "5a4065dee9d3f710b0c44ab7531ca480c9707568c04349a00f72eb8eb58164da"
+  },
+  "selectedCells": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "excludedCells": [
+    1,
+    2
+  ],
+  "historicalSheets": [
+    {
+      "file": "sheet-v1-small-range-rejected.png",
+      "sha256": "5487782ac1c5f1608a29ee73a4fb99c2df2cc766b9c757a7968d3754b7d91300"
+    },
+    {
+      "file": "sheet-v2-ambiguous-elbows.png",
+      "sha256": "6373406b6bde0a950aea999a25ce9cbfcfaa66afd185c1d83fab632de2b8ca9a"
+    },
+    {
+      "file": "sheet-v3-side-candidate.png",
+      "sha256": "409564539df95e339c68d4d0046736b2c5662d759d4c7ad41dcb24a6f78b73e8"
+    },
+    {
+      "file": "sheet-v4-endpoints-three-arms-rejected.png",
+      "sha256": "e3b3b62d5d29106611bebe26db6c6494957b6820f71bf4a08cc3a7072211c3a2"
+    },
+    {
+      "file": "sheet-v4-ghost-marked-input.png",
+      "sha256": "db9c43e389050d446845d22943e8194e7a00e6bb216316979427d4ebec3a635a"
+    },
+    {
+      "file": "sheet-v5-text-repair-three-arms-rejected.png",
+      "sha256": "620e6a400806c23e74d9ebcc5eda5e081502d1242a908a40a27349ab0dac42af"
+    },
+    {
+      "file": "sheet-v6-annotated-repair-candidate.png",
+      "sha256": "5a4065dee9d3f710b0c44ab7531ca480c9707568c04349a00f72eb8eb58164da"
+    }
+  ],
+  "historicalPrompts": [
+    {
+      "file": "prompts-v1-small-range-rejected.json",
+      "sha256": "f3c69462343dac12d3654773cd891997df8836b298685380b072496dba8b0a0e"
+    },
+    {
+      "file": "prompts-v2-ambiguous-elbows.json",
+      "sha256": "ec293b5acb38837fb59e3c20a8982212501f9d185f56675eb1aff5df111d94ff"
+    },
+    {
+      "file": "prompts-v3-side-candidate.json",
+      "sha256": "dc3ccc76f18e6d53101ce7160de06c8ebb6783d922c70b5fc9169502b061648f"
+    },
+    {
+      "file": "prompts-v4-endpoints-sheet-rejected.json",
+      "sha256": "2daab6292f1baef6a0ab5040b318286573881705728d2e97ca48518f6b3f3987"
+    },
+    {
+      "file": "prompts-v4-open-endpoint.json",
+      "sha256": "55a5b1dedbcca3427410bde94961d3b1b10a2428eb7ac170bbc5a17fb664fda3"
+    },
+    {
+      "file": "prompts-v5-text-repair-rejected.json",
+      "sha256": "090d9af6141543ead382e931c0992daf0d2592da5748e7c41b294cae60060860"
+    },
+    {
+      "file": "prompts-v6-annotated-repair.json",
+      "sha256": "9ddea3e7254377c70987637dbc4754461d73424201fb2d66a395318eb82ce274"
+    }
+  ],
+  "previousOutputBackup": "backups/bc-reverse-pec-deck-v2-before-v6-20261107",
+  "allPreservedSourceFiles": [
+    {
+      "file": "cell02-ghost-marked-input.png",
+      "sha256": "31b0cea9165d92cf444a92c602b80d5e03b7119f73b7d20c9971fe05c5386fc4"
+    },
+    {
+      "file": "cell02-ghost-target.png",
+      "sha256": "c653288f21ee23e3dbf8acca3cc4c12f945641b36f42742f6bb2c58c49bf8450"
+    },
+    {
+      "file": "cell03-clean-reference.png",
+      "sha256": "3a5484ae509a6f3ba84552c8dcb553fc265047b1b074ae93ea7469a1ac0513f5"
+    },
+    {
+      "file": "endpoint-closed-rear-unused-candidate.png",
+      "sha256": "ecb9f5640f2913bc9fd3c7277a7570e28c9638c9779bc9aa575fcf571f7dd0c1"
+    },
+    {
+      "file": "endpoint-closed-v3.png",
+      "sha256": "3c671360f9031e2b5af923835d99177d7885d350529f9cab737054e186fb491f"
+    },
+    {
+      "file": "endpoint-open-rear-reference-v2.png",
+      "sha256": "675b67b22a6cbb2aa17d03c1397ddd871c6412dadc96d40be2054488f395213e"
+    },
+    {
+      "file": "endpoint-open-v4-candidate.png",
+      "sha256": "dc392e78fbea33b3ef5e20bfccf47f2f82f1373b7c0bd956430fecf8cd44165d"
+    },
+    {
+      "file": "ghost-mark-annotations.json",
+      "sha256": "def2d31549539de425aa0a5d7dbae20864a980bae454f9081c8e797722486685"
+    },
+    {
+      "file": "prompts-unused-closed-rear.json",
+      "sha256": "f2929797152b42ba54d2b198ad39cfa781e5ab03efa49ad28c65b2a601733a31"
+    },
+    {
+      "file": "prompts-v1-small-range-rejected.json",
+      "sha256": "f3c69462343dac12d3654773cd891997df8836b298685380b072496dba8b0a0e"
+    },
+    {
+      "file": "prompts-v2-ambiguous-elbows.json",
+      "sha256": "ec293b5acb38837fb59e3c20a8982212501f9d185f56675eb1aff5df111d94ff"
+    },
+    {
+      "file": "prompts-v3-side-candidate.json",
+      "sha256": "dc3ccc76f18e6d53101ce7160de06c8ebb6783d922c70b5fc9169502b061648f"
+    },
+    {
+      "file": "prompts-v4-endpoints-sheet-rejected.json",
+      "sha256": "2daab6292f1baef6a0ab5040b318286573881705728d2e97ca48518f6b3f3987"
+    },
+    {
+      "file": "prompts-v4-open-endpoint.json",
+      "sha256": "55a5b1dedbcca3427410bde94961d3b1b10a2428eb7ac170bbc5a17fb664fda3"
+    },
+    {
+      "file": "prompts-v5-text-repair-rejected.json",
+      "sha256": "090d9af6141543ead382e931c0992daf0d2592da5748e7c41b294cae60060860"
+    },
+    {
+      "file": "prompts-v6-annotated-repair.json",
+      "sha256": "9ddea3e7254377c70987637dbc4754461d73424201fb2d66a395318eb82ce274"
+    },
+    {
+      "file": "sheet-v1-small-range-rejected.png",
+      "sha256": "5487782ac1c5f1608a29ee73a4fb99c2df2cc766b9c757a7968d3754b7d91300"
+    },
+    {
+      "file": "sheet-v2-ambiguous-elbows.png",
+      "sha256": "6373406b6bde0a950aea999a25ce9cbfcfaa66afd185c1d83fab632de2b8ca9a"
+    },
+    {
+      "file": "sheet-v3-side-candidate.png",
+      "sha256": "409564539df95e339c68d4d0046736b2c5662d759d4c7ad41dcb24a6f78b73e8"
+    },
+    {
+      "file": "sheet-v4-endpoints-three-arms-rejected.png",
+      "sha256": "e3b3b62d5d29106611bebe26db6c6494957b6820f71bf4a08cc3a7072211c3a2"
+    },
+    {
+      "file": "sheet-v4-ghost-marked-input.png",
+      "sha256": "db9c43e389050d446845d22943e8194e7a00e6bb216316979427d4ebec3a635a"
+    },
+    {
+      "file": "sheet-v5-text-repair-three-arms-rejected.png",
+      "sha256": "620e6a400806c23e74d9ebcc5eda5e081502d1242a908a40a27349ab0dac42af"
+    },
+    {
+      "file": "sheet-v6-annotated-repair-candidate.png",
+      "sha256": "5a4065dee9d3f710b0c44ab7531ca480c9707568c04349a00f72eb8eb58164da"
+    },
+    {
+      "file": "source-selection-v6-candidate.json",
+      "sha256": "19f073bdc45e84c3ca0ca54a2a8b9dad8540ddea0724bd55cf217b2ccf33090b"
+    },
+    {
+      "file": "source-selection-v6-seven-approved.json",
+      "sha256": "5c750261dadc4f3440e48f419631744e94cf506dfb7bb30e197b7f8f6ef5471e"
+    },
+    {
+      "file": "visual-review.json",
+      "sha256": "97c5f04d9ee1b4bbf02bd0756019015e79fbb442d466c22e469b6cf899df194f"
+    }
+  ]
+}

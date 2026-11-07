@@ -1,0 +1,174 @@
+{
+  "exerciseId": "machine-ab-crunch",
+  "coordinateSpace": "actual-raster-512-pixels",
+  "reviewer": "fix_upper manual visual review",
+  "projectionNotes": "Near-side arm. Humeral-head and elbow centers estimated \u00b16px; chest pad hides some proximal arm boundary, and clothed hip \u00b18px. Upper arm projection changes with trunk/lever rotation. Lower leg and apparatus landmarks remain in same plane.",
+  "poses": [
+    {
+      "file": "output/final-animations/machine-ab-crunch/anchors/anchor_00.png",
+      "sha256": "d2d5726585a3bc2d9e50934204e036303b71404ee0344fa71eb823299f5a091b",
+      "points": {
+        "shoulder": [
+          235,
+          156
+        ],
+        "elbow": [
+          211,
+          221
+        ],
+        "wrist": [
+          254,
+          210
+        ],
+        "hip": [
+          267,
+          296
+        ],
+        "knee": [
+          310,
+          334
+        ],
+        "ankle": [
+          292,
+          451
+        ],
+        "leverPivot": [
+          155,
+          129
+        ],
+        "backrestTop": [
+          207,
+          80
+        ]
+      },
+      "visibilityNotes": "Near-side arm. Humeral-head and elbow centers estimated \u00b16px; chest pad hides some proximal arm boundary, and clothed hip \u00b18px. Upper arm projection changes with trunk/lever rotation. Lower leg and apparatus landmarks remain in same plane."
+    },
+    {
+      "file": "output/final-animations/machine-ab-crunch/anchors/anchor_04.png",
+      "sha256": "f68058ba17490de2828dcac76f945abfd34bf82f7609b5cea105c868ff3e54ae",
+      "points": {
+        "shoulder": [
+          246,
+          167
+        ],
+        "elbow": [
+          213,
+          241
+        ],
+        "wrist": [
+          254,
+          249
+        ],
+        "hip": [
+          267,
+          296
+        ],
+        "knee": [
+          310,
+          334
+        ],
+        "ankle": [
+          292,
+          451
+        ],
+        "leverPivot": [
+          155,
+          129
+        ],
+        "backrestTop": [
+          207,
+          80
+        ]
+      },
+      "visibilityNotes": "Near-side arm. Humeral-head and elbow centers estimated \u00b16px; chest pad hides some proximal arm boundary, and clothed hip \u00b18px. Upper arm projection changes with trunk/lever rotation. Lower leg and apparatus landmarks remain in same plane."
+    },
+    {
+      "file": "output/final-animations/machine-ab-crunch/anchors/anchor_08.png",
+      "sha256": "ebb0ab2f58c0f9fa7594638b616b62a37c215627820395518ed5f307487eba8f",
+      "points": {
+        "shoulder": [
+          273,
+          173
+        ],
+        "elbow": [
+          219,
+          249
+        ],
+        "wrist": [
+          249,
+          281
+        ],
+        "hip": [
+          267,
+          296
+        ],
+        "knee": [
+          310,
+          334
+        ],
+        "ankle": [
+          292,
+          451
+        ],
+        "leverPivot": [
+          155,
+          129
+        ],
+        "backrestTop": [
+          207,
+          80
+        ]
+      },
+      "visibilityNotes": "Near-side arm. Humeral-head and elbow centers estimated \u00b16px; chest pad hides some proximal arm boundary, and clothed hip \u00b18px. Upper arm projection changes with trunk/lever rotation. Lower leg and apparatus landmarks remain in same plane."
+    }
+  ],
+  "segments": {
+    "upperArm": [
+      "shoulder",
+      "elbow"
+    ],
+    "forearm": [
+      "elbow",
+      "wrist"
+    ],
+    "thigh": [
+      "hip",
+      "knee"
+    ],
+    "lowerLeg": [
+      "knee",
+      "ankle"
+    ],
+    "trunk": [
+      "shoulder",
+      "hip"
+    ]
+  },
+  "ratios": {
+    "forearmToUpperArm": [
+      "forearm",
+      "upperArm"
+    ],
+    "lowerLegToThigh": [
+      "lowerLeg",
+      "thigh"
+    ]
+  },
+  "angles": {
+    "elbow": [
+      "shoulder",
+      "elbow",
+      "wrist"
+    ],
+    "knee": [
+      "hip",
+      "knee",
+      "ankle"
+    ]
+  },
+  "fixedPoints": [
+    "leverPivot",
+    "backrestTop"
+  ],
+  "reviewVerdict": "Visual motion review: mechanical and limb counts pass. Projected measurements require visual interpretation; no certification of exact 3D segment length."
+}

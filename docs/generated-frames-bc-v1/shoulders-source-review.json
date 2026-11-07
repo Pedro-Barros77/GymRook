@@ -1,0 +1,72 @@
+{
+  "scope": "Four workout B shoulder/trapezius source sheets; visual illustration pilot, not professional biomechanics validation.",
+  "generationMode": "built-in image_gen",
+  "grid": [
+    3,
+    3
+  ],
+  "sourceSize": [
+    1254,
+    1254
+  ],
+  "cellSize": [
+    418,
+    418
+  ],
+  "rowMajor": true,
+  "phase": "lifting only; mirror for controlled return",
+  "sources": {
+    "machine-shoulder-press": {
+      "verdict": "usable reference poses",
+      "observed": "Handles rise from shoulder level toward overhead; torso/pelvis/feet stay supported. Two lever arms remain attached, visible loaded stack rises. No disappearing fixed post, added limb or obvious internal curve reversal identified.",
+      "registrationCandidates": [
+        [
+          0.08,
+          0.79,
+          0.45,
+          0.98
+        ]
+      ],
+      "watch": "Inspect complete lever contours and hand/handle connections in interpolated frames."
+    },
+    "dumbbell-lateral-raise": {
+      "verdict": "usable reference poses",
+      "observed": "Both arms rise from thighs to shoulder height with small elbow bend, little shoulder shrugging and no visible knee drive. Dumbbell count and shape retained, feet planted.",
+      "registrationCandidates": [
+        [
+          0.32,
+          0.84,
+          0.72,
+          0.99
+        ]
+      ],
+      "watch": "Inspect both wrists and dumbbells around middle/upper positions. Existing text supplies isometric top hold; sheet depicts dynamic lifting only."
+    },
+    "cable-front-raise": {
+      "verdict": "usable reference poses",
+      "observed": "Bar rises in front from thighs toward shoulder height, elbows keep small bend, body upright. Low pulley behind, taut line to central bar attachment; stack rises without plate count change.",
+      "registrationCandidates": [
+        [
+          0.07,
+          0.87,
+          0.39,
+          0.97
+        ]
+      ],
+      "watch": "Line is partly hidden by legs; ensure interpolated cable does not detach or become doubled at lower legs."
+    },
+    "dumbbell-shrug": {
+      "verdict": "usable reference poses",
+      "observed": "Vertical shoulder elevation toward ears, elbows kept nearly straight, dumbbells rise at sides, no circular shoulder motion or obvious curl. Head-to-knees framing makes short range legible.",
+      "registrationCandidates": [
+        [
+          0.43,
+          0.03,
+          0.6,
+          0.19
+        ]
+      ],
+      "watch": "Mild generated waist/head drift is present; avoid registering on moving shoulders/dumbbells. Head is intended fixed. Consider linear phase easing for small range; inspect quantified GIF count without adding noise."
+    }
+  }
+}

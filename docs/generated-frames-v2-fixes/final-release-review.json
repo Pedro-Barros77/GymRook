@@ -1,0 +1,1604 @@
+{
+  "complete": true,
+  "reviewedAnimationCount": 18,
+  "scope": "Illustrative raster-guide release: root visual approvals, independent source/frame/onion reviews for the new dynamic guides, documented landmark/projection uncertainty, loop inspection, source-preserving conversions, and stable isometric posture.",
+  "approvalProvenance": "Final release explicitly authorized by root after fix_upper and fix_legs reported their matching reviewed frames.",
+  "digestFormula": "SHA-256 of concatenated raw32-byte SHA-256 digests of ordered exact sourcePNGfiles.",
+  "globalEvidence": [
+    {
+      "file": "docs/generated-frames-v2-fixes/cross-review-leg-agent.json",
+      "sha256": "20799155fd92c4e9ac36a6945704a42c2f4de896e86652aef89db18fb6254f12"
+    },
+    {
+      "file": "docs/generated-frames-v2-fixes/upper-independent-motion-review.json",
+      "sha256": "4e240028da04cd4ea1ff801beffb5571262ec7d772d1f0036e24a5a8e2245e80"
+    },
+    {
+      "file": "docs/generated-frames-v2-fixes/qa-leg-temporal.json",
+      "sha256": "5f0bd9a3803d4a52412c0c48056844ffbec4cd187d30bf4325525b65c257b7b6"
+    },
+    {
+      "file": "docs/generated-frames-v2-fixes/seated-plate-calf-raise/qa-two-key-v5-temporal-measurements.json",
+      "sha256": "8c5c6efbb5c0dae8de9c5a4caf8eb188a51eeb0348337f0d5b598a0604764aad"
+    }
+  ],
+  "animations": [
+    {
+      "id": "high-cable-crossover",
+      "verdict": "PASS",
+      "reviewers": [
+        "root",
+        "fix_upper"
+      ],
+      "sourceKind": "pose-sheet",
+      "sourceSha256": "67d7992a26f933e1f69057cb60ce4b8915d827e34d611ded09c47ea05646ddbb",
+      "frameCount": 36,
+      "fps": 12,
+      "frameDigestBin32": "8fe3685921cb198d0189a1534d92d3a48fe1150fbb17eb5fd563377509b17777",
+      "frameSha256": [
+        "1719f3486cc1baea67e179a670a3b031ec878b69b87c8e9774ac59093c28f668",
+        "0d8954a6a4c1f903f8fed0f79aa6e6a6f9eac8586e1242673dd61f9e586531e8",
+        "9b7d8547982f4353e0d741706b12bae7d7304669807765c0697a220d54cb9fac",
+        "c33a378fac86d3fc95edbc330bebaacf2eb4d0f9fd4d3bab9a72014e5ab12eb9",
+        "415473d494abd875deb4326922c785bc87a051782dd20a8737ddfc37d7322faf",
+        "4cbb82e3acc91c3d3fc2cff8043bd0fb2b6174545cbe57409aa3eb1e684ef1af",
+        "0bd9aa41d028936e30fd7328ccfe828693a10cc671f8ab6f6510fc7315e83bf2",
+        "efbb3df3a306b1f35789af19c766b3bad633013e41076df9a05b58afbeb83b79",
+        "7db931f8b03fb397e43c99ba904d01b82efc02f1d10387428f00535cb6279010",
+        "557ace9523603656bf6a21d763b018de18b9143f58e1de7b5e0b3531ac3688f2",
+        "a9cd6f2f89a4375acfdbabb7cb38b7edaf6190652f46aaeac9bf9fe90dac1a7f",
+        "62a30e95a039959826f73b19ec9ce355624eeb7261f501517aaa96fe69aceb8f",
+        "e98acdb86549b85335a086e460538e48fd9271646bf4ad59b77d66783bd76154",
+        "df5a4f987b396bb54795730e8001f3d12a2491e6fc7a014fec081a7d38c91959",
+        "805086237005cc4fd50c5be308b3317319154c391c9a335c5712619358e35164",
+        "98bb3cb594c34f59be0d7934cc4425357cce7756e8371e70b81dcab9a3099973",
+        "994241c5025ef1b38e881910dbb49a39850376cc922036184b62b59432f40674",
+        "dfad06192a9884d89410e7fa55c0f274a46b7a3fab8d5cbb3a86ca39785ce832",
+        "8cfa29aadef029239cc3a5e558b30ff766ddd46dcf51952fd8a2583aa2992183",
+        "dfad06192a9884d89410e7fa55c0f274a46b7a3fab8d5cbb3a86ca39785ce832",
+        "994241c5025ef1b38e881910dbb49a39850376cc922036184b62b59432f40674",
+        "98bb3cb594c34f59be0d7934cc4425357cce7756e8371e70b81dcab9a3099973",
+        "805086237005cc4fd50c5be308b3317319154c391c9a335c5712619358e35164",
+        "df5a4f987b396bb54795730e8001f3d12a2491e6fc7a014fec081a7d38c91959",
+        "e98acdb86549b85335a086e460538e48fd9271646bf4ad59b77d66783bd76154",
+        "62a30e95a039959826f73b19ec9ce355624eeb7261f501517aaa96fe69aceb8f",
+        "a9cd6f2f89a4375acfdbabb7cb38b7edaf6190652f46aaeac9bf9fe90dac1a7f",
+        "557ace9523603656bf6a21d763b018de18b9143f58e1de7b5e0b3531ac3688f2",
+        "7db931f8b03fb397e43c99ba904d01b82efc02f1d10387428f00535cb6279010",
+        "efbb3df3a306b1f35789af19c766b3bad633013e41076df9a05b58afbeb83b79",
+        "0bd9aa41d028936e30fd7328ccfe828693a10cc671f8ab6f6510fc7315e83bf2",
+        "4cbb82e3acc91c3d3fc2cff8043bd0fb2b6174545cbe57409aa3eb1e684ef1af",
+        "415473d494abd875deb4326922c785bc87a051782dd20a8737ddfc37d7322faf",
+        "c33a378fac86d3fc95edbc330bebaacf2eb4d0f9fd4d3bab9a72014e5ab12eb9",
+        "9b7d8547982f4353e0d741706b12bae7d7304669807765c0697a220d54cb9fac",
+        "0d8954a6a4c1f903f8fed0f79aa6e6a6f9eac8586e1242673dd61f9e586531e8"
+      ],
+      "sourceReview": "Root approved the selected actual raster source and final visual guide; the listed reviewers and evidence describe the scope and uncertainty.",
+      "scope": "All19actual forward frames and18adjacent onion overlays independently reviewed, plus root final contact review.",
+      "notes": [],
+      "evidence": [],
+      "exactInputs": [
+        {
+          "file": "docs/generated-frames-v2-fixes/high-cable-crossover/sheet.png",
+          "sha256": "67d7992a26f933e1f69057cb60ce4b8915d827e34d611ded09c47ea05646ddbb"
+        }
+      ]
+    },
+    {
+      "id": "cable-biceps-curl",
+      "verdict": "PASS",
+      "reviewers": [
+        "root",
+        "fix_upper"
+      ],
+      "sourceKind": "pose-sheet",
+      "sourceSha256": "9a421ea0ec346301f2ae9896b9091915cbe4169bca1579a95ddab1dca92ed390",
+      "frameCount": 36,
+      "fps": 12,
+      "frameDigestBin32": "e2893dc8d1132989de0d5379a47c382e3a8195fa3f4b40211f3267a75fba3740",
+      "frameSha256": [
+        "cd861f688bf96a7cc56531b49453dae814e4c6cc38de1e4c5b4590236b5d81e0",
+        "bc95863be54d48ff8ddd2e63e59e769ebc8bbf8eb2622d0d889ec30fde1098d4",
+        "4e5d033162dd07c28b49903a573b5ab385cbdd1e5e019eaf4680fb485aafc79e",
+        "bc56a6f34ef15d5eacc222bd5603331798a09f12849190f4ef7f922b0e003698",
+        "a107fb99f8dda0266265a849fda433612e73029ca2ad8f28cafe6317c21edd0a",
+        "599c6bde1b9b3a75eb903a51210f2776a52e3311f34f1d17467bf52ed9df3306",
+        "aa6a91551d55a55f21dffc30a779f668dc02dc8ff297f69e852bc35179779951",
+        "f5b918d9614ab7b2981d0e5b8eb90b6316271fa41514f9d3cbfe060069d8b5a1",
+        "27453a1a56dc3f2f10dcd44bcbd8f2d2e0f56172d8c7bd64047f52566adb673b",
+        "581540132efafbc8cd46a8ec2bbf5176ab3d47944d1e005bfa16fac90f26a31a",
+        "5b7721fdbc2ec198061c2a38a02c5268cee7e08230a4c90f52a32ffc9b53f3ea",
+        "a91a20f4cabe838c6183524fd6293243fb46171731b8d381dfbbdca6fb93c6df",
+        "80c5d74a12a2c58e102145fc389d03792a18e5fc60cb1064ab09a8c33fca190c",
+        "b561f39f7758bb847f7842d7e794c420de4e92e4d6f89d68e25e3d64c7a7d6c1",
+        "ce63ed35c90673573899561d8c9c5ff2a8cf0c23dbd03d69b58d9b5cf3932812",
+        "b8a305b8d83e5212c74590bf21a19c2bcce05a7950303d306698909a021d8d75",
+        "73bd4b59b8b6051a794694cd80cf99757e3e7772cc5ddb089e99693d611091f9",
+        "954db282bc12afecdbfbb28033ef8b8cb7616e295b29dac08651ee9e187d1774",
+        "15111898a18810e950b085735d7c9319f8030bc6fa46c908346e1c025eb6471a",
+        "954db282bc12afecdbfbb28033ef8b8cb7616e295b29dac08651ee9e187d1774",
+        "73bd4b59b8b6051a794694cd80cf99757e3e7772cc5ddb089e99693d611091f9",
+        "b8a305b8d83e5212c74590bf21a19c2bcce05a7950303d306698909a021d8d75",
+        "ce63ed35c90673573899561d8c9c5ff2a8cf0c23dbd03d69b58d9b5cf3932812",
+        "b561f39f7758bb847f7842d7e794c420de4e92e4d6f89d68e25e3d64c7a7d6c1",
+        "80c5d74a12a2c58e102145fc389d03792a18e5fc60cb1064ab09a8c33fca190c",
+        "a91a20f4cabe838c6183524fd6293243fb46171731b8d381dfbbdca6fb93c6df",
+        "5b7721fdbc2ec198061c2a38a02c5268cee7e08230a4c90f52a32ffc9b53f3ea",
+        "581540132efafbc8cd46a8ec2bbf5176ab3d47944d1e005bfa16fac90f26a31a",
+        "27453a1a56dc3f2f10dcd44bcbd8f2d2e0f56172d8c7bd64047f52566adb673b",
+        "f5b918d9614ab7b2981d0e5b8eb90b6316271fa41514f9d3cbfe060069d8b5a1",
+        "aa6a91551d55a55f21dffc30a779f668dc02dc8ff297f69e852bc35179779951",
+        "599c6bde1b9b3a75eb903a51210f2776a52e3311f34f1d17467bf52ed9df3306",
+        "a107fb99f8dda0266265a849fda433612e73029ca2ad8f28cafe6317c21edd0a",
+        "bc56a6f34ef15d5eacc222bd5603331798a09f12849190f4ef7f922b0e003698",
+        "4e5d033162dd07c28b49903a573b5ab385cbdd1e5e019eaf4680fb485aafc79e",
+        "bc95863be54d48ff8ddd2e63e59e769ebc8bbf8eb2622d0d889ec30fde1098d4"
+      ],
+      "sourceReview": "Root approved the selected actual raster source and final visual guide; the listed reviewers and evidence describe the scope and uncertainty.",
+      "scope": "All19actual forward frames and18adjacent onion overlays independently reviewed, plus root final contact review.",
+      "notes": [
+        "Forearm projected length changes as the arm turns toward the camera; 2D ratios are interpreted with the three-quarter view and4-5pixel landmark uncertainty."
+      ],
+      "evidence": [
+        {
+          "file": "docs/generated-frames-v2-fixes/cable-biceps-curl/landmarks-pipeline.json",
+          "sha256": "d69290407c49869cb4148d9dd6f1c00e67bd14ab64a58fb98a91558c7aa9b73c"
+        },
+        {
+          "file": "docs/generated-frames-v2-fixes/cable-biceps-curl/geometry-audit-pipeline.json",
+          "sha256": "d6f61c083b4212d64d37a37cf3b2d6f32d87d561df175446ea5bfc67ef674693"
+        }
+      ],
+      "exactInputs": [
+        {
+          "file": "docs/generated-frames-v2-fixes/cable-biceps-curl/sheet.png",
+          "sha256": "9a421ea0ec346301f2ae9896b9091915cbe4169bca1579a95ddab1dca92ed390"
+        }
+      ]
+    },
+    {
+      "id": "preacher-curl",
+      "verdict": "PASS",
+      "reviewers": [
+        "root",
+        "fix_upper"
+      ],
+      "sourceKind": "pose-sheet",
+      "sourceSha256": "e3916b71cd55a5d0a37b0c551cf1640f526d5660c54d8d969bec9d0072f46894",
+      "frameCount": 36,
+      "fps": 12,
+      "frameDigestBin32": "6ce0264d6df0d8f9a7e67bdcebf11b494835f9ba9db73433a38b727191904fae",
+      "frameSha256": [
+        "38df2119b1e0a6b944622e649168e2302579ec1842ef628a0732e72959e08550",
+        "402e352af79fa4e84a9de0521833b15e6f98c959ecc77c943c21205afbff86f4",
+        "661decccc2110de0cce1c9d050c46f800dda9fdd4ce9513d4268c67b480c198e",
+        "85780007a5c1e1fd602c8fa626e4a021d5a306c07230af7369203252f1b2cdbb",
+        "21beb974b0a5b69ee6dd3e5c27760226c5d61a754bf30c601f54148d0de84fb6",
+        "07b38c8a48d81c843aabe4730168365c0a2dc5b8dd8fffc9636364bdd5df827c",
+        "d6da8e49c53517d1c9aa42c4834da016a97c94d0d296a35e73cafb8f68ebc0e3",
+        "d923c97110d35568e3525f76dfc468bf489643a6a2786c4f52bb65ff4776d817",
+        "8b8061909417cda13388284df49d763b1fa1cf73bbb0f9a7af3d898d7f733aa4",
+        "8cb4564f103570dfcf2e3d19e1396badf74c3979cc348f3e6d01127facb57bc2",
+        "259286b0709adf96a02c9137ba635dae7d1a87487cc30df243db3ba686869f66",
+        "a99e4769c0ea7bb37c9ab5de2f9877bf2ac395d81ea0b9638d8a2b051dd548a2",
+        "56bf5988bf8f6701a605a1aa9657295afc4f4bcfef43f51b2e1cf854b17ad961",
+        "db2d945ff63c08b36c2ee8b9c334e101c6b51c0c6be4c27228bcd330c1f088cf",
+        "6b5b7634519ee47ab820c7639692ad07fc1374faf0bcac0368f93f5fc7186d94",
+        "13fc7c60607cfdaff699386b2858cc3a9a8625a630814ab8614bccce263be16f",
+        "46b1ca35f0fa209ddf8f28e3c68ce58e23e5478388a5f4a94bfa16a878ec6aa1",
+        "728b979f3473b5a87b5deac33e49475275d701f2a4f0baad5c0e23ea984d7001",
+        "2cbe0060cdf4dccd5e8f3307fe1f9982f4dce0cc985918d3f71ee354a39cd407",
+        "728b979f3473b5a87b5deac33e49475275d701f2a4f0baad5c0e23ea984d7001",
+        "46b1ca35f0fa209ddf8f28e3c68ce58e23e5478388a5f4a94bfa16a878ec6aa1",
+        "13fc7c60607cfdaff699386b2858cc3a9a8625a630814ab8614bccce263be16f",
+        "6b5b7634519ee47ab820c7639692ad07fc1374faf0bcac0368f93f5fc7186d94",
+        "db2d945ff63c08b36c2ee8b9c334e101c6b51c0c6be4c27228bcd330c1f088cf",
+        "56bf5988bf8f6701a605a1aa9657295afc4f4bcfef43f51b2e1cf854b17ad961",
+        "a99e4769c0ea7bb37c9ab5de2f9877bf2ac395d81ea0b9638d8a2b051dd548a2",
+        "259286b0709adf96a02c9137ba635dae7d1a87487cc30df243db3ba686869f66",
+        "8cb4564f103570dfcf2e3d19e1396badf74c3979cc348f3e6d01127facb57bc2",
+        "8b8061909417cda13388284df49d763b1fa1cf73bbb0f9a7af3d898d7f733aa4",
+        "d923c97110d35568e3525f76dfc468bf489643a6a2786c4f52bb65ff4776d817",
+        "d6da8e49c53517d1c9aa42c4834da016a97c94d0d296a35e73cafb8f68ebc0e3",
+        "07b38c8a48d81c843aabe4730168365c0a2dc5b8dd8fffc9636364bdd5df827c",
+        "21beb974b0a5b69ee6dd3e5c27760226c5d61a754bf30c601f54148d0de84fb6",
+        "85780007a5c1e1fd602c8fa626e4a021d5a306c07230af7369203252f1b2cdbb",
+        "661decccc2110de0cce1c9d050c46f800dda9fdd4ce9513d4268c67b480c198e",
+        "402e352af79fa4e84a9de0521833b15e6f98c959ecc77c943c21205afbff86f4"
+      ],
+      "sourceReview": "Root approved the selected actual raster source and final visual guide; the listed reviewers and evidence describe the scope and uncertainty.",
+      "scope": "All19actual forward frames and18adjacent onion overlays independently reviewed, plus root final contact review.",
+      "notes": [
+        "Partly occluded elbow center appears to shift about15pixels, manual uncertainty about8pixels. Root and independent reviewer saw no clear loss of support or reproducible blocking defect; exact fixed-joint anatomy is not claimed."
+      ],
+      "evidence": [
+        {
+          "file": "docs/generated-frames-v2-fixes/preacher-curl/landmarks-pipeline.json",
+          "sha256": "4450b91b70584e7da66f50c6277940a92aa3119a8ae87513f6b7ce3ee80b50c6"
+        },
+        {
+          "file": "docs/generated-frames-v2-fixes/preacher-curl/geometry-audit-pipeline.json",
+          "sha256": "f708d1dcb7e0a527cf970d750d13cf53b0a47bf9c2568aaf78bdf917109a126a"
+        }
+      ],
+      "exactInputs": [
+        {
+          "file": "docs/generated-frames-v2-fixes/preacher-curl/sheet.png",
+          "sha256": "e3916b71cd55a5d0a37b0c551cf1640f526d5660c54d8d969bec9d0072f46894"
+        }
+      ]
+    },
+    {
+      "id": "floor-crunch",
+      "verdict": "PASS",
+      "reviewers": [
+        "root",
+        "fix_upper"
+      ],
+      "sourceKind": "pose-sheet",
+      "sourceSha256": "d7e0d5ab208bb26451caaf4b3b24cdfda02721959ce07e7edcbd82c7c7e3de23",
+      "frameCount": 36,
+      "fps": 12,
+      "frameDigestBin32": "c00e34ff482b2d356b49f20e8068ac1a3198983dc7149ad027c5939cafb01e33",
+      "frameSha256": [
+        "c8eb16fa2d38877ccec2cf701a8cb8e1ec8c729b464a29458f61dd1dc07deca8",
+        "9c348293884f1dcde59d5f4690c81bf9724130b92e84ab8ed869f278e748b22f",
+        "2f08d0f181483c9785baad850bdec16750c8f24bf9125d701c26b506ff37c739",
+        "5f05405746f54cdf7de27e9f3f04e8f5ae078e6498d0461e9422f2a3bc59d79b",
+        "9cdff6647bba2d8d0e5e97a796f796fd447237d911a9b377a210224c2f2dcd4c",
+        "9829dc299d652d493a0606217de681635b8e8a4a7bb8ac6eb0581c82172fba0b",
+        "655a21451dee4fd623034b26c80ab82286ce05dca510a26bc0ff8c04bce1e85d",
+        "35831bce0ec94fabdcf6c66d70f21ffde9a6153fcd105a490a5a76ac380ad371",
+        "091fb0aa71a25cc3ffc9431fe7f7514447183925ccc7040da5b1a4e9e7dcb54a",
+        "95cb5d0b4f43d9512d9061ec361bb804cb3f0c1ff1e44bf7a97ec475f969eb93",
+        "57fd2d3ce67c0b6b8fe7bf1de34c9fd849af6c5afa0e2960598aff8fcf3f5c8f",
+        "a8cb42baeb24ae25210722dfac0da4810db451ae748dd051861ffd3f0cd12cd1",
+        "25532d88eec1c7d01e7b0b6617f2b75ac7518e259ab39695533dffb29d9d4637",
+        "25e07d70c74b8f4ccbcab588e5684a860a5e652d3db5d1ab630e271f0e777600",
+        "488574b9e73306c0c103483976efe579b54efd5b58bb203ab297f5acff1bed01",
+        "3b7af4b7265a1baf4738a2062b1bd2184d34ef31f37755d9b2385da3f26a17fc",
+        "16421cd80a63d081dfd2cc3adb2af6ebd37dc899a187d39535af1f32f8cc119b",
+        "eff876f4e65b2abf3372a38dabbee1c06ea9fba61031c39d54a1083dfdb53c6f",
+        "a16a0b2d5fb7ef2839e215bd0e6d78a31132e1eac70c8d0d06c9c17c2eac5bd8",
+        "eff876f4e65b2abf3372a38dabbee1c06ea9fba61031c39d54a1083dfdb53c6f",
+        "16421cd80a63d081dfd2cc3adb2af6ebd37dc899a187d39535af1f32f8cc119b",
+        "3b7af4b7265a1baf4738a2062b1bd2184d34ef31f37755d9b2385da3f26a17fc",
+        "488574b9e73306c0c103483976efe579b54efd5b58bb203ab297f5acff1bed01",
+        "25e07d70c74b8f4ccbcab588e5684a860a5e652d3db5d1ab630e271f0e777600",
+        "25532d88eec1c7d01e7b0b6617f2b75ac7518e259ab39695533dffb29d9d4637",
+        "a8cb42baeb24ae25210722dfac0da4810db451ae748dd051861ffd3f0cd12cd1",
+        "57fd2d3ce67c0b6b8fe7bf1de34c9fd849af6c5afa0e2960598aff8fcf3f5c8f",
+        "95cb5d0b4f43d9512d9061ec361bb804cb3f0c1ff1e44bf7a97ec475f969eb93",
+        "091fb0aa71a25cc3ffc9431fe7f7514447183925ccc7040da5b1a4e9e7dcb54a",
+        "35831bce0ec94fabdcf6c66d70f21ffde9a6153fcd105a490a5a76ac380ad371",
+        "655a21451dee4fd623034b26c80ab82286ce05dca510a26bc0ff8c04bce1e85d",
+        "9829dc299d652d493a0606217de681635b8e8a4a7bb8ac6eb0581c82172fba0b",
+        "9cdff6647bba2d8d0e5e97a796f796fd447237d911a9b377a210224c2f2dcd4c",
+        "5f05405746f54cdf7de27e9f3f04e8f5ae078e6498d0461e9422f2a3bc59d79b",
+        "2f08d0f181483c9785baad850bdec16750c8f24bf9125d701c26b506ff37c739",
+        "9c348293884f1dcde59d5f4690c81bf9724130b92e84ab8ed869f278e748b22f"
+      ],
+      "sourceReview": "Root approved the selected actual raster source and final visual guide; the listed reviewers and evidence describe the scope and uncertainty.",
+      "scope": "All19actual forward frames and18adjacent onion overlays independently reviewed, plus root final contact review.",
+      "notes": [],
+      "evidence": [],
+      "exactInputs": [
+        {
+          "file": "docs/generated-frames-v2-fixes/floor-crunch/sheet.png",
+          "sha256": "d7e0d5ab208bb26451caaf4b3b24cdfda02721959ce07e7edcbd82c7c7e3de23"
+        }
+      ]
+    },
+    {
+      "id": "reverse-crunch",
+      "verdict": "PASS",
+      "reviewers": [
+        "root",
+        "fix_upper"
+      ],
+      "sourceKind": "pose-sheet",
+      "sourceSha256": "0e5c54d36ba1110081d8b13861a4b3cbb751d5e49f74f15f816cf66109d694cc",
+      "frameCount": 36,
+      "fps": 12,
+      "frameDigestBin32": "50b6fc9a260146d50570e1d9c21af75fe06c0f864879ebdd161e24684166cd66",
+      "frameSha256": [
+        "8d6aa76cbf1781a0d174e571e9c7831207beb4e79ff555fa5d39b0efab9b7f22",
+        "d163c52b8f5921e2f0f160c27b4a181bfc2d358db121d6a100838a76b2013aaa",
+        "c1c299b432bc506c1fcd9e196c80591fe9ee13dc49d3c5c8d5a3098ad3491504",
+        "cb6713ce3b51b987a44ad0a95984929b121e7bf3a18c06d0544156d7820b0d52",
+        "4cc3b2ae9de73b339f267c2f9336a59dc109e20c64f4d711307e12742852f02d",
+        "8c04039398c17767ff22676772e9198f2ab51b47de8ae411037da46eb7320243",
+        "b9df14e46cc6f786003405e726c0bfe0b7b2a3c259e7ca169caace55cf75b2d1",
+        "9a5c90f13e8ccf6113e2c7bce4c2c4c16eab180fccdc55848170a0411db65214",
+        "32ae9216d43ee3c15b1570edf6338e4506eb6997b3202e29c76d0ede74e9cca0",
+        "c95fa94a1110a30a0406166fb026eef2887505a8582c1b706b400c793a072497",
+        "276e4dc4d2c50bc0d1ceac9d3fdb406f22bbd276d24d53b16f16a4b543318486",
+        "25f3713b662c3f979cb1e613980e35bc9cb5818b980ae963985846e291a7be46",
+        "a6e119afe6098b306f91a98462f4afe8398cbd7da05bc29ace3662902716ee35",
+        "ccf87cc54052722a47d6ec7725c9035c8241dea8c17e7354e3d6ecdb6ccf04ae",
+        "8eafa83ef8ec748cf6c998403e2d0d773abb6f8874767bd713ae566aa715091a",
+        "19c8b9ae47067adc0f32024fa61806439e8ee294f165c2ce4795fdb065228315",
+        "e623cfdb4cf4c25075df2f487ac97dbc557a292189d1faa7743b5467ea08e35b",
+        "911d2b5f8aeb4391cb7d95b3b97cac665c34836b3dbfeac3ce94e429830844b9",
+        "e930fa3fa7bc05c559bd9f914da2fa2475e0437ac93d7f113b014aa2188e5fb2",
+        "911d2b5f8aeb4391cb7d95b3b97cac665c34836b3dbfeac3ce94e429830844b9",
+        "e623cfdb4cf4c25075df2f487ac97dbc557a292189d1faa7743b5467ea08e35b",
+        "19c8b9ae47067adc0f32024fa61806439e8ee294f165c2ce4795fdb065228315",
+        "8eafa83ef8ec748cf6c998403e2d0d773abb6f8874767bd713ae566aa715091a",
+        "ccf87cc54052722a47d6ec7725c9035c8241dea8c17e7354e3d6ecdb6ccf04ae",
+        "a6e119afe6098b306f91a98462f4afe8398cbd7da05bc29ace3662902716ee35",
+        "25f3713b662c3f979cb1e613980e35bc9cb5818b980ae963985846e291a7be46",
+        "276e4dc4d2c50bc0d1ceac9d3fdb406f22bbd276d24d53b16f16a4b543318486",
+        "c95fa94a1110a30a0406166fb026eef2887505a8582c1b706b400c793a072497",
+        "32ae9216d43ee3c15b1570edf6338e4506eb6997b3202e29c76d0ede74e9cca0",
+        "9a5c90f13e8ccf6113e2c7bce4c2c4c16eab180fccdc55848170a0411db65214",
+        "b9df14e46cc6f786003405e726c0bfe0b7b2a3c259e7ca169caace55cf75b2d1",
+        "8c04039398c17767ff22676772e9198f2ab51b47de8ae411037da46eb7320243",
+        "4cc3b2ae9de73b339f267c2f9336a59dc109e20c64f4d711307e12742852f02d",
+        "cb6713ce3b51b987a44ad0a95984929b121e7bf3a18c06d0544156d7820b0d52",
+        "c1c299b432bc506c1fcd9e196c80591fe9ee13dc49d3c5c8d5a3098ad3491504",
+        "d163c52b8f5921e2f0f160c27b4a181bfc2d358db121d6a100838a76b2013aaa"
+      ],
+      "sourceReview": "Root approved the selected actual raster source and final visual guide; the listed reviewers and evidence describe the scope and uncertainty.",
+      "scope": "All19actual forward frames and18adjacent onion overlays independently reviewed, plus root final contact review.",
+      "notes": [],
+      "evidence": [],
+      "exactInputs": [
+        {
+          "file": "docs/generated-frames-v2-fixes/reverse-crunch/sheet.png",
+          "sha256": "0e5c54d36ba1110081d8b13861a4b3cbb751d5e49f74f15f816cf66109d694cc"
+        }
+      ]
+    },
+    {
+      "id": "forearm-plank",
+      "verdict": "PASS",
+      "reviewers": [
+        "root",
+        "fix_legs"
+      ],
+      "sourceKind": "isometric-hold",
+      "sourceSha256": "f53e0f2e1f198bad6f2400cf940d464bb579528ed7fcf53cff31d778ab412732",
+      "frameCount": 36,
+      "fps": 12,
+      "frameDigestBin32": "1843edbb4671b64db3821a8a9f8cd7c40367fda8c2974c6201aeee5287c78d62",
+      "frameSha256": [
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9",
+        "49f4b8c432a83826a14d27594831c99e1764f71734fb0ea23493f372b12855e9"
+      ],
+      "sourceReview": "Root approved the selected actual raster source and final visual guide; the listed reviewers and evidence describe the scope and uncertainty.",
+      "scope": "Single stable posture visually reviewed; 36identical PNG/video frames and one3000ms GIF hold technically verified.",
+      "notes": [
+        "One unchanged pose is intentional isometry. No artificial breathing, repetitions or pixel noise."
+      ],
+      "evidence": [],
+      "exactInputs": [
+        {
+          "file": "docs/generated-frames-v2-fixes/forearm-plank/source.png",
+          "sha256": "f53e0f2e1f198bad6f2400cf940d464bb579528ed7fcf53cff31d778ab412732"
+        }
+      ]
+    },
+    {
+      "id": "lying-leg-curl",
+      "verdict": "PASS",
+      "reviewers": [
+        "root",
+        "fix_legs"
+      ],
+      "sourceKind": "pose-sheet",
+      "sourceSha256": "a0775a3c45508a27eb4f5b9978df100183edc843df7e0aa8ed9f507988c90070",
+      "frameCount": 36,
+      "fps": 12,
+      "frameDigestBin32": "cc4431016c39eb0cab9d496638cf06e057f61a8388f50d437b1215db104dbd97",
+      "frameSha256": [
+        "98e0f86339efe97ccda07c12c24753cf598ebbdd7e18884e2b54c21f9ceaf5bf",
+        "a8efb69f407c5771178ff1e7fe45f7b3e1e3d7be548e4a445f37d1f892e1cfb8",
+        "71860d70a0b26744765710312efad53444a28488f8aba483c3127274f0562b61",
+        "6884b39b7a0caa1be6521f758e693b3f0b868d6b75fd222fa31531045db11bb8",
+        "79f1015f094a7288bef3967949f1f8179197dcd7518dcfa69f182523ac4f0662",
+        "7c0410f5f6a7dffa172b9518e24007990d67927084c7768e8efcf1b7f4727e7a",
+        "97256d6044d7c2440ed28442be210523ad7d0491a1435f3964e5210f2dd5df1c",
+        "135db5e8c6f764c7e975ceb07425753c7ffd0f4b7e92fd36711a34365d2fdedb",
+        "7efa39fe2637ad6166488ed193781c23e59fc023914bed6a646c2af8cc0a3b21",
+        "c07fb67caf7e5456d2cb58aa14051743f60b96d2985848bfde8ea3bbe3f223ea",
+        "f8a2f3ad216a48872fcfa2aee31b0cb8769f17994f196f51d0ba47c8a41e1f95",
+        "f0e2f8071d6fc399b2836148e31cf06f84877fe297878c686a4c39797141e7d1",
+        "daceba313254c753c7db7949a9807148069cdde9b6f50cf5e18b1a68bc0cd09d",
+        "b498db80b86079098751a77ae6999f7d385d9c05dea4affce4f190009dd15e32",
+        "4af3e0d62ed9dbd4a52cf4114e93b1d9fb00ea34f6764716db57ac514cbb75d3",
+        "21c746c7dc9748bd87ac6806baee57b66763301004a55225730787e64c7f4694",
+        "eef160e253324322aead9377876de5a24084d528fe40282293778ebedf247c2f",
+        "ea92fe8884784767c6be63d9b56d55ecbf0383cae388a16360c33905d68084ec",
+        "7d67745678f8408cbd81215e4509de63cc29f8174552ac3034d608285636001e",
+        "ea92fe8884784767c6be63d9b56d55ecbf0383cae388a16360c33905d68084ec",
+        "eef160e253324322aead9377876de5a24084d528fe40282293778ebedf247c2f",
+        "21c746c7dc9748bd87ac6806baee57b66763301004a55225730787e64c7f4694",
+        "4af3e0d62ed9dbd4a52cf4114e93b1d9fb00ea34f6764716db57ac514cbb75d3",
+        "b498db80b86079098751a77ae6999f7d385d9c05dea4affce4f190009dd15e32",
+        "daceba313254c753c7db7949a9807148069cdde9b6f50cf5e18b1a68bc0cd09d",
+        "f0e2f8071d6fc399b2836148e31cf06f84877fe297878c686a4c39797141e7d1",
+        "f8a2f3ad216a48872fcfa2aee31b0cb8769f17994f196f51d0ba47c8a41e1f95",
+        "c07fb67caf7e5456d2cb58aa14051743f60b96d2985848bfde8ea3bbe3f223ea",
+        "7efa39fe2637ad6166488ed193781c23e59fc023914bed6a646c2af8cc0a3b21",
+        "135db5e8c6f764c7e975ceb07425753c7ffd0f4b7e92fd36711a34365d2fdedb",
+        "97256d6044d7c2440ed28442be210523ad7d0491a1435f3964e5210f2dd5df1c",
+        "7c0410f5f6a7dffa172b9518e24007990d67927084c7768e8efcf1b7f4727e7a",
+        "79f1015f094a7288bef3967949f1f8179197dcd7518dcfa69f182523ac4f0662",
+        "6884b39b7a0caa1be6521f758e693b3f0b868d6b75fd222fa31531045db11bb8",
+        "71860d70a0b26744765710312efad53444a28488f8aba483c3127274f0562b61",
+        "a8efb69f407c5771178ff1e7fe45f7b3e1e3d7be548e4a445f37d1f892e1cfb8"
+      ],
+      "sourceReview": "Root approved the selected actual raster source and final visual guide; the listed reviewers and evidence describe the scope and uncertainty.",
+      "scope": "All19actual forward frames and18onion overlays reviewed; limb/rigid-part proxies and their uncertainty recorded.",
+      "notes": [],
+      "evidence": [
+        {
+          "file": "docs/generated-frames-v2-fixes/lying-leg-curl/qa-source-measurements.json",
+          "sha256": "352ac7b99d613d8be9dd097a60cb3f9e1373b66873c621623cbd21edf55a0249"
+        }
+      ],
+      "exactInputs": [
+        {
+          "file": "docs/generated-frames-v2-fixes/lying-leg-curl/sheet.png",
+          "sha256": "a0775a3c45508a27eb4f5b9978df100183edc843df7e0aa8ed9f507988c90070"
+        }
+      ]
+    },
+    {
+      "id": "dumbbell-stiff-leg-deadlift",
+      "verdict": "PASS",
+      "reviewers": [
+        "root",
+        "fix_legs"
+      ],
+      "sourceKind": "pose-sheet",
+      "sourceSha256": "25b936dfe41375bf32075f60282313c49e47b0b0d24c5e25a1dd90b4610787bd",
+      "frameCount": 36,
+      "fps": 12,
+      "frameDigestBin32": "5f26b16359f3f3d6c262acb525719ac5956395e3f8029934d204fc2c5561b48c",
+      "frameSha256": [
+        "c71fecb005a5d2c7f61734397bc1fe962641b3748ba37a041b4568f9e2f770e3",
+        "14e8a37a91bad54c7d43fc6e9d2835b47f180b564ee5483b7a7d5ed23140efa6",
+        "390ab35815bb4f437c2876e37837fd3fec4fca98f64135685791587eb91b55bd",
+        "13fd0fc97ed62e8300279a6bdd9bab30a60fe55d223a75f8743cee71663c869b",
+        "1bbf4a3e1465386032a53c69297b6290eadb29bb41b7ac69712957f1cd73121a",
+        "83adceeea0726c73d502c6a049d5e16fd0d401d468de8736196e3a9cbbc16796",
+        "50a8f75697501405c699711f98fa055bb6dfe82c8bc050345751d41c3e2ce852",
+        "9c69731647211f035e88a75b712015f20824c031c1df9dbc7d0c75d7bc758e9e",
+        "9f4e37b3e4d454ddfd91e53465991e39b84015a45ff4f0f271573c60250edd0b",
+        "f4b5083ebcff9664b758e65290ed75dd701c4882ee27479ff7a495e3dff32602",
+        "fa2e6d0e9c23a1c557d46b912f09dfe87294f5c454cda71791692fef6bffc7ca",
+        "e63202664dd14271851a324a72a6c21681649b8a1b2cfcb28ba18bf188bddc58",
+        "6be032af8670bb29071678e91dbd8933f58248fdd2b321cc448a07fb051d6528",
+        "2d58e5a3888736076f5b13271398587bb90acc34d4da7dec1c2751309c616607",
+        "56abb58590391b2e362416be7144c6d6a4a386a5557497059612b3b3268f81bc",
+        "b168eb2eb492ab626d3615588137eb62fea742d41cb292a91152b3d1150bbe1c",
+        "9f269a7a7925306bc628c01fcf5107711a5fc4bf6216fb0a594acc3aaec2b8f9",
+        "400c4edf5e5332addcb7b40732aeead8f69d03808f393ca88090500d6d4f53e7",
+        "903fc3b73cca5f77b9108cdd3907d9585ffd862fbc76ede3df0e50e8ae55e499",
+        "400c4edf5e5332addcb7b40732aeead8f69d03808f393ca88090500d6d4f53e7",
+        "9f269a7a7925306bc628c01fcf5107711a5fc4bf6216fb0a594acc3aaec2b8f9",
+        "b168eb2eb492ab626d3615588137eb62fea742d41cb292a91152b3d1150bbe1c",
+        "56abb58590391b2e362416be7144c6d6a4a386a5557497059612b3b3268f81bc",
+        "2d58e5a3888736076f5b13271398587bb90acc34d4da7dec1c2751309c616607",
+        "6be032af8670bb29071678e91dbd8933f58248fdd2b321cc448a07fb051d6528",
+        "e63202664dd14271851a324a72a6c21681649b8a1b2cfcb28ba18bf188bddc58",
+        "fa2e6d0e9c23a1c557d46b912f09dfe87294f5c454cda71791692fef6bffc7ca",
+        "f4b5083ebcff9664b758e65290ed75dd701c4882ee27479ff7a495e3dff32602",
+        "9f4e37b3e4d454ddfd91e53465991e39b84015a45ff4f0f271573c60250edd0b",
+        "9c69731647211f035e88a75b712015f20824c031c1df9dbc7d0c75d7bc758e9e",
+        "50a8f75697501405c699711f98fa055bb6dfe82c8bc050345751d41c3e2ce852",
+        "83adceeea0726c73d502c6a049d5e16fd0d401d468de8736196e3a9cbbc16796",
+        "1bbf4a3e1465386032a53c69297b6290eadb29bb41b7ac69712957f1cd73121a",
+        "13fd0fc97ed62e8300279a6bdd9bab30a60fe55d223a75f8743cee71663c869b",
+        "390ab35815bb4f437c2876e37837fd3fec4fca98f64135685791587eb91b55bd",
+        "14e8a37a91bad54c7d43fc6e9d2835b47f180b564ee5483b7a7d5ed23140efa6"
+      ],
+      "sourceReview": "Root approved the selected actual raster source and final visual guide; the listed reviewers and evidence describe the scope and uncertainty.",
+      "scope": "All19actual forward frames and18onion overlays reviewed; limb/rigid-part proxies and their uncertainty recorded.",
+      "notes": [],
+      "evidence": [
+        {
+          "file": "docs/generated-frames-v2-fixes/dumbbell-stiff-leg-deadlift/qa-source-measurements.json",
+          "sha256": "56b1075a77e79b91b6c86a459fe347afea4f885f187574aa29f47901290c948e"
+        }
+      ],
+      "exactInputs": [
+        {
+          "file": "docs/generated-frames-v2-fixes/dumbbell-stiff-leg-deadlift/sheet.png",
+          "sha256": "25b936dfe41375bf32075f60282313c49e47b0b0d24c5e25a1dd90b4610787bd"
+        }
+      ]
+    },
+    {
+      "id": "alternating-lunge",
+      "verdict": "PASS",
+      "reviewers": [
+        "root",
+        "fix_legs"
+      ],
+      "sourceKind": "pose-sheet",
+      "sourceSha256": "840cfa2b2ecda5fe6d3044595c42af0002b80912f740a34e7cd8299ea0dfd674",
+      "frameCount": 48,
+      "fps": 12,
+      "frameDigestBin32": "59a62e32c59bd27f103c8528ececa0452511b42b515094c795112a90b73cf5ef",
+      "frameSha256": [
+        "072b7907b541ad63c10a73bb1616f8d4b09ea7c7122648fa97f6ce6cf7a58a0c",
+        "85c5a08ffc551b818ae489b84539d3e176caa789d241b2ff9ee1b3406b40cc93",
+        "b432a65109bc3ba8e703c12e4bde644d99b6f541ccedcd5af72a224fe883fcca",
+        "2fc99766e3ec2c5efc3d7e8d5523209e11b4cddb960ec9c5b9a56d6fdc1ea8da",
+        "a107c8b060ecccfe0ad5b79cacbedf75cb04b4970441326fe6639ff0e6a76fe1",
+        "23e780b40aac709ba1106c3d22f03f756a833bd89eaccedfe3f7a17a360a947b",
+        "1b2c4664fbb781c400a69c952affb99d8c47f0bb4acceb8b8c2c42feaa48ddf7",
+        "31a971116bce9cc4b1b3a5bb56d0997f07b365efc25858e441f2164ab3b2bbde",
+        "2e04ba1787516cc71a8fccf858b3701616daf123af70a61f0cb21af4333a2984",
+        "b5fd04c935d488dcb24fd61c78c7e4b46bbaf57ff85ca10297eb4fb651b2d421",
+        "eef9998f905e235c5461edc3e1dd66da6202377e8a4807ffdfa3f7c51c273a9f",
+        "1eac2974a036868fc340e749965e2374b828351b8de35baa6354cdd8e04889dd",
+        "8ed843529ecae816bb9b2a6161c6be6ee0fddb360d0a0ce74823d59e287de9a3",
+        "7deb729edddb8d4cb8598d450435c39463e6dbae9fceff2b210ce094f9064dd2",
+        "536e055c948bc261c3a315cf75430404b278e8428ec5ba1e5ad7b6ca909612ce",
+        "2460bd79486cc0d9d03ce00345d9f6ed3296ec16c44ab36cb4c5d594835cb35d",
+        "d7764220fb71456e14f984dacf489b0b47c9cf4ca31021a1f2d3edbd9fc5fd2d",
+        "b18f578b941049677206015f77ca7c4c8649756356a21479244a4eb9e8bbe71b",
+        "ad58a648dd8c24441bb469fb3bb4ca355b5f737cb0140fb178f8f7f7c1f6eb6d",
+        "31732b1b3d4a3b57e82c2a450b7de6fe6f1118f453a8881df834f970a018ca6e",
+        "c3d2c10066c417e0a55180a79d2ef5f8401bbb5430fa7dfeed9a5c38a7ce4b8c",
+        "997f982f02cf161360ae64d641fd74af0b32e90e2fd6c724fae98d8ee5328d6d",
+        "1bc968ea02529a156b4afd902712da1d5040b3bd759ca1076ccf69e7ee177b84",
+        "8c8bcfe81ec673e485a471c9b6c735a118422e3a5dc03fdbf7b793f76acceaa5",
+        "072b7907b541ad63c10a73bb1616f8d4b09ea7c7122648fa97f6ce6cf7a58a0c",
+        "749477f008c99608f24c12b09f821ed78fe2b535a141eddad299a760eb9bfdf3",
+        "faf6286fc75284c7b80727acbd948c232098c4063ea8b31b9413c2597bfc1689",
+        "7a2050e09ec9a1b8d230456997c1dfbc2252e22400f13d9c8b3422367075ee67",
+        "103bd6f6e325cfa95ca9cf27918386ba8787e34d8de4fb44e4af4a512e859615",
+        "9684cbc68b21f035f16f511a7c3437e713f91b9a3bb84c9931de32379e90407a",
+        "1628469aeabf588f5a2f121f84b74151cd0fd2814e88b81780564713ba5a87b9",
+        "9459c2eaabead46630c0023b53aa748614b2c9865fbbf51cc771263b1624e5a9",
+        "0b6db5b4381d1b0941db8f3b7cda2312d86d4d207df060e18df7dd202625056c",
+        "72f1c7b660ef2eac5216add04cfb2e30c56fa6ff0e19c7116a23746d886031dd",
+        "20643b495277bc595f162f4a5cd14959ff8b42923cf3186dbcb4887bfb195cbc",
+        "3d5c751c27412cfafb07b222fdcdedc6ac625c02096a483be3f133ba9e1679c4",
+        "bfe745d97339ebd9f4fca974b7435ab8ed66cf4f21c461d1d328f034edeaf311",
+        "03b6251c6fb8299e5f70c2e0ea858c5a66c6d8bf819a68ec6a1e87b60fec2fad",
+        "6db88cd3a1dde6f39029389732271f23aa80c9d8633bc8183a5405334d4233eb",
+        "45edd213069a87704c780de226fbdc423ecb55635ac027b3c05d0a7ae97e4041",
+        "eb3d7005ef3112804a91814c2a00fa7fddd08cf8cdb8e7d31950ba7f137280ac",
+        "48c014e35f04e8c0c5c4625954ab427e8a43b512a248fd88873e993ace55c424",
+        "603e005ed16138b38b8cdb83a15f524006fa7a85582c01285c2e85814df266a8",
+        "c2632a24a2ae7ab1ca3344a21befab8512d8241322016a070c21237ecc2b1dba",
+        "b92bba4126af9393b657923e34a114cbfe65e8972fbae1b4ee164c87c9a1d816",
+        "072b7907b541ad63c10a73bb1616f8d4b09ea7c7122648fa97f6ce6cf7a58a0c",
+        "372f98648290b3058d18c75f792ea19a389a32f3b62fcf9f31b14e7142fa640c",
+        "9f485ad4d7024b84260385fd6792ff4ebb40304409790aab1cfc7c301126052a"
+      ],
+      "sourceReview": "Root approved the selected actual raster source and final visual guide; the listed reviewers and evidence describe the scope and uncertainty.",
+      "scope": "Corrected full alternating source cycle and real loop-return frames reviewed by root/fix_legs; 48-frame technical decode verified.",
+      "notes": [
+        "Starting standing image reused at keys0,8,15; final standing interval is an intentional short hold. Existing two occlusion-time overrides remain explicit in the frame plan."
+      ],
+      "evidence": [],
+      "exactInputs": [
+        {
+          "file": "docs/generated-frames-d-v1/alternating-lunge/sheet.png",
+          "sha256": "840cfa2b2ecda5fe6d3044595c42af0002b80912f740a34e7cd8299ea0dfd674"
+        }
+      ]
+    },
+    {
+      "id": "dumbbell-lateral-raise",
+      "verdict": "PASS",
+      "reviewers": [
+        "root",
+        "fix_upper"
+      ],
+      "sourceKind": "pose-sheet",
+      "sourceSha256": "391260b6a170f65f9db8ca214cc0a9a471758a93d783c96623f0f29d30bb1b69",
+      "frameCount": 36,
+      "fps": 12,
+      "frameDigestBin32": "7b3bea9fcde53433d6b30188d31b2bcdcc41cc72cf3a93cc2626d92114a0766d",
+      "frameSha256": [
+        "90a5c21a1149d02f1dc9bd51791a6cb81fca51205210343e29262d037215b7a1",
+        "46211abe4ca68c85d5e7d12d2274d980c2742c252a09a1855ea042a23edd839a",
+        "c46998d01c2f248a29550f79e3f76068b7d206a609aa9797dd441a43b7cc7546",
+        "968a601a3bd14d8bd1699aa6e85bf1cda8b128f6ec81eb2b470dde20170f76c4",
+        "1cefcc90ec1555770fcd2666937f84da257e2b655547aec93b0b9ae92a624780",
+        "eecb8af932ae9dd0bc9ba6b10ff52f8281cde0227823accf89336e5abacd758c",
+        "1968db2ff151342d7e9793a90cda7f6f1f9c66b9a7b437b0a1836ba8e3118aca",
+        "a7d29dba18452f94522fd5c3228c4be9ca9e79ad9b51b36f31802072104cd50d",
+        "52050fd4745f3a09648ea2a723a8231c7f8e7c88cfb48c3f572b51c5c0d0d991",
+        "b8585c6e2d70041befc06a99dfcf07ae688c81cde5436cd19a113a3f1fc721da",
+        "68ff343782929f9d15c658405024ec5a2a64e3e63db250ae60a935586ae7a71c",
+        "f7f240c5ba18d0c0b86faf6a9d2496f21e338615bfb42d872499ef513782f3ac",
+        "495b4d25fd9625632a2016b7e4527c1a6b7cb8b7725d9d4ffa5e718a09ee68b4",
+        "265cb7f2b1eaa4c1d47910f472f755c0a921dcf26c6f883964e244fb69d72522",
+        "5edb2c7bd7fcab82267537fb784703b9055ac7aee7be6ffb871e05cfe4e65792",
+        "d5289eb706df391389166d223afb44f3e84969c51497d693d1a61bafc42fe86f",
+        "cb17c60e41bfddf2aca6fd47a1833cb5860a52cdefcad707e710ad750b39e52e",
+        "5fb64599dd6872cb60e4c9286239917c1c03317ae844e1bcae754c9e721a3354",
+        "858f042ab6183a2ae9e2b0c3b3d8db85705aa876edcdb4725cb421879fa4d844",
+        "5fb64599dd6872cb60e4c9286239917c1c03317ae844e1bcae754c9e721a3354",
+        "cb17c60e41bfddf2aca6fd47a1833cb5860a52cdefcad707e710ad750b39e52e",
+        "d5289eb706df391389166d223afb44f3e84969c51497d693d1a61bafc42fe86f",
+        "5edb2c7bd7fcab82267537fb784703b9055ac7aee7be6ffb871e05cfe4e65792",
+        "265cb7f2b1eaa4c1d47910f472f755c0a921dcf26c6f883964e244fb69d72522",
+        "495b4d25fd9625632a2016b7e4527c1a6b7cb8b7725d9d4ffa5e718a09ee68b4",
+        "f7f240c5ba18d0c0b86faf6a9d2496f21e338615bfb42d872499ef513782f3ac",
+        "68ff343782929f9d15c658405024ec5a2a64e3e63db250ae60a935586ae7a71c",
+        "b8585c6e2d70041befc06a99dfcf07ae688c81cde5436cd19a113a3f1fc721da",
+        "52050fd4745f3a09648ea2a723a8231c7f8e7c88cfb48c3f572b51c5c0d0d991",
+        "a7d29dba18452f94522fd5c3228c4be9ca9e79ad9b51b36f31802072104cd50d",
+        "1968db2ff151342d7e9793a90cda7f6f1f9c66b9a7b437b0a1836ba8e3118aca",
+        "eecb8af932ae9dd0bc9ba6b10ff52f8281cde0227823accf89336e5abacd758c",
+        "1cefcc90ec1555770fcd2666937f84da257e2b655547aec93b0b9ae92a624780",
+        "968a601a3bd14d8bd1699aa6e85bf1cda8b128f6ec81eb2b470dde20170f76c4",
+        "c46998d01c2f248a29550f79e3f76068b7d206a609aa9797dd441a43b7cc7546",
+        "46211abe4ca68c85d5e7d12d2274d980c2742c252a09a1855ea042a23edd839a"
+      ],
+      "sourceReview": "Root approved the selected actual raster source and final visual guide; the listed reviewers and evidence describe the scope and uncertainty.",
+      "scope": "All19actual forward frames and18adjacent onion overlays independently reviewed, plus root final contact review.",
+      "notes": [],
+      "evidence": [
+        {
+          "file": "docs/generated-frames-v2-fixes/dumbbell-lateral-raise/review.json",
+          "sha256": "140d988c41a025011fef7348266dfd963de5f3529bf594cc3b8606aab0c176ca"
+        },
+        {
+          "file": "docs/generated-frames-v2-fixes/dumbbell-lateral-raise/landmarks.json",
+          "sha256": "0483fac1aebb47b179061acf75c744e36adb0826c653ce78df95891caea044c5"
+        },
+        {
+          "file": "docs/generated-frames-v2-fixes/dumbbell-lateral-raise/geometry-audit.json",
+          "sha256": "489d92547705c2c2d637ecd4ea598c1c58f5b2b45837e035bd678a10188e8b87"
+        }
+      ],
+      "exactInputs": [
+        {
+          "file": "docs/generated-frames-v2-fixes/dumbbell-lateral-raise/sheet.png",
+          "sha256": "391260b6a170f65f9db8ca214cc0a9a471758a93d783c96623f0f29d30bb1b69"
+        }
+      ]
+    },
+    {
+      "id": "reverse-pec-deck",
+      "verdict": "PASS",
+      "reviewers": [
+        "root",
+        "fix_upper"
+      ],
+      "sourceKind": "pose-sheet",
+      "sourceSha256": "71903f6d89bc711aed28e0525a20f08c2389d78dd52a520c4389ade77a195154",
+      "frameCount": 36,
+      "fps": 12,
+      "frameDigestBin32": "bd7f55bb2a52cd9d29c2510ec27cc25cc01125eace46111fca1b3ebc06469175",
+      "frameSha256": [
+        "a121f7dc173ad2c407296169710049084b687731baabd5ce59988f833d8a5d87",
+        "7f7ebe1f3b057cd47ec08d421e7e1f44b9ea49c77af31eab9c5bc90def1761c0",
+        "825ed4daf7417e403336f7f8251bc681705210302ab4537b1eafad6ea0f3061f",
+        "adaa00acc993c8826c4d8576cb64391474ea1f0027a3e91fb4b5ea7d779ad23a",
+        "e763c85f760b16b2218e9cc747749bb2eaef9ffb88d1fbeb2db42bd6cfb6074b",
+        "ed974a476dc0c861d98b4cd19a11742a69373cdb3c90793391bf1baf00cd220f",
+        "6cb98ef7f0a4334e1736d8bfaed3ba296b6d4ba2ee9ae1aba9addf4f4ff73586",
+        "fb0983f0da1fcb739ae5019bde2c84d2d94a657b3805bd3df0e83f1e1370fd0e",
+        "356197e6af8b0394a05e4abe26207614eb11ee6744bb928529d87b072c94760b",
+        "0c588829cf2b40c614e6d817878b9d612aa37bc7af0c36667c79ad073b7545de",
+        "03e44d83cab71f75e80546536633d30c70983a2a8bc01a136f7b0b0cc2fa0aab",
+        "8abb703c6515fffcca233104b94905eb08803a7ee5e8e1515650a15416eae245",
+        "0a1aa88f100f633c0f3f1d5047d03e9dc38933d42b58032a7fb6ec9b3594b01e",
+        "a8587734317e4f0c9303610a920d205e173e3efd803dbc22da96ddfa265900aa",
+        "67086113fe574c9dfb507ece9e8526f5f1619c9771830f3bdec5bd7e8f67c995",
+        "0742dbb9d466292cd8629a8617df90a0298cb86ac78368965adc8c03bf2a6d9a",
+        "5bf284ad8430d53fcc8c5ac6bc0a1ffb8501e7cd00341a3bef2e74869b6fa39b",
+        "51d6433211337f50fc4fe632d2ebaa65a70fec6f9b8ee3f7f9b1fb4269b0f5dd",
+        "2228d296f6e1f354c382d0d2bda5cba0f53f81b8c8a5a832ac7bd209b6ba0a4e",
+        "51d6433211337f50fc4fe632d2ebaa65a70fec6f9b8ee3f7f9b1fb4269b0f5dd",
+        "5bf284ad8430d53fcc8c5ac6bc0a1ffb8501e7cd00341a3bef2e74869b6fa39b",
+        "0742dbb9d466292cd8629a8617df90a0298cb86ac78368965adc8c03bf2a6d9a",
+        "67086113fe574c9dfb507ece9e8526f5f1619c9771830f3bdec5bd7e8f67c995",
+        "a8587734317e4f0c9303610a920d205e173e3efd803dbc22da96ddfa265900aa",
+        "0a1aa88f100f633c0f3f1d5047d03e9dc38933d42b58032a7fb6ec9b3594b01e",
+        "8abb703c6515fffcca233104b94905eb08803a7ee5e8e1515650a15416eae245",
+        "03e44d83cab71f75e80546536633d30c70983a2a8bc01a136f7b0b0cc2fa0aab",
+        "0c588829cf2b40c614e6d817878b9d612aa37bc7af0c36667c79ad073b7545de",
+        "356197e6af8b0394a05e4abe26207614eb11ee6744bb928529d87b072c94760b",
+        "fb0983f0da1fcb739ae5019bde2c84d2d94a657b3805bd3df0e83f1e1370fd0e",
+        "6cb98ef7f0a4334e1736d8bfaed3ba296b6d4ba2ee9ae1aba9addf4f4ff73586",
+        "ed974a476dc0c861d98b4cd19a11742a69373cdb3c90793391bf1baf00cd220f",
+        "e763c85f760b16b2218e9cc747749bb2eaef9ffb88d1fbeb2db42bd6cfb6074b",
+        "adaa00acc993c8826c4d8576cb64391474ea1f0027a3e91fb4b5ea7d779ad23a",
+        "825ed4daf7417e403336f7f8251bc681705210302ab4537b1eafad6ea0f3061f",
+        "7f7ebe1f3b057cd47ec08d421e7e1f44b9ea49c77af31eab9c5bc90def1761c0"
+      ],
+      "sourceReview": "Root approved the selected actual raster source and final visual guide; the listed reviewers and evidence describe the scope and uncertainty.",
+      "scope": "All19actual forward frames and18adjacent onion overlays independently reviewed, plus root final contact review.",
+      "notes": [],
+      "evidence": [
+        {
+          "file": "docs/generated-frames-v2-fixes/reverse-pec-deck/review.json",
+          "sha256": "03424bb14c9cf3e9f14029a73ab1f6d36009edce2b7b1375e831c15b49d32eb6"
+        },
+        {
+          "file": "docs/generated-frames-v2-fixes/reverse-pec-deck/landmarks.json",
+          "sha256": "5fedfcc72cb453210f1989736c60b5af38e5666cdfc3fdb676f03461adb40cd5"
+        },
+        {
+          "file": "docs/generated-frames-v2-fixes/reverse-pec-deck/geometry-audit.json",
+          "sha256": "d3110f3b6dfbe8e35078f1e67dbf264ed982356fd74d418bee1d38a600316eba"
+        },
+        {
+          "file": "docs/generated-frames-v2-fixes/reverse-pec-deck/source-geometry-audit.json",
+          "sha256": "e2f7a5dc272a7e1f30c0de2cc7cd4182a0999f0a0c62e2bccfcd518249801aac"
+        }
+      ],
+      "exactInputs": [
+        {
+          "file": "docs/generated-frames-v2-fixes/reverse-pec-deck/sheet.png",
+          "sha256": "71903f6d89bc711aed28e0525a20f08c2389d78dd52a520c4389ade77a195154"
+        }
+      ]
+    },
+    {
+      "id": "seated-plate-calf-raise",
+      "verdict": "PASS",
+      "reviewers": [
+        "root",
+        "fix_legs"
+      ],
+      "sourceKind": "image-keyframes",
+      "sourceSha256": "fa43fd6674cb1c72856bc279dee74787837b15bb6c9d496f4b060b65c375c0c5",
+      "frameCount": 36,
+      "fps": 12,
+      "frameDigestBin32": "32b3478f8d6877950c4004db234a605495a5db4410330f5c58de3949df997967",
+      "frameSha256": [
+        "8b3bbe007f3f6984c97f4d73f9c3fe8b6cc3b8df24da4dc9f945b8582a6584c6",
+        "8e1c841d00938efe8967c5971d784270b0f28ff5f4f9749cafeee3014542f77b",
+        "cb37674326262082a7c119ca674d3431096804cdff5a893a03ca25ea63723cda",
+        "650620e666ab2e97a9f681aaa68846b74daebcb36db44df8434ce4a3411fb68f",
+        "8329748f70fe26bfabe7b8c195eb2b4460b6359d8c3a5912781ad59416ebccd9",
+        "393daf9c7bcbb1d64d3c9a0b4f50b1937de9f125112a9d5e747f07e75e109317",
+        "11a9f702ff0194f8a7c9e7295925426fd4652a9411fa1a46794e0e455fdbcda4",
+        "17a2dcfd52a0ac9efcb7c250d49b7f505a930770009fa408b324c2f3773b4f52",
+        "f147ed11958e76ee6e66cd4f6cde42a98e7050f74160472ad957a117cf2133a0",
+        "d897b6591fbf3f4d38be39a0ffaf77c384ac204faec745f2a2536fc6c07257da",
+        "18ff7e1f1f445d51435484045e6f54ed52063fad30a3c486f153386b3f34454d",
+        "f423c7f9182a4ef3e66f5fb619d03909b3adeb8f47fcc025ce026f25be58c42b",
+        "2b4c7dfbb9334958881be951ce8603c09f3fe714f60b0b0e255018e0a2ccd686",
+        "577a969a8531a7b71b770892ab545fabc6a09794dc143bc38eb2c217ae1f054a",
+        "6edc6cdd336adce994503ad43113fd5abf7c98ce4e0dafc6a1f38fb54d2b1b90",
+        "aaeff3d6782d21d35d944b1ed2af07462d6ce8c477063b20167c75b773ec05c1",
+        "de9d9d53cbff7a0aa1a4264180af6377d51e81a0ed6a0d5b3064f90b57a187cb",
+        "308ec16ed023e512b2f6fa6ee6d5774218af15a2c4b65e959c14f5d04cae0570",
+        "5423a20b11278466b1fb8a0c51fb3c769b87bd576428183191d7eebd80ba8266",
+        "308ec16ed023e512b2f6fa6ee6d5774218af15a2c4b65e959c14f5d04cae0570",
+        "de9d9d53cbff7a0aa1a4264180af6377d51e81a0ed6a0d5b3064f90b57a187cb",
+        "aaeff3d6782d21d35d944b1ed2af07462d6ce8c477063b20167c75b773ec05c1",
+        "6edc6cdd336adce994503ad43113fd5abf7c98ce4e0dafc6a1f38fb54d2b1b90",
+        "577a969a8531a7b71b770892ab545fabc6a09794dc143bc38eb2c217ae1f054a",
+        "2b4c7dfbb9334958881be951ce8603c09f3fe714f60b0b0e255018e0a2ccd686",
+        "f423c7f9182a4ef3e66f5fb619d03909b3adeb8f47fcc025ce026f25be58c42b",
+        "18ff7e1f1f445d51435484045e6f54ed52063fad30a3c486f153386b3f34454d",
+        "d897b6591fbf3f4d38be39a0ffaf77c384ac204faec745f2a2536fc6c07257da",
+        "f147ed11958e76ee6e66cd4f6cde42a98e7050f74160472ad957a117cf2133a0",
+        "17a2dcfd52a0ac9efcb7c250d49b7f505a930770009fa408b324c2f3773b4f52",
+        "11a9f702ff0194f8a7c9e7295925426fd4652a9411fa1a46794e0e455fdbcda4",
+        "393daf9c7bcbb1d64d3c9a0b4f50b1937de9f125112a9d5e747f07e75e109317",
+        "8329748f70fe26bfabe7b8c195eb2b4460b6359d8c3a5912781ad59416ebccd9",
+        "650620e666ab2e97a9f681aaa68846b74daebcb36db44df8434ce4a3411fb68f",
+        "cb37674326262082a7c119ca674d3431096804cdff5a893a03ca25ea63723cda",
+        "8e1c841d00938efe8967c5971d784270b0f28ff5f4f9749cafeee3014542f77b"
+      ],
+      "sourceReview": "Root approved the selected actual raster source and final visual guide; the listed reviewers and evidence describe the scope and uncertainty.",
+      "scope": "All19actual forward frames and18onion overlays reviewed; limb/rigid-part proxies and their uncertainty recorded.",
+      "notes": [
+        "Finalv5: tibia-proxy range1.21%, femur2.70%, lever radius0.27%, pivot0.36pixel. A tracked sole material point moves5.34pixels while the physically supporting forefoot contact remains on the platform; the review distinguishes material tracking from instantaneous contact."
+      ],
+      "evidence": [
+        {
+          "file": "docs/generated-frames-v2-fixes/seated-plate-calf-raise/qa-two-key-v5-temporal-measurements.json",
+          "sha256": "8c5c6efbb5c0dae8de9c5a4caf8eb188a51eeb0348337f0d5b598a0604764aad"
+        }
+      ],
+      "exactInputs": [
+        {
+          "file": "docs/generated-frames-v2-fixes/seated-plate-calf-raise/source-index-two-keys-v5.json",
+          "sha256": "fa43fd6674cb1c72856bc279dee74787837b15bb6c9d496f4b060b65c375c0c5"
+        },
+        {
+          "file": "docs/generated-frames-v2-fixes/seated-plate-calf-raise/reference-first-pose.png",
+          "sha256": "8b3bbe007f3f6984c97f4d73f9c3fe8b6cc3b8df24da4dc9f945b8582a6584c6"
+        },
+        {
+          "file": "docs/generated-frames-v2-fixes/seated-plate-calf-raise/endpoint-v5.png",
+          "sha256": "57315f6d3c24cc67f26de817a5422a27edc0ac73cc6e9139a974ea5677f70332"
+        }
+      ]
+    },
+    {
+      "id": "unilateral-cable-row",
+      "verdict": "PASS",
+      "reviewers": [
+        "root",
+        "fix_upper"
+      ],
+      "sourceKind": "pose-sheet",
+      "sourceSha256": "fb4bfa1a08a418b674a0c717372b8993eeaf1060cbc2fb669825ee9f19e3a770",
+      "frameCount": 36,
+      "fps": 12,
+      "frameDigestBin32": "34332d5c8a08399bd8f0c9197fb652dcb2e98ab6dd0d89eb6f3717320d89ced5",
+      "frameSha256": [
+        "2599747021ca27794f6167f9bb298b0051554388ebeddd1bca87be96dbbc7bf7",
+        "fc724c381408e48d7b8dce650fb00e95f8d726aa7dbd3357813e137fc1e95974",
+        "308f4d53b18dd85c96058d7aba7231b460c40333b5aaec41e5d23fa5a8245d21",
+        "1a0dca337a9e7cae8a88eb74de1ce1967d2183424b9ee25f81abdaebb1a6db8f",
+        "51db50790a17c2f1a3bac285533bbd4318f976ad4a246adcd47a024d846b9a9b",
+        "b2646dc0c13af60c1a62f13e8566a0c6627ea3eabc8c5afe5cc67b6dad308644",
+        "3e930b5f917efdade786d3f580dfb085fc417d31c5fc81e4844fa1c0dbc45e93",
+        "49ea3ce2d040c158713d5a48f438d64a88a26cfe4cd13069f7d1274d2a845bd4",
+        "bad1088ccd2454382d045be07bceaf951fc505c29090b4f486ffa6255de31714",
+        "8018ae7ffca06377c718b0823435c12e4db55794e27ea84686c46427b5c696ea",
+        "83695a10e6c06b9a4c7d3c732b1ac0c923ec5bd61c71ef7dc0096519a4254014",
+        "9c7f09448ad4766edcfaad64977a271413856010d2864a26987161e27e68a7b5",
+        "6410a73c5f313e6f2c689a4346393a3d6ecb7270dcffa1be2d6f4a902262b790",
+        "24827519c736dd27b34e4322d7b69ad8c8fcc03c98f4f6b9bed3769a1c0cb807",
+        "9a9dbe31cd9035cc8a0f6b9fe0c562ae6efc6fd239a50ea80fd6eb0edc142b1e",
+        "a15121a4e873e340db3c46573373af155c02574f3333efd8aecccad71cf76f44",
+        "e6ac37545acfae35cadd1e84829827fa67cf4a48386a9056c5886bedf5cee287",
+        "53d378f80ab34bb586ce2f6b81135785928a3db56d0abbd1e8525f68ae7f0e83",
+        "1bbaf177c5e6439f39dba220accb3d9b7f9c16bd8e85168f426b6fa223ba42d4",
+        "53d378f80ab34bb586ce2f6b81135785928a3db56d0abbd1e8525f68ae7f0e83",
+        "e6ac37545acfae35cadd1e84829827fa67cf4a48386a9056c5886bedf5cee287",
+        "a15121a4e873e340db3c46573373af155c02574f3333efd8aecccad71cf76f44",
+        "9a9dbe31cd9035cc8a0f6b9fe0c562ae6efc6fd239a50ea80fd6eb0edc142b1e",
+        "24827519c736dd27b34e4322d7b69ad8c8fcc03c98f4f6b9bed3769a1c0cb807",
+        "6410a73c5f313e6f2c689a4346393a3d6ecb7270dcffa1be2d6f4a902262b790",
+        "9c7f09448ad4766edcfaad64977a271413856010d2864a26987161e27e68a7b5",
+        "83695a10e6c06b9a4c7d3c732b1ac0c923ec5bd61c71ef7dc0096519a4254014",
+        "8018ae7ffca06377c718b0823435c12e4db55794e27ea84686c46427b5c696ea",
+        "bad1088ccd2454382d045be07bceaf951fc505c29090b4f486ffa6255de31714",
+        "49ea3ce2d040c158713d5a48f438d64a88a26cfe4cd13069f7d1274d2a845bd4",
+        "3e930b5f917efdade786d3f580dfb085fc417d31c5fc81e4844fa1c0dbc45e93",
+        "b2646dc0c13af60c1a62f13e8566a0c6627ea3eabc8c5afe5cc67b6dad308644",
+        "51db50790a17c2f1a3bac285533bbd4318f976ad4a246adcd47a024d846b9a9b",
+        "1a0dca337a9e7cae8a88eb74de1ce1967d2183424b9ee25f81abdaebb1a6db8f",
+        "308f4d53b18dd85c96058d7aba7231b460c40333b5aaec41e5d23fa5a8245d21",
+        "fc724c381408e48d7b8dce650fb00e95f8d726aa7dbd3357813e137fc1e95974"
+      ],
+      "sourceReview": "Root approved the selected actual raster source and final visual guide; the listed reviewers and evidence describe the scope and uncertainty.",
+      "scope": "All19actual forward frames and18adjacent onion overlays independently reviewed, plus root final contact review.",
+      "notes": [],
+      "evidence": [
+        {
+          "file": "docs/generated-frames-v2-fixes/unilateral-cable-row/review.json",
+          "sha256": "20a6e370cabb7ed30f52f696a7b227610edc07365281180799ece12748a8a1f8"
+        },
+        {
+          "file": "docs/generated-frames-v2-fixes/unilateral-cable-row/landmarks.json",
+          "sha256": "b037af63824b55aa622de7cfc74bbbc3555b0d359c5145ef983fe41bf9bded3b"
+        },
+        {
+          "file": "docs/generated-frames-v2-fixes/unilateral-cable-row/geometry-audit.json",
+          "sha256": "441698dea975a16ebc16d43c8d235646205d29165e51e9eb713b14f3ed23ffc4"
+        }
+      ],
+      "exactInputs": [
+        {
+          "file": "docs/generated-frames-v2-fixes/unilateral-cable-row/sheet.png",
+          "sha256": "fb4bfa1a08a418b674a0c717372b8993eeaf1060cbc2fb669825ee9f19e3a770"
+        }
+      ]
+    },
+    {
+      "id": "machine-ab-crunch",
+      "verdict": "PASS",
+      "reviewers": [
+        "root",
+        "fix_upper"
+      ],
+      "sourceKind": "pose-sheet",
+      "sourceSha256": "97db27faa0a9978d3ce3f7e3e5fa7e2c559751da1fd2d1177bab1aaf939b1017",
+      "frameCount": 36,
+      "fps": 12,
+      "frameDigestBin32": "dbd1c28de52ec558a53973ac2336196350e5113bd42942cece5d77b6f9cb7b65",
+      "frameSha256": [
+        "d2d5726585a3bc2d9e50934204e036303b71404ee0344fa71eb823299f5a091b",
+        "a68bebbd1f67e88ed731f5bb0e463e25fa32997b751cb824f620cb2de3fc04f6",
+        "274001efbbc00f2e33f55091e36042f058d54ce24cd64bcd5acfe4f1e51d14a7",
+        "3d07296983d2aa8b7d99e89f8b2bdbfb4379259cbbf0851526905e8b6c71dbf6",
+        "8092d4448412d61f75cab04773024b0eb183fec4ddb088f48e3aa5e28d1a42ea",
+        "e913bc972a8b655f71f0d99c6e40dcf98603f5190f1662a640305afa0dbaef66",
+        "a783fc76650eb73538cb195474892d41eb42ea7adbb65f5f7df06e31594f2b86",
+        "cec220b3933bb9dcad7ace0b5b36d9035ad8141b6745bf34cfed3e0a51b25a4e",
+        "11ae74f6ae2b748ce57d8c760b27f6d49a6ecb7c9d4a744a0d22d0044c3d5202",
+        "f68058ba17490de2828dcac76f945abfd34bf82f7609b5cea105c868ff3e54ae",
+        "3dfdde809883310589d03851f511225ab169118e072809758e1ca8809641269e",
+        "abfffcffc76f7d3f7d00c919650b5b3c560a54ff8a43e022a545646730d01b34",
+        "f4ad7c2b48e0262677e7af54f993e34191f445fd1d15dd68c16f2f91b01fa463",
+        "cdbed6d20a670c9a33fc1c6439bf34ebf697697faf1d812733d37494a4f32699",
+        "bae428df38dd57815a0eadb5e1a68615d83331835e7c1618c70fe25de4b928e6",
+        "08792d6667ebf8fe216ad31069c2e2b1c0bf24dfe58b7b8800e61cb264f12c07",
+        "5cb56d93ab6728ca4ea78fbd085f136cd52f802c32d39ed668912731d96fd299",
+        "177f376c3722776c5eebd9b7d84386083fccf8503d1d8911aa51248885348514",
+        "ebb0ab2f58c0f9fa7594638b616b62a37c215627820395518ed5f307487eba8f",
+        "177f376c3722776c5eebd9b7d84386083fccf8503d1d8911aa51248885348514",
+        "5cb56d93ab6728ca4ea78fbd085f136cd52f802c32d39ed668912731d96fd299",
+        "08792d6667ebf8fe216ad31069c2e2b1c0bf24dfe58b7b8800e61cb264f12c07",
+        "bae428df38dd57815a0eadb5e1a68615d83331835e7c1618c70fe25de4b928e6",
+        "cdbed6d20a670c9a33fc1c6439bf34ebf697697faf1d812733d37494a4f32699",
+        "f4ad7c2b48e0262677e7af54f993e34191f445fd1d15dd68c16f2f91b01fa463",
+        "abfffcffc76f7d3f7d00c919650b5b3c560a54ff8a43e022a545646730d01b34",
+        "3dfdde809883310589d03851f511225ab169118e072809758e1ca8809641269e",
+        "f68058ba17490de2828dcac76f945abfd34bf82f7609b5cea105c868ff3e54ae",
+        "11ae74f6ae2b748ce57d8c760b27f6d49a6ecb7c9d4a744a0d22d0044c3d5202",
+        "cec220b3933bb9dcad7ace0b5b36d9035ad8141b6745bf34cfed3e0a51b25a4e",
+        "a783fc76650eb73538cb195474892d41eb42ea7adbb65f5f7df06e31594f2b86",
+        "e913bc972a8b655f71f0d99c6e40dcf98603f5190f1662a640305afa0dbaef66",
+        "8092d4448412d61f75cab04773024b0eb183fec4ddb088f48e3aa5e28d1a42ea",
+        "3d07296983d2aa8b7d99e89f8b2bdbfb4379259cbbf0851526905e8b6c71dbf6",
+        "274001efbbc00f2e33f55091e36042f058d54ce24cd64bcd5acfe4f1e51d14a7",
+        "a68bebbd1f67e88ed731f5bb0e463e25fa32997b751cb824f620cb2de3fc04f6"
+      ],
+      "sourceReview": "Root approved the selected actual raster source and final visual guide; the listed reviewers and evidence describe the scope and uncertainty.",
+      "scope": "All19actual forward frames and18adjacent onion overlays independently reviewed, plus root final contact review.",
+      "notes": [],
+      "evidence": [
+        {
+          "file": "docs/generated-frames-v2-fixes/machine-ab-crunch/review.json",
+          "sha256": "6c5fbe737229c49f52004f6aa32b13bc69bc3aeca60eb87261fa9bb2ec3aaa72"
+        },
+        {
+          "file": "docs/generated-frames-v2-fixes/machine-ab-crunch/landmarks.json",
+          "sha256": "619831ce8fe2b44aac4ef07cf8d320a89c2094425d977e0bdee09392a55a14aa"
+        },
+        {
+          "file": "docs/generated-frames-v2-fixes/machine-ab-crunch/geometry-audit.json",
+          "sha256": "f8cb2487bed4632f4d0eb71390110b210212ad336a8d3c2fb5ad4756b96805bd"
+        }
+      ],
+      "exactInputs": [
+        {
+          "file": "docs/generated-frames-v2-fixes/machine-ab-crunch/sheet.png",
+          "sha256": "97db27faa0a9978d3ce3f7e3e5fa7e2c559751da1fd2d1177bab1aaf939b1017"
+        }
+      ]
+    },
+    {
+      "id": "incline-dumbbell-press",
+      "verdict": "PASS",
+      "reviewers": [
+        "root"
+      ],
+      "sourceKind": "pose-sheet",
+      "sourceSha256": "3acc07d059ee0a943ae97c4bcf72c7c6dd02d3cea5e105c53e4ba85f6148c1f5",
+      "frameCount": 36,
+      "fps": 12,
+      "frameDigestBin32": "2997bda4c5ff4a8195de891d4b5387a6154745174ff62171b5be427e34ed4c42",
+      "frameSha256": [
+        "8fccca593d620d4c99ea14b6567c2d60a7b0531934a28fbee84fb177a474ab79",
+        "93c4f63d34d77d2e889e4822bcabe8f6b1cc037af5ee510b377a37bd2e581fb5",
+        "0f2d74665406fe51cfac8bc4c27e996ca149aba5be2cf33d8861eee8ff3ad233",
+        "4eea6a98abd9af3c069f21c64ea7add719092fe9ba36fc92eba13481ebf77f4d",
+        "8775aa7fef5a1219e997978ddb7372a19be47a6cc4c0c98dd13b271ac32d514c",
+        "decb13a046be8d38447854d4df4a9708e8791ebacf7e1d34d8defae7a5addc56",
+        "e2d18de222ee95fdca0d8b9e6be116c3a7176d1310b7a21836aae54c8c2ce675",
+        "24e372668e5d30a008c3ecd4c9dd71d5bddb9da612456f6e7ef915d276edc05c",
+        "ea52b7203ff0a9d56dae64aae386c09c6f37ae0d9365d1e877bba33936b830a9",
+        "034e3d43d1e8f8a8dfee2398164766219bc4aed611683b4451ce739c3614a75a",
+        "9c41eb9d3c511bb5c249c04cadb933dc390f86b59b28c2c1dbea0b2dd0bc71d0",
+        "3cf3e3da8d418cccde9375be13899dc69ac2facf0f1ca80bd1f0732bf37a7202",
+        "849591647102044cbc0507413bc895baff5193454594a71981715e27cca6f519",
+        "f556de169f1a3e2ae1b78ac6a696eb2c75c125cc1fdd3c601f29c52bf6e0a3f9",
+        "928fdd9e5cdf766acbc8a840c72c18b977ee13b1c5cee4b7be23c22f8f5eebee",
+        "3b1f65a97a498ada655884f7c18d64ab8e242c680d027d7dd422b1c48d12101d",
+        "929bcad137aaeca1e2ce51b178f5cb7f6beafbd7223ddccfb129954100228d84",
+        "ed7eec820ef6cf5a61d7da28f434d2c34edf048df0f8fd8e2618ee7e4928c86d",
+        "4005df3bc278ac8395c3963010100e5e6785441598b07ff64af3e510b42fa751",
+        "ed7eec820ef6cf5a61d7da28f434d2c34edf048df0f8fd8e2618ee7e4928c86d",
+        "929bcad137aaeca1e2ce51b178f5cb7f6beafbd7223ddccfb129954100228d84",
+        "3b1f65a97a498ada655884f7c18d64ab8e242c680d027d7dd422b1c48d12101d",
+        "928fdd9e5cdf766acbc8a840c72c18b977ee13b1c5cee4b7be23c22f8f5eebee",
+        "f556de169f1a3e2ae1b78ac6a696eb2c75c125cc1fdd3c601f29c52bf6e0a3f9",
+        "849591647102044cbc0507413bc895baff5193454594a71981715e27cca6f519",
+        "3cf3e3da8d418cccde9375be13899dc69ac2facf0f1ca80bd1f0732bf37a7202",
+        "9c41eb9d3c511bb5c249c04cadb933dc390f86b59b28c2c1dbea0b2dd0bc71d0",
+        "034e3d43d1e8f8a8dfee2398164766219bc4aed611683b4451ce739c3614a75a",
+        "ea52b7203ff0a9d56dae64aae386c09c6f37ae0d9365d1e877bba33936b830a9",
+        "24e372668e5d30a008c3ecd4c9dd71d5bddb9da612456f6e7ef915d276edc05c",
+        "e2d18de222ee95fdca0d8b9e6be116c3a7176d1310b7a21836aae54c8c2ce675",
+        "decb13a046be8d38447854d4df4a9708e8791ebacf7e1d34d8defae7a5addc56",
+        "8775aa7fef5a1219e997978ddb7372a19be47a6cc4c0c98dd13b271ac32d514c",
+        "4eea6a98abd9af3c069f21c64ea7add719092fe9ba36fc92eba13481ebf77f4d",
+        "0f2d74665406fe51cfac8bc4c27e996ca149aba5be2cf33d8861eee8ff3ad233",
+        "93c4f63d34d77d2e889e4822bcabe8f6b1cc037af5ee510b377a37bd2e581fb5"
+      ],
+      "sourceReview": "Root approved the selected actual raster source and final visual guide; the listed reviewers and evidence describe the scope and uncertainty.",
+      "scope": "Existing colored raster source retained; root reviewed final converted contact sheet. Exact odd-frame equivalence or original9forward-key provenance verified technically.",
+      "notes": [],
+      "evidence": [],
+      "exactInputs": [
+        {
+          "file": "docs/generated-frames-v2/incline-dumbbell-press.png",
+          "sha256": "3acc07d059ee0a943ae97c4bcf72c7c6dd02d3cea5e105c53e4ba85f6148c1f5"
+        }
+      ]
+    },
+    {
+      "id": "push-up",
+      "verdict": "PASS",
+      "reviewers": [
+        "root"
+      ],
+      "sourceKind": "pose-sheet",
+      "sourceSha256": "15a75ba9635946993b79619752e0e09294af0b215ede6390825e03f5548423a1",
+      "frameCount": 36,
+      "fps": 12,
+      "frameDigestBin32": "97b3af3562ee4236fd4b0d10e990623aee6c0df579de35b2aebba5cfd2788bdc",
+      "frameSha256": [
+        "519b246377e0f1f39effa47606d2b65f5d65cfb0862beb8b751e820103581f2e",
+        "98391dbb72800e2e962d0fb3f38197ec4f8f957a8b717ab9197d00d97fac2630",
+        "08962b6e01a332f594d5666b200f9a761e8214cf1c9a51170982be4f79ae8c78",
+        "00c7874543ae9f1c308cd4bf378b206473735d1a02c4e6c7e4ff2aa6e6b9f073",
+        "5ea172b1e3d67b319f5d91944c1de5070e07ca051a28c963faa067c0d42f3bbc",
+        "f30b92d55b488e6baa93a0f36c3f3c8320f0fe05a3e7ec81633485fac181d21b",
+        "9fd7f477f21cd5d9a8f28edeb41042ac93855e884d38f5065e8989964dad9f47",
+        "c281e0797743d0cc3474204d803d4dc060bc34c4c48f84a74c12e07ab63e3efc",
+        "3103a1c22bdce3c7e6b6ae1bb82824e2ac304b760904c728aae4ba15b7fdca40",
+        "e07c6509b3dabe955a62e350f3435b9b3af32b977b862769fd180eebab77edd7",
+        "10ef0ec3e905e02367b10bb291e0a981335a752a89b4f2a4ab966d2b4e0566e8",
+        "e1d612cfd89821889e6a92dd584b5b78d99747385bfe81e5d4425490017b8506",
+        "a7369a2d21d9eed10fd9a7f71823cf8e90973ac90266013e113e6131730daf8a",
+        "eebc48f2a5a8245a46f354072baa92318b17914ccaa8e4ef0940148c424c49fd",
+        "9f8af11f1e2f2cf5754b39d9f07a1785e9f2d37a92220e44ce998d1659906dc7",
+        "90ac536efffc40ba2e6909c22918747993cd881c4998b0e88d68025df124db51",
+        "ccb0260da17d675de94c1050beaede8b0d083ae49584091a3c9a367280f66903",
+        "57f80352e9683e1faeeec7460b2b24757c16a46c13c7fd049c83e0376a3ac895",
+        "7560dbe3022be4cca42b7f938c827bd2527f5070ba012388ed90de2624504d5b",
+        "57f80352e9683e1faeeec7460b2b24757c16a46c13c7fd049c83e0376a3ac895",
+        "ccb0260da17d675de94c1050beaede8b0d083ae49584091a3c9a367280f66903",
+        "90ac536efffc40ba2e6909c22918747993cd881c4998b0e88d68025df124db51",
+        "9f8af11f1e2f2cf5754b39d9f07a1785e9f2d37a92220e44ce998d1659906dc7",
+        "eebc48f2a5a8245a46f354072baa92318b17914ccaa8e4ef0940148c424c49fd",
+        "a7369a2d21d9eed10fd9a7f71823cf8e90973ac90266013e113e6131730daf8a",
+        "e1d612cfd89821889e6a92dd584b5b78d99747385bfe81e5d4425490017b8506",
+        "10ef0ec3e905e02367b10bb291e0a981335a752a89b4f2a4ab966d2b4e0566e8",
+        "e07c6509b3dabe955a62e350f3435b9b3af32b977b862769fd180eebab77edd7",
+        "3103a1c22bdce3c7e6b6ae1bb82824e2ac304b760904c728aae4ba15b7fdca40",
+        "c281e0797743d0cc3474204d803d4dc060bc34c4c48f84a74c12e07ab63e3efc",
+        "9fd7f477f21cd5d9a8f28edeb41042ac93855e884d38f5065e8989964dad9f47",
+        "f30b92d55b488e6baa93a0f36c3f3c8320f0fe05a3e7ec81633485fac181d21b",
+        "5ea172b1e3d67b319f5d91944c1de5070e07ca051a28c963faa067c0d42f3bbc",
+        "00c7874543ae9f1c308cd4bf378b206473735d1a02c4e6c7e4ff2aa6e6b9f073",
+        "08962b6e01a332f594d5666b200f9a761e8214cf1c9a51170982be4f79ae8c78",
+        "98391dbb72800e2e962d0fb3f38197ec4f8f957a8b717ab9197d00d97fac2630"
+      ],
+      "sourceReview": "Root approved the selected actual raster source and final visual guide; the listed reviewers and evidence describe the scope and uncertainty.",
+      "scope": "Existing colored raster source retained; root reviewed final converted contact sheet. Exact odd-frame equivalence or original9forward-key provenance verified technically.",
+      "notes": [],
+      "evidence": [],
+      "exactInputs": [
+        {
+          "file": "docs/generated-frames-v2/push-up.png",
+          "sha256": "15a75ba9635946993b79619752e0e09294af0b215ede6390825e03f5548423a1"
+        }
+      ]
+    },
+    {
+      "id": "reverse-cable-curl",
+      "verdict": "PASS",
+      "reviewers": [
+        "root"
+      ],
+      "sourceKind": "decimated-png-loop",
+      "sourceSha256": "c61fdc73ed9211b0d0ff7b85d258309a896da1bfdc67c9fb59438fa906c32a12",
+      "frameCount": 36,
+      "fps": 12,
+      "frameDigestBin32": "496e911285aec437e8ee8d42c973993ac55cc97481ed828fd3312223e9458469",
+      "frameSha256": [
+        "eaa4ec3c5209d47b2f5047dc786adafb325947a18ab7a1255fef381352201638",
+        "3c4f674de1867ff256d66691e9ac3cb3098e2cec0194a5289d4cb545d82f1900",
+        "42367f1cdbab65f615f8e9397216bae659780ef81a7f00c4655234b425746523",
+        "d899b1536c392089135c6899f27590e73677acd17092b4382174cf0e763937bb",
+        "080f4e89bac72cdca58b20f5ba14fdff17ca4f883ed941e4fe32a46bc8b8a565",
+        "d4ccd7a7b7a5588b06f6d6347b24508a78a39941a6e4e5197ee08eaf4e39a55f",
+        "007999091ccc1eb8705b5f72c636f4d237906ba4d6fc7a6dd0a8c67bddac5133",
+        "98eab2c6cf612c701239806e3d5f47dbd53b95b2cc4fe95cdd7f020dce45e48a",
+        "f7f8384e79c963b1c67a9207f2837815b8bad81867e1c1a7d255ae4af65841cf",
+        "9c8ed0d9cf88cde56d530348d8d61746df74af39033b5ddfa44328d907699b0e",
+        "5ea37f8a62b101b2920536814b01365b502f69228703f9c34438e65afcc09537",
+        "c367f5e6f7d48bdeb7e11430454f8b609d6d48dd0b6194cd48efa0ff90dd1a6e",
+        "2f4a03ad3c4bd5817ccda355c7340d46fed3471a2cb02e5649f0d2d3dd681028",
+        "ca4c7b38212e149b92cae8294f85f944ea3b24365573f3b8e8e8eaf4db38ecca",
+        "5efb9e53a3ba2fc849ef8ffb59417164d5a0f6fbbd917ebe09cde15b25469183",
+        "559f5b90943332588af23ed46c3056dfefef2d607a15b4e2b371fe6f297b8d28",
+        "71600e0f05c505c393d1362038ee9b7bff9204a1fe02e39cfaaf72a67c892913",
+        "3aa8e8917655e33cf731873ba44d57a207566a385ccb75c9f96159ca467bdace",
+        "6c576c27404887cbdadfe1ebf31bbf83409017ae0b0d743786e8f2e3c30a3c15",
+        "3aa8e8917655e33cf731873ba44d57a207566a385ccb75c9f96159ca467bdace",
+        "71600e0f05c505c393d1362038ee9b7bff9204a1fe02e39cfaaf72a67c892913",
+        "559f5b90943332588af23ed46c3056dfefef2d607a15b4e2b371fe6f297b8d28",
+        "5efb9e53a3ba2fc849ef8ffb59417164d5a0f6fbbd917ebe09cde15b25469183",
+        "ca4c7b38212e149b92cae8294f85f944ea3b24365573f3b8e8e8eaf4db38ecca",
+        "2f4a03ad3c4bd5817ccda355c7340d46fed3471a2cb02e5649f0d2d3dd681028",
+        "c367f5e6f7d48bdeb7e11430454f8b609d6d48dd0b6194cd48efa0ff90dd1a6e",
+        "5ea37f8a62b101b2920536814b01365b502f69228703f9c34438e65afcc09537",
+        "9c8ed0d9cf88cde56d530348d8d61746df74af39033b5ddfa44328d907699b0e",
+        "f7f8384e79c963b1c67a9207f2837815b8bad81867e1c1a7d255ae4af65841cf",
+        "98eab2c6cf612c701239806e3d5f47dbd53b95b2cc4fe95cdd7f020dce45e48a",
+        "007999091ccc1eb8705b5f72c636f4d237906ba4d6fc7a6dd0a8c67bddac5133",
+        "d4ccd7a7b7a5588b06f6d6347b24508a78a39941a6e4e5197ee08eaf4e39a55f",
+        "080f4e89bac72cdca58b20f5ba14fdff17ca4f883ed941e4fe32a46bc8b8a565",
+        "d899b1536c392089135c6899f27590e73677acd17092b4382174cf0e763937bb",
+        "42367f1cdbab65f615f8e9397216bae659780ef81a7f00c4655234b425746523",
+        "3c4f674de1867ff256d66691e9ac3cb3098e2cec0194a5289d4cb545d82f1900"
+      ],
+      "sourceReview": "Root approved the selected actual raster source and final visual guide; the listed reviewers and evidence describe the scope and uncertainty.",
+      "scope": "Existing colored raster source retained; root reviewed final converted contact sheet. Exact odd-frame equivalence or original9forward-key provenance verified technically.",
+      "notes": [
+        "Exact odd frames of approved72-frame/24fps source, with one documented480-to-512Lanczos normalization."
+      ],
+      "evidence": [],
+      "exactInputs": [
+        {
+          "file": "dist/assets/animations-interpolated/manifest.json",
+          "sha256": "c61fdc73ed9211b0d0ff7b85d258309a896da1bfdc67c9fb59438fa906c32a12"
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0001.png",
+          "sha256": "f998467443fc96d335f5eb00d89db09e6bc78e14b0190d0f6ef44b8b9f8bb2b0",
+          "sourceFrame": 1
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0003.png",
+          "sha256": "798629fc0239ff82835f00ee868139fe4c90a0221e1df724b5f7210c5cecb926",
+          "sourceFrame": 3
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0005.png",
+          "sha256": "ca2d85b93823a9b4bdbe53703e588d82ae63bce6cf25ca62f55e4206f32935fe",
+          "sourceFrame": 5
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0007.png",
+          "sha256": "a0c42cd47e2f0dc6da7291a2684bfff4615977b9592f2f7937d244a87cc82b55",
+          "sourceFrame": 7
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0009.png",
+          "sha256": "2ab7fc24ef2ce5edeb5d35fb8f74dde9043b1dc57bf91d217e474742e8d021b1",
+          "sourceFrame": 9
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0011.png",
+          "sha256": "83acf37518cf2256a06e34a076ed356d8d223ae84aec1d0794566bd0bc9fdbad",
+          "sourceFrame": 11
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0013.png",
+          "sha256": "cdcef4bc3432f93caa10d11a06108258c2633872ab00419be99b87ba3d99fb03",
+          "sourceFrame": 13
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0015.png",
+          "sha256": "d46ec439b7ce69325c1541d86a8e2a8106f93a3558addd39dd88645df9133ede",
+          "sourceFrame": 15
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0017.png",
+          "sha256": "6d272d0d8400f29e5ee6027eaea2097d2c79b006af749f01f3e3fd199fb43a40",
+          "sourceFrame": 17
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0019.png",
+          "sha256": "b0910abc88cfeecc99c12176113038839e1aaba0bbd35efc034fb35390baa6ec",
+          "sourceFrame": 19
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0021.png",
+          "sha256": "bbf582ac192cd378f4eeb835633b620de97a6e1a11e86f93b88f249d2c77ff58",
+          "sourceFrame": 21
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0023.png",
+          "sha256": "c368c4f87b99dfeb08c208e6d9675117987035b6ca04757c6acc5a9b16a5fde6",
+          "sourceFrame": 23
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0025.png",
+          "sha256": "153a030e8234b8dbbc80128c788a821825b5f566cb99bbe349caba50fb9068b4",
+          "sourceFrame": 25
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0027.png",
+          "sha256": "4393b40a49871578c53c4f83fa7ccffbaae16cfc1f775a9a975c6d5ea327b2c2",
+          "sourceFrame": 27
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0029.png",
+          "sha256": "070df9a9f26ca8d91c9233c6ac3e35c18b0ff01854c91ce1c11073bbffa381c9",
+          "sourceFrame": 29
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0031.png",
+          "sha256": "f6fa2d103cec26e32f0c0c177f75d08f89503ec60c499f4b3461c7b1fddb9c23",
+          "sourceFrame": 31
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0033.png",
+          "sha256": "3c0ced628f3afdc67d672f29a37950f0f6101870a99ae5da3f2eea1a389ffb79",
+          "sourceFrame": 33
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0035.png",
+          "sha256": "f42bbcaffad4c99370597d97d42382b2f8b7aa9d83b553eb404a5564a6924c50",
+          "sourceFrame": 35
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0037.png",
+          "sha256": "4a2b4081c1dae5614b3aa173b655a27885974650f0920a978d95bb2be39b6b57",
+          "sourceFrame": 37
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0039.png",
+          "sha256": "f42bbcaffad4c99370597d97d42382b2f8b7aa9d83b553eb404a5564a6924c50",
+          "sourceFrame": 39
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0041.png",
+          "sha256": "3c0ced628f3afdc67d672f29a37950f0f6101870a99ae5da3f2eea1a389ffb79",
+          "sourceFrame": 41
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0043.png",
+          "sha256": "f6fa2d103cec26e32f0c0c177f75d08f89503ec60c499f4b3461c7b1fddb9c23",
+          "sourceFrame": 43
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0045.png",
+          "sha256": "070df9a9f26ca8d91c9233c6ac3e35c18b0ff01854c91ce1c11073bbffa381c9",
+          "sourceFrame": 45
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0047.png",
+          "sha256": "4393b40a49871578c53c4f83fa7ccffbaae16cfc1f775a9a975c6d5ea327b2c2",
+          "sourceFrame": 47
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0049.png",
+          "sha256": "153a030e8234b8dbbc80128c788a821825b5f566cb99bbe349caba50fb9068b4",
+          "sourceFrame": 49
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0051.png",
+          "sha256": "c368c4f87b99dfeb08c208e6d9675117987035b6ca04757c6acc5a9b16a5fde6",
+          "sourceFrame": 51
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0053.png",
+          "sha256": "bbf582ac192cd378f4eeb835633b620de97a6e1a11e86f93b88f249d2c77ff58",
+          "sourceFrame": 53
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0055.png",
+          "sha256": "b0910abc88cfeecc99c12176113038839e1aaba0bbd35efc034fb35390baa6ec",
+          "sourceFrame": 55
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0057.png",
+          "sha256": "6d272d0d8400f29e5ee6027eaea2097d2c79b006af749f01f3e3fd199fb43a40",
+          "sourceFrame": 57
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0059.png",
+          "sha256": "d46ec439b7ce69325c1541d86a8e2a8106f93a3558addd39dd88645df9133ede",
+          "sourceFrame": 59
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0061.png",
+          "sha256": "cdcef4bc3432f93caa10d11a06108258c2633872ab00419be99b87ba3d99fb03",
+          "sourceFrame": 61
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0063.png",
+          "sha256": "83acf37518cf2256a06e34a076ed356d8d223ae84aec1d0794566bd0bc9fdbad",
+          "sourceFrame": 63
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0065.png",
+          "sha256": "2ab7fc24ef2ce5edeb5d35fb8f74dde9043b1dc57bf91d217e474742e8d021b1",
+          "sourceFrame": 65
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0067.png",
+          "sha256": "a0c42cd47e2f0dc6da7291a2684bfff4615977b9592f2f7937d244a87cc82b55",
+          "sourceFrame": 67
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0069.png",
+          "sha256": "ca2d85b93823a9b4bdbe53703e588d82ae63bce6cf25ca62f55e4206f32935fe",
+          "sourceFrame": 69
+        },
+        {
+          "file": "output/generated-motion/reverse-cable-curl/frames/frame_0071.png",
+          "sha256": "798629fc0239ff82835f00ee868139fe4c90a0221e1df724b5f7210c5cecb926",
+          "sourceFrame": 71
+        }
+      ]
+    },
+    {
+      "id": "pec-deck",
+      "verdict": "PASS",
+      "reviewers": [
+        "root"
+      ],
+      "sourceKind": "decimated-png-loop",
+      "sourceSha256": "d90e8f028637fb992d681a57585041c692924c853974e322c664023caf5a472a",
+      "frameCount": 36,
+      "fps": 12,
+      "frameDigestBin32": "6d5354bc154d7429d6151835a759d629bdfd34b7afd34a4029f5c3264862cd16",
+      "frameSha256": [
+        "f7c962f06b03c4ec8a454507e9d42c8ef82091db3ea68d18be9e58c46579fd3a",
+        "3d3c8d12669fc218db934b889d77dce46a733bd1f5b1b7da8848191c2d349303",
+        "ba2a17cd98d36e455d574ffe993a6e1826ed786ad5e4043cd111152142169eb6",
+        "b08f74d1650be2814e78f00f3f1e7282e4ee7b62877f6a7166883a12574c0212",
+        "c48b1d9cdf61f23c3b5c73b10d85068dc10512c01d831f6df58744f1dafd4956",
+        "1fb25b6302cf4244f7b159ef066aac84bd99a5d1680b053bb36c18da7d1e5c52",
+        "d8e73717a8ca29bfb22ec2fbabcb2d8d2dc016228943038331a38bb85f69a9d7",
+        "b78176cb24aca0e34851b0498b33464ce512d86b5ac8141e7f42d5b7a9b24ef8",
+        "3ca8a5a9e65141ec7024d5e6172a2812f0f015422b4df4a547518ff880fd65d3",
+        "98b990edf51a645bde057df6cf20343da865a4c1cedba9a528376c0ab95758f7",
+        "1c900a6c70ce6a818464770955fcbb7d5756bdb7e3fe9b616b93d80cfd305e43",
+        "41467b1fb7f296eeaf2d5f872e3030d35f3be5a3b8345a7b0ffe7ec19017b031",
+        "c936b87657afaa8331ec7c9f09cfeb69866f0804657c4927bf14e6c3545f3cf4",
+        "ffd4f5e8048d51cec512b328cdf6b9993e750d69d84bb720781a497d7a6aced8",
+        "c41b2e220bffc71625bdf7f0c2d8c2a91704bb7e4bcf63b779a42deafdb0f2ad",
+        "eb72765483a48ada5827a79ee6454684c0fed690295bb02eda3d773ba8fc3e26",
+        "48386663c4f9e251fd9e5edabd74ec4db23c49865a3f320e81bd4240368bc1bf",
+        "1da85ff42c0e28b0832071e08b10befbe6a22720ae62106a8702d085607638fa",
+        "df3b4cbca39ebdd8ccad45de76983ce4907fc8c511447cbdaed863142433b325",
+        "1da85ff42c0e28b0832071e08b10befbe6a22720ae62106a8702d085607638fa",
+        "48386663c4f9e251fd9e5edabd74ec4db23c49865a3f320e81bd4240368bc1bf",
+        "eb72765483a48ada5827a79ee6454684c0fed690295bb02eda3d773ba8fc3e26",
+        "c41b2e220bffc71625bdf7f0c2d8c2a91704bb7e4bcf63b779a42deafdb0f2ad",
+        "ffd4f5e8048d51cec512b328cdf6b9993e750d69d84bb720781a497d7a6aced8",
+        "c936b87657afaa8331ec7c9f09cfeb69866f0804657c4927bf14e6c3545f3cf4",
+        "41467b1fb7f296eeaf2d5f872e3030d35f3be5a3b8345a7b0ffe7ec19017b031",
+        "1c900a6c70ce6a818464770955fcbb7d5756bdb7e3fe9b616b93d80cfd305e43",
+        "98b990edf51a645bde057df6cf20343da865a4c1cedba9a528376c0ab95758f7",
+        "3ca8a5a9e65141ec7024d5e6172a2812f0f015422b4df4a547518ff880fd65d3",
+        "b78176cb24aca0e34851b0498b33464ce512d86b5ac8141e7f42d5b7a9b24ef8",
+        "d8e73717a8ca29bfb22ec2fbabcb2d8d2dc016228943038331a38bb85f69a9d7",
+        "1fb25b6302cf4244f7b159ef066aac84bd99a5d1680b053bb36c18da7d1e5c52",
+        "c48b1d9cdf61f23c3b5c73b10d85068dc10512c01d831f6df58744f1dafd4956",
+        "b08f74d1650be2814e78f00f3f1e7282e4ee7b62877f6a7166883a12574c0212",
+        "ba2a17cd98d36e455d574ffe993a6e1826ed786ad5e4043cd111152142169eb6",
+        "3d3c8d12669fc218db934b889d77dce46a733bd1f5b1b7da8848191c2d349303"
+      ],
+      "sourceReview": "Root approved the selected actual raster source and final visual guide; the listed reviewers and evidence describe the scope and uncertainty.",
+      "scope": "Existing colored raster source retained; root reviewed final converted contact sheet. Exact odd-frame equivalence or original9forward-key provenance verified technically.",
+      "notes": [
+        "Exact odd frames of the approved72-frame/24fps fixed-equipment raster guide, including all original sourcePNGbytes when sampled."
+      ],
+      "evidence": [],
+      "exactInputs": [
+        {
+          "file": "dist/assets/animations-pec-deck-v5/manifest.json",
+          "sha256": "d90e8f028637fb992d681a57585041c692924c853974e322c664023caf5a472a"
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0001.png",
+          "sha256": "f7c962f06b03c4ec8a454507e9d42c8ef82091db3ea68d18be9e58c46579fd3a",
+          "sourceFrame": 1
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0003.png",
+          "sha256": "3d3c8d12669fc218db934b889d77dce46a733bd1f5b1b7da8848191c2d349303",
+          "sourceFrame": 3
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0005.png",
+          "sha256": "ba2a17cd98d36e455d574ffe993a6e1826ed786ad5e4043cd111152142169eb6",
+          "sourceFrame": 5
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0007.png",
+          "sha256": "b08f74d1650be2814e78f00f3f1e7282e4ee7b62877f6a7166883a12574c0212",
+          "sourceFrame": 7
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0009.png",
+          "sha256": "c48b1d9cdf61f23c3b5c73b10d85068dc10512c01d831f6df58744f1dafd4956",
+          "sourceFrame": 9
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0011.png",
+          "sha256": "1fb25b6302cf4244f7b159ef066aac84bd99a5d1680b053bb36c18da7d1e5c52",
+          "sourceFrame": 11
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0013.png",
+          "sha256": "d8e73717a8ca29bfb22ec2fbabcb2d8d2dc016228943038331a38bb85f69a9d7",
+          "sourceFrame": 13
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0015.png",
+          "sha256": "b78176cb24aca0e34851b0498b33464ce512d86b5ac8141e7f42d5b7a9b24ef8",
+          "sourceFrame": 15
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0017.png",
+          "sha256": "3ca8a5a9e65141ec7024d5e6172a2812f0f015422b4df4a547518ff880fd65d3",
+          "sourceFrame": 17
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0019.png",
+          "sha256": "98b990edf51a645bde057df6cf20343da865a4c1cedba9a528376c0ab95758f7",
+          "sourceFrame": 19
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0021.png",
+          "sha256": "1c900a6c70ce6a818464770955fcbb7d5756bdb7e3fe9b616b93d80cfd305e43",
+          "sourceFrame": 21
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0023.png",
+          "sha256": "41467b1fb7f296eeaf2d5f872e3030d35f3be5a3b8345a7b0ffe7ec19017b031",
+          "sourceFrame": 23
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0025.png",
+          "sha256": "c936b87657afaa8331ec7c9f09cfeb69866f0804657c4927bf14e6c3545f3cf4",
+          "sourceFrame": 25
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0027.png",
+          "sha256": "ffd4f5e8048d51cec512b328cdf6b9993e750d69d84bb720781a497d7a6aced8",
+          "sourceFrame": 27
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0029.png",
+          "sha256": "c41b2e220bffc71625bdf7f0c2d8c2a91704bb7e4bcf63b779a42deafdb0f2ad",
+          "sourceFrame": 29
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0031.png",
+          "sha256": "eb72765483a48ada5827a79ee6454684c0fed690295bb02eda3d773ba8fc3e26",
+          "sourceFrame": 31
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0033.png",
+          "sha256": "48386663c4f9e251fd9e5edabd74ec4db23c49865a3f320e81bd4240368bc1bf",
+          "sourceFrame": 33
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0035.png",
+          "sha256": "1da85ff42c0e28b0832071e08b10befbe6a22720ae62106a8702d085607638fa",
+          "sourceFrame": 35
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0037.png",
+          "sha256": "df3b4cbca39ebdd8ccad45de76983ce4907fc8c511447cbdaed863142433b325",
+          "sourceFrame": 37
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0039.png",
+          "sha256": "1da85ff42c0e28b0832071e08b10befbe6a22720ae62106a8702d085607638fa",
+          "sourceFrame": 39
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0041.png",
+          "sha256": "48386663c4f9e251fd9e5edabd74ec4db23c49865a3f320e81bd4240368bc1bf",
+          "sourceFrame": 41
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0043.png",
+          "sha256": "eb72765483a48ada5827a79ee6454684c0fed690295bb02eda3d773ba8fc3e26",
+          "sourceFrame": 43
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0045.png",
+          "sha256": "c41b2e220bffc71625bdf7f0c2d8c2a91704bb7e4bcf63b779a42deafdb0f2ad",
+          "sourceFrame": 45
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0047.png",
+          "sha256": "ffd4f5e8048d51cec512b328cdf6b9993e750d69d84bb720781a497d7a6aced8",
+          "sourceFrame": 47
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0049.png",
+          "sha256": "c936b87657afaa8331ec7c9f09cfeb69866f0804657c4927bf14e6c3545f3cf4",
+          "sourceFrame": 49
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0051.png",
+          "sha256": "41467b1fb7f296eeaf2d5f872e3030d35f3be5a3b8345a7b0ffe7ec19017b031",
+          "sourceFrame": 51
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0053.png",
+          "sha256": "1c900a6c70ce6a818464770955fcbb7d5756bdb7e3fe9b616b93d80cfd305e43",
+          "sourceFrame": 53
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0055.png",
+          "sha256": "98b990edf51a645bde057df6cf20343da865a4c1cedba9a528376c0ab95758f7",
+          "sourceFrame": 55
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0057.png",
+          "sha256": "3ca8a5a9e65141ec7024d5e6172a2812f0f015422b4df4a547518ff880fd65d3",
+          "sourceFrame": 57
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0059.png",
+          "sha256": "b78176cb24aca0e34851b0498b33464ce512d86b5ac8141e7f42d5b7a9b24ef8",
+          "sourceFrame": 59
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0061.png",
+          "sha256": "d8e73717a8ca29bfb22ec2fbabcb2d8d2dc016228943038331a38bb85f69a9d7",
+          "sourceFrame": 61
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0063.png",
+          "sha256": "1fb25b6302cf4244f7b159ef066aac84bd99a5d1680b053bb36c18da7d1e5c52",
+          "sourceFrame": 63
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0065.png",
+          "sha256": "c48b1d9cdf61f23c3b5c73b10d85068dc10512c01d831f6df58744f1dafd4956",
+          "sourceFrame": 65
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0067.png",
+          "sha256": "b08f74d1650be2814e78f00f3f1e7282e4ee7b62877f6a7166883a12574c0212",
+          "sourceFrame": 67
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0069.png",
+          "sha256": "ba2a17cd98d36e455d574ffe993a6e1826ed786ad5e4043cd111152142169eb6",
+          "sourceFrame": 69
+        },
+        {
+          "file": "output/pec-deck-v5/frames/frame_0071.png",
+          "sha256": "3d3c8d12669fc218db934b889d77dce46a733bd1f5b1b7da8848191c2d349303",
+          "sourceFrame": 71
+        }
+      ]
+    }
+  ]
+}

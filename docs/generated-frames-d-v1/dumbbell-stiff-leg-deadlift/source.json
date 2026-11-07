@@ -1,0 +1,16 @@
+{
+  "generationMode": "built-in image_gen; one generation plus one targeted head/neck edit",
+  "generatedPath": "C:/Users/pedrao/.codex/generated_images/01a1b6f6-06b6-72f3-84fb-4ecdc04e28af/exec-c936fc41-986b-4894-8148-3349243fef5f.png",
+  "initialGeneratedPath": "C:/Users/pedrao/.codex/generated_images/01a1b6f6-06b6-72f3-84fb-4ecdc04e28af/exec-14e5c2d1-b080-4512-a3c3-703ae5bbed41.png",
+  "selected": "sheet.png",
+  "initialRejected": "sheet-v1-neck-rejected.png",
+  "grid": [
+    3,
+    3
+  ],
+  "pixelSize": [
+    1254,
+    1254
+  ],
+  "sequence": "Row-major forward phase, nine hip-hinge lowering keyframes; feet stay planted, hips travel back, dumbbells follow front of shins. Final pose uses comfortable controlled depth rather than touching floor."
+}

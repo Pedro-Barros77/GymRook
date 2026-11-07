@@ -1,0 +1,1429 @@
+{
+  "version": 1,
+  "fps": 12,
+  "size": 512,
+  "notes": [
+    "Fourteen B/C exercises, each nine row-major forward poses in a 3x3 sheet.",
+    "Sources stay read-only. No extraction or interpolation until root releases prepareReady.",
+    "Each loop has 19 forward frames and exact return copies of forward frames 18..2: 36 frames, 3 seconds.",
+    "Registration is translation-only, at most 10 pixels per axis, with source-specific fixed-feature regions selected after inspection.",
+    "Registration and preserveStaticRects are disabled/empty until source QA.",
+    "Shrugs and the two calf movements use linear phase progress to retain their small movement; other exercises use cosine phase progress.",
+    "Unilateral converging row demonstrates one side only; repeat the other side as explained by the exercise guide."
+  ],
+  "interpolation": {
+    "engine": "Practical-RIFE 4.25",
+    "python": ".cache/qa-pec-deck-interpolation/python311/python.exe",
+    "helper": "scripts/rife-batch.py",
+    "modelDirectory": ".cache/qa-pec-deck-interpolation/rife425",
+    "threads": 8,
+    "scale": 1,
+    "officialModelSource": "https://github.com/hzwer/Practical-RIFE#trained-model",
+    "officialWeightsSource": "https://drive.google.com/file/d/1ZKjcbmt1hypiFprJPIKW0Tt0lr_2i7bg/view",
+    "runtimeInstall": "Use the existing isolated local runtime; this build does not download anything."
+  },
+  "exercises": {
+    "machine-shoulder-press": {
+      "workout": "B",
+      "sheet": "docs/generated-frames-bc-v1/machine-shoulder-press/sheet.png",
+      "prepareReady": true,
+      "sourceReview": "Physical source QA approved by root and source-review agents. Interpolated-frame QA remains pending.",
+      "grid": [
+        3,
+        3
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "ping-pong",
+      "frameCount": 36,
+      "phaseEasing": "cosine",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": true,
+        "regions": [
+          [
+            0.08,
+            0.79,
+            0.45,
+            0.98
+          ]
+        ],
+        "maxTranslationPixels": 10,
+        "minScore": 0.72,
+        "review": "Candidate fixed-feature ROI supplied by source producer/root; inspect score, MAE and actual overlays before accepting motion."
+      },
+      "preserveStaticRects": [],
+      "interpolationOverrides": [],
+      "anchors": [
+        {
+          "cell": 0,
+          "progress": 0.0
+        },
+        {
+          "cell": 1,
+          "progress": 0.125
+        },
+        {
+          "cell": 2,
+          "progress": 0.25
+        },
+        {
+          "cell": 3,
+          "progress": 0.375
+        },
+        {
+          "cell": 4,
+          "progress": 0.5
+        },
+        {
+          "cell": 5,
+          "progress": 0.625
+        },
+        {
+          "cell": 6,
+          "progress": 0.75
+        },
+        {
+          "cell": 7,
+          "progress": 0.875
+        },
+        {
+          "cell": 8,
+          "progress": 1.0
+        }
+      ],
+      "selectedCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "activeCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "dumbbell-lateral-raise": {
+      "workout": "B",
+      "sheet": "docs/generated-frames-bc-v1/dumbbell-lateral-raise/sheet.png",
+      "prepareReady": true,
+      "sourceReview": "Physical source QA approved by root and source-review agents. Interpolated-frame QA remains pending.",
+      "grid": [
+        3,
+        3
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "ping-pong",
+      "frameCount": 36,
+      "phaseEasing": "cosine",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": true,
+        "regions": [
+          [
+            0.32,
+            0.84,
+            0.72,
+            0.99
+          ]
+        ],
+        "maxTranslationPixels": 10,
+        "minScore": 0.72,
+        "review": "Candidate fixed-feature ROI supplied by source producer/root; inspect score, MAE and actual overlays before accepting motion."
+      },
+      "preserveStaticRects": [],
+      "interpolationOverrides": [],
+      "anchors": [
+        {
+          "cell": 0,
+          "progress": 0.0
+        },
+        {
+          "cell": 1,
+          "progress": 0.125
+        },
+        {
+          "cell": 2,
+          "progress": 0.25
+        },
+        {
+          "cell": 3,
+          "progress": 0.375
+        },
+        {
+          "cell": 4,
+          "progress": 0.5
+        },
+        {
+          "cell": 5,
+          "progress": 0.625
+        },
+        {
+          "cell": 6,
+          "progress": 0.75
+        },
+        {
+          "cell": 7,
+          "progress": 0.875
+        },
+        {
+          "cell": 8,
+          "progress": 1.0
+        }
+      ],
+      "selectedCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "activeCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "cable-front-raise": {
+      "workout": "B",
+      "sheet": "docs/generated-frames-bc-v1/cable-front-raise/sheet.png",
+      "prepareReady": true,
+      "sourceReview": "Physical source QA approved by root and source-review agents. Interpolated-frame QA remains pending.",
+      "grid": [
+        3,
+        3
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "ping-pong",
+      "frameCount": 36,
+      "phaseEasing": "cosine",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": true,
+        "regions": [
+          [
+            0.07,
+            0.87,
+            0.39,
+            0.97
+          ]
+        ],
+        "maxTranslationPixels": 10,
+        "minScore": 0.72,
+        "review": "Candidate fixed-feature ROI supplied by source producer/root; inspect score, MAE and actual overlays before accepting motion."
+      },
+      "preserveStaticRects": [],
+      "interpolationOverrides": [],
+      "anchors": [
+        {
+          "cell": 0,
+          "progress": 0.0
+        },
+        {
+          "cell": 1,
+          "progress": 0.125
+        },
+        {
+          "cell": 2,
+          "progress": 0.25
+        },
+        {
+          "cell": 3,
+          "progress": 0.375
+        },
+        {
+          "cell": 4,
+          "progress": 0.5
+        },
+        {
+          "cell": 5,
+          "progress": 0.625
+        },
+        {
+          "cell": 6,
+          "progress": 0.75
+        },
+        {
+          "cell": 7,
+          "progress": 0.875
+        },
+        {
+          "cell": 8,
+          "progress": 1.0
+        }
+      ],
+      "selectedCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "activeCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "dumbbell-shrug": {
+      "workout": "B",
+      "sheet": "docs/generated-frames-bc-v1/dumbbell-shrug/sheet.png",
+      "prepareReady": true,
+      "sourceReview": "Physical source QA approved by root and source-review agents. Interpolated-frame QA remains pending.",
+      "grid": [
+        3,
+        3
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "ping-pong",
+      "frameCount": 36,
+      "phaseEasing": "linear",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": true,
+        "regions": [
+          [
+            0.43,
+            0.03,
+            0.6,
+            0.19
+          ]
+        ],
+        "maxTranslationPixels": 10,
+        "minScore": 0.72,
+        "review": "Candidate fixed-feature ROI supplied by source producer/root; inspect score, MAE and actual overlays before accepting motion."
+      },
+      "preserveStaticRects": [],
+      "interpolationOverrides": [],
+      "anchors": [
+        {
+          "cell": 0,
+          "progress": 0.0
+        },
+        {
+          "cell": 1,
+          "progress": 0.125
+        },
+        {
+          "cell": 2,
+          "progress": 0.25
+        },
+        {
+          "cell": 3,
+          "progress": 0.375
+        },
+        {
+          "cell": 4,
+          "progress": 0.5
+        },
+        {
+          "cell": 5,
+          "progress": 0.625
+        },
+        {
+          "cell": 6,
+          "progress": 0.75
+        },
+        {
+          "cell": 7,
+          "progress": 0.875
+        },
+        {
+          "cell": 8,
+          "progress": 1.0
+        }
+      ],
+      "selectedCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "activeCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "reverse-pec-deck": {
+      "workout": "B",
+      "sheet": "docs/generated-frames-bc-v1/reverse-pec-deck/sheet.png",
+      "prepareReady": true,
+      "sourceReview": "Root and independent QA approved five original V6 source poses and three native rigid-equipment references. Final temporal QA remains pending.",
+      "grid": [
+        3,
+        3
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "ping-pong",
+      "frameCount": 36,
+      "phaseEasing": "cosine",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": true,
+        "regions": [
+          [
+            0.12,
+            0.81,
+            0.83,
+            0.99
+          ]
+        ],
+        "maxTranslationPixels": 10,
+        "minScore": 0.72,
+        "review": "Candidate fixed-feature ROI supplied by source producer/root; inspect score, MAE and actual overlays before accepting motion."
+      },
+      "preserveStaticRects": [],
+      "interpolationOverrides": [],
+      "anchors": [
+        {
+          "cell": 0,
+          "progress": 0
+        },
+        {
+          "cell": 6,
+          "progress": 0.18373493975903615,
+          "imageOverride": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/quarter-closed.png",
+          "imageOverrideSha256": "f0fb840aee2577901b79817c2c5be09fe9237e18b4ca32165fe1b5e81f39a1a2",
+          "overrideReason": "Root and independent QA approved quarter-closed: fixed equipment family, original raster-human plate/mask and source-hand pixels. Slot replaces the original sheet cell without changing the sheet."
+        },
+        {
+          "cell": 1,
+          "progress": 0.3674698795180723,
+          "imageOverride": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/midpoint.png",
+          "imageOverrideSha256": "a4df021f0560426a442744a055782b52ab324025814061349a04e6b1bd045a9d",
+          "overrideReason": "Root and independent QA approved midpoint: fixed equipment family, original raster-human plate/mask and source-hand pixels. Slot replaces the original sheet cell without changing the sheet."
+        },
+        {
+          "cell": 7,
+          "progress": 0.5542168674698795,
+          "imageOverride": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/quarter-open.png",
+          "imageOverrideSha256": "64700f96112c934baf69b1a4f6d3448a121e252f75d60d880aa35e9bef0b97e5",
+          "overrideReason": "Root and independent QA approved quarter-open: fixed equipment family, original raster-human plate/mask and source-hand pixels. Slot replaces the original sheet cell without changing the sheet."
+        },
+        {
+          "cell": 3,
+          "progress": 0.7409638554216867
+        },
+        {
+          "cell": 4,
+          "progress": 0.8313253012048193
+        },
+        {
+          "cell": 5,
+          "progress": 0.927710843373494
+        },
+        {
+          "cell": 8,
+          "progress": 1
+        }
+      ],
+      "selectedCells": [
+        0,
+        6,
+        1,
+        7,
+        3,
+        4,
+        5,
+        8
+      ],
+      "activeCells": [
+        0,
+        6,
+        1,
+        7,
+        3,
+        4,
+        5,
+        8
+      ],
+      "excludedCellReasons": {
+        "1": "Unused third empty machine lever remains in this source cell.",
+        "2": "Third hand/arm remains in this source cell.",
+        "6": "Valid original near-open pose omitted as temporally redundant; its slot now holds the reviewed quarter-closed native reference.",
+        "7": "Valid original near-open pose omitted as temporally redundant; its slot now holds the reviewed quarter-open native reference."
+      },
+      "timingEvidence": {
+        "method": "Approximate visual tracking of the distant hand center in original untrimmed 418x418 source cells; not a biomechanical or joint-angle measurement.",
+        "source": "sheet-v6-annotated-repair-candidate.png",
+        "sourceSha256": "5a4065dee9d3f710b0c44ab7531ca480c9707568c04349a00f72eb8eb58164da",
+        "coordinateSpace": "original source cell pixels, before 2-pixel trim/512 resizing/translation registration",
+        "approximateUncertaintyPixels": 4,
+        "landmark": "distant hand center at its grip; manual visual estimate",
+        "samples": [
+          {
+            "cell": 0,
+            "farHandXY": [
+              267,
+              140
+            ],
+            "normalizedProgress": 0.0
+          },
+          {
+            "cell": 1,
+            "sourceType": "reviewed-native-equipment-reference",
+            "designedFarGripXY": [
+              206,
+              137
+            ],
+            "normalizedProgress": 0.3674698795180723,
+            "input": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/midpoint.png",
+            "inputSha256": "a4df021f0560426a442744a055782b52ab324025814061349a04e6b1bd045a9d",
+            "visibilityNote": "Designed mostly occluded grip position; not a measured visible human landmark or biomechanical measurement."
+          },
+          {
+            "cell": 3,
+            "farHandXY": [
+              144,
+              142
+            ],
+            "normalizedProgress": 0.7409638554216867
+          },
+          {
+            "cell": 4,
+            "farHandXY": [
+              129,
+              142
+            ],
+            "normalizedProgress": 0.8313253012048193
+          },
+          {
+            "cell": 5,
+            "farHandXY": [
+              113,
+              143
+            ],
+            "normalizedProgress": 0.927710843373494
+          },
+          {
+            "cell": 6,
+            "farHandXY": [
+              109,
+              144
+            ],
+            "normalizedProgress": 0.9518072289156626
+          },
+          {
+            "cell": 7,
+            "farHandXY": [
+              105,
+              144
+            ],
+            "normalizedProgress": 0.9759036144578314
+          },
+          {
+            "cell": 8,
+            "farHandXY": [
+              101,
+              145
+            ],
+            "normalizedProgress": 1.0
+          }
+        ],
+        "normalization": "(farHandXFirst - farHandX) / (farHandXFirst - farHandXLast)",
+        "firstRetainedGapProgress": 0.7409638554216867,
+        "explanation": "The first retained transition covers about74% of the visible horizontal excursion. Remaining source cells are concentrated near the open endpoint; progress is nonuniform to avoid assigning equal time to very different visible displacements. One reviewed native equipment midpoint at progress61/166 divides the initial large gap; its placement follows the prescribed occluded grip position, while all human pixels remain source raster. Three reviewed native equipment references divide the large initial arc into about38pixel projected grip steps. Valid but redundant original cells6/7 are omitted; no generated human pixels are added or deformed.",
+        "activeReferenceOrder": [
+          {
+            "slot": 0,
+            "progress": 0,
+            "source": "original-sheet-cell-0"
+          },
+          {
+            "slot": 6,
+            "progress": 0.18373493975903615,
+            "source": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/quarter-closed.png"
+          },
+          {
+            "slot": 1,
+            "progress": 0.3674698795180723,
+            "source": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/midpoint.png"
+          },
+          {
+            "slot": 7,
+            "progress": 0.5542168674698795,
+            "source": "docs/generated-frames-bc-v1/reverse-pec-deck/midpoint-native-v1/quarter-open.png"
+          },
+          {
+            "slot": 3,
+            "progress": 0.7409638554216867,
+            "source": "original-sheet-cell-3"
+          },
+          {
+            "slot": 4,
+            "progress": 0.8313253012048193,
+            "source": "original-sheet-cell-4"
+          },
+          {
+            "slot": 5,
+            "progress": 0.927710843373494,
+            "source": "original-sheet-cell-5"
+          },
+          {
+            "slot": 8,
+            "progress": 1,
+            "source": "original-sheet-cell-8"
+          }
+        ]
+      }
+    },
+    "standing-machine-calf-raise": {
+      "workout": "B",
+      "sheet": "docs/generated-frames-bc-v1/standing-machine-calf-raise/sheet.png",
+      "prepareReady": true,
+      "sourceReview": "Physical source QA approved by root and source-review agents. Interpolated-frame QA remains pending.",
+      "grid": [
+        3,
+        3
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "ping-pong",
+      "frameCount": 36,
+      "phaseEasing": "linear",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": true,
+        "regions": [
+          [
+            0.18,
+            0.85,
+            0.82,
+            0.99
+          ]
+        ],
+        "maxTranslationPixels": 10,
+        "minScore": 0.72,
+        "review": "Candidate fixed-feature ROI supplied by source producer/root; inspect score, MAE and actual overlays before accepting motion."
+      },
+      "preserveStaticRects": [],
+      "interpolationOverrides": [],
+      "anchors": [
+        {
+          "cell": 0,
+          "progress": 0.0
+        },
+        {
+          "cell": 1,
+          "progress": 0.125
+        },
+        {
+          "cell": 2,
+          "progress": 0.25
+        },
+        {
+          "cell": 3,
+          "progress": 0.375
+        },
+        {
+          "cell": 4,
+          "progress": 0.5
+        },
+        {
+          "cell": 5,
+          "progress": 0.625
+        },
+        {
+          "cell": 6,
+          "progress": 0.75
+        },
+        {
+          "cell": 7,
+          "progress": 0.875
+        },
+        {
+          "cell": 8,
+          "progress": 1.0
+        }
+      ],
+      "selectedCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "activeCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "stair-calf-raise": {
+      "workout": "B",
+      "sheet": "docs/generated-frames-bc-v1/stair-calf-raise/sheet.png",
+      "prepareReady": true,
+      "sourceReview": "Physical source QA approved by root and source-review agents. Interpolated-frame QA remains pending.",
+      "grid": [
+        3,
+        3
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "ping-pong",
+      "frameCount": 36,
+      "phaseEasing": "linear",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": true,
+        "regions": [
+          [
+            0.6,
+            0.6,
+            0.83,
+            0.96
+          ]
+        ],
+        "maxTranslationPixels": 10,
+        "minScore": 0.72,
+        "review": "Candidate fixed-feature ROI supplied by source producer/root; inspect score, MAE and actual overlays before accepting motion."
+      },
+      "preserveStaticRects": [],
+      "interpolationOverrides": [],
+      "anchors": [
+        {
+          "cell": 0,
+          "progress": 0.0
+        },
+        {
+          "cell": 1,
+          "progress": 0.125
+        },
+        {
+          "cell": 2,
+          "progress": 0.25
+        },
+        {
+          "cell": 3,
+          "progress": 0.375
+        },
+        {
+          "cell": 4,
+          "progress": 0.5
+        },
+        {
+          "cell": 5,
+          "progress": 0.625
+        },
+        {
+          "cell": 6,
+          "progress": 0.75
+        },
+        {
+          "cell": 7,
+          "progress": 0.875
+        },
+        {
+          "cell": 8,
+          "progress": 1.0
+        }
+      ],
+      "selectedCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "activeCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "lat-pulldown": {
+      "workout": "C",
+      "sheet": "docs/generated-frames-bc-v1/lat-pulldown/sheet.png",
+      "prepareReady": true,
+      "sourceReview": "Physical source QA approved by root and source-review agents. Interpolated-frame QA remains pending.",
+      "grid": [
+        3,
+        3
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "ping-pong",
+      "frameCount": 36,
+      "phaseEasing": "cosine",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": true,
+        "regions": [
+          [
+            0.1,
+            0.85,
+            0.3,
+            0.97
+          ]
+        ],
+        "maxTranslationPixels": 10,
+        "minScore": 0.72,
+        "review": "Candidate fixed-feature ROI supplied by source producer/root; inspect score, MAE and actual overlays before accepting motion."
+      },
+      "preserveStaticRects": [],
+      "interpolationOverrides": [],
+      "anchors": [
+        {
+          "cell": 0,
+          "progress": 0.0
+        },
+        {
+          "cell": 1,
+          "progress": 0.125
+        },
+        {
+          "cell": 2,
+          "progress": 0.25
+        },
+        {
+          "cell": 3,
+          "progress": 0.375
+        },
+        {
+          "cell": 4,
+          "progress": 0.5
+        },
+        {
+          "cell": 5,
+          "progress": 0.625
+        },
+        {
+          "cell": 6,
+          "progress": 0.75
+        },
+        {
+          "cell": 7,
+          "progress": 0.875
+        },
+        {
+          "cell": 8,
+          "progress": 1.0
+        }
+      ],
+      "selectedCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "activeCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "unilateral-converging-row": {
+      "workout": "C",
+      "sheet": "docs/generated-frames-bc-v1/unilateral-converging-row/sheet.png",
+      "prepareReady": true,
+      "sourceReview": "Physical source QA approved by root and source-review agents. Interpolated-frame QA remains pending.",
+      "grid": [
+        3,
+        3
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "ping-pong",
+      "frameCount": 36,
+      "phaseEasing": "cosine",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": true,
+        "regions": [
+          [
+            0.05,
+            0.84,
+            0.95,
+            0.99
+          ]
+        ],
+        "maxTranslationPixels": 10,
+        "minScore": 0.72,
+        "review": "Candidate fixed-feature ROI supplied by source producer/root; inspect score, MAE and actual overlays before accepting motion."
+      },
+      "preserveStaticRects": [],
+      "interpolationOverrides": [],
+      "anchors": [
+        {
+          "cell": 0,
+          "progress": 0.0
+        },
+        {
+          "cell": 1,
+          "progress": 0.125
+        },
+        {
+          "cell": 2,
+          "progress": 0.25
+        },
+        {
+          "cell": 3,
+          "progress": 0.375
+        },
+        {
+          "cell": 4,
+          "progress": 0.5
+        },
+        {
+          "cell": 5,
+          "progress": 0.625
+        },
+        {
+          "cell": 6,
+          "progress": 0.75
+        },
+        {
+          "cell": 7,
+          "progress": 0.875
+        },
+        {
+          "cell": 8,
+          "progress": 1.0
+        }
+      ],
+      "demonstration": "One working side only. The guide instructs repeating the other side.",
+      "selectedCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "activeCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "seated-cable-row": {
+      "workout": "C",
+      "sheet": "docs/generated-frames-bc-v1/seated-cable-row/sheet.png",
+      "prepareReady": true,
+      "sourceReview": "Physical source QA approved by root and source-review agents. Interpolated-frame QA remains pending.",
+      "grid": [
+        3,
+        3
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "ping-pong",
+      "frameCount": 36,
+      "phaseEasing": "cosine",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": true,
+        "regions": [
+          [
+            0.025,
+            0.86,
+            0.96,
+            0.99
+          ]
+        ],
+        "maxTranslationPixels": 10,
+        "minScore": 0.72,
+        "review": "Candidate fixed-feature ROI supplied by source producer/root; inspect score, MAE and actual overlays before accepting motion."
+      },
+      "preserveStaticRects": [],
+      "interpolationOverrides": [],
+      "anchors": [
+        {
+          "cell": 0,
+          "progress": 0.0
+        },
+        {
+          "cell": 1,
+          "progress": 0.125
+        },
+        {
+          "cell": 2,
+          "progress": 0.25
+        },
+        {
+          "cell": 3,
+          "progress": 0.375
+        },
+        {
+          "cell": 4,
+          "progress": 0.5
+        },
+        {
+          "cell": 5,
+          "progress": 0.625
+        },
+        {
+          "cell": 6,
+          "progress": 0.75
+        },
+        {
+          "cell": 7,
+          "progress": 0.875
+        },
+        {
+          "cell": 8,
+          "progress": 1.0
+        }
+      ],
+      "selectedCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "activeCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "rope-triceps-pushdown": {
+      "workout": "C",
+      "sheet": "docs/generated-frames-bc-v1/rope-triceps-pushdown/sheet.png",
+      "prepareReady": true,
+      "sourceReview": "Physical source QA approved by root and source-review agents. Interpolated-frame QA remains pending.",
+      "grid": [
+        3,
+        3
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "ping-pong",
+      "frameCount": 36,
+      "phaseEasing": "cosine",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": true,
+        "regions": [
+          [
+            0.55,
+            0.84,
+            0.95,
+            0.99
+          ]
+        ],
+        "maxTranslationPixels": 10,
+        "minScore": 0.72,
+        "review": "Candidate fixed-feature ROI supplied by source producer/root; inspect score, MAE and actual overlays before accepting motion."
+      },
+      "preserveStaticRects": [],
+      "interpolationOverrides": [],
+      "anchors": [
+        {
+          "cell": 0,
+          "progress": 0.0
+        },
+        {
+          "cell": 1,
+          "progress": 0.125
+        },
+        {
+          "cell": 2,
+          "progress": 0.25
+        },
+        {
+          "cell": 3,
+          "progress": 0.375
+        },
+        {
+          "cell": 4,
+          "progress": 0.5
+        },
+        {
+          "cell": 5,
+          "progress": 0.625
+        },
+        {
+          "cell": 6,
+          "progress": 0.75
+        },
+        {
+          "cell": 7,
+          "progress": 0.875
+        },
+        {
+          "cell": 8,
+          "progress": 1.0
+        }
+      ],
+      "selectedCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "activeCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "dumbbell-lying-triceps-extension": {
+      "workout": "C",
+      "sheet": "docs/generated-frames-bc-v1/dumbbell-lying-triceps-extension/sheet.png",
+      "prepareReady": true,
+      "sourceReview": "Physical source QA approved by root and source-review agents. Interpolated-frame QA remains pending.",
+      "grid": [
+        3,
+        3
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "ping-pong",
+      "frameCount": 36,
+      "phaseEasing": "cosine",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": true,
+        "regions": [
+          [
+            0.02,
+            0.81,
+            0.95,
+            0.99
+          ]
+        ],
+        "maxTranslationPixels": 10,
+        "minScore": 0.72,
+        "review": "Candidate fixed-feature ROI supplied by source producer/root; inspect score, MAE and actual overlays before accepting motion."
+      },
+      "preserveStaticRects": [],
+      "interpolationOverrides": [],
+      "anchors": [
+        {
+          "cell": 0,
+          "progress": 0.0
+        },
+        {
+          "cell": 1,
+          "progress": 0.14285714285714285
+        },
+        {
+          "cell": 2,
+          "progress": 0.2857142857142857
+        },
+        {
+          "cell": 3,
+          "progress": 0.42857142857142855
+        },
+        {
+          "cell": 4,
+          "progress": 0.5714285714285714
+        },
+        {
+          "cell": 5,
+          "progress": 0.7142857142857143
+        },
+        {
+          "cell": 6,
+          "progress": 0.8571428571428571
+        },
+        {
+          "cell": 7,
+          "progress": 1.0
+        }
+      ],
+      "excludedCellReason": "Cell8 rotates dumbbells/wrists abruptly by about90 degrees. Cell7 already supplies the controlled bottom position near90-degree elbow flexion.",
+      "selectedCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "activeCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "bench-dip": {
+      "workout": "C",
+      "sheet": "docs/generated-frames-bc-v1/bench-dip/sheet.png",
+      "prepareReady": true,
+      "sourceReview": "Physical source QA approved by root and source-review agents. Interpolated-frame QA remains pending.",
+      "grid": [
+        3,
+        3
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "ping-pong",
+      "frameCount": 36,
+      "phaseEasing": "cosine",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": true,
+        "regions": [
+          [
+            0.05,
+            0.83,
+            0.45,
+            0.98
+          ]
+        ],
+        "maxTranslationPixels": 10,
+        "minScore": 0.72,
+        "review": "Candidate fixed-feature ROI supplied by source producer/root; inspect score, MAE and actual overlays before accepting motion."
+      },
+      "preserveStaticRects": [],
+      "interpolationOverrides": [],
+      "anchors": [
+        {
+          "cell": 0,
+          "progress": 0.0
+        },
+        {
+          "cell": 1,
+          "progress": 0.125
+        },
+        {
+          "cell": 2,
+          "progress": 0.25
+        },
+        {
+          "cell": 3,
+          "progress": 0.375
+        },
+        {
+          "cell": 4,
+          "progress": 0.5
+        },
+        {
+          "cell": 5,
+          "progress": 0.625
+        },
+        {
+          "cell": 6,
+          "progress": 0.75
+        },
+        {
+          "cell": 7,
+          "progress": 0.875
+        },
+        {
+          "cell": 8,
+          "progress": 1.0
+        }
+      ],
+      "selectedCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "activeCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "machine-ab-crunch": {
+      "workout": "C",
+      "sheet": "docs/generated-frames-bc-v1/machine-ab-crunch/sheet.png",
+      "prepareReady": true,
+      "sourceReview": "Physical source QA approved by root and source-review agents. Interpolated-frame QA remains pending.",
+      "grid": [
+        3,
+        3
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "ping-pong",
+      "frameCount": 36,
+      "phaseEasing": "cosine",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": true,
+        "regions": [
+          [
+            0.08,
+            0.86,
+            0.84,
+            0.99
+          ]
+        ],
+        "maxTranslationPixels": 10,
+        "minScore": 0.72,
+        "review": "Candidate fixed-feature ROI supplied by source producer/root; inspect score, MAE and actual overlays before accepting motion."
+      },
+      "preserveStaticRects": [],
+      "interpolationOverrides": [],
+      "anchors": [
+        {
+          "cell": 0,
+          "progress": 0.0
+        },
+        {
+          "cell": 1,
+          "progress": 0.125
+        },
+        {
+          "cell": 2,
+          "progress": 0.25
+        },
+        {
+          "cell": 3,
+          "progress": 0.375
+        },
+        {
+          "cell": 4,
+          "progress": 0.5
+        },
+        {
+          "cell": 5,
+          "progress": 0.625
+        },
+        {
+          "cell": 6,
+          "progress": 0.75
+        },
+        {
+          "cell": 7,
+          "progress": 0.875
+        },
+        {
+          "cell": 8,
+          "progress": 1.0
+        }
+      ],
+      "selectedCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "activeCells": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  }
+}
