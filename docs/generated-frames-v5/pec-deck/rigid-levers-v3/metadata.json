@@ -1,0 +1,1644 @@
+{
+  "status": "approved-material-v3-render",
+  "version": 3,
+  "meshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+  "source": "docs\\generated-frames-v5\\pec-deck\\rigid-levers\\canonical-source-512.png",
+  "sourceSha256": "3b040dae7f8f2a6bcb782aeac78095e8d4251301776cad7947974ff24bcf98f5",
+  "motionReport": "docs\\generated-frames-v5\\pec-deck\\rigid-levers\\motion-37.json",
+  "motionReportSha256": "4313c29d507049c4baa685ef0fe93b4558f646000ff2967ce33b3f9fdba38d48",
+  "materialSampling": "Single transverse RGB profile sampled from canonical generated silver, continuous across broad flat faces. Fixed-world softbox with narrow bevel highlights and reduced specular.",
+  "geometry": "Single fixed beveled rectangular curved tube; per-frame yaw only, fixed weak-perspective instances. Annular collars use constant10degree local view.",
+  "camera": "Fixed orthographic on booms; fixed10degree view on collars about their own centers.",
+  "canonicalProfile": [
+    [
+      4.5,
+      9.0,
+      0.0
+    ],
+    [
+      114.0,
+      61.0,
+      0.0
+    ],
+    [
+      150.0,
+      91.0,
+      0.0
+    ],
+    [
+      150.0,
+      118.0,
+      0.0
+    ]
+  ],
+  "profileSamplingMethod": "Monotone cubic in height. Radial extent reachesR150 byheight91 and remainsconstantthroughlowerverticalend.",
+  "crossSection": [
+    [
+      -7.0,
+      -7.0
+    ],
+    [
+      -4.0,
+      -10.0
+    ],
+    [
+      4.0,
+      -10.0
+    ],
+    [
+      7.0,
+      -7.0
+    ],
+    [
+      7.0,
+      7.0
+    ],
+    [
+      4.0,
+      10.0
+    ],
+    [
+      -4.0,
+      10.0
+    ],
+    [
+      -7.0,
+      7.0
+    ]
+  ],
+  "collarProjectionElevationDegrees": 10,
+  "sourceMetalPatchPixels": [
+    344,
+    125,
+    366,
+    143
+  ],
+  "rubberSamplePatchPixels": [
+    361,
+    164,
+    366,
+    169
+  ],
+  "light": [
+    -0.36681261567265006,
+    -0.4483265302665723,
+    -0.8151391459392223
+  ],
+  "halfVector": [
+    -0.19251931354137702,
+    -0.2353013832172386,
+    -0.9526644598018817
+  ],
+  "instances": [
+    {
+      "hand": "far",
+      "pivot": [
+        335,
+        40
+      ],
+      "scale": 0.923728813559322,
+      "collarXOffset": 0.7,
+      "depth": 300
+    },
+    {
+      "hand": "near",
+      "pivot": [
+        239,
+        31
+      ],
+      "scale": 1,
+      "collarXOffset": 1.5,
+      "depth": 0
+    }
+  ],
+  "includes": "Silver moving booms, rigid annular collars and short sampled-rubber connectors. No human pixels or fixed pivot drums.",
+  "protectedRows": [
+    164,
+    512
+  ],
+  "limitations": [
+    "CollarY149 is fixed while independently generated source collars vary by a few pixels.",
+    "Far instance uses a fixed weak-perspective scale109/118.",
+    "Material reuses generated silver pixels with deterministic lighting; it is not a calibrated multi-view BRDF.",
+    "Compose over the upper clean plate before evaluating removal of the old silver arms."
+  ],
+  "frames": [
+    {
+      "frame": 1,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.9123320321650237,
+          "collarCenter": [
+            444.5911217446883,
+            149.0
+          ],
+          "requestedHandCenter": [
+            443.8911217446883,
+            182.75489193119236
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": -0.6945975033928317,
+          "collarCenter": [
+            142.98856270129207,
+            149.0
+          ],
+          "requestedHandCenter": [
+            141.48856270129207,
+            188.03593886133066
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.9125716242575835,
+          "collarCenter": [
+            444.61143237998544,
+            149.0
+          ],
+          "requestedHandCenter": [
+            443.91143237998546,
+            182.7612608634005
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": -0.6895610685440237,
+          "collarCenter": [
+            143.57021048319925,
+            149.0
+          ],
+          "requestedHandCenter": [
+            142.07021048319925,
+            188.03696009080312
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.9134107819188342,
+          "collarCenter": [
+            444.6825196035254,
+            149.0
+          ],
+          "requestedHandCenter": [
+            443.9825196035254,
+            182.783552126129
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": -0.6720951095647302,
+          "collarCenter": [
+            145.60597771987437,
+            149.0
+          ],
+          "requestedHandCenter": [
+            144.10597771987437,
+            188.04053439395676
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.9148514645758512,
+          "collarCenter": [
+            444.80438341530834,
+            149.0
+          ],
+          "requestedHandCenter": [
+            444.10438341530835,
+            182.8217657193778
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": -0.6427024777933663,
+          "collarCenter": [
+            149.09586441131745,
+            149.0
+          ],
+          "requestedHandCenter": [
+            147.59586441131745,
+            188.04666177079156
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.916897061158301,
+          "collarCenter": [
+            444.977023815334,
+            149.0
+          ],
+          "requestedHandCenter": [
+            444.277023815334,
+            182.87590164314696
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": -0.6021320711369154,
+          "collarCenter": [
+            154.03987055752847,
+            149.0
+          ],
+          "requestedHandCenter": [
+            152.53987055752847,
+            188.0553422213075
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.9193106584941048,
+          "collarCenter": [
+            445.1801301683054,
+            149.0
+          ],
+          "requestedHandCenter": [
+            444.48013016830544,
+            182.93959096522835
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": -0.5558015212807513,
+          "collarCenter": [
+            159.85634837660024,
+            149.0
+          ],
+          "requestedHandCenter": [
+            158.35634837660024,
+            188.0655545160322
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.9049044368172436,
+          "collarCenter": [
+            443.958356923444,
+            149.0
+          ],
+          "requestedHandCenter": [
+            443.258356923444,
+            183.30251423529745
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": -0.5273754337422534,
+          "collarCenter": [
+            163.50993374951034,
+            149.0
+          ],
+          "requestedHandCenter": [
+            162.00993374951034,
+            188.1449776102168
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.8826637499741309,
+          "collarCenter": [
+            442.0278418222042,
+            149.0
+          ],
+          "requestedHandCenter": [
+            441.3278418222042,
+            183.81996978121958
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": -0.5053533256213583,
+          "collarCenter": [
+            166.38250524747755,
+            149.0
+          ],
+          "requestedHandCenter": [
+            164.88250524747755,
+            188.2599011262476
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.8581702549419792,
+          "collarCenter": [
+            439.84056471740683,
+            149.0
+          ],
+          "requestedHandCenter": [
+            439.14056471740685,
+            184.40624785157453
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": -0.4807215956782939,
+          "collarCenter": [
+            169.63713395530917,
+            149.0
+          ],
+          "requestedHandCenter": [
+            168.13713395530917,
+            188.3901096779733
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.8317758780445935,
+          "collarCenter": [
+            437.4131721085332,
+            149.0
+          ],
+          "requestedHandCenter": [
+            436.71317210853323,
+            185.05688651624254
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": -0.45375057961252035,
+          "collarCenter": [
+            173.24905018334,
+            149.0
+          ],
+          "requestedHandCenter": [
+            171.74905018334,
+            188.53461229969318
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 11,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.8320228117563657,
+          "collarCenter": [
+            437.4362149639531,
+            149.0
+          ],
+          "requestedHandCenter": [
+            436.7362149639531,
+            186.59739699054313
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": -0.39041263881775146,
+          "collarCenter": [
+            181.914494581126,
+            149.0
+          ],
+          "requestedHandCenter": [
+            180.414494581126,
+            189.79261694713415
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.8369013682287332,
+          "collarCenter": [
+            437.8901796188258,
+            149.0
+          ],
+          "requestedHandCenter": [
+            437.1901796188258,
+            187.9834427147154
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": -0.3142734315022458,
+          "collarCenter": [
+            192.63116437769662,
+            149.0
+          ],
+          "requestedHandCenter": [
+            191.13116437769662,
+            190.94644989525693
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 13,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.8418499538009521,
+          "collarCenter": [
+            438.34815885072067,
+            149.0
+          ],
+          "requestedHandCenter": [
+            437.6481588507207,
+            188.19776650196025
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": -0.22224093425673921,
+          "collarCenter": [
+            205.93760070129167,
+            149.0
+          ],
+          "requestedHandCenter": [
+            204.43760070129167,
+            190.99930619730284
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 14,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.8330415827168229,
+          "collarCenter": [
+            437.5312164908917,
+            149.0
+          ],
+          "requestedHandCenter": [
+            436.83121649089173,
+            188.17710213400693
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": -0.1351784823070088,
+          "collarCenter": [
+            218.7849249172594,
+            149.0
+          ],
+          "requestedHandCenter": [
+            217.2849249172594,
+            190.8303358680105
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 15,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.8109936084999521,
+          "collarCenter": [
+            435.4516160982516,
+            149.0
+          ],
+          "requestedHandCenter": [
+            434.7516160982516,
+            187.7157022469891
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": -0.05589178093138428,
+          "collarCenter": [
+            230.62059717458555,
+            149.0
+          ],
+          "requestedHandCenter": [
+            229.12059717458555,
+            190.57544567304623
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.7858259350864859,
+          "collarCenter": [
+            433.0181387012817,
+            149.0
+          ],
+          "requestedHandCenter": [
+            432.3181387012817,
+            187.12341924631053
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": 0.017399871144221327,
+          "collarCenter": [
+            241.6098489759527,
+            149.0
+          ],
+          "requestedHandCenter": [
+            240.1098489759527,
+            190.54226147645107
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 17,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.7603778160282029,
+          "collarCenter": [
+            430.4944266716592,
+            149.0
+          ],
+          "requestedHandCenter": [
+            429.7944266716592,
+            187.82373820160996
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": 0.09376125545104402,
+          "collarCenter": [
+            253.04359058816186,
+            149.0
+          ],
+          "requestedHandCenter": [
+            251.54359058816186,
+            190.42902659007245
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 18,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.7369927323840852,
+          "collarCenter": [
+            428.120745142186,
+            149.0
+          ],
+          "requestedHandCenter": [
+            427.42074514218604,
+            188.93892216549702
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": 0.1707948685344114,
+          "collarCenter": [
+            264.4948558786488,
+            149.0
+          ],
+          "requestedHandCenter": [
+            262.9948558786488,
+            190.8760334736958
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 19,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.7173215739532203,
+          "collarCenter": [
+            426.0845549042859,
+            149.0
+          ],
+          "requestedHandCenter": [
+            425.3845549042859,
+            190.82221306070593
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": 0.24740508680821935,
+          "collarCenter": [
+            275.73333282430417,
+            149.0
+          ],
+          "requestedHandCenter": [
+            274.23333282430417,
+            192.3830785306443
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 20,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.7017155866884595,
+          "collarCenter": [
+            424.44404557708253,
+            149.0
+          ],
+          "requestedHandCenter": [
+            423.74404557708255,
+            192.03546570739056
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": 0.33658139381065044,
+          "collarCenter": [
+            288.53933641637764,
+            149.0
+          ],
+          "requestedHandCenter": [
+            287.03933641637764,
+            193.2999597104162
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 21,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.677521628641619,
+          "collarCenter": [
+            421.8578482025882,
+            149.0
+          ],
+          "requestedHandCenter": [
+            421.1578482025882,
+            192.24162393102534
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": 0.3962515018248562,
+          "collarCenter": [
+            296.8944528555736,
+            149.0
+          ],
+          "requestedHandCenter": [
+            295.3944528555736,
+            193.2395598472287
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 22,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.6430388285643103,
+          "collarCenter": [
+            418.0843417509079,
+            149.0
+          ],
+          "requestedHandCenter": [
+            417.38434175090794,
+            192.5385457606637
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": 0.4176328977050825,
+          "collarCenter": [
+            299.8396906664324,
+            149.0
+          ],
+          "requestedHandCenter": [
+            298.3396906664324,
+            193.19361745602572
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 23,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.6116853383556422,
+          "collarCenter": [
+            414.56741773174326,
+            149.0
+          ],
+          "requestedHandCenter": [
+            413.8674177317433,
+            192.76641406117264
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": 0.4509074159152089,
+          "collarCenter": [
+            304.3673652431731,
+            149.0
+          ],
+          "requestedHandCenter": [
+            302.8673652431731,
+            193.1815045366791
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 24,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.5855464770646441,
+          "collarCenter": [
+            411.5754888706233,
+            149.0
+          ],
+          "requestedHandCenter": [
+            410.8754888706233,
+            192.83474001698528
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": 0.5143758843192048,
+          "collarCenter": [
+            312.79873847154863,
+            149.0
+          ],
+          "requestedHandCenter": [
+            311.29873847154863,
+            193.25007930556535
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 25,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.5608704412737231,
+          "collarCenter": [
+            408.7029570972456,
+            149.0
+          ],
+          "requestedHandCenter": [
+            408.0029570972456,
+            192.90033933038094
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": 0.5775317135519675,
+          "collarCenter": [
+            320.8936460097742,
+            149.0
+          ],
+          "requestedHandCenter": [
+            319.3936460097742,
+            193.31591750280248
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 26,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.5398319807459058,
+          "collarCenter": [
+            406.21836542939496,
+            149.0
+          ],
+          "requestedHandCenter": [
+            405.518365429395,
+            192.74842117547047
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": 0.6502706204681707,
+          "collarCenter": [
+            329.81027302146964,
+            149.0
+          ],
+          "requestedHandCenter": [
+            328.31027302146964,
+            193.32419825048837
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 27,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.5205532866278251,
+          "collarCenter": [
+            403.91389412951935,
+            149.0
+          ],
+          "requestedHandCenter": [
+            403.21389412951936,
+            192.5771007614148
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": 0.7240145500298084,
+          "collarCenter": [
+            338.3596268090629,
+            149.0
+          ],
+          "requestedHandCenter": [
+            336.8596268090629,
+            193.32478478498416
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 28,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.5085479121765317,
+          "collarCenter": [
+            402.4658406485741,
+            149.0
+          ],
+          "requestedHandCenter": [
+            401.7658406485741,
+            192.42000824458304
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": 0.8162651671563484,
+          "collarCenter": [
+            348.2889131175318,
+            149.0
+          ],
+          "requestedHandCenter": [
+            346.7889131175318,
+            193.24560611586173
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 29,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.49175922060650223,
+          "collarCenter": [
+            400.4245772725313,
+            149.0
+          ],
+          "requestedHandCenter": [
+            399.7245772725313,
+            192.06834214362482
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": 0.8673477011434496,
+          "collarCenter": [
+            353.392396686515,
+            149.0
+          ],
+          "requestedHandCenter": [
+            351.892396686515,
+            192.66753776133226
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 30,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.47317398783470427,
+          "collarCenter": [
+            398.1433988131752,
+            149.0
+          ],
+          "requestedHandCenter": [
+            397.44339881317524,
+            191.6589292142927
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": 0.8931896700416343,
+          "collarCenter": [
+            355.8613111773364,
+            149.0
+          ],
+          "requestedHandCenter": [
+            354.3613111773364,
+            191.93674407525953
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 31,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.45691637759633374,
+          "collarCenter": [
+            396.13000533196026,
+            149.0
+          ],
+          "requestedHandCenter": [
+            395.4300053319603,
+            191.29757680906476
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": 0.9167075581667494,
+          "collarCenter": [
+            358.0404025680643,
+            149.0
+          ],
+          "requestedHandCenter": [
+            356.5404025680643,
+            191.2917374394932
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 32,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.4430480679330493,
+          "collarCenter": [
+            394.3997199689988,
+            149.0
+          ],
+          "requestedHandCenter": [
+            393.6997199689988,
+            190.9870350379354
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": 0.9375103685585919,
+          "collarCenter": [
+            359.9130866574439,
+            149.0
+          ],
+          "requestedHandCenter": [
+            358.4130866574439,
+            190.73742674399713
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 33,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.4316233322166581,
+          "collarCenter": [
+            392.96571124067776,
+            149.0
+          ],
+          "requestedHandCenter": [
+            392.2657112406778,
+            190.72966731129316
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": 0.9552083622618162,
+          "collarCenter": [
+            361.46511118879755,
+            149.0
+          ],
+          "requestedHandCenter": [
+            359.96511118879755,
+            190.27803062786597
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 34,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.4226880613979183,
+          "collarCenter": [
+            391.8388928192978,
+            149.0
+          ],
+          "requestedHandCenter": [
+            391.13889281929784,
+            190.52743235294062
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": 0.9694318915291016,
+          "collarCenter": [
+            362.68466431830353,
+            149.0
+          ],
+          "requestedHandCenter": [
+            361.18466431830353,
+            189.91704537293447
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 35,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.41627890764383424,
+          "collarCenter": [
+            391.0278404734373,
+            149.0
+          ],
+          "requestedHandCenter": [
+            390.32784047343733,
+            190.3818692930237
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": 0.9798547066750481,
+          "collarCenter": [
+            363.56246451026004,
+            149.0
+          ],
+          "requestedHandCenter": [
+            362.06246451026004,
+            189.65721829496152
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 36,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.41242258023856615,
+          "collarCenter": [
+            390.5387268011749,
+            149.0
+          ],
+          "requestedHandCenter": [
+            389.8387268011749,
+            190.2940859543217
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": 0.9862192353504382,
+          "collarCenter": [
+            364.091831175176,
+            149.0
+          ],
+          "requestedHandCenter": [
+            362.591831175176,
+            189.50052683489832
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    },
+    {
+      "frame": 37,
+      "instances": [
+        {
+          "hand": "far",
+          "pivot": [
+            335,
+            40
+          ],
+          "yawRadians": 0.41113532096112815,
+          "collarCenter": [
+            390.37527425289153,
+            149.0
+          ],
+          "requestedHandCenter": [
+            389.67527425289154,
+            190.2647504210472
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 0.923728813559322
+        },
+        {
+          "hand": "near",
+          "pivot": [
+            239,
+            31
+          ],
+          "yawRadians": 0.9883598183390944,
+          "collarCenter": [
+            364.2687355130911,
+            149.0
+          ],
+          "requestedHandCenter": [
+            362.7687355130911,
+            189.4481635093689
+          ],
+          "worldMeshSha256": "402075a2ffcf037b7dcf6a87b3d6601c67ab829943d452e2b957ab073a88e477",
+          "scale": 1
+        }
+      ]
+    }
+  ]
+}

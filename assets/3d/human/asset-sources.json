@@ -1,0 +1,132 @@
+{
+  "commit": "a8bc2d54ff0ac92e78ff71431b1023eda42bf482",
+  "assets": [
+    {
+      "file": "LICENSE.ASSETS.md",
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/LICENSE.ASSETS.md",
+      "sha256": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c",
+      "bytes": 6962
+    },
+    {
+      "file": "caucasian-male-young.target",
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/macrodetails/caucasian-male-young.target",
+      "sha256": "70e228ba7164737dae664454394536fc5935fa48d333c1a97d77e2dc6eacc5f5",
+      "bytes": 396479
+    },
+    {
+      "file": "african-male-young.target",
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/macrodetails/african-male-young.target",
+      "sha256": "894abc1fbb3d28543a51fef16f89d5d4bdf9aa2e1534413339811a3d47818b7d",
+      "bytes": 406170
+    },
+    {
+      "file": "asian-male-young.target",
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/macrodetails/asian-male-young.target",
+      "sha256": "ed2e8c191cb6b87b4a2d97c80486acb2604fa549316c7aa2a738a5d5a14334dc",
+      "bytes": 421040
+    },
+    {
+      "file": "universal-male-young-maxmuscle-averageweight.target",
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/macrodetails/universal-male-young-maxmuscle-averageweight.target",
+      "sha256": "c171ff9cc95e96273beb3e3b1969a01988c2d4982ebc6fe04bf81cf72ee3b295",
+      "bytes": 147110
+    },
+    {
+      "file": "universal-male-young-averagemuscle-averageweight.target",
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/macrodetails/universal-male-young-averagemuscle-averageweight.target",
+      "sha256": "4ba5396ddabda448ece15650a566fbebfbb10239256ccb201e8f883429e12249",
+      "bytes": 604
+    },
+    {
+      "file": "male-young-maxmuscle-averageweight-idealproportions.target",
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/macrodetails/proportions/male-young-maxmuscle-averageweight-idealproportions.target",
+      "sha256": "d9452857903d18a2100ca26105d5a61083e7064fbe16f035863446728755ec20",
+      "bytes": 164317
+    },
+    {
+      "file": "l-lowerarm-muscle-incr.target",
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/armslegs/l-lowerarm-muscle-incr.target",
+      "sha256": "68511185971789f16fc625788f6abd61bfee61d5580b015745ad4fa7faa83d6b",
+      "bytes": 5706
+    },
+    {
+      "file": "l-lowerleg-muscle-incr.target",
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/armslegs/l-lowerleg-muscle-incr.target",
+      "sha256": "5c4323925e92e0875d4a3ce5e72db3ee0394dc865183349ac12ac8051dc1bd53",
+      "bytes": 7083
+    },
+    {
+      "file": "l-upperarm-muscle-incr.target",
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/armslegs/l-upperarm-muscle-incr.target",
+      "sha256": "61440e900b9e65748005e837b129abd48b1cd8fb98a653a2288a1bd3ace810d7",
+      "bytes": 6926
+    },
+    {
+      "file": "l-upperarm-shoulder-muscle-incr.target",
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/armslegs/l-upperarm-shoulder-muscle-incr.target",
+      "sha256": "0d1994d9d45b5f7b5d4884262514fee53c6fd111bce1cc931a6fcb69f60aa8b6",
+      "bytes": 5387
+    },
+    {
+      "file": "l-upperleg-muscle-incr.target",
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/armslegs/l-upperleg-muscle-incr.target",
+      "sha256": "f5804422cee551ab197a7e41b4d1a9c25d5f7c2d8277e0615c1b61341bc65647",
+      "bytes": 10261
+    },
+    {
+      "file": "r-lowerarm-muscle-incr.target",
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/armslegs/r-lowerarm-muscle-incr.target",
+      "sha256": "f4c207478c621e2ac9c0c1e6e1e67803e25a7ee083fe2aa8e31cf831d20d1ab3",
+      "bytes": 5585
+    },
+    {
+      "file": "r-lowerleg-muscle-incr.target",
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/armslegs/r-lowerleg-muscle-incr.target",
+      "sha256": "e2d438a2ef32948d77316343f7882cfabe5cfe447b8b96bc31131c6812f10792",
+      "bytes": 6661
+    },
+    {
+      "file": "r-upperarm-muscle-incr.target",
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/armslegs/r-upperarm-muscle-incr.target",
+      "sha256": "cf81df0a8d38bd66742d017dbcfe77f180659dfd61ed3fc94cb25751ccd4417b",
+      "bytes": 6953
+    },
+    {
+      "file": "r-upperarm-shoulder-muscle-incr.target",
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/armslegs/r-upperarm-shoulder-muscle-incr.target",
+      "sha256": "33d8d39af985071484836ebda826ab50332408256b1e6d2ab2240d480fd00295",
+      "bytes": 5529
+    },
+    {
+      "file": "r-upperleg-muscle-incr.target",
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/armslegs/r-upperleg-muscle-incr.target",
+      "sha256": "833d03f125d75a933164e69918fdc075080ea453a11091a132f58f3d68f7def8",
+      "bytes": 10099
+    },
+    {
+      "file": "base.obj",
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/3dobjs/base.obj",
+      "sha256": "8e761e6624b8f54536409135d1636da63b32486a90d4897f84e121d144f6fb4c",
+      "bytes": 1749303
+    },
+    {
+      "file": "default.mhskel",
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/rigs/default.mhskel",
+      "sha256": "99f179bce0aa850b45d4191a1d0d234c5851f881c057439470ded3bddf729a24",
+      "bytes": 117790
+    },
+    {
+      "file": "default_weights.mhw",
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/rigs/default_weights.mhw",
+      "sha256": "0f3641d651ae3d00ad6b4ccee43142edb109d3bd909d27d9e4139ef1beed8625",
+      "bytes": 897521
+    },
+    {
+      "file": "LICENSE.upstream.md",
+      "source": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/LICENSE.md",
+      "sha256": "edd99571ca62698f78c943fd4fffb159a413c315fa0d4819d3cec5cadaf8b4f1",
+      "bytes": 3598
+    }
+  ],
+  "license": "CC0-1.0 for MakeHuman core graphical assets; see LICENSE.ASSETS.md and LICENSE.upstream.md"
+}

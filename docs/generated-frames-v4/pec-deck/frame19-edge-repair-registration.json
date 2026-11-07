@@ -1,0 +1,26 @@
+{
+  "method": "global similarity from fixed-feature RANSAC",
+  "accepted": true,
+  "matrix": [
+    [
+      1.000048041343689,
+      4.259396155248396e-05,
+      0.007044448517262936
+    ],
+    [
+      -4.259396155248396e-05,
+      1.000048041343689,
+      -0.010355321690440178
+    ]
+  ],
+  "featureMatches": 63,
+  "inliers": 59,
+  "estimatedScale": 1.0000480422507683,
+  "estimatedRotationDegrees": -0.0024403369911559984,
+  "estimatedCenterShiftPixels": [
+    0.03024708665907383,
+    -0.008960791863501072
+  ],
+  "staticRegionMAEBefore": 3.2307167053222656,
+  "staticRegionMAEAfter": 3.259337902069092
+}

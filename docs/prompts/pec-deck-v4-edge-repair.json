@@ -1,0 +1,11 @@
+{
+  "exercise": "pec-deck",
+  "revision": "v4",
+  "generationMode": "built-in image_gen",
+  "prompt": "Use case: precise-object-edit. Target is an existing animation FRAME, keep its exact composition and pose. Correct ONLY the thin irregular RIGHT EDGE of the NEAR silver lever where it overlaps the man's face. In this512square frame the defect is near x275..289,y78..145: small peach-colored skin/face fragments and rough bumps cling to the OUTSIDE right silhouette of the gray metal. Clean away those tiny fragments, restoring a clean smooth continuous opaque silver lever contour and the plain off-white background immediately to its right. The lever fully occludes the covered face; skin cannot show through the metal. Keep the exact same lever position, width, curvature, highlights, upperpivot and lower blackgrip. Do not move ANY object. Face parts to the LEFT of the lever remain exactly untouched. Freeze man, face, hair, arms, hands, muscles, clothing, legs, all other equipment, weights, frame, background, lighting, perspective and framing. This is a minute edge cleanup, not a new illustration or new pose. One clean square frame with only this correction; no text, no panels, no blur.",
+  "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b26c-8c92-7253-ac21-547f0416b759\\exec-64386c02-f4b2-4080-854e-1de0cffe20ce.png",
+  "savedGenerated": "docs/generated-frames-v4/pec-deck/frame19-edge-repair-generated.png",
+  "alignedAsset": "docs/generated-frames-v4/pec-deck/frame19-edge-repair-aligned.png",
+  "application": "Only a 25×80 px rectangle at the lever's right edge is composited into forward frame 19; mirror frame 55 uses the identical result. Every other body/machine pixel remains from the interpolated animation."
+}
+

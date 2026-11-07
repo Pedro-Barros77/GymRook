@@ -1,0 +1,327 @@
+{
+  "coordinateSpace": "pixels",
+  "referenceIndex": 14,
+  "staticRegions": [
+    [
+      0.15,
+      0.08,
+      0.35,
+      0.18
+    ],
+    [
+      0.16,
+      0.2,
+      0.215,
+      0.77
+    ],
+    [
+      0.095,
+      0.79,
+      0.32,
+      0.86
+    ],
+    [
+      0.34,
+      0.79,
+      0.5,
+      0.9
+    ],
+    [
+      0.5,
+      0.035,
+      0.61,
+      0.065
+    ],
+    [
+      0.72,
+      0.84,
+      0.9,
+      0.91
+    ]
+  ],
+  "quality": {
+    "enforceMonotonicHands": true,
+    "enforceBilateralStalls": true,
+    "enforceWeightMonotonic": true,
+    "requireWeightTop": true
+  },
+  "anchors": [
+    {
+      "file": "pose-00.png",
+      "near": [
+        346.1,
+        460
+      ],
+      "far": [
+        1088.0,
+        447
+      ],
+      "weightTop": [
+        352,
+        655
+      ]
+    },
+    {
+      "file": "pose-early-small.png",
+      "near": [
+        392.5,
+        460
+      ],
+      "far": [
+        1090.8,
+        447
+      ],
+      "weightTop": [
+        352,
+        619
+      ]
+    },
+    {
+      "file": "pose-01c.png",
+      "near": [
+        422.1,
+        460
+      ],
+      "far": [
+        1070.8,
+        452
+      ],
+      "weightTop": [
+        352,
+        619
+      ]
+    },
+    {
+      "file": "pose-mid-early-small.png",
+      "near": [
+        460.66,
+        467
+      ],
+      "far": [
+        1071.76,
+        460
+      ],
+      "weightTop": [
+        352,
+        612
+      ]
+    },
+    {
+      "file": "pose-mid-small.png",
+      "near": [
+        515.77,
+        467
+      ],
+      "far": [
+        1073.04,
+        460
+      ],
+      "weightTop": [
+        352,
+        612
+      ]
+    },
+    {
+      "file": "pose-mid-late-small.png",
+      "near": [
+        552.56,
+        467
+      ],
+      "far": [
+        1066.49,
+        460
+      ],
+      "weightTop": [
+        352,
+        612
+      ]
+    },
+    {
+      "file": "pose-03.png",
+      "near": [
+        580.9,
+        466
+      ],
+      "far": [
+        1060.5,
+        457
+      ],
+      "weightTop": [
+        352,
+        613
+      ]
+    },
+    {
+      "file": "pose-04.png",
+      "near": [
+        634.9,
+        466
+      ],
+      "far": [
+        1049.2,
+        461
+      ],
+      "weightTop": [
+        352,
+        560
+      ]
+    },
+    {
+      "file": "pose-pre-cross-tiny.png",
+      "near": [
+        690.52,
+        473
+      ],
+      "far": [
+        1040.9,
+        470
+      ],
+      "weightTop": [
+        352,
+        563
+      ]
+    },
+    {
+      "file": "pose-cross-small.png",
+      "near": [
+        720.17,
+        473
+      ],
+      "far": [
+        1038.09,
+        470
+      ],
+      "weightTop": [
+        352,
+        563
+      ]
+    },
+    {
+      "file": "pose-05b.png",
+      "near": [
+        736.1,
+        473
+      ],
+      "far": [
+        1016.4,
+        472
+      ],
+      "weightTop": [
+        352,
+        563
+      ]
+    },
+    {
+      "file": "pose-late-far-tiny.png",
+      "near": [
+        785.35,
+        473
+      ],
+      "far": [
+        999.6,
+        472
+      ],
+      "weightTop": [
+        352,
+        539
+      ]
+    },
+    {
+      "file": "pose-06.png",
+      "near": [
+        831.4,
+        473
+      ],
+      "far": [
+        986.5,
+        471
+      ],
+      "weightTop": [
+        352,
+        537
+      ]
+    },
+    {
+      "file": "pose-07.png",
+      "near": [
+        857.8,
+        473
+      ],
+      "far": [
+        983.7,
+        471
+      ],
+      "weightTop": [
+        352,
+        538
+      ]
+    },
+    {
+      "file": "pose-08.png",
+      "near": [
+        888.5,
+        464
+      ],
+      "far": [
+        954.4,
+        466
+      ],
+      "weightTop": [
+        352,
+        512
+      ]
+    }
+  ],
+  "weightLayer": {
+    "cleanPlate": "tower-clean.png",
+    "spriteSource": "pose-08.png",
+    "referenceSize": [
+      1254,
+      1254
+    ],
+    "spriteCrop": [
+      0.21850079744816586,
+      0.38915470494417864,
+      0.3229665071770335,
+      0.5598086124401914
+    ],
+    "sourcePlateTop": 512,
+    "sourcePlateBottom": 700,
+    "openPlateTop": 655,
+    "closedPlateTop": 512,
+    "selectedPlateCount": 9,
+    "rodCrop": [
+      0.26156299840510366,
+      0.1634768740031898,
+      0.28149920255183414,
+      0.39074960127591707
+    ],
+    "collarOffset": 22,
+    "fixedBaseCrop": [
+      0.21850079744816586,
+      0.6738437001594896,
+      0.3229665071770335,
+      0.777511961722488
+    ],
+    "channelX": [
+      274,
+      405
+    ],
+    "eraseTopPadding": 40,
+    "eraseBottom": 975
+  },
+  "frameCorrections": [
+    {
+      "frame": 19,
+      "file": "frame19-edge-repair-aligned.png",
+      "crop": [
+        0.5234375,
+        0.13671875,
+        0.572265625,
+        0.29296875
+      ],
+      "featherPixels": 1,
+      "reason": "Built-in image_gen cleanup of small skin fragments on the opaque lever edge, composited only inside this narrow rectangle."
+    }
+  ]
+}

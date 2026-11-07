@@ -1,0 +1,9 @@
+node_modules/
+.cache/
+output/
+# Arquivos preservados localmente; o deploy publica somente dist/.
+/backups/
+*.log
+__pycache__/
+*.blend1
+*.blend2

@@ -1,0 +1,17 @@
+{
+  "exercise": "pec-deck",
+  "generationMode": "built-in image_gen; no CLI/API fallback",
+  "promptSets": [
+    "pec-deck-v4.json",
+    "pec-deck-v4-additional.json",
+    "pec-deck-v4-edge-repair.json"
+  ],
+  "selectedReferenceCount": 15,
+  "selectedReferences": "../generated-frames-v4/pec-deck/landmarks.json",
+  "frameCount": 72,
+  "fps": 24,
+  "durationSeconds": 3,
+  "video": "../../dist/assets/animations-pec-deck-v4/pec-deck.mp4",
+  "gif": "../../dist/assets/animations-pec-deck-v4/pec-deck.gif",
+  "review": "../pec-deck-v4-review.md"
+}

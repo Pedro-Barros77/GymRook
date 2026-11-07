@@ -1,0 +1,233 @@
+{
+  "id": "pec-deck",
+  "revision": "v3",
+  "status": "assembled-for-visual-review",
+  "source": "docs/generated-frames-v3/pec-deck.png",
+  "sourceSha256": "94f02cb3bf58e1f6cd21a3970e5ef7e8cba6b43b90a19c07e21574ce8e49793b",
+  "sourceSize": [
+    1254,
+    1254
+  ],
+  "sourceGrid": [
+    3,
+    3
+  ],
+  "sourceCropBoxes": [
+    [
+      2,
+      2,
+      416,
+      416
+    ],
+    [
+      420,
+      2,
+      834,
+      416
+    ],
+    [
+      838,
+      2,
+      1252,
+      416
+    ],
+    [
+      2,
+      420,
+      416,
+      834
+    ],
+    [
+      420,
+      420,
+      834,
+      834
+    ],
+    [
+      838,
+      420,
+      1252,
+      834
+    ],
+    [
+      2,
+      838,
+      416,
+      1252
+    ],
+    [
+      420,
+      838,
+      834,
+      1252
+    ],
+    [
+      838,
+      838,
+      1252,
+      1252
+    ]
+  ],
+  "sequence": "mirrored9",
+  "sourceFrameIndices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+  ],
+  "gifFrames": 16,
+  "frameSize": [
+    480,
+    480
+  ],
+  "frameDelaysMilliseconds": [
+    180,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    180,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+  ],
+  "cycleMilliseconds": 1760,
+  "posterSourceIndex": 0,
+  "palette": "one shared 192-color palette, no dithering",
+  "stabilization": {
+    "enabled": false,
+    "type": "rigid translation only",
+    "anchor": [
+      0.15,
+      0.82,
+      0.9,
+      0.98
+    ],
+    "maximumShiftPixels": 8,
+    "sourceFrames": [
+      {
+        "dx": 0,
+        "dy": 0,
+        "accepted": false,
+        "reason": "reference"
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "accepted": false,
+        "reason": "disabled"
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "accepted": false,
+        "reason": "disabled"
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "accepted": false,
+        "reason": "disabled"
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "accepted": false,
+        "reason": "disabled"
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "accepted": false,
+        "reason": "disabled"
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "accepted": false,
+        "reason": "disabled"
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "accepted": false,
+        "reason": "disabled"
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "accepted": false,
+        "reason": "disabled"
+      }
+    ]
+  },
+  "files": {
+    "dist/assets/animations/pec-deck-v3.gif": {
+      "bytes": 1812379,
+      "sha256": "0e0597597f8a73ab1418b9f6ee09234ceea6696e3bf4dc438bdd80eb94e7d09a"
+    },
+    "dist/assets/animations/pec-deck-v3-poster.webp": {
+      "bytes": 20842,
+      "sha256": "47fcbd9c8943dde477751008aeeb7bd17c48ddc717a5a1d95264f29c3b6eb9ef"
+    },
+    "output/pec-deck-v3/contact.png": {
+      "bytes": 4072111,
+      "sha256": "c8d9dc80be4a329b46d097ad730fac586e01057e6e7a69dd7b70340aad300718"
+    }
+  },
+  "preservedFiles": {
+    "dist/assets/animations/incline-dumbbell-press.gif": {
+      "bytes": 1346702,
+      "sha256": "64453b28bf1aa63ddde31726488ca78b4663082cdb148a50a1731d37312fd966"
+    },
+    "dist/assets/animations/pec-deck-poster.webp": {
+      "bytes": 19246,
+      "sha256": "d1acaa58ee9f7000229df4582a5aedb063592a0d446ab901325d2d96e4ae5112"
+    },
+    "dist/assets/animations/pec-deck.gif": {
+      "bytes": 1666487,
+      "sha256": "1fa211416e3b884a8bd0676e33ab286bac2233b810ae3c5e98b9650bb2786845"
+    },
+    "dist/assets/animations/push-up.gif": {
+      "bytes": 770064,
+      "sha256": "273530c637e271a6a2fb6fea1215751813bd1abf7a2ce2d2a48e5f6444f3cda8"
+    },
+    "dist/assets/animations/reverse-cable-curl.gif": {
+      "bytes": 1332722,
+      "sha256": "34d0b417754f08ae545c64a5d76be8738d777fdf08e78a8b78b5b9e1e44f2e45"
+    },
+    "dist/assets/animations-interpolated/reverse-cable-curl.gif": {
+      "bytes": 5699683,
+      "sha256": "466971a97cd636c3c1dff723b963858df79668a471b5dc643e37eab41c7560fc"
+    },
+    "docs/generated-frames-v2/pec-deck.png": {
+      "bytes": 2007202,
+      "sha256": "6fa1125e120ff66fa369de482bc02b4f7c7fb134083ea00a9c41e0d7486beced"
+    },
+    "docs/generated-frames-v3/pec-deck.png": {
+      "bytes": 1981901,
+      "sha256": "94f02cb3bf58e1f6cd21a3970e5ef7e8cba6b43b90a19c07e21574ce8e49793b"
+    }
+  },
+  "preservationVerified": true,
+  "validation": "GIF frame count, timing and decoded colors only; visual execution/perspective review remains necessary."
+}

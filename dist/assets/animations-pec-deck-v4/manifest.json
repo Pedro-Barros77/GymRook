@@ -1,0 +1,405 @@
+{
+  "pipeline": "Separate generated full-resolution poses → limited global fixed-feature stabilization → both-hand retiming → Practical-RIFE 4.25 + selected-interval Google FILM → deterministic tower layers → exact mirrored return",
+  "interpolation": {
+    "backend": "practical-rife4.25",
+    "model": "Practical-RIFE 4.25",
+    "device": "cpu",
+    "scale": 1.0,
+    "threads": 8,
+    "singleBatchModelLoad": true,
+    "runtime": {
+      "file": ".cache/qa-pec-deck-interpolation/python311/python.exe",
+      "sha256": "5f7b89a612c9b8af1d6456cdfcd1dbe5ca630849e79aebced9bee9a6694952ec"
+    },
+    "tool": {
+      "file": ".cache/qa-pec-deck-interpolation/rife425-batch.py",
+      "sha256": "ac4c891cfdda5afb01e65af2c25ab1eaf72a9e54670be2b0b4fad3d0ff5c6253"
+    },
+    "modelDirectory": ".cache/qa-pec-deck-interpolation/rife425",
+    "modelFiles": {
+      ".cache/qa-pec-deck-interpolation/rife425/__MACOSX/train_log/._flownet.pkl": {
+        "bytes": 220,
+        "sha256": "8377653c2c6c700a7c29bd9c4920dedafd3f40456c43d9a0b816f7e243313dba"
+      },
+      ".cache/qa-pec-deck-interpolation/rife425/__MACOSX/train_log/._refine.py": {
+        "bytes": 172,
+        "sha256": "05365272b6534c4d924145017368cbd8c10fb483436ccc9608edf4bd97d4a874"
+      },
+      ".cache/qa-pec-deck-interpolation/rife425/__MACOSX/train_log/._RIFE_HDv3.py": {
+        "bytes": 542,
+        "sha256": "04e9be06d5877e379e435d5618bd66e6c056ccabc2ecace8c1543f8b8efecee4"
+      },
+      ".cache/qa-pec-deck-interpolation/rife425/model/warplayer.py": {
+        "bytes": 1209,
+        "sha256": "feb3af9475b724749b023d1913c3b135431eff13d0045b8efb472a699058385f"
+      },
+      ".cache/qa-pec-deck-interpolation/rife425/train_log/flownet.pkl": {
+        "bytes": 24636301,
+        "sha256": "6615790efd627772917205db291f51cd392528a157ecbb2ecaeec3bff8eb6de2"
+      },
+      ".cache/qa-pec-deck-interpolation/rife425/train_log/IFNet_HDv3.py": {
+        "bytes": 6433,
+        "sha256": "655b4c772b037967b86c2dd31c8fa3b5323b79dd9a0e0088708d89149bbc8a32"
+      },
+      ".cache/qa-pec-deck-interpolation/rife425/train_log/refine.py": {
+        "bytes": 3510,
+        "sha256": "0c5698b4a05b9f6ab551740575c1c35e248e5b1829bab6445186081ebe15f032"
+      },
+      ".cache/qa-pec-deck-interpolation/rife425/train_log/RIFE_HDv3.py": {
+        "bytes": 3101,
+        "sha256": "81bbd0648e499de79e44768d284005d9d57d0f6eb7c30adae407f22675055730"
+      }
+    },
+    "integrityManifest": {
+      "file": ".cache/qa-pec-deck-interpolation/modern-models-integrity.json",
+      "sha256": "c4c89b6a6dc6598af01f3ef98c1029de52c8735021e0fda99d37bf16eb7691a0",
+      "modelArchive": {
+        "file": ".cache/qa-pec-deck-interpolation/rife425.zip",
+        "expected": {
+          "bytes": 22919050,
+          "sha256": "e63d481b7ae5d4a4e6ad7ac5b410ff78f3bf7be3b51b2e38ca8152747abde5b4"
+        },
+        "available": true,
+        "actual": {
+          "bytes": 22919050,
+          "sha256": "e63d481b7ae5d4a4e6ad7ac5b410ff78f3bf7be3b51b2e38ca8152747abde5b4"
+        }
+      },
+      "provenance": {
+        "rife425": "https://drive.google.com/file/d/1ZKjcbmt1hypiFprJPIKW0Tt0lr_2i7bg/view",
+        "rife426": "https://drive.google.com/file/d/1gViYvvQrtETBgU1w8axZSsr7YUuw31uy/view",
+        "film": "https://tfhub.dev/google/film/1?tf-hub-format=compressed",
+        "film_license": "https://www.kaggle.com/models/google/film/tensorFlow2/film/1?tfhub-redirect=true",
+        "rife_license": "https://github.com/hzwer/Practical-RIFE#trained-model"
+      }
+    },
+    "filmOverride": {
+      "engine": "google-film-tfhub-v1",
+      "model": "Google FILM TFHub v1",
+      "device": "cpu",
+      "depth": 6,
+      "quantization": "round(requestedTimestep * 2**depth) / 2**depth",
+      "sourceIntervals": [
+        0
+      ],
+      "runtime": {
+        "file": ".cache/qa-pec-deck-interpolation/python311/python.exe",
+        "sha256": "5f7b89a612c9b8af1d6456cdfcd1dbe5ca630849e79aebced9bee9a6694952ec"
+      },
+      "tool": {
+        "file": ".cache/qa-pec-deck-interpolation/film-batch.py",
+        "sha256": "f15b58ca50eeebf774d2318c294b919f4e29acf8bb34b3a3fb7ba185ab933125"
+      },
+      "modelDirectory": ".cache/qa-pec-deck-interpolation/film-model",
+      "modelFiles": {
+        ".cache/qa-pec-deck-interpolation/film-model/keras_metadata.pb": {
+          "bytes": 221924,
+          "sha256": "0291f451e35e62a042fa49a1341af1dc8a94632188a24a16b71a9516e9fc6853"
+        },
+        ".cache/qa-pec-deck-interpolation/film-model/saved_model.pb": {
+          "bytes": 2638810,
+          "sha256": "4df311e80e9a7282b362a7e93bef22a1ce4f84e7cdeda01f246894545eaaf985"
+        },
+        ".cache/qa-pec-deck-interpolation/film-model/variables/variables.data-00000-of-00001": {
+          "bytes": 137784604,
+          "sha256": "8c47323923bc4826b730dd882c8c7700761aa3ac03b2c8180d3ffc82d18111f9"
+        },
+        ".cache/qa-pec-deck-interpolation/film-model/variables/variables.index": {
+          "bytes": 1926,
+          "sha256": "d19bb117eb9abe6121b5711649bb7d5d1c4fe1912b9deabbdafa2be3f5a273e5"
+        }
+      },
+      "integrityManifest": {
+        "file": ".cache/qa-pec-deck-interpolation/modern-models-integrity.json",
+        "sha256": "c4c89b6a6dc6598af01f3ef98c1029de52c8735021e0fda99d37bf16eb7691a0",
+        "provenance": {
+          "rife425": "https://drive.google.com/file/d/1ZKjcbmt1hypiFprJPIKW0Tt0lr_2i7bg/view",
+          "rife426": "https://drive.google.com/file/d/1gViYvvQrtETBgU1w8axZSsr7YUuw31uy/view",
+          "film": "https://tfhub.dev/google/film/1?tf-hub-format=compressed",
+          "film_license": "https://www.kaggle.com/models/google/film/tensorFlow2/film/1?tfhub-redirect=true",
+          "rife_license": "https://github.com/hzwer/Practical-RIFE#trained-model"
+        }
+      },
+      "requestManifest": {
+        "file": "output/pec-deck-v4/interpolation-film-requests.json",
+        "sha256": "e601e0dfc00bbbf169fe1676f4dc6b9ae901482fcf699c76783614d03f33dcca",
+        "requestCount": 6
+      },
+      "command": [
+        "C:\\Users\\pedrao\\source\\repos\\GymRook\\.cache\\qa-pec-deck-interpolation\\python311\\python.exe",
+        "C:\\Users\\pedrao\\source\\repos\\GymRook\\.cache\\qa-pec-deck-interpolation\\film-batch.py",
+        "--manifest",
+        "C:\\Users\\pedrao\\source\\repos\\GymRook\\output\\pec-deck-v4\\interpolation-film-requests.json",
+        "--model-dir",
+        "C:\\Users\\pedrao\\source\\repos\\GymRook\\.cache\\qa-pec-deck-interpolation\\film-model",
+        "--threads",
+        "8",
+        "--depth",
+        "6",
+        "--report",
+        "C:\\Users\\pedrao\\source\\repos\\GymRook\\output\\pec-deck-v4\\interpolation-film-report.json"
+      ],
+      "actualReport": {
+        "file": "output/pec-deck-v4/interpolation-film-report.json",
+        "sha256": "10073aa0ae139cb0b0619a14457a8e30e4d50e0bdec6bb8813ba768f296cd238",
+        "data": {
+          "engine": "google-film-tfhub-v1",
+          "modelDirectory": "C:\\Users\\pedrao\\source\\repos\\GymRook\\.cache\\qa-pec-deck-interpolation\\film-model",
+          "modelSource": "https://tfhub.dev/google/film/1",
+          "license": "Apache-2.0",
+          "tensorflowVersion": "2.15.1",
+          "depth": 6,
+          "totalMidpointInferences": 19,
+          "jobs": [
+            {
+              "index": 0,
+              "engine": "google-film-tfhub-v1",
+              "input0": "C:\\Users\\pedrao\\source\\repos\\GymRook\\output\\pec-deck-v4\\anchors\\anchor_00.png",
+              "input1": "C:\\Users\\pedrao\\source\\repos\\GymRook\\output\\pec-deck-v4\\anchors\\anchor_01.png",
+              "output": "C:\\Users\\pedrao\\source\\repos\\GymRook\\output\\pec-deck-v4\\raw-frames\\frame_0001.png",
+              "requestedTimestep": 0.0,
+              "actualDyadicTimestep": 0.0,
+              "depth": 6,
+              "timestepError": 0.0,
+              "newMidpointInferences": 0,
+              "elapsedSeconds": 0.062000000005355105
+            },
+            {
+              "index": 1,
+              "engine": "google-film-tfhub-v1",
+              "input0": "C:\\Users\\pedrao\\source\\repos\\GymRook\\output\\pec-deck-v4\\anchors\\anchor_00.png",
+              "input1": "C:\\Users\\pedrao\\source\\repos\\GymRook\\output\\pec-deck-v4\\anchors\\anchor_01.png",
+              "output": "C:\\Users\\pedrao\\source\\repos\\GymRook\\output\\pec-deck-v4\\raw-frames\\frame_0002.png",
+              "requestedTimestep": 0.03125,
+              "actualDyadicTimestep": 0.03125,
+              "depth": 6,
+              "timestepError": 0.0,
+              "newMidpointInferences": 5,
+              "elapsedSeconds": 12.640999999974156
+            },
+            {
+              "index": 2,
+              "engine": "google-film-tfhub-v1",
+              "input0": "C:\\Users\\pedrao\\source\\repos\\GymRook\\output\\pec-deck-v4\\anchors\\anchor_00.png",
+              "input1": "C:\\Users\\pedrao\\source\\repos\\GymRook\\output\\pec-deck-v4\\anchors\\anchor_01.png",
+              "output": "C:\\Users\\pedrao\\source\\repos\\GymRook\\output\\pec-deck-v4\\raw-frames\\frame_0003.png",
+              "requestedTimestep": 0.140625,
+              "actualDyadicTimestep": 0.140625,
+              "depth": 6,
+              "timestepError": 0.0,
+              "newMidpointInferences": 3,
+              "elapsedSeconds": 6.328000000008615
+            },
+            {
+              "index": 3,
+              "engine": "google-film-tfhub-v1",
+              "input0": "C:\\Users\\pedrao\\source\\repos\\GymRook\\output\\pec-deck-v4\\anchors\\anchor_00.png",
+              "input1": "C:\\Users\\pedrao\\source\\repos\\GymRook\\output\\pec-deck-v4\\anchors\\anchor_01.png",
+              "output": "C:\\Users\\pedrao\\source\\repos\\GymRook\\output\\pec-deck-v4\\raw-frames\\frame_0004.png",
+              "requestedTimestep": 0.328125,
+              "actualDyadicTimestep": 0.328125,
+              "depth": 6,
+              "timestepError": 0.0,
+              "newMidpointInferences": 4,
+              "elapsedSeconds": 8.51600000000326
+            },
+            {
+              "index": 4,
+              "engine": "google-film-tfhub-v1",
+              "input0": "C:\\Users\\pedrao\\source\\repos\\GymRook\\output\\pec-deck-v4\\anchors\\anchor_00.png",
+              "input1": "C:\\Users\\pedrao\\source\\repos\\GymRook\\output\\pec-deck-v4\\anchors\\anchor_01.png",
+              "output": "C:\\Users\\pedrao\\source\\repos\\GymRook\\output\\pec-deck-v4\\raw-frames\\frame_0005.png",
+              "requestedTimestep": 0.59375,
+              "actualDyadicTimestep": 0.59375,
+              "depth": 6,
+              "timestepError": 0.0,
+              "newMidpointInferences": 4,
+              "elapsedSeconds": 8.203000000008615
+            },
+            {
+              "index": 5,
+              "engine": "google-film-tfhub-v1",
+              "input0": "C:\\Users\\pedrao\\source\\repos\\GymRook\\output\\pec-deck-v4\\anchors\\anchor_00.png",
+              "input1": "C:\\Users\\pedrao\\source\\repos\\GymRook\\output\\pec-deck-v4\\anchors\\anchor_01.png",
+              "output": "C:\\Users\\pedrao\\source\\repos\\GymRook\\output\\pec-deck-v4\\raw-frames\\frame_0006.png",
+              "requestedTimestep": 0.90625,
+              "actualDyadicTimestep": 0.90625,
+              "depth": 6,
+              "timestepError": 0.0,
+              "newMidpointInferences": 3,
+              "elapsedSeconds": 6.217999999993481
+            }
+          ]
+        }
+      }
+    },
+    "requestManifest": {
+      "file": "output/pec-deck-v4/interpolation-requests.json",
+      "sha256": "d1de7caa86f72012c11ae65f6bc238450602190d86722a44b20c837c12882c3b",
+      "requestCount": 37
+    },
+    "primaryRequestManifest": {
+      "file": "output/pec-deck-v4/interpolation-primary-requests.json",
+      "sha256": "38a8ee56425a53cd1b526221bad62a5e28e25d536828d46c28764215d95f8d2e",
+      "requestCount": 31
+    },
+    "subprocessCount": 2,
+    "command": [
+      "C:\\Users\\pedrao\\source\\repos\\GymRook\\.cache\\qa-pec-deck-interpolation\\python311\\python.exe",
+      "C:\\Users\\pedrao\\source\\repos\\GymRook\\.cache\\qa-pec-deck-interpolation\\rife425-batch.py",
+      "--manifest",
+      "C:\\Users\\pedrao\\source\\repos\\GymRook\\output\\pec-deck-v4\\interpolation-primary-requests.json",
+      "--model-dir",
+      "C:\\Users\\pedrao\\source\\repos\\GymRook\\.cache\\qa-pec-deck-interpolation\\rife425",
+      "--threads",
+      "8",
+      "--scale",
+      "1.0"
+    ],
+    "elapsedSeconds": 61.49597519999952
+  },
+  "frameCorrections": [
+    {
+      "index": 0,
+      "frame": 19,
+      "source": "docs/generated-frames-v4/pec-deck/frame19-edge-repair-aligned.png",
+      "sourceSha256": "02fd48cc6a9cf23ded7bb913097950169bfd70159a31a8c2a9f68322fd523888",
+      "sourceSize": [
+        512,
+        512
+      ],
+      "cropNormalized": [
+        0.5234375,
+        0.13671875,
+        0.572265625,
+        0.29296875
+      ],
+      "cropOutputPixels": [
+        268,
+        70,
+        293,
+        150
+      ],
+      "sourceCropPixelSha256": "964dbb1440ba2c701299bb75500ba897ad25e089258a9661a31761bd18717cff",
+      "featherPixels": 1.0,
+      "feather": "Cosine opacity within ROI only, measured at pixel centers.",
+      "operation": "Reuse the same already aligned generated image crop; no resize, body warp or raster repaint.",
+      "beforeSha256": "b3939faecad98a92071da3b357f00ed2c6d0ffe64f1480313083bcd3d76a1141",
+      "sha256": "059fa89524b67387adf3f63d2bba38f0651917469ef738b04de1224c9f6d2f2e",
+      "outsideRoiMaximumPixelError": 0,
+      "differingPixelCount": 1975,
+      "maximumPixelDifference": 146
+    }
+  ],
+  "preferredFormat": "MP4",
+  "fps": 24,
+  "animations": [
+    {
+      "id": "pec-deck",
+      "source": "output/pec-deck-v4/frames",
+      "frameCount": 72,
+      "fps": 24,
+      "fpsNumerator": 24,
+      "fpsDenominator": 1,
+      "durationSeconds": 3.0,
+      "width": 512,
+      "height": 512,
+      "video": "pec-deck.mp4",
+      "gif": "pec-deck.gif",
+      "poster": "pec-deck-poster.webp",
+      "gifFrames": 72,
+      "gifDurationMilliseconds": 3000,
+      "gifFrameDelaysMilliseconds": [
+        40,
+        40,
+        40,
+        50,
+        40,
+        40,
+        40,
+        40,
+        50,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        50,
+        40,
+        40,
+        40,
+        40,
+        50,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        50,
+        40,
+        40,
+        40,
+        40,
+        50,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        50,
+        40,
+        40,
+        40,
+        40,
+        50,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        50,
+        40,
+        40,
+        40,
+        40,
+        50,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        50,
+        40,
+        40,
+        40,
+        40,
+        50,
+        40,
+        40,
+        40
+      ],
+      "files": {
+        "pec-deck.mp4": {
+          "bytes": 314154,
+          "sha256": "8ec7810e2332021af636db5a5a7af64f3fcd37b82366cd009354d522682cd2e1"
+        },
+        "pec-deck.gif": {
+          "bytes": 7452863,
+          "sha256": "8c5417985ca53d5911b7e7bb36fa1178c72a4be0bb36a85da90c3a28ca8500b6"
+        },
+        "pec-deck-poster.webp": {
+          "bytes": 25010,
+          "sha256": "213f2bd19c7b7e457e4c4aeab19be82232449fe945f33f6bf7074bd3b9ecd89c"
+        }
+      },
+      "render": "generated-interpolated",
+      "reviewStatus": "Experimental continuity/perspective review; exercise execution not validated"
+    }
+  ],
+  "reviewStatus": "Experimental continuity/perspective review; exercise execution not validated"
+}

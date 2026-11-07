@@ -1,0 +1,498 @@
+[
+  {
+    "id": "incline-dumbbell-press",
+    "source": "docs/generated-frames-v2/incline-dumbbell-press.png",
+    "sourceFramesUsed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "gifFrames": 16,
+    "bytes": 1346702,
+    "cycleMilliseconds": 1760,
+    "palette": "one shared 192-color palette, no dithering",
+    "registrations": [
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 1.0,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9923,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9952,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9888,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9842,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9812,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9762,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.971,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": -1,
+        "confidence": 0.997,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": -1,
+        "confidence": 0.9894,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": -1,
+        "confidence": 0.9948,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": -1,
+        "confidence": 0.9896,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9799,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9789,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": -1,
+        "confidence": 0.9774,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": -1,
+        "confidence": 0.9747,
+        "registered": true
+      }
+    ]
+  },
+  {
+    "id": "pec-deck",
+    "source": "docs/generated-frames-v2/pec-deck.png",
+    "sourceFramesUsed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "gifFrames": 16,
+    "bytes": 1666487,
+    "cycleMilliseconds": 1760,
+    "palette": "one shared 192-color palette, no dithering",
+    "registrations": [
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 1.0,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9932,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9894,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9923,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9867,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9814,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9794,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.984,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": -1,
+        "confidence": 0.9966,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": -1,
+        "confidence": 0.9906,
+        "registered": true
+      },
+      {
+        "dx": -1,
+        "dy": -1,
+        "confidence": 0.9911,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": -1,
+        "confidence": 0.9866,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.986,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9811,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9783,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9804,
+        "registered": true
+      }
+    ]
+  },
+  {
+    "id": "push-up",
+    "source": "docs/generated-frames-v2/push-up.png",
+    "sourceFramesUsed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "gifFrames": 16,
+    "bytes": 770064,
+    "cycleMilliseconds": 1760,
+    "palette": "one shared 192-color palette, no dithering",
+    "registrations": [
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 1.0,
+        "registered": true
+      },
+      {
+        "dx": -1,
+        "dy": 0,
+        "confidence": 0.9854,
+        "registered": true
+      },
+      {
+        "dx": -1,
+        "dy": 0,
+        "confidence": 0.9981,
+        "registered": true
+      },
+      {
+        "dx": -1,
+        "dy": 0,
+        "confidence": 0.9902,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9777,
+        "registered": true
+      },
+      {
+        "dx": -1,
+        "dy": 0,
+        "confidence": 0.9817,
+        "registered": true
+      },
+      {
+        "dx": -1,
+        "dy": 0,
+        "confidence": 0.9742,
+        "registered": true
+      },
+      {
+        "dx": -1,
+        "dy": 0,
+        "confidence": 0.9801,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": -1,
+        "confidence": 0.979,
+        "registered": true
+      },
+      {
+        "dx": -1,
+        "dy": -1,
+        "confidence": 0.9804,
+        "registered": true
+      },
+      {
+        "dx": -1,
+        "dy": -1,
+        "confidence": 0.9835,
+        "registered": true
+      },
+      {
+        "dx": -1,
+        "dy": -1,
+        "confidence": 0.9841,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9652,
+        "registered": true
+      },
+      {
+        "dx": -1,
+        "dy": 0,
+        "confidence": 0.9836,
+        "registered": true
+      },
+      {
+        "dx": -1,
+        "dy": 0,
+        "confidence": 0.9805,
+        "registered": true
+      },
+      {
+        "dx": -1,
+        "dy": 0,
+        "confidence": 0.9854,
+        "registered": true
+      }
+    ]
+  },
+  {
+    "id": "reverse-cable-curl",
+    "source": "docs/generated-frames-v2/reverse-cable-curl.png",
+    "sourceFramesUsed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "gifFrames": 16,
+    "bytes": 1332722,
+    "cycleMilliseconds": 1760,
+    "palette": "one shared 192-color palette, no dithering",
+    "registrations": [
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 1.0,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9906,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9903,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9857,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": -1,
+        "confidence": 0.979,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": -1,
+        "confidence": 0.9766,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9767,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.975,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": -1,
+        "confidence": 0.9949,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": -1,
+        "confidence": 0.9895,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": -1,
+        "confidence": 0.9892,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": -1,
+        "confidence": 0.9841,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": -1,
+        "confidence": 0.9794,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": -1,
+        "confidence": 0.9767,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9748,
+        "registered": true
+      },
+      {
+        "dx": 0,
+        "dy": 0,
+        "confidence": 0.9731,
+        "registered": true
+      }
+    ]
+  }
+]

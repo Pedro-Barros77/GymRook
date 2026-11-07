@@ -1,0 +1,32 @@
+{
+  "revision": "v5",
+  "frameSize": [512, 512],
+  "protectedBelowY": 164,
+  "baseSnapshotManifest": "../../../backups/pec-deck-v4-before-structure-20261107/snapshot-manifest.json",
+  "baseFrames": "../../../backups/pec-deck-v4-before-structure-20261107/output/pec-deck-v4/frames",
+  "baseReport": "../../../backups/pec-deck-v4-before-structure-20261107/docs/pec-deck-v4-build.json",
+  "cleanPlate": {
+    "file": "upper-clean-canonical.png",
+    "regionPixels": [209, 57, 235, 92],
+    "maskFile": "column-mask.png",
+    "featherPixels": 0
+  },
+  "cleanupFrames": {
+    "directory": "cleanup-frames",
+    "pattern": "frame_{frame:04d}.png",
+    "manifest": "manifest.json"
+  },
+  "leverFrames": {
+    "directory": "rigid-levers/frames",
+    "pattern": "frame_{frame:04d}.png",
+    "manifest": "rigid-levers/manifest.json"
+  },
+  "foregroundLayers": [
+    {
+      "file": "upper-clean-canonical.png",
+      "regionPixels": [205, 27, 360, 63],
+      "maskFile": "fixed-pivot-caps-mask.png",
+      "featherPixels": 0
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "revision": "v5",
+  "generationMode": "built-in image_gen edit, once for the shared clean plate",
+  "prompt": "Use case: precise-object-edit. Asset: ONE fixed clean background plate for an existing exercise animation. Image1 is the EDIT TARGET, the approved closed pose; image2 is a supporting reference exposing parts of the same machine/background. Remove ONLY the TWO MOVING SILVER LEVER ARMS that descend from the black overhead pivot housings to the handgrips, including their silver rings immediately ABOVE the black grips. These are the two diagonal curved silver booms in front of/alongside the man's head. Reconstruct the plain off-white background, the COMPLETE STRAIGHT VERTICAL steel post behind the chair/backrest, and any face/hair/background pixels hidden by those silver booms. Keep the man's head, identity, face, hair, neck, shoulders, body, arms, hands, black grips, shorts, legs and shoes absolutely unchanged and in the exact same place as Image1. Keep the entire FIXED machine frame: left weight tower, upper horizontal crossbeam, the two black cylindrical axle housings, vertical supporting post, backrest, seat and floor base. The post behind the chair must remain one uninterrupted straight solid gray structural piece from the overhead frame down behind the backrest; do not erase its upper exposed section. This is a background-only plate: the moving silver booms will be overlaid afterward as separate rigid pieces. No new camera, scene shift, material or color changes. No redrawing anatomy, no new pose, no transparency or blur. Keep exact framing/scale. A single full square image, same realistic colored illustration; no labels or marks.",
+  "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b26c-8c92-7253-ac21-547f0416b759\\exec-764769be-f487-4864-b581-7825f7896278.png",
+  "projectAssets": {
+    "generated": "docs/generated-frames-v5/pec-deck/upper-clean-generated.png",
+    "aligned": "docs/generated-frames-v5/pec-deck/upper-clean-plate.png",
+    "canonicalComposition": "docs/generated-frames-v5/pec-deck/upper-clean-canonical.png",
+    "materialAndRigidFrames": "docs/generated-frames-v5/pec-deck/rigid-levers"
+  },
+  "continuityMethod": "Reuse canonical face/post/frame pixels and the same textured 3D equipment mesh at every frame; vary rigid rotation only. Compare every neighboring frame with onion-skin transparency. Do not regenerate the fixed scene or human per frame."
+}
+

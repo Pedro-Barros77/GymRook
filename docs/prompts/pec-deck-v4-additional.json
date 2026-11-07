@@ -1,0 +1,93 @@
+{
+  "exercise": "pec-deck",
+  "revision": "v4",
+  "purpose": "Additional short-step poses after rejecting optical-flow ghosting with sparse references; unsuccessful variants retained separately.",
+  "generationMode": "built-in image_gen",
+  "records": [
+    {
+      "key": "pose00b",
+      "prompt": "Use case: scientific-educational. Asset: ONE new key pose for a fixed-camera pec-deck exercise animation. Image1 and image2 are the preceding and following poses. Generate exactly the pose GEOMETRICALLY HALFWAY between their arm/lever positions, an EARLY small closure: nearer hand halfway from346 to422; far hand halfway1088 to1071. Do NOT copy either endpoint. In the1254square, the NEAR grip center should be approximatelyx384,y465 and the FAR grip approximatelyx1080,y460. Both arms follow the same threequarter forward diagonal to image-right, with fixed overhead axles and unchanged lever lengths inperspective. Natural human shoulder horizontal adduction, softly bent elbows and neutral wrists; hands hold grips. Most important: exactly the same man, muscular anatomy, skin color and texture, face, hair, torso, legs, seat, machine tower, background, camera and lighting as references. Torso, head, feet and fixed equipment must remain absolutely still. Move only articulated arms and attached levers a small amount halfway between references. Occlusion is opaque: solid metal lever must cleanly cover the man wherever it passes in front, no double image, no transparency, no motion blur. One clean square fullresolution pose, no collage, no labels, no ghosted endpoints.",
+      "mode": "built-in image_gen",
+      "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b26c-8c92-7253-ac21-547f0416b759\\exec-8393f6d7-5d99-4471-93fd-07f7cdfa950d.png"
+    },
+    {
+      "key": "pose02b",
+      "prompt": "Use case: scientific-educational. Asset: ONE new key pose for a fixed-camera pec-deck exercise animation. Image1 and image2 are the preceding and following poses. Generate exactly the pose GEOMETRICALLY HALFWAY between their arm/lever positions, a distinct halfway pose: nearer hand halfway from422 to581; far hand halfway1071 to1060. Do NOT copy either endpoint. In the1254square, the NEAR grip center should be approximatelyx500,y465 and the FAR grip approximatelyx1066,y460. Both arms follow the same threequarter forward diagonal to image-right, with fixed overhead axles and unchanged lever lengths inperspective. Natural human shoulder horizontal adduction, softly bent elbows and neutral wrists; hands hold grips. Most important: exactly the same man, muscular anatomy, skin color and texture, face, hair, torso, legs, seat, machine tower, background, camera and lighting as references. Torso, head, feet and fixed equipment must remain absolutely still. Move only articulated arms and attached levers a small amount halfway between references. Occlusion is opaque: solid metal lever must cleanly cover the man wherever it passes in front, no double image, no transparency, no motion blur. One clean square fullresolution pose, no collage, no labels, no ghosted endpoints.",
+      "mode": "built-in image_gen",
+      "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b26c-8c92-7253-ac21-547f0416b759\\exec-46cddfc0-f8ce-439a-ad2d-e5aced02de20.png"
+    },
+    {
+      "key": "pose05e",
+      "prompt": "Use case: scientific-educational. Asset: ONE new key pose for a fixed-camera pec-deck exercise animation. Image1 and image2 are the preceding and following poses. Generate exactly the pose GEOMETRICALLY HALFWAY between their arm/lever positions, a distinct almost-closed intermediate pose: nearer hand halfway from736 to831; far hand halfway1016 to986. Do NOT copy either endpoint. In the1254square, the NEAR grip center should be approximatelyx785,y465 and the FAR grip approximatelyx1001,y460. Both arms follow the same threequarter forward diagonal to image-right, with fixed overhead axles and unchanged lever lengths inperspective. Natural human shoulder horizontal adduction, softly bent elbows and neutral wrists; hands hold grips. Most important: exactly the same man, muscular anatomy, skin color and texture, face, hair, torso, legs, seat, machine tower, background, camera and lighting as references. Torso, head, feet and fixed equipment must remain absolutely still. Move only articulated arms and attached levers a small amount halfway between references. Occlusion is opaque: solid metal lever must cleanly cover the man wherever it passes in front, no double image, no transparency, no motion blur. One clean square fullresolution pose, no collage, no labels, no ghosted endpoints.",
+      "mode": "built-in image_gen",
+      "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b26c-8c92-7253-ac21-547f0416b759\\exec-6d11a182-49ce-4910-bebb-7510b2416a40.png"
+    },
+    {
+      "key": "denseSheet",
+      "prompt": "Use case: scientific-educational exercise-animation KEYFRAME SPRITE SHEET. Generate a WIDE rectangular clean image containing EXACTLY EIGHT square panels in FOUR COLUMNS and TWO ROWS, 4x2 grid, all equal square cells, no gutters, no dividers, no labels. Total aspect ratio2:1; request high resolution 3072x1536 or higher if possible so every full-body panel is sharp. Read panels left-to-right then nextrow. The first attached image is pose1, second attached image is pose8. Both are the SAME stationary camera and scene of a muscular man on a pec-deck machine facing diagonally FORWARD-RIGHT in threequarter perspective. Show ONLY THE SHORT EARLY CLOSURE BETWEEN THESE TWO ATTACHED POSES, not a full fly to hands-together. In EACH panel the whole man and whole machine remain framed exactly as references. Panel1 matchesreference1;panel8 matchesreference2. Panels2..7 divide the small arm/lever movement into six distinct evenly spaced in-betweens: near grip progresses at source-equivalent x422,445,468,491,514,536,559,581 out of1254; far grip x1071,1070,1068,1067,1065,1064,1062,1060. No repeated still panels followed by a jump. All eight near-hand positions must be different and gradually move toward image-right in the same diagonal as machine/bank. Same lever hardware/lengths, rigid overhead pivots and neutral grip, soft elbows, no backwards limbs. The torso, head, legs, face, skin texture/color, shorts, shoes, seat, tower, frame, lighting, background and CAMERA are absolutely identical in every cell; ONLY arms and lever move very slightly. Metal is fully opaque when it crosses in front of the face, no transparent lever, no duplicated limb or blur. This is a clean sprite sheet, not a comic; absolutely no words or numbers. Closely match the two references. Do NOT progress past reference2 toward fullclosed, and do NOT use a new frontal camera.",
+      "mode": "built-in image_gen",
+      "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b26c-8c92-7253-ac21-547f0416b759\\exec-7e987653-5bc2-4c5d-a807-790b652fc64e.png"
+    },
+    {
+      "key": "earlySmall",
+      "prompt": "Precise local exercise-pose edit. Move the nearer black handle (left in image) a LITTLE LEFT, about40pixels fromx422 tox382, opening the near arm very slightly. Move the far handle a LITTLE RIGHT fromx1071 tox1080. This is a tiny EARLY OPENING step, not closing. All coordinates are in the1254square reference. Keep the hands gripping the same black vertical handles, rotate the attached overhead levers about their FIXED axles to follow the hands in the same threequarter view pointing forward diagonally RIGHT. Soft elbow bend, natural anatomy and wristalignment. Keep the rest of the exact reference completely frozen: face, head, torso, legs, feet, seat, frame, tower, lighting, skin colors and textures, camera and background. Do not make a larger posechange, do not recompose the image. The small movement must be clearly different from the reference but much less than a full repetition. Solid opaque metal, no blur or doubleimages. One fullsquare illustration, no marks, text or grid.",
+      "mode": "built-in image_gen",
+      "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b26c-8c92-7253-ac21-547f0416b759\\exec-4782016a-a13f-4fd5-b999-ab79220e4f31.png"
+    },
+    {
+      "key": "midSmall",
+      "prompt": "Precise local exercise-pose edit. Move the nearer black handle a modest amount LEFT, about80pixels fromx581 tox501, opening the near arm slightly. Move the far handle only5pixels RIGHT fromx1060 tox1065. This is a small OPENING step, not closing. All coordinates are in the1254square reference. Keep the hands gripping the same black vertical handles, rotate the attached overhead levers about their FIXED axles to follow the hands in the same threequarter view pointing forward diagonally RIGHT. Soft elbow bend, natural anatomy and wristalignment. Keep the rest of the exact reference completely frozen: face, head, torso, legs, feet, seat, frame, tower, lighting, skin colors and textures, camera and background. Do not make a larger posechange, do not recompose the image. The small movement must be clearly different from the reference but much less than a full repetition. Solid opaque metal, no blur or doubleimages. One fullsquare illustration, no marks, text or grid.",
+      "mode": "built-in image_gen",
+      "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b26c-8c92-7253-ac21-547f0416b759\\exec-89b406af-e442-4db8-ac52-ee7d82fda285.png"
+    },
+    {
+      "key": "crossSmall",
+      "prompt": "Precise local exercise-pose edit. Move the nearer black handle a LITTLE LEFT, about40pixels fromx736 tox696, opening the near arm very slightly. Move the far handle a LITTLE RIGHT, about10pixels fromx1016 tox1026. This is a tiny OPENING step, not closing. All coordinates are in the1254square reference. Keep the hands gripping the same black vertical handles, rotate the attached overhead levers about their FIXED axles to follow the hands in the same threequarter view pointing forward diagonally RIGHT. Soft elbow bend, natural anatomy and wristalignment. Keep the rest of the exact reference completely frozen: face, head, torso, legs, feet, seat, frame, tower, lighting, skin colors and textures, camera and background. Do not make a larger posechange, do not recompose the image. The small movement must be clearly different from the reference but much less than a full repetition. Solid opaque metal, no blur or doubleimages. One fullsquare illustration, no marks, text or grid.",
+      "mode": "built-in image_gen",
+      "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b26c-8c92-7253-ac21-547f0416b759\\exec-750f4a31-c6fd-42d6-bc4a-3ff8c127ab96.png"
+    },
+    {
+      "key": "midEarlySmall",
+      "prompt": "Precise local exercise-pose edit. Move the near black grip a LITTLE LEFT, about45pixels fromx516 tox471, and move the far black grip a tiny amount LEFT, about2pixels fromx1073 tox1071. Keep the far arm almost unchanged. It is a very small OPENING of the near arm. All coordinates in1254square. This is only a TINY pose change; do not perform a fullfly, don't make a larger motion. Hands hold exactlythe same black grips, attached silverlevers pivot around their unchanged overhead axles. Same threequarter diagonal forward-right, not toward viewer. Natural shoulder/elbow anatomy, softly bent elbows, straight wrists. Keep the rest of reference EXACTLY frozen: manidentity, face, torso, shoulders, legs, feet, muscledefinition, skincolor and skintexture, machine frame/tower, bench, light, framing, camera and background. Do not shift the scene or change textures. Solid opaque metal, no ghosted limbs or motionblur. One clean fullsquare illustration without text or guides.",
+      "mode": "built-in image_gen",
+      "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b26c-8c92-7253-ac21-547f0416b759\\exec-c37ff4a8-b929-42e6-89a2-d25da4b83979.png"
+    },
+    {
+      "key": "lateSmall",
+      "prompt": "Precise local exercise-pose edit. Move the near black grip a LITTLE LEFT, about45pixels fromx831 tox786, and move the far black grip a LITTLE RIGHT, about15pixels fromx986 tox1001. This slightly OPENS the arms. All coordinates in1254square. This is only a TINY pose change; do not perform a fullfly, don't make a larger motion. Hands hold exactlythe same black grips, attached silverlevers pivot around their unchanged overhead axles. Same threequarter diagonal forward-right, not toward viewer. Natural shoulder/elbow anatomy, softly bent elbows, straight wrists. Keep the rest of reference EXACTLY frozen: manidentity, face, torso, shoulders, legs, feet, muscledefinition, skincolor and skintexture, machine frame/tower, bench, light, framing, camera and background. Do not shift the scene or change textures. Solid opaque metal, no ghosted limbs or motionblur. One clean fullsquare illustration without text or guides.",
+      "mode": "built-in image_gen",
+      "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b26c-8c92-7253-ac21-547f0416b759\\exec-0aa57fd0-6b5f-4f89-9ca6-a617168d6c85.png"
+    },
+    {
+      "key": "preCrossSmall",
+      "prompt": "Precise local exercise-pose edit. Move the near black grip a LITTLE LEFT, about40pixels fromx720 tox680, and move the far black grip a LITTLE RIGHT, about8pixels fromx1038 tox1046. This slightly OPENS the arms. Keep the metal fully opaque over the face. All coordinates in1254square. This is only a TINY pose change; do not perform a fullfly, don't make a larger motion. Hands hold exactlythe same black grips, attached silverlevers pivot around their unchanged overhead axles. Same threequarter diagonal forward-right, not toward viewer. Natural shoulder/elbow anatomy, softly bent elbows, straight wrists. Keep the rest of reference EXACTLY frozen: manidentity, face, torso, shoulders, legs, feet, muscledefinition, skincolor and skintexture, machine frame/tower, bench, light, framing, camera and background. Do not shift the scene or change textures. Solid opaque metal, no ghosted limbs or motionblur. One clean fullsquare illustration without text or guides.",
+      "mode": "built-in image_gen",
+      "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b26c-8c92-7253-ac21-547f0416b759\\exec-979ba201-b6e7-4ae8-96d4-b0974e9fd494.png"
+    },
+    {
+      "key": "midLateSmall",
+      "prompt": "Precise local exercise illustration edit. Move the near black grip only about30pixels LEFT, fromcenterx581 tox551, whilethe far black grip moves5pixels RIGHT, fromx1060 tox1065. This is a tiny opening step. Keep lever length and fixed overhead pivots. Hands still grip, natural soft elbow and neutral wrist. All coordsarein1254square. Do not make a larger pose change. Keep the same muscular man's identity, face, head, torso, shoulders, skintexture/color, legs, feet, seat, machinetower, frame, light, camera/framing and background absolutely unchanged. Same threequarter view: machine closes forward diagonally to image-right. Fully opaque metal and arms where occludingface, no motionblur, no duplicates. Do not change materials or bodyproportions. A single fullresolution square image without text, marks or panels.",
+      "mode": "built-in image_gen",
+      "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b26c-8c92-7253-ac21-547f0416b759\\exec-f98e1d10-c9a6-4f74-9923-e5c024da2b30.png"
+    },
+    {
+      "key": "preCrossRepair",
+      "prompt": "Precise local exercise illustration edit. Change ONLY the FAR hand and FAR silver lever/black grip, the RIGHTMOST handle. Move it slightly LEFT by20pixels, fromroughlyx1060 tox1040, using its same fixed upper pivot. The NEAR hand and lever at x690 must stay ABSOLUTELY frozen, no shape or position changes. This is a small correction to the far lever position only; keep near arm/lever untouched. All coordsarein1254square. Do not make a larger pose change. Keep the same muscular man's identity, face, head, torso, shoulders, skintexture/color, legs, feet, seat, machinetower, frame, light, camera/framing and background absolutely unchanged. Same threequarter view: machine closes forward diagonally to image-right. Fully opaque metal and arms where occludingface, no motionblur, no duplicates. Do not change materials or bodyproportions. A single fullresolution square image without text, marks or panels.",
+      "mode": "built-in image_gen",
+      "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b26c-8c92-7253-ac21-547f0416b759\\exec-2bab7e51-cfa7-4dc4-8439-f3f7de275e4c.png"
+    },
+    {
+      "key": "preCrossTiny",
+      "prompt": "A very tiny LOCAL position correction. Move ONLY the FAR rightmost hand+blackhandle+silverlever left by about5pixels in this1254square, fromx1054 tox1049. This is almost imperceptible: just halfacentimeter, not a full opening/closing. Keep the nearer left-on-image arm, hand andlever EXACTLY frozen, no changes at all; keep camera, upper pivots, man'sface/torso/legs, skintextures, color, clothing, seat and wholemachine/background absolutely unchanged. Only the far lever pivots a tinyfraction towardthemidline, with the far hand stillgripping and far shoulder fixed. Natural soft elbow, neutralwrist. Fullyopaquemetal, clean edges, no blur, no ghost. Do not move it too far left: the far handle remainswellouttoimage-right. One square image, no text, guides or panels.",
+      "mode": "built-in image_gen",
+      "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b26c-8c92-7253-ac21-547f0416b759\\exec-fead66b1-60c4-4844-b6d6-cc2cb59d817b.png"
+    },
+    {
+      "key": "lateFarTiny",
+      "prompt": "A very tiny LOCAL position correction. Move ONLY the FAR rightmost hand+blackhandle+silverlever left by about8pixels in this1254square, fromx1016 tox1008. This is almost imperceptible: just halfacentimeter, not a full opening/closing. Keep the nearer left-on-image arm, hand andlever EXACTLY frozen, no changes at all; keep camera, upper pivots, man'sface/torso/legs, skintextures, color, clothing, seat and wholemachine/background absolutely unchanged. Only the far lever pivots a tinyfraction towardthemidline, with the far hand stillgripping and far shoulder fixed. Natural soft elbow, neutralwrist. Fullyopaquemetal, clean edges, no blur, no ghost. Do not move it too far left: the far handle remainswellouttoimage-right. One square image, no text, guides or panels.",
+      "mode": "built-in image_gen",
+      "generatedPath": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b26c-8c92-7253-ac21-547f0416b759\\exec-a86d80d1-f07a-4c18-84b9-40f43f5f054c.png"
+    }
+  ]
+}
+

@@ -1,0 +1,13 @@
+{
+  "canonical": "backups\\pec-deck-v4-before-structure-20261107\\output\\pec-deck-v4\\frames\\frame_0037.png",
+  "canonicalSha256": "d550a26fce36d15847f54aaabe583bf55abfc342215e6aa11ac852b63826e82d",
+  "generatedEdit": "docs\\generated-frames-v5\\pec-deck\\upper-clean-plate.png",
+  "generatedSha256": "9f623ef08c60f3e7176031009b7632f3164b1fb45326af884be9810d6c2e2042",
+  "output": "docs\\generated-frames-v5\\pec-deck\\upper-clean-canonical.png",
+  "outputSha256": "c4da69487259efe80b0bfae1dab9b7916d1c45ed2b4d8fa5fd84d16f2521da6a",
+  "removedBoomPixels": 9069,
+  "foregroundCapPixels": 1797,
+  "colorMatch": "Second-order RGB exposure bias fitted only to shared unobstructed neutral background.",
+  "canonicalPostMaximumPixelError": 0,
+  "canonicalSceneRule": "All original pixels are preserved outside old boom removal and fixed pivot drum masks; no human is regenerated per frame."
+}
