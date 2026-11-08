@@ -1,0 +1,329 @@
+{
+  "status": "candidate: actual junction images require independent/root review",
+  "radiusPixels": 152,
+  "endpointInsideDarkCushionAll19": true,
+  "endpointSampling": "3x3 actual final RGB neighborhood max<145; supplemented by visual pad-silhouette review",
+  "sourceIndex": {
+    "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/source-index-native-v2.json",
+    "sha256": "123fdda6a95c24eda763d8a83fbe8c61eae05a27c05b2d945902e78e3980f452"
+  },
+  "frames": [
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0001.png",
+      "sha256": "42bad46f149ad2e59a807c893012c319e0038a95b77457f31b705b8d83fd06b4"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0002.png",
+      "sha256": "f10be25bb618b134dad2de90e1c4f884b92e6398c18ccb957d23b633b051e880"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0003.png",
+      "sha256": "704dfb9c19be3256cf0c64f1db8e246d008e8e5a732f93c330f731651c543748"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0004.png",
+      "sha256": "ef8616923713f325fa6674e18f589c2b1020d8733b0ccbd85b893fbef108b14b"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0005.png",
+      "sha256": "7c25eb792680daeed19f6a94f4253943e17bffa3467e59e885547e109eccf27b"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0006.png",
+      "sha256": "1c4a215d9738179a786a800743824d169909e097f19c19896cc43072707bbe7c"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0007.png",
+      "sha256": "5c67cf7e004e46483c15bbcedd8e37decbbf3799028bbe84691d2fa6cfb56d00"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0008.png",
+      "sha256": "c5a5bd916082f5a37a7898ea775db3f872c6d9f126345c527fc363ac8bb195c3"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0009.png",
+      "sha256": "f917f904596edf380f165101a7372d1f26496a650dd4b987a3a0893bf2b7aeb8"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0010.png",
+      "sha256": "40d786e39a131d50f4e7fcf7460ae11532a857dbe5ffacca6c5263a7dee4dce8"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0011.png",
+      "sha256": "8f2e69dbcf2cf6061f5e41f81acfcca9be8d1ef947d847d1042506b33ab9137f"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0012.png",
+      "sha256": "40fdb8bc322dbe170e428af689d53682cc099d87b850ef413a035cdd888d6c7d"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0013.png",
+      "sha256": "cd55afae5602ce7e5eda6ac8d0557f2f370944a054d7089a65bda0f55ae63df8"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0014.png",
+      "sha256": "6360d1c45f35a6e9ba7b00f6224c011b1dd775942622d06f42641c30e2d8c70a"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0015.png",
+      "sha256": "571f553bb33206c21b77258e835909179b6714b80addf3a2f47651a1a322a146"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0016.png",
+      "sha256": "cc23362edd98a16487b1986dc0ad15f0dde51cc0589f9e228c2d2858230208bd"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0017.png",
+      "sha256": "45c5b67a9baa3fb876fd29225d582474996dcc623b423d18d8d879fcf568bf01"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0018.png",
+      "sha256": "65f69b795e9eab89c310c28e08d702a8461ca461b928ad52def54519826e5ce2"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0019.png",
+      "sha256": "d2b4ac5948a3d93ecef36536d7206a07e6d167297f29ebaa8bfbd90399ee0f66"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0020.png",
+      "sha256": "65f69b795e9eab89c310c28e08d702a8461ca461b928ad52def54519826e5ce2"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0021.png",
+      "sha256": "45c5b67a9baa3fb876fd29225d582474996dcc623b423d18d8d879fcf568bf01"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0022.png",
+      "sha256": "cc23362edd98a16487b1986dc0ad15f0dde51cc0589f9e228c2d2858230208bd"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0023.png",
+      "sha256": "571f553bb33206c21b77258e835909179b6714b80addf3a2f47651a1a322a146"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0024.png",
+      "sha256": "6360d1c45f35a6e9ba7b00f6224c011b1dd775942622d06f42641c30e2d8c70a"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0025.png",
+      "sha256": "cd55afae5602ce7e5eda6ac8d0557f2f370944a054d7089a65bda0f55ae63df8"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0026.png",
+      "sha256": "40fdb8bc322dbe170e428af689d53682cc099d87b850ef413a035cdd888d6c7d"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0027.png",
+      "sha256": "8f2e69dbcf2cf6061f5e41f81acfcca9be8d1ef947d847d1042506b33ab9137f"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0028.png",
+      "sha256": "40d786e39a131d50f4e7fcf7460ae11532a857dbe5ffacca6c5263a7dee4dce8"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0029.png",
+      "sha256": "f917f904596edf380f165101a7372d1f26496a650dd4b987a3a0893bf2b7aeb8"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0030.png",
+      "sha256": "c5a5bd916082f5a37a7898ea775db3f872c6d9f126345c527fc363ac8bb195c3"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0031.png",
+      "sha256": "5c67cf7e004e46483c15bbcedd8e37decbbf3799028bbe84691d2fa6cfb56d00"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0032.png",
+      "sha256": "1c4a215d9738179a786a800743824d169909e097f19c19896cc43072707bbe7c"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0033.png",
+      "sha256": "7c25eb792680daeed19f6a94f4253943e17bffa3467e59e885547e109eccf27b"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0034.png",
+      "sha256": "ef8616923713f325fa6674e18f589c2b1020d8733b0ccbd85b893fbef108b14b"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0035.png",
+      "sha256": "704dfb9c19be3256cf0c64f1db8e246d008e8e5a732f93c330f731651c543748"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0036.png",
+      "sha256": "f10be25bb618b134dad2de90e1c4f884b92e6398c18ccb957d23b633b051e880"
+    }
+  ],
+  "samples": [
+    {
+      "frame": 1,
+      "endpointPixels": [
+        300.5806915945392,
+        195.93825964692095
+      ],
+      "endpoint3x3MaxRGB": 66,
+      "radiusPixels": 152.0
+    },
+    {
+      "frame": 2,
+      "endpointPixels": [
+        300.5870150594362,
+        195.9482908378589
+      ],
+      "endpoint3x3MaxRGB": 66,
+      "radiusPixels": 151.99999999999994
+    },
+    {
+      "frame": 3,
+      "endpointPixels": [
+        302.36804253369127,
+        198.84519537524474
+      ],
+      "endpoint3x3MaxRGB": 66,
+      "radiusPixels": 152.0
+    },
+    {
+      "frame": 4,
+      "endpointPixels": [
+        305.13143939545273,
+        203.65138144112797
+      ],
+      "endpoint3x3MaxRGB": 67,
+      "radiusPixels": 152.00000000000003
+    },
+    {
+      "frame": 5,
+      "endpointPixels": [
+        308.49886760378746,
+        210.12654380934316
+      ],
+      "endpoint3x3MaxRGB": 68,
+      "radiusPixels": 152.0
+    },
+    {
+      "frame": 6,
+      "endpointPixels": [
+        311.43804465676936,
+        216.49353999532948
+      ],
+      "endpoint3x3MaxRGB": 68,
+      "radiusPixels": 152.0
+    },
+    {
+      "frame": 7,
+      "endpointPixels": [
+        314.68595698031794,
+        224.6099467397593
+      ],
+      "endpoint3x3MaxRGB": 68,
+      "radiusPixels": 152.0
+    },
+    {
+      "frame": 8,
+      "endpointPixels": [
+        317.3013646748067,
+        232.37362412609747
+      ],
+      "endpoint3x3MaxRGB": 68,
+      "radiusPixels": 151.99999999999994
+    },
+    {
+      "frame": 9,
+      "endpointPixels": [
+        319.4729546471359,
+        240.1797929440396
+      ],
+      "endpoint3x3MaxRGB": 67,
+      "radiusPixels": 152.0
+    },
+    {
+      "frame": 10,
+      "endpointPixels": [
+        321.863193655343,
+        251.60269330379398
+      ],
+      "endpoint3x3MaxRGB": 65,
+      "radiusPixels": 152.0
+    },
+    {
+      "frame": 11,
+      "endpointPixels": [
+        323.34274224378316,
+        262.88000105765536
+      ],
+      "endpoint3x3MaxRGB": 64,
+      "radiusPixels": 152.0
+    },
+    {
+      "frame": 12,
+      "endpointPixels": [
+        323.9059953733257,
+        271.65504259706984
+      ],
+      "endpoint3x3MaxRGB": 60,
+      "radiusPixels": 151.99999999999997
+    },
+    {
+      "frame": 13,
+      "endpointPixels": [
+        323.994462414734,
+        278.29745722704126
+      ],
+      "endpoint3x3MaxRGB": 55,
+      "radiusPixels": 151.99999999999997
+    },
+    {
+      "frame": 14,
+      "endpointPixels": [
+        323.92355433646253,
+        281.8201283982802
+      ],
+      "endpoint3x3MaxRGB": 52,
+      "radiusPixels": 151.99999999999997
+    },
+    {
+      "frame": 15,
+      "endpointPixels": [
+        323.8186791678129,
+        284.42217324917084
+      ],
+      "endpoint3x3MaxRGB": 48,
+      "radiusPixels": 152.00000000000003
+    },
+    {
+      "frame": 16,
+      "endpointPixels": [
+        323.59047452489983,
+        288.1502481279876
+      ],
+      "endpoint3x3MaxRGB": 51,
+      "radiusPixels": 152.0
+    },
+    {
+      "frame": 17,
+      "endpointPixels": [
+        323.35920110522085,
+        290.9424617908499
+      ],
+      "endpoint3x3MaxRGB": 56,
+      "radiusPixels": 152.0
+    },
+    {
+      "frame": 18,
+      "endpointPixels": [
+        323.1774393436768,
+        292.7918280603903
+      ],
+      "endpoint3x3MaxRGB": 54,
+      "radiusPixels": 152.0
+    },
+    {
+      "frame": 19,
+      "endpointPixels": [
+        323.17743175995497,
+        292.79190066027996
+      ],
+      "endpoint3x3MaxRGB": 54,
+      "radiusPixels": 151.99999999999997
+    }
+  ]
+}

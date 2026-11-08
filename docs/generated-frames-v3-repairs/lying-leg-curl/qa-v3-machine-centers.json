@@ -1,0 +1,131 @@
+{
+  "method": "Matched circular visible cap and axle in actual512rasters; not bone measurement.",
+  "poses": [
+    {
+      "pose": 0,
+      "padCenter": [
+        74,
+        238
+      ],
+      "pivot": [
+        159,
+        275
+      ],
+      "radius": 92.70382947861431,
+      "padScore": 1.0,
+      "pivotScore": 0.9999973177909851
+    },
+    {
+      "pose": 1,
+      "padCenter": [
+        77,
+        224
+      ],
+      "pivot": [
+        158,
+        275
+      ],
+      "radius": 95.71833680126291,
+      "padScore": 0.9408592581748962,
+      "pivotScore": 0.9069821834564209
+    },
+    {
+      "pose": 2,
+      "padCenter": [
+        87,
+        205
+      ],
+      "pivot": [
+        157,
+        275
+      ],
+      "radius": 98.99494936611666,
+      "padScore": 0.9787564277648926,
+      "pivotScore": 0.8895497918128967
+    },
+    {
+      "pose": 3,
+      "padCenter": [
+        104,
+        194
+      ],
+      "pivot": [
+        158,
+        275
+      ],
+      "radius": 97.3498844375277,
+      "padScore": 0.943120539188385,
+      "pivotScore": 0.8929762840270996
+    },
+    {
+      "pose": 4,
+      "padCenter": [
+        109,
+        186
+      ],
+      "pivot": [
+        158,
+        275
+      ],
+      "radius": 101.59724405711013,
+      "padScore": 0.9831779599189758,
+      "pivotScore": 0.8988929986953735
+    },
+    {
+      "pose": 5,
+      "padCenter": [
+        124,
+        176
+      ],
+      "pivot": [
+        157,
+        275
+      ],
+      "radius": 104.35516278555652,
+      "padScore": 0.965461790561676,
+      "pivotScore": 0.8955115079879761
+    },
+    {
+      "pose": 6,
+      "padCenter": [
+        130,
+        173
+      ],
+      "pivot": [
+        158,
+        275
+      ],
+      "radius": 105.77334257741882,
+      "padScore": 0.9639719724655151,
+      "pivotScore": 0.8767794370651245
+    },
+    {
+      "pose": 7,
+      "padCenter": [
+        141,
+        177
+      ],
+      "pivot": [
+        157,
+        275
+      ],
+      "radius": 99.29753269845128,
+      "padScore": 0.9286750555038452,
+      "pivotScore": 0.8428057432174683
+    },
+    {
+      "pose": 8,
+      "padCenter": [
+        157,
+        179
+      ],
+      "pivot": [
+        157,
+        275
+      ],
+      "radius": 96.0,
+      "padScore": 0.9417673349380493,
+      "pivotScore": 0.8345689177513123
+    }
+  ]
+}

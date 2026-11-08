@@ -1,0 +1,23 @@
+{
+  "reason": "Only frozen evidence path relocation into Git-tracked docs; identical byte SHA and unchanged72 reviewed PNGs. No source motion/timing edits and no RIFE.",
+  "relocations": [
+    {
+      "from": "output/repair-animations/candidates/lunge-retime-v2/study-result.json",
+      "to": "docs/generated-frames-v3-repairs/alternating-lunge/timing-v2/study-result.json",
+      "sha256": "1c99ef46dfbd3b6b57b7092fb0a96df789d3e96b70d52d7ffb8effe1a42d3231"
+    },
+    {
+      "from": "output/repair-animations/candidates/lunge-retime-v2/independent-timing-review.json",
+      "to": "docs/generated-frames-v3-repairs/alternating-lunge/timing-v2/independent-timing-review.json",
+      "sha256": "3ca0edf9ba3a534765d710061a7c4b397eb10bc59210a5a48fe3be52b6f6ab91"
+    },
+    {
+      "from": "output/repair-animations/candidates/lunge-retime-v2/actual-foot-comparison.json",
+      "to": "docs/generated-frames-v3-repairs/alternating-lunge/timing-v2/actual-foot-comparison.json",
+      "sha256": "d0051f38bc76a2726097e1d308c91599155a8f47160a6ac281261c9ee21052b2"
+    }
+  ],
+  "previousFrameSpecSha256": "a59255fc7cdd9d5420c24dde34ded7d951a1cb7506a0a4a8238d6133ff47a96f",
+  "relocatedFrameSpecSha256": "dff93041ff92263271f9104ac8f1b0dbc5da741c01c01b74cf41945c9ab83b68",
+  "unchangedFrameDigestBin32": "e157e892743d216f76054ed19f0fe24979f205de06a523ec21c90c1ca45d74aa"
+}

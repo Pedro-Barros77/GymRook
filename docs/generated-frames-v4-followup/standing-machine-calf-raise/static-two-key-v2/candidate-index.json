@@ -1,0 +1,429 @@
+{
+  "id": "standing-machine-calf-raise",
+  "status": "Candidate only; original2key foot inference and foreground/step contours still need full visual review",
+  "generator": "scripts/compose-incline-calf-round4-v2.py",
+  "generatorSha256": "62f17dfab38925ad8a3d943620d21a0cf15284c082a465af6955b7cf35f15388",
+  "rawIndex": {
+    "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/temporal-two-key-v1/raw-index.json",
+    "sha256": "8bb0154aa36180b5fda35e73d8ef63676c0abd7321ec80ad48990ff0e4e5d96a"
+  },
+  "cleanPlate": {
+    "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v1/clean-machine-generated.png",
+    "sha256": "61704f0644c70bc0d3dd217c97573f25ced03fa1b9298ac0f795eff01a509b7c"
+  },
+  "forwardParameters": [
+    {
+      "frame": 1,
+      "phase": 0.0,
+      "weightTranslationPixels": [
+        0,
+        -0.0
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/actor-masks/actor-0001.png",
+        "sha256": "b89bc79ab5b499ce6fb978e8a35df8bcab0ac42ba48651101e86877da66239ba"
+      },
+      "skinCorePixels": 19762,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 2,
+      "phase": 0.00759612349389599,
+      "weightTranslationPixels": [
+        0,
+        -0.18990308734739975
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/actor-masks/actor-0002.png",
+        "sha256": "1744d14d594f5d691404526be44ce643dd147531b77d971c9865b9a5303657f4"
+      },
+      "skinCorePixels": 19763,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 3,
+      "phase": 0.030153689607045786,
+      "weightTranslationPixels": [
+        0,
+        -0.7538422401761447
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/actor-masks/actor-0003.png",
+        "sha256": "7b564a5295433687985cb5ec8a0933e6c6440588087eac3130b5830186a3a0a0"
+      },
+      "skinCorePixels": 19763,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 4,
+      "phase": 0.06698729810778065,
+      "weightTranslationPixels": [
+        0,
+        -1.674682452694516
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/actor-masks/actor-0004.png",
+        "sha256": "475f6e01b3c0673691223ef4a24b3dda68938495737eb01197b2cccca8c773af"
+      },
+      "skinCorePixels": 19773,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 5,
+      "phase": 0.116977778440511,
+      "weightTranslationPixels": [
+        0,
+        -2.924444461012775
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/actor-masks/actor-0005.png",
+        "sha256": "12e63575302d6e16dd1c7a31cc007c56e4cb96bb3f9b5c3bd8f6668fb053aa22"
+      },
+      "skinCorePixels": 19648,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 6,
+      "phase": 0.17860619515673032,
+      "weightTranslationPixels": [
+        0,
+        -4.465154878918258
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/actor-masks/actor-0006.png",
+        "sha256": "ac12d99bc717fbbed7a0e0f6ae5deaaf1aef4a5e525364930a1efe9c9686e4b7"
+      },
+      "skinCorePixels": 19626,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 7,
+      "phase": 0.24999999999999994,
+      "weightTranslationPixels": [
+        0,
+        -6.249999999999998
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/actor-masks/actor-0007.png",
+        "sha256": "f16ce324d147284137e33e285233a5e06c61afeeffbc8623a9102770d794c45b"
+      },
+      "skinCorePixels": 19519,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 8,
+      "phase": 0.32898992833716556,
+      "weightTranslationPixels": [
+        0,
+        -8.224748208429139
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/actor-masks/actor-0008.png",
+        "sha256": "e162c0821909b27f8805374454b7fa2a362aaf419674c85d00531141eb305da2"
+      },
+      "skinCorePixels": 19579,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 9,
+      "phase": 0.4131759111665348,
+      "weightTranslationPixels": [
+        0,
+        -10.32939777916337
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/actor-masks/actor-0009.png",
+        "sha256": "3db1d038084c29bf3463952a58f3c5a010237392ee4863330d0f1cb23f193857"
+      },
+      "skinCorePixels": 19454,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 10,
+      "phase": 0.49999999999999994,
+      "weightTranslationPixels": [
+        0,
+        -12.499999999999998
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/actor-masks/actor-0010.png",
+        "sha256": "b07906d36ab50e67b880766a952d30a4ecb3edcc7f5404157e91f0069793fb09"
+      },
+      "skinCorePixels": 19231,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 11,
+      "phase": 0.5868240888334652,
+      "weightTranslationPixels": [
+        0,
+        -14.67060222083663
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/actor-masks/actor-0011.png",
+        "sha256": "8efd472639342d103828eddb63d84d2b887b7cdcba502a567d732b08e0ac9d22"
+      },
+      "skinCorePixels": 19021,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 12,
+      "phase": 0.6710100716628342,
+      "weightTranslationPixels": [
+        0,
+        -16.775251791570856
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/actor-masks/actor-0012.png",
+        "sha256": "f5291297cce68fa04a449b12b116081fcd0dd9e1fbea6b5e652735db8459ed67"
+      },
+      "skinCorePixels": 18940,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 13,
+      "phase": 0.7499999999999999,
+      "weightTranslationPixels": [
+        0,
+        -18.749999999999996
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/actor-masks/actor-0013.png",
+        "sha256": "e8994dc5b5c703cabcdbd305019fc7a3b6b2bd65ce0969a49f954e4460d519a5"
+      },
+      "skinCorePixels": 18925,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 14,
+      "phase": 0.8213938048432696,
+      "weightTranslationPixels": [
+        0,
+        -20.53484512108174
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/actor-masks/actor-0014.png",
+        "sha256": "fc189fcc8f09f88cb8fc0d27eda2a6f8922f4f024f162b97658c007c3a043a6b"
+      },
+      "skinCorePixels": 18815,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 15,
+      "phase": 0.883022221559489,
+      "weightTranslationPixels": [
+        0,
+        -22.075555538987224
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/actor-masks/actor-0015.png",
+        "sha256": "f5e083f2b835d979fce6bcaef161b059f6f04f690a31cea3dc0bafe3f3fc689b"
+      },
+      "skinCorePixels": 18696,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 16,
+      "phase": 0.9330127018922192,
+      "weightTranslationPixels": [
+        0,
+        -23.32531754730548
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/actor-masks/actor-0016.png",
+        "sha256": "fc10ff4d0115a7fe11f5d20d1cf3204d4a611b37cad116db16684f669db54fa8"
+      },
+      "skinCorePixels": 18651,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 17,
+      "phase": 0.9698463103929542,
+      "weightTranslationPixels": [
+        0,
+        -24.246157759823856
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/actor-masks/actor-0017.png",
+        "sha256": "453789b911d5b641771b0485895c918d84e11ab7d8c52d5d3c17d1774f312c2f"
+      },
+      "skinCorePixels": 18641,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 18,
+      "phase": 0.9924038765061041,
+      "weightTranslationPixels": [
+        0,
+        -24.8100969126526
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/actor-masks/actor-0018.png",
+        "sha256": "c52eb16d00f6363ce74080e2ad79dfbb2dbdaeda1f72a809d7e36cdbd093b8f2"
+      },
+      "skinCorePixels": 18642,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 19,
+      "phase": 1.0,
+      "weightTranslationPixels": [
+        0,
+        -25.0
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/actor-masks/actor-0019.png",
+        "sha256": "9c56bad829c9b41b34b75c048cde20279cef87feea5182339eda06065577bc0b"
+      },
+      "skinCorePixels": 18641,
+      "skinCoreMaxRGBDifference": 0
+    }
+  ],
+  "sourceFrames": [
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0001.png",
+      "sha256": "9abbf24da39efaa32c2c022892aca6297086ce9f3491dad7400b55d96f5c6302"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0002.png",
+      "sha256": "59329813bf4326fd14c03350965a1cb9ed63d9e3e3a1b65916a47da7ea8c6b8a"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0003.png",
+      "sha256": "334917185e24bb60244ad2ca2b86b4176edcd7b7aa072333ff54224e57397a27"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0004.png",
+      "sha256": "29d39e60829331ccacfa5049a49e6cc884f4e122388a2ad408e14d9cc69ba503"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0005.png",
+      "sha256": "3a597c7878f981367d24dd99c7e824fd7a6442564adc6fcb48bc52c25293ea5f"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0006.png",
+      "sha256": "34e2782e065c1f9e4839af82eef209253451b14ca268e42de4aeb3f5cbe67d3e"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0007.png",
+      "sha256": "03815995af93b60b28626f05a246627c1ac7b0df9dcc9bc1e5484adc15b929c9"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0008.png",
+      "sha256": "d33253951c248a9b8bbab703fcaaf4ccecce8d62ba1bd9cdf60733cd84c91257"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0009.png",
+      "sha256": "fcfda689cd6ecec2ffd8a523322aff5771f51d7a93b9ee2a91b8affe7f8c4416"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0010.png",
+      "sha256": "46b3c686093be49a39ce10ba39663b4e7af94df723e74adb4a22f2f73fed306e"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0011.png",
+      "sha256": "ba5f29e9b7a18be16d4dbc8ad7e4213d985ee1f414a93e8633de79a153347610"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0012.png",
+      "sha256": "b77b8f4016978cf6eea9ee1cd3c3ef023029bab4d84d680627ddcb9a24286787"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0013.png",
+      "sha256": "c7ef5bc9a65b82aee972bfdea2b1fbef36dca82f4436a45a9c231e6630b1f5b9"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0014.png",
+      "sha256": "7b4a3b7766d1a63bd9067b8cad33b2ca479c1071e863886ac3f47fbf72f95263"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0015.png",
+      "sha256": "68eaf0d7b5dd187384e39c29c1342b5f0e752b29aee171b855f26779b23458ea"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0016.png",
+      "sha256": "05cf7227ce1dfc79e2e3fe6204f94a037088f9d9090f3029626ba1982963875f"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0017.png",
+      "sha256": "4ec421d5db7f18c04f8234a1f1c011aa366860f6810acb54d7fe9d6ff64aaf40"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0018.png",
+      "sha256": "0535e13e616d2365f13311b59e574a77529cbc53f9ee338d030fea4e7d10ccbe"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0019.png",
+      "sha256": "aaacb3a31632dc02ccdc461bbe7ed2c3962d78861be50739d809863426f8e9e7"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0020.png",
+      "sha256": "0535e13e616d2365f13311b59e574a77529cbc53f9ee338d030fea4e7d10ccbe"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0021.png",
+      "sha256": "4ec421d5db7f18c04f8234a1f1c011aa366860f6810acb54d7fe9d6ff64aaf40"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0022.png",
+      "sha256": "05cf7227ce1dfc79e2e3fe6204f94a037088f9d9090f3029626ba1982963875f"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0023.png",
+      "sha256": "68eaf0d7b5dd187384e39c29c1342b5f0e752b29aee171b855f26779b23458ea"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0024.png",
+      "sha256": "7b4a3b7766d1a63bd9067b8cad33b2ca479c1071e863886ac3f47fbf72f95263"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0025.png",
+      "sha256": "c7ef5bc9a65b82aee972bfdea2b1fbef36dca82f4436a45a9c231e6630b1f5b9"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0026.png",
+      "sha256": "b77b8f4016978cf6eea9ee1cd3c3ef023029bab4d84d680627ddcb9a24286787"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0027.png",
+      "sha256": "ba5f29e9b7a18be16d4dbc8ad7e4213d985ee1f414a93e8633de79a153347610"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0028.png",
+      "sha256": "46b3c686093be49a39ce10ba39663b4e7af94df723e74adb4a22f2f73fed306e"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0029.png",
+      "sha256": "fcfda689cd6ecec2ffd8a523322aff5771f51d7a93b9ee2a91b8affe7f8c4416"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0030.png",
+      "sha256": "d33253951c248a9b8bbab703fcaaf4ccecce8d62ba1bd9cdf60733cd84c91257"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0031.png",
+      "sha256": "03815995af93b60b28626f05a246627c1ac7b0df9dcc9bc1e5484adc15b929c9"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0032.png",
+      "sha256": "34e2782e065c1f9e4839af82eef209253451b14ca268e42de4aeb3f5cbe67d3e"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0033.png",
+      "sha256": "3a597c7878f981367d24dd99c7e824fd7a6442564adc6fcb48bc52c25293ea5f"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0034.png",
+      "sha256": "29d39e60829331ccacfa5049a49e6cc884f4e122388a2ad408e14d9cc69ba503"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0035.png",
+      "sha256": "334917185e24bb60244ad2ca2b86b4176edcd7b7aa072333ff54224e57397a27"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v2/frames/frame_0036.png",
+      "sha256": "59329813bf4326fd14c03350965a1cb9ed63d9e3e3a1b65916a47da7ea8c6b8a"
+    }
+  ],
+  "limits": "Skin is copied from actual chosen raw sources. Pixel stability does not approve execution, machine physics, or shoe shape. No global config or active assets written."
+}

@@ -1,0 +1,11 @@
+{
+  "source": "docs/generated-frames-d-v1/hack-squat/sheet.png",
+  "finding": "Heel/sole/platform contact is visually ambiguous and the round running outsole makes feet look supported on toes.",
+  "repair": "Precise edit of shoes/sole-plane contact on existing nine poses.",
+  "acceptance": [
+    "Full heel and forefoot contact with one fixed footplate.",
+    "Shoe soles parallel to platform and identical in all source keys.",
+    "No foot rocking/slide/heel lift through movement."
+  ],
+  "scope": "Source diagnosis only; no final repair approval until actual rendered motion is inspected at native12fps and slower."
+}

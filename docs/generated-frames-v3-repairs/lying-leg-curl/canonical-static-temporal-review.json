@@ -1,0 +1,152 @@
+{
+  "mask": "C:\\Users\\pedrao\\source\\repos\\GymRook\\docs\\generated-frames-v3-repairs\\lying-leg-curl\\static-supported-body-machine-mask.png",
+  "whiteCoreAllFramesUnchanged": true,
+  "lowerBoundaryPixels": 314,
+  "reason": "Physical supported torso/thigh/head/chassis and lowbench remain still; moving lowerleg/pad stays left of180 andabove309, with6px clearance belowthe initial shoe.",
+  "frames": [
+    {
+      "frame": 1,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 2,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 3,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 4,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 5,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 6,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 7,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 8,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 9,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 10,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 11,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 12,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 13,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 14,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 15,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 16,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 17,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 18,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 19,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 20,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 21,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 22,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 23,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 24,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 25,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 26,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 27,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 28,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 29,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 30,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 31,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 32,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 33,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 34,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 35,
+      "changedStaticCorePixels": 0
+    },
+    {
+      "frame": 36,
+      "changedStaticCorePixels": 0
+    }
+  ]
+}

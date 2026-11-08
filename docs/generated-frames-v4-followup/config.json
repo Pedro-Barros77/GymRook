@@ -1,0 +1,2709 @@
+{
+  "version": 4,
+  "fps": 12,
+  "size": 512,
+  "notes": [
+    "Round4 isolated assets; previous source/media pipelines are read-only.",
+    "Incline press is explicitly restored by URL selection to unchanged animations-v2 and excluded from this builder.",
+    "Final selectedcalf is frozen composite of original2key body, local3key footrepair andcanonical apparatus. Rejected9pose sheet remains preserved butis not active orreleased."
+  ],
+  "interpolation": {
+    "engine": "Practical-RIFE 4.25",
+    "python": ".cache/qa-pec-deck-interpolation/python311/python.exe",
+    "helper": "scripts/rife-batch.py",
+    "modelDirectory": ".cache/qa-pec-deck-interpolation/rife425",
+    "threads": 8,
+    "scale": 1,
+    "officialModelSource": "https://github.com/hzwer/Practical-RIFE#trained-model",
+    "officialWeightsSource": "https://drive.google.com/file/d/1ZKjcbmt1hypiFprJPIKW0Tt0lr_2i7bg/view",
+    "runtimeInstall": "Use the existing isolated local runtime; this build does not download anything."
+  },
+  "readonlyEngineDependencies": [
+    {
+      "file": "scripts/build-repair-animations.py",
+      "sha256": "14e25e53329a84f3670aeae8c46f15f7879ad8aa000806e2834f9e9170744d6f"
+    },
+    {
+      "file": "scripts/build-final-animations.py",
+      "sha256": "2fdc7e2eae4c6519f78cef9096d59b60db850d2060fbb09bdd6cd5dae696f90c"
+    },
+    {
+      "file": "scripts/build-leg-animations.py",
+      "sha256": "9bfd3f7b08be65c6551f1aaa435ffc84b887f13aebf39a9fd84626af0fab6f81"
+    },
+    {
+      "file": "scripts/build-bc-animations.py",
+      "sha256": "fbe5ad9586d81495e93a9114739064bf5c6e8ebdded448e16f75547ea64a6b21"
+    },
+    {
+      "file": "scripts/encode-3d.py",
+      "sha256": "ffb13e12a9d76343e853b2207110005176a98bd16fb851f1e6453a349123de44"
+    },
+    {
+      "file": "scripts/rife-batch.py",
+      "sha256": "ac4c891cfdda5afb01e65af2c25ab1eaf72a9e54670be2b0b4fad3d0ff5c6253"
+    }
+  ],
+  "exercises": {
+    "preacher-curl": {
+      "sourceKind": "reviewed-png-loop",
+      "sheet": "docs/generated-frames-v4-followup/preacher-curl/static-v1/source-index.json",
+      "prepareReady": true,
+      "motionReady": true,
+      "exportReady": true,
+      "sourceReview": "ROOT final approved Scott staticV1 after full1/10/11/19 and all19upper crops; actual source/muscular forearms andsupinatedgrip coherent. Sameclock alternateRIFE11/27 removes barghost; no retiming. Copy final36PNG exactly, no further inference.",
+      "grid": [
+        1,
+        1
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "ping-pong",
+      "frameCount": 36,
+      "phaseEasing": "cosine",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": false,
+        "regions": [],
+        "maxTranslationPixels": 10,
+        "minScore": 0.72
+      },
+      "preserveStaticRects": [],
+      "interpolationOverrides": [],
+      "anchors": [],
+      "sheetSha256": "648fa8a70edfd4b3b20871a4db7ba068373165d6247c7162f5ced0756543c44b",
+      "sourceFrames": [
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0001.png",
+          "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0002.png",
+          "sha256": "102ece05a40fd1bfaf8b3d1557a51f09f5119bd11adcf70c12fb5b9724078121"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0003.png",
+          "sha256": "42e4d67e5498fddc92bc405aeb05abdbb6674164a1a53ddcb8275a37b13aa351"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0004.png",
+          "sha256": "91bbfa7a3404d12ef9d727b92dea41191c312b51a7d89d832b2819ad27da213a"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0005.png",
+          "sha256": "d8928761c5d268da94facb62bac0536959c90874b4b398fe706b1bdbd5e5599a"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0006.png",
+          "sha256": "1426897c546f0b997da62d57cb6462b44c6700726ba69ac7554496f09e6d866c"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0007.png",
+          "sha256": "c7205e62d08f1c35e1b295b34876e8e9d5ad0ab333cebcb343e98ba7420a85ef"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0008.png",
+          "sha256": "173abfd663621e682086d205e0ea224a8f1e6a1a27ee96bb1fd518076b73aca7"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0009.png",
+          "sha256": "2663996efe1b007ae9594dd809d40c80f684c303ec776e8a8440cad72a7cf4fe"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0010.png",
+          "sha256": "04df6383592f3acb5c4d2bf4ee6aa1740cabb456aec653fa2edf974466cc02b0"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0011.png",
+          "sha256": "b32dad132810a58c3b6cca0404e876fc465890eeb9681844080b4e92510c488b"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0012.png",
+          "sha256": "3550e9787e1f79ff0b88722d17bda3e1dcfdbfe5eea80278535e1fd18e9d0d7d"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0013.png",
+          "sha256": "e6395aeffee25bbc6809f848ec1edcbfe5b4192a77d56ff1f874e6321404a4a3"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0014.png",
+          "sha256": "8cd6c28c6e4c9ebae8f1c5e47fe97a4f64d655b42bdf8511eabcf70f3cdf9927"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0015.png",
+          "sha256": "6264a888d1f07ab51528ff188735827a69e68abd187d4d84c63a8f2478113e95"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0016.png",
+          "sha256": "566eab99b7522f0c98a8a7288959245974db2d073ed3c2a6b23f0e0cd15a3ec6"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0017.png",
+          "sha256": "d5024f6689faf6310eff35145c436829c855b5649dfa433b5af7abcf71664c68"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0018.png",
+          "sha256": "79b024146e300d862ba4c82f135e3596f19c6be44ab4012e661272f23f52de14"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0019.png",
+          "sha256": "419e3b8f7e7777197be91a21c20ef0694efb6c718e94d35079bdb2703a2ee2a8"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0020.png",
+          "sha256": "79b024146e300d862ba4c82f135e3596f19c6be44ab4012e661272f23f52de14"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0021.png",
+          "sha256": "d5024f6689faf6310eff35145c436829c855b5649dfa433b5af7abcf71664c68"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0022.png",
+          "sha256": "566eab99b7522f0c98a8a7288959245974db2d073ed3c2a6b23f0e0cd15a3ec6"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0023.png",
+          "sha256": "6264a888d1f07ab51528ff188735827a69e68abd187d4d84c63a8f2478113e95"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0024.png",
+          "sha256": "8cd6c28c6e4c9ebae8f1c5e47fe97a4f64d655b42bdf8511eabcf70f3cdf9927"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0025.png",
+          "sha256": "e6395aeffee25bbc6809f848ec1edcbfe5b4192a77d56ff1f874e6321404a4a3"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0026.png",
+          "sha256": "3550e9787e1f79ff0b88722d17bda3e1dcfdbfe5eea80278535e1fd18e9d0d7d"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0027.png",
+          "sha256": "b32dad132810a58c3b6cca0404e876fc465890eeb9681844080b4e92510c488b"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0028.png",
+          "sha256": "04df6383592f3acb5c4d2bf4ee6aa1740cabb456aec653fa2edf974466cc02b0"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0029.png",
+          "sha256": "2663996efe1b007ae9594dd809d40c80f684c303ec776e8a8440cad72a7cf4fe"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0030.png",
+          "sha256": "173abfd663621e682086d205e0ea224a8f1e6a1a27ee96bb1fd518076b73aca7"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0031.png",
+          "sha256": "c7205e62d08f1c35e1b295b34876e8e9d5ad0ab333cebcb343e98ba7420a85ef"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0032.png",
+          "sha256": "1426897c546f0b997da62d57cb6462b44c6700726ba69ac7554496f09e6d866c"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0033.png",
+          "sha256": "d8928761c5d268da94facb62bac0536959c90874b4b398fe706b1bdbd5e5599a"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0034.png",
+          "sha256": "91bbfa7a3404d12ef9d727b92dea41191c312b51a7d89d832b2819ad27da213a"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0035.png",
+          "sha256": "42e4d67e5498fddc92bc405aeb05abdbb6674164a1a53ddcb8275a37b13aa351"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0036.png",
+          "sha256": "102ece05a40fd1bfaf8b3d1557a51f09f5119bd11adcf70c12fb5b9724078121"
+        }
+      ],
+      "extraReviewedInputs": [
+        {
+          "file": "scripts/compose-scott-round4.py",
+          "sha256": "76df09c1fa91e9c6260ee4790e6d1cd574640310c1ed1adbd391758d6756b1d4"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/sheet-v1.png",
+          "sha256": "695dd5b41ce6e33e3214bd3f3b034ef566da14c4207c72623b3d270385cccd9b"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/temporal-raw-v1/raw-frames-index.json",
+          "sha256": "2d72cb64350d8879614543c932d26e2662222a47542c3563811548a3300afb97"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+          "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+          "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/alternate-inference/frame11-scale05.png",
+          "sha256": "770b6c8d173b3f41a3cc31e46057f4cd3275f317b7653b1755bd727e206f8079"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/alternate-inference/jobs-scale05.json",
+          "sha256": "82d91a511f450ccd2881c25887d4bc485d474c88cfc2b53363e5e2c4a17b30f5"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/alternate-inference/relocation-proof.json",
+          "sha256": "1adb8e750bfd795fb9c8b92f2ffde7908d49d98dd76b68bc76886b3760df90c4"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/root-final-review.json",
+          "sha256": "b0ce2fdcf2f09503611c9276870914eda4d219466384a25bcc45b4ef53540d12"
+        }
+      ],
+      "nativeBodyPixelPreservation": {
+        "review": "Canonical static source pixels in opaque static mask stay exact across36frames; movinghuman/equipment pixels already reviewed in final inputPNG. Scope is fixedbody/head/base/mast, not a complete rigidbody anatomical model.",
+        "sourceFrames": [
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+            "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+          }
+        ],
+        "maskFrames": [
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+            "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+          }
+        ]
+      }
+    },
+    "lying-leg-raise": {
+      "sourceKind": "reviewed-png-loop",
+      "sheet": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/source-index-native-v2.json",
+      "prepareReady": true,
+      "motionReady": true,
+      "exportReady": true,
+      "sourceReview": "ROOT approved full1/10/19,19hipcrops,19fullcontact and18onions, then technical leg-skin/fixed-body/return checks passed. Native36PNG copies, no RIFE.",
+      "grid": [
+        1,
+        1
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "ping-pong",
+      "frameCount": 36,
+      "phaseEasing": "cosine",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": false,
+        "regions": [],
+        "maxTranslationPixels": 10,
+        "minScore": 0.72
+      },
+      "preserveStaticRects": [],
+      "interpolationOverrides": [],
+      "anchors": [],
+      "sheetSha256": "02cd87e16d538c430046a1c2668d6bf33fd56ec2c7e83dcbf6c26285c0eaf8f1",
+      "sourceFrames": [
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0001.png",
+          "sha256": "dfccb5809753b7d086e1cf90e277a4db755a9cc26cf53c60c8d71a53903ace13"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0002.png",
+          "sha256": "51dc5138254ee87b64d59f2ef83903a64ec97d815e271e231667f5bcfd4f8202"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0003.png",
+          "sha256": "6fe4f233262211bff970da094cad7bbc8283a4d88e757983a3e214dfdf7737d0"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0004.png",
+          "sha256": "e72c773b4a1e7d78b847c4798f65d6b573172cfdaca143abe127d284c803a609"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0005.png",
+          "sha256": "2d6215415d3581d6f54475f61a2a7b27d97c233cbe4b92c634b29ab031140097"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0006.png",
+          "sha256": "9ffcb469f85d5623c2d8a4aa6d0710d95bc866ce818e51a306b18fabd8f25541"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0007.png",
+          "sha256": "4389eaa3b1e2053d015a9d3de9116a70b4124975e9b40746c3e89c09653ad71b"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0008.png",
+          "sha256": "27a53ebcb33608e812ff2906854d118d3ebe40f1e6b056e6032f845284d3fe49"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0009.png",
+          "sha256": "e936fac71946dcd960e0d3d818aaf275d8f7afa093b2b66945a295428a5f011c"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0010.png",
+          "sha256": "0fb9c7f0f014b97782712606b2f0d438675e9b37ee5237bd0ecc8aaba983cbea"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0011.png",
+          "sha256": "1efdbd014698eb6b139c1f248755d845ea428c2efe3d7d96b6b14c15b704dadf"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0012.png",
+          "sha256": "22a11b5710d542d8c6f8ce6d3e45bf167096ed8c54fa096b877fc3768d0ab98a"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0013.png",
+          "sha256": "9737305916d95a84a0721bde35879b64975cee71b1a6ea7768c36832f0de07cd"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0014.png",
+          "sha256": "6ad526b1534629f6653343469b845e75b33e9de69ffd0be7a4a273997e3bc2e3"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0015.png",
+          "sha256": "d586368431e4cfe65093a5f13c90fc5f925160c8dc4cde789fc599dcbe5523eb"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0016.png",
+          "sha256": "75a2f2fa8c5d83f32143aa51b25dec7a464b87ce966325a1203cbc4e8a29e1dd"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0017.png",
+          "sha256": "e12e205f26cd350d6fca32031ef465f91d5e152d89ad07a13d20696e53cdb4a8"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0018.png",
+          "sha256": "0b4dcfa63c722dd0188287db03fa4c2603a3a572ad2a222d9c72f19bd56a1b45"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0019.png",
+          "sha256": "c4c069503a79bd2fe0a0bf831fec31ec02fa7dc80bdd4a697fa882d7592bb0c5"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0020.png",
+          "sha256": "0b4dcfa63c722dd0188287db03fa4c2603a3a572ad2a222d9c72f19bd56a1b45"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0021.png",
+          "sha256": "e12e205f26cd350d6fca32031ef465f91d5e152d89ad07a13d20696e53cdb4a8"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0022.png",
+          "sha256": "75a2f2fa8c5d83f32143aa51b25dec7a464b87ce966325a1203cbc4e8a29e1dd"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0023.png",
+          "sha256": "d586368431e4cfe65093a5f13c90fc5f925160c8dc4cde789fc599dcbe5523eb"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0024.png",
+          "sha256": "6ad526b1534629f6653343469b845e75b33e9de69ffd0be7a4a273997e3bc2e3"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0025.png",
+          "sha256": "9737305916d95a84a0721bde35879b64975cee71b1a6ea7768c36832f0de07cd"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0026.png",
+          "sha256": "22a11b5710d542d8c6f8ce6d3e45bf167096ed8c54fa096b877fc3768d0ab98a"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0027.png",
+          "sha256": "1efdbd014698eb6b139c1f248755d845ea428c2efe3d7d96b6b14c15b704dadf"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0028.png",
+          "sha256": "0fb9c7f0f014b97782712606b2f0d438675e9b37ee5237bd0ecc8aaba983cbea"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0029.png",
+          "sha256": "e936fac71946dcd960e0d3d818aaf275d8f7afa093b2b66945a295428a5f011c"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0030.png",
+          "sha256": "27a53ebcb33608e812ff2906854d118d3ebe40f1e6b056e6032f845284d3fe49"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0031.png",
+          "sha256": "4389eaa3b1e2053d015a9d3de9116a70b4124975e9b40746c3e89c09653ad71b"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0032.png",
+          "sha256": "9ffcb469f85d5623c2d8a4aa6d0710d95bc866ce818e51a306b18fabd8f25541"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0033.png",
+          "sha256": "2d6215415d3581d6f54475f61a2a7b27d97c233cbe4b92c634b29ab031140097"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0034.png",
+          "sha256": "e72c773b4a1e7d78b847c4798f65d6b573172cfdaca143abe127d284c803a609"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0035.png",
+          "sha256": "6fe4f233262211bff970da094cad7bbc8283a4d88e757983a3e214dfdf7737d0"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0036.png",
+          "sha256": "51dc5138254ee87b64d59f2ef83903a64ec97d815e271e231667f5bcfd4f8202"
+        }
+      ],
+      "nativeBodyPixelPreservation": {
+        "review": "Canonical original head,torso,arms,hands,pelvis andmat fixed foreground pixels stay exact. Rotating leg skin core unchanged by larger pelvis overlay;technical-study-qa.json reviewed. This is not a claim that every moving human pixel is a real3D measurement.",
+        "sourceFrames": [
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+            "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+          }
+        ],
+        "maskFrames": [
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+            "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+          }
+        ]
+      },
+      "extraReviewedInputs": [
+        {
+          "file": "scripts/study-native-leg-raise-v2.py",
+          "sha256": "3775e968c69f48664818a72f0dcbdb05a035fb256c5079178363e837b6d29492"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/parameters.json",
+          "sha256": "de423a6c9d826aa0e10f3f7617dacc485498eda22a1003d7f5cab2a22977fac0"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+          "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/clean-plate-generated.png",
+          "sha256": "e258c87cc6a9ae619f256903a33ce5042ef2d70560f7d6e74b35c43811eb4be8"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/technical-study-qa.json",
+          "sha256": "b3ee035c5ced6181c814d96272eb3c7e98e59dbb7732bb21ac72be8fe2faab66"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/canonical-body-and-mat.png",
+          "sha256": "9af0005596b64bda5fa0c5e252b5f886af61b136e353782be80b3dd7d06ddcd2"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/source-leg-sprite.png",
+          "sha256": "8aef42f869a3dfad151e84fa66c7fb64317f0ed9925258183ba427573b8a5915"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+          "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/canonical-pelvis-overlay-mask.png",
+          "sha256": "ac6e2c83d1883cf403781a034646dd4c38a36dfe37899a55773f598ae77597c9"
+        }
+      ]
+    },
+    "machine-ab-crunch": {
+      "sourceKind": "reviewed-png-loop",
+      "sheet": "docs/generated-frames-v4-followup/machine-ab-crunch/final-composition-packet.json",
+      "prepareReady": true,
+      "motionReady": true,
+      "exportReady": true,
+      "sourceReview": "ROOT finalV3 plus machineowner and independentScott approved19critical,18onions,full1/10/19. Highneck grips/yoke move with hands, actor and seat stable. Native import copies exactly the36alreadycomposited reviewed PNGs; no new RIFE or body transform.",
+      "grid": [
+        1,
+        1
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "ping-pong",
+      "frameCount": 36,
+      "phaseEasing": "cosine",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": false,
+        "regions": [],
+        "maxTranslationPixels": 10,
+        "minScore": 0.72
+      },
+      "preserveStaticRects": [],
+      "interpolationOverrides": [],
+      "anchors": [],
+      "sheetSha256": "6a63c2e55cc55e1172bbfaa2f932697877202052d10a0e60477e9013895f6e1e",
+      "sourceFrames": [
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0001.png",
+          "sha256": "dbb0a2ee110d7600c7b86db4e3fe0b332b916382edd3fa198349073e57f354c6"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0002.png",
+          "sha256": "dc6f43bfc0a91e896e43ef036e133b698c2128826271c451c91a0e0a62d71de0"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0003.png",
+          "sha256": "75156fe0b7a3294ffd70543de95d1da56fb5ac5b6f9c02d9b4056038e29b5292"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0004.png",
+          "sha256": "850f26e115b010e845876eb4034a32edaf1db9344f99115fe67482066bd62368"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0005.png",
+          "sha256": "11ee1f50dc86a44cbdc377f30601bfc45b52e08c09a008c04627cd76b94b32d5"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0006.png",
+          "sha256": "156201350f98c0e0e63215215cb9c140ad5b5a5cc957e461149f4752881e1727"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0007.png",
+          "sha256": "34f36a86bd1360d82a11b5805895bfccd5b6a91aa134bf6e19691f8b9e47a298"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0008.png",
+          "sha256": "5981eefb39494efdfaa9430ab09279553d434bfef688cc62df02259a664f7db4"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0009.png",
+          "sha256": "f89873a5e3d6731ad62a7226981753dc00ada8d85e8437a721a92c172aa82398"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0010.png",
+          "sha256": "21a5311a738ad01e9f517dec89fdba3ab90bdf591b7393ebb7dbb170eaeb2866"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0011.png",
+          "sha256": "440c13eb4cfa4ddfde63cc8023de4eea455e453824d1046846dc2276221f9c84"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0012.png",
+          "sha256": "b49af1af937a7506560d64865a822f2e56dbe4bb995ffe73e3657d5c1e119f09"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0013.png",
+          "sha256": "19152bd74b75607b451fc8e3e6a4b05c8b5c1884d9c18f49c3495fd0b1fc054b"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0014.png",
+          "sha256": "f46a7e8cee5f2f42c84f44d62f92092157815dd86a115910fae41f1559f04d01"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0015.png",
+          "sha256": "96b9d4a5921572dbb77a1593a6be8346d56768eb45cca9e62d462252ae19d5f4"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0016.png",
+          "sha256": "fe284adada9ec74202960912a43b61c7af9b2c1dcd4f31e193d28a68dae9c9e4"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0017.png",
+          "sha256": "e144f141e60d07f60561fb51574113534bc5942b309656a5ae2b37149edb98ea"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0018.png",
+          "sha256": "e36100eab72f241976c8eb32dbfdc5a50026d9d4fb31acb9d233419c841bbb91"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0019.png",
+          "sha256": "0857bd695b43dbcdcc00568a65836ba471e4450d03684925f02b6180ef41e807"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0020.png",
+          "sha256": "e36100eab72f241976c8eb32dbfdc5a50026d9d4fb31acb9d233419c841bbb91"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0021.png",
+          "sha256": "e144f141e60d07f60561fb51574113534bc5942b309656a5ae2b37149edb98ea"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0022.png",
+          "sha256": "fe284adada9ec74202960912a43b61c7af9b2c1dcd4f31e193d28a68dae9c9e4"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0023.png",
+          "sha256": "96b9d4a5921572dbb77a1593a6be8346d56768eb45cca9e62d462252ae19d5f4"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0024.png",
+          "sha256": "f46a7e8cee5f2f42c84f44d62f92092157815dd86a115910fae41f1559f04d01"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0025.png",
+          "sha256": "19152bd74b75607b451fc8e3e6a4b05c8b5c1884d9c18f49c3495fd0b1fc054b"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0026.png",
+          "sha256": "b49af1af937a7506560d64865a822f2e56dbe4bb995ffe73e3657d5c1e119f09"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0027.png",
+          "sha256": "440c13eb4cfa4ddfde63cc8023de4eea455e453824d1046846dc2276221f9c84"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0028.png",
+          "sha256": "21a5311a738ad01e9f517dec89fdba3ab90bdf591b7393ebb7dbb170eaeb2866"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0029.png",
+          "sha256": "f89873a5e3d6731ad62a7226981753dc00ada8d85e8437a721a92c172aa82398"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0030.png",
+          "sha256": "5981eefb39494efdfaa9430ab09279553d434bfef688cc62df02259a664f7db4"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0031.png",
+          "sha256": "34f36a86bd1360d82a11b5805895bfccd5b6a91aa134bf6e19691f8b9e47a298"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0032.png",
+          "sha256": "156201350f98c0e0e63215215cb9c140ad5b5a5cc957e461149f4752881e1727"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0033.png",
+          "sha256": "11ee1f50dc86a44cbdc377f30601bfc45b52e08c09a008c04627cd76b94b32d5"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0034.png",
+          "sha256": "850f26e115b010e845876eb4034a32edaf1db9344f99115fe67482066bd62368"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0035.png",
+          "sha256": "75156fe0b7a3294ffd70543de95d1da56fb5ac5b6f9c02d9b4056038e29b5292"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/preview-0036.png",
+          "sha256": "dc6f43bfc0a91e896e43ef036e133b698c2128826271c451c91a0e0a62d71de0"
+        }
+      ],
+      "extraReviewedInputs": [
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/sheet-v2.png",
+          "sha256": "f63bc75ce407a58e9ebf1fa39aea79b7402093089cf32397c2170c1107b2bcb2"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/source-review.json",
+          "sha256": "41886a40cc540b56b351c161e98d9332a84cda23a7fa12d4d120fadd7cac8132"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/geometry-review.json",
+          "sha256": "3b71da868f4e0f59f6f7d45b417b8bec899799e4a46d1ca7b5ac73eafd192c15"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/composition-index.json",
+          "sha256": "bb773a85e174acc5a29afe7101e868ddd922f2a2069c07f2e6ab7875ed51039c"
+        },
+        {
+          "file": "scripts/compose-ab-high-handles.py",
+          "sha256": "0d974e992507bca5c479d6de20931418127b0edabd3f10959cc3a86240eaab84"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/clean-equipment-v1.png",
+          "sha256": "0052a2aef0d43f3c8ec32d1615c08dc7c4dc6fe12df945c5b6a1bbd88b79accb"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0001.png",
+          "sha256": "0a6744ac86cdf68da9b2b8071b840a0ec667de62437584caa8b35e2a2583aacb"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0002.png",
+          "sha256": "0a6744ac86cdf68da9b2b8071b840a0ec667de62437584caa8b35e2a2583aacb"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0003.png",
+          "sha256": "d10c80896b69c974538f15decce2815b292edacd4fbd8b7bba1b36f64a78edc3"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0004.png",
+          "sha256": "1a5da38ebbe454a41289426e861b1b5e145ce3a3dbc94ad3955a7588da47f4f4"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0005.png",
+          "sha256": "705137027969120b6f53fdb09263ad917dfb22be1c38d53ae25f5d3b2833ba0c"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0006.png",
+          "sha256": "8c778eba8597363b627ded8c2b167b5619c1e84d9fdd1789fe368483f2b157d1"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0007.png",
+          "sha256": "e881b5aee552db1c02ad3360b98d9d685b1b3fa176531dd6c181879c8c3d4f94"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0008.png",
+          "sha256": "7b0213408c853b1c291a9dd543332b2e3a17ef969c79ea24ba306746b515544e"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0009.png",
+          "sha256": "4ec9b391a7dd10cfdb9ad43f671765e8c2e81ee7862965273b3e7a48eca56dd7"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0010.png",
+          "sha256": "94af92da172d9663a88c82bb36f819c2a7bbc128b35ecc3597c82d53027fa016"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0011.png",
+          "sha256": "148abe0d7d1d568080099d51aac946426b9a8e64e423d04f8e6f649471c5932e"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0012.png",
+          "sha256": "f2e478509040f63e3f7b570189aa854fa96882938136a309c1f3ed1b05609503"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0013.png",
+          "sha256": "0380d571cdf6bd92ad9637f9c5d448a068d2d6507bb0cc4b38c34482050ac5ea"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0014.png",
+          "sha256": "1fc8cfa7bc823fac2c3910ecc840b00c93610341452e063f6e039bc3e5dca6e7"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0015.png",
+          "sha256": "9bd38659c1465be9d08fbe93aace3101ee5faa31607f1b37ed9e593b15ff2ad1"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0016.png",
+          "sha256": "b692c1b72df2faba35d46ad031920c4acef88a93534863a8ffe5ca55ee555d32"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0017.png",
+          "sha256": "ba2657bb7dadeac2a68de650aedd1276ed232961e290535f700ad21c768074bb"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0018.png",
+          "sha256": "1782799b5770bb8604776d3ea460892920977a2aa56943affdc529c219ec5153"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0019.png",
+          "sha256": "1bfb67f9ecee42cfba6326ac55f0739c9e8bc4c9009c9fd4968d5f91a5a2e908"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0020.png",
+          "sha256": "1782799b5770bb8604776d3ea460892920977a2aa56943affdc529c219ec5153"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0021.png",
+          "sha256": "ba2657bb7dadeac2a68de650aedd1276ed232961e290535f700ad21c768074bb"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0022.png",
+          "sha256": "b692c1b72df2faba35d46ad031920c4acef88a93534863a8ffe5ca55ee555d32"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0023.png",
+          "sha256": "9bd38659c1465be9d08fbe93aace3101ee5faa31607f1b37ed9e593b15ff2ad1"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0024.png",
+          "sha256": "1fc8cfa7bc823fac2c3910ecc840b00c93610341452e063f6e039bc3e5dca6e7"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0025.png",
+          "sha256": "0380d571cdf6bd92ad9637f9c5d448a068d2d6507bb0cc4b38c34482050ac5ea"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0026.png",
+          "sha256": "f2e478509040f63e3f7b570189aa854fa96882938136a309c1f3ed1b05609503"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0027.png",
+          "sha256": "148abe0d7d1d568080099d51aac946426b9a8e64e423d04f8e6f649471c5932e"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0028.png",
+          "sha256": "94af92da172d9663a88c82bb36f819c2a7bbc128b35ecc3597c82d53027fa016"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0029.png",
+          "sha256": "4ec9b391a7dd10cfdb9ad43f671765e8c2e81ee7862965273b3e7a48eca56dd7"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0030.png",
+          "sha256": "7b0213408c853b1c291a9dd543332b2e3a17ef969c79ea24ba306746b515544e"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0031.png",
+          "sha256": "e881b5aee552db1c02ad3360b98d9d685b1b3fa176531dd6c181879c8c3d4f94"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0032.png",
+          "sha256": "8c778eba8597363b627ded8c2b167b5619c1e84d9fdd1789fe368483f2b157d1"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0033.png",
+          "sha256": "705137027969120b6f53fdb09263ad917dfb22be1c38d53ae25f5d3b2833ba0c"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0034.png",
+          "sha256": "1a5da38ebbe454a41289426e861b1b5e145ce3a3dbc94ad3955a7588da47f4f4"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0035.png",
+          "sha256": "d10c80896b69c974538f15decce2815b292edacd4fbd8b7bba1b36f64a78edc3"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0036.png",
+          "sha256": "0a6744ac86cdf68da9b2b8071b840a0ec667de62437584caa8b35e2a2583aacb"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+          "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/temporal-review-v3.json",
+          "sha256": "16d0380c4a15b54671a236d7808f0663b872a831a8b63e9a9af22594fc13c99a"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/independent-scott-review-v3.json",
+          "sha256": "dba3c4ee506330f1256115195d776f7d4b1c5fdae761a76b11641da96d2c4e91"
+        }
+      ],
+      "nativeBodyPixelPreservation": {
+        "review": "The perframe opaque canonical-mask pixels are identical to fixedreference across36frames; movinghead/neck/arms/yoke are outside those protected regions. This is a pixel-preservation contract, not anatomy certification.",
+        "sourceFrames": [
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/canonical-fixed-reference.png",
+            "sha256": "9732b743d2584237ddc866119c4a44934d1ccdc8a239120bbfdf6f7747a250bb"
+          }
+        ],
+        "maskFrames": [
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0001.png",
+            "sha256": "0a6744ac86cdf68da9b2b8071b840a0ec667de62437584caa8b35e2a2583aacb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0002.png",
+            "sha256": "0a6744ac86cdf68da9b2b8071b840a0ec667de62437584caa8b35e2a2583aacb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0003.png",
+            "sha256": "d10c80896b69c974538f15decce2815b292edacd4fbd8b7bba1b36f64a78edc3"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0004.png",
+            "sha256": "1a5da38ebbe454a41289426e861b1b5e145ce3a3dbc94ad3955a7588da47f4f4"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0005.png",
+            "sha256": "705137027969120b6f53fdb09263ad917dfb22be1c38d53ae25f5d3b2833ba0c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0006.png",
+            "sha256": "8c778eba8597363b627ded8c2b167b5619c1e84d9fdd1789fe368483f2b157d1"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0007.png",
+            "sha256": "e881b5aee552db1c02ad3360b98d9d685b1b3fa176531dd6c181879c8c3d4f94"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0008.png",
+            "sha256": "7b0213408c853b1c291a9dd543332b2e3a17ef969c79ea24ba306746b515544e"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0009.png",
+            "sha256": "4ec9b391a7dd10cfdb9ad43f671765e8c2e81ee7862965273b3e7a48eca56dd7"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0010.png",
+            "sha256": "94af92da172d9663a88c82bb36f819c2a7bbc128b35ecc3597c82d53027fa016"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0011.png",
+            "sha256": "148abe0d7d1d568080099d51aac946426b9a8e64e423d04f8e6f649471c5932e"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0012.png",
+            "sha256": "f2e478509040f63e3f7b570189aa854fa96882938136a309c1f3ed1b05609503"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0013.png",
+            "sha256": "0380d571cdf6bd92ad9637f9c5d448a068d2d6507bb0cc4b38c34482050ac5ea"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0014.png",
+            "sha256": "1fc8cfa7bc823fac2c3910ecc840b00c93610341452e063f6e039bc3e5dca6e7"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0015.png",
+            "sha256": "9bd38659c1465be9d08fbe93aace3101ee5faa31607f1b37ed9e593b15ff2ad1"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0016.png",
+            "sha256": "b692c1b72df2faba35d46ad031920c4acef88a93534863a8ffe5ca55ee555d32"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0017.png",
+            "sha256": "ba2657bb7dadeac2a68de650aedd1276ed232961e290535f700ad21c768074bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0018.png",
+            "sha256": "1782799b5770bb8604776d3ea460892920977a2aa56943affdc529c219ec5153"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0019.png",
+            "sha256": "1bfb67f9ecee42cfba6326ac55f0739c9e8bc4c9009c9fd4968d5f91a5a2e908"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0020.png",
+            "sha256": "1782799b5770bb8604776d3ea460892920977a2aa56943affdc529c219ec5153"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0021.png",
+            "sha256": "ba2657bb7dadeac2a68de650aedd1276ed232961e290535f700ad21c768074bb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0022.png",
+            "sha256": "b692c1b72df2faba35d46ad031920c4acef88a93534863a8ffe5ca55ee555d32"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0023.png",
+            "sha256": "9bd38659c1465be9d08fbe93aace3101ee5faa31607f1b37ed9e593b15ff2ad1"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0024.png",
+            "sha256": "1fc8cfa7bc823fac2c3910ecc840b00c93610341452e063f6e039bc3e5dca6e7"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0025.png",
+            "sha256": "0380d571cdf6bd92ad9637f9c5d448a068d2d6507bb0cc4b38c34482050ac5ea"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0026.png",
+            "sha256": "f2e478509040f63e3f7b570189aa854fa96882938136a309c1f3ed1b05609503"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0027.png",
+            "sha256": "148abe0d7d1d568080099d51aac946426b9a8e64e423d04f8e6f649471c5932e"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0028.png",
+            "sha256": "94af92da172d9663a88c82bb36f819c2a7bbc128b35ecc3597c82d53027fa016"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0029.png",
+            "sha256": "4ec9b391a7dd10cfdb9ad43f671765e8c2e81ee7862965273b3e7a48eca56dd7"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0030.png",
+            "sha256": "7b0213408c853b1c291a9dd543332b2e3a17ef969c79ea24ba306746b515544e"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0031.png",
+            "sha256": "e881b5aee552db1c02ad3360b98d9d685b1b3fa176531dd6c181879c8c3d4f94"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0032.png",
+            "sha256": "8c778eba8597363b627ded8c2b167b5619c1e84d9fdd1789fe368483f2b157d1"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0033.png",
+            "sha256": "705137027969120b6f53fdb09263ad917dfb22be1c38d53ae25f5d3b2833ba0c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0034.png",
+            "sha256": "1a5da38ebbe454a41289426e861b1b5e145ce3a3dbc94ad3955a7588da47f4f4"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0035.png",
+            "sha256": "d10c80896b69c974538f15decce2815b292edacd4fbd8b7bba1b36f64a78edc3"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/static-0036.png",
+            "sha256": "0a6744ac86cdf68da9b2b8071b840a0ec667de62437584caa8b35e2a2583aacb"
+          }
+        ]
+      }
+    },
+    "standing-machine-calf-raise": {
+      "sourceKind": "reviewed-png-loop",
+      "sheet": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/source-index.json",
+      "prepareReady": true,
+      "motionReady": true,
+      "exportReady": true,
+      "sourceReview": "ROOT final andindependent AB approved finalcompositionV1 full1/10/19,19feet,18onions,source-vs-final8/10/12. Original2key body preserves knee posture; ROOTapproved local3key reverse-scale1 feet remove soleghost. Actor RGB copied exactly under opaque transported matte; machinecanonical, one weightunit translates25px. Copy36frozenPNG exactly without newRIFE.",
+      "grid": [
+        1,
+        1
+      ],
+      "cellTrimPixels": 2,
+      "cycle": "ping-pong",
+      "frameCount": 36,
+      "phaseEasing": "cosine",
+      "referenceIndex": 0,
+      "registration": {
+        "enabled": false,
+        "regions": [],
+        "maxTranslationPixels": 10,
+        "minScore": 0.72
+      },
+      "preserveStaticRects": [],
+      "interpolationOverrides": [],
+      "anchors": [],
+      "sheetSha256": "5cfd6f9c4a0ef9851e3f875fa70fce56cc748f93d0ff2f9f6767cf9b43223dc6",
+      "sourceFrames": [
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0001.png",
+          "sha256": "7703fb3bfc3c28b1d454a0791b8f4ee2e59ef17f4655ba20d3e257e24213687f"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0002.png",
+          "sha256": "92d99302115459ba7df91fe072ed01f002ac1b5eb9c2680efcc566c0189ee07f"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0003.png",
+          "sha256": "a8532bb01360f1865ccd96597b87e1e3c0029b719d5b04cfb0e1d27eb6f6255d"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0004.png",
+          "sha256": "ba26553ee577fe2dcf6196872b28626f6e1b2a3b03ed01be3d8aa3deee61232f"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0005.png",
+          "sha256": "6c79e8a8b28f9a1f96d88d32aa7c721a40b527e11525f9b2a68d74d0844e7510"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0006.png",
+          "sha256": "c376c2ae1ca64700c08c6fd2a6791074bae75dc7d74e6c45535d47d49e893e76"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0007.png",
+          "sha256": "cfba15517cd7796244a37c25b3a2bbd96641d4e89ed89501fc1ad45aaba5d6ba"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0008.png",
+          "sha256": "d0f8559a50fba2a823395e8ee8c0e035dee2fd45bcea422c455e471c62f70deb"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0009.png",
+          "sha256": "c750dbbda53e552a2fc6e4093777db0cb220002d27fd299df53dc03bdff28fe9"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0010.png",
+          "sha256": "176ce3dd5d327733d6914b801124a4675b4afb6ab3a993f0ea8fe52b40fc047c"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0011.png",
+          "sha256": "7ec62ad0c37a06f7065a830f76e1dd5d0fac5ecc56b91a719338198171bb7f79"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0012.png",
+          "sha256": "1859efc00673eb4598d361cdb38fa22f499caf3f24a6bca092b5ddd14642dcaf"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0013.png",
+          "sha256": "82cf72f85749d19680f5bf04114e8f25a318e4123e80783c6e50c7f0f2e16cbb"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0014.png",
+          "sha256": "785b73b802be6c797870f6e21940f5e2af534a1f66eb4abedfd8c963960ff6b9"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0015.png",
+          "sha256": "49c52c0fb30ffbb886149c7e414f0bfbfa4f085180d78e212f9966a37d54bb8b"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0016.png",
+          "sha256": "181867af5f463a95d3029de35614a29fefcd658eb8732a96664c7f88a243a7e0"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0017.png",
+          "sha256": "d1eebf23d29101428c49195e597074ba601226b7dba0bea6d88d093f1b69554b"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0018.png",
+          "sha256": "24549b2884c0a08c7de029395233b813fde1113e3a2d8f66454637e4b8efd9b1"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0019.png",
+          "sha256": "9ec9604bb9771af6bf7a1b8e607480d9ebe60481055eca5b8cd9f35ab103a226"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0020.png",
+          "sha256": "24549b2884c0a08c7de029395233b813fde1113e3a2d8f66454637e4b8efd9b1"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0021.png",
+          "sha256": "d1eebf23d29101428c49195e597074ba601226b7dba0bea6d88d093f1b69554b"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0022.png",
+          "sha256": "181867af5f463a95d3029de35614a29fefcd658eb8732a96664c7f88a243a7e0"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0023.png",
+          "sha256": "49c52c0fb30ffbb886149c7e414f0bfbfa4f085180d78e212f9966a37d54bb8b"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0024.png",
+          "sha256": "785b73b802be6c797870f6e21940f5e2af534a1f66eb4abedfd8c963960ff6b9"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0025.png",
+          "sha256": "82cf72f85749d19680f5bf04114e8f25a318e4123e80783c6e50c7f0f2e16cbb"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0026.png",
+          "sha256": "1859efc00673eb4598d361cdb38fa22f499caf3f24a6bca092b5ddd14642dcaf"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0027.png",
+          "sha256": "7ec62ad0c37a06f7065a830f76e1dd5d0fac5ecc56b91a719338198171bb7f79"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0028.png",
+          "sha256": "176ce3dd5d327733d6914b801124a4675b4afb6ab3a993f0ea8fe52b40fc047c"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0029.png",
+          "sha256": "c750dbbda53e552a2fc6e4093777db0cb220002d27fd299df53dc03bdff28fe9"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0030.png",
+          "sha256": "d0f8559a50fba2a823395e8ee8c0e035dee2fd45bcea422c455e471c62f70deb"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0031.png",
+          "sha256": "cfba15517cd7796244a37c25b3a2bbd96641d4e89ed89501fc1ad45aaba5d6ba"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0032.png",
+          "sha256": "c376c2ae1ca64700c08c6fd2a6791074bae75dc7d74e6c45535d47d49e893e76"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0033.png",
+          "sha256": "6c79e8a8b28f9a1f96d88d32aa7c721a40b527e11525f9b2a68d74d0844e7510"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0034.png",
+          "sha256": "ba26553ee577fe2dcf6196872b28626f6e1b2a3b03ed01be3d8aa3deee61232f"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0035.png",
+          "sha256": "a8532bb01360f1865ccd96597b87e1e3c0029b719d5b04cfb0e1d27eb6f6255d"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/frames/frame_0036.png",
+          "sha256": "92d99302115459ba7df91fe072ed01f002ac1b5eb9c2680efcc566c0189ee07f"
+        }
+      ],
+      "nativeBodyPixelPreservation": {
+        "review": "All opaqueactor-matte pixels copy the exact approved foot-motion source RGB; masks are transported andquantized before rendering. Apparatus/background replaced deliberately by one canonical plate, selectedweights translated asunit. No generated cutout RGB or body warp used.",
+        "sourceFrames": [
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0001.png",
+            "sha256": "15d95af938be88c3b7f25460a7362dd7e0e9efaac3dc0353fc02215ea8de9181"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0002.png",
+            "sha256": "3e3a123fa0f052536a5d25df97f7c42a5320feca9efd7172e23083031e8cece7"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0003.png",
+            "sha256": "5d5028792c0a0ae3ddcf835dd2038acafeb3b550479f345ee6cb84345a4a76fd"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0004.png",
+            "sha256": "f9fbe45c7b90af55bc4776188edf146f1b8d1af103d28f919dde606309c69d0b"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0005.png",
+            "sha256": "ab0812172154135a12ec2e35c37cb8805ba7aaa5ee78d012855a742ca579af91"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0006.png",
+            "sha256": "3e5095909593b36ef2b856758233536e7f320ef3dd7dd793a7f969395faaa638"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0007.png",
+            "sha256": "3b900a8b5c12e342779f3e5ab3c9f3e8a5178ca38f1d30108d8a3bf5c3b89477"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0008.png",
+            "sha256": "3218681f26a9b953de61d1593d64d24b91491d29e9352e2857389ff95c209798"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0009.png",
+            "sha256": "20fe30664557ce4a69d59babc48bcfd699715cb00c58c405b085d3eefb8155aa"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0010.png",
+            "sha256": "040c789b1c157a5a5359cc5106a6880a59b9d344e00584d9b25625ffda49c21c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0011.png",
+            "sha256": "80d34b70b3c252aa1939374feac53b87a50f0ef61dc4ed978a5bc8519437c6eb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0012.png",
+            "sha256": "df40f0de74c2b3f74f2c73640740329a10cf469e246602307bdba1b13616af98"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0013.png",
+            "sha256": "674320865e8783476e4ef422f67bf091c00f23d00a5723845f2210612e257143"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0014.png",
+            "sha256": "67e43942085cb2e772f18b5d3fb59945bb6b5ae7179cf397f6679f1e60dd3dd0"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0015.png",
+            "sha256": "2727aa836bd7c6b776dad739e8388f122a189b34fdfafa75a2b3206d655614af"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0016.png",
+            "sha256": "24a8ca825236d59e22c70d1cc96c3ee2619bd2d565b977e12625c3567c48d82d"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0017.png",
+            "sha256": "1f01e2e4d5d5cfc5a6149d684c8b0636a2ad03401bfedc5a70049ffc67490f65"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0018.png",
+            "sha256": "609fdc26ac7e325df804914a87547ed2384da6ee83d25729924b447a3cb5fe1c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0019.png",
+            "sha256": "d2a9fd1221024e7f4ac85147986f667e8aa6ffd2e48041c1ce6630293e75c827"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0020.png",
+            "sha256": "609fdc26ac7e325df804914a87547ed2384da6ee83d25729924b447a3cb5fe1c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0021.png",
+            "sha256": "1f01e2e4d5d5cfc5a6149d684c8b0636a2ad03401bfedc5a70049ffc67490f65"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0022.png",
+            "sha256": "24a8ca825236d59e22c70d1cc96c3ee2619bd2d565b977e12625c3567c48d82d"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0023.png",
+            "sha256": "2727aa836bd7c6b776dad739e8388f122a189b34fdfafa75a2b3206d655614af"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0024.png",
+            "sha256": "67e43942085cb2e772f18b5d3fb59945bb6b5ae7179cf397f6679f1e60dd3dd0"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0025.png",
+            "sha256": "674320865e8783476e4ef422f67bf091c00f23d00a5723845f2210612e257143"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0026.png",
+            "sha256": "df40f0de74c2b3f74f2c73640740329a10cf469e246602307bdba1b13616af98"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0027.png",
+            "sha256": "80d34b70b3c252aa1939374feac53b87a50f0ef61dc4ed978a5bc8519437c6eb"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0028.png",
+            "sha256": "040c789b1c157a5a5359cc5106a6880a59b9d344e00584d9b25625ffda49c21c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0029.png",
+            "sha256": "20fe30664557ce4a69d59babc48bcfd699715cb00c58c405b085d3eefb8155aa"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0030.png",
+            "sha256": "3218681f26a9b953de61d1593d64d24b91491d29e9352e2857389ff95c209798"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0031.png",
+            "sha256": "3b900a8b5c12e342779f3e5ab3c9f3e8a5178ca38f1d30108d8a3bf5c3b89477"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0032.png",
+            "sha256": "3e5095909593b36ef2b856758233536e7f320ef3dd7dd793a7f969395faaa638"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0033.png",
+            "sha256": "ab0812172154135a12ec2e35c37cb8805ba7aaa5ee78d012855a742ca579af91"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0034.png",
+            "sha256": "f9fbe45c7b90af55bc4776188edf146f1b8d1af103d28f919dde606309c69d0b"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0035.png",
+            "sha256": "5d5028792c0a0ae3ddcf835dd2038acafeb3b550479f345ee6cb84345a4a76fd"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0036.png",
+            "sha256": "3e3a123fa0f052536a5d25df97f7c42a5320feca9efd7172e23083031e8cece7"
+          }
+        ],
+        "maskFrames": [
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0001.png",
+            "sha256": "b89bc79ab5b499ce6fb978e8a35df8bcab0ac42ba48651101e86877da66239ba"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0002.png",
+            "sha256": "e56f73255f0cc9e05d78c4aa1a3581162dec9260a9e1107cbdc83ccd2fe3bf5a"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0003.png",
+            "sha256": "bf713841711f28a4c524225bcf1eef870dd965845c6752cea0b10df2df0d4006"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0004.png",
+            "sha256": "6d65f3188f3b5699554716fff127b6df51a5186f3e6a5a4927d13698360bd9c2"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0005.png",
+            "sha256": "2c4b72e5814acfc2f6bfbe00e070d95119f7d9a2ab89f4850c89945f902c2072"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0006.png",
+            "sha256": "960171b5fd21ffaa72634b27b33d244448c067e70e6e0ddcf0ed8651e8578b9c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0007.png",
+            "sha256": "2aedf92aea5ca0b6a389c2a283628ed268cbb10ee43b641025d2c29a2ab4fbd3"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0008.png",
+            "sha256": "6c13055e09cf0f9b3383049c30ddc331f877c7cf79017e734ba3c106cccc7838"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0009.png",
+            "sha256": "0b1160aed92c835a38ac729465b01237014b3d17a8f34b196b44f9fb58e18c0c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0010.png",
+            "sha256": "5f1c12cc9e1fc958181a823f48d6fbc5a7231c82251569e56189979abac84a91"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0011.png",
+            "sha256": "a4a9fba06afed2b66c08c8efba7718e450b29ae6a1f8ac62b5fb1325e4dce3ee"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0012.png",
+            "sha256": "5d2bafee67c9a5e16422c13e2c71de84ab4c8500b42544b12b0f639d605c1927"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0013.png",
+            "sha256": "127e7243ec0d800543be8d146647bbf4a6dfc89c47546a321b7da07db0614fc0"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0014.png",
+            "sha256": "1fa8f09063e153aff47f7056ffe971194840d2e66533801231cf486d15e18482"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0015.png",
+            "sha256": "a4e61d8d5c46c016cd2e6534fa078663133ab4576b0c8f8daf9b82c800aeda90"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0016.png",
+            "sha256": "f80d064c12b590d950844a8621bf8dbaed826392b65033c2ba225f1ca1510241"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0017.png",
+            "sha256": "dd15e3a6e6ec8218023e8b55a319beeb6afbf7afcb04f48de85a1e1d1a981ffd"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0018.png",
+            "sha256": "308415a391c9703c252dcc0d23a834ca3e2ee74932c78b69b85184fc50a5765d"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0019.png",
+            "sha256": "9894b2bf1c930d8746ee496cbf75686561e5a00dd25c86c937804a7a5cb0dccf"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0020.png",
+            "sha256": "308415a391c9703c252dcc0d23a834ca3e2ee74932c78b69b85184fc50a5765d"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0021.png",
+            "sha256": "dd15e3a6e6ec8218023e8b55a319beeb6afbf7afcb04f48de85a1e1d1a981ffd"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0022.png",
+            "sha256": "f80d064c12b590d950844a8621bf8dbaed826392b65033c2ba225f1ca1510241"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0023.png",
+            "sha256": "a4e61d8d5c46c016cd2e6534fa078663133ab4576b0c8f8daf9b82c800aeda90"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0024.png",
+            "sha256": "1fa8f09063e153aff47f7056ffe971194840d2e66533801231cf486d15e18482"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0025.png",
+            "sha256": "127e7243ec0d800543be8d146647bbf4a6dfc89c47546a321b7da07db0614fc0"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0026.png",
+            "sha256": "5d2bafee67c9a5e16422c13e2c71de84ab4c8500b42544b12b0f639d605c1927"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0027.png",
+            "sha256": "a4a9fba06afed2b66c08c8efba7718e450b29ae6a1f8ac62b5fb1325e4dce3ee"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0028.png",
+            "sha256": "5f1c12cc9e1fc958181a823f48d6fbc5a7231c82251569e56189979abac84a91"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0029.png",
+            "sha256": "0b1160aed92c835a38ac729465b01237014b3d17a8f34b196b44f9fb58e18c0c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0030.png",
+            "sha256": "6c13055e09cf0f9b3383049c30ddc331f877c7cf79017e734ba3c106cccc7838"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0031.png",
+            "sha256": "2aedf92aea5ca0b6a389c2a283628ed268cbb10ee43b641025d2c29a2ab4fbd3"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0032.png",
+            "sha256": "960171b5fd21ffaa72634b27b33d244448c067e70e6e0ddcf0ed8651e8578b9c"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0033.png",
+            "sha256": "2c4b72e5814acfc2f6bfbe00e070d95119f7d9a2ab89f4850c89945f902c2072"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0034.png",
+            "sha256": "6d65f3188f3b5699554716fff127b6df51a5186f3e6a5a4927d13698360bd9c2"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0035.png",
+            "sha256": "bf713841711f28a4c524225bcf1eef870dd965845c6752cea0b10df2df0d4006"
+          },
+          {
+            "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0036.png",
+            "sha256": "e56f73255f0cc9e05d78c4aa1a3581162dec9260a9e1107cbdc83ccd2fe3bf5a"
+          }
+        ]
+      },
+      "extraReviewedInputs": [
+        {
+          "file": "scripts/compose-incline-calf-round4-final.py",
+          "sha256": "6e1740c167ab61d1662047d6f78615a29198c51f0bc6a5191a1535ecb8aa9d65"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/render-parameters.json",
+          "sha256": "b852c73076ac5bce5a38efab562a9f090635fb44596994f839a02b756b8867bc"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/raw-index.json",
+          "sha256": "176aaf8cf38bbc5ae29263670b364efb45fb25aa40b290a7557ed475b4d8dd08"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/source-index.json",
+          "sha256": "c7ce7e4696163f1ac43eb6a4dee1c52ec6ff54ccef81890b8b38b54c50d22f37"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v1/clean-machine-generated.png",
+          "sha256": "61704f0644c70bc0d3dd217c97573f25ced03fa1b9298ac0f795eff01a509b7c"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v1/foreground-matte-generated-0.png",
+          "sha256": "488f23c68e3a91e167d73138dae14db1438264b2b1bda55d710be74e590cdec6"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/alpha-tracking-parameters.json",
+          "sha256": "5032c05c71d92a3e0b1afe8dfbf11c25ea7c3b86ca927b759e706787e2a2efc4"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/canonical-clean-machine.png",
+          "sha256": "f6223e30afe9e388aa7d47ecb9f6953d285569fe76a9de2bc88bebc912cc4069"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/weight-premultiplied-reference.png",
+          "sha256": "de865bc22aa710254bafa06b2f84e191a0080dbbc026c05fe6a5785a72a50424"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/technical-composition-review.json",
+          "sha256": "4347e6aa7c5f56dff016435c2b7e2be74b66dfd9e3cd472fb43e2d274bdefe42"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/verified-common-static-mask.png",
+          "sha256": "e229146780b963a3de04b89fbf7c33b9d12ba07c454dac2b916209effd9bc80a"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/parameters.json",
+          "sha256": "3d7479b4cbcef97be3df51583b2d3957db4907b691238b74ae635c007377f01f"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-check.json",
+          "sha256": "4470444f81b05ea38657aa18ceba1c2a1fbc232433af326f0d0d8c94ec938bd6"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/relocation-proof.json",
+          "sha256": "54a467546f388508190152f1e66a72523b192693aaebff78e0ee5f1ed6b7f6df"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0001.png",
+          "sha256": "15d95af938be88c3b7f25460a7362dd7e0e9efaac3dc0353fc02215ea8de9181"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0002.png",
+          "sha256": "06d7ac5989a904dc3e76e9965b97097081d62eabc63130490b6cc891562f368c"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0003.png",
+          "sha256": "b40d48015c803ec5b4e9e1a289af5d25db976a2d968caa629f7205142a54009e"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0004.png",
+          "sha256": "ca989d3a69104f754290b49957eb123dacd47e60ea9800f88f88118a1e568292"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0005.png",
+          "sha256": "f00f06046f4b04e2f8d6bfa2eb76e35104f20f5459c74886686c95705a420b09"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0006.png",
+          "sha256": "9a3626d9306c130f5cfbb4f5f6f8e74a07169bc8ba683a9f0dda01e204a434e7"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0007.png",
+          "sha256": "acc5883bca8a24c90da2d3de74d98e0302d22c17680bf97873ebabbe1827aeb2"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0008.png",
+          "sha256": "9f74e1961620ec8510e4538957b0744e82b8f9e7b9c8c76d90484b167a7cb49a"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0009.png",
+          "sha256": "858fa9100a0150b9eb8aedb0eea3a490aee03d4041f5ce1efcd54bbaa2bd104b"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0010.png",
+          "sha256": "05d9d04b2ecd31d7ee801335b4b1fac79424c79a0f3716dee1c30e00309a4b20"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0011.png",
+          "sha256": "6f18a09c3c7dc86d6e553e91ff6d5c48b92c60cbd7112bcb29898e5b22f18cc9"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0012.png",
+          "sha256": "4d77a7da27d9d7d85c36477a62d4d656be0220982d328e85fa24b6013cd79df3"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0013.png",
+          "sha256": "ad89c3bbc69b3396dfd67f6b78765a8630fbd83991a716d8d8fde598dfd21480"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0014.png",
+          "sha256": "04b86fdb57f5b364ba1b47634272fc91b2d2c68c042d18cd76d17996ad5da6a2"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0015.png",
+          "sha256": "b9ed181f212c2d21917b37f4f0e28e126d2d2dbc7112f34483463aa3ae08c03b"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0016.png",
+          "sha256": "28fa691a0e8fd2e5db01a81b6b1032912093c7da6c4c8f134a3aa1c6140885d4"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0017.png",
+          "sha256": "e02908d905a4c4396b7504adef4c1766b6aef73a9e65e3b531a6be86a79c0ac3"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0018.png",
+          "sha256": "b0c46651d277a143e01cd66e8043134efcc85de76db16bc690caa5136b2a9d47"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0019.png",
+          "sha256": "d2a9fd1221024e7f4ac85147986f667e8aa6ffd2e48041c1ce6630293e75c827"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0001.png",
+          "sha256": "15d95af938be88c3b7f25460a7362dd7e0e9efaac3dc0353fc02215ea8de9181"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0002.png",
+          "sha256": "b0e4c28681f2c7f1c451aac191c566d272258ec9616485428d0d48108174fb09"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0003.png",
+          "sha256": "e8a4b5f71aae159e11bd5456f79151693ff215cbf7181b32be8b94afcb37e549"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0004.png",
+          "sha256": "63b1be470bb129580a299402ecca04c78cafdf99715a4e1a57dd931055d51051"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0005.png",
+          "sha256": "cf39fccddae72be218ecc11b61c77585ce8ba1a3db7310ae50787e76e5435a5d"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0006.png",
+          "sha256": "db50fa8eb5d89fd6a3f0708b54d4a18ecbeda331a887a74398b600cb3d4d772c"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0007.png",
+          "sha256": "d4febe642a53abecba57b6f37eea07f2065a8ba557f13a3e22be69b2329c0c7a"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0008.png",
+          "sha256": "83d5b3c7140357e19a8d45e1c8f0f80b8fa7e68e7f65c9c265366a021e08535f"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0009.png",
+          "sha256": "3e2f86e90f287334443b099bf7bfe6aa4df96bc868ee5c40a7ffbd4e6a76b723"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0010.png",
+          "sha256": "040c789b1c157a5a5359cc5106a6880a59b9d344e00584d9b25625ffda49c21c"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0011.png",
+          "sha256": "1a4515bc90c7dd94eb684cf22b113a1e3643e7f1260a4e4ff1b434d23fbdd294"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0012.png",
+          "sha256": "709ec5964d98b73c8dcb694131b531eb977add1ff876a2a74ffecb6f7216c78a"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0013.png",
+          "sha256": "34dcb1184d449a911bab7b7c1a5b042ac2fe5b2c4afb54180ec89d4d566adac3"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0014.png",
+          "sha256": "f25ec6fb20383c586e56c06584c9048e2288f37b7563f821fa9c2ae13778affc"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0015.png",
+          "sha256": "0dadfef7cbf28c0e87efb809488fabf27e19a89c78263e0de6e49071ec46e4bb"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0016.png",
+          "sha256": "cee335fdde81054b27b52b39afaded9372e341fe319280ef8c8b36d7d3e28817"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0017.png",
+          "sha256": "a3557dbd641017d53f683421dc87db92aef11301bb231d96f96fdfd0ad2deb6f"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0018.png",
+          "sha256": "c8116b92fe1296972a0f9115dea21fd8efb4dd0b52bc453f625f3cca0eda8467"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0019.png",
+          "sha256": "d2a9fd1221024e7f4ac85147986f667e8aa6ffd2e48041c1ce6630293e75c827"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0001.png",
+          "sha256": "06769907f3be9970712d112a8874efd553f1f6d3c34e036dd3f08ab60961f67a"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0002.png",
+          "sha256": "06769907f3be9970712d112a8874efd553f1f6d3c34e036dd3f08ab60961f67a"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0003.png",
+          "sha256": "a195b5ea7425e3e1f945314fe4a26ebfbd870289eca9a0f622867a71d2db65ee"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0004.png",
+          "sha256": "81bbe29dc69d53b380057130f74654ab2040ac15121f7cd3d1164ed89b637e4d"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0005.png",
+          "sha256": "f8c798b5b32ead65e0dbf0383413fae39604ae33f636759a9234dc5882dbbc63"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0006.png",
+          "sha256": "cbcc331d8de51bc9006aac331abb6c3dedc0ddb939f771aed8b6eb0265dc2c85"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0007.png",
+          "sha256": "234996d70c21f06ae6268b659856bae1e98e92976ef384086de614d90ce8863c"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0008.png",
+          "sha256": "4d3c100bc5b2c8fc12f31839fc296534b6b7d487395d9eb30d8f892761f9ae69"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0009.png",
+          "sha256": "a5b6daba38bade57c086a2fe80cbfb486a37de06f785096b3b61901c602b58c1"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0010.png",
+          "sha256": "faa4621c3116068b6634e0ebe5d8ecc42c3f5a04da34e765ed4ec6d9885b9bc3"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0011.png",
+          "sha256": "b11d82a45182e20240dfc75251fe12faf7ae6020055be7b87dffe4d95486958c"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0012.png",
+          "sha256": "04bae95a1a72dd6fab54844b218b0eb1bbbcfa17e5f3f19c1a78ce3b7be02999"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0013.png",
+          "sha256": "b695b48a21668656e21fb69ba3ee097c4f36c84fd06b18c694d77b562d4b7d91"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0014.png",
+          "sha256": "ada903977157693842a8b0e84672734369bbd2806073408763e409880b7ce762"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0015.png",
+          "sha256": "32a170d487327b3cb0efd48533983ff110a97382eb465b773805e7e46166814a"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0016.png",
+          "sha256": "1690bc48293d7b22294fc3742aa1fdd1dffdd8d514b479876b7233f7ee1364af"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0017.png",
+          "sha256": "83dfccad0620179f0a8c52d29cd924d01bd3d365a8716683f95ecb53ac9d9738"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0018.png",
+          "sha256": "acfb05a01d87c6444f77661f6dfc32127515d4817844ed79a3f06f4e60803d4f"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0019.png",
+          "sha256": "a66754f168c2461c3005da6596900b095d6146152dee31304bfb5a7d383f412d"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0001.png",
+          "sha256": "2ddb639b0e7bcada7e067c6e5ae0b1e25f6ca2f6a713bbaac76ffea5c3c9c30d"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0002.png",
+          "sha256": "2ddb639b0e7bcada7e067c6e5ae0b1e25f6ca2f6a713bbaac76ffea5c3c9c30d"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0003.png",
+          "sha256": "aa01587e2e2c86464fb3b6c6e910c1d59d13d8d2537afc977b3c757eb67887e4"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0004.png",
+          "sha256": "efbc69facfbe0494b24081e432eae432decc0624f5bfcb8223695ac33d7a4678"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0005.png",
+          "sha256": "13bf1a710b411d5de43269e7e9f8e066879a828b3f8aeafa7567cb4f565ab74c"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0006.png",
+          "sha256": "1c839b69cc48ce702b769ae8996ca247ad96a4b2c747e96de5ad859f2cca207c"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0007.png",
+          "sha256": "9b2ac01f49c4ef04f1acc9953bc385163ad230d0464ee18b20527fb418bc1f12"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0008.png",
+          "sha256": "2065e9d5119c4b3163d7244bda2432aa459b89d917af26d307c458947e71c639"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0009.png",
+          "sha256": "2f8ef58274009ff5715b960622aa868c4de529f0304cc2ea8a99c2fcbdd90bd8"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0010.png",
+          "sha256": "2eeb292a87af6deb03ae30467eae323b85eb4088d9df39b5701c1a7cfed453b7"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0011.png",
+          "sha256": "1d9df98106dd276c5d56ce6b43f7438830184a8c7a063e0bb69b01c32e660a86"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0012.png",
+          "sha256": "a2ea120b92de87e742920e00a4946d3495f129f045f84fbc42178580faa0830b"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0013.png",
+          "sha256": "94110ef81589720b6c78106c4876a6925aa55a1cb2ef8422245d4f9c6180057c"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0014.png",
+          "sha256": "98205e210c6142b8660a82d93526c6ddd485eeeb6d6dcc6f04a3157881f2916a"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0015.png",
+          "sha256": "b7097c2ba84036524d3d50e36b4f2892c257fee26c73aab0a6a015190dc1515d"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0016.png",
+          "sha256": "aa1ba101fe180e66f91ee5e2280108d5329a4903b0b9bd3057e4255c78d4dc2f"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0017.png",
+          "sha256": "05d9d312c228a4f7187c7bbb866dcccddddc2710b2884fa6fec898e5bc23317f"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0018.png",
+          "sha256": "4f66b2a5bfff4b6e904d02ad2ef55a074893511d5ac225fcbd1d2505d7432033"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0019.png",
+          "sha256": "d058e087065949855a6a9141832c84eaad4c09f02c68631849c1f77d5857ef1c"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/keys/low.png",
+          "sha256": "15d95af938be88c3b7f25460a7362dd7e0e9efaac3dc0353fc02215ea8de9181"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/keys/mid.png",
+          "sha256": "040c789b1c157a5a5359cc5106a6880a59b9d344e00584d9b25625ffda49c21c"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/keys/high.png",
+          "sha256": "d2a9fd1221024e7f4ac85147986f667e8aa6ffd2e48041c1ce6630293e75c827"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0001.png",
+          "sha256": "15d95af938be88c3b7f25460a7362dd7e0e9efaac3dc0353fc02215ea8de9181"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0002.png",
+          "sha256": "3e3a123fa0f052536a5d25df97f7c42a5320feca9efd7172e23083031e8cece7"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0003.png",
+          "sha256": "5d5028792c0a0ae3ddcf835dd2038acafeb3b550479f345ee6cb84345a4a76fd"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0004.png",
+          "sha256": "f9fbe45c7b90af55bc4776188edf146f1b8d1af103d28f919dde606309c69d0b"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0005.png",
+          "sha256": "ab0812172154135a12ec2e35c37cb8805ba7aaa5ee78d012855a742ca579af91"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0006.png",
+          "sha256": "3e5095909593b36ef2b856758233536e7f320ef3dd7dd793a7f969395faaa638"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0007.png",
+          "sha256": "3b900a8b5c12e342779f3e5ab3c9f3e8a5178ca38f1d30108d8a3bf5c3b89477"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0008.png",
+          "sha256": "3218681f26a9b953de61d1593d64d24b91491d29e9352e2857389ff95c209798"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0009.png",
+          "sha256": "20fe30664557ce4a69d59babc48bcfd699715cb00c58c405b085d3eefb8155aa"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0010.png",
+          "sha256": "040c789b1c157a5a5359cc5106a6880a59b9d344e00584d9b25625ffda49c21c"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0011.png",
+          "sha256": "80d34b70b3c252aa1939374feac53b87a50f0ef61dc4ed978a5bc8519437c6eb"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0012.png",
+          "sha256": "df40f0de74c2b3f74f2c73640740329a10cf469e246602307bdba1b13616af98"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0013.png",
+          "sha256": "674320865e8783476e4ef422f67bf091c00f23d00a5723845f2210612e257143"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0014.png",
+          "sha256": "67e43942085cb2e772f18b5d3fb59945bb6b5ae7179cf397f6679f1e60dd3dd0"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0015.png",
+          "sha256": "2727aa836bd7c6b776dad739e8388f122a189b34fdfafa75a2b3206d655614af"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0016.png",
+          "sha256": "24a8ca825236d59e22c70d1cc96c3ee2619bd2d565b977e12625c3567c48d82d"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0017.png",
+          "sha256": "1f01e2e4d5d5cfc5a6149d684c8b0636a2ad03401bfedc5a70049ffc67490f65"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0018.png",
+          "sha256": "609fdc26ac7e325df804914a87547ed2384da6ee83d25729924b447a3cb5fe1c"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0019.png",
+          "sha256": "d2a9fd1221024e7f4ac85147986f667e8aa6ffd2e48041c1ce6630293e75c827"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0020.png",
+          "sha256": "609fdc26ac7e325df804914a87547ed2384da6ee83d25729924b447a3cb5fe1c"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0021.png",
+          "sha256": "1f01e2e4d5d5cfc5a6149d684c8b0636a2ad03401bfedc5a70049ffc67490f65"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0022.png",
+          "sha256": "24a8ca825236d59e22c70d1cc96c3ee2619bd2d565b977e12625c3567c48d82d"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0023.png",
+          "sha256": "2727aa836bd7c6b776dad739e8388f122a189b34fdfafa75a2b3206d655614af"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0024.png",
+          "sha256": "67e43942085cb2e772f18b5d3fb59945bb6b5ae7179cf397f6679f1e60dd3dd0"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0025.png",
+          "sha256": "674320865e8783476e4ef422f67bf091c00f23d00a5723845f2210612e257143"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0026.png",
+          "sha256": "df40f0de74c2b3f74f2c73640740329a10cf469e246602307bdba1b13616af98"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0027.png",
+          "sha256": "80d34b70b3c252aa1939374feac53b87a50f0ef61dc4ed978a5bc8519437c6eb"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0028.png",
+          "sha256": "040c789b1c157a5a5359cc5106a6880a59b9d344e00584d9b25625ffda49c21c"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0029.png",
+          "sha256": "20fe30664557ce4a69d59babc48bcfd699715cb00c58c405b085d3eefb8155aa"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0030.png",
+          "sha256": "3218681f26a9b953de61d1593d64d24b91491d29e9352e2857389ff95c209798"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0031.png",
+          "sha256": "3b900a8b5c12e342779f3e5ab3c9f3e8a5178ca38f1d30108d8a3bf5c3b89477"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0032.png",
+          "sha256": "3e5095909593b36ef2b856758233536e7f320ef3dd7dd793a7f969395faaa638"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0033.png",
+          "sha256": "ab0812172154135a12ec2e35c37cb8805ba7aaa5ee78d012855a742ca579af91"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0034.png",
+          "sha256": "f9fbe45c7b90af55bc4776188edf146f1b8d1af103d28f919dde606309c69d0b"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0035.png",
+          "sha256": "5d5028792c0a0ae3ddcf835dd2038acafeb3b550479f345ee6cb84345a4a76fd"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0036.png",
+          "sha256": "3e3a123fa0f052536a5d25df97f7c42a5320feca9efd7172e23083031e8cece7"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/independent-ab-foot-review.json",
+          "sha256": "da87878736e4fdb1f3dd74fdb12a8620707734478f60e47df53cb55d11a7eb87"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/independent-ab-final-review.json",
+          "sha256": "9d2199b81d97c797a556482d0a6a31a6f159d6ffb27ca3751c6f2cf2ce331aba"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/root-final-review.json",
+          "sha256": "73000a8f4bdf5fff9b7893677282d7e1166c7122246435c19c059392705c1c2e"
+        }
+      ]
+    }
+  }
+}

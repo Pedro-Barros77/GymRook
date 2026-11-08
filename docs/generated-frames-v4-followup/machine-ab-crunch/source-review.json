@@ -1,0 +1,80 @@
+{
+  "id": "machine-ab-crunch",
+  "selectedCandidate": "sheet-v2.png",
+  "sourceSha256": "f63bc75ce407a58e9ebf1fa39aea79b7402093089cf32397c2170c1107b2bcb2",
+  "grid": [
+    3,
+    3
+  ],
+  "cellTrimPixels": 2,
+  "selection": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "status": "ROOT approved source candidate, then approved dropping two redundant early poses; actual composed motion still awaits ROOT final gate.",
+  "requestedCorrection": "Hands hold high work-arm grips beside neck/upper shoulders, replacing low front roller grips.",
+  "architectureReference": {
+    "title": "Life Fitness Axiom Series Abdominal OP-AB",
+    "url": "https://shop.lifefitness.com/products/axiom-series-abdominal",
+    "imageUrl": "https://shop.lifefitness.com/cdn/shop/files/axiom-series-abdominal1000x1000.jpg?v=1767807612&width=1000",
+    "use": "Physical high-handle architecture reference only; no manufacturer photograph incorporated into delivered media."
+  },
+  "sourceChecks": [
+    "Both hands surround high grips alongside neck/upper shoulders throughout nine poses.",
+    "One connected upper work-arm assembly with a transverse bearing behind the shoulders, rather than the rejected twin vertical pec-deck axes.",
+    "Rib cage approaches pelvis with visible abdominal shortening and spinal curvature; pelvis remains seated and feet supported.",
+    "Same head size, visible muscular body, black shorts/shoes and warm lighting; no game-style human rig.",
+    "Seat, lumbar support, tower and chassis remain recognisable and integrated. Their residual raster differences require canonical stabilization in actual motion candidate.",
+    "No low front chest/abdominal roller and no multiplying exposed weight stack."
+  ],
+  "timingReview": {
+    "issue": "Initial three poses have much smaller travel than later poses; a uniform source-key timeline would hold too long at the beginning.",
+    "recommendedAnchorProgress": [
+      0,
+      0.085,
+      0.25,
+      0.45,
+      0.7,
+      0.9,
+      1
+    ],
+    "basis": "Visual manual estimate of actual head/upper torso progression, not the requested angle labels or a clinical measurement. Renderer should inspect and refine if needed.",
+    "resolution": "Two nearly duplicate starting poses changed apparent body scale and induced a small early recoil. ROOT approved excluding them; nine-pose source and original36frame candidate archived."
+  },
+  "fixedRegionSuggestions": {
+    "towerPixels": [
+      40,
+      20,
+      211,
+      455
+    ],
+    "lowerFramePixels": [
+      0,
+      390,
+      512,
+      512
+    ],
+    "notes": "Coordinate suggestions only. Protect actual moving hand/yoke/torso occlusions. Do not copy a broad rectangle through an arm, and review all19forward frames after composition."
+  },
+  "limits": [
+    "High yoke remains generated raster perspective; no claim of a complete rigid kinematic machine model or exact3D lever lengths.",
+    "Torso/neck angles are visual approximations; generated exercise illustrations remain subject to human technical review.",
+    "Source gate does not approve the interpolated video; actual intermediate frames, contacts and transition onions must still be reviewed."
+  ],
+  "rejectedStudies": [
+    {
+      "file": "sheet-v1.png",
+      "reason": "Two independent vertical pec-deck pivots leaked from style reference; incompatible apparatus and low grips. Never interpolate/export."
+    }
+  ],
+  "generationMode": "builtin image_gen",
+  "discardedRedundantCells": [
+    1,
+    2
+  ]
+}

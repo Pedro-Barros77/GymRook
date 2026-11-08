@@ -1,0 +1,1368 @@
+{
+  "id": "lying-leg-curl",
+  "sourceKind": "reviewed-png-loop",
+  "frameCount": 36,
+  "fps": 12,
+  "cycle": "ping-pong",
+  "generator": "scripts/render-lying-leg-curl-rig.py",
+  "generatorSha256": "9cbf0116c483d2d0e011bd76a661746cfd55c302a6835d2e9bf93f8c04fe7e27",
+  "parameters": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/parameters.json",
+  "inputs": {
+    "docs/generated-frames-v3-repairs/lying-leg-curl/rig/clean-base-v1-512.png": "c27a83f8f0f7f07f58f6c32c47d4ecd618f15af553fe415e792df075340ebe25",
+    "docs/generated-frames-v3-repairs/lying-leg-curl/rig/lower-leg-sprite-v1.png": "b556d9a0d546b3074eef8834e8c269a7e1335da08e9a4b6662c31f145de2a475"
+  },
+  "sourceFrames": [
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0001.png",
+      "sha256": "515bdc7c76f63f05974c86d13e9ec7f09a99cd1941c68263c564932e8c0ae685"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0002.png",
+      "sha256": "f3eb542c6ef1aa1db915a4ce0e8fabb4c21b8021ae5223b91544eb00ccd168a4"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0003.png",
+      "sha256": "6b0703e611c3a172d8405c066f470452ae4025b70b9710dd4147b56992bb1d5f"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0004.png",
+      "sha256": "0c389a22cb72dba9d1b8a1fb495d08816d2e2acb10be51ad04486b03a8408da1"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0005.png",
+      "sha256": "f768615e15b2c3cdbdfd0e1871415b1ff0bea6f4976a812eb267b6f6c0bf71d2"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0006.png",
+      "sha256": "a2a0c7869c1f30463194394b06f2980b6b37baa208b2662abd19d8f6b852722c"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0007.png",
+      "sha256": "6b05e4ac58676ee8dc0681de68abf5c78f9216bfb57a03be673cedabd69f0d9e"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0008.png",
+      "sha256": "327b54bc74fa85eeaed45c71376bdd6f7596f924f8d812ba4be965d1d2b06fe4"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0009.png",
+      "sha256": "1600a073d6e6f255c3f522bcdfe9f739088082c5a0eef8d8798f15cfbf060b28"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0010.png",
+      "sha256": "9bfc972b0cc77167e605f113282c1eee8fa234c284eead9b54632bc35b8e9871"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0011.png",
+      "sha256": "fbf639941c8cb8e1139d03abe8a208836cdfd59d2b7236ed61a65e0ef55bf8d7"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0012.png",
+      "sha256": "7376764f57a02d99e8435b7c0c577819ba5d42a91e081391eaee0ec04d6a9d99"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0013.png",
+      "sha256": "003797a76c9e9e6168ed79be522b4cd43f4e5106b65e5be0b2c8301e6e2eaa30"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0014.png",
+      "sha256": "e7e1cc6cde0d66be7e0a93eb0b28481265ee67466af7b162e4624eeee46e54d9"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0015.png",
+      "sha256": "7ef30e73950e1d32fd85eb4e919a3447cfecc451e5e6fbaf34a652a9de36e13d"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0016.png",
+      "sha256": "361d8a7a4b824109a71e49a18775ef17820d6de52f661543a14d2d17992f8a51"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0017.png",
+      "sha256": "013417d4df219fedc5d0a725f1761987ed8f1a3f21c6f3d40f1d91d4a59a7f6f"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0018.png",
+      "sha256": "24fcdfbfa345311addce84abcce226459c244656e55c06237e1105a9c9f8c1f0"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0019.png",
+      "sha256": "4bd0a9b53e810614bfc52a91310e80ef853470e1716693594dc6ccb3c4ade4aa"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0020.png",
+      "sha256": "24fcdfbfa345311addce84abcce226459c244656e55c06237e1105a9c9f8c1f0"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0021.png",
+      "sha256": "013417d4df219fedc5d0a725f1761987ed8f1a3f21c6f3d40f1d91d4a59a7f6f"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0022.png",
+      "sha256": "361d8a7a4b824109a71e49a18775ef17820d6de52f661543a14d2d17992f8a51"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0023.png",
+      "sha256": "7ef30e73950e1d32fd85eb4e919a3447cfecc451e5e6fbaf34a652a9de36e13d"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0024.png",
+      "sha256": "e7e1cc6cde0d66be7e0a93eb0b28481265ee67466af7b162e4624eeee46e54d9"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0025.png",
+      "sha256": "003797a76c9e9e6168ed79be522b4cd43f4e5106b65e5be0b2c8301e6e2eaa30"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0026.png",
+      "sha256": "7376764f57a02d99e8435b7c0c577819ba5d42a91e081391eaee0ec04d6a9d99"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0027.png",
+      "sha256": "fbf639941c8cb8e1139d03abe8a208836cdfd59d2b7236ed61a65e0ef55bf8d7"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0028.png",
+      "sha256": "9bfc972b0cc77167e605f113282c1eee8fa234c284eead9b54632bc35b8e9871"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0029.png",
+      "sha256": "1600a073d6e6f255c3f522bcdfe9f739088082c5a0eef8d8798f15cfbf060b28"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0030.png",
+      "sha256": "327b54bc74fa85eeaed45c71376bdd6f7596f924f8d812ba4be965d1d2b06fe4"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0031.png",
+      "sha256": "6b05e4ac58676ee8dc0681de68abf5c78f9216bfb57a03be673cedabd69f0d9e"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0032.png",
+      "sha256": "a2a0c7869c1f30463194394b06f2980b6b37baa208b2662abd19d8f6b852722c"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0033.png",
+      "sha256": "f768615e15b2c3cdbdfd0e1871415b1ff0bea6f4976a812eb267b6f6c0bf71d2"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0034.png",
+      "sha256": "0c389a22cb72dba9d1b8a1fb495d08816d2e2acb10be51ad04486b03a8408da1"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0035.png",
+      "sha256": "6b0703e611c3a172d8405c066f470452ae4025b70b9710dd4147b56992bb1d5f"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0036.png",
+      "sha256": "f3eb542c6ef1aa1db915a4ce0e8fabb4c21b8021ae5223b91544eb00ccd168a4"
+    }
+  ],
+  "frames": [
+    {
+      "frame": 1,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0001.png",
+      "sha256": "515bdc7c76f63f05974c86d13e9ec7f09a99cd1941c68263c564932e8c0ae685",
+      "phase": 0.0,
+      "degrees": 0.0,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        60.0,
+        274.0
+      ],
+      "farAnkle": [
+        56.0,
+        272.0
+      ],
+      "nearRoller": [
+        70.0,
+        251.75
+      ],
+      "farRoller": [
+        66.0,
+        249.75
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0
+    },
+    {
+      "frame": 2,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0002.png",
+      "sha256": "f3eb542c6ef1aa1db915a4ce0e8fabb4c21b8021ae5223b91544eb00ccd168a4",
+      "phase": 0.00759612349389599,
+      "degrees": 0.7216317319201191,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        60.00793140711187,
+        272.7405483275821
+      ],
+      "farAnkle": [
+        56.00793140711187,
+        270.7405483275821
+      ],
+      "nearRoller": [
+        70.28736626351368,
+        250.61825823290627
+      ],
+      "farRoller": [
+        66.28736626351368,
+        248.61825823290627
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0
+    },
+    {
+      "frame": 3,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0003.png",
+      "sha256": "6b0703e611c3a172d8405c066f470452ae4025b70b9710dd4147b56992bb1d5f",
+      "phase": 0.030153689607045786,
+      "degrees": 2.86460051266935,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        60.12495752139752,
+        269.00241159184264
+      ],
+      "farAnkle": [
+        56.12495752139752,
+        267.00241159184264
+      ],
+      "nearRoller": [
+        71.22442519007278,
+        247.27997348116932
+      ],
+      "farRoller": [
+        67.22442519007278,
+        245.27997348116932
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0
+    },
+    {
+      "frame": 4,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0004.png",
+      "sha256": "0c389a22cb72dba9d1b8a1fb495d08816d2e2acb10be51ad04486b03a8408da1",
+      "phase": 0.06698729810778065,
+      "degrees": 6.363793320239162,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        60.616183917369284,
+        262.91590775688724
+      ],
+      "farAnkle": [
+        56.616183917369284,
+        260.91590775688724
+      ],
+      "nearRoller": [
+        73.02077604972494,
+        241.91141790281318
+      ],
+      "farRoller": [
+        69.02077604972494,
+        239.91141790281318
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0
+    },
+    {
+      "frame": 5,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0005.png",
+      "sha256": "f768615e15b2c3cdbdfd0e1871415b1ff0bea6f4976a812eb267b6f6c0bf71d2",
+      "phase": 0.116977778440511,
+      "degrees": 11.112888951848545,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        61.87506695473455,
+        254.725729200248
+      ],
+      "farAnkle": [
+        57.87506695473455,
+        252.725729200248
+      ],
+      "nearRoller": [
+        75.97608551220591,
+        234.82035867765163
+      ],
+      "farRoller": [
+        71.97608551220591,
+        232.82035867765163
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0
+    },
+    {
+      "frame": 6,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0006.png",
+      "sha256": "a2a0c7869c1f30463194394b06f2980b6b37baa208b2662abd19d8f6b852722c",
+      "phase": 0.17860619515673032,
+      "degrees": 16.96758853988938,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        64.35300062720748,
+        244.8169310904246
+      ],
+      "farAnkle": [
+        60.35300062720748,
+        242.8169310904246
+      ],
+      "nearRoller": [
+        80.41093339686726,
+        226.4537806209358
+      ],
+      "farRoller": [
+        76.41093339686726,
+        224.4537806209358
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0
+    },
+    {
+      "frame": 7,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0007.png",
+      "sha256": "6b05e4ac58676ee8dc0681de68abf5c78f9216bfb57a03be673cedabd69f0d9e",
+      "phase": 0.24999999999999994,
+      "degrees": 23.749999999999996,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        68.46885208805529,
+        233.72533101412628
+      ],
+      "farAnkle": [
+        64.46885208805529,
+        231.72533101412628
+      ],
+      "nearRoller": [
+        86.58308072860666,
+        217.38711750230598
+      ],
+      "farRoller": [
+        82.58308072860666,
+        215.38711750230598
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0
+    },
+    {
+      "frame": 8,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0008.png",
+      "sha256": "327b54bc74fa85eeaed45c71376bdd6f7596f924f8d812ba4be965d1d2b06fe4",
+      "phase": 0.32898992833716556,
+      "degrees": 31.25404319203073,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        74.51247397349971,
+        222.11664145539117
+      ],
+      "farAnkle": [
+        70.51247397349971,
+        220.11664145539117
+      ],
+      "nearRoller": [
+        94.6052738523252,
+        208.28400276895576
+      ],
+      "farRoller": [
+        90.6052738523252,
+        206.28400276895576
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0
+    },
+    {
+      "frame": 9,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0009.png",
+      "sha256": "1600a073d6e6f255c3f522bcdfe9f739088082c5a0eef8d8798f15cfbf060b28",
+      "phase": 0.4131759111665348,
+      "degrees": 39.25171156082081,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        82.56262566720628,
+        210.72715387749037
+      ],
+      "farAnkle": [
+        78.56262566720628,
+        208.72715387749037
+      ],
+      "nearRoller": [
+        104.38457136274404,
+        199.82462270069476
+      ],
+      "farRoller": [
+        100.38457136274404,
+        197.82462270069476
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0
+    },
+    {
+      "frame": 10,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0010.png",
+      "sha256": "9bfc972b0cc77167e605f113282c1eee8fa234c284eead9b54632bc35b8e9871",
+      "phase": 0.49999999999999994,
+      "degrees": 47.49999999999999,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        92.44097923843397,
+        200.2722663189876
+      ],
+      "farAnkle": [
+        88.44097923843397,
+        198.2722663189876
+      ],
+      "nearRoller": [
+        115.60130205861583,
+        192.6131575676404
+      ],
+      "farRoller": [
+        111.60130205861583,
+        190.6131575676404
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0
+    },
+    {
+      "frame": 11,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0011.png",
+      "sha256": "fbf639941c8cb8e1139d03abe8a208836cdfd59d2b7236ed61a65e0ef55bf8d7",
+      "phase": 0.5868240888334652,
+      "degrees": 55.74828843917919,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        103.71703803598415,
+        191.34270635595948
+      ],
+      "farAnkle": [
+        99.71703803598415,
+        189.34270635595948
+      ],
+      "nearRoller": [
+        127.73658206818476,
+        187.08547668336996
+      ],
+      "farRoller": [
+        123.73658206818476,
+        185.08547668336996
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0
+    },
+    {
+      "frame": 12,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0012.png",
+      "sha256": "7376764f57a02d99e8435b7c0c577819ba5d42a91e081391eaee0ec04d6a9d99",
+      "phase": 0.6710100716628342,
+      "degrees": 63.74595680796925,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        115.76480212516698,
+        184.31584716922185
+      ],
+      "farAnkle": [
+        111.76480212516698,
+        182.31584716922185
+      ],
+      "nearRoller": [
+        140.14304591749843,
+        183.44193092514934
+      ],
+      "farRoller": [
+        136.14304591749843,
+        181.44193092514934
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0
+    },
+    {
+      "frame": 13,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0013.png",
+      "sha256": "003797a76c9e9e6168ed79be522b4cd43f4e5106b65e5be0b2c8301e6e2eaa30",
+      "phase": 0.7499999999999999,
+      "degrees": 71.24999999999999,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        127.85605346968381,
+        179.30698705048945
+      ],
+      "farAnkle": [
+        123.85605346968381,
+        177.30698705048945
+      ],
+      "nearRoller": [
+        152.13964350398152,
+        181.62426024244513
+      ],
+      "farRoller": [
+        148.13964350398152,
+        179.62426024244513
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0
+    },
+    {
+      "frame": 14,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0014.png",
+      "sha256": "e7e1cc6cde0d66be7e0a93eb0b28481265ee67466af7b162e4624eeee46e54d9",
+      "phase": 0.8213938048432696,
+      "degrees": 78.03241146011061,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        139.26416675015543,
+        176.17349428996943
+      ],
+      "farAnkle": [
+        135.26416675015543,
+        174.17349428996943
+      ],
+      "nearRoller": [
+        163.10414759562167,
+        181.34242196288207
+      ],
+      "farRoller": [
+        159.10414759562167,
+        179.34242196288207
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0
+    },
+    {
+      "frame": 15,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0015.png",
+      "sha256": "7ef30e73950e1d32fd85eb4e919a3447cfecc451e5e6fbaf34a652a9de36e13d",
+      "phase": 0.883022221559489,
+      "degrees": 83.88711104815145,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        149.35122504132684,
+        174.56859856222715
+      ],
+      "farAnkle": [
+        145.35122504132684,
+        172.56859856222715
+      ],
+      "nearRoller": [
+        172.5395893570986,
+        182.14238627769967
+      ],
+      "farRoller": [
+        168.5395893570986,
+        180.14238627769967
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0
+    },
+    {
+      "frame": 16,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0016.png",
+      "sha256": "361d8a7a4b824109a71e49a18775ef17820d6de52f661543a14d2d17992f8a51",
+      "phase": 0.9330127018922192,
+      "degrees": 88.63620667976082,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        157.61995638202953,
+        174.0283270502261
+      ],
+      "farAnkle": [
+        153.61995638202953,
+        172.0283270502261
+      ],
+      "nearRoller": [
+        180.10165797515126,
+        183.49593464020504
+      ],
+      "farRoller": [
+        176.10165797515126,
+        181.49593464020504
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0
+    },
+    {
+      "frame": 17,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0017.png",
+      "sha256": "013417d4df219fedc5d0a725f1761987ed8f1a3f21c6f3d40f1d91d4a59a7f6f",
+      "phase": 0.9698463103929542,
+      "degrees": 92.13539948733064,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        163.72611243372538,
+        174.0694436814683
+      ],
+      "farAnkle": [
+        159.72611243372538,
+        172.0694436814683
+      ],
+      "nearRoller": [
+        185.58804997122613,
+        184.89155932982536
+      ],
+      "farRoller": [
+        181.58804997122613,
+        182.89155932982536
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0
+    },
+    {
+      "frame": 18,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0018.png",
+      "sha256": "24fcdfbfa345311addce84abcce226459c244656e55c06237e1105a9c9f8c1f0",
+      "phase": 0.9924038765061041,
+      "degrees": 94.27836826807989,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        167.46022392852245,
+        174.27866297057435
+      ],
+      "farAnkle": [
+        163.46022392852245,
+        172.27866297057435
+      ],
+      "nearRoller": [
+        188.90219902471742,
+        185.91069649761315
+      ],
+      "farRoller": [
+        184.90219902471742,
+        183.91069649761315
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0
+    },
+    {
+      "frame": 19,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0019.png",
+      "sha256": "4bd0a9b53e810614bfc52a91310e80ef853470e1716693594dc6ccb3c4ade4aa",
+      "phase": 1.0,
+      "degrees": 95.0,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        168.71557427476583,
+        174.38053019082543
+      ],
+      "farAnkle": [
+        164.71557427476583,
+        172.38053019082543
+      ],
+      "nearRoller": [
+        190.00934887983058,
+        186.2816924478783
+      ],
+      "farRoller": [
+        186.00934887983058,
+        184.2816924478783
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0
+    },
+    {
+      "frame": 20,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0020.png",
+      "sha256": "24fcdfbfa345311addce84abcce226459c244656e55c06237e1105a9c9f8c1f0",
+      "phase": 0.9924038765061041,
+      "degrees": 94.27836826807989,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        167.46022392852245,
+        174.27866297057435
+      ],
+      "farAnkle": [
+        163.46022392852245,
+        172.27866297057435
+      ],
+      "nearRoller": [
+        188.90219902471742,
+        185.91069649761315
+      ],
+      "farRoller": [
+        184.90219902471742,
+        183.91069649761315
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0,
+      "copyOfFrame": 18
+    },
+    {
+      "frame": 21,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0021.png",
+      "sha256": "013417d4df219fedc5d0a725f1761987ed8f1a3f21c6f3d40f1d91d4a59a7f6f",
+      "phase": 0.9698463103929542,
+      "degrees": 92.13539948733064,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        163.72611243372538,
+        174.0694436814683
+      ],
+      "farAnkle": [
+        159.72611243372538,
+        172.0694436814683
+      ],
+      "nearRoller": [
+        185.58804997122613,
+        184.89155932982536
+      ],
+      "farRoller": [
+        181.58804997122613,
+        182.89155932982536
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0,
+      "copyOfFrame": 17
+    },
+    {
+      "frame": 22,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0022.png",
+      "sha256": "361d8a7a4b824109a71e49a18775ef17820d6de52f661543a14d2d17992f8a51",
+      "phase": 0.9330127018922192,
+      "degrees": 88.63620667976082,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        157.61995638202953,
+        174.0283270502261
+      ],
+      "farAnkle": [
+        153.61995638202953,
+        172.0283270502261
+      ],
+      "nearRoller": [
+        180.10165797515126,
+        183.49593464020504
+      ],
+      "farRoller": [
+        176.10165797515126,
+        181.49593464020504
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0,
+      "copyOfFrame": 16
+    },
+    {
+      "frame": 23,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0023.png",
+      "sha256": "7ef30e73950e1d32fd85eb4e919a3447cfecc451e5e6fbaf34a652a9de36e13d",
+      "phase": 0.883022221559489,
+      "degrees": 83.88711104815145,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        149.35122504132684,
+        174.56859856222715
+      ],
+      "farAnkle": [
+        145.35122504132684,
+        172.56859856222715
+      ],
+      "nearRoller": [
+        172.5395893570986,
+        182.14238627769967
+      ],
+      "farRoller": [
+        168.5395893570986,
+        180.14238627769967
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0,
+      "copyOfFrame": 15
+    },
+    {
+      "frame": 24,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0024.png",
+      "sha256": "e7e1cc6cde0d66be7e0a93eb0b28481265ee67466af7b162e4624eeee46e54d9",
+      "phase": 0.8213938048432696,
+      "degrees": 78.03241146011061,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        139.26416675015543,
+        176.17349428996943
+      ],
+      "farAnkle": [
+        135.26416675015543,
+        174.17349428996943
+      ],
+      "nearRoller": [
+        163.10414759562167,
+        181.34242196288207
+      ],
+      "farRoller": [
+        159.10414759562167,
+        179.34242196288207
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0,
+      "copyOfFrame": 14
+    },
+    {
+      "frame": 25,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0025.png",
+      "sha256": "003797a76c9e9e6168ed79be522b4cd43f4e5106b65e5be0b2c8301e6e2eaa30",
+      "phase": 0.7499999999999999,
+      "degrees": 71.24999999999999,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        127.85605346968381,
+        179.30698705048945
+      ],
+      "farAnkle": [
+        123.85605346968381,
+        177.30698705048945
+      ],
+      "nearRoller": [
+        152.13964350398152,
+        181.62426024244513
+      ],
+      "farRoller": [
+        148.13964350398152,
+        179.62426024244513
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0,
+      "copyOfFrame": 13
+    },
+    {
+      "frame": 26,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0026.png",
+      "sha256": "7376764f57a02d99e8435b7c0c577819ba5d42a91e081391eaee0ec04d6a9d99",
+      "phase": 0.6710100716628342,
+      "degrees": 63.74595680796925,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        115.76480212516698,
+        184.31584716922185
+      ],
+      "farAnkle": [
+        111.76480212516698,
+        182.31584716922185
+      ],
+      "nearRoller": [
+        140.14304591749843,
+        183.44193092514934
+      ],
+      "farRoller": [
+        136.14304591749843,
+        181.44193092514934
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0,
+      "copyOfFrame": 12
+    },
+    {
+      "frame": 27,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0027.png",
+      "sha256": "fbf639941c8cb8e1139d03abe8a208836cdfd59d2b7236ed61a65e0ef55bf8d7",
+      "phase": 0.5868240888334652,
+      "degrees": 55.74828843917919,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        103.71703803598415,
+        191.34270635595948
+      ],
+      "farAnkle": [
+        99.71703803598415,
+        189.34270635595948
+      ],
+      "nearRoller": [
+        127.73658206818476,
+        187.08547668336996
+      ],
+      "farRoller": [
+        123.73658206818476,
+        185.08547668336996
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0,
+      "copyOfFrame": 11
+    },
+    {
+      "frame": 28,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0028.png",
+      "sha256": "9bfc972b0cc77167e605f113282c1eee8fa234c284eead9b54632bc35b8e9871",
+      "phase": 0.49999999999999994,
+      "degrees": 47.49999999999999,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        92.44097923843397,
+        200.2722663189876
+      ],
+      "farAnkle": [
+        88.44097923843397,
+        198.2722663189876
+      ],
+      "nearRoller": [
+        115.60130205861583,
+        192.6131575676404
+      ],
+      "farRoller": [
+        111.60130205861583,
+        190.6131575676404
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0,
+      "copyOfFrame": 10
+    },
+    {
+      "frame": 29,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0029.png",
+      "sha256": "1600a073d6e6f255c3f522bcdfe9f739088082c5a0eef8d8798f15cfbf060b28",
+      "phase": 0.4131759111665348,
+      "degrees": 39.25171156082081,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        82.56262566720628,
+        210.72715387749037
+      ],
+      "farAnkle": [
+        78.56262566720628,
+        208.72715387749037
+      ],
+      "nearRoller": [
+        104.38457136274404,
+        199.82462270069476
+      ],
+      "farRoller": [
+        100.38457136274404,
+        197.82462270069476
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0,
+      "copyOfFrame": 9
+    },
+    {
+      "frame": 30,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0030.png",
+      "sha256": "327b54bc74fa85eeaed45c71376bdd6f7596f924f8d812ba4be965d1d2b06fe4",
+      "phase": 0.32898992833716556,
+      "degrees": 31.25404319203073,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        74.51247397349971,
+        222.11664145539117
+      ],
+      "farAnkle": [
+        70.51247397349971,
+        220.11664145539117
+      ],
+      "nearRoller": [
+        94.6052738523252,
+        208.28400276895576
+      ],
+      "farRoller": [
+        90.6052738523252,
+        206.28400276895576
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0,
+      "copyOfFrame": 8
+    },
+    {
+      "frame": 31,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0031.png",
+      "sha256": "6b05e4ac58676ee8dc0681de68abf5c78f9216bfb57a03be673cedabd69f0d9e",
+      "phase": 0.24999999999999994,
+      "degrees": 23.749999999999996,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        68.46885208805529,
+        233.72533101412628
+      ],
+      "farAnkle": [
+        64.46885208805529,
+        231.72533101412628
+      ],
+      "nearRoller": [
+        86.58308072860666,
+        217.38711750230598
+      ],
+      "farRoller": [
+        82.58308072860666,
+        215.38711750230598
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0,
+      "copyOfFrame": 7
+    },
+    {
+      "frame": 32,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0032.png",
+      "sha256": "a2a0c7869c1f30463194394b06f2980b6b37baa208b2662abd19d8f6b852722c",
+      "phase": 0.17860619515673032,
+      "degrees": 16.96758853988938,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        64.35300062720748,
+        244.8169310904246
+      ],
+      "farAnkle": [
+        60.35300062720748,
+        242.8169310904246
+      ],
+      "nearRoller": [
+        80.41093339686726,
+        226.4537806209358
+      ],
+      "farRoller": [
+        76.41093339686726,
+        224.4537806209358
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0,
+      "copyOfFrame": 6
+    },
+    {
+      "frame": 33,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0033.png",
+      "sha256": "f768615e15b2c3cdbdfd0e1871415b1ff0bea6f4976a812eb267b6f6c0bf71d2",
+      "phase": 0.116977778440511,
+      "degrees": 11.112888951848545,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        61.87506695473455,
+        254.725729200248
+      ],
+      "farAnkle": [
+        57.87506695473455,
+        252.725729200248
+      ],
+      "nearRoller": [
+        75.97608551220591,
+        234.82035867765163
+      ],
+      "farRoller": [
+        71.97608551220591,
+        232.82035867765163
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0,
+      "copyOfFrame": 5
+    },
+    {
+      "frame": 34,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0034.png",
+      "sha256": "0c389a22cb72dba9d1b8a1fb495d08816d2e2acb10be51ad04486b03a8408da1",
+      "phase": 0.06698729810778065,
+      "degrees": 6.363793320239162,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        60.616183917369284,
+        262.91590775688724
+      ],
+      "farAnkle": [
+        56.616183917369284,
+        260.91590775688724
+      ],
+      "nearRoller": [
+        73.02077604972494,
+        241.91141790281318
+      ],
+      "farRoller": [
+        69.02077604972494,
+        239.91141790281318
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0,
+      "copyOfFrame": 4
+    },
+    {
+      "frame": 35,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0035.png",
+      "sha256": "6b0703e611c3a172d8405c066f470452ae4025b70b9710dd4147b56992bb1d5f",
+      "phase": 0.030153689607045786,
+      "degrees": 2.86460051266935,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        60.12495752139752,
+        269.00241159184264
+      ],
+      "farAnkle": [
+        56.12495752139752,
+        267.00241159184264
+      ],
+      "nearRoller": [
+        71.22442519007278,
+        247.27997348116932
+      ],
+      "farRoller": [
+        67.22442519007278,
+        245.27997348116932
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0,
+      "copyOfFrame": 3
+    },
+    {
+      "frame": 36,
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/frames/frame_0036.png",
+      "sha256": "f3eb542c6ef1aa1db915a4ce0e8fabb4c21b8021ae5223b91544eb00ccd168a4",
+      "phase": 0.00759612349389599,
+      "degrees": 0.7216317319201191,
+      "nearKnee": [
+        160.0,
+        274.0
+      ],
+      "farKnee": [
+        156.0,
+        272.0
+      ],
+      "nearAnkle": [
+        60.00793140711187,
+        272.7405483275821
+      ],
+      "farAnkle": [
+        56.00793140711187,
+        270.7405483275821
+      ],
+      "nearRoller": [
+        70.28736626351368,
+        250.61825823290627
+      ],
+      "farRoller": [
+        66.28736626351368,
+        248.61825823290627
+      ],
+      "rollerLeverRadius": 92.70955991697943,
+      "tibiaRadius": 100.0,
+      "copyOfFrame": 2
+    }
+  ],
+  "reviewStatus": "comparison study only; body seam/contact/full motion requires independent root approval"
+}

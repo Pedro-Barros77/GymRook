@@ -1,0 +1,20 @@
+{
+  "id": "preacher-curl",
+  "verdict": "PASS",
+  "reviewer": "root plus source/motion owner",
+  "finalInputIndex": "static-v1/source-index.json",
+  "finalInputIndexSha256": "648fa8a70edfd4b3b20871a4db7ba068373165d6247c7162f5ced0756543c44b",
+  "frameDigestBin32": "ce98e2c32766b3c0898fd20dfa47d8a2790b54f786803b1f8e2ce14d987e89fb",
+  "rootReviewed": [
+    "Full512 frames1,10,11,19 and all19upper-body crops in four groups.",
+    "Natural muscular forearms, readable supinated hands, both hands connected to the same handle, stable support/head/base.",
+    "No former crossing black-bar ghost atframe11; slight softness of that estimate accepted with continuous subsequent poses."
+  ],
+  "ownerReview": "temporal-review-v1.json",
+  "authorizedNextStep": "Import and encode the exact36reviewed RGB PNGs, with no new RIFE inference or human geometry changes.",
+  "limits": [
+    "Projected raster illustration; elbow centres may be hidden by anatomy/support and are not certified3D skeletal measurements.",
+    "Illustrated/interpolated machine operation, not a complete rigid mechanical model.",
+    "PNG and transition review; no native realtime or phone testing claim."
+  ]
+}

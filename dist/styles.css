@@ -17,6 +17,8 @@ button:focus-visible,a:focus-visible { outline:3px solid #879f42; outline-offset
 .container,.footer-inner { width:100%; max-width:1000px; margin:auto; padding:0 24px; }
 .page-top { display:flex; align-items:center; justify-content:space-between; gap:16px; padding:28px 0 18px; }
 .page-top h1 { margin:0; font-size:27px; line-height:1.2; letter-spacing:-.025em; font-weight:700; }
+.page-title { display:flex; align-items:baseline; gap:8px; }
+.app-version { color:var(--muted); font-size:13px; font-weight:600; white-space:nowrap; }
 .button { display:inline-flex; align-items:center; justify-content:center; gap:12px; min-height:44px; padding:11px 15px; border:1px solid #aebbaa; border-radius:8px; font-size:13px; font-weight:650; text-align:center; text-decoration:none; }
 .button-dark { color:white; background:var(--ink); border-color:var(--ink); }
 .button-dark:hover { background:#304537; }
@@ -75,6 +77,7 @@ button:focus-visible,a:focus-visible { outline:3px solid #879f42; outline-offset
 .media-overlay { position:absolute; inset:12px 12px auto; display:flex; align-items:start; justify-content:space-between; pointer-events:none; }
 .media-label { padding:7px 8px; border-radius:5px; background:#fffefae8; font-size:9px; font-weight:750; letter-spacing:.07em; }
 .media-toggle { pointer-events:auto; display:grid; place-items:center; width:44px; height:44px; border:0; border-radius:50%; background:var(--ink); color:white; font-size:17px; }
+.media-icon { display:block; width:20px; height:20px; fill:currentColor; }
 .media-caption { display:flex; align-items:center; flex-wrap:wrap; gap:6px 12px; margin:8px 2px 0; color:var(--muted); font-size:11px; }
 .media-version { min-height:44px; padding:7px 10px; border:1px solid #b7c3ae; border-radius:7px; background:transparent; color:var(--ink); font-size:12px; text-decoration:none; }
 .media-version:hover { background:#e8efdd; border-color:#7a9466; }

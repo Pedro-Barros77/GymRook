@@ -1,0 +1,228 @@
+{
+  "date": "2026-11-08",
+  "origin": "http://127.0.0.1:4173/",
+  "cacheVersion": "5dc7b988d3dfdfea",
+  "items": 31,
+  "uniqueVideos": 31,
+  "manifestMatchesBuild": true,
+  "passed": true,
+  "records": [
+    {
+      "id": "incline-dumbbell-press",
+      "video": "assets/animations-v2/incline-dumbbell-press.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "high-cable-crossover",
+      "video": "assets/animations-v2/high-cable-crossover.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "pec-deck",
+      "video": "assets/animations-v2/pec-deck.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "push-up",
+      "video": "assets/animations-v2/push-up.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "cable-biceps-curl",
+      "video": "assets/animations-v2/cable-biceps-curl.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "preacher-curl",
+      "video": "assets/animations-v4/preacher-curl.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "reverse-cable-curl",
+      "video": "assets/animations-v2/reverse-cable-curl.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "floor-crunch",
+      "video": "assets/animations-v2/floor-crunch.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "lying-leg-raise",
+      "video": "assets/animations-v4/lying-leg-raise.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "forearm-plank",
+      "video": "assets/animations-v2/forearm-plank.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "machine-shoulder-press",
+      "video": "assets/animations-bc-v1/machine-shoulder-press.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "dumbbell-lateral-raise",
+      "video": "assets/animations-v2/dumbbell-lateral-raise.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "cable-front-raise",
+      "video": "assets/animations-bc-v1/cable-front-raise.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "dumbbell-shrug",
+      "video": "assets/animations-bc-v1/dumbbell-shrug.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "reverse-pec-deck",
+      "video": "assets/animations-v3/reverse-pec-deck.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "standing-machine-calf-raise",
+      "video": "assets/animations-v4/standing-machine-calf-raise.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "seated-plate-calf-raise",
+      "video": "assets/animations-v3/seated-plate-calf-raise.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "lat-pulldown",
+      "video": "assets/animations-bc-v1/lat-pulldown.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "unilateral-cable-row",
+      "video": "assets/animations-v2/unilateral-cable-row.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "seated-cable-row",
+      "video": "assets/animations-bc-v1/seated-cable-row.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "rope-triceps-pushdown",
+      "video": "assets/animations-bc-v1/rope-triceps-pushdown.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "dumbbell-lying-triceps-extension",
+      "video": "assets/animations-bc-v1/dumbbell-lying-triceps-extension.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "bench-dip",
+      "video": "assets/animations-bc-v1/bench-dip.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "machine-ab-crunch",
+      "video": "assets/animations-v4/machine-ab-crunch.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "leg-extension",
+      "video": "assets/animations-v3/leg-extension.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "hack-squat",
+      "video": "assets/animations-v3/hack-squat.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "lying-leg-curl",
+      "video": "assets/animations-v3/lying-leg-curl.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "dumbbell-stiff-leg-deadlift",
+      "video": "assets/animations-v3/dumbbell-stiff-leg-deadlift.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "machine-hip-abduction",
+      "video": "assets/animations-d-v1/machine-hip-abduction.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "machine-hip-adduction",
+      "video": "assets/animations-d-v1/machine-hip-adduction.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    },
+    {
+      "id": "alternating-lunge",
+      "video": "assets/animations-v3/alternating-lunge.mp4",
+      "rangeStatus": 206,
+      "rangeBytes": 1024,
+      "posterStatus": 200
+    }
+  ]
+}

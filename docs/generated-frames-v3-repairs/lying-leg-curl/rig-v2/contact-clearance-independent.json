@@ -1,0 +1,349 @@
+{
+  "method": "Independent contact distance from full cap circle to actual un-eroded tan skin, shoe excluded; negative distance denotes slight rim compression. Core = both legs opaque union eroded 2px. World pixel measurements from supersampled source alpha, not final frame inference.",
+  "minSkinClearancePixels": 0.0790719985961914,
+  "maxSkinClearancePixels": 0.75,
+  "frames": [
+    {
+      "frame": 1,
+      "degrees": 0.0,
+      "rollerCenter": [
+        70.0,
+        251.0
+      ],
+      "nearestNearSkin": [
+        71.0,
+        266.25
+      ],
+      "skinClearancePixels": 0.4468994140625,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "ankle": [
+        60.0,
+        274.0
+      ]
+    },
+    {
+      "frame": 2,
+      "degrees": 0.7216317319201191,
+      "rollerCenter": [
+        70.29681215105681,
+        249.86831771845962
+      ],
+      "nearestNearSkin": [
+        71.0,
+        265.25
+      ],
+      "skinClearancePixels": 0.647674560546875,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "ankle": [
+        60.00793140711187,
+        272.7405483275821
+      ]
+    },
+    {
+      "frame": 3,
+      "degrees": 2.86460051266935,
+      "rollerCenter": [
+        71.26190710313395,
+        246.5309106625798
+      ],
+      "nearestNearSkin": [
+        71.25,
+        262.0
+      ],
+      "skinClearancePixels": 0.5,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "ankle": [
+        60.12495752139752,
+        269.00241159184264
+      ]
+    },
+    {
+      "frame": 4,
+      "degrees": 6.363793320239162,
+      "rollerCenter": [
+        73.10390674154829,
+        241.16603928219345
+      ],
+      "nearestNearSkin": [
+        73.0,
+        256.5
+      ],
+      "skinClearancePixels": 0.25,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "ankle": [
+        60.616183917369284,
+        262.91590775688724
+      ]
+    },
+    {
+      "frame": 5,
+      "degrees": 11.112888951848545,
+      "rollerCenter": [
+        76.12064254320406,
+        234.08442167981212
+      ],
+      "nearestNearSkin": [
+        74.25,
+        249.25
+      ],
+      "skinClearancePixels": 0.549224853515625,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "ankle": [
+        61.87506695473455,
+        254.725729200248
+      ]
+    },
+    {
+      "frame": 6,
+      "degrees": 16.96758853988938,
+      "rollerCenter": [
+        80.62980641368908,
+        225.73642812563983
+      ],
+      "nearestNearSkin": [
+        77.5,
+        240.75
+      ],
+      "skinClearancePixels": 0.5290718078613281,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "ankle": [
+        64.35300062720748,
+        244.8169310904246
+      ]
+    },
+    {
+      "frame": 7,
+      "degrees": 23.749999999999996,
+      "rollerCenter": [
+        86.8851407460007,
+        216.70063389296638
+      ],
+      "nearestNearSkin": [
+        82.0,
+        231.25
+      ],
+      "skinClearancePixels": 0.329071044921875,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "ankle": [
+        68.46885208805529,
+        233.72533101412628
+      ]
+    },
+    {
+      "frame": 8,
+      "degrees": 31.25404319203073,
+      "rollerCenter": [
+        94.99439904140976,
+        207.642846323757
+      ],
+      "nearestNearSkin": [
+        88.25,
+        221.5
+      ],
+      "skinClearancePixels": 0.0790719985961914,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "ankle": [
+        74.51247397349971,
+        222.11664145539117
+      ]
+    },
+    {
+      "frame": 9,
+      "degrees": 39.25171156082081,
+      "rollerCenter": [
+        104.85911770866286,
+        199.2438423931988
+      ],
+      "nearestNearSkin": [
+        96.25,
+        212.0
+      ],
+      "skinClearancePixels": 0.2868213653564453,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "ankle": [
+        82.56262566720628,
+        210.72715387749037
+      ]
+    },
+    {
+      "frame": 10,
+      "degrees": 47.49999999999999,
+      "rollerCenter": [
+        116.15426006122343,
+        192.10646491192867
+      ],
+      "nearestNearSkin": [
+        105.5,
+        203.25
+      ],
+      "skinClearancePixels": 0.4484548568725586,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "ankle": [
+        92.44097923843397,
+        200.2722663189876
+      ]
+    },
+    {
+      "frame": 11,
+      "degrees": 55.74828843917919,
+      "rollerCenter": [
+        128.35651177051506,
+        186.66335446863985
+      ],
+      "nearestNearSkin": [
+        116.25,
+        196.25
+      ],
+      "skinClearancePixels": 0.2922487258911133,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "ankle": [
+        103.71703803598415,
+        191.34270635595948
+      ]
+    },
+    {
+      "frame": 12,
+      "degrees": 63.74595680796925,
+      "rollerCenter": [
+        140.81567706372925,
+        183.1101669410881
+      ],
+      "nearestNearSkin": [
+        127.5,
+        191.0
+      ],
+      "skinClearancePixels": 0.3782968521118164,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "ankle": [
+        115.76480212516698,
+        184.31584716922185
+      ]
+    },
+    {
+      "frame": 13,
+      "degrees": 71.24999999999999,
+      "rollerCenter": [
+        152.84984110110284,
+        181.38318064346777
+      ],
+      "nearestNearSkin": [
+        138.75,
+        187.75
+      ],
+      "skinClearancePixels": 0.17907142639160156,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "ankle": [
+        127.85605346968381,
+        179.30698705048945
+      ]
+    },
+    {
+      "frame": 14,
+      "degrees": 78.03241146011061,
+      "rollerCenter": [
+        163.8378463884469,
+        181.18690321350826
+      ],
+      "nearestNearSkin": [
+        149.0,
+        185.75
+      ],
+      "skinClearancePixels": 0.3782968521118164,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "ankle": [
+        139.26416675015543,
+        176.17349428996943
+      ]
+    },
+    {
+      "frame": 15,
+      "degrees": 83.88711104815145,
+      "rollerCenter": [
+        173.2853248678819,
+        182.06252046550964
+      ],
+      "nearestNearSkin": [
+        158.0,
+        184.75
+      ],
+      "skinClearancePixels": 0.75,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "ankle": [
+        149.35122504132684,
+        174.56859856222715
+      ]
+    },
+    {
+      "frame": 16,
+      "degrees": 88.63620667976082,
+      "rollerCenter": [
+        180.85144552227456,
+        183.47808431307027
+      ],
+      "nearestNearSkin": [
+        165.5,
+        186.5
+      ],
+      "skinClearancePixels": 0.746124267578125,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "ankle": [
+        157.61995638202953,
+        174.0283270502261
+      ]
+    },
+    {
+      "frame": 17,
+      "degrees": 92.13539948733064,
+      "rollerCenter": [
+        186.33752914361511,
+        184.9195051730783
+      ],
+      "nearestNearSkin": [
+        170.75,
+        185.25
+      ],
+      "skinClearancePixels": 0.549224853515625,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "ankle": [
+        163.72611243372538,
+        174.0694436814683
+      ]
+    },
+    {
+      "frame": 18,
+      "degrees": 94.27836826807989,
+      "rollerCenter": [
+        189.65010905243813,
+        185.96664817707708
+      ],
+      "nearestNearSkin": [
+        174.0,
+        186.0
+      ],
+      "skinClearancePixels": 0.75,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "ankle": [
+        167.46022392852245,
+        174.27866297057435
+      ]
+    },
+    {
+      "frame": 19,
+      "degrees": 95.0,
+      "rollerCenter": [
+        190.7564949033994,
+        186.34705925493904
+      ],
+      "nearestNearSkin": [
+        175.25,
+        183.75
+      ],
+      "skinClearancePixels": 0.75,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "ankle": [
+        168.71557427476583,
+        174.38053019082543
+      ]
+    }
+  ]
+}

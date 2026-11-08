@@ -1,0 +1,50 @@
+{
+  "method": "Generated canonical body and RGBA forearm; exactly rigid 2D raster rotation and constant-profile native equipment.",
+  "scope": "Root explicitly authorized planar raster-limb rig for this single-degree-of-freedom exercise. No human mesh or limb warping.",
+  "nativeSize": 512,
+  "antialiasSupersampling": 4,
+  "base": "docs/generated-frames-v3-repairs/preacher-curl/rig/clean-base-v1.png",
+  "baseSha256": "d2d4ab74c13f312984840641e30659c0bde205cabdf29891e6f0aceac78390d4",
+  "sprite": "docs/generated-frames-v3-repairs/preacher-curl/rig/forearm-sprite-v1.png",
+  "spriteSha256": "d46bba5964b179658f91d57f0c236de2cee74c70c585802f5801db5c148edace",
+  "sourceSpritePivot": [
+    150.0,
+    635.0
+  ],
+  "sourceSpriteWrist": [
+    955.0,
+    635.0
+  ],
+  "sourceSpriteGrip": [
+    1120.0,
+    635.0
+  ],
+  "fixedUniformSpriteScale": 0.0979381443298969,
+  "nearElbow": [
+    291.0,
+    201.0
+  ],
+  "farElbow": [
+    299.0,
+    194.0
+  ],
+  "gripRadiusPixels": 95.0,
+  "forearmBoneRadiusPixels": 78.84020618556701,
+  "upperArmApproxDirectionDegrees": 50,
+  "elbowFlexionDegrees": [
+    20,
+    110
+  ],
+  "rotationDegrees": [
+    30.0,
+    -60.0
+  ],
+  "frameCount": 36,
+  "fps": 12,
+  "durationSeconds": 3,
+  "limits": [
+    "Planar side-view representation; not a biomechanical certification.",
+    "Forearm muscles are stable raster art and do not dynamically bulge.",
+    "Source sprite shows a rotating machine grip; exact grip design varies by machine."
+  ]
+}

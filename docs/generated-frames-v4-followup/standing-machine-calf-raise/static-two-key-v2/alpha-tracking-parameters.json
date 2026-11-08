@@ -1,0 +1,117 @@
+{
+  "initialReference": "docs/generated-frames-v4-followup/standing-machine-calf-raise/static-two-key-v1/foreground-matte-generated-0.png",
+  "initialReferenceSha256": "488f23c68e3a91e167d73138dae14db1438264b2b1bda55d710be74e590cdec6",
+  "sourceTextureMatches": 56,
+  "inlierMatches": 50,
+  "initialSimilarityMatrix": [
+    [
+      0.9993789606384482,
+      -5.361825863306509e-05,
+      0.0530097735296071
+    ],
+    [
+      5.361825863306509e-05,
+      0.9993789606384482,
+      0.15489905409675098
+    ]
+  ],
+  "scale": 0.9993789620768003,
+  "frames": [
+    {
+      "frame": 1,
+      "method": "DIS backward transport of alpha only; source RGB untouched",
+      "skinPixels": 19762
+    },
+    {
+      "frame": 2,
+      "method": "DIS backward transport of alpha only; source RGB untouched",
+      "skinPixels": 19763
+    },
+    {
+      "frame": 3,
+      "method": "DIS backward transport of alpha only; source RGB untouched",
+      "skinPixels": 19763
+    },
+    {
+      "frame": 4,
+      "method": "DIS backward transport of alpha only; source RGB untouched",
+      "skinPixels": 19773
+    },
+    {
+      "frame": 5,
+      "method": "DIS backward transport of alpha only; source RGB untouched",
+      "skinPixels": 19648
+    },
+    {
+      "frame": 6,
+      "method": "DIS backward transport of alpha only; source RGB untouched",
+      "skinPixels": 19626
+    },
+    {
+      "frame": 7,
+      "method": "DIS backward transport of alpha only; source RGB untouched",
+      "skinPixels": 19519
+    },
+    {
+      "frame": 8,
+      "method": "DIS backward transport of alpha only; source RGB untouched",
+      "skinPixels": 19579
+    },
+    {
+      "frame": 9,
+      "method": "DIS backward transport of alpha only; source RGB untouched",
+      "skinPixels": 19454
+    },
+    {
+      "frame": 10,
+      "method": "DIS backward transport of alpha only; source RGB untouched",
+      "skinPixels": 19231
+    },
+    {
+      "frame": 11,
+      "method": "DIS backward transport of alpha only; source RGB untouched",
+      "skinPixels": 19021
+    },
+    {
+      "frame": 12,
+      "method": "DIS backward transport of alpha only; source RGB untouched",
+      "skinPixels": 18940
+    },
+    {
+      "frame": 13,
+      "method": "DIS backward transport of alpha only; source RGB untouched",
+      "skinPixels": 18925
+    },
+    {
+      "frame": 14,
+      "method": "DIS backward transport of alpha only; source RGB untouched",
+      "skinPixels": 18815
+    },
+    {
+      "frame": 15,
+      "method": "DIS backward transport of alpha only; source RGB untouched",
+      "skinPixels": 18696
+    },
+    {
+      "frame": 16,
+      "method": "DIS backward transport of alpha only; source RGB untouched",
+      "skinPixels": 18651
+    },
+    {
+      "frame": 17,
+      "method": "DIS backward transport of alpha only; source RGB untouched",
+      "skinPixels": 18641
+    },
+    {
+      "frame": 18,
+      "method": "DIS backward transport of alpha only; source RGB untouched",
+      "skinPixels": 18642
+    },
+    {
+      "frame": 19,
+      "method": "DIS backward transport of alpha only; source RGB untouched",
+      "skinPixels": 18641
+    }
+  ],
+  "limits": "Masks only are transported by image motion; no body RGB transform."
+}

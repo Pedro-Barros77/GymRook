@@ -1,0 +1,378 @@
+{
+  "id": "reverse-pec-deck",
+  "status": "owner, independent and root final visual approval passed; frozen for media promotion",
+  "sourceVersion": "sheet-v2-arms",
+  "sourceSheetSHA256": "fa4b4ca1f572710522372b3173302bf4a5dde6083a9c8c23b1ba8ca9e58444ff",
+  "maskSpecFile": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-mask-spec-v2.json",
+  "maskSpecSHA256": "cd1d47eabde6d822c638ec8ef6e7a55d33f7a5445cecfbd6712a0f6ccaff83d9",
+  "generatorSHA256": "e26f39f5ae33519c86ad3c370bce291be13308777581200dba99c675b15412b5",
+  "visualReview": {
+    "scope": "All19 forward frames inspected at native512px upper-body scale in four review groups; full512 previews1,10,19; lower-back join checked and corrected after hard horizontal seam was detected. All18 transition onions inspected in3 native512px groups; no clipped booms, transparent hands, dangling caps or fixed-chassis movement observed.",
+    "execution": "V2 retains integrated one-chassis machine architecture and revised raised, softly flexed elbows. Both shoulders open together. No claim of an exact measured 3D elbow angle from a single raster projection.",
+    "depth": "Drop arms, hands and grips are foreground to the enclosed tower when their silhouettes overlap its panel. Source foreground RGB remains opaque in the dynamic mask interior.",
+    "continuity": "Static head, pelvis, shorts, seat, feet, visible lower tower and upper pivot cylinders use canonical pixels. Hardware capsules include full grip tails and rotating top booms. A cosine alpha handoff over lower back y260..287 avoids the formerly visible straight cutoff; all rows287+ are fully canonical.",
+    "cleanPlateScope": "Generated empty integrated machine clears closed-pose moving silhouettes. Only a narrow18px strip along the left head/background boundary comes from the generated cleaned-head patch. The original source head/neck interior is preserved."
+  },
+  "fixedRegionProof": {
+    "headInterior": {
+      "box": [
+        204,
+        112,
+        228,
+        145
+      ],
+      "maximumRGBDifferenceAcross36": 0
+    },
+    "neckInterior": {
+      "box": [
+        207,
+        153,
+        220,
+        169
+      ],
+      "maximumRGBDifferenceAcross36": 0
+    },
+    "towerVisibleCore": {
+      "box": [
+        355,
+        268,
+        430,
+        433
+      ],
+      "maximumRGBDifferenceAcross36": 0
+    },
+    "seatHipsLegsFeet": {
+      "box": [
+        0,
+        287,
+        512,
+        512
+      ],
+      "maximumRGBDifferenceAcross36": 0
+    },
+    "fixedUpperPivotNear": {
+      "box": [
+        223,
+        19,
+        240,
+        39
+      ],
+      "maximumRGBDifferenceAcross36": 0
+    },
+    "fixedUpperPivotFar": {
+      "box": [
+        185,
+        19,
+        200,
+        39
+      ],
+      "maximumRGBDifferenceAcross36": 0
+    }
+  },
+  "staticPixelErrorMaximum": 0,
+  "unmaskedSourcePixelErrorMaximum": 0,
+  "returnCyclePairs": [
+    {
+      "returnFrame": 20,
+      "sourceForwardFrame": 18,
+      "sourceEqual": true,
+      "maskEqual": true,
+      "composedEqual": true
+    },
+    {
+      "returnFrame": 21,
+      "sourceForwardFrame": 17,
+      "sourceEqual": true,
+      "maskEqual": true,
+      "composedEqual": true
+    },
+    {
+      "returnFrame": 22,
+      "sourceForwardFrame": 16,
+      "sourceEqual": true,
+      "maskEqual": true,
+      "composedEqual": true
+    },
+    {
+      "returnFrame": 23,
+      "sourceForwardFrame": 15,
+      "sourceEqual": true,
+      "maskEqual": true,
+      "composedEqual": true
+    },
+    {
+      "returnFrame": 24,
+      "sourceForwardFrame": 14,
+      "sourceEqual": true,
+      "maskEqual": true,
+      "composedEqual": true
+    },
+    {
+      "returnFrame": 25,
+      "sourceForwardFrame": 13,
+      "sourceEqual": true,
+      "maskEqual": true,
+      "composedEqual": true
+    },
+    {
+      "returnFrame": 26,
+      "sourceForwardFrame": 12,
+      "sourceEqual": true,
+      "maskEqual": true,
+      "composedEqual": true
+    },
+    {
+      "returnFrame": 27,
+      "sourceForwardFrame": 11,
+      "sourceEqual": true,
+      "maskEqual": true,
+      "composedEqual": true
+    },
+    {
+      "returnFrame": 28,
+      "sourceForwardFrame": 10,
+      "sourceEqual": true,
+      "maskEqual": true,
+      "composedEqual": true
+    },
+    {
+      "returnFrame": 29,
+      "sourceForwardFrame": 9,
+      "sourceEqual": true,
+      "maskEqual": true,
+      "composedEqual": true
+    },
+    {
+      "returnFrame": 30,
+      "sourceForwardFrame": 8,
+      "sourceEqual": true,
+      "maskEqual": true,
+      "composedEqual": true
+    },
+    {
+      "returnFrame": 31,
+      "sourceForwardFrame": 7,
+      "sourceEqual": true,
+      "maskEqual": true,
+      "composedEqual": true
+    },
+    {
+      "returnFrame": 32,
+      "sourceForwardFrame": 6,
+      "sourceEqual": true,
+      "maskEqual": true,
+      "composedEqual": true
+    },
+    {
+      "returnFrame": 33,
+      "sourceForwardFrame": 5,
+      "sourceEqual": true,
+      "maskEqual": true,
+      "composedEqual": true
+    },
+    {
+      "returnFrame": 34,
+      "sourceForwardFrame": 4,
+      "sourceEqual": true,
+      "maskEqual": true,
+      "composedEqual": true
+    },
+    {
+      "returnFrame": 35,
+      "sourceForwardFrame": 3,
+      "sourceEqual": true,
+      "maskEqual": true,
+      "composedEqual": true
+    },
+    {
+      "returnFrame": 36,
+      "sourceForwardFrame": 2,
+      "sourceEqual": true,
+      "maskEqual": true,
+      "composedEqual": true
+    }
+  ],
+  "sources": [
+    {
+      "frame": 1,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0001.png",
+      "sha256": "ee1be30ed5992f336e7ba5204acce90d0a2e483e69ee39976359353b33cd1790"
+    },
+    {
+      "frame": 2,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0002.png",
+      "sha256": "26c3167e8a61bfbf53489352240f3974068faf694919c3b981e64f849dd57675"
+    },
+    {
+      "frame": 3,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0003.png",
+      "sha256": "e7e21a706d6eed87886470494391a0f9fa0f2c4fb1283b777e26a3ed01f53ae7"
+    },
+    {
+      "frame": 4,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0004.png",
+      "sha256": "52868d5f755b4c24498561bf3ea3e03543b4dcb71aaa2f5eb96e38ca1bbb17c5"
+    },
+    {
+      "frame": 5,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0005.png",
+      "sha256": "1b2df2afa94346bfe8c741cc4ca72dab7ca86b884742aa34aa5b889525eea794"
+    },
+    {
+      "frame": 6,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0006.png",
+      "sha256": "0df5a78770ba4ba6d88bfc8cc82995fdc11e1ccc2728e9bdf1749bdeef906b39"
+    },
+    {
+      "frame": 7,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0007.png",
+      "sha256": "ce905c5d7c569b1d2f33490daf18b4daea9c7f51c11869e7262e5d0feda21b15"
+    },
+    {
+      "frame": 8,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0008.png",
+      "sha256": "b5dd464e6a7107d5e8b416cb801516e5efd168e97514c8349254965975f783e1"
+    },
+    {
+      "frame": 9,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0009.png",
+      "sha256": "a98be2d436fb6c9d0a57919b3b000f154a8d5c881c3c068ddc2cf2027a5454e1"
+    },
+    {
+      "frame": 10,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0010.png",
+      "sha256": "cb86ce6551b52a863ff8697ed1d9bcc5b6869d98d3ba786283a84cab1fb62284"
+    },
+    {
+      "frame": 11,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0011.png",
+      "sha256": "ecee0a5754832672e73d13dda01a69f295c08ea6786eef955460a2e4b25f50dd"
+    },
+    {
+      "frame": 12,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0012.png",
+      "sha256": "1771ac893455b4c2d8fb4f0afe4e818471bc87dd616afd6429678c1d6a2e273f"
+    },
+    {
+      "frame": 13,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0013.png",
+      "sha256": "a18acea896493c3c1570b7239b1f44851d2c55d8d5e92e14b20535770c8d1174"
+    },
+    {
+      "frame": 14,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0014.png",
+      "sha256": "8f10c71467a5868ab168946a2c09250fc032d9e26af8edfbefbd4c15b8ffb316"
+    },
+    {
+      "frame": 15,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0015.png",
+      "sha256": "81710526a94fcb4156a2808226a3af6e7a89cbf64ea6923a19abe5dc31546f5e"
+    },
+    {
+      "frame": 16,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0016.png",
+      "sha256": "89522eb9f173508017a4ab5d11d340b78f9a76cdbf8b1838140bd275e766dc88"
+    },
+    {
+      "frame": 17,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0017.png",
+      "sha256": "5e4827918c7cdd159ed5e5334af2626bdc2e9fd5a9e567e63ab7133d87b75dd1"
+    },
+    {
+      "frame": 18,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0018.png",
+      "sha256": "72d910e7083cb2ace0742e431c5c4f325908b0382a7bb70b8e13c2158e55a179"
+    },
+    {
+      "frame": 19,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0019.png",
+      "sha256": "08762766ed3b30ed01e0354f52af05c0d8b42af11265de98f27160132f88e91a"
+    },
+    {
+      "frame": 20,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0020.png",
+      "sha256": "72d910e7083cb2ace0742e431c5c4f325908b0382a7bb70b8e13c2158e55a179"
+    },
+    {
+      "frame": 21,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0021.png",
+      "sha256": "5e4827918c7cdd159ed5e5334af2626bdc2e9fd5a9e567e63ab7133d87b75dd1"
+    },
+    {
+      "frame": 22,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0022.png",
+      "sha256": "89522eb9f173508017a4ab5d11d340b78f9a76cdbf8b1838140bd275e766dc88"
+    },
+    {
+      "frame": 23,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0023.png",
+      "sha256": "81710526a94fcb4156a2808226a3af6e7a89cbf64ea6923a19abe5dc31546f5e"
+    },
+    {
+      "frame": 24,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0024.png",
+      "sha256": "8f10c71467a5868ab168946a2c09250fc032d9e26af8edfbefbd4c15b8ffb316"
+    },
+    {
+      "frame": 25,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0025.png",
+      "sha256": "a18acea896493c3c1570b7239b1f44851d2c55d8d5e92e14b20535770c8d1174"
+    },
+    {
+      "frame": 26,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0026.png",
+      "sha256": "1771ac893455b4c2d8fb4f0afe4e818471bc87dd616afd6429678c1d6a2e273f"
+    },
+    {
+      "frame": 27,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0027.png",
+      "sha256": "ecee0a5754832672e73d13dda01a69f295c08ea6786eef955460a2e4b25f50dd"
+    },
+    {
+      "frame": 28,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0028.png",
+      "sha256": "cb86ce6551b52a863ff8697ed1d9bcc5b6869d98d3ba786283a84cab1fb62284"
+    },
+    {
+      "frame": 29,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0029.png",
+      "sha256": "a98be2d436fb6c9d0a57919b3b000f154a8d5c881c3c068ddc2cf2027a5454e1"
+    },
+    {
+      "frame": 30,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0030.png",
+      "sha256": "b5dd464e6a7107d5e8b416cb801516e5efd168e97514c8349254965975f783e1"
+    },
+    {
+      "frame": 31,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0031.png",
+      "sha256": "ce905c5d7c569b1d2f33490daf18b4daea9c7f51c11869e7262e5d0feda21b15"
+    },
+    {
+      "frame": 32,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0032.png",
+      "sha256": "0df5a78770ba4ba6d88bfc8cc82995fdc11e1ccc2728e9bdf1749bdeef906b39"
+    },
+    {
+      "frame": 33,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0033.png",
+      "sha256": "1b2df2afa94346bfe8c741cc4ca72dab7ca86b884742aa34aa5b889525eea794"
+    },
+    {
+      "frame": 34,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0034.png",
+      "sha256": "52868d5f755b4c24498561bf3ea3e03543b4dcb71aaa2f5eb96e38ca1bbb17c5"
+    },
+    {
+      "frame": 35,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0035.png",
+      "sha256": "e7e21a706d6eed87886470494391a0f9fa0f2c4fb1283b777e26a3ed01f53ae7"
+    },
+    {
+      "frame": 36,
+      "file": "output/repair-animations/reverse-pec-deck/frames/frame_0036.png",
+      "sha256": "26c3167e8a61bfbf53489352240f3974068faf694919c3b981e64f849dd57675"
+    }
+  ],
+  "rootApprovalScope": "Root viewed full1/10/19 and all four native512 upper-crop groups across reviews: simultaneous raised-elbow shoulder opening, hands follow actual handles, stable connected tower/base/seat/feet. Raster interpolation visually reviewed; no claim of a fully rigid machine rig."
+}

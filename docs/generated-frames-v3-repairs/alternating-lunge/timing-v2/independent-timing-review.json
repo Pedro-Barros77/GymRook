@@ -1,0 +1,39 @@
+{
+  "reviewer": "legs_round3, independent candidate-only raster review",
+  "candidate": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames",
+  "status": "PASS for requested return timing and standing seams; root publication gate remains",
+  "inspection": [
+    "All36 crops in foot-transfers-36-crops.png",
+    "Candidate and linear crops31..39 and67..72->1..3 at native source scale in independent-seam-comparison.png",
+    "Actual-foot-comparison source hashes verified for both baseline and candidate"
+  ],
+  "visualFindings": {
+    "36to37": "Both shoes have visibly recovered into the common standing pose before the swap to the other leg. The seam does not introduce an extra slide, sole jump or independent foot teleport.",
+    "72to1": "The final returning foot reaches standing before the loop boundary; frame1 preserves the same two shoe silhouettes/positions. No late rearleg rush appears at the reset.",
+    "comparison": "In the linear baseline the recovering shoe remains displaced/oriented until its final return step. The eased candidate reaches near-standing earlier and uses the final frames to settle. This is visibly better in the final foot-transfer crops, not inferred from a global frame MAE.",
+    "artifacts": "No new duplicated shoe, detached sole, ghost foot, foot color switch or extra silhouette was visible in the inspected windows. The moving shoe still changes pitch during the recovery, as in the original drawing; the update improves when that motion arrives at standing rather than inventing a new foot model."
+  },
+  "secondaryChecks": {
+    "fps": 12,
+    "frameCount": 72,
+    "durationSeconds": 6,
+    "returnAByteReverse": true,
+    "returnBByteReverse": true,
+    "standingFrames1and37Identical": true,
+    "actualTrackingMaxForwardBackwardErrorPixels": 0.9103925824165344,
+    "candidateStandingSeam36to37TrackedSpeedsPixelsPerSecond": [
+      0.03319667304687778,
+      0.020877235567000815
+    ],
+    "candidateStandingSeam72to1TrackedSpeedsPixelsPerSecond": [
+      0.059724108918154495,
+      0.0003662109375
+    ],
+    "trackingInterpretation": "These are projected ankle/shoe-surface points with verified source hashes; they support the visual observation but do not prove contact correctness or biomechanical accuracy."
+  },
+  "limitations": [
+    "No realtime or slow native-player playback was observed in this independent review.",
+    "Review is focused on foot transfers/loop continuity, not a certification of full lunge technique."
+  ],
+  "productionMutation": false
+}

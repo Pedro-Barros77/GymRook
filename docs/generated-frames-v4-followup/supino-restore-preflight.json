@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "instruction": "Restore existing v2 files by selection only; never re-encode or regenerate.",
+  "files": [
+    {
+      "file": "dist/assets/animations-v2/incline-dumbbell-press.mp4",
+      "sha256": "c07a9bc1ab8ea0dc8f063027dec5e927a702abaecb6c06b5df4ca0caef9f55b8",
+      "bytes": 169147,
+      "matchesPreRound3Backup": true
+    },
+    {
+      "file": "dist/assets/animations-v2/incline-dumbbell-press.gif",
+      "sha256": "2f2bc2c27c8a315570641a21be5418d66ca83e227f5f2d35f5f3df216cd75314",
+      "bytes": 2946339,
+      "matchesPreRound3Backup": true
+    },
+    {
+      "file": "dist/assets/animations-v2/incline-dumbbell-press-poster.webp",
+      "sha256": "ccc1734f58d0bcc64a3211338b34343bfb7606e60731ff8590d0790a0cf4aefa",
+      "bytes": 18668,
+      "matchesPreRound3Backup": true
+    }
+  ]
+}

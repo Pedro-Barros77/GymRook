@@ -1,0 +1,1008 @@
+{
+  "id": "preacher-curl",
+  "sourceKind": "reviewed-png-loop",
+  "frameCount": 36,
+  "fps": 12,
+  "cycle": "ping-pong",
+  "generator": "scripts/render-machine-preacher.py",
+  "generatorSha256": "29f320857f16fc22980e79e3eaffd7b1d2216cdb9756bba0efc4353e124b1e1b",
+  "parameters": "docs/generated-frames-v3-repairs/preacher-curl/rig/parameters.json",
+  "inputs": {
+    "docs/generated-frames-v3-repairs/preacher-curl/rig/clean-base-v1.png": "d2d4ab74c13f312984840641e30659c0bde205cabdf29891e6f0aceac78390d4",
+    "docs/generated-frames-v3-repairs/preacher-curl/rig/forearm-sprite-v1.png": "d46bba5964b179658f91d57f0c236de2cee74c70c585802f5801db5c148edace"
+  },
+  "sourceFrames": [
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0001.png",
+      "sha256": "2b350ff5f10d75e72bd2aa3833792bd2a3d4dd7377ccb12dbf9f790bfa67c1df"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0002.png",
+      "sha256": "79babebc8b65cb6ab79a8d90b08462c0d457e732e5c834592764df5e24ccf147"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0003.png",
+      "sha256": "1edf4116c8b59503c6e9cba6d6c9f5eae018fe6f43254ecb7f833c9ce756a2e3"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0004.png",
+      "sha256": "ee395ad90645177531d9184a6c760985bec325b9cc7bcb4bf1b6615cab976949"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0005.png",
+      "sha256": "cd09085a93e1498201ed139c7db147c35410be76b35d83e4d4384b5fce27d428"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0006.png",
+      "sha256": "da94e5f70041a9a33ce217224476c19cc63ba1d8720ec65d3d13bd5749b0540d"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0007.png",
+      "sha256": "d62463c4cc1647cc1926a83ccda85d55617b58d55dccbc7a39c50d1950215993"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0008.png",
+      "sha256": "eb1ba86ea09d46aa9dc77ea7c104764eb8cadedc8de5919371f236dc5f9bba31"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0009.png",
+      "sha256": "210bb182d935310903212bd06c5234f43b18a2f4a3e11f526d74af155cb0eb36"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0010.png",
+      "sha256": "4f6db07de4e55cbdfac0ad2bb37116b31f441c16c81217482b6a3ebadd074d45"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0011.png",
+      "sha256": "8d833d856937e5ea55b4eb52c46b2a4263067651281ffe2718b5c4f3f5c9a87e"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0012.png",
+      "sha256": "c9b32319acd112e6cecc06ac7c9c425c93b3fd25fb4986ad764116de5ea32f45"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0013.png",
+      "sha256": "49f4dbef887038615c708730f703ac7be8fc56f260c1439a33b189e0a63cb4bd"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0014.png",
+      "sha256": "17837bcbf2ede75926669fa987f358018c36d7fd4d71fec62ad3d44dfffe172d"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0015.png",
+      "sha256": "65988bcae17354aba48931ed16387e5964107fc80039063ce9bc5f9c591b0e68"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0016.png",
+      "sha256": "be87fc9ed5cca2cd2c1a0fb16659095c0b9516f50020b3c3125c9b8db2eb40db"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0017.png",
+      "sha256": "9264d89d5b66a58fcd262c131b318d649c8865a5c4a68e5b4d3b582b8b871c31"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0018.png",
+      "sha256": "45f2ddda7996fef55bbcd1dd28917721f6d80afac7ae6cc95ee18c924e8c307d"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0019.png",
+      "sha256": "aec465cebd6c0684e0dfe03b4b5dbc0d9b29d916c73ddf13925b7ca7183ab732"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0020.png",
+      "sha256": "45f2ddda7996fef55bbcd1dd28917721f6d80afac7ae6cc95ee18c924e8c307d"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0021.png",
+      "sha256": "9264d89d5b66a58fcd262c131b318d649c8865a5c4a68e5b4d3b582b8b871c31"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0022.png",
+      "sha256": "be87fc9ed5cca2cd2c1a0fb16659095c0b9516f50020b3c3125c9b8db2eb40db"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0023.png",
+      "sha256": "65988bcae17354aba48931ed16387e5964107fc80039063ce9bc5f9c591b0e68"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0024.png",
+      "sha256": "17837bcbf2ede75926669fa987f358018c36d7fd4d71fec62ad3d44dfffe172d"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0025.png",
+      "sha256": "49f4dbef887038615c708730f703ac7be8fc56f260c1439a33b189e0a63cb4bd"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0026.png",
+      "sha256": "c9b32319acd112e6cecc06ac7c9c425c93b3fd25fb4986ad764116de5ea32f45"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0027.png",
+      "sha256": "8d833d856937e5ea55b4eb52c46b2a4263067651281ffe2718b5c4f3f5c9a87e"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0028.png",
+      "sha256": "4f6db07de4e55cbdfac0ad2bb37116b31f441c16c81217482b6a3ebadd074d45"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0029.png",
+      "sha256": "210bb182d935310903212bd06c5234f43b18a2f4a3e11f526d74af155cb0eb36"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0030.png",
+      "sha256": "eb1ba86ea09d46aa9dc77ea7c104764eb8cadedc8de5919371f236dc5f9bba31"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0031.png",
+      "sha256": "d62463c4cc1647cc1926a83ccda85d55617b58d55dccbc7a39c50d1950215993"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0032.png",
+      "sha256": "da94e5f70041a9a33ce217224476c19cc63ba1d8720ec65d3d13bd5749b0540d"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0033.png",
+      "sha256": "cd09085a93e1498201ed139c7db147c35410be76b35d83e4d4384b5fce27d428"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0034.png",
+      "sha256": "ee395ad90645177531d9184a6c760985bec325b9cc7bcb4bf1b6615cab976949"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0035.png",
+      "sha256": "1edf4116c8b59503c6e9cba6d6c9f5eae018fe6f43254ecb7f833c9ce756a2e3"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0036.png",
+      "sha256": "79babebc8b65cb6ab79a8d90b08462c0d457e732e5c834592764df5e24ccf147"
+    }
+  ],
+  "frames": [
+    {
+      "frame": 1,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0001.png",
+      "sha256": "2b350ff5f10d75e72bd2aa3833792bd2a3d4dd7377ccb12dbf9f790bfa67c1df",
+      "degrees": 30.0,
+      "phase": 0.0,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        373.2724133595217,
+        248.5
+      ],
+      "farGrip": [
+        381.2724133595217,
+        241.5
+      ]
+    },
+    {
+      "frame": 2,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0002.png",
+      "sha256": "79babebc8b65cb6ab79a8d90b08462c0d457e732e5c834592764df5e24ccf147",
+      "degrees": 29.31634888554936,
+      "phase": 0.00759612349389599,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        373.8333115841228,
+        247.51497062245264
+      ],
+      "farGrip": [
+        381.8333115841228,
+        240.51497062245264
+      ]
+    },
+    {
+      "frame": 3,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0003.png",
+      "sha256": "1edf4116c8b59503c6e9cba6d6c9f5eae018fe6f43254ecb7f833c9ce756a2e3",
+      "degrees": 27.286167935365878,
+      "phase": 0.030153689607045786,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        375.42915350897465,
+        244.55132647529797
+      ],
+      "farGrip": [
+        383.42915350897465,
+        237.55132647529797
+      ]
+    },
+    {
+      "frame": 4,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0004.png",
+      "sha256": "ee395ad90645177531d9184a6c760985bec325b9cc7bcb4bf1b6615cab976949",
+      "degrees": 23.97114317029974,
+      "phase": 0.06698729810778065,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        377.80626836663,
+        239.59626629948312
+      ],
+      "farGrip": [
+        385.80626836663,
+        232.59626629948312
+      ]
+    },
+    {
+      "frame": 5,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0005.png",
+      "sha256": "cd09085a93e1498201ed139c7db147c35410be76b35d83e4d4384b5fce27d428",
+      "degrees": 19.47199994035401,
+      "phase": 0.116977778440511,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        380.5664282293266,
+        232.6678849031773
+      ],
+      "farGrip": [
+        388.5664282293266,
+        225.6678849031773
+      ]
+    },
+    {
+      "frame": 6,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0006.png",
+      "sha256": "da94e5f70041a9a33ce217224476c19cc63ba1d8720ec65d3d13bd5749b0540d",
+      "degrees": 13.925442435894272,
+      "phase": 0.17860619515673032,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        383.20792260078633,
+        223.86261161038686
+      ],
+      "farGrip": [
+        391.20792260078633,
+        216.86261161038686
+      ]
+    },
+    {
+      "frame": 7,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0007.png",
+      "sha256": "d62463c4cc1647cc1926a83ccda85d55617b58d55dccbc7a39c50d1950215993",
+      "degrees": 7.5000000000000036,
+      "phase": 0.24999999999999994,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        385.187261830512,
+        213.3999882609049
+      ],
+      "farGrip": [
+        393.187261830512,
+        206.3999882609049
+      ]
+    },
+    {
+      "frame": 8,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0008.png",
+      "sha256": "eb1ba86ea09d46aa9dc77ea7c104764eb8cadedc8de5919371f236dc5f9bba31",
+      "degrees": 0.39090644965509824,
+      "phase": 0.32898992833716556,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        385.9977889817251,
+        201.6481424099985
+      ],
+      "farGrip": [
+        393.9977889817251,
+        194.6481424099985
+      ]
+    },
+    {
+      "frame": 9,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0009.png",
+      "sha256": "210bb182d935310903212bd06c5234f43b18a2f4a3e11f526d74af155cb0eb36",
+      "degrees": -7.185832004988129,
+      "phase": 0.4131759111665348,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        385.2538379995873,
+        189.11664936360296
+      ],
+      "farGrip": [
+        393.2538379995873,
+        182.11664936360296
+      ]
+    },
+    {
+      "frame": 10,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0010.png",
+      "sha256": "4f6db07de4e55cbdfac0ad2bb37116b31f441c16c81217482b6a3ebadd074d45",
+      "degrees": -14.999999999999993,
+      "phase": 0.49999999999999994,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        382.76295349746147,
+        176.41219071526055
+      ],
+      "farGrip": [
+        390.76295349746147,
+        169.41219071526055
+      ]
+    },
+    {
+      "frame": 11,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0011.png",
+      "sha256": "8d833d856937e5ea55b4eb52c46b2a4263067651281ffe2718b5c4f3f5c9a87e",
+      "degrees": -22.814167995011864,
+      "phase": 0.5868240888334652,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        378.5678934300241,
+        164.16436453340418
+      ],
+      "farGrip": [
+        386.5678934300241,
+        157.16436453340418
+      ]
+    },
+    {
+      "frame": 12,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0012.png",
+      "sha256": "c9b32319acd112e6cecc06ac7c9c425c93b3fd25fb4986ad764116de5ea32f45",
+      "degrees": -30.390906449655077,
+      "phase": 0.6710100716628342,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        372.9464273565281,
+        152.93979771680873
+      ],
+      "farGrip": [
+        380.9464273565281,
+        145.93979771680873
+      ]
+    },
+    {
+      "frame": 13,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0013.png",
+      "sha256": "49f4dbef887038615c708730f703ac7be8fc56f260c1439a33b189e0a63cb4bd",
+      "degrees": -37.499999999999986,
+      "phase": 0.7499999999999999,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        366.36856732766734,
+        143.16766424417156
+      ],
+      "farGrip": [
+        374.36856732766734,
+        136.16766424417156
+      ]
+    },
+    {
+      "frame": 14,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0014.png",
+      "sha256": "17837bcbf2ede75926669fa987f358018c36d7fd4d71fec62ad3d44dfffe172d",
+      "degrees": -43.92544243589427,
+      "phase": 0.8213938048432696,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        359.42309759727686,
+        135.09643624815476
+      ],
+      "farGrip": [
+        367.42309759727686,
+        128.09643624815476
+      ]
+    },
+    {
+      "frame": 15,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0015.png",
+      "sha256": "65988bcae17354aba48931ed16387e5964107fc80039063ce9bc5f9c591b0e68",
+      "degrees": -49.47199994035401,
+      "phase": 0.883022221559489,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        352.73285972124387,
+        128.79159307506345
+      ],
+      "farGrip": [
+        360.73285972124387,
+        121.79159307506345
+      ]
+    },
+    {
+      "frame": 16,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0016.png",
+      "sha256": "be87fc9ed5cca2cd2c1a0fb16659095c0b9516f50020b3c3125c9b8db2eb40db",
+      "degrees": -53.971143170299726,
+      "phase": 0.9330127018922192,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        346.87830046348955,
+        124.17151871010344
+      ],
+      "farGrip": [
+        354.87830046348955,
+        117.17151871010344
+      ]
+    },
+    {
+      "frame": 17,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0017.png",
+      "sha256": "9264d89d5b66a58fcd262c131b318d649c8865a5c4a68e5b4d3b582b8b871c31",
+      "degrees": -57.28616793536588,
+      "phase": 0.9698463103929542,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        342.34212852113916,
+        121.06886814939482
+      ],
+      "farGrip": [
+        350.34212852113916,
+        114.06886814939482
+      ]
+    },
+    {
+      "frame": 18,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0018.png",
+      "sha256": "45f2ddda7996fef55bbcd1dd28917721f6d80afac7ae6cc95ee18c924e8c307d",
+      "degrees": -59.31634888554936,
+      "phase": 0.9924038765061041,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        339.47826680021586,
+        119.30019799260778
+      ],
+      "farGrip": [
+        347.47826680021586,
+        112.30019799260778
+      ]
+    },
+    {
+      "frame": 19,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0019.png",
+      "sha256": "aec465cebd6c0684e0dfe03b4b5dbc0d9b29d916c73ddf13925b7ca7183ab732",
+      "degrees": -60.0,
+      "phase": 1.0,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        338.5,
+        118.72758664047834
+      ],
+      "farGrip": [
+        346.5,
+        111.72758664047834
+      ]
+    },
+    {
+      "frame": 20,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0020.png",
+      "sha256": "45f2ddda7996fef55bbcd1dd28917721f6d80afac7ae6cc95ee18c924e8c307d",
+      "degrees": -59.31634888554936,
+      "phase": 0.9924038765061041,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        339.47826680021586,
+        119.30019799260778
+      ],
+      "farGrip": [
+        347.47826680021586,
+        112.30019799260778
+      ],
+      "copyOfFrame": 18
+    },
+    {
+      "frame": 21,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0021.png",
+      "sha256": "9264d89d5b66a58fcd262c131b318d649c8865a5c4a68e5b4d3b582b8b871c31",
+      "degrees": -57.28616793536588,
+      "phase": 0.9698463103929542,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        342.34212852113916,
+        121.06886814939482
+      ],
+      "farGrip": [
+        350.34212852113916,
+        114.06886814939482
+      ],
+      "copyOfFrame": 17
+    },
+    {
+      "frame": 22,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0022.png",
+      "sha256": "be87fc9ed5cca2cd2c1a0fb16659095c0b9516f50020b3c3125c9b8db2eb40db",
+      "degrees": -53.971143170299726,
+      "phase": 0.9330127018922192,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        346.87830046348955,
+        124.17151871010344
+      ],
+      "farGrip": [
+        354.87830046348955,
+        117.17151871010344
+      ],
+      "copyOfFrame": 16
+    },
+    {
+      "frame": 23,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0023.png",
+      "sha256": "65988bcae17354aba48931ed16387e5964107fc80039063ce9bc5f9c591b0e68",
+      "degrees": -49.47199994035401,
+      "phase": 0.883022221559489,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        352.73285972124387,
+        128.79159307506345
+      ],
+      "farGrip": [
+        360.73285972124387,
+        121.79159307506345
+      ],
+      "copyOfFrame": 15
+    },
+    {
+      "frame": 24,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0024.png",
+      "sha256": "17837bcbf2ede75926669fa987f358018c36d7fd4d71fec62ad3d44dfffe172d",
+      "degrees": -43.92544243589427,
+      "phase": 0.8213938048432696,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        359.42309759727686,
+        135.09643624815476
+      ],
+      "farGrip": [
+        367.42309759727686,
+        128.09643624815476
+      ],
+      "copyOfFrame": 14
+    },
+    {
+      "frame": 25,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0025.png",
+      "sha256": "49f4dbef887038615c708730f703ac7be8fc56f260c1439a33b189e0a63cb4bd",
+      "degrees": -37.499999999999986,
+      "phase": 0.7499999999999999,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        366.36856732766734,
+        143.16766424417156
+      ],
+      "farGrip": [
+        374.36856732766734,
+        136.16766424417156
+      ],
+      "copyOfFrame": 13
+    },
+    {
+      "frame": 26,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0026.png",
+      "sha256": "c9b32319acd112e6cecc06ac7c9c425c93b3fd25fb4986ad764116de5ea32f45",
+      "degrees": -30.390906449655077,
+      "phase": 0.6710100716628342,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        372.9464273565281,
+        152.93979771680873
+      ],
+      "farGrip": [
+        380.9464273565281,
+        145.93979771680873
+      ],
+      "copyOfFrame": 12
+    },
+    {
+      "frame": 27,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0027.png",
+      "sha256": "8d833d856937e5ea55b4eb52c46b2a4263067651281ffe2718b5c4f3f5c9a87e",
+      "degrees": -22.814167995011864,
+      "phase": 0.5868240888334652,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        378.5678934300241,
+        164.16436453340418
+      ],
+      "farGrip": [
+        386.5678934300241,
+        157.16436453340418
+      ],
+      "copyOfFrame": 11
+    },
+    {
+      "frame": 28,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0028.png",
+      "sha256": "4f6db07de4e55cbdfac0ad2bb37116b31f441c16c81217482b6a3ebadd074d45",
+      "degrees": -14.999999999999993,
+      "phase": 0.49999999999999994,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        382.76295349746147,
+        176.41219071526055
+      ],
+      "farGrip": [
+        390.76295349746147,
+        169.41219071526055
+      ],
+      "copyOfFrame": 10
+    },
+    {
+      "frame": 29,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0029.png",
+      "sha256": "210bb182d935310903212bd06c5234f43b18a2f4a3e11f526d74af155cb0eb36",
+      "degrees": -7.185832004988129,
+      "phase": 0.4131759111665348,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        385.2538379995873,
+        189.11664936360296
+      ],
+      "farGrip": [
+        393.2538379995873,
+        182.11664936360296
+      ],
+      "copyOfFrame": 9
+    },
+    {
+      "frame": 30,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0030.png",
+      "sha256": "eb1ba86ea09d46aa9dc77ea7c104764eb8cadedc8de5919371f236dc5f9bba31",
+      "degrees": 0.39090644965509824,
+      "phase": 0.32898992833716556,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        385.9977889817251,
+        201.6481424099985
+      ],
+      "farGrip": [
+        393.9977889817251,
+        194.6481424099985
+      ],
+      "copyOfFrame": 8
+    },
+    {
+      "frame": 31,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0031.png",
+      "sha256": "d62463c4cc1647cc1926a83ccda85d55617b58d55dccbc7a39c50d1950215993",
+      "degrees": 7.5000000000000036,
+      "phase": 0.24999999999999994,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        385.187261830512,
+        213.3999882609049
+      ],
+      "farGrip": [
+        393.187261830512,
+        206.3999882609049
+      ],
+      "copyOfFrame": 7
+    },
+    {
+      "frame": 32,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0032.png",
+      "sha256": "da94e5f70041a9a33ce217224476c19cc63ba1d8720ec65d3d13bd5749b0540d",
+      "degrees": 13.925442435894272,
+      "phase": 0.17860619515673032,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        383.20792260078633,
+        223.86261161038686
+      ],
+      "farGrip": [
+        391.20792260078633,
+        216.86261161038686
+      ],
+      "copyOfFrame": 6
+    },
+    {
+      "frame": 33,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0033.png",
+      "sha256": "cd09085a93e1498201ed139c7db147c35410be76b35d83e4d4384b5fce27d428",
+      "degrees": 19.47199994035401,
+      "phase": 0.116977778440511,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        380.5664282293266,
+        232.6678849031773
+      ],
+      "farGrip": [
+        388.5664282293266,
+        225.6678849031773
+      ],
+      "copyOfFrame": 5
+    },
+    {
+      "frame": 34,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0034.png",
+      "sha256": "ee395ad90645177531d9184a6c760985bec325b9cc7bcb4bf1b6615cab976949",
+      "degrees": 23.97114317029974,
+      "phase": 0.06698729810778065,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        377.80626836663,
+        239.59626629948312
+      ],
+      "farGrip": [
+        385.80626836663,
+        232.59626629948312
+      ],
+      "copyOfFrame": 4
+    },
+    {
+      "frame": 35,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0035.png",
+      "sha256": "1edf4116c8b59503c6e9cba6d6c9f5eae018fe6f43254ecb7f833c9ce756a2e3",
+      "degrees": 27.286167935365878,
+      "phase": 0.030153689607045786,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        375.42915350897465,
+        244.55132647529797
+      ],
+      "farGrip": [
+        383.42915350897465,
+        237.55132647529797
+      ],
+      "copyOfFrame": 3
+    },
+    {
+      "frame": 36,
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/frames/frame_0036.png",
+      "sha256": "79babebc8b65cb6ab79a8d90b08462c0d457e732e5c834592764df5e24ccf147",
+      "degrees": 29.31634888554936,
+      "phase": 0.00759612349389599,
+      "nearElbow": [
+        291.0,
+        201.0
+      ],
+      "farElbow": [
+        299.0,
+        194.0
+      ],
+      "nearGrip": [
+        373.8333115841228,
+        247.51497062245264
+      ],
+      "farGrip": [
+        381.8333115841228,
+        240.51497062245264
+      ],
+      "copyOfFrame": 2
+    }
+  ],
+  "reviewStatus": "candidate; full-frame anatomical/mechanical and seam review required before release"
+}

@@ -1,0 +1,461 @@
+{
+  "id": "lying-leg-raise",
+  "sourceKind": "reviewed-png-loop",
+  "frameCount": 36,
+  "fps": 12,
+  "cycle": "ping-pong",
+  "generator": "scripts/study-native-leg-raise-v2.py",
+  "generatorSha256": "3775e968c69f48664818a72f0dcbdb05a035fb256c5079178363e837b6d29492",
+  "parameters": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/parameters.json",
+  "inputs": {
+    "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008",
+    "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/clean-plate-generated.png": "e258c87cc6a9ae619f256903a33ce5042ef2d70560f7d6e74b35c43811eb4be8",
+    "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/technical-study-qa.json": "b3ee035c5ced6181c814d96272eb3c7e98e59dbb7732bb21ac72be8fe2faab66",
+    "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/canonical-body-and-mat.png": "9af0005596b64bda5fa0c5e252b5f886af61b136e353782be80b3dd7d06ddcd2",
+    "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/source-leg-sprite.png": "8aef42f869a3dfad151e84fa66c7fb64317f0ed9925258183ba427573b8a5915",
+    "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c",
+    "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/canonical-pelvis-overlay-mask.png": "ac6e2c83d1883cf403781a034646dd4c38a36dfe37899a55773f598ae77597c9"
+  },
+  "sourceFrames": [
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0001.png",
+      "sha256": "dfccb5809753b7d086e1cf90e277a4db755a9cc26cf53c60c8d71a53903ace13"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0002.png",
+      "sha256": "51dc5138254ee87b64d59f2ef83903a64ec97d815e271e231667f5bcfd4f8202"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0003.png",
+      "sha256": "6fe4f233262211bff970da094cad7bbc8283a4d88e757983a3e214dfdf7737d0"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0004.png",
+      "sha256": "e72c773b4a1e7d78b847c4798f65d6b573172cfdaca143abe127d284c803a609"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0005.png",
+      "sha256": "2d6215415d3581d6f54475f61a2a7b27d97c233cbe4b92c634b29ab031140097"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0006.png",
+      "sha256": "9ffcb469f85d5623c2d8a4aa6d0710d95bc866ce818e51a306b18fabd8f25541"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0007.png",
+      "sha256": "4389eaa3b1e2053d015a9d3de9116a70b4124975e9b40746c3e89c09653ad71b"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0008.png",
+      "sha256": "27a53ebcb33608e812ff2906854d118d3ebe40f1e6b056e6032f845284d3fe49"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0009.png",
+      "sha256": "e936fac71946dcd960e0d3d818aaf275d8f7afa093b2b66945a295428a5f011c"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0010.png",
+      "sha256": "0fb9c7f0f014b97782712606b2f0d438675e9b37ee5237bd0ecc8aaba983cbea"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0011.png",
+      "sha256": "1efdbd014698eb6b139c1f248755d845ea428c2efe3d7d96b6b14c15b704dadf"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0012.png",
+      "sha256": "22a11b5710d542d8c6f8ce6d3e45bf167096ed8c54fa096b877fc3768d0ab98a"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0013.png",
+      "sha256": "9737305916d95a84a0721bde35879b64975cee71b1a6ea7768c36832f0de07cd"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0014.png",
+      "sha256": "6ad526b1534629f6653343469b845e75b33e9de69ffd0be7a4a273997e3bc2e3"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0015.png",
+      "sha256": "d586368431e4cfe65093a5f13c90fc5f925160c8dc4cde789fc599dcbe5523eb"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0016.png",
+      "sha256": "75a2f2fa8c5d83f32143aa51b25dec7a464b87ce966325a1203cbc4e8a29e1dd"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0017.png",
+      "sha256": "e12e205f26cd350d6fca32031ef465f91d5e152d89ad07a13d20696e53cdb4a8"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0018.png",
+      "sha256": "0b4dcfa63c722dd0188287db03fa4c2603a3a572ad2a222d9c72f19bd56a1b45"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0019.png",
+      "sha256": "c4c069503a79bd2fe0a0bf831fec31ec02fa7dc80bdd4a697fa882d7592bb0c5"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0020.png",
+      "sha256": "0b4dcfa63c722dd0188287db03fa4c2603a3a572ad2a222d9c72f19bd56a1b45"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0021.png",
+      "sha256": "e12e205f26cd350d6fca32031ef465f91d5e152d89ad07a13d20696e53cdb4a8"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0022.png",
+      "sha256": "75a2f2fa8c5d83f32143aa51b25dec7a464b87ce966325a1203cbc4e8a29e1dd"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0023.png",
+      "sha256": "d586368431e4cfe65093a5f13c90fc5f925160c8dc4cde789fc599dcbe5523eb"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0024.png",
+      "sha256": "6ad526b1534629f6653343469b845e75b33e9de69ffd0be7a4a273997e3bc2e3"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0025.png",
+      "sha256": "9737305916d95a84a0721bde35879b64975cee71b1a6ea7768c36832f0de07cd"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0026.png",
+      "sha256": "22a11b5710d542d8c6f8ce6d3e45bf167096ed8c54fa096b877fc3768d0ab98a"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0027.png",
+      "sha256": "1efdbd014698eb6b139c1f248755d845ea428c2efe3d7d96b6b14c15b704dadf"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0028.png",
+      "sha256": "0fb9c7f0f014b97782712606b2f0d438675e9b37ee5237bd0ecc8aaba983cbea"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0029.png",
+      "sha256": "e936fac71946dcd960e0d3d818aaf275d8f7afa093b2b66945a295428a5f011c"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0030.png",
+      "sha256": "27a53ebcb33608e812ff2906854d118d3ebe40f1e6b056e6032f845284d3fe49"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0031.png",
+      "sha256": "4389eaa3b1e2053d015a9d3de9116a70b4124975e9b40746c3e89c09653ad71b"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0032.png",
+      "sha256": "9ffcb469f85d5623c2d8a4aa6d0710d95bc866ce818e51a306b18fabd8f25541"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0033.png",
+      "sha256": "2d6215415d3581d6f54475f61a2a7b27d97c233cbe4b92c634b29ab031140097"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0034.png",
+      "sha256": "e72c773b4a1e7d78b847c4798f65d6b573172cfdaca143abe127d284c803a609"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0035.png",
+      "sha256": "6fe4f233262211bff970da094cad7bbc8283a4d88e757983a3e214dfdf7737d0"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/frames/frame_0036.png",
+      "sha256": "51dc5138254ee87b64d59f2ef83903a64ec97d815e271e231667f5bcfd4f8202"
+    }
+  ],
+  "nativeBodyPixelPreservation": {
+    "review": "Canonical original head,torso,arms,hands,pelvis andmat fixed foreground pixels stay exact. Rotating leg skin core unchanged by larger pelvis overlay;technical-study-qa.json reviewed. This is not a claim that every moving human pixel is a real3D measurement.",
+    "sourceFrames": [
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+        "sha256": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008"
+      }
+    ],
+    "maskFrames": [
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/fixed-foreground-mask.png",
+        "sha256": "84c2efef6cdc5b87c85d7c3c9047c73ab961a2d9175050b420ade4da1400414c"
+      }
+    ]
+  },
+  "review": "ROOT approved full1/10/19,19hipcrops,19fullcontact and18onions, then technical leg-skin/fixed-body/return checks passed. Native36PNG copies, no RIFE."
+}

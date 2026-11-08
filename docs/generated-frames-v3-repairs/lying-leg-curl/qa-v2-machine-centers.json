@@ -1,0 +1,131 @@
+{
+  "method": "Matched visible circular mechanical details on actual512sourcecells, not anatomical joint centers; observed pad may occlude heel in near-side depth.",
+  "poses": [
+    {
+      "pose": 0,
+      "padCenter": [
+        75,
+        235
+      ],
+      "padMatchScore": 1.0,
+      "machinePivot": [
+        160,
+        275
+      ],
+      "pivotMatchScore": 1.0,
+      "leverRadiusPixels": 93.94147114027967
+    },
+    {
+      "pose": 1,
+      "padCenter": [
+        78,
+        225
+      ],
+      "padMatchScore": 0.9731121063232422,
+      "machinePivot": [
+        159,
+        275
+      ],
+      "pivotMatchScore": 0.8183645009994507,
+      "leverRadiusPixels": 95.1892851112981
+    },
+    {
+      "pose": 2,
+      "padCenter": [
+        88,
+        206
+      ],
+      "padMatchScore": 0.9650130867958069,
+      "machinePivot": [
+        158,
+        275
+      ],
+      "pivotMatchScore": 0.6979864239692688,
+      "leverRadiusPixels": 98.29038610159185
+    },
+    {
+      "pose": 3,
+      "padCenter": [
+        101,
+        197
+      ],
+      "padMatchScore": 0.948245644569397,
+      "machinePivot": [
+        159,
+        275
+      ],
+      "pivotMatchScore": 0.8254055380821228,
+      "leverRadiusPixels": 97.20082304178294
+    },
+    {
+      "pose": 4,
+      "padCenter": [
+        108,
+        188
+      ],
+      "padMatchScore": 0.9703938364982605,
+      "machinePivot": [
+        159,
+        275
+      ],
+      "pivotMatchScore": 0.7761213183403015,
+      "leverRadiusPixels": 100.84641788382967
+    },
+    {
+      "pose": 5,
+      "padCenter": [
+        124,
+        177
+      ],
+      "padMatchScore": 0.9650954008102417,
+      "machinePivot": [
+        158,
+        275
+      ],
+      "pivotMatchScore": 0.6708006262779236,
+      "leverRadiusPixels": 103.73041983911952
+    },
+    {
+      "pose": 6,
+      "padCenter": [
+        130,
+        175
+      ],
+      "padMatchScore": 0.9655972123146057,
+      "machinePivot": [
+        159,
+        275
+      ],
+      "pivotMatchScore": 0.6617641448974609,
+      "leverRadiusPixels": 104.12012293500234
+    },
+    {
+      "pose": 7,
+      "padCenter": [
+        140,
+        179
+      ],
+      "padMatchScore": 0.929958164691925,
+      "machinePivot": [
+        159,
+        276
+      ],
+      "pivotMatchScore": 0.5981649160385132,
+      "leverRadiusPixels": 98.84331034521254
+    },
+    {
+      "pose": 8,
+      "padCenter": [
+        157,
+        182
+      ],
+      "padMatchScore": 0.9546960592269897,
+      "machinePivot": [
+        157,
+        275
+      ],
+      "pivotMatchScore": 0.6508185863494873,
+      "leverRadiusPixels": 93.0
+    }
+  ]
+}

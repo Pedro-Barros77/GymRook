@@ -1,0 +1,50 @@
+{
+  "sourceKind": "image-keyframes",
+  "reviewedKeyCount": 2,
+  "inputs": [
+    {
+      "file": "docs/generated-frames-v3-repairs/seated-plate-calf-raise/key-00.png",
+      "sha256": "cf0dc207f55084d02fd4bef7b46906936ee928db0c8a54adef405fefd83ea817",
+      "progress": 0,
+      "approvedHumanSource": "docs/generated-frames-v2-fixes/seated-plate-calf-raise/reference-first-pose.png",
+      "approvedHumanSourceSha256": "8b3bbe007f3f6984c97f4d73f9c3fe8b6cc3b8df24da4dc9f945b8582a6584c6",
+      "generatedEquipmentSheet": "docs/generated-frames-v3-repairs/seated-plate-calf-raise/sheet-v1.png",
+      "generatedEquipmentSheetSha256": "b2aa92f7b0ff7bf09213978dc6a82e161479d5cd659e75fe94f5d8d27787b3bc",
+      "mutableRectPixels": [
+        333,
+        190,
+        499,
+        375
+      ],
+      "equipmentPatchTranslationPixels": [
+        0,
+        2
+      ],
+      "allPixelsOutsideEquipmentRegionPreserved": true,
+      "equipmentPatchStudioBackgroundMatch": "Robust degree-two RGB light-field correction from neutral pixels in the equipment-only rectangle; never touches human pixels."
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/seated-plate-calf-raise/key-01.png",
+      "sha256": "200e9001108e76e32780ae2ad7e0dc81b393a1c2fe65e589cfb62ce6278f6660",
+      "progress": 1,
+      "approvedHumanSource": "docs/generated-frames-v2-fixes/seated-plate-calf-raise/endpoint-v5.png",
+      "approvedHumanSourceSha256": "57315f6d3c24cc67f26de817a5422a27edc0ac73cc6e9139a974ea5677f70332",
+      "generatedEquipmentSheet": "docs/generated-frames-v3-repairs/seated-plate-calf-raise/sheet-v1.png",
+      "generatedEquipmentSheetSha256": "b2aa92f7b0ff7bf09213978dc6a82e161479d5cd659e75fe94f5d8d27787b3bc",
+      "mutableRectPixels": [
+        333,
+        190,
+        499,
+        375
+      ],
+      "equipmentPatchTranslationPixels": [
+        0,
+        -2
+      ],
+      "allPixelsOutsideEquipmentRegionPreserved": true,
+      "equipmentPatchStudioBackgroundMatch": "Robust degree-two RGB light-field correction from neutral pixels in the equipment-only rectangle; never touches human pixels."
+    }
+  ],
+  "equipmentOnlyEdit": "One flat horizontal weight plate on a vertical peg; all human pixels copied exactly from approved source poses.",
+  "finalFrameCompositionRequired": "Every output frame outside mutableRectPixels must be copied from the corresponding approved v2 PNG, with explicit SHA verification."
+}

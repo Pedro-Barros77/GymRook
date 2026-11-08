@@ -1,0 +1,130 @@
+{
+  "passed": true,
+  "scope": "complete round4 production set",
+  "configSha256": "9a87dbde52477f16ea6c92ea3943413b287807fcda4f1f893740ec6630b85eed",
+  "buildReportSha256": "e317a2676cf2bb304a313d7beb876243662d6635879ff6c633e1ea2af196a1c3",
+  "manifestSha256": "2547ac5c11ca8e673076924a33190f3a9496c1b178103ae3766f9fee1c01e141",
+  "verifierSha256": "2bf1e7130cbcf8cf4378a305ddd59528e4b6f1d678361a0da974b1fd0a9be621",
+  "preservation": {
+    "passed": true,
+    "manifest": "backups/visual-v3-before-followup-20261107/manifest.json",
+    "manifestSha256": "eae79fbf1ba109287eecd02d4ca1066b81a75610045b717878d7ec27043fc595",
+    "verifiedOriginalFiles": 5735,
+    "restoredPressFiles": 3
+  },
+  "animations": [
+    {
+      "id": "preacher-curl",
+      "frameCount": 36,
+      "fps": 12,
+      "durationSeconds": 3,
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "sourceSha256": "648fa8a70edfd4b3b20871a4db7ba068373165d6247c7162f5ced0756543c44b",
+      "files": {
+        "preacher-curl.mp4": {
+          "bytes": 131042,
+          "sha256": "8af84b880ac42b7a3908fdbf2b10a80e0c605ed9da9ef38093e6ef5df595c2df"
+        },
+        "preacher-curl.gif": {
+          "bytes": 4118315,
+          "sha256": "0982a105c09c430d0d14fcfa904184d7093f4a7c5141a996485a2758e9e1db68"
+        },
+        "preacher-curl-poster.webp": {
+          "bytes": 23444,
+          "sha256": "a43eac8ad3284b07221da09e4b8a9983a5d8df037144119f85cd439dcee86207"
+        }
+      },
+      "frameDigestBin32": "ce98e2c32766b3c0898fd20dfa47d8a2790b54f786803b1f8e2ce14d987e89fb",
+      "frameDigestHexConcat": "5b598a4258eb87a5a6170710ffa797e1dd9d49899159b0338d4e77ce485dd64c",
+      "seamMAE": 0.0011266072591145833,
+      "largestAdjacentMAE": 3.3031717936197915,
+      "interpretation": "Pixel continuity diagnostics only; no anatomical or mechanical approval inferred."
+    },
+    {
+      "id": "lying-leg-raise",
+      "frameCount": 36,
+      "fps": 12,
+      "durationSeconds": 3,
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "sourceSha256": "02cd87e16d538c430046a1c2668d6bf33fd56ec2c7e83dcbf6c26285c0eaf8f1",
+      "files": {
+        "lying-leg-raise.mp4": {
+          "bytes": 70650,
+          "sha256": "382aa9e427c51d9c95345cd80170c4336452a888818f9a89d8d64e183c58575d"
+        },
+        "lying-leg-raise.gif": {
+          "bytes": 2163299,
+          "sha256": "38003f6e9d28e2c59f4bab38a53a2abd211ffcd727cf5e4d9cbd43f5db90128f"
+        },
+        "lying-leg-raise-poster.webp": {
+          "bytes": 10416,
+          "sha256": "67cb47c9b03b692e76f7dd24f16aaf93f365fcf4b39817a6cb5b2ad29c34e210"
+        }
+      },
+      "frameDigestBin32": "ea9994231df48d26620ece4a6edd6ca30e45fe301662a6d925bf7e2f31eafb94",
+      "frameDigestHexConcat": "5059c97b79364c21dff8be248436703947019914334a4a9cb0f93274d581d96a",
+      "seamMAE": 0.6627782185872396,
+      "largestAdjacentMAE": 3.911418914794922,
+      "interpretation": "Pixel continuity diagnostics only; no anatomical or mechanical approval inferred."
+    },
+    {
+      "id": "machine-ab-crunch",
+      "frameCount": 36,
+      "fps": 12,
+      "durationSeconds": 3,
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "sourceSha256": "6a63c2e55cc55e1172bbfaa2f932697877202052d10a0e60477e9013895f6e1e",
+      "files": {
+        "machine-ab-crunch.mp4": {
+          "bytes": 133105,
+          "sha256": "aaa6c7b223811c40dc80f483304bcd33e60bbdc57e9bb3eb157bc49bd7865cf9"
+        },
+        "machine-ab-crunch.gif": {
+          "bytes": 4670888,
+          "sha256": "42af4648eed5ef366bff54610973c2511b67b0715ab58e3c9eda474eef1be6d6"
+        },
+        "machine-ab-crunch-poster.webp": {
+          "bytes": 27328,
+          "sha256": "3abbdcea011459a6315b39a9310f53316aaafb790710f4b0cf3d4efff58066bd"
+        }
+      },
+      "frameDigestBin32": "f0fcb5c8fc355431ef6a27d4445d060981096720c4943bc0e17618da11362c6e",
+      "frameDigestHexConcat": "90737d1742852ba265f93dd5617e7bf4cc28dc21df24f30c29a92295601cc968",
+      "seamMAE": 0.005057017008463542,
+      "largestAdjacentMAE": 4.390275319417317,
+      "interpretation": "Pixel continuity diagnostics only; no anatomical or mechanical approval inferred."
+    },
+    {
+      "id": "standing-machine-calf-raise",
+      "frameCount": 36,
+      "fps": 12,
+      "durationSeconds": 3,
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "sourceSha256": "5cfd6f9c4a0ef9851e3f875fa70fce56cc748f93d0ff2f9f6767cf9b43223dc6",
+      "files": {
+        "standing-machine-calf-raise.mp4": {
+          "bytes": 108694,
+          "sha256": "671949fd731377bc89829eaf6f608c6cf2aea2d21c7db03d6a86bda51b138c40"
+        },
+        "standing-machine-calf-raise.gif": {
+          "bytes": 3888546,
+          "sha256": "53d58477c236a1499db08a33897b09c81515b7e7054494c947e1b825a0121555"
+        },
+        "standing-machine-calf-raise-poster.webp": {
+          "bytes": 25214,
+          "sha256": "356a4c57ecfc2d2dfaeeea2ce774cd6bfa0437bc450f298c4950f260ade063f5"
+        }
+      },
+      "frameDigestBin32": "db34a83070dcb00a232a904f5e0a454e1680d6d64f0f39cf87a7786cfd61af57",
+      "frameDigestHexConcat": "3a25e42bc672e61ef00870351e9ad3648deae480288900d7647a8b983cbf6c0e",
+      "seamMAE": 0.06735738118489583,
+      "largestAdjacentMAE": 3.0601272583007812,
+      "interpretation": "Pixel continuity diagnostics only; no anatomical or mechanical approval inferred."
+    }
+  ],
+  "limits": "Integrity/encoding/continuity only; visual exercise and equipment review is separate."
+}

@@ -5,7 +5,7 @@ O workflow `.github/workflows/pages.yml` já publica a pasta `dist/`, incluindo 
 ## Primeiro deploy
 
 1. No GitHub, crie um repositório **público** chamado `GymRook`. Deixe desmarcadas as opções para adicionar README, `.gitignore` e licença: o repositório deve começar vazio. Repositórios públicos permitem usar Pages com GitHub Free.
-2. Abra o PowerShell na pasta do projeto. A pasta atual ainda não tem um repositório Git. Execute os comandos abaixo, substituindo `SEU_USUARIO` pelo seu usuário do GitHub:
+2. Para uma pasta nova ainda sem repositório Git, abra o PowerShell e execute os comandos abaixo, substituindo `SEU_USUARIO` pelo seu usuário do GitHub. Se o projeto já está publicado, siga a seção Atualizações:
 
 ```powershell
 Set-Location C:\Users\pedrao\source\repos\GymRook
@@ -26,7 +26,7 @@ Se o Git solicitar identificação no primeiro commit, configure `user.name` e `
 https://SEU_USUARIO.github.io/GymRook/
 ```
 
-Só `dist/` entra no site publicado. Fontes e scripts ficam no repositório; `.cache/`, `output/` e `backups/` ficam fora do Git conforme `.gitignore`. Os backups locais continuam preservados. O pacote offline atual tem cerca de 156,36 MiB, com 31 demonstrações a 12 fps e versões anteriores preservadas.
+Só `dist/` entra no site publicado. Fontes e scripts ficam no repositório; `.cache/`, `output/` e `backups/` ficam fora do Git conforme `.gitignore`. Os backups locais continuam preservados. Há 31 exercícios com demonstrações distintas a 12 fps. O tamanho do pacote e a versão do cache ficam em `dist/asset-manifest.json`; o resultado da revisão está em [current-media-status.md](current-media-status.md).
 
 ## Testar no celular
 

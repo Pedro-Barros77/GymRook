@@ -1,0 +1,19 @@
+{
+  "mode": "builtin-image_gen",
+  "useCase": "scientific-educational",
+  "intent": "generate",
+  "referenceRoles": [
+    {
+      "file": "output/followup-round4/manufacturer-reference/axiom-abdominal.jpg",
+      "role": "equipment architecture only; not delivered/copied as site illustration",
+      "officialSource": "https://shop.lifefitness.com/products/axiom-series-abdominal"
+    },
+    {
+      "file": "docs/generated-frames-v4/pec-deck/pose-00.png",
+      "role": "athlete and coloured raster rendering style only"
+    }
+  ],
+  "prompt": "Use case: scientific-educational. Create ONE 3-by-3 animation reference sheet with NINE equally sized square panels, no margins or gutters, row-major progressive positions from upright seated to a controlled abdominal crunch. Every panel is the identical scene, fixed camera, fixed scale and lighting. No labels, arrows, letters, logos or watermarks. Image1 is EQUIPMENT ARCHITECTURE reference only: a genuine seated selectorized abdominal machine, Axiom-type, with tall weight tower joined by one compact floor chassis to a seat, fixed lumbar support, and an upper articulated work arm above/behind the shoulders carrying TWO HIGH HAND GRIPS. The user holds the grips at the SIDES OF THE NECK/SHOULDERS, not in front of the stomach. Preserve this recognisable mechanically coherent high-handle architecture, but use plain unbranded dark charcoal hardware and black padding. Image2 is STYLE AND ATHLETE reference only: same muscular adult man, warm natural tan skin with consistent detailed muscle definition, dark short hair, black shorts and black trainers with white soles, realistic coloured instructional render, warm off-white studio background. Do not copy Image2's pec-deck exercise or machine.\nCAMERA: near profile with a modest front three-quarter reveal, athlete facing diagonally RIGHT, both hands visible at neck level and both feet planted. The entire machine and man fit every panel. Composition locked so all fixed machine parts, seat, pelvis, thighs, feet and shadow stay at exactly identical positions in all9panels. The enclosed weight tower is integrated behind/left, not disconnected. No visible multiplying weight plates.\nMOVEMENT: one outward half repetition in nine distinct even steps:0%,12.5%,25%,37.5%,50%,62.5%,75%,87.5%,100% of a seated abdominal curl. Start upright with hands holding the two high grips beside the neck, elbows bent and pointing slightly forward/down. Keeping hips anchored in the seat and legs/feet still, CURL the rib cage toward the pelvis with visible spinal flexion and modest rounding, upper shoulders and head moving forward/down gradually through about30degrees. It must be an abdominal crunch, not an arm pulldown, not a straight-back hip hinge, not a neck nod. Neutral neck follows the upper torso. BOTH hands maintain grip at neck/upper shoulder level relative to the moving upper body throughout. The articulated overhead work arm and grips follow the same coherent forward/down arc, rotating at their stable bearing; nothing telescopes, bends or detaches. A small natural elbow adjustment is allowed to follow the machine, but no limb stretching. Seat and short lumbar pad remain FIXED, upper torso curls away from the lumbar support; don't attach the entire chair to the back. Preserve identical head size, femur and shin lengths, body musculature, clothing and solid hardware topology in all9poses. The head must never go through the handles or the frame. All9panels must use the actual progressive pose, not8copies plus one final jump.",
+  "generatedSource": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b8f8-a90b-7350-b847-de4a8a1b0f91\\exec-55a55ce6-977c-41f0-ba23-98109ba87c11.png",
+  "status": "candidate pending source gate"
+}

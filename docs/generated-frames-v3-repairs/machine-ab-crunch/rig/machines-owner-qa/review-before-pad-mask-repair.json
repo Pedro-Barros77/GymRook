@@ -1,0 +1,117 @@
+{
+  "status": "candidate on hold for local pad silhouette mask repair",
+  "scope": "All19 native512 upper-body crops, full512 frames1/10/19 and nine200percent pad/shaft crops inspected.",
+  "positive": [
+    "Fixed165px operating arm and fixed waist bearing are coherent.",
+    "End of native operating arm sits inside the moving roller volume in the nine critical inspected poses; old loose side-cap is absent.",
+    "Fixed short vertical lumbar support, seat, hips/legs/feet and enclosed stack avoid previous moving-bank/multiplying-weight failures.",
+    "Upper-body raster reads as progressive thoracic/abdominal flexion with fixed supported pelvis; no generated human mesh or RGB rescaling."
+  ],
+  "blocker": {
+    "type": "pad silhouette material excluded by neutral-color mask",
+    "location": "frame10 x333..374,y258..273 and later pad underside",
+    "effect": "Dark warm cushion-shadow pixels are omitted and reveal canonical thigh/white background through the pad; creates a jagged white U rim.",
+    "sample": {
+      "xy": [
+        365,
+        264
+      ],
+      "actorMask": 0,
+      "originalRGB": [
+        67,
+        44,
+        27
+      ],
+      "cleanRGB": [
+        55,
+        37,
+        22
+      ],
+      "nativeRGB": [
+        248,
+        243,
+        238
+      ]
+    },
+    "diagnosis": "raw_hardware_mask saturation<72 rejects the actual brown pad shadows. Preserve the connected actual cushion silhouette, not only its neutral RGB subset.",
+    "owner": "render_round3 notified; no renderer files altered by reviewer"
+  },
+  "frames": [
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0001.png",
+      "sha256": "6992acec46704339e2e3babe2718ee476a8ee689d89c537698f255065bc4fda4"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0002.png",
+      "sha256": "b440a23e6bbe91c244b47ac5aafca61d3fbb2691359aa4d97536244546782830"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0003.png",
+      "sha256": "de22144cc409e01f634dc861731feb97bc5a5cc928a671cac694237637dfdcbe"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0004.png",
+      "sha256": "645bcfec2885df25542b1fa8576ca583cdc0d4d922ad2554ff7c609ec4e6a0e5"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0005.png",
+      "sha256": "ef562f943dc0d2f4c4858dfe4ba6e7946cdb97cb7be471581db952246532efbf"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0006.png",
+      "sha256": "6e6551954d41b5be517861e595a108dc4512d8e430365a345544a0575f5f6823"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0007.png",
+      "sha256": "894a44e88cd05da2414946a78bdf6130bb125e3928c42bf836d259c01187ed96"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0008.png",
+      "sha256": "455b2475f5163f27f4b09c6b4255ed110c6a3ff75045f495e1e0c6c0a42a522f"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0009.png",
+      "sha256": "2c8ecd75b0716577920a3458ef1a0434bc93f038a6f430c63404fb21d927e936"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0010.png",
+      "sha256": "bd4c51dd1741cc179bbf47f0d9c9997d2f543039e44a33f396079afb54d07b19"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0011.png",
+      "sha256": "6c2a4be0ef1548cac39a282dae110cedbef282681a0f2333eda65c44dcde29fe"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0012.png",
+      "sha256": "46cb97400d2693a9f4dd7a77ed457fce56d9f1f930e5d668ff8188fcb18a7b93"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0013.png",
+      "sha256": "915d39f81b3cd6f100b8e82b4f9ba6c4f4be4db2a2af4da30a4c79063f22a221"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0014.png",
+      "sha256": "4cef57b62c4ec3447fb07800756586602fba735e6998ba9892381c6a55b6aec2"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0015.png",
+      "sha256": "2e2cdb30c68fd1b9f2a79a55e5efb938061d2b456d6c2d2ea9c286e5f8f6791d"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0016.png",
+      "sha256": "0fe137caed8d943cd71f08e640ddb659e94db1fc04ae51ca238b12aa5dfbe374"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0017.png",
+      "sha256": "f0e31609f6898ca122e75ebf8c45ba2dc9014af47a3a85010ab1a64350bdbde4"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0018.png",
+      "sha256": "07c37bc73f1d8a7233e7121fec7dcd605be96bdfe3add9ce9e437244e79b81da"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0019.png",
+      "sha256": "b8f389ec0757eff4ec19cfd823cb22602c755a870ee5998940a5746c65a1dde0"
+    }
+  ]
+}

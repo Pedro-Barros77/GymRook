@@ -1,0 +1,58 @@
+{
+  "status": "SOURCE COMPARISON READY; root approval required before promotion",
+  "observations": [
+    "All19 forward full-frame contact tiles",
+    "All19 near-leg/roller critical crops",
+    "Full frames1 and19 compared against approved qa-v2-00 original"
+  ],
+  "sourceChanges": "V1 generic calf was rejected as too thin. V2 reconstructs the visible original calf/shoe from the old first frame using built-in image generation, with one fixed uniform scale and rigid rotation. This is generated restoration, not a claim of pixel-identical extraction.",
+  "nativeGeometry": {
+    "kneeFixed": [
+      160.0,
+      274.0
+    ],
+    "tibiaRadius": 100,
+    "rollerLeverRadius": 92.89241088485109,
+    "noHumanMesh": true,
+    "noLimbWarpOrLocalScaling": true,
+    "noRIFE": true,
+    "staticBodyAndBenchCanonical": true
+  },
+  "volumeCheck": {
+    "newSkinThicknessAtWorldX": {
+      "95": 22.5,
+      "100": 24.25,
+      "105": 26.25,
+      "110": 27.25
+    },
+    "newNearShoeOpaqueBBox": [
+      23.25,
+      260.0,
+      59.75,
+      313.25
+    ],
+    "newNearShoeHeightPixels": 53.25,
+    "comparison": "New calf visually approx25?29px, versus generic V1 approx16?20px; shoe approx55px rather than43px. The old visible shoe is near60px, so residual size difference is about8?10%; source gear occlusion makes old calf thickness approximate."
+  },
+  "contact": {
+    "distanceToUnErodedSkinRangePixels": [
+      0.0790719985961914,
+      0.75
+    ],
+    "maxBothLegsErodedCoreIntersection": 0,
+    "interpretation": "Roller stays tangent within less than1px on posterior skin proximal to ankle. This checks exterior distance as well as penetration, so a visibly floating cap cannot pass by core non-overlap alone. See all19 crops; contact identity remains the same as the rigid sprite rotates."
+  },
+  "loop": {
+    "frames": 36,
+    "fps": 12,
+    "returnCopiesExactForwardReversals": true,
+    "firstLastAreAdjacentEasedPoses": true
+  },
+  "limits": [
+    "No realtime playback was observed by this reviewer.",
+    "This does not certify biomechanical accuracy.",
+    "New calf/shoe texture is preserved across frames but reconstructed rather than exactly copied from the old raster.",
+    "The nearleg raster is duplicated with a fixed offset for the mostly occluded farleg."
+  ],
+  "preservation": "V1 source/script/frames and previous generated-sheet/RIFE candidate are retained. This wrapper outputs only rig-v2."
+}

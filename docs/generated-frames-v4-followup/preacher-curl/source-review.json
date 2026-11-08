@@ -1,0 +1,45 @@
+{
+  "id": "preacher-curl",
+  "status": "root approved sheet-v1 for temporal candidate generation; no export approval yet",
+  "selectedSource": "sheet-v1.png",
+  "sha256": "695dd5b41ce6e33e3214bd3f3b034ef566da14c4207c72623b3d270385cccd9b",
+  "mode": "builtin image_gen; nine generated full-scene key poses, no game human or repeated forearm sprite",
+  "grid": [3,3],
+  "cellTrimPixels": 2,
+  "selectedCells": [0,1,2,3,4,5,6,7,8],
+  "intent": [
+    "Replace the rejected planar raster-rig machine curl with natural illustrated muscle/hand shape across9poses.",
+    "Show a genuine front preacher pad, both supported triceps, visible supinated grips and simultaneous curl.",
+    "Use a connected selectorized chassis/tower with compact elbow-axis operating levers, avoiding the old long bar from behind the body."
+  ],
+  "actualVisualReview": [
+    "Reviewed all9source poses and full512cells0,4,5,6,7,8.",
+    "Compared enlarged first/last/onion near upper arm and machine bearing; posterior upper-arm/triceps outline stays supported near the same region.",
+    "Hands remain around the same curved handle; wrists read as supinated rather than the old hammer-like forearm sprite.",
+    "Head, torso, pad, seat, shoes and tower are closely registered but not pixel-identical. They still need canonical/static stabilization and actual interpolated-frame review.",
+    "Both sides curl together through a visibly progressive range; final hands are close to the shoulders."
+  ],
+  "correctionOfInitialDiagnosis": "The initial suspected large humerus shortening was based on uncertain landmark placement through self-occlusion. Enlarged onion comparison showed forearm overlap obscuring the biceps/inner elbow; that initial large-shortening claim is withdrawn. Exact joint centres cannot be certified from these raster views.",
+  "rejectedStudies": {
+    "sheet-v2.png": "Guide edit changed little; no clear benefit over sourceV1, retained for comparison.",
+    "sheet-v3.png": "Nearlyprofile study repeats too much of the old neutral grip and offers a less readable/reduced curl range.",
+    "end-v4.png": "Isolated endpoint has a visible metal lever over the foreground forearm and poorer continuity with the canonical scene. Not selected."
+  },
+  "nextReview": [
+    "Root reviewed fullcells0,4,8 plusall9sourceposes and the enlarged elbowonions, and approved sourceV1 for RIFE candidates.",
+    "Review all19forward frames and18transition onions, especially palms/grips, elbow/pad support, operating lever silhouette and tower/body seams.",
+    "No export until actual temporal frames pass."
+  ],
+  "references": [
+    {
+      "url": "https://kb.cybexintl.com/Assembly_Manuals/Strength/Life_Fitness_Axiom_OP-BC_Bi_Curl_Assembly_Instructions_1013951-0001.pdf",
+      "use": "Manufacturer machine architecture reference; inspected cover illustration. External photograph was not incorporated into site assets."
+    },
+    {
+      "url": "https://kb.cybexintl.com/Product_Info/Life_Fitness_Circuit_Series_Machine_Use_Instructions.pdf",
+      "page": 8,
+      "use": "Manufacturer cue to align elbows with operating axis and curl handles while maintaining stable body position."
+    }
+  ],
+  "limits": "Visual2D illustration review only; no claim of measured3D bone lengths, exact biomechanics or complete rigid machine simulation."
+}

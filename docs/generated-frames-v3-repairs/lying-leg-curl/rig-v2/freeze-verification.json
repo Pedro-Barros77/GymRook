@@ -1,0 +1,12 @@
+{
+  "sourceIndex": "docs/generated-frames-v3-repairs/lying-leg-curl/rig-v2/source-index-rig.json",
+  "sourceIndexSha256": "9d679ed4390c194bbed86862f1e4cdc7fb0826811541efc5afabe3a9e670fd6b",
+  "generatorSha256": "a67349257a88a57076e7249890d1d5643c3f8d7a923bc989042a4eb2795b8909",
+  "allInputsAnd36FrameHashesValid": true,
+  "fixedNearAndFarPivots": true,
+  "fixedTibia100AndLever": true,
+  "canonicalPixelsOutsideDynamicBoxMaxDiff": 0,
+  "exactReversedReturn": true,
+  "frameCount": 36,
+  "fps": 12
+}

@@ -16,19 +16,21 @@ O modo offline exige HTTP em localhost ou HTTPS na hospedagem. Abrir `dist/index
 
 ## Estado atual
 
-Os 31 exercícios das fichas A, B, C e D têm demonstrações coloridas em MP4 a **12 fps**, GIF de compatibilidade e pôster no card. Os ciclos duram três segundos, com 36 quadros; o afundo alternado dura quatro segundos, com 48 quadros. A prancha mostra uma sustentação isométrica estável, sem uma repetição de subida e descida.
+Versão **1.0**, identificada ao lado de **Treinos** no cabeçalho. [Notas da versão](docs/release-1.0.md).
 
-A revisão corrige flexora, stiff, fechamento do afundo, flexão dos cotovelos na lateral, crucifixo inverso e banco do abdominal. A panturrilha no degrau foi substituída pela máquina sentada com anilhas, e a remada unilateral usa cabo de aço em polia. Os nomes, equipamentos, instruções, combinações e mapa muscular acompanham essas substituições.
+Os 31 itens das fichas A, B, C e D têm demonstrações distintas e coloridas em MP4 a **12 fps**, GIF de compatibilidade e pôster no card. Os ciclos duram três segundos, com 36 quadros; o afundo alternado dura seis segundos, com 72 quadros. A prancha mostra uma sustentação isométrica estável.
 
-A ficha A também está completa: crossover, rosca na polia, Scott, supra, infra e prancha foram acrescentados; os quatro pilotos anteriores passaram para 12 fps. As versões anteriores continuam em disco e no backup local, sem seletores de comparação na interface atual.
+A revisão atual restaura o supino anterior de `animations-v2` e encerra novas alterações nessa demonstração, conforme pedido. A Scott na máquina foi refeita com nova arte e pegada supinada. Supra e infra voltam a ser distintos: crunch do tronco e elevação das pernas deitado. A panturrilha em pé usa máquina inclinada, com calcanhares descendo abaixo e subindo acima do apoio; o abdominal sentado usa alças altas junto ao pescoço.
 
-As [fontes e configuração](docs/generated-frames-v2-fixes/config.json) registram poses geradas pelo `image_gen` integrado e interpolação local Practical-RIFE. O corpo articulado da tentativa Blender não participa das novas demonstrações. A revisão visual confere proporções projetadas, peças fixas, cabos, bilateralidade e emendas; ela não certifica biomecânica ou execução.
+A panturrilha sentada e a remada unilateral na polia permanecem nas fichas B/C. Nomes, equipamentos, instruções e mapas acompanham as substituições. As versões anteriores continuam em disco e no backup local.
+
+As [fontes e configuração](docs/generated-frames-v4-followup/config.json) registram poses geradas pelo `image_gen` integrado, interpolação local Practical-RIFE e composição raster. O infra conserva o mesmo desenho das pernas durante a rotação; partes estáticas reutilizam pixels canônicos. A tentativa Blender não participa das demonstrações. A revisão visual confere proporções projetadas, contatos, peças fixas, bilateralidade e emendas; ela não certifica biomecânica ou execução.
 
 Detalhes: [estado da mídia](docs/current-media-status.md).
 
 ## Conteúdo disponível
 
-- Ficha ABCD completa: 26 blocos e 31 movimentos, com a programação recebida.
+- Ficha ABCD completa: 26 blocos e 31 itens de consulta, com a programação recebida.
 - Nomes e equipamentos bilíngues; mapas musculares detalhados de frente e costas, com legenda e nomes.
 - Preparação, execução, pontos de atenção, erros comuns e glossário.
 - Demonstrações para os 31 exercícios, todas com MP4 a 12 fps, GIF de compatibilidade e pôster; a prancha mantém a postura isométrica.
@@ -54,7 +56,7 @@ No Android, use o menu do Chrome para instalar/adicionar à tela inicial. No iPh
 
 As respostas sobre crossover na polia alta, desenvolvimento na máquina, elevação frontal, tríceps corda, mergulho no banco e isometria no pico estão incorporadas.
 
-As referências propostas para os abdominais não especificados são **crunch reverso deitado com joelhos dobrados** para o infra e **crunch sentado na máquina** para o abdominal máquina. O modelo real e seus ajustes devem ser identificados com o professor. Outras variantes de referência, incluindo Scott e pegadas não especificadas, estão indicadas nos textos.
+O supra usa **crunch no solo**, elevando a parte alta do tronco, e o infra usa **elevação das pernas deitado**, com cabeça e ombros apoiados. Permanecem 20 repetições de cada, seguidas da prancha. O abdominal da ficha C usa máquina com alças altas e a Scott usa máquina seletorizada. O modelo real e seus ajustes devem ser identificados com o professor.
 
 O descanso de revezamento entre três amigos e o máximo de um minuto quando o revezamento for rápido aparecem como orientação recebida. Os dez segundos do rest-pause e os trinta segundos entre lados da remada permanecem separados dessa nota.
 
@@ -63,17 +65,19 @@ Fontes e decisões: [docs/content-decisions.md](docs/content-decisions.md). As d
 ## Produzir a revisão atual
 
 ```sh
-python scripts/build-final-animations.py --prepare-only
+python scripts/build-followup-animations.py --prepare-only
 # Rever fontes, proporções e mecânica antes de liberar motionReady na configuração.
-python scripts/build-final-animations.py --no-encode
+python scripts/build-followup-animations.py --no-encode
 # Rever quadros e emendas antes de exportar os PNGs congelados.
-python scripts/build-final-animations.py --encode-only
-python scripts/verify-final-animations.py
+python scripts/build-followup-animations.py --encode-only
+python scripts/verify-followup-animations.py
 npm run build
 npm run check
 ```
 
-O runtime de interpolação já está em cache local; a publicação no Pages usa somente Node.js e `dist/`. As fontes e os quadros anteriores ficam preservados. O snapshot local completo desta rodada está em `backups/visual-v1-before-fixes-20261107/`, com manifesto SHA-256.
+O runtime de interpolação já está em cache local; a publicação no Pages usa somente Node.js e `dist/`. As fontes e os quadros anteriores ficam preservados. O snapshot local completo desta rodada está em `backups/visual-v3-before-followup-20261107/`, com manifesto SHA-256. `--encode-only` exige a liberação `exportReady` e confere as fontes e os PNGs congelados antes de codificar. Reconstruir os quadros exige uma nova revisão visual. O supino restaurado fica fora do novo pipeline.
+
+A seleção atual e seus limites estão em [docs/followup-animations-review.md](docs/followup-animations-review.md). As instruções de produção abaixo registram versões históricas; seus quadros e exceções de tempo não descrevem a seleção atual.
 
 ## Fontes visuais preservadas
 

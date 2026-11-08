@@ -1,0 +1,11 @@
+{
+  "source": "docs/generated-frames-d-v1/leg-extension/sheet.png",
+  "finding": "Raw cells 3?4 abruptly switch from mostly side shoe view to strongly upturned/front sole view. This orientation discontinuity enters interpolation.",
+  "repair": "New fixed-camera side-profile guide with ankle neutral relative to tibia and uniformly sampled knee angle.",
+  "acceptance": [
+    "No sudden shoe yaw or ankle flexion across adjacent keys.",
+    "Foot side stays visible throughout; shin/foot angle remains neutral.",
+    "Seat/head/torso/pivot do not jitter; roller touches front lower shin without overlap."
+  ],
+  "scope": "Source diagnosis only; no final repair approval until actual rendered motion is inspected at native12fps and slower."
+}

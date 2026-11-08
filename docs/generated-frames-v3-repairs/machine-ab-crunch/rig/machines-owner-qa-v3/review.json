@@ -1,0 +1,249 @@
+{
+  "id": "machine-ab-crunch",
+  "status": "superseded R165 study; not approved for promotion",
+  "generatorSHA256": "3f72051f1726096c800a936c1b0e218b4c3b117c7d265846c3caac8e3351bed4",
+  "sourceIndexSHA256": "9c97ec5bf5db8b920c76aa6b588b2f4fb3005d8edf71ad290277f4b499a2e96c",
+  "frames": [
+    {
+      "frame": 1,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0001.png",
+      "sha256": "6992acec46704339e2e3babe2718ee476a8ee689d89c537698f255065bc4fda4"
+    },
+    {
+      "frame": 2,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0002.png",
+      "sha256": "b440a23e6bbe91c244b47ac5aafca61d3fbb2691359aa4d97536244546782830"
+    },
+    {
+      "frame": 3,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0003.png",
+      "sha256": "de22144cc409e01f634dc861731feb97bc5a5cc928a671cac694237637dfdcbe"
+    },
+    {
+      "frame": 4,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0004.png",
+      "sha256": "645bcfec2885df25542b1fa8576ca583cdc0d4d922ad2554ff7c609ec4e6a0e5"
+    },
+    {
+      "frame": 5,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0005.png",
+      "sha256": "ef562f943dc0d2f4c4858dfe4ba6e7946cdb97cb7be471581db952246532efbf"
+    },
+    {
+      "frame": 6,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0006.png",
+      "sha256": "6e6551954d41b5be517861e595a108dc4512d8e430365a345544a0575f5f6823"
+    },
+    {
+      "frame": 7,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0007.png",
+      "sha256": "894a44e88cd05da2414946a78bdf6130bb125e3928c42bf836d259c01187ed96"
+    },
+    {
+      "frame": 8,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0008.png",
+      "sha256": "455b2475f5163f27f4b09c6b4255ed110c6a3ff75045f495e1e0c6c0a42a522f"
+    },
+    {
+      "frame": 9,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0009.png",
+      "sha256": "2c8ecd75b0716577920a3458ef1a0434bc93f038a6f430c63404fb21d927e936"
+    },
+    {
+      "frame": 10,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0010.png",
+      "sha256": "bd4c51dd1741cc179bbf47f0d9c9997d2f543039e44a33f396079afb54d07b19"
+    },
+    {
+      "frame": 11,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0011.png",
+      "sha256": "6c2a4be0ef1548cac39a282dae110cedbef282681a0f2333eda65c44dcde29fe"
+    },
+    {
+      "frame": 12,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0012.png",
+      "sha256": "46cb97400d2693a9f4dd7a77ed457fce56d9f1f930e5d668ff8188fcb18a7b93"
+    },
+    {
+      "frame": 13,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0013.png",
+      "sha256": "915d39f81b3cd6f100b8e82b4f9ba6c4f4be4db2a2af4da30a4c79063f22a221"
+    },
+    {
+      "frame": 14,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0014.png",
+      "sha256": "08ad8af0acdf6611843807d9ab865962ac881e14024696ace3313a6e0b5cac44"
+    },
+    {
+      "frame": 15,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0015.png",
+      "sha256": "10f878b785fc77b69c55a7593eae672c573e7586ae16b89e1f69d3f766e04fea"
+    },
+    {
+      "frame": 16,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0016.png",
+      "sha256": "d61590d5ba84b70de7e842eb9e2be1426d9bb221f06d01a91d340728984f62a1"
+    },
+    {
+      "frame": 17,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0017.png",
+      "sha256": "7a835ff450b3854dd18fffc0611a2d41a6ef8fb2de516eedde50266c9b6f2fc6"
+    },
+    {
+      "frame": 18,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0018.png",
+      "sha256": "42c46d5b7b2e543182388d911363f7a3fd87b8146ad5a70aea11b02bf12e73df"
+    },
+    {
+      "frame": 19,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0019.png",
+      "sha256": "40e51ad02ec75e0bc3cbdbd847cb48cf947c8511aebad2af71ebd780409a8ccf"
+    },
+    {
+      "frame": 20,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0020.png",
+      "sha256": "42c46d5b7b2e543182388d911363f7a3fd87b8146ad5a70aea11b02bf12e73df"
+    },
+    {
+      "frame": 21,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0021.png",
+      "sha256": "7a835ff450b3854dd18fffc0611a2d41a6ef8fb2de516eedde50266c9b6f2fc6"
+    },
+    {
+      "frame": 22,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0022.png",
+      "sha256": "d61590d5ba84b70de7e842eb9e2be1426d9bb221f06d01a91d340728984f62a1"
+    },
+    {
+      "frame": 23,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0023.png",
+      "sha256": "10f878b785fc77b69c55a7593eae672c573e7586ae16b89e1f69d3f766e04fea"
+    },
+    {
+      "frame": 24,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0024.png",
+      "sha256": "08ad8af0acdf6611843807d9ab865962ac881e14024696ace3313a6e0b5cac44"
+    },
+    {
+      "frame": 25,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0025.png",
+      "sha256": "915d39f81b3cd6f100b8e82b4f9ba6c4f4be4db2a2af4da30a4c79063f22a221"
+    },
+    {
+      "frame": 26,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0026.png",
+      "sha256": "46cb97400d2693a9f4dd7a77ed457fce56d9f1f930e5d668ff8188fcb18a7b93"
+    },
+    {
+      "frame": 27,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0027.png",
+      "sha256": "6c2a4be0ef1548cac39a282dae110cedbef282681a0f2333eda65c44dcde29fe"
+    },
+    {
+      "frame": 28,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0028.png",
+      "sha256": "bd4c51dd1741cc179bbf47f0d9c9997d2f543039e44a33f396079afb54d07b19"
+    },
+    {
+      "frame": 29,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0029.png",
+      "sha256": "2c8ecd75b0716577920a3458ef1a0434bc93f038a6f430c63404fb21d927e936"
+    },
+    {
+      "frame": 30,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0030.png",
+      "sha256": "455b2475f5163f27f4b09c6b4255ed110c6a3ff75045f495e1e0c6c0a42a522f"
+    },
+    {
+      "frame": 31,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0031.png",
+      "sha256": "894a44e88cd05da2414946a78bdf6130bb125e3928c42bf836d259c01187ed96"
+    },
+    {
+      "frame": 32,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0032.png",
+      "sha256": "6e6551954d41b5be517861e595a108dc4512d8e430365a345544a0575f5f6823"
+    },
+    {
+      "frame": 33,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0033.png",
+      "sha256": "ef562f943dc0d2f4c4858dfe4ba6e7946cdb97cb7be471581db952246532efbf"
+    },
+    {
+      "frame": 34,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0034.png",
+      "sha256": "645bcfec2885df25542b1fa8576ca583cdc0d4d922ad2554ff7c609ec4e6a0e5"
+    },
+    {
+      "frame": 35,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0035.png",
+      "sha256": "de22144cc409e01f634dc861731feb97bc5a5cc928a671cac694237637dfdcbe"
+    },
+    {
+      "frame": 36,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0036.png",
+      "sha256": "b440a23e6bbe91c244b47ac5aafca61d3fbb2691359aa4d97536244546782830"
+    }
+  ],
+  "fixedRegionProof": {
+    "tower": {
+      "box": [
+        72,
+        62,
+        151,
+        450
+      ],
+      "maxRGBDiff": 0
+    },
+    "seat": {
+      "box": [
+        197,
+        336,
+        333,
+        353
+      ],
+      "maxRGBDiff": 0
+    },
+    "feetAndBase": {
+      "box": [
+        0,
+        340,
+        512,
+        512
+      ],
+      "maxRGBDiff": 0
+    },
+    "thighFront": {
+      "box": [
+        360,
+        310,
+        400,
+        339
+      ],
+      "maxRGBDiff": 0
+    },
+    "pivotBearing": {
+      "box": [
+        158,
+        264,
+        184,
+        289
+      ],
+      "maxRGBDiff": 0
+    },
+    "fixedLumbarSupport": {
+      "box": [
+        169,
+        190,
+        190,
+        249
+      ],
+      "maxRGBDiff": 80
+    }
+  },
+  "maximumRigidRadiusError": 2.842170943040401e-14,
+  "maximumOpaqueActorChangedPixels": 0,
+  "returnPairsEqual": true,
+  "visualInspection": [],
+  "reason": "Renderer found native endpoint outside actual cushion late in motion; use later rig-v3 geometry after final review."
+}

@@ -1,0 +1,7 @@
+{
+  "mode": "builtin-image_gen",
+  "source": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b859-1287-7690-bb8e-b7a241c21ae2\\exec-60825c20-280f-4a60-a106-d37a9938599e.png",
+  "prompt": "Use case: precise-object-edit / clean background plate for exercise animation. Remove the ENTIRE ATHLETE from the image, including head, torso, hands, arms, shorts, legs and shoes. Also remove the TWO MOVING OPERATING ARMS hanging from the overhead pivots, their entire horizontal rotating beams, long vertical rods, black handles and any hidden remnants. KEEP ONLY the FIXED INTEGRATED MACHINE: opaque weight tower, fixed central upright mast, short overhead support and its TWO stationary top pivot cylinders, fixed chest pad, seat pedestal, seat cushion and connected floor chassis. The fixed chestpad and seat must be naturally fully visible after athlete removal. Do NOT change ANY fixed equipment dimensions, positions, perspective, materials, lighting, shadows, camera or framing. Keep same warm-white background. No machine arm dangling where it used to be, no loose rods or handles. This is the empty rest of a machine after the two operating-arm assemblies are separated as animation parts; the pivot housings are still present. No text, logos, labels, guide marks, grid or watermark. SINGLE square image, not a sheet. Precise preservation is mandatory: tower and base stay exactly in place, no different machine.",
+  "reference": "canonical-reference.png",
+  "status": "candidate fixed plate for local masks"
+}

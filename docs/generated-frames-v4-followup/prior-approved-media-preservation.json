@@ -1,0 +1,50 @@
+{
+  "scope": "Three approved round4 exports frozen before final calf encode; compare afterwards",
+  "files": [
+    {
+      "file": "dist/assets/animations-v4/preacher-curl.mp4",
+      "sha256": "8af84b880ac42b7a3908fdbf2b10a80e0c605ed9da9ef38093e6ef5df595c2df",
+      "bytes": 131042
+    },
+    {
+      "file": "dist/assets/animations-v4/preacher-curl.gif",
+      "sha256": "0982a105c09c430d0d14fcfa904184d7093f4a7c5141a996485a2758e9e1db68",
+      "bytes": 4118315
+    },
+    {
+      "file": "dist/assets/animations-v4/preacher-curl-poster.webp",
+      "sha256": "a43eac8ad3284b07221da09e4b8a9983a5d8df037144119f85cd439dcee86207",
+      "bytes": 23444
+    },
+    {
+      "file": "dist/assets/animations-v4/lying-leg-raise.mp4",
+      "sha256": "382aa9e427c51d9c95345cd80170c4336452a888818f9a89d8d64e183c58575d",
+      "bytes": 70650
+    },
+    {
+      "file": "dist/assets/animations-v4/lying-leg-raise.gif",
+      "sha256": "38003f6e9d28e2c59f4bab38a53a2abd211ffcd727cf5e4d9cbd43f5db90128f",
+      "bytes": 2163299
+    },
+    {
+      "file": "dist/assets/animations-v4/lying-leg-raise-poster.webp",
+      "sha256": "67cb47c9b03b692e76f7dd24f16aaf93f365fcf4b39817a6cb5b2ad29c34e210",
+      "bytes": 10416
+    },
+    {
+      "file": "dist/assets/animations-v4/machine-ab-crunch.mp4",
+      "sha256": "aaa6c7b223811c40dc80f483304bcd33e60bbdc57e9bb3eb157bc49bd7865cf9",
+      "bytes": 133105
+    },
+    {
+      "file": "dist/assets/animations-v4/machine-ab-crunch.gif",
+      "sha256": "42af4648eed5ef366bff54610973c2511b67b0715ab58e3c9eda474eef1be6d6",
+      "bytes": 4670888
+    },
+    {
+      "file": "dist/assets/animations-v4/machine-ab-crunch-poster.webp",
+      "sha256": "3abbdcea011459a6315b39a9310f53316aaafb790710f4b0cf3d4efff58066bd",
+      "bytes": 27328
+    }
+  ]
+}

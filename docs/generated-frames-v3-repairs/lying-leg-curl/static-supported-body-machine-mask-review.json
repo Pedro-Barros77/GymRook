@@ -1,0 +1,21 @@
+{
+  "file": "docs/generated-frames-v3-repairs/lying-leg-curl/static-supported-body-machine-mask.png",
+  "sha256": "58a5556af9b95a8141b2c330c4794cee7064019ea17a5193482f1f320c834310",
+  "referenceIndex": 0,
+  "rectanglesPixels": [
+    [
+      180,
+      0,
+      512,
+      512
+    ],
+    [
+      0,
+      314,
+      180,
+      512
+    ]
+  ],
+  "edgeSmoothingPixels": 1,
+  "review": "Root approved static supported torso/thigh/head/chassis regions after actual full512frames1,10,19 and owner19/onion review. Owner refined lower boundary from310 to314 to give6pixels clearance below the first-pose shoe sole ending308. Mobile lowerleg and pad remain entirely outside white static core; no human geometry warp."
+}

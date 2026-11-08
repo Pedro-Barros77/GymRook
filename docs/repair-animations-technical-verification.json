@@ -1,0 +1,297 @@
+{
+  "passed": true,
+  "scope": "all 10 production animations",
+  "manifestSha256": "6330f9eed5c175c0d18aa6c3b8b61a3a603b7c02f7d796e653300022d1c7c49b",
+  "configSha256": "2cc023b392e58859767caa7f475597ae3844586f27df2cc799a69edcb09699c0",
+  "buildReportSha256": "b29075fcb919ec12b6012b1cf7503fd74b34f9489ec5cf1b4f3d05e49712eafb",
+  "verifierSha256": "56d053f0629d650cd19efd33dc9ae7e3396bee9be4103c56915ef3f3d8be2511",
+  "preservation": {
+    "manifest": "backups/visual-v2-before-repairs-20261107/manifest.json",
+    "manifestSha256": "064c032944f3e67c88ef4c7a8daa2ab6c95a8433d26f176d11ca5c28b16f5713",
+    "verifiedOriginalFiles": 3392,
+    "passed": true
+  },
+  "animations": [
+    {
+      "id": "incline-dumbbell-press",
+      "fps": 12,
+      "frameCount": 36,
+      "durationSeconds": 3.0,
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "sourceSha256": "a2e853b31ebe13858c99d6515023ffd728093f25b583402918a19a4176978b70",
+      "files": {
+        "incline-dumbbell-press.mp4": {
+          "bytes": 152315,
+          "sha256": "a83c01e9bfa2d2a0f9ea17ccddeb24f3e1d842e06c18afb8512f5f53ed2fe17d"
+        },
+        "incline-dumbbell-press.gif": {
+          "bytes": 3545564,
+          "sha256": "822be58397c50b2deb7409a52b70a0a1da93cb5efe4adf0d61b622e4c45cc0f3"
+        },
+        "incline-dumbbell-press-poster.webp": {
+          "bytes": 20548,
+          "sha256": "512904072f552992cf5e80f96e4296af06a295cad47702344f460abfa9d09c9a"
+        }
+      },
+      "frameDigestBin32": "ada03318cbfbc636864c4c3bcf3c32c8fdef86bb4be4e57f8611cb960a7a33cd",
+      "frameDigestHexConcat": "57b116375c3be26957096cb63ce71be66897013b81db4acb09b258df34642cdc",
+      "seamMAE": 0.004708607991536458,
+      "largestAdjacentMAE": 5.041103363037109,
+      "interpretation": "Pixel continuity diagnostics only; no anatomical or mechanical approval inferred."
+    },
+    {
+      "id": "preacher-curl",
+      "fps": 12,
+      "frameCount": 36,
+      "durationSeconds": 3.0,
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "sourceSha256": "df9282591285c7a2b5c48b0e31db2885d82549f529913c95e4432afe5401240c",
+      "files": {
+        "preacher-curl.mp4": {
+          "bytes": 68531,
+          "sha256": "3aad3bb7eda6b78e6722a4998e18a22e55712576022c0b048c173610b0348461"
+        },
+        "preacher-curl.gif": {
+          "bytes": 3755017,
+          "sha256": "56850c188d77539d206e307d6612a674f02f341e0946d54cb5579bb46e6a6884"
+        },
+        "preacher-curl-poster.webp": {
+          "bytes": 18886,
+          "sha256": "a8278a67d59898b67175bf1500a918a080a6ddf7634adda9b31a6f319363a960"
+        }
+      },
+      "frameDigestBin32": "91407849f98277420819f5905a7e15c37df9ad7cce996a665849a892e3af8e5f",
+      "frameDigestHexConcat": "12bae993d96ca9770c2ea7e949642152ad670ed84642ff0f324e2f868ffcd398",
+      "seamMAE": 0.24716949462890625,
+      "largestAdjacentMAE": 0.9431775410970052,
+      "interpretation": "Pixel continuity diagnostics only; no anatomical or mechanical approval inferred."
+    },
+    {
+      "id": "reverse-pec-deck",
+      "fps": 12,
+      "frameCount": 36,
+      "durationSeconds": 3.0,
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "sourceSha256": "fa4b4ca1f572710522372b3173302bf4a5dde6083a9c8c23b1ba8ca9e58444ff",
+      "files": {
+        "reverse-pec-deck.mp4": {
+          "bytes": 112146,
+          "sha256": "fa945fce12a3c699c54f9be18a5d5539db1d225a6a7af885f90ae77a0be87d6e"
+        },
+        "reverse-pec-deck.gif": {
+          "bytes": 3494762,
+          "sha256": "f1db60bd3cc7dfc2039fefdeed8e85d892746057de47a6dd5797b817ae3fcf7f"
+        },
+        "reverse-pec-deck-poster.webp": {
+          "bytes": 18428,
+          "sha256": "8cc64af15c41b2cf36997f038705fdfe046ef6aa83172c3eb4909fc5867f1c68"
+        }
+      },
+      "frameDigestBin32": "067a117b74866c99baeb0f17bffcbac560e22090b424cbb8a7173a164fb0870c",
+      "frameDigestHexConcat": "4566a4ed614f741c43c12be23f189955411848c7596b0a98f02057798a7c5238",
+      "seamMAE": 0.0012804667154947917,
+      "largestAdjacentMAE": 4.288148244222005,
+      "interpretation": "Pixel continuity diagnostics only; no anatomical or mechanical approval inferred."
+    },
+    {
+      "id": "seated-plate-calf-raise",
+      "fps": 12,
+      "frameCount": 36,
+      "durationSeconds": 3.0,
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "sourceSha256": "9d3ca71e42bb141a43ab5a8bbefb8812af8fac8a1e8bd243baaa9d64e752433e",
+      "files": {
+        "seated-plate-calf-raise.mp4": {
+          "bytes": 118235,
+          "sha256": "1ead91e0d1048eec298593317f6e26150db61f980d520cd05071733fd57be8bc"
+        },
+        "seated-plate-calf-raise.gif": {
+          "bytes": 2998689,
+          "sha256": "788f451497bae60b03776cadad27857b5e995ca5ec54277e66acf88c42f12c1e"
+        },
+        "seated-plate-calf-raise-poster.webp": {
+          "bytes": 16128,
+          "sha256": "cfdbee5b3d9e0a1c9cc1dfc0060d1458a349de72a73a0affcec5dd8cfb726a2d"
+        }
+      },
+      "frameDigestBin32": "2f82f0edfd4c02c5626c91f1f6cdb30830a88d1d42f378a796d7db0b3e2f798e",
+      "frameDigestHexConcat": "18c0c182a1e5440f9c3c8a97b8a27adf56aee175ca3231ca546f57d7d43bdd12",
+      "seamMAE": 0.002368927001953125,
+      "largestAdjacentMAE": 3.6723810831705728,
+      "interpretation": "Pixel continuity diagnostics only; no anatomical or mechanical approval inferred."
+    },
+    {
+      "id": "machine-ab-crunch",
+      "fps": 12,
+      "frameCount": 36,
+      "durationSeconds": 3.0,
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "sourceSha256": "c8e10a74c3a6ff0f249fd4af1be05812b73204d2b7bc1e32796ea038448f1549",
+      "files": {
+        "machine-ab-crunch.mp4": {
+          "bytes": 118265,
+          "sha256": "cc87cb074935c47070186189a43c58ee24c023895e3cb3557dbce11d97f1ba7e"
+        },
+        "machine-ab-crunch.gif": {
+          "bytes": 3689576,
+          "sha256": "6fed0694ac69603c22706153158686ea772b6defcca0359626af48aaf02c87d7"
+        },
+        "machine-ab-crunch-poster.webp": {
+          "bytes": 21514,
+          "sha256": "8c89bc60176de83695a054cffb57c6df98ba324d92adfa8824e37f5b46949077"
+        }
+      },
+      "frameDigestBin32": "44863b4dcc249dbfd39f7852a0ff3bf3fda3a840f6d7b309cf9913d4f208cd5c",
+      "frameDigestHexConcat": "0ffc8737b105a789834147dd67e9e614f2698c4e366d1e5a247437fe37a51324",
+      "seamMAE": 0.029160817464192707,
+      "largestAdjacentMAE": 5.885264078776042,
+      "interpretation": "Pixel continuity diagnostics only; no anatomical or mechanical approval inferred."
+    },
+    {
+      "id": "leg-extension",
+      "fps": 12,
+      "frameCount": 36,
+      "durationSeconds": 3.0,
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "sourceSha256": "89e900b26a0a05cf4536e1b165f775eab99478b08e56260ccac83b7b97c3fe11",
+      "files": {
+        "leg-extension.mp4": {
+          "bytes": 136110,
+          "sha256": "d2159c87acf76f2e079cff9b60df59f8951d3771ad326d776bef4889a0a59773"
+        },
+        "leg-extension.gif": {
+          "bytes": 3702731,
+          "sha256": "2aaabd197902faf2d9aa6c03402fe0cd53e0056940ad2c0969f699144b1200f6"
+        },
+        "leg-extension-poster.webp": {
+          "bytes": 15270,
+          "sha256": "78760e1fe027b76e4ffe60310f56a6b9fddc93f385c10e4eefc86a55ecdaa351"
+        }
+      },
+      "frameDigestBin32": "8d4e48003c367829e84b631e0ca15fa016c235576887ed51be02fd633c2eb6bc",
+      "frameDigestHexConcat": "6b7318330049ed9d9e5f505cde2bafc0ad6e286c9fc5ff60beb20ca0032606c0",
+      "seamMAE": 0.0011138916015625,
+      "largestAdjacentMAE": 4.697812398274739,
+      "interpretation": "Pixel continuity diagnostics only; no anatomical or mechanical approval inferred."
+    },
+    {
+      "id": "hack-squat",
+      "fps": 12,
+      "frameCount": 36,
+      "durationSeconds": 3.0,
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "sourceSha256": "a88f904bf48d61184e232d69466a45b583646a4a0ac998108586c013b29ec289",
+      "files": {
+        "hack-squat.mp4": {
+          "bytes": 226691,
+          "sha256": "e12040d88f3035a0236cb539cd14c53b5a02919e7f5ed8ecc9dfc85861d771ab"
+        },
+        "hack-squat.gif": {
+          "bytes": 4121515,
+          "sha256": "84d488b27b2b0c14a595ffe6a99a5ac9874b232cfef2ce32dd3b2ac2aa7ee5cb"
+        },
+        "hack-squat-poster.webp": {
+          "bytes": 23434,
+          "sha256": "9f27e5601e45ca2382ba83405fa09a806ce3f85e76fb1b45246371948f6409a4"
+        }
+      },
+      "frameDigestBin32": "bdd4f651d948f616706e4c164daf7546a11d9c7be751f548ff352f3ee26febf7",
+      "frameDigestHexConcat": "1d5a53d50072fb541a8f040aab75f5cb466a03259ce4dccd57345023aed774d2",
+      "seamMAE": 0.0022875467936197915,
+      "largestAdjacentMAE": 10.614837646484375,
+      "interpretation": "Pixel continuity diagnostics only; no anatomical or mechanical approval inferred."
+    },
+    {
+      "id": "lying-leg-curl",
+      "fps": 12,
+      "frameCount": 36,
+      "durationSeconds": 3.0,
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "sourceSha256": "9d679ed4390c194bbed86862f1e4cdc7fb0826811541efc5afabe3a9e670fd6b",
+      "files": {
+        "lying-leg-curl.mp4": {
+          "bytes": 67324,
+          "sha256": "e4faf77b0de9f0acff2242d17571971cd937c479c721137f183b5dc2a663c99c"
+        },
+        "lying-leg-curl.gif": {
+          "bytes": 2695919,
+          "sha256": "968f07d5b7c3a00f48f79ccb7480a90ee3dfbf9698a00615730c796f019898c3"
+        },
+        "lying-leg-curl-poster.webp": {
+          "bytes": 13596,
+          "sha256": "c1f0cc104b70d5446f8b96d8f6a72fc446d201aba2926fa6262f003267d432d2"
+        }
+      },
+      "frameDigestBin32": "548355bd5de44a1a894cda5f55f95f66837b22a8e45cf72c36f53acac96560d5",
+      "frameDigestHexConcat": "18a5103af0731a633296d63b5681023466b493fd6408879f532761acd9d5557c",
+      "seamMAE": 0.47263844807942706,
+      "largestAdjacentMAE": 2.4651565551757812,
+      "interpretation": "Pixel continuity diagnostics only; no anatomical or mechanical approval inferred."
+    },
+    {
+      "id": "dumbbell-stiff-leg-deadlift",
+      "fps": 12,
+      "frameCount": 36,
+      "durationSeconds": 3.0,
+      "gifFrames": 36,
+      "gifDurationMilliseconds": 3000,
+      "sourceSha256": "5d2c48c0984e1960519289828eef2cf5fc77e6f95a86522de0f1aae9306a498f",
+      "files": {
+        "dumbbell-stiff-leg-deadlift.mp4": {
+          "bytes": 127894,
+          "sha256": "dd4afd06892c04b96d09594f82a6cc67ff5283826993f7a7ff746e7ca5d59171"
+        },
+        "dumbbell-stiff-leg-deadlift.gif": {
+          "bytes": 2522930,
+          "sha256": "b0ed03d5e5bc469b3fd611f1edde99c27561088d6fed4a0689308949d1d51151"
+        },
+        "dumbbell-stiff-leg-deadlift-poster.webp": {
+          "bytes": 8346,
+          "sha256": "76629cfb11e0b55d58fe9dab8ec83e2da6ffab00cd71a1ba5e493a27f021fcdf"
+        }
+      },
+      "frameDigestBin32": "f1d8ab9bbe9f207edcba72fabeab9bdeb1fe24fcd81c57c237e6edb85addb300",
+      "frameDigestHexConcat": "fb366b690263799ab6e7d2880f0539d4cedbae6279a903965ba75a3faa850d0b",
+      "seamMAE": 0.0030581156412760415,
+      "largestAdjacentMAE": 5.659200032552083,
+      "interpretation": "Pixel continuity diagnostics only; no anatomical or mechanical approval inferred."
+    },
+    {
+      "id": "alternating-lunge",
+      "fps": 12,
+      "frameCount": 72,
+      "durationSeconds": 6.0,
+      "gifFrames": 72,
+      "gifDurationMilliseconds": 6000,
+      "sourceSha256": "840cfa2b2ecda5fe6d3044595c42af0002b80912f740a34e7cd8299ea0dfd674",
+      "files": {
+        "alternating-lunge.mp4": {
+          "bytes": 255890,
+          "sha256": "49e7127b4520e2ea3916636100ee3936854604fe79d94495d44155787e1dd82a"
+        },
+        "alternating-lunge.gif": {
+          "bytes": 5955081,
+          "sha256": "537ba7155dfcb794b10a121f77a21dfbbf6e7e6104d86d8e139f07a7c74a49e4"
+        },
+        "alternating-lunge-poster.webp": {
+          "bytes": 12200,
+          "sha256": "6c4caf62cbaa9af4802cc0573be3662622030d85da695504a73b5d716259836c"
+        }
+      },
+      "frameDigestBin32": "e157e892743d216f76054ed19f0fe24979f205de06a523ec21c90c1ca45d74aa",
+      "frameDigestHexConcat": "4fc92dfc3fcdffd6a549a6a2037681e0a007f8b026e631f0fe202f9e5dc6209f",
+      "seamMAE": 0.0016962687174479167,
+      "largestAdjacentMAE": 8.415142059326172,
+      "interpretation": "Pixel continuity diagnostics only; no anatomical or mechanical approval inferred."
+    }
+  ],
+  "limits": "Technical integrity, encoding and continuity only. Source anatomy, execution and equipment geometry have separate visual reviews."
+}

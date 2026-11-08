@@ -1,0 +1,546 @@
+{
+  "id": "standing-machine-calf-raise",
+  "sourceKind": "reviewed-png-loop",
+  "fps": 12,
+  "frameCount": 36,
+  "cycle": "ping-pong",
+  "status": "Root approved FOOT/HUMAN input; final canonical hardware composition and root final scene gate pending. No media export.",
+  "generator": "scripts/freeze-calf-foot-packet.py",
+  "generatorSha256": "e875b9ad3a26e28f5cb434f25185466d1f1c1ec34cc7ec0a7dd7c51813d7570c",
+  "parameters": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/parameters.json",
+  "inputs": {
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/parameters.json": "3d7479b4cbcef97be3df51583b2d3957db4907b691238b74ae635c007377f01f",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-check.json": "4470444f81b05ea38657aa18ceba1c2a1fbc232433af326f0d0d8c94ec938bd6",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/relocation-proof.json": "54a467546f388508190152f1e66a72523b192693aaebff78e0ee5f1ed6b7f6df",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0001.png": "15d95af938be88c3b7f25460a7362dd7e0e9efaac3dc0353fc02215ea8de9181",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0002.png": "06d7ac5989a904dc3e76e9965b97097081d62eabc63130490b6cc891562f368c",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0003.png": "b40d48015c803ec5b4e9e1a289af5d25db976a2d968caa629f7205142a54009e",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0004.png": "ca989d3a69104f754290b49957eb123dacd47e60ea9800f88f88118a1e568292",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0005.png": "f00f06046f4b04e2f8d6bfa2eb76e35104f20f5459c74886686c95705a420b09",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0006.png": "9a3626d9306c130f5cfbb4f5f6f8e74a07169bc8ba683a9f0dda01e204a434e7",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0007.png": "acc5883bca8a24c90da2d3de74d98e0302d22c17680bf97873ebabbe1827aeb2",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0008.png": "9f74e1961620ec8510e4538957b0744e82b8f9e7b9c8c76d90484b167a7cb49a",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0009.png": "858fa9100a0150b9eb8aedb0eea3a490aee03d4041f5ce1efcd54bbaa2bd104b",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0010.png": "05d9d04b2ecd31d7ee801335b4b1fac79424c79a0f3716dee1c30e00309a4b20",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0011.png": "6f18a09c3c7dc86d6e553e91ff6d5c48b92c60cbd7112bcb29898e5b22f18cc9",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0012.png": "4d77a7da27d9d7d85c36477a62d4d656be0220982d328e85fa24b6013cd79df3",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0013.png": "ad89c3bbc69b3396dfd67f6b78765a8630fbd83991a716d8d8fde598dfd21480",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0014.png": "04b86fdb57f5b364ba1b47634272fc91b2d2c68c042d18cd76d17996ad5da6a2",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0015.png": "b9ed181f212c2d21917b37f4f0e28e126d2d2dbc7112f34483463aa3ae08c03b",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0016.png": "28fa691a0e8fd2e5db01a81b6b1032912093c7da6c4c8f134a3aa1c6140885d4",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0017.png": "e02908d905a4c4396b7504adef4c1766b6aef73a9e65e3b531a6be86a79c0ac3",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0018.png": "b0c46651d277a143e01cd66e8043134efcc85de76db16bc690caa5136b2a9d47",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0019.png": "d2a9fd1221024e7f4ac85147986f667e8aa6ffd2e48041c1ce6630293e75c827",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0001.png": "15d95af938be88c3b7f25460a7362dd7e0e9efaac3dc0353fc02215ea8de9181",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0002.png": "b0e4c28681f2c7f1c451aac191c566d272258ec9616485428d0d48108174fb09",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0003.png": "e8a4b5f71aae159e11bd5456f79151693ff215cbf7181b32be8b94afcb37e549",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0004.png": "63b1be470bb129580a299402ecca04c78cafdf99715a4e1a57dd931055d51051",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0005.png": "cf39fccddae72be218ecc11b61c77585ce8ba1a3db7310ae50787e76e5435a5d",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0006.png": "db50fa8eb5d89fd6a3f0708b54d4a18ecbeda331a887a74398b600cb3d4d772c",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0007.png": "d4febe642a53abecba57b6f37eea07f2065a8ba557f13a3e22be69b2329c0c7a",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0008.png": "83d5b3c7140357e19a8d45e1c8f0f80b8fa7e68e7f65c9c265366a021e08535f",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0009.png": "3e2f86e90f287334443b099bf7bfe6aa4df96bc868ee5c40a7ffbd4e6a76b723",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0010.png": "040c789b1c157a5a5359cc5106a6880a59b9d344e00584d9b25625ffda49c21c",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0011.png": "1a4515bc90c7dd94eb684cf22b113a1e3643e7f1260a4e4ff1b434d23fbdd294",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0012.png": "709ec5964d98b73c8dcb694131b531eb977add1ff876a2a74ffecb6f7216c78a",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0013.png": "34dcb1184d449a911bab7b7c1a5b042ac2fe5b2c4afb54180ec89d4d566adac3",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0014.png": "f25ec6fb20383c586e56c06584c9048e2288f37b7563f821fa9c2ae13778affc",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0015.png": "0dadfef7cbf28c0e87efb809488fabf27e19a89c78263e0de6e49071ec46e4bb",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0016.png": "cee335fdde81054b27b52b39afaded9372e341fe319280ef8c8b36d7d3e28817",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0017.png": "a3557dbd641017d53f683421dc87db92aef11301bb231d96f96fdfd0ad2deb6f",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0018.png": "c8116b92fe1296972a0f9115dea21fd8efb4dd0b52bc453f625f3cca0eda8467",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/foot-estimates/frame_0019.png": "d2a9fd1221024e7f4ac85147986f667e8aa6ffd2e48041c1ce6630293e75c827",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0001.png": "06769907f3be9970712d112a8874efd553f1f6d3c34e036dd3f08ab60961f67a",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0002.png": "06769907f3be9970712d112a8874efd553f1f6d3c34e036dd3f08ab60961f67a",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0003.png": "a195b5ea7425e3e1f945314fe4a26ebfbd870289eca9a0f622867a71d2db65ee",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0004.png": "81bbe29dc69d53b380057130f74654ab2040ac15121f7cd3d1164ed89b637e4d",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0005.png": "f8c798b5b32ead65e0dbf0383413fae39604ae33f636759a9234dc5882dbbc63",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0006.png": "cbcc331d8de51bc9006aac331abb6c3dedc0ddb939f771aed8b6eb0265dc2c85",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0007.png": "234996d70c21f06ae6268b659856bae1e98e92976ef384086de614d90ce8863c",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0008.png": "4d3c100bc5b2c8fc12f31839fc296534b6b7d487395d9eb30d8f892761f9ae69",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0009.png": "a5b6daba38bade57c086a2fe80cbfb486a37de06f785096b3b61901c602b58c1",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0010.png": "faa4621c3116068b6634e0ebe5d8ecc42c3f5a04da34e765ed4ec6d9885b9bc3",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0011.png": "b11d82a45182e20240dfc75251fe12faf7ae6020055be7b87dffe4d95486958c",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0012.png": "04bae95a1a72dd6fab54844b218b0eb1bbbcfa17e5f3f19c1a78ce3b7be02999",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0013.png": "b695b48a21668656e21fb69ba3ee097c4f36c84fd06b18c694d77b562d4b7d91",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0014.png": "ada903977157693842a8b0e84672734369bbd2806073408763e409880b7ce762",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0015.png": "32a170d487327b3cb0efd48533983ff110a97382eb465b773805e7e46166814a",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0016.png": "1690bc48293d7b22294fc3742aa1fdd1dffdd8d514b479876b7233f7ee1364af",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0017.png": "83dfccad0620179f0a8c52d29cd924d01bd3d365a8716683f95ecb53ac9d9738",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0018.png": "acfb05a01d87c6444f77661f6dfc32127515d4817844ed79a3f06f4e60803d4f",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/ankle-guards/mask_0019.png": "a66754f168c2461c3005da6596900b095d6146152dee31304bfb5a7d383f412d",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0001.png": "2ddb639b0e7bcada7e067c6e5ae0b1e25f6ca2f6a713bbaac76ffea5c3c9c30d",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0002.png": "2ddb639b0e7bcada7e067c6e5ae0b1e25f6ca2f6a713bbaac76ffea5c3c9c30d",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0003.png": "aa01587e2e2c86464fb3b6c6e910c1d59d13d8d2537afc977b3c757eb67887e4",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0004.png": "efbc69facfbe0494b24081e432eae432decc0624f5bfcb8223695ac33d7a4678",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0005.png": "13bf1a710b411d5de43269e7e9f8e066879a828b3f8aeafa7567cb4f565ab74c",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0006.png": "1c839b69cc48ce702b769ae8996ca247ad96a4b2c747e96de5ad859f2cca207c",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0007.png": "9b2ac01f49c4ef04f1acc9953bc385163ad230d0464ee18b20527fb418bc1f12",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0008.png": "2065e9d5119c4b3163d7244bda2432aa459b89d917af26d307c458947e71c639",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0009.png": "2f8ef58274009ff5715b960622aa868c4de529f0304cc2ea8a99c2fcbdd90bd8",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0010.png": "2eeb292a87af6deb03ae30467eae323b85eb4088d9df39b5701c1a7cfed453b7",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0011.png": "1d9df98106dd276c5d56ce6b43f7438830184a8c7a063e0bb69b01c32e660a86",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0012.png": "a2ea120b92de87e742920e00a4946d3495f129f045f84fbc42178580faa0830b",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0013.png": "94110ef81589720b6c78106c4876a6925aa55a1cb2ef8422245d4f9c6180057c",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0014.png": "98205e210c6142b8660a82d93526c6ddd485eeeb6d6dcc6f04a3157881f2916a",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0015.png": "b7097c2ba84036524d3d50e36b4f2892c257fee26c73aab0a6a015190dc1515d",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0016.png": "aa1ba101fe180e66f91ee5e2280108d5329a4903b0b9bd3057e4255c78d4dc2f",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0017.png": "05d9d312c228a4f7187c7bbb866dcccddddc2710b2884fa6fec898e5bc23317f",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0018.png": "4f66b2a5bfff4b6e904d02ad2ef55a074893511d5ac225fcbd1d2505d7432033",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0019.png": "d058e087065949855a6a9141832c84eaad4c09f02c68631849c1f77d5857ef1c",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/keys/low.png": "15d95af938be88c3b7f25460a7362dd7e0e9efaac3dc0353fc02215ea8de9181",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/keys/mid.png": "040c789b1c157a5a5359cc5106a6880a59b9d344e00584d9b25625ffda49c21c",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/keys/high.png": "d2a9fd1221024e7f4ac85147986f667e8aa6ffd2e48041c1ce6630293e75c827"
+  },
+  "sourceFrames": [
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0001.png",
+      "sha256": "15d95af938be88c3b7f25460a7362dd7e0e9efaac3dc0353fc02215ea8de9181"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0002.png",
+      "sha256": "3e3a123fa0f052536a5d25df97f7c42a5320feca9efd7172e23083031e8cece7"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0003.png",
+      "sha256": "5d5028792c0a0ae3ddcf835dd2038acafeb3b550479f345ee6cb84345a4a76fd"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0004.png",
+      "sha256": "f9fbe45c7b90af55bc4776188edf146f1b8d1af103d28f919dde606309c69d0b"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0005.png",
+      "sha256": "ab0812172154135a12ec2e35c37cb8805ba7aaa5ee78d012855a742ca579af91"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0006.png",
+      "sha256": "3e5095909593b36ef2b856758233536e7f320ef3dd7dd793a7f969395faaa638"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0007.png",
+      "sha256": "3b900a8b5c12e342779f3e5ab3c9f3e8a5178ca38f1d30108d8a3bf5c3b89477"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0008.png",
+      "sha256": "3218681f26a9b953de61d1593d64d24b91491d29e9352e2857389ff95c209798"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0009.png",
+      "sha256": "20fe30664557ce4a69d59babc48bcfd699715cb00c58c405b085d3eefb8155aa"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0010.png",
+      "sha256": "040c789b1c157a5a5359cc5106a6880a59b9d344e00584d9b25625ffda49c21c"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0011.png",
+      "sha256": "80d34b70b3c252aa1939374feac53b87a50f0ef61dc4ed978a5bc8519437c6eb"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0012.png",
+      "sha256": "df40f0de74c2b3f74f2c73640740329a10cf469e246602307bdba1b13616af98"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0013.png",
+      "sha256": "674320865e8783476e4ef422f67bf091c00f23d00a5723845f2210612e257143"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0014.png",
+      "sha256": "67e43942085cb2e772f18b5d3fb59945bb6b5ae7179cf397f6679f1e60dd3dd0"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0015.png",
+      "sha256": "2727aa836bd7c6b776dad739e8388f122a189b34fdfafa75a2b3206d655614af"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0016.png",
+      "sha256": "24a8ca825236d59e22c70d1cc96c3ee2619bd2d565b977e12625c3567c48d82d"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0017.png",
+      "sha256": "1f01e2e4d5d5cfc5a6149d684c8b0636a2ad03401bfedc5a70049ffc67490f65"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0018.png",
+      "sha256": "609fdc26ac7e325df804914a87547ed2384da6ee83d25729924b447a3cb5fe1c"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0019.png",
+      "sha256": "d2a9fd1221024e7f4ac85147986f667e8aa6ffd2e48041c1ce6630293e75c827"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0020.png",
+      "sha256": "609fdc26ac7e325df804914a87547ed2384da6ee83d25729924b447a3cb5fe1c"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0021.png",
+      "sha256": "1f01e2e4d5d5cfc5a6149d684c8b0636a2ad03401bfedc5a70049ffc67490f65"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0022.png",
+      "sha256": "24a8ca825236d59e22c70d1cc96c3ee2619bd2d565b977e12625c3567c48d82d"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0023.png",
+      "sha256": "2727aa836bd7c6b776dad739e8388f122a189b34fdfafa75a2b3206d655614af"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0024.png",
+      "sha256": "67e43942085cb2e772f18b5d3fb59945bb6b5ae7179cf397f6679f1e60dd3dd0"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0025.png",
+      "sha256": "674320865e8783476e4ef422f67bf091c00f23d00a5723845f2210612e257143"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0026.png",
+      "sha256": "df40f0de74c2b3f74f2c73640740329a10cf469e246602307bdba1b13616af98"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0027.png",
+      "sha256": "80d34b70b3c252aa1939374feac53b87a50f0ef61dc4ed978a5bc8519437c6eb"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0028.png",
+      "sha256": "040c789b1c157a5a5359cc5106a6880a59b9d344e00584d9b25625ffda49c21c"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0029.png",
+      "sha256": "20fe30664557ce4a69d59babc48bcfd699715cb00c58c405b085d3eefb8155aa"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0030.png",
+      "sha256": "3218681f26a9b953de61d1593d64d24b91491d29e9352e2857389ff95c209798"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0031.png",
+      "sha256": "3b900a8b5c12e342779f3e5ab3c9f3e8a5178ca38f1d30108d8a3bf5c3b89477"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0032.png",
+      "sha256": "3e5095909593b36ef2b856758233536e7f320ef3dd7dd793a7f969395faaa638"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0033.png",
+      "sha256": "ab0812172154135a12ec2e35c37cb8805ba7aaa5ee78d012855a742ca579af91"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0034.png",
+      "sha256": "f9fbe45c7b90af55bc4776188edf146f1b8d1af103d28f919dde606309c69d0b"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0035.png",
+      "sha256": "5d5028792c0a0ae3ddcf835dd2038acafeb3b550479f345ee6cb84345a4a76fd"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0036.png",
+      "sha256": "3e3a123fa0f052536a5d25df97f7c42a5320feca9efd7172e23083031e8cece7"
+    }
+  ],
+  "preHardwareBodyPreservation": {
+    "sourceFrames": [
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0001.png",
+        "sha256": "15d95af938be88c3b7f25460a7362dd7e0e9efaac3dc0353fc02215ea8de9181"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0002.png",
+        "sha256": "06d7ac5989a904dc3e76e9965b97097081d62eabc63130490b6cc891562f368c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0003.png",
+        "sha256": "b40d48015c803ec5b4e9e1a289af5d25db976a2d968caa629f7205142a54009e"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0004.png",
+        "sha256": "ca989d3a69104f754290b49957eb123dacd47e60ea9800f88f88118a1e568292"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0005.png",
+        "sha256": "f00f06046f4b04e2f8d6bfa2eb76e35104f20f5459c74886686c95705a420b09"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0006.png",
+        "sha256": "9a3626d9306c130f5cfbb4f5f6f8e74a07169bc8ba683a9f0dda01e204a434e7"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0007.png",
+        "sha256": "acc5883bca8a24c90da2d3de74d98e0302d22c17680bf97873ebabbe1827aeb2"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0008.png",
+        "sha256": "9f74e1961620ec8510e4538957b0744e82b8f9e7b9c8c76d90484b167a7cb49a"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0009.png",
+        "sha256": "858fa9100a0150b9eb8aedb0eea3a490aee03d4041f5ce1efcd54bbaa2bd104b"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0010.png",
+        "sha256": "05d9d04b2ecd31d7ee801335b4b1fac79424c79a0f3716dee1c30e00309a4b20"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0011.png",
+        "sha256": "6f18a09c3c7dc86d6e553e91ff6d5c48b92c60cbd7112bcb29898e5b22f18cc9"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0012.png",
+        "sha256": "4d77a7da27d9d7d85c36477a62d4d656be0220982d328e85fa24b6013cd79df3"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0013.png",
+        "sha256": "ad89c3bbc69b3396dfd67f6b78765a8630fbd83991a716d8d8fde598dfd21480"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0014.png",
+        "sha256": "04b86fdb57f5b364ba1b47634272fc91b2d2c68c042d18cd76d17996ad5da6a2"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0015.png",
+        "sha256": "b9ed181f212c2d21917b37f4f0e28e126d2d2dbc7112f34483463aa3ae08c03b"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0016.png",
+        "sha256": "28fa691a0e8fd2e5db01a81b6b1032912093c7da6c4c8f134a3aa1c6140885d4"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0017.png",
+        "sha256": "e02908d905a4c4396b7504adef4c1766b6aef73a9e65e3b531a6be86a79c0ac3"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0018.png",
+        "sha256": "b0c46651d277a143e01cd66e8043134efcc85de76db16bc690caa5136b2a9d47"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0019.png",
+        "sha256": "d2a9fd1221024e7f4ac85147986f667e8aa6ffd2e48041c1ce6630293e75c827"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0018.png",
+        "sha256": "b0c46651d277a143e01cd66e8043134efcc85de76db16bc690caa5136b2a9d47"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0017.png",
+        "sha256": "e02908d905a4c4396b7504adef4c1766b6aef73a9e65e3b531a6be86a79c0ac3"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0016.png",
+        "sha256": "28fa691a0e8fd2e5db01a81b6b1032912093c7da6c4c8f134a3aa1c6140885d4"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0015.png",
+        "sha256": "b9ed181f212c2d21917b37f4f0e28e126d2d2dbc7112f34483463aa3ae08c03b"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0014.png",
+        "sha256": "04b86fdb57f5b364ba1b47634272fc91b2d2c68c042d18cd76d17996ad5da6a2"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0013.png",
+        "sha256": "ad89c3bbc69b3396dfd67f6b78765a8630fbd83991a716d8d8fde598dfd21480"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0012.png",
+        "sha256": "4d77a7da27d9d7d85c36477a62d4d656be0220982d328e85fa24b6013cd79df3"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0011.png",
+        "sha256": "6f18a09c3c7dc86d6e553e91ff6d5c48b92c60cbd7112bcb29898e5b22f18cc9"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0010.png",
+        "sha256": "05d9d04b2ecd31d7ee801335b4b1fac79424c79a0f3716dee1c30e00309a4b20"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0009.png",
+        "sha256": "858fa9100a0150b9eb8aedb0eea3a490aee03d4041f5ce1efcd54bbaa2bd104b"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0008.png",
+        "sha256": "9f74e1961620ec8510e4538957b0744e82b8f9e7b9c8c76d90484b167a7cb49a"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0007.png",
+        "sha256": "acc5883bca8a24c90da2d3de74d98e0302d22c17680bf97873ebabbe1827aeb2"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0006.png",
+        "sha256": "9a3626d9306c130f5cfbb4f5f6f8e74a07169bc8ba683a9f0dda01e204a434e7"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0005.png",
+        "sha256": "f00f06046f4b04e2f8d6bfa2eb76e35104f20f5459c74886686c95705a420b09"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0004.png",
+        "sha256": "ca989d3a69104f754290b49957eb123dacd47e60ea9800f88f88118a1e568292"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0003.png",
+        "sha256": "b40d48015c803ec5b4e9e1a289af5d25db976a2d968caa629f7205142a54009e"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-2key/frame_0002.png",
+        "sha256": "06d7ac5989a904dc3e76e9965b97097081d62eabc63130490b6cc891562f368c"
+      }
+    ],
+    "maskFrames": [
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0001.png",
+        "sha256": "2ddb639b0e7bcada7e067c6e5ae0b1e25f6ca2f6a713bbaac76ffea5c3c9c30d"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0002.png",
+        "sha256": "2ddb639b0e7bcada7e067c6e5ae0b1e25f6ca2f6a713bbaac76ffea5c3c9c30d"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0003.png",
+        "sha256": "aa01587e2e2c86464fb3b6c6e910c1d59d13d8d2537afc977b3c757eb67887e4"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0004.png",
+        "sha256": "efbc69facfbe0494b24081e432eae432decc0624f5bfcb8223695ac33d7a4678"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0005.png",
+        "sha256": "13bf1a710b411d5de43269e7e9f8e066879a828b3f8aeafa7567cb4f565ab74c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0006.png",
+        "sha256": "1c839b69cc48ce702b769ae8996ca247ad96a4b2c747e96de5ad859f2cca207c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0007.png",
+        "sha256": "9b2ac01f49c4ef04f1acc9953bc385163ad230d0464ee18b20527fb418bc1f12"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0008.png",
+        "sha256": "2065e9d5119c4b3163d7244bda2432aa459b89d917af26d307c458947e71c639"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0009.png",
+        "sha256": "2f8ef58274009ff5715b960622aa868c4de529f0304cc2ea8a99c2fcbdd90bd8"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0010.png",
+        "sha256": "2eeb292a87af6deb03ae30467eae323b85eb4088d9df39b5701c1a7cfed453b7"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0011.png",
+        "sha256": "1d9df98106dd276c5d56ce6b43f7438830184a8c7a063e0bb69b01c32e660a86"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0012.png",
+        "sha256": "a2ea120b92de87e742920e00a4946d3495f129f045f84fbc42178580faa0830b"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0013.png",
+        "sha256": "94110ef81589720b6c78106c4876a6925aa55a1cb2ef8422245d4f9c6180057c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0014.png",
+        "sha256": "98205e210c6142b8660a82d93526c6ddd485eeeb6d6dcc6f04a3157881f2916a"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0015.png",
+        "sha256": "b7097c2ba84036524d3d50e36b4f2892c257fee26c73aab0a6a015190dc1515d"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0016.png",
+        "sha256": "aa1ba101fe180e66f91ee5e2280108d5329a4903b0b9bd3057e4255c78d4dc2f"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0017.png",
+        "sha256": "05d9d312c228a4f7187c7bbb866dcccddddc2710b2884fa6fec898e5bc23317f"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0018.png",
+        "sha256": "4f66b2a5bfff4b6e904d02ad2ef55a074893511d5ac225fcbd1d2505d7432033"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0019.png",
+        "sha256": "d058e087065949855a6a9141832c84eaad4c09f02c68631849c1f77d5857ef1c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0018.png",
+        "sha256": "4f66b2a5bfff4b6e904d02ad2ef55a074893511d5ac225fcbd1d2505d7432033"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0017.png",
+        "sha256": "05d9d312c228a4f7187c7bbb866dcccddddc2710b2884fa6fec898e5bc23317f"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0016.png",
+        "sha256": "aa1ba101fe180e66f91ee5e2280108d5329a4903b0b9bd3057e4255c78d4dc2f"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0015.png",
+        "sha256": "b7097c2ba84036524d3d50e36b4f2892c257fee26c73aab0a6a015190dc1515d"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0014.png",
+        "sha256": "98205e210c6142b8660a82d93526c6ddd485eeeb6d6dcc6f04a3157881f2916a"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0013.png",
+        "sha256": "94110ef81589720b6c78106c4876a6925aa55a1cb2ef8422245d4f9c6180057c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0012.png",
+        "sha256": "a2ea120b92de87e742920e00a4946d3495f129f045f84fbc42178580faa0830b"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0011.png",
+        "sha256": "1d9df98106dd276c5d56ce6b43f7438830184a8c7a063e0bb69b01c32e660a86"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0010.png",
+        "sha256": "2eeb292a87af6deb03ae30467eae323b85eb4088d9df39b5701c1a7cfed453b7"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0009.png",
+        "sha256": "2f8ef58274009ff5715b960622aa868c4de529f0304cc2ea8a99c2fcbdd90bd8"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0008.png",
+        "sha256": "2065e9d5119c4b3163d7244bda2432aa459b89d917af26d307c458947e71c639"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0007.png",
+        "sha256": "9b2ac01f49c4ef04f1acc9953bc385163ad230d0464ee18b20527fb418bc1f12"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0006.png",
+        "sha256": "1c839b69cc48ce702b769ae8996ca247ad96a4b2c747e96de5ad859f2cca207c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0005.png",
+        "sha256": "13bf1a710b411d5de43269e7e9f8e066879a828b3f8aeafa7567cb4f565ab74c"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0004.png",
+        "sha256": "efbc69facfbe0494b24081e432eae432decc0624f5bfcb8223695ac33d7a4678"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0003.png",
+        "sha256": "aa01587e2e2c86464fb3b6c6e910c1d59d13d8d2537afc977b3c757eb67887e4"
+      },
+      {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-masks/mask_0002.png",
+        "sha256": "2ddb639b0e7bcada7e067c6e5ae0b1e25f6ca2f6a713bbaac76ffea5c3c9c30d"
+      }
+    ],
+    "review": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-check.json"
+  },
+  "frameDigestBin32": "5f40937a929b621c3d9d296e9bdb95da01d2e5a65e534b5c9d308f99b740832c",
+  "review": {
+    "reviewer": "root plus scott_round4 owner",
+    "observations": [
+      "One connected sole perfoot; previous loose white fragment absent.",
+      "Low to neutral to high foot position is legible, with unchanged original2-key body clock.",
+      "Slight continuous white-band width variation atframe12 is accepted; no claim of rigid3D shoes."
+    ],
+    "reviewed": "All19feet,18foot onions,full7to8 and12to13. Final hardware still requires root review."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mode": "builtin-image_gen",
+  "intent": "precise-object-edit",
+  "reference": "docs/generated-frames-v4-followup/machine-ab-crunch/qa-v2/cell-00.png",
+  "prompt": "Use case: precise-object-edit. Edit this exact gym illustration into a CLEAN EQUIPMENT PLATE, with the athlete completely removed. Preserve the precise camera, framing, graphite machine geometry, floor, lighting, black padding, cable pulleys and high overhead work arm. Do not redesign, reposition, rotate or resize the machine. Reconstruct ONLY the parts hidden by the person: the empty fixed black seat, the SHORT FIXED LUMBAR PAD and the fixed upper back pad/silver post, and clean warm white background where the person's head and arms were. The tall left weight tower, right-side transverse pivot/bearing, connected floor chassis, seat pedestal, foot supports and all visible bolt positions must remain at the same pixel coordinates. The two high neck-level grip handles and single high yoke remain in the original starting position. Keep this physically coherent as the same machine seen empty. No person, no body parts, no clothing, no labels or arrows, no extra bars, no new seat. Render the actual hidden equipment surfaces naturally with the same material texture and lighting. This clean plate will supply fixed pad pixels behind an independently preserved athlete, so every fixed part must stay registered to the source.",
+  "generatedSource": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b8f8-a90b-7350-b847-de4a8a1b0f91\\exec-d6377011-15c7-4b14-b875-757be498c1c7.png",
+  "status": "Equipment plate candidate; selected pad pixels only; do not replace athlete or whole scene."
+}

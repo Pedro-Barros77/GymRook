@@ -1,0 +1,126 @@
+{
+  "passed": true,
+  "comparison": "V2 fixed pelvis overlay vsV1, exact same rigid leg sprite. Visible source leg skin is x<235; the original resting wrist atx267..272y438 is not part of the leg and was removed from moving matte.",
+  "legSkinCoreErosionPixels": 1,
+  "frames": [
+    {
+      "frame": 1,
+      "legMuscularSkinCorePixels": 5245,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 2,
+      "legMuscularSkinCorePixels": 5250,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 3,
+      "legMuscularSkinCorePixels": 5259,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 4,
+      "legMuscularSkinCorePixels": 5255,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 5,
+      "legMuscularSkinCorePixels": 5257,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 6,
+      "legMuscularSkinCorePixels": 5259,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 7,
+      "legMuscularSkinCorePixels": 5278,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 8,
+      "legMuscularSkinCorePixels": 5289,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 9,
+      "legMuscularSkinCorePixels": 5283,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 10,
+      "legMuscularSkinCorePixels": 5297,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 11,
+      "legMuscularSkinCorePixels": 5284,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 12,
+      "legMuscularSkinCorePixels": 5282,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 13,
+      "legMuscularSkinCorePixels": 5288,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 14,
+      "legMuscularSkinCorePixels": 5296,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 15,
+      "legMuscularSkinCorePixels": 5276,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 16,
+      "legMuscularSkinCorePixels": 5269,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 17,
+      "legMuscularSkinCorePixels": 5254,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 18,
+      "legMuscularSkinCorePixels": 5262,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 19,
+      "legMuscularSkinCorePixels": 5247,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    }
+  ],
+  "fixedForegroundOpaquePixels": 134937,
+  "maximumFixedForegroundRGBDifference": 0,
+  "return17ByteExact": true,
+  "scale": 1.0,
+  "limits": "Actual projected source pixels andapproximate2D joints only, no clinical skeletal certification."
+}

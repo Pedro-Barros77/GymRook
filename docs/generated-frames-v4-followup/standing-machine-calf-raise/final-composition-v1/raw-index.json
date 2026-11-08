@@ -1,0 +1,154 @@
+{
+  "id": "standing-machine-calf-raise",
+  "status": "ROOT approved reverse-scale1 local3keyfoot source; feed exact RGB to fixedapparatus compositor",
+  "sourceIndex": {
+    "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/source-index.json",
+    "sha256": "c7ce7e4696163f1ac43eb6a4dee1c52ec6ff54ccef81890b8b38b54c50d22f37"
+  },
+  "sourceFrames": [
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0001.png",
+      "sha256": "15d95af938be88c3b7f25460a7362dd7e0e9efaac3dc0353fc02215ea8de9181"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0002.png",
+      "sha256": "3e3a123fa0f052536a5d25df97f7c42a5320feca9efd7172e23083031e8cece7"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0003.png",
+      "sha256": "5d5028792c0a0ae3ddcf835dd2038acafeb3b550479f345ee6cb84345a4a76fd"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0004.png",
+      "sha256": "f9fbe45c7b90af55bc4776188edf146f1b8d1af103d28f919dde606309c69d0b"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0005.png",
+      "sha256": "ab0812172154135a12ec2e35c37cb8805ba7aaa5ee78d012855a742ca579af91"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0006.png",
+      "sha256": "3e5095909593b36ef2b856758233536e7f320ef3dd7dd793a7f969395faaa638"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0007.png",
+      "sha256": "3b900a8b5c12e342779f3e5ab3c9f3e8a5178ca38f1d30108d8a3bf5c3b89477"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0008.png",
+      "sha256": "3218681f26a9b953de61d1593d64d24b91491d29e9352e2857389ff95c209798"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0009.png",
+      "sha256": "20fe30664557ce4a69d59babc48bcfd699715cb00c58c405b085d3eefb8155aa"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0010.png",
+      "sha256": "040c789b1c157a5a5359cc5106a6880a59b9d344e00584d9b25625ffda49c21c"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0011.png",
+      "sha256": "80d34b70b3c252aa1939374feac53b87a50f0ef61dc4ed978a5bc8519437c6eb"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0012.png",
+      "sha256": "df40f0de74c2b3f74f2c73640740329a10cf469e246602307bdba1b13616af98"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0013.png",
+      "sha256": "674320865e8783476e4ef422f67bf091c00f23d00a5723845f2210612e257143"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0014.png",
+      "sha256": "67e43942085cb2e772f18b5d3fb59945bb6b5ae7179cf397f6679f1e60dd3dd0"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0015.png",
+      "sha256": "2727aa836bd7c6b776dad739e8388f122a189b34fdfafa75a2b3206d655614af"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0016.png",
+      "sha256": "24a8ca825236d59e22c70d1cc96c3ee2619bd2d565b977e12625c3567c48d82d"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0017.png",
+      "sha256": "1f01e2e4d5d5cfc5a6149d684c8b0636a2ad03401bfedc5a70049ffc67490f65"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0018.png",
+      "sha256": "609fdc26ac7e325df804914a87547ed2384da6ee83d25729924b447a3cb5fe1c"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0019.png",
+      "sha256": "d2a9fd1221024e7f4ac85147986f667e8aa6ffd2e48041c1ce6630293e75c827"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0020.png",
+      "sha256": "609fdc26ac7e325df804914a87547ed2384da6ee83d25729924b447a3cb5fe1c"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0021.png",
+      "sha256": "1f01e2e4d5d5cfc5a6149d684c8b0636a2ad03401bfedc5a70049ffc67490f65"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0022.png",
+      "sha256": "24a8ca825236d59e22c70d1cc96c3ee2619bd2d565b977e12625c3567c48d82d"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0023.png",
+      "sha256": "2727aa836bd7c6b776dad739e8388f122a189b34fdfafa75a2b3206d655614af"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0024.png",
+      "sha256": "67e43942085cb2e772f18b5d3fb59945bb6b5ae7179cf397f6679f1e60dd3dd0"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0025.png",
+      "sha256": "674320865e8783476e4ef422f67bf091c00f23d00a5723845f2210612e257143"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0026.png",
+      "sha256": "df40f0de74c2b3f74f2c73640740329a10cf469e246602307bdba1b13616af98"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0027.png",
+      "sha256": "80d34b70b3c252aa1939374feac53b87a50f0ef61dc4ed978a5bc8519437c6eb"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0028.png",
+      "sha256": "040c789b1c157a5a5359cc5106a6880a59b9d344e00584d9b25625ffda49c21c"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0029.png",
+      "sha256": "20fe30664557ce4a69d59babc48bcfd699715cb00c58c405b085d3eefb8155aa"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0030.png",
+      "sha256": "3218681f26a9b953de61d1593d64d24b91491d29e9352e2857389ff95c209798"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0031.png",
+      "sha256": "3b900a8b5c12e342779f3e5ab3c9f3e8a5178ca38f1d30108d8a3bf5c3b89477"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0032.png",
+      "sha256": "3e5095909593b36ef2b856758233536e7f320ef3dd7dd793a7f969395faaa638"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0033.png",
+      "sha256": "ab0812172154135a12ec2e35c37cb8805ba7aaa5ee78d012855a742ca579af91"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0034.png",
+      "sha256": "f9fbe45c7b90af55bc4776188edf146f1b8d1af103d28f919dde606309c69d0b"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0035.png",
+      "sha256": "5d5028792c0a0ae3ddcf835dd2038acafeb3b550479f345ee6cb84345a4a76fd"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/frames/frame_0036.png",
+      "sha256": "3e3a123fa0f052536a5d25df97f7c42a5320feca9efd7172e23083031e8cece7"
+    }
+  ]
+}

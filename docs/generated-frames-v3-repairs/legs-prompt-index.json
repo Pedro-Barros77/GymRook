@@ -1,0 +1,64 @@
+{
+  "mode": "Built-in image_gen",
+  "scope": "Four D repairs; old source art untouched",
+  "exercises": [
+    {
+      "id": "leg-extension",
+      "selectedSheet": "sheet.png",
+      "selectedVariant": 1,
+      "sheetSha256": "89e900b26a0a05cf4536e1b165f775eab99478b08e56260ccac83b7b97c3fe11",
+      "promptFiles": [
+        "docs/generated-frames-v3-repairs/leg-extension/prompt-v1.json"
+      ],
+      "sourceReview": "docs/generated-frames-v3-repairs/leg-extension/source-review.json",
+      "temporalReview": "docs/generated-frames-v3-repairs/leg-extension/temporal-review.json"
+    },
+    {
+      "id": "hack-squat",
+      "selectedSheet": "sheet.png",
+      "selectedVariant": 1,
+      "sheetSha256": "a88f904bf48d61184e232d69466a45b583646a4a0ac998108586c013b29ec289",
+      "promptFiles": [
+        "docs/generated-frames-v3-repairs/hack-squat/prompt-v1.json"
+      ],
+      "sourceReview": "docs/generated-frames-v3-repairs/hack-squat/source-review.json",
+      "temporalReview": "docs/generated-frames-v3-repairs/hack-squat/temporal-review.json"
+    },
+    {
+      "id": "lying-leg-curl",
+      "selectedSheet": "sheet.png",
+      "selectedVariant": 2,
+      "sheetSha256": "43b7d7fd8bed11894e1774803f6146cf576df0e28ebfc80733f0243bf51c4e89",
+      "promptFiles": [
+        "docs/generated-frames-v3-repairs/lying-leg-curl/prompt-v1.json",
+        "docs/generated-frames-v3-repairs/lying-leg-curl/prompt-v2.json",
+        "docs/generated-frames-v3-repairs/lying-leg-curl/prompt-v3.json"
+      ],
+      "sourceReview": "docs/generated-frames-v3-repairs/lying-leg-curl/source-review.json",
+      "temporalReview": "docs/generated-frames-v3-repairs/lying-leg-curl/temporal-review.json",
+      "generatedSheetStatus": "Preserved fallback; superseded by root-approved native rigid raster loop.",
+      "selectedSourceKind": "reviewed-png-loop",
+      "selectedSourceIndex": "docs/generated-frames-v3-repairs/lying-leg-curl/rig-v2/source-index-rig.json",
+      "selectedSourceIndexSha256": "9d679ed4390c194bbed86862f1e4cdc7fb0826811541efc5afabe3a9e670fd6b",
+      "nativePrompts": [
+        "docs/generated-frames-v3-repairs/lying-leg-curl/rig/clean-base-v1-prompt.json",
+        "docs/generated-frames-v3-repairs/lying-leg-curl/rig/original-leg-sprite-v2-prompt.json"
+      ],
+      "nativeReview": "docs/generated-frames-v3-repairs/lying-leg-curl/rig-v2/review.json",
+      "nativeContactReview": "docs/generated-frames-v3-repairs/lying-leg-curl/rig-v2/contact-clearance-independent.json",
+      "nativeFreezeVerification": "docs/generated-frames-v3-repairs/lying-leg-curl/rig-v2/freeze-verification.json"
+    },
+    {
+      "id": "dumbbell-stiff-leg-deadlift",
+      "selectedSheet": "sheet.png",
+      "selectedVariant": 2,
+      "sheetSha256": "5d2c48c0984e1960519289828eef2cf5fc77e6f95a86522de0f1aae9306a498f",
+      "promptFiles": [
+        "docs/generated-frames-v3-repairs/dumbbell-stiff-leg-deadlift/prompt-v1.json",
+        "docs/generated-frames-v3-repairs/dumbbell-stiff-leg-deadlift/prompt-v2.json"
+      ],
+      "sourceReview": "docs/generated-frames-v3-repairs/dumbbell-stiff-leg-deadlift/source-review.json",
+      "temporalReview": "docs/generated-frames-v3-repairs/dumbbell-stiff-leg-deadlift/temporal-review.json"
+    }
+  ]
+}

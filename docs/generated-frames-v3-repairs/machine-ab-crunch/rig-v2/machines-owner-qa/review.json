@@ -1,0 +1,514 @@
+{
+  "id": "machine-ab-crunch",
+  "version": "native-v2-R152",
+  "status": "body/mask/static QA passed; terminal24px geometry held for fixed narrower-tip repair",
+  "generatorSHA256": "3f72051f1726096c800a936c1b0e218b4c3b117c7d265846c3caac8e3351bed4",
+  "sourceIndexSHA256": "123fdda6a95c24eda763d8a83fbe8c61eae05a27c05b2d945902e78e3980f452",
+  "frames": [
+    {
+      "frame": 1,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0001.png",
+      "sha256": "42bad46f149ad2e59a807c893012c319e0038a95b77457f31b705b8d83fd06b4"
+    },
+    {
+      "frame": 2,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0002.png",
+      "sha256": "f10be25bb618b134dad2de90e1c4f884b92e6398c18ccb957d23b633b051e880"
+    },
+    {
+      "frame": 3,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0003.png",
+      "sha256": "704dfb9c19be3256cf0c64f1db8e246d008e8e5a732f93c330f731651c543748"
+    },
+    {
+      "frame": 4,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0004.png",
+      "sha256": "ef8616923713f325fa6674e18f589c2b1020d8733b0ccbd85b893fbef108b14b"
+    },
+    {
+      "frame": 5,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0005.png",
+      "sha256": "7c25eb792680daeed19f6a94f4253943e17bffa3467e59e885547e109eccf27b"
+    },
+    {
+      "frame": 6,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0006.png",
+      "sha256": "1c4a215d9738179a786a800743824d169909e097f19c19896cc43072707bbe7c"
+    },
+    {
+      "frame": 7,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0007.png",
+      "sha256": "5c67cf7e004e46483c15bbcedd8e37decbbf3799028bbe84691d2fa6cfb56d00"
+    },
+    {
+      "frame": 8,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0008.png",
+      "sha256": "c5a5bd916082f5a37a7898ea775db3f872c6d9f126345c527fc363ac8bb195c3"
+    },
+    {
+      "frame": 9,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0009.png",
+      "sha256": "f917f904596edf380f165101a7372d1f26496a650dd4b987a3a0893bf2b7aeb8"
+    },
+    {
+      "frame": 10,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0010.png",
+      "sha256": "40d786e39a131d50f4e7fcf7460ae11532a857dbe5ffacca6c5263a7dee4dce8"
+    },
+    {
+      "frame": 11,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0011.png",
+      "sha256": "8f2e69dbcf2cf6061f5e41f81acfcca9be8d1ef947d847d1042506b33ab9137f"
+    },
+    {
+      "frame": 12,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0012.png",
+      "sha256": "40fdb8bc322dbe170e428af689d53682cc099d87b850ef413a035cdd888d6c7d"
+    },
+    {
+      "frame": 13,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0013.png",
+      "sha256": "cd55afae5602ce7e5eda6ac8d0557f2f370944a054d7089a65bda0f55ae63df8"
+    },
+    {
+      "frame": 14,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0014.png",
+      "sha256": "6360d1c45f35a6e9ba7b00f6224c011b1dd775942622d06f42641c30e2d8c70a"
+    },
+    {
+      "frame": 15,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0015.png",
+      "sha256": "571f553bb33206c21b77258e835909179b6714b80addf3a2f47651a1a322a146"
+    },
+    {
+      "frame": 16,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0016.png",
+      "sha256": "cc23362edd98a16487b1986dc0ad15f0dde51cc0589f9e228c2d2858230208bd"
+    },
+    {
+      "frame": 17,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0017.png",
+      "sha256": "45c5b67a9baa3fb876fd29225d582474996dcc623b423d18d8d879fcf568bf01"
+    },
+    {
+      "frame": 18,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0018.png",
+      "sha256": "65f69b795e9eab89c310c28e08d702a8461ca461b928ad52def54519826e5ce2"
+    },
+    {
+      "frame": 19,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0019.png",
+      "sha256": "d2b4ac5948a3d93ecef36536d7206a07e6d167297f29ebaa8bfbd90399ee0f66"
+    },
+    {
+      "frame": 20,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0020.png",
+      "sha256": "65f69b795e9eab89c310c28e08d702a8461ca461b928ad52def54519826e5ce2"
+    },
+    {
+      "frame": 21,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0021.png",
+      "sha256": "45c5b67a9baa3fb876fd29225d582474996dcc623b423d18d8d879fcf568bf01"
+    },
+    {
+      "frame": 22,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0022.png",
+      "sha256": "cc23362edd98a16487b1986dc0ad15f0dde51cc0589f9e228c2d2858230208bd"
+    },
+    {
+      "frame": 23,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0023.png",
+      "sha256": "571f553bb33206c21b77258e835909179b6714b80addf3a2f47651a1a322a146"
+    },
+    {
+      "frame": 24,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0024.png",
+      "sha256": "6360d1c45f35a6e9ba7b00f6224c011b1dd775942622d06f42641c30e2d8c70a"
+    },
+    {
+      "frame": 25,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0025.png",
+      "sha256": "cd55afae5602ce7e5eda6ac8d0557f2f370944a054d7089a65bda0f55ae63df8"
+    },
+    {
+      "frame": 26,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0026.png",
+      "sha256": "40fdb8bc322dbe170e428af689d53682cc099d87b850ef413a035cdd888d6c7d"
+    },
+    {
+      "frame": 27,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0027.png",
+      "sha256": "8f2e69dbcf2cf6061f5e41f81acfcca9be8d1ef947d847d1042506b33ab9137f"
+    },
+    {
+      "frame": 28,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0028.png",
+      "sha256": "40d786e39a131d50f4e7fcf7460ae11532a857dbe5ffacca6c5263a7dee4dce8"
+    },
+    {
+      "frame": 29,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0029.png",
+      "sha256": "f917f904596edf380f165101a7372d1f26496a650dd4b987a3a0893bf2b7aeb8"
+    },
+    {
+      "frame": 30,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0030.png",
+      "sha256": "c5a5bd916082f5a37a7898ea775db3f872c6d9f126345c527fc363ac8bb195c3"
+    },
+    {
+      "frame": 31,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0031.png",
+      "sha256": "5c67cf7e004e46483c15bbcedd8e37decbbf3799028bbe84691d2fa6cfb56d00"
+    },
+    {
+      "frame": 32,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0032.png",
+      "sha256": "1c4a215d9738179a786a800743824d169909e097f19c19896cc43072707bbe7c"
+    },
+    {
+      "frame": 33,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0033.png",
+      "sha256": "7c25eb792680daeed19f6a94f4253943e17bffa3467e59e885547e109eccf27b"
+    },
+    {
+      "frame": 34,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0034.png",
+      "sha256": "ef8616923713f325fa6674e18f589c2b1020d8733b0ccbd85b893fbef108b14b"
+    },
+    {
+      "frame": 35,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0035.png",
+      "sha256": "704dfb9c19be3256cf0c64f1db8e246d008e8e5a732f93c330f731651c543748"
+    },
+    {
+      "frame": 36,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/frames/frame_0036.png",
+      "sha256": "f10be25bb618b134dad2de90e1c4f884b92e6398c18ccb957d23b633b051e880"
+    }
+  ],
+  "fixedRegionProof": {
+    "tower": {
+      "box": [
+        72,
+        62,
+        151,
+        450
+      ],
+      "maxRGBDiff": 0
+    },
+    "seat": {
+      "box": [
+        197,
+        336,
+        333,
+        353
+      ],
+      "maxRGBDiff": 0
+    },
+    "feetAndBase": {
+      "box": [
+        0,
+        340,
+        512,
+        512
+      ],
+      "maxRGBDiff": 0
+    },
+    "thighFront": {
+      "box": [
+        360,
+        310,
+        400,
+        339
+      ],
+      "maxRGBDiff": 0
+    },
+    "pelvisShorts": {
+      "box": [
+        200,
+        303,
+        274,
+        324
+      ],
+      "maxRGBDiff": 0
+    },
+    "pivotBearing": {
+      "box": [
+        158,
+        264,
+        184,
+        289
+      ],
+      "maxRGBDiff": 0
+    },
+    "visibleFixedLumbarSupport": {
+      "box": [
+        170,
+        200,
+        179,
+        243
+      ],
+      "maxRGBDiff": 0
+    }
+  },
+  "maximumRigidRadiusError": 5.684341886080802e-14,
+  "maximumOpaqueActorRGBError": 0,
+  "all19EndpointSamplesAreActualDarkHardware": true,
+  "endpointSamples": [
+    {
+      "frame": 1,
+      "xy": [
+        300.5806915945392,
+        195.93825964692095
+      ],
+      "cleanHardwareRGBAtEndpoint": [
+        65,
+        61,
+        57
+      ],
+      "darkMaterialAtEndpoint": true
+    },
+    {
+      "frame": 2,
+      "xy": [
+        300.5870150594362,
+        195.9482908378589
+      ],
+      "cleanHardwareRGBAtEndpoint": [
+        65,
+        61,
+        57
+      ],
+      "darkMaterialAtEndpoint": true
+    },
+    {
+      "frame": 3,
+      "xy": [
+        302.36804253369127,
+        198.84519537524474
+      ],
+      "cleanHardwareRGBAtEndpoint": [
+        64,
+        60,
+        56
+      ],
+      "darkMaterialAtEndpoint": true
+    },
+    {
+      "frame": 4,
+      "xy": [
+        305.13143939545273,
+        203.65138144112797
+      ],
+      "cleanHardwareRGBAtEndpoint": [
+        66,
+        61,
+        57
+      ],
+      "darkMaterialAtEndpoint": true
+    },
+    {
+      "frame": 5,
+      "xy": [
+        308.49886760378746,
+        210.12654380934316
+      ],
+      "cleanHardwareRGBAtEndpoint": [
+        66,
+        61,
+        56
+      ],
+      "darkMaterialAtEndpoint": true
+    },
+    {
+      "frame": 6,
+      "xy": [
+        311.43804465676936,
+        216.49353999532948
+      ],
+      "cleanHardwareRGBAtEndpoint": [
+        67,
+        63,
+        57
+      ],
+      "darkMaterialAtEndpoint": true
+    },
+    {
+      "frame": 7,
+      "xy": [
+        314.68595698031794,
+        224.6099467397593
+      ],
+      "cleanHardwareRGBAtEndpoint": [
+        66,
+        62,
+        57
+      ],
+      "darkMaterialAtEndpoint": true
+    },
+    {
+      "frame": 8,
+      "xy": [
+        317.3013646748067,
+        232.37362412609747
+      ],
+      "cleanHardwareRGBAtEndpoint": [
+        66,
+        62,
+        58
+      ],
+      "darkMaterialAtEndpoint": true
+    },
+    {
+      "frame": 9,
+      "xy": [
+        319.4729546471359,
+        240.1797929440396
+      ],
+      "cleanHardwareRGBAtEndpoint": [
+        64,
+        60,
+        55
+      ],
+      "darkMaterialAtEndpoint": true
+    },
+    {
+      "frame": 10,
+      "xy": [
+        321.863193655343,
+        251.60269330379398
+      ],
+      "cleanHardwareRGBAtEndpoint": [
+        63,
+        59,
+        53
+      ],
+      "darkMaterialAtEndpoint": true
+    },
+    {
+      "frame": 11,
+      "xy": [
+        323.34274224378316,
+        262.88000105765536
+      ],
+      "cleanHardwareRGBAtEndpoint": [
+        62,
+        57,
+        52
+      ],
+      "darkMaterialAtEndpoint": true
+    },
+    {
+      "frame": 12,
+      "xy": [
+        323.9059953733257,
+        271.65504259706984
+      ],
+      "cleanHardwareRGBAtEndpoint": [
+        57,
+        53,
+        49
+      ],
+      "darkMaterialAtEndpoint": true
+    },
+    {
+      "frame": 13,
+      "xy": [
+        323.994462414734,
+        278.29745722704126
+      ],
+      "cleanHardwareRGBAtEndpoint": [
+        53,
+        49,
+        44
+      ],
+      "darkMaterialAtEndpoint": true
+    },
+    {
+      "frame": 14,
+      "xy": [
+        323.92355433646253,
+        281.8201283982802
+      ],
+      "cleanHardwareRGBAtEndpoint": [
+        51,
+        46,
+        41
+      ],
+      "darkMaterialAtEndpoint": true
+    },
+    {
+      "frame": 15,
+      "xy": [
+        323.8186791678129,
+        284.42217324917084
+      ],
+      "cleanHardwareRGBAtEndpoint": [
+        47,
+        43,
+        38
+      ],
+      "darkMaterialAtEndpoint": true
+    },
+    {
+      "frame": 16,
+      "xy": [
+        323.59047452489983,
+        288.1502481279876
+      ],
+      "cleanHardwareRGBAtEndpoint": [
+        50,
+        44,
+        39
+      ],
+      "darkMaterialAtEndpoint": true
+    },
+    {
+      "frame": 17,
+      "xy": [
+        323.35920110522085,
+        290.9424617908499
+      ],
+      "cleanHardwareRGBAtEndpoint": [
+        54,
+        48,
+        40
+      ],
+      "darkMaterialAtEndpoint": true
+    },
+    {
+      "frame": 18,
+      "xy": [
+        323.1774393436768,
+        292.7918280603903
+      ],
+      "cleanHardwareRGBAtEndpoint": [
+        52,
+        49,
+        41
+      ],
+      "darkMaterialAtEndpoint": true
+    },
+    {
+      "frame": 19,
+      "xy": [
+        323.17743175995497,
+        292.79190066027996
+      ],
+      "cleanHardwareRGBAtEndpoint": [
+        52,
+        49,
+        41
+      ],
+      "darkMaterialAtEndpoint": true
+    }
+  ],
+  "returnPairsEqual": true,
+  "visualInspection": [
+    "All19 upper512 crops, full1/10/19, nine200percent pad crops and all18 transition onions inspected.",
+    "Pad is continuous and opaque, former white U hole/brown canonical island removed.",
+    "Hands/arms/head remain actual raster body, grips connected, no old loose cap.",
+    "Short fixed vertical lumbar support, feet, seat, tower and hips remain stable.",
+    "R152 endpoint center samples actual dark cushion in all19, but full24px terminal cross-section extends below cushion onto thigh in16..19. Renderer confirmed: lower-normal+6 starts skin blend, +8..12 actual thigh. Await fixed geometry narrow terminal V3; do not promote V2."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "machine-ab-crunch",
+  "verdict": "PASS for visual continuity and requested high-handle variant; root final gate required",
+  "reviewer": "independent scott_round4 agent",
+  "compositionIndex": {
+    "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/composition-index.json",
+    "sha256": "bb773a85e174acc5a29afe7101e868ddd922f2a2069c07f2e6ab7875ed51039c"
+  },
+  "reviewed": [
+    "Full512 preview1,10,19.",
+    "All19upper-body crops in upper-group1..4, with attention to head and leftforearm/tower boundary.",
+    "All18transition onions in onions-group1..3.",
+    "Source hash verification for all36previews,36static masks and36actor-core masks."
+  ],
+  "observations": [
+    "Both hands hold actual high handles next to neck/shoulders and stay on those handles throughout the crunch.",
+    "The upper yoke stays continuous to its handles; no new duplicate arms, dangling grip or crossing-skin metal found in the reviewed frames.",
+    "No visible former left-arm ghost, cleanup placeholder covering the thigh or disconnected hair/hand edge.",
+    "Torso/head flex forward gradually; no sudden frame jump or moving fixed machine chassis.",
+    "Seat, lower legs, shoes and lower frame remain stationary. The visible lumbar support is revealed as body occlusion changes; it does not visibly travel with the torso."
+  ],
+  "technicalChecks": {
+    "frameCount": 36,
+    "inputHashesPassed": true,
+    "lowerBodyAtAndBelowY305MaxRGBError": 0,
+    "byteExactReverseCopies": 17
+  },
+  "limits": [
+    "This is not a complete rigid kinematic machine model. The owner has separately documented projected bearing-to-handle variation; this visual review does not certify3D lengths or treat perspective as proof of correct mechanics.",
+    "Specific gym equipment model is not known; review checks the requested generic high-handled seated crunch variant.",
+    "Actual PNG/onion review only; no native playback or phone test."
+  ],
+  "primaryReference": "https://kb.cybexintl.com/Product_Info/Life_Fitness_Circuit_Series_Machine_Use_Instructions.pdf#page=10",
+  "primaryReferenceUse": "Manufacturer illustration/instructions were independently checked for the seated crunch variant with grips above the shoulders; no external art is incorporated in final assets."
+}

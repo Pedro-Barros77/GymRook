@@ -1,0 +1,15 @@
+{
+  "scope": "selected inference evidence copied byte-exact; original approved source index remains immutable",
+  "files": [
+    {
+      "original": "output/followup-round4/preacher-curl/reverse-inference-study/frame11-scale05.png",
+      "trackedCopy": "docs/generated-frames-v4-followup/preacher-curl/static-v1/alternate-inference/frame11-scale05.png",
+      "sha256": "770b6c8d173b3f41a3cc31e46057f4cd3275f317b7653b1755bd727e206f8079"
+    },
+    {
+      "original": "output/followup-round4/preacher-curl/reverse-inference-study/jobs-scale05.json",
+      "trackedCopy": "docs/generated-frames-v4-followup/preacher-curl/static-v1/alternate-inference/jobs-scale05.json",
+      "sha256": "82d91a511f450ccd2881c25887d4bc485d474c88cfc2b53363e5e2c4a17b30f5"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "verdict": "PASS",
+  "date": "2026-11-08",
+  "sourceIndex": {
+    "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/source-index.json",
+    "sha256": "5cfd6f9c4a0ef9851e3f875fa70fce56cc748f93d0ff2f9f6767cf9b43223dc6"
+  },
+  "frameDigestBin32": "db34a83070dcb00a232a904f5e0a454e1680d6d64f0f39cf87a7786cfd61af57",
+  "actualReview": [
+    "ROOT viewedfull1/10/19,all19feet,18onions andsource-vs-final8/10/12.",
+    "Heels pass clearly below and above fixed support, body rises with stable knee posture, no detached soles.",
+    "Machine is static; selected plates move as one rigid unit."
+  ],
+  "independentFinalReview": {
+    "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/independent-ab-final-review.json",
+    "sha256": "9d2199b81d97c797a556482d0a6a31a6f159d6ffb27ca3751c6f2cf2ce331aba"
+  },
+  "authorization": "ROOT authorized exact36PNG import andencode afterindependent finalPASS; that condition is fulfilled.",
+  "limits": "Visual illustrative review, not certified biomechanics."
+}

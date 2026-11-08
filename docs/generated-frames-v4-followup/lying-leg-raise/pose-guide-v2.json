@@ -1,0 +1,176 @@
+{
+  "purpose": "composition/bone-length guide only; no clinical3D angle claim",
+  "poses": [
+    {
+      "cell": 0,
+      "hip": [
+        267.0,
+        419.0
+      ],
+      "knee": [
+        154.51302591561233,
+        395.09015555595767
+      ],
+      "ankle": [
+        57.72468597466376,
+        359.8620807934138
+      ],
+      "femurPixels": 115,
+      "tibiaPixels": 103,
+      "softKneeBendDegrees": 8,
+      "angleAboveFloorDegrees": 12.0
+    },
+    {
+      "cell": 1,
+      "hip": [
+        267.0,
+        419.0
+      ],
+      "knee": [
+        159.28269823643427,
+        378.72615115516123
+      ],
+      "ankle": [
+        68.76453563225184,
+        329.57879884842157
+      ],
+      "femurPixels": 115,
+      "tibiaPixels": 103,
+      "softKneeBendDegrees": 8,
+      "angleAboveFloorDegrees": 20.5
+    },
+    {
+      "cell": 2,
+      "hip": [
+        267.0,
+        419.0
+      ],
+      "knee": [
+        166.4187336789695,
+        363.2468936716712
+      ],
+      "ankle": [
+        84.15927614409833,
+        301.2599462870102
+      ],
+      "femurPixels": 115,
+      "tibiaPixels": 103,
+      "softKneeBendDegrees": 8,
+      "angleAboveFloorDegrees": 29.0
+    },
+    {
+      "cell": 3,
+      "hip": [
+        267.0,
+        419.0
+      ],
+      "knee": [
+        175.76436586650794,
+        348.9924356639971
+      ],
+      "ankle": [
+        103.5707116436233,
+        275.5276394011164
+      ],
+      "femurPixels": 115,
+      "tibiaPixels": 103,
+      "softKneeBendDegrees": 8,
+      "angleAboveFloorDegrees": 37.5
+    },
+    {
+      "cell": 4,
+      "hip": [
+        267.0,
+        419.0
+      ],
+      "knee": [
+        187.11428739721532,
+        336.27592296105513
+      ],
+      "ankle": [
+        126.57240641109058,
+        252.94717254043553
+      ],
+      "femurPixels": 115,
+      "tibiaPixels": 103,
+      "softKneeBendDegrees": 8,
+      "angleAboveFloorDegrees": 46.0
+    },
+    {
+      "cell": 5,
+      "hip": [
+        267.0,
+        419.0
+      ],
+      "knee": [
+        200.21916009324192,
+        325.3767153890233
+      ],
+      "ankle": [
+        152.65905293003345,
+        234.01459957166645
+      ],
+      "femurPixels": 115,
+      "tibiaPixels": 103,
+      "softKneeBendDegrees": 8,
+      "angleAboveFloorDegrees": 54.5
+    },
+    {
+      "cell": 6,
+      "hip": [
+        267.0,
+        419.0
+      ],
+      "knee": [
+        214.79109252995212,
+        316.5342497183377
+      ],
+      "ankle": [
+        181.25757262086498,
+        219.14583643160807
+      ],
+      "femurPixels": 115,
+      "tibiaPixels": 103,
+      "softKneeBendDegrees": 8,
+      "angleAboveFloorDegrees": 63.0
+    },
+    {
+      "cell": 7,
+      "hip": [
+        267.0,
+        419.0
+      ],
+      "knee": [
+        230.50996451341442,
+        309.9427796512871
+      ],
+      "ankle": [
+        211.73970538772323,
+        208.66752417219976
+      ],
+      "femurPixels": 115,
+      "tibiaPixels": 103,
+      "softKneeBendDegrees": 8,
+      "angleAboveFloorDegrees": 71.5
+    },
+    {
+      "cell": 8,
+      "hip": [
+        267.0,
+        419.0
+      ],
+      "knee": [
+        247.030459568303,
+        305.7471084035961
+      ],
+      "ankle": [
+        243.43581140794538,
+        202.80985322062924
+      ],
+      "femurPixels": 115,
+      "tibiaPixels": 103,
+      "softKneeBendDegrees": 8,
+      "angleAboveFloorDegrees": 80.0
+    }
+  ]
+}

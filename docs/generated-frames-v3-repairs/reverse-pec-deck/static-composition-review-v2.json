@@ -1,0 +1,146 @@
+{
+  "id": "reverse-pec-deck",
+  "method": "Actual final-RIFE pixel segmentation and conservative mechanical capsules; alpha only, not image warp. The reference uses an image_gen empty-machine plate only where original moving parts need clearing.",
+  "scope": "candidate: inspect all19composed frames and overlaps before release",
+  "reverseDepth": "Hands and drop arms are foreground of the tower when silhouettes overlap. Their current masks retain actual source foreground pixels over the canonical tower.",
+  "trackerPoints": [],
+  "trackedPoints": null,
+  "trackForwardBackwardErrors": [],
+  "maximumForwardBackwardError": null,
+  "frames": [
+    {
+      "frame": 1,
+      "source": "output/repair-animations/reverse-pec-deck/frames/frame_0001.png",
+      "sourceSha256": "ee1be30ed5992f336e7ba5204acce90d0a2e483e69ee39976359353b33cd1790",
+      "dynamicFraction": 0.11695480346679688,
+      "previewSha256": "3d1c2495f5a7ba651dc0d3b7a107949f728dee65156735e2a44415c8922cd706"
+    },
+    {
+      "frame": 2,
+      "source": "output/repair-animations/reverse-pec-deck/frames/frame_0002.png",
+      "sourceSha256": "26c3167e8a61bfbf53489352240f3974068faf694919c3b981e64f849dd57675",
+      "dynamicFraction": 0.11695480346679688,
+      "previewSha256": "e23102e99ddb3781a01271579d1b30c77f644cd84dc3dcb3fb51d25f24e8f99b"
+    },
+    {
+      "frame": 3,
+      "source": "output/repair-animations/reverse-pec-deck/frames/frame_0003.png",
+      "sourceSha256": "e7e21a706d6eed87886470494391a0f9fa0f2c4fb1283b777e26a3ed01f53ae7",
+      "dynamicFraction": 0.11762619018554688,
+      "previewSha256": "c562ccefbf01faa6e3454e359ddf912a0ebcaaf90f137f73a89971b2a0d24de9"
+    },
+    {
+      "frame": 4,
+      "source": "output/repair-animations/reverse-pec-deck/frames/frame_0004.png",
+      "sourceSha256": "52868d5f755b4c24498561bf3ea3e03543b4dcb71aaa2f5eb96e38ca1bbb17c5",
+      "dynamicFraction": 0.12084197998046875,
+      "previewSha256": "40bdac57d8244d905db4a63fd57ca80d793185c069598c6383d9373fb7160ac6"
+    },
+    {
+      "frame": 5,
+      "source": "output/repair-animations/reverse-pec-deck/frames/frame_0005.png",
+      "sourceSha256": "1b2df2afa94346bfe8c741cc4ca72dab7ca86b884742aa34aa5b889525eea794",
+      "dynamicFraction": 0.12455368041992188,
+      "previewSha256": "44eb899a838d2b79a166d0e4f9781eb29197778b514ea8364c164e00e5eae2a2"
+    },
+    {
+      "frame": 6,
+      "source": "output/repair-animations/reverse-pec-deck/frames/frame_0006.png",
+      "sourceSha256": "0df5a78770ba4ba6d88bfc8cc82995fdc11e1ccc2728e9bdf1749bdeef906b39",
+      "dynamicFraction": 0.1317138671875,
+      "previewSha256": "f0021f078680111c3edf788b93e331386cfd9c6606feea5534210394a707be70"
+    },
+    {
+      "frame": 7,
+      "source": "output/repair-animations/reverse-pec-deck/frames/frame_0007.png",
+      "sourceSha256": "ce905c5d7c569b1d2f33490daf18b4daea9c7f51c11869e7262e5d0feda21b15",
+      "dynamicFraction": 0.14305877685546875,
+      "previewSha256": "bf0f29be7e8f4c73072c26eb74fbb06461a813ea908e1b3be3ccbaab6b6b4686"
+    },
+    {
+      "frame": 8,
+      "source": "output/repair-animations/reverse-pec-deck/frames/frame_0008.png",
+      "sourceSha256": "b5dd464e6a7107d5e8b416cb801516e5efd168e97514c8349254965975f783e1",
+      "dynamicFraction": 0.14794921875,
+      "previewSha256": "d76061289565d48f04fa1955119ea18099b8461f0bafe2b38a75a90273047107"
+    },
+    {
+      "frame": 9,
+      "source": "output/repair-animations/reverse-pec-deck/frames/frame_0009.png",
+      "sourceSha256": "a98be2d436fb6c9d0a57919b3b000f154a8d5c881c3c068ddc2cf2027a5454e1",
+      "dynamicFraction": 0.15564346313476562,
+      "previewSha256": "143e1c9109aea869651d4d97452835577d4ef5799eece3dd99055cb14897dfe9"
+    },
+    {
+      "frame": 10,
+      "source": "output/repair-animations/reverse-pec-deck/frames/frame_0010.png",
+      "sourceSha256": "cb86ce6551b52a863ff8697ed1d9bcc5b6869d98d3ba786283a84cab1fb62284",
+      "dynamicFraction": 0.16554641723632812,
+      "previewSha256": "c38c290f6f49b29dbbc2fb09ca322303f4293918cb52646d16d6712696b4ffa2"
+    },
+    {
+      "frame": 11,
+      "source": "output/repair-animations/reverse-pec-deck/frames/frame_0011.png",
+      "sourceSha256": "ecee0a5754832672e73d13dda01a69f295c08ea6786eef955460a2e4b25f50dd",
+      "dynamicFraction": 0.174163818359375,
+      "previewSha256": "165359306be4c8443c7a0460ce8346decb12a3ca04cff0e8fac67eaaedc7ac2d"
+    },
+    {
+      "frame": 12,
+      "source": "output/repair-animations/reverse-pec-deck/frames/frame_0012.png",
+      "sourceSha256": "1771ac893455b4c2d8fb4f0afe4e818471bc87dd616afd6429678c1d6a2e273f",
+      "dynamicFraction": 0.18246078491210938,
+      "previewSha256": "ceed72b678547ca730d4a0d1bd8bd7a2773b539e23c7e41e3c77b506ab691e5f"
+    },
+    {
+      "frame": 13,
+      "source": "output/repair-animations/reverse-pec-deck/frames/frame_0013.png",
+      "sourceSha256": "a18acea896493c3c1570b7239b1f44851d2c55d8d5e92e14b20535770c8d1174",
+      "dynamicFraction": 0.18967437744140625,
+      "previewSha256": "fc3487faf8f7ad40765137c89b541695f7a79b49a07c5ab5936d12e8c9bd4623"
+    },
+    {
+      "frame": 14,
+      "source": "output/repair-animations/reverse-pec-deck/frames/frame_0014.png",
+      "sourceSha256": "8f10c71467a5868ab168946a2c09250fc032d9e26af8edfbefbd4c15b8ffb316",
+      "dynamicFraction": 0.19403839111328125,
+      "previewSha256": "30501d87d072218357a70abbc8dc97db449fb31247c1f7fe66e48cd4023af74a"
+    },
+    {
+      "frame": 15,
+      "source": "output/repair-animations/reverse-pec-deck/frames/frame_0015.png",
+      "sourceSha256": "81710526a94fcb4156a2808226a3af6e7a89cbf64ea6923a19abe5dc31546f5e",
+      "dynamicFraction": 0.19834136962890625,
+      "previewSha256": "1a71b9c1338986229182b36231e991ddc5346c7155f36ee7b8e0a2f1ef4b6109"
+    },
+    {
+      "frame": 16,
+      "source": "output/repair-animations/reverse-pec-deck/frames/frame_0016.png",
+      "sourceSha256": "89522eb9f173508017a4ab5d11d340b78f9a76cdbf8b1838140bd275e766dc88",
+      "dynamicFraction": 0.20246505737304688,
+      "previewSha256": "0da268082b833a80d4ad563d54ed01af2ce05a906c827245e3a31d9e030e6af0"
+    },
+    {
+      "frame": 17,
+      "source": "output/repair-animations/reverse-pec-deck/frames/frame_0017.png",
+      "sourceSha256": "5e4827918c7cdd159ed5e5334af2626bdc2e9fd5a9e567e63ab7133d87b75dd1",
+      "dynamicFraction": 0.20660018920898438,
+      "previewSha256": "e18a4fd19f3968cccaf9849f2cd1f699362efe21214f908224f33e06c817f293"
+    },
+    {
+      "frame": 18,
+      "source": "output/repair-animations/reverse-pec-deck/frames/frame_0018.png",
+      "sourceSha256": "72d910e7083cb2ace0742e431c5c4f325908b0382a7bb70b8e13c2158e55a179",
+      "dynamicFraction": 0.20824050903320312,
+      "previewSha256": "94302b4d0ff3ae69dab1a19eb75d1b307735d212d723ca82c1d50b1b9e94bdad"
+    },
+    {
+      "frame": 19,
+      "source": "output/repair-animations/reverse-pec-deck/frames/frame_0019.png",
+      "sourceSha256": "08762766ed3b30ed01e0354f52af05c0d8b42af11265de98f27160132f88e91a",
+      "dynamicFraction": 0.20824050903320312,
+      "previewSha256": "789d6367c3dfad98d73f07c22f6a3142808f07ad6547a902dcd64ccb5c35f3c6"
+    }
+  ],
+  "staticSpecSha256": "cd1d47eabde6d822c638ec8ef6e7a55d33f7a5445cecfbd6712a0f6ccaff83d9"
+}

@@ -1,0 +1,7 @@
+{
+  "mode": "builtin-image_gen",
+  "source": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b859-1287-7690-bb8e-b7a241c21ae2\\exec-a1944850-20ac-47c1-b050-ebeaf79ba5f7.png",
+  "prompt": "Use case: precise-object-edit / clean background plate for exercise animation. Remove the ENTIRE ATHLETE from the image, including head, torso, hands, arms, shorts, legs and shoes. Also remove ONLY the MOVING OPERATING LEVER from the side fixed pivot out to the chest cylinder, chest roller pad, both black handles and all moving-arm details. KEEP the FIXED circular waist-height bearing housing on the machine mast, and the FIXED INTEGRATED MACHINE: weight tower, upright mast, FIXED short vertical lumbar/back pad, fixed seat cushion/pedestal, base chassis and fixed foot platform. After human removal recover the full unobstructed seat and vertical lumbar pad naturally. Do NOT alter any fixed part's size, location, angle, lighting, materials, shadows or camera. Same warm-white background, no extra pieces, no dangling operating arm/handles, no pose-dependent chair. The machine is empty with its moving operating arm assembly separated for animation; only the fixed pivot bearing remains. SINGLE square image, no grid, text, labels, guide marks or watermark.",
+  "reference": "canonical-reference.png",
+  "status": "candidate fixed plate for local masks"
+}

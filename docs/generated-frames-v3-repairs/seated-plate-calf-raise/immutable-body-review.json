@@ -1,0 +1,305 @@
+{
+  "status": "all36immutablebodyconstraintsPASS; visualequipmentQArequired",
+  "bodyChangedPixels": 0,
+  "humanMotion": "Exactly the previously approved v2 pixels on every frame; no new human warp, optical flow or interpolation survives outside equipment region.",
+  "mutableRectPixels": [
+    [
+      333,
+      190,
+      499,
+      375
+    ]
+  ],
+  "sourceIndex": "docs/generated-frames-v3-repairs/seated-plate-calf-raise/source-index.json",
+  "frames": [
+    {
+      "frame": 1,
+      "sourceSha256": "8b3bbe007f3f6984c97f4d73f9c3fe8b6cc3b8df24da4dc9f945b8582a6584c6",
+      "frameSha256": "cf0dc207f55084d02fd4bef7b46906936ee928db0c8a54adef405fefd83ea817",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 0.9843843843843845
+    },
+    {
+      "frame": 2,
+      "sourceSha256": "8e1c841d00938efe8967c5971d784270b0f28ff5f4f9749cafeee3014542f77b",
+      "frameSha256": "4ef7e73bb9b9c53a8e3e505f0f49841f4969f6f91126730357cc8730ac2c9320",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 0.9843843843843845
+    },
+    {
+      "frame": 3,
+      "sourceSha256": "cb37674326262082a7c119ca674d3431096804cdff5a893a03ca25ea63723cda",
+      "frameSha256": "3d071c9a7153042a82ed21ad0188a41e393917cee3b92872b55fc50d8e70cd76",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 0.9843843843843845
+    },
+    {
+      "frame": 4,
+      "sourceSha256": "650620e666ab2e97a9f681aaa68846b74daebcb36db44df8434ce4a3411fb68f",
+      "frameSha256": "8b857ea8cab52a371b4f9cf9f335e2fc84381de7650c989f01859a28cfe5c53f",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 0.9915915915915917
+    },
+    {
+      "frame": 5,
+      "sourceSha256": "8329748f70fe26bfabe7b8c195eb2b4460b6359d8c3a5912781ad59416ebccd9",
+      "frameSha256": "23290c7baa79d102a539e1f881be75fb735dfe7d5c440e64998c8e9e8fab657c",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 2.2294294294294295
+    },
+    {
+      "frame": 6,
+      "sourceSha256": "393daf9c7bcbb1d64d3c9a0b4f50b1937de9f125112a9d5e747f07e75e109317",
+      "frameSha256": "ade5063035144010aa582022bcc7c2c3e9e39dcc404f6bcacd1aff7d8c2b6079",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 0.9483483483483485
+    },
+    {
+      "frame": 7,
+      "sourceSha256": "11a9f702ff0194f8a7c9e7295925426fd4652a9411fa1a46794e0e455fdbcda4",
+      "frameSha256": "ff693f091badf22d7b55f09dc864926e0b1a1b050d4061c3cfab576098a0c7c9",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 0.8186186186186187
+    },
+    {
+      "frame": 8,
+      "sourceSha256": "17a2dcfd52a0ac9efcb7c250d49b7f505a930770009fa408b324c2f3773b4f52",
+      "frameSha256": "5b3c9c7c3f832c77de313f99f3e44ca9b4dbdea2539b63ae01ba4755ff3d2628",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 1.0618618618618618
+    },
+    {
+      "frame": 9,
+      "sourceSha256": "f147ed11958e76ee6e66cd4f6cde42a98e7050f74160472ad957a117cf2133a0",
+      "frameSha256": "f0855e0dcf1acdb93638a1de7bf578d8f5f287744a3aaba943af87cb64e8e0aa",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 1.3873873873873874
+    },
+    {
+      "frame": 10,
+      "sourceSha256": "d897b6591fbf3f4d38be39a0ffaf77c384ac204faec745f2a2536fc6c07257da",
+      "frameSha256": "fac7b049768defe3d2080204fe218fe8e6e963983992a9288c5a288b8b567e31",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 0.9525525525525527
+    },
+    {
+      "frame": 11,
+      "sourceSha256": "18ff7e1f1f445d51435484045e6f54ed52063fad30a3c486f153386b3f34454d",
+      "frameSha256": "ee7cf3c4ccf3396d131b8e33a14014716bf4b51f7ee87ebcab5b3a42c2789c22",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 1.595195195195195
+    },
+    {
+      "frame": 12,
+      "sourceSha256": "f423c7f9182a4ef3e66f5fb619d03909b3adeb8f47fcc025ce026f25be58c42b",
+      "frameSha256": "fb0206ed58761e304190f340253099c5f31fcc5eca983254125be0c8a88f921e",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 1.5441441441441441
+    },
+    {
+      "frame": 13,
+      "sourceSha256": "2b4c7dfbb9334958881be951ce8603c09f3fe714f60b0b0e255018e0a2ccd686",
+      "frameSha256": "719609da7d252157299c9f2093e523bf07f958ad7b1351de2efa58e7b49923bd",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 1.8384384384384382
+    },
+    {
+      "frame": 14,
+      "sourceSha256": "577a969a8531a7b71b770892ab545fabc6a09794dc143bc38eb2c217ae1f054a",
+      "frameSha256": "3475a02ef3237b1df2a0ee2650c9eabf1b361d8e10f17b8650673d2170543695",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 1.4150150150150151
+    },
+    {
+      "frame": 15,
+      "sourceSha256": "6edc6cdd336adce994503ad43113fd5abf7c98ce4e0dafc6a1f38fb54d2b1b90",
+      "frameSha256": "7335e331415c38c6708bf99efd50272882ffeb7e4a2ebc676c5ea0eb43ac0245",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 1.9849849849849848
+    },
+    {
+      "frame": 16,
+      "sourceSha256": "aaeff3d6782d21d35d944b1ed2af07462d6ce8c477063b20167c75b773ec05c1",
+      "frameSha256": "9691d1bbc647b046e3fd3059ba1142ba061fe31e029db684ab3bcc8fef9a53ee",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 1.8504504504504504
+    },
+    {
+      "frame": 17,
+      "sourceSha256": "de9d9d53cbff7a0aa1a4264180af6377d51e81a0ed6a0d5b3064f90b57a187cb",
+      "frameSha256": "f624f63b3ce6c27e9e5608675c6a51eb5c3a897e3b004196df837c362811a2cf",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 1.8630630630630631
+    },
+    {
+      "frame": 18,
+      "sourceSha256": "308ec16ed023e512b2f6fa6ee6d5774218af15a2c4b65e959c14f5d04cae0570",
+      "frameSha256": "357ef51ee87f8d9e852f801fbc482d248f5d95779506a2c873273c5c172a418e",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 1.8630630630630631
+    },
+    {
+      "frame": 19,
+      "sourceSha256": "5423a20b11278466b1fb8a0c51fb3c769b87bd576428183191d7eebd80ba8266",
+      "frameSha256": "2ef675fb95302d1f534d050281ace4a7abef7992dd150bbc4d3bfdade25af874",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 1.8630630630630631
+    },
+    {
+      "frame": 20,
+      "sourceSha256": "308ec16ed023e512b2f6fa6ee6d5774218af15a2c4b65e959c14f5d04cae0570",
+      "frameSha256": "357ef51ee87f8d9e852f801fbc482d248f5d95779506a2c873273c5c172a418e",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 1.8630630630630631
+    },
+    {
+      "frame": 21,
+      "sourceSha256": "de9d9d53cbff7a0aa1a4264180af6377d51e81a0ed6a0d5b3064f90b57a187cb",
+      "frameSha256": "f624f63b3ce6c27e9e5608675c6a51eb5c3a897e3b004196df837c362811a2cf",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 1.8630630630630631
+    },
+    {
+      "frame": 22,
+      "sourceSha256": "aaeff3d6782d21d35d944b1ed2af07462d6ce8c477063b20167c75b773ec05c1",
+      "frameSha256": "9691d1bbc647b046e3fd3059ba1142ba061fe31e029db684ab3bcc8fef9a53ee",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 1.8504504504504504
+    },
+    {
+      "frame": 23,
+      "sourceSha256": "6edc6cdd336adce994503ad43113fd5abf7c98ce4e0dafc6a1f38fb54d2b1b90",
+      "frameSha256": "7335e331415c38c6708bf99efd50272882ffeb7e4a2ebc676c5ea0eb43ac0245",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 1.9849849849849848
+    },
+    {
+      "frame": 24,
+      "sourceSha256": "577a969a8531a7b71b770892ab545fabc6a09794dc143bc38eb2c217ae1f054a",
+      "frameSha256": "3475a02ef3237b1df2a0ee2650c9eabf1b361d8e10f17b8650673d2170543695",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 1.4150150150150151
+    },
+    {
+      "frame": 25,
+      "sourceSha256": "2b4c7dfbb9334958881be951ce8603c09f3fe714f60b0b0e255018e0a2ccd686",
+      "frameSha256": "719609da7d252157299c9f2093e523bf07f958ad7b1351de2efa58e7b49923bd",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 1.8384384384384382
+    },
+    {
+      "frame": 26,
+      "sourceSha256": "f423c7f9182a4ef3e66f5fb619d03909b3adeb8f47fcc025ce026f25be58c42b",
+      "frameSha256": "fb0206ed58761e304190f340253099c5f31fcc5eca983254125be0c8a88f921e",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 1.5441441441441441
+    },
+    {
+      "frame": 27,
+      "sourceSha256": "18ff7e1f1f445d51435484045e6f54ed52063fad30a3c486f153386b3f34454d",
+      "frameSha256": "ee7cf3c4ccf3396d131b8e33a14014716bf4b51f7ee87ebcab5b3a42c2789c22",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 1.595195195195195
+    },
+    {
+      "frame": 28,
+      "sourceSha256": "d897b6591fbf3f4d38be39a0ffaf77c384ac204faec745f2a2536fc6c07257da",
+      "frameSha256": "fac7b049768defe3d2080204fe218fe8e6e963983992a9288c5a288b8b567e31",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 0.9525525525525527
+    },
+    {
+      "frame": 29,
+      "sourceSha256": "f147ed11958e76ee6e66cd4f6cde42a98e7050f74160472ad957a117cf2133a0",
+      "frameSha256": "f0855e0dcf1acdb93638a1de7bf578d8f5f287744a3aaba943af87cb64e8e0aa",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 1.3873873873873874
+    },
+    {
+      "frame": 30,
+      "sourceSha256": "17a2dcfd52a0ac9efcb7c250d49b7f505a930770009fa408b324c2f3773b4f52",
+      "frameSha256": "5b3c9c7c3f832c77de313f99f3e44ca9b4dbdea2539b63ae01ba4755ff3d2628",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 1.0618618618618618
+    },
+    {
+      "frame": 31,
+      "sourceSha256": "11a9f702ff0194f8a7c9e7295925426fd4652a9411fa1a46794e0e455fdbcda4",
+      "frameSha256": "ff693f091badf22d7b55f09dc864926e0b1a1b050d4061c3cfab576098a0c7c9",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 0.8186186186186187
+    },
+    {
+      "frame": 32,
+      "sourceSha256": "393daf9c7bcbb1d64d3c9a0b4f50b1937de9f125112a9d5e747f07e75e109317",
+      "frameSha256": "ade5063035144010aa582022bcc7c2c3e9e39dcc404f6bcacd1aff7d8c2b6079",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 0.9483483483483485
+    },
+    {
+      "frame": 33,
+      "sourceSha256": "8329748f70fe26bfabe7b8c195eb2b4460b6359d8c3a5912781ad59416ebccd9",
+      "frameSha256": "23290c7baa79d102a539e1f881be75fb735dfe7d5c440e64998c8e9e8fab657c",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 2.2294294294294295
+    },
+    {
+      "frame": 34,
+      "sourceSha256": "650620e666ab2e97a9f681aaa68846b74daebcb36db44df8434ce4a3411fb68f",
+      "frameSha256": "8b857ea8cab52a371b4f9cf9f335e2fc84381de7650c989f01859a28cfe5c53f",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 0.9915915915915917
+    },
+    {
+      "frame": 35,
+      "sourceSha256": "cb37674326262082a7c119ca674d3431096804cdff5a893a03ca25ea63723cda",
+      "frameSha256": "3d071c9a7153042a82ed21ad0188a41e393917cee3b92872b55fc50d8e70cd76",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 0.9843843843843845
+    },
+    {
+      "frame": 36,
+      "sourceSha256": "8e1c841d00938efe8967c5971d784270b0f28ff5f4f9749cafeee3014542f77b",
+      "frameSha256": "4ef7e73bb9b9c53a8e3e505f0f49841f4969f6f91126730357cc8730ac2c9320",
+      "immutableRGBPixels": 231434,
+      "changedProtectedRGBPixels": 0,
+      "boundaryMeanAbsoluteRGBError": 0.9843843843843845
+    }
+  ],
+  "boundaryMetricNote": "Whole3-pixel vertical strip includes the deliberately edited beam edge; inspect actual seam rather than treating larger differences as body changes."
+}

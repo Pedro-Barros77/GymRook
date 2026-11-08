@@ -1,0 +1,79 @@
+{
+  "reviewer": "legs_round3 independent read-only review",
+  "scope": "Nine actual512source rasters plus full-size0/4/8. Source topology/contact plausibility only; raw candidate contact sheet observed, final canonical composition not yet reviewed.",
+  "source": "sheet-v1.png",
+  "sourceSha256": "b267f7c5ee1d02392ee8135f41cb10e7ed799c9965225b0f1ef0d43166bb2cdd",
+  "sourceCellSha256": {
+    "cell-00.png": "589e68dfdb9af0492386f58b533d427bdc89ba842415e63a8bb51b2ebf241b97",
+    "cell-01.png": "1be0a8dd270cdbabf382108ef91574b0e3f606a49c85faa942b0b910304d3e6d",
+    "cell-02.png": "8a5ec19c79239ba20277b50a6f1038cafd664e14a1feee36111848ab8ba5ef0a",
+    "cell-03.png": "932ecab78531376b5cac67deb77fb70c5dc7da2846833813e738d7a789f419a5",
+    "cell-04.png": "5913f816aa2b43b8eac75df1e64d473192639283678b36e53fdc838931245a65",
+    "cell-05.png": "b9b1666a49dee215994c82d142f19d1483637091513b61be1387de8bcebf0db6",
+    "cell-06.png": "619d2c70ed42a8b48a9b0fabcb10a0b81e21fd6a56fda637b516bcf9c0452c6c",
+    "cell-07.png": "16b95404514893aac364583fce8ea77690e35c3f4fef2755979f2b2f20ceac29",
+    "cell-08.png": "d97100d460701baa0d30be4e933c98aa244a3b01d0b73922d87e6a34fe3e2f7d"
+  },
+  "verdict": "No visible source-topology blocker identified; final moving masks and temporal/native-rate preview required.",
+  "findings": [
+    "Seat/chestpad/mast/tower share a continuous connected floor chassis; no separated distant machine or floating horizontal bridge.",
+    "Both handles move outward fromsource0onward; far handle starts partially hidden by torso/chestpad but is not static while near arm opens.",
+    "Near arm/handle consistently occlude the tower as foreground geometry: the steel dropbar remains continuous above and below the opaque hand, never disappears into the black panel or emerges from the hand interior.",
+    "Atpeak, the near upper lever also passes in FRONT of the fixed mast. Its visible contour continues across the mast edge with the same thickness/material; no visible topology switch into/behind the tower.",
+    "This3/4rear view provides a visible depth ordering that supports the overlap explanation; it is more specific than merely saying any overlap is perspective. Exact depth distance is not recoverable."
+  ],
+  "concreteCoordinatesApprox512": {
+    "nearHandleCentersSource0_4_8": [
+      [
+        282,
+        205
+      ],
+      [
+        351,
+        213
+      ],
+      [
+        430,
+        206
+      ]
+    ],
+    "peakTowerPanelBounds": [
+      328,
+      78,
+      439,
+      461
+    ],
+    "peakNearDropbarUpperElbow": [
+      406,
+      71
+    ],
+    "peakNearHandleVisibleBelowHand": [
+      430,
+      238
+    ],
+    "seatFloorConnectionExamples": [
+      [
+        171,
+        383
+      ],
+      [
+        164,
+        487
+      ],
+      [
+        312,
+        442
+      ]
+    ]
+  },
+  "requiredFinalChecks": [
+    "Canonical fixed-tower mask must not cover/erase the foreground near hand, moving lever or left pivot assembly.",
+    "Inspect every interpolated frame around near-hand/tower overlap and farhand emergence, not only endpoints.",
+    "Check actual12fps and slow presentation for chassis/pivot vibration and simultaneous bilateral opening."
+  ],
+  "limits": [
+    "Single-view projected overlap does not measure real3Dclearance.",
+    "This review does not certify exact machine geometry, elbow angle, abdominal activation or exercise technique.",
+    "Do not describe this source review as observed real-time player playback."
+  ]
+}

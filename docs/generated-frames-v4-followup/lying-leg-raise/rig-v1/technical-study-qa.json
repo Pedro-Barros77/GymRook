@@ -1,0 +1,105 @@
+{
+  "studyOnly": true,
+  "frameCount": 36,
+  "fps": 12,
+  "fixedForegroundMaskOpaquePixels": 132792,
+  "maximumSourceRGBDifferenceOnFixedForeground": 0,
+  "femurApproxSourceLandmarkDistanceRangePixels": [
+    108.50345616615161,
+    108.50345616615175
+  ],
+  "tibiaApproxSourceLandmarkDistanceRangePixels": [
+    85.99999999999996,
+    86.00000000000006
+  ],
+  "sameShapeEveryFrame": true,
+  "uniformScale": 1.0,
+  "returns": [
+    {
+      "frame": 20,
+      "copies": 18,
+      "equal": true
+    },
+    {
+      "frame": 21,
+      "copies": 17,
+      "equal": true
+    },
+    {
+      "frame": 22,
+      "copies": 16,
+      "equal": true
+    },
+    {
+      "frame": 23,
+      "copies": 15,
+      "equal": true
+    },
+    {
+      "frame": 24,
+      "copies": 14,
+      "equal": true
+    },
+    {
+      "frame": 25,
+      "copies": 13,
+      "equal": true
+    },
+    {
+      "frame": 26,
+      "copies": 12,
+      "equal": true
+    },
+    {
+      "frame": 27,
+      "copies": 11,
+      "equal": true
+    },
+    {
+      "frame": 28,
+      "copies": 10,
+      "equal": true
+    },
+    {
+      "frame": 29,
+      "copies": 9,
+      "equal": true
+    },
+    {
+      "frame": 30,
+      "copies": 8,
+      "equal": true
+    },
+    {
+      "frame": 31,
+      "copies": 7,
+      "equal": true
+    },
+    {
+      "frame": 32,
+      "copies": 6,
+      "equal": true
+    },
+    {
+      "frame": 33,
+      "copies": 5,
+      "equal": true
+    },
+    {
+      "frame": 34,
+      "copies": 4,
+      "equal": true
+    },
+    {
+      "frame": 35,
+      "copies": 3,
+      "equal": true
+    },
+    {
+      "frame": 36,
+      "copies": 2,
+      "equal": true
+    }
+  ],
+  "limits": "Lengths describe the chosen2D source landmark rotations, not certified real skeletal coordinates. Visual hip-handoff remains unapproved."
+}

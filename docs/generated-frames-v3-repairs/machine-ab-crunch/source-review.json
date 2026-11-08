@@ -1,0 +1,35 @@
+{
+  "id": "machine-ab-crunch",
+  "sourceKind": "pose-sheet",
+  "grid": [
+    3,
+    3
+  ],
+  "selectedCells": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "source": "sheet.png",
+  "sourceSha256": "82f4ad0fc6b08682845c0017443a77ba85bad8f3713b98e94a5f5a6dde793c7a",
+  "status": "source visual accepted by root and producer; temporal composition/masks and frame review pending",
+  "style": "builtin image_gen realistic coloured raster athlete, no native human mesh",
+  "physicalChecks": [
+    "Machine seat, pad, mast and tower connect through the same floor chassis.",
+    "No distant separated tower or fabricated long bridge.",
+    "Both hands remain attached to moving handles.",
+    "Static lower body and chassis will use canonical pixels rather than generated frame interpolation.",
+    "Fixed waist-height pivot rotates the operating arm; seat and short vertical lumbar pad are fixed.",
+    "Front chest pad/handles move with abdominal contraction; pelvis and feet stay seated/planted."
+  ],
+  "limits": [
+    "Actual9raster poses reviewed; proportions and projected angles are approximate, not clinical certification.",
+    "Final output cannot pass on contact grids alone; full-size moving parts and all interpolated frames require review."
+  ]
+}

@@ -1,10 +1,10 @@
 # Conteúdo do guia GymRook
 
-Revisão editorial: 7 de novembro de 2026. Idioma principal: português brasileiro. Nomes dos exercícios e dos equipamentos também aparecem em inglês para facilitar a identificação na academia.
+Revisão editorial: 8 de novembro de 2026. Idioma principal: português brasileiro. Nomes dos exercícios e dos equipamentos também aparecem em inglês para facilitar a identificação na academia.
 
 ## Escopo e contrato
 
-`dist/data.js` disponibiliza `window.GYMROOK_DATA`, com quatro treinos, 26 blocos e 31 movimentos distintos. Combinações ficam em um único bloco com vários `exerciseIds`, na ordem de execução. Cada movimento contém nome, equipamento, músculos principais/auxiliares, preparação, passos, dicas e erros comuns.
+`dist/data.js` disponibiliza `window.GYMROOK_DATA`, com quatro treinos, 26 blocos e 31 itens de consulta com demonstrações distintas. Combinações ficam em um único bloco com vários `exerciseIds`, na ordem de execução. Cada item contém nome, equipamento, músculos principais/auxiliares, preparação, passos, dicas e erros comuns.
 
 Os campos `restNote` e `safetyNote` são avisos gerais opcionais. Os arrays `primary` e `secondary` contêm nomes em português. `muscleIds` usa apenas as regiões do mapa acordado. Os realces são esquemáticos: não expressam porcentagens de ativação nem uma hierarquia quantitativa entre os músculos.
 
@@ -16,7 +16,18 @@ Os 31 movimentos têm demonstração em MP4 a 12 fps, GIF de compatibilidade e p
 | Peck deck + flexão | `pec-deck`, `push-up` |
 | Rosca inversa rest-pause | `reverse-cable-curl` |
 
-As mídias atuais apontam para `animations-v2`, `animations-bc-v1` ou `animations-d-v1`, conforme a revisão. Todos os exercícios têm `media` e `pilot: true`; não há movimentos pendentes. Fontes anteriores ficam preservadas. Nenhuma foto, GIF ou vídeo de exercício externo foi incorporado.
+As mídias atuais apontam para `animations-v4`, `animations-v3`, `animations-v2`, `animations-bc-v1` ou `animations-d-v1`, conforme a revisão. Todos os itens têm `media` e `pilot: true`. Fontes anteriores ficam preservadas. Nenhuma foto, GIF ou vídeo de exercício externo foi incorporado ao guia.
+
+## Ajustes seguintes solicitados em 7 de novembro
+
+- A Scott passa para uma máquina seletorizada: nome, equipamento PT/EN, preparação e execução acompanham o aparelho. O banco Scott com barra EZ fica somente no histórico. Os cotovelos alinham ao eixo e os braços ficam apoiados; a posição da pegada segue o formato do aparelho.
+- O esclarecimento seguinte diferencia **supra** (crunch do tronco, `floor-crunch`) e **infra** (elevação das pernas deitado, `lying-leg-raise`). A duplicação do supra foi removida. Os endereços antigos `reverse-crunch` e `regular-crunch` abrem o infra por compatibilidade; não há compartilhamento de vídeo entre os dois itens.
+- A sequência continua com 20 supra + 20 infra + prancha, por duas voltas. O infra é ilustrado com as duas pernas juntas, joelhos suavemente flexionados e cabeça/ombros apoiados. O texto distingue a ação dos flexores do quadril da estabilização abdominal, sem criar um músculo abdominal inferior separado. Referência: [ExRx — Lying Straight Leg Raise](https://exrx.net/WeightExercises/HipFlexors/BWStraightLegRaise).
+- O supino inclinado foi restaurado para os arquivos originais de `animations-v2`, sem recodificação. Por pedido explícito, essa demonstração fica encerrada para novas alterações. A confirmação SHA está em `generated-frames-v4-followup/supino-restore-preflight.json`.
+- A panturrilha em pé usa uma máquina inclinada, com peito voltado para o aparelho e calcanhares livres para descer abaixo do apoio do antepé e depois subir. Em 8 de novembro, o usuário confirmou essa versão: em pé, com o corpo inclinado para a frente, de frente para a máquina. A máquina sentada com anilha horizontal permanece separada e inalterada. Referência de arquitetura: [Atlantis M318](https://atlantisstrength.com/gym-equipment/m318). Os ângulos visuais pedidos não foram convertidos em uma amplitude anatômica obrigatória para todos.
+- O abdominal sentado usa alças altas junto ao pescoço/ombros. Texto e equipamento acompanham a nova arquitetura; assento e apoio lombar permanecem fixos, enquanto o conjunto superior acompanha a flexão do tronco.
+- O afundo mantém 12 fps e passa a um ciclo de seis segundos e 72 quadros, com tempo de retorno comparável ao de saída. Isso altera a apresentação visual, não o número de repetições prescrito.
+- O botão de reprodução usa SVG de play e pausa com duas barras. O nome acessível e o estado pressionado continuam correspondendo à reprodução.
 
 ## Substituições solicitadas em 7 de novembro
 
@@ -41,10 +52,10 @@ Descanso informado: revezar entre três amigos; se o revezamento for rápido, no
 ## Escolhas e pontos a confirmar
 
 - **Supra:** referência de crunch no solo, com joelhos dobrados e pés apoiados.
-- **Infra:** sugestão de crunch reverso deitado, com joelhos dobrados. É uma escolha editorial para o movimento que não foi especificado; deve ser confirmada com o professor. A explicação enfatiza enrolar a pelve de forma controlada. A [descrição da ACE](https://www.acefitness.org/resources/everyone/exercise-library/76/reverse-crunch/) fundamenta esse padrão.
+- **Infra:** elevação das pernas deitado, conforme o esclarecimento posterior. A sugestão de crunch reverso e a duplicação do crunch tradicional ficam somente no histórico.
 - **Anatomia abdominal:** supra e infra são nomes usuais de variantes. O reto abdominal tem continuidade; o guia não cria um músculo inferior separado. A [discussão anatômica da ACE](https://www.acefitness.org/continuing-education/prosource/august-2014/4934/can-you-train-upper-and-lower-abs-separately/) admite diferenças regionais de participação sem tratar as regiões como músculos independentes.
 - **Máquina abdominal:** identificação provisória como crunch sentado. O aluno deve conferir o modelo real e a placa de instruções. O [manual da Life Fitness](https://kb.cybexintl.com/Product_Info/Life_Fitness_Circuit_Series_Machine_Use_Instructions.pdf) orienta o movimento controlado do tronco, mas seus ajustes específicos não foram generalizados para toda máquina.
-- **Rosca Scott:** banco Scott com barra EZ é a referência do guia. A ficha não escolheu entre barra, halteres e máquina.
+- **Rosca Scott:** máquina seletorizada, conforme substituição solicitada. A orientação usa braços apoiados, cotovelos alinhados ao eixo e pegada compatível com o aparelho ilustrado.
 - **Elevação frontal:** referência bilateral com barra curta na polia baixa, de costas para a polia. O acessório e a posição original permanecem a confirmar.
 - **Puxada e remada baixa:** barra longa pronada e triângulo neutro são referências visuais/textuais; as pegadas originais não foram detalhadas.
 - **Afundo:** referência alternada com passo à frente. Direção, carga e eventual uso de halteres precisam ser confirmados.
@@ -63,7 +74,6 @@ A pesquisa foi textual e focada em execução, nomenclatura e nas escolhas em ab
 | [ACE — Pec deck e crossover](https://www.acefitness.org/certifiednewsarticle/2884/ace-sponsored-research-top-3-most-effective-chest-exercises/) | Padrão de fechamento dos braços e controle da abertura. As classificações de eficácia do artigo não foram reproduzidas como promessa de resultado. |
 | [NASM — Push-up](https://www.nasm.org/resource-center/exercise-library/push-up) | Alinhamento do corpo, ação dos cotovelos e músculos envolvidos. |
 | [ACE — Crunch](https://www.acefitness.org/resources/everyone/exercise-library/52/crunch/) | Aproximação entre costelas e pelve e volta controlada. |
-| [ACE — Reverse Ab Crunch](https://www.acefitness.org/resources/everyone/exercise-library/76/reverse-crunch/) | Referência para a sugestão de infra. |
 | [ACE — Upper and Lower Abs](https://www.acefitness.org/continuing-education/prosource/august-2014/4934/can-you-train-upper-and-lower-abs-separately/) | Explicação anatômica de supra/infra. |
 | [Life Fitness — Circuit Series Machine Use Instructions](https://kb.cybexintl.com/Product_Info/Life_Fitness_Circuit_Series_Machine_Use_Instructions.pdf) | Referência de crunch sentado; necessidade de identificar o modelo. |
 | [NASM — Dumbbell Romanian Deadlift](https://www.nasm.org/resource-center/exercise-library/dumbbell-romanian-deadlift) | Conferência do movimento do quadril, carga próxima às pernas e controle da coluna. |

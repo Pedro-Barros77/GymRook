@@ -1,0 +1,650 @@
+{
+  "id": "lying-leg-raise",
+  "status": "VISUAL STUDY ONLY; not approved or promoted",
+  "method": "single constant-shape raster leg pair rotates at one fixed hip; static canonical torso/hand/mat; no mesh or nonuniform warp",
+  "generator": "scripts/study-native-leg-raise.py",
+  "generatorSha256": "8cb089269018c13dda8b9b4f67745442e4143201a34d0fe07c86dc13f432ce0a",
+  "sources": {
+    "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png": "f87c6825f57d0b1f79dc93e2acc37601fc14cf94d6bd09a61e13adfe1a8b6008",
+    "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/clean-plate-generated.png": "e258c87cc6a9ae619f256903a33ce5042ef2d70560f7d6e74b35c43811eb4be8"
+  },
+  "pivotPixels": [
+    263.0,
+    415.0
+  ],
+  "sourceAngleDegrees": 5.328234781979844,
+  "angleRangeDegrees": [
+    12,
+    80
+  ],
+  "frameCount": 36,
+  "fps": 12,
+  "forwardParameters": [
+    {
+      "frame": 1,
+      "angleDegrees": 12.0,
+      "scale": 1.0,
+      "joints": {
+        "hip": [
+          263.0,
+          415.0
+        ],
+        "knee": [
+          158.8158649002352,
+          384.6904966468608
+        ],
+        "ankle": [
+          73.39825491308704,
+          374.6989049776898
+        ],
+        "toe": [
+          28.395479668991968,
+          346.277958119264
+        ]
+      },
+      "projectedFemurPixels": 108.50345616615168,
+      "projectedTibiaPixels": 86.0
+    },
+    {
+      "frame": 2,
+      "angleDegrees": 12.516536397584927,
+      "scale": 1.0,
+      "joints": {
+        "hip": [
+          263.0,
+          414.99999999999994
+        ],
+        "knee": [
+          159.09334302803796,
+          383.7524939089371
+        ],
+        "ankle": [
+          73.76927975742214,
+          372.99125666631727
+        ],
+        "toe": [
+          29.0245520782442,
+          344.16575849341126
+        ]
+      },
+      "projectedFemurPixels": 108.50345616615166,
+      "projectedTibiaPixels": 86.0
+    },
+    {
+      "frame": 3,
+      "angleDegrees": 14.050450893279113,
+      "scale": 1.0,
+      "joints": {
+        "hip": [
+          263.0,
+          415.0
+        ],
+        "knee": [
+          159.96703131888776,
+          380.98224926958073
+        ],
+        "ankle": [
+          74.96160738834466,
+          367.94085738111073
+        ],
+        "toe": [
+          31.004533722864878,
+          337.92793225263347
+        ]
+      },
+      "projectedFemurPixels": 108.50345616615166,
+      "projectedTibiaPixels": 86.0
+    },
+    {
+      "frame": 4,
+      "angleDegrees": 16.555136271329083,
+      "scale": 1.0,
+      "joints": {
+        "hip": [
+          263.0,
+          415.0
+        ],
+        "knee": [
+          161.55207634095416,
+          376.51209559785815
+        ],
+        "ankle": [
+          77.19778520657422,
+          359.76833355892956
+        ],
+        "toe": [
+          34.594303258261654,
+          327.8631094431236
+        ]
+      },
+      "projectedFemurPixels": 108.5034561661517,
+      "projectedTibiaPixels": 85.99999999999997
+    },
+    {
+      "frame": 5,
+      "angleDegrees": 19.95448893395475,
+      "scale": 1.0,
+      "joints": {
+        "hip": [
+          263.0,
+          415.0
+        ],
+        "knee": [
+          164.01271813335825,
+          370.56445084558965
+        ],
+        "ankle": [
+          80.7996715158551,
+          348.8483537599426
+        ],
+        "toe": [
+          40.16297378713105,
+          314.4730894307143
+        ]
+      },
+      "projectedFemurPixels": 108.5034561661517,
+      "projectedTibiaPixels": 86.00000000000001
+    },
+    {
+      "frame": 6,
+      "angleDegrees": 24.14522127065766,
+      "scale": 1.0,
+      "joints": {
+        "hip": [
+          263.0,
+          415.0
+        ],
+        "knee": [
+          167.52459064787956,
+          363.4495760536828
+        ],
+        "ankle": [
+          86.1209744814724,
+          335.7105913023936
+        ],
+        "toe": [
+          48.10496370579925,
+          298.45763269903034
+        ]
+      },
+      "projectedFemurPixels": 108.50345616615168,
+      "projectedTibiaPixels": 86.0
+    },
+    {
+      "frame": 7,
+      "angleDegrees": 28.999999999999996,
+      "scale": 1.0,
+      "joints": {
+        "hip": [
+          263.0,
+          415.0
+        ],
+        "knee": [
+          172.22985727285632,
+          355.5543846083333
+        ],
+        "ankle": [
+          93.46584928835989,
+          321.02568573018004
+        ],
+        "toe": [
+          58.738961973728465,
+          280.6890609651245
+        ]
+      },
+      "projectedFemurPixels": 108.50345616615166,
+      "projectedTibiaPixels": 86.0
+    },
+    {
+      "frame": 8,
+      "angleDegrees": 34.37131512692726,
+      "scale": 1.0,
+      "joints": {
+        "hip": [
+          263.0,
+          415.0
+        ],
+        "knee": [
+          178.19312987948737,
+          347.3184310143264
+        ],
+        "ankle": [
+          103.00720550687376,
+          305.5682600417947
+        ],
+        "toe": [
+          72.20871204737116,
+          262.15797553886875
+        ]
+      },
+      "projectedFemurPixels": 108.50345616615165,
+      "projectedTibiaPixels": 86.00000000000001
+    },
+    {
+      "frame": 9,
+      "angleDegrees": 40.09596195932437,
+      "scale": 1.0,
+      "joints": {
+        "hip": [
+          263.0,
+          415.0
+        ],
+        "knee": [
+          185.36716901741445,
+          339.19667847891293
+        ],
+        "ankle": [
+          114.72070232104181,
+          290.1550967006065
+        ],
+        "toe": [
+          88.40588812889254,
+          243.8892285683359
+        ]
+      },
+      "projectedFemurPixels": 108.50345616615166,
+      "projectedTibiaPixels": 86.00000000000003
+    },
+    {
+      "frame": 10,
+      "angleDegrees": 45.99999999999999,
+      "scale": 1.0,
+      "joints": {
+        "hip": [
+          263.0,
+          415.0
+        ],
+        "knee": [
+          193.57629672094268,
+          331.6132539127386
+        ],
+        "ankle": [
+          128.34911583952194,
+          275.5649276731226
+        ],
+        "toe": [
+          106.93291608606813,
+          226.83766232691048
+        ]
+      },
+      "projectedFemurPixels": 108.50345616615166,
+      "projectedTibiaPixels": 86.00000000000004
+    },
+    {
+      "frame": 11,
+      "angleDegrees": 51.90403804067563,
+      "scale": 1.0,
+      "joints": {
+        "hip": [
+          263.0,
+          415.0
+        ],
+        "knee": [
+          202.5219307556891,
+          324.91446764057866
+        ],
+        "ankle": [
+          143.40602170289606,
+          262.4540057717941
+        ],
+        "toe": [
+          127.11563784764002,
+          211.78228393556262
+        ]
+      },
+      "projectedFemurPixels": 108.50345616615174,
+      "projectedTibiaPixels": 85.99999999999997
+    },
+    {
+      "frame": 12,
+      "angleDegrees": 57.62868487307273,
+      "scale": 1.0,
+      "joints": {
+        "hip": [
+          263.0,
+          415.0
+        ],
+        "knee": [
+          211.8093818251046,
+          319.3311931146203
+        ],
+        "ankle": [
+          159.2185909048672,
+          251.28555614659805
+        ],
+        "toe": [
+          148.06384306874065,
+          199.24161701135938
+        ]
+      },
+      "projectedFemurPixels": 108.50345616615171,
+      "projectedTibiaPixels": 86.0
+    },
+    {
+      "frame": 13,
+      "angleDegrees": 62.99999999999999,
+      "scale": 1.0,
+      "joints": {
+        "hip": [
+          263.0,
+          415.0
+        ],
+        "knee": [
+          220.98970748248547,
+          314.9593316566064
+        ],
+        "ankle": [
+          174.9995888770543,
+          242.28946864133462
+        ],
+        "toe": [
+          168.7656488339212,
+          189.42986221507923
+        ]
+      },
+      "projectedFemurPixels": 108.50345616615172,
+      "projectedTibiaPixels": 85.99999999999997
+    },
+    {
+      "frame": 14,
+      "angleDegrees": 67.85477872934234,
+      "scale": 1.0,
+      "joints": {
+        "hip": [
+          263.0,
+          415.0
+        ],
+        "knee": [
+          229.60691741217676,
+          311.76288441029163
+        ],
+        "ankle": [
+          189.9318812356696,
+          235.4615639473216
+        ],
+        "toe": [
+          188.19384209818082,
+          182.26401494403987
+        ]
+      },
+      "projectedFemurPixels": 108.50345616615164,
+      "projectedTibiaPixels": 86.00000000000001
+    },
+    {
+      "frame": 15,
+      "angleDegrees": 72.04551106604525,
+      "scale": 1.0,
+      "joints": {
+        "hip": [
+          263.00000000000006,
+          415.0
+        ],
+        "knee": [
+          237.24044638202588,
+          309.59864613107334
+        ],
+        "ankle": [
+          203.24735131860137,
+          230.60200387325966
+        ],
+        "toe": [
+          205.40147002657045,
+          177.41967811937806
+        ]
+      },
+      "projectedFemurPixels": 108.50345616615162,
+      "projectedTibiaPixels": 86.00000000000006
+    },
+    {
+      "frame": 16,
+      "angleDegrees": 75.4448637286709,
+      "scale": 1.0,
+      "joints": {
+        "hip": [
+          262.99999999999994,
+          415.0
+        ],
+        "knee": [
+          243.53555369175422,
+          308.2566848467154
+        ],
+        "ankle": [
+          214.2863829803161,
+          227.38341353478478
+        ],
+        "toe": [
+          219.5901625852623,
+          174.42239086809002
+        ]
+      },
+      "projectedFemurPixels": 108.50345616615175,
+      "projectedTibiaPixels": 85.99999999999996
+    },
+    {
+      "frame": 17,
+      "angleDegrees": 77.94954910672088,
+      "scale": 1.0,
+      "joints": {
+        "hip": [
+          262.99999999999994,
+          415.0
+        ],
+        "knee": [
+          248.21894767864785,
+          307.5080445229809
+        ],
+        "ankle": [
+          222.53196980219263,
+          225.4338149038459
+        ],
+        "toe": [
+          230.1451365832421,
+          172.75516940527672
+        ]
+      },
+      "projectedFemurPixels": 108.50345616615168,
+      "projectedTibiaPixels": 86.0
+    },
+    {
+      "frame": 18,
+      "angleDegrees": 79.48346360241507,
+      "scale": 1.0,
+      "joints": {
+        "hip": [
+          262.99999999999994,
+          415.0
+        ],
+        "knee": [
+          251.10166005077662,
+          307.1508947350387
+        ],
+        "ankle": [
+          227.62090415483556,
+          224.41846999990094
+        ],
+        "toe": [
+          236.64147957231228,
+          171.96249589649096
+        ]
+      },
+      "projectedFemurPixels": 108.50345616615161,
+      "projectedTibiaPixels": 86.00000000000006
+    },
+    {
+      "frame": 19,
+      "angleDegrees": 80.0,
+      "scale": 1.0,
+      "joints": {
+        "hip": [
+          263.0,
+          415.0
+        ],
+        "knee": [
+          252.07441821126247,
+          307.04801223424545
+        ],
+        "ankle": [
+          229.34046079332734,
+          224.10726724048797
+        ],
+        "toe": [
+          238.833567523508,
+          171.73474653917555
+        ]
+      },
+      "projectedFemurPixels": 108.50345616615175,
+      "projectedTibiaPixels": 85.99999999999996
+    }
+  ],
+  "sourceFrames": [
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0001.png",
+      "sha256": "1bfdd1060998537ac23eeacdc60ffc733a2bb3291e55f75c5d04e0623a22f6bf"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0002.png",
+      "sha256": "7e1275ba03534d8b8630d77408998eb0c93ca31c6ec1fb0546e4dc6676189b98"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0003.png",
+      "sha256": "bb98b24b6fe70401b4a42575a27750f8f04499c2fab9dbdc31bd030ed2880233"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0004.png",
+      "sha256": "4c5e97533129d0f08a818399e12b69f1f0bbe637f01aa3f41dda72fbe3c8c784"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0005.png",
+      "sha256": "9ff9e32b6582d0518455e95f46776075d419001cf02dfaa39fa8fe17bf7c5992"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0006.png",
+      "sha256": "ab0ec8150873321e40f9672e6fbe845196d74c8b413c106098d7027d958224b7"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0007.png",
+      "sha256": "67315c0aaabf538020ccc653eebcdf9c778ccdf11e82c7d3cf53807d353b4ec9"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0008.png",
+      "sha256": "589a2bb615ee47683db793a5aacf23bc0e37bb20e34d571fb420b8d5a625a228"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0009.png",
+      "sha256": "7ea1357eb014d69f5827ae47a6ef99f2bd39a23be3a3e988b89e4bab0096cc66"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0010.png",
+      "sha256": "53a8671811f3527ce6af926e2626a74cad885934d94a51c8e575dd954de1d8dd"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0011.png",
+      "sha256": "b552e42cd2473c4c122ceed764900a1355dbe16f929471305e11a4a0b9b258b9"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0012.png",
+      "sha256": "62f572dac7fffe837e7f8400fb3cfb95db2970f3a0ab34344225b510c40c0f08"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0013.png",
+      "sha256": "b38dd62ea6a90a8f497a89b1e596eb64b0cb21771b18c1cde99f167df53916af"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0014.png",
+      "sha256": "abbd10ad4cce7e3a30c7a6e2160d3302fde975e30804ec687fd028b387f1723a"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0015.png",
+      "sha256": "5458e1f3c01047990dbe15f9ee25dcffa6f84d3a36b9d98c6840b576981d97a7"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0016.png",
+      "sha256": "189d18684fceb4d2bec26bbb4d1db7d080f9b71adb7a4a7901c841e3b9c0ccab"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0017.png",
+      "sha256": "2a7200d1cf82185678640ee0f761b4fe404506605a113dc4ddc1e69b4a5767be"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0018.png",
+      "sha256": "fa2c9543a41ce078f6c127d05138b31976f80d8bb403a9aa9c7d3e850b974d00"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0019.png",
+      "sha256": "7546d74e79991899932d93b13f8e93cb511118a490631e601e77fe8686391d10"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0020.png",
+      "sha256": "fa2c9543a41ce078f6c127d05138b31976f80d8bb403a9aa9c7d3e850b974d00"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0021.png",
+      "sha256": "2a7200d1cf82185678640ee0f761b4fe404506605a113dc4ddc1e69b4a5767be"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0022.png",
+      "sha256": "189d18684fceb4d2bec26bbb4d1db7d080f9b71adb7a4a7901c841e3b9c0ccab"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0023.png",
+      "sha256": "5458e1f3c01047990dbe15f9ee25dcffa6f84d3a36b9d98c6840b576981d97a7"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0024.png",
+      "sha256": "abbd10ad4cce7e3a30c7a6e2160d3302fde975e30804ec687fd028b387f1723a"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0025.png",
+      "sha256": "b38dd62ea6a90a8f497a89b1e596eb64b0cb21771b18c1cde99f167df53916af"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0026.png",
+      "sha256": "62f572dac7fffe837e7f8400fb3cfb95db2970f3a0ab34344225b510c40c0f08"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0027.png",
+      "sha256": "b552e42cd2473c4c122ceed764900a1355dbe16f929471305e11a4a0b9b258b9"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0028.png",
+      "sha256": "53a8671811f3527ce6af926e2626a74cad885934d94a51c8e575dd954de1d8dd"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0029.png",
+      "sha256": "7ea1357eb014d69f5827ae47a6ef99f2bd39a23be3a3e988b89e4bab0096cc66"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0030.png",
+      "sha256": "589a2bb615ee47683db793a5aacf23bc0e37bb20e34d571fb420b8d5a625a228"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0031.png",
+      "sha256": "67315c0aaabf538020ccc653eebcdf9c778ccdf11e82c7d3cf53807d353b4ec9"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0032.png",
+      "sha256": "ab0ec8150873321e40f9672e6fbe845196d74c8b413c106098d7027d958224b7"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0033.png",
+      "sha256": "9ff9e32b6582d0518455e95f46776075d419001cf02dfaa39fa8fe17bf7c5992"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0034.png",
+      "sha256": "4c5e97533129d0f08a818399e12b69f1f0bbe637f01aa3f41dda72fbe3c8c784"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0035.png",
+      "sha256": "bb98b24b6fe70401b4a42575a27750f8f04499c2fab9dbdc31bd030ed2880233"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/frames/frame_0036.png",
+      "sha256": "7e1275ba03534d8b8630d77408998eb0c93ca31c6ec1fb0546e4dc6676189b98"
+    }
+  ],
+  "limits": [
+    "The2D source landmarks are approximate visible landmarks, not certified skeletal positions.",
+    "One profile raster pair can conceal the far leg; no fabricated scaling or new limb geometry.",
+    "Hip cloth handoff and muscle appearance require full-size visual review before any media integration."
+  ]
+}

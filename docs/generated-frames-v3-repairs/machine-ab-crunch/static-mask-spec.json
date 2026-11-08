@@ -1,0 +1,157 @@
+{
+  "enabled": true,
+  "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-mask-union.png",
+  "sha256": "1b33c1aee9fe113bb483513e851d8217aef3b58baba225354fb6576206ea383d",
+  "referenceIndex": 0,
+  "referenceImage": {
+    "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/canonical-fixed-reference.png",
+    "sha256": "b825d9c38e4445db5b8a4bc3d972168ace0a8568d424142a16c38776b97f3d13"
+  },
+  "frameMasks": [
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0001.png",
+      "sha256": "5d0fb2ab3d0f8f5bdcde65f1e1c3d6e2a0e0df8f8ccda09d8110dcc1545fa7aa"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0002.png",
+      "sha256": "9db9de1d83354e81d59bf0f90a7d94008c455544b74ce3118e33fb83722f6813"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0003.png",
+      "sha256": "b69ecae53dde3825b143fbf736e62987650d0b4ba780d88ead1a645c39dc980c"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0004.png",
+      "sha256": "04ea82a0dfe6de55bbd955274809637382115fc4a13a3e40d7cf22d51fbb4aaa"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0005.png",
+      "sha256": "5d134374234ecc8a077c667a8913a74786c4dcf369b4a33ef707da2edc7ac7f7"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0006.png",
+      "sha256": "1bec28f2fcb6f19e3c7ed5abc9d17afd3d6b9f5c97635a267c1d348fe9f5d12d"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0007.png",
+      "sha256": "6f2e93807c1fe138f631b8e15647ca7164ddcadfba57e3720dd3d42de7074ad0"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0008.png",
+      "sha256": "65fb3beca7342847b4d1f0456656d4f346e3204689a16ea5bc8cdd4ec561fffb"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0009.png",
+      "sha256": "498a08b00248fe63025f46695527c741938eaed454d42c8853c909a41aaf99e6"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0010.png",
+      "sha256": "9c3d9d45b30936cc8a5866ec0deaade98a8add61e00574eef336a42e0d88aeb7"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0011.png",
+      "sha256": "1d9cd8a8969425eb65520bda7d3ddf2fe832bb8172d72a51e59692fe59a6e5da"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0012.png",
+      "sha256": "97598902d6d13af3accd5555a167651412879d4f0c7e2ef8b5958ca67104fe1f"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0013.png",
+      "sha256": "9fa0ab90ec137f2c01ca9400743ba12cc092b5204210c00fff31da517292da5f"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0014.png",
+      "sha256": "a2d223a375efb14e388d3b6eed320fa4651ebf419b5e9296a719e138b39363a9"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0015.png",
+      "sha256": "8db5e98e606be1ae6b51fd5cc5cf1fd73454965dd38e96d176338da70582c5a9"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0016.png",
+      "sha256": "3ddb89dcf9fd81e92f61721b0d7da36fd2296c2880b7ab4383c3d64f6ae871ea"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0017.png",
+      "sha256": "9973867f3f095a9e3c1932b3aaeabfb6770e45430bd7d48c0e039f16773c3b4f"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0018.png",
+      "sha256": "688f2acb320e377868fa2d753f3264dccbdf5189e0ee3fce11be596b2a78c9a9"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0019.png",
+      "sha256": "688f2acb320e377868fa2d753f3264dccbdf5189e0ee3fce11be596b2a78c9a9"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0020.png",
+      "sha256": "688f2acb320e377868fa2d753f3264dccbdf5189e0ee3fce11be596b2a78c9a9"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0021.png",
+      "sha256": "9973867f3f095a9e3c1932b3aaeabfb6770e45430bd7d48c0e039f16773c3b4f"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0022.png",
+      "sha256": "3ddb89dcf9fd81e92f61721b0d7da36fd2296c2880b7ab4383c3d64f6ae871ea"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0023.png",
+      "sha256": "8db5e98e606be1ae6b51fd5cc5cf1fd73454965dd38e96d176338da70582c5a9"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0024.png",
+      "sha256": "a2d223a375efb14e388d3b6eed320fa4651ebf419b5e9296a719e138b39363a9"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0025.png",
+      "sha256": "9fa0ab90ec137f2c01ca9400743ba12cc092b5204210c00fff31da517292da5f"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0026.png",
+      "sha256": "97598902d6d13af3accd5555a167651412879d4f0c7e2ef8b5958ca67104fe1f"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0027.png",
+      "sha256": "1d9cd8a8969425eb65520bda7d3ddf2fe832bb8172d72a51e59692fe59a6e5da"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0028.png",
+      "sha256": "9c3d9d45b30936cc8a5866ec0deaade98a8add61e00574eef336a42e0d88aeb7"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0029.png",
+      "sha256": "498a08b00248fe63025f46695527c741938eaed454d42c8853c909a41aaf99e6"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0030.png",
+      "sha256": "65fb3beca7342847b4d1f0456656d4f346e3204689a16ea5bc8cdd4ec561fffb"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0031.png",
+      "sha256": "6f2e93807c1fe138f631b8e15647ca7164ddcadfba57e3720dd3d42de7074ad0"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0032.png",
+      "sha256": "1bec28f2fcb6f19e3c7ed5abc9d17afd3d6b9f5c97635a267c1d348fe9f5d12d"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0033.png",
+      "sha256": "5d134374234ecc8a077c667a8913a74786c4dcf369b4a33ef707da2edc7ac7f7"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0034.png",
+      "sha256": "04ea82a0dfe6de55bbd955274809637382115fc4a13a3e40d7cf22d51fbb4aaa"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0035.png",
+      "sha256": "b69ecae53dde3825b143fbf736e62987650d0b4ba780d88ead1a645c39dc980c"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition/static-0036.png",
+      "sha256": "9db9de1d83354e81d59bf0f90a7d94008c455544b74ce3118e33fb83722f6813"
+    }
+  ],
+  "review": "Candidate per-frame envelopes, actual raster-skin segmentation and mechanical capsules. Canonical fixed apparatus/lower body; reverse head fixed. No athlete RGB warp/recolour. All19composed frames/edges must be visually reviewed before motion/export release."
+}

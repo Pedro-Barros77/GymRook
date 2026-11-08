@@ -1,0 +1,198 @@
+{
+  "id": "preacher-curl",
+  "sourceKind": "reviewed-png-loop",
+  "frameCount": 36,
+  "fps": 12,
+  "cycle": "ping-pong",
+  "scope": "Nine image_gen coloured poses plus RIFE estimates; canonical fixed scene. No body mesh, no skin rig, no arm transform, no temporal override.",
+  "generator": "scripts/compose-scott-round4.py",
+  "generatorSha256": "76df09c1fa91e9c6260ee4790e6d1cd574640310c1ed1adbd391758d6756b1d4",
+  "ninePoseSource": {
+    "file": "docs/generated-frames-v4-followup/preacher-curl/sheet-v1.png",
+    "sha256": "695dd5b41ce6e33e3214bd3f3b034ef566da14c4207c72623b3d270385cccd9b"
+  },
+  "rawInputIndex": {
+    "file": "docs/generated-frames-v4-followup/preacher-curl/temporal-raw-v1/raw-frames-index.json",
+    "sha256": "2d72cb64350d8879614543c932d26e2662222a47542c3563811548a3300afb97"
+  },
+  "mask": {
+    "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/static-mask.png",
+    "sha256": "8d4c53262f18f9277a0388523eae58952778ca7af9d788af812f95e663350023"
+  },
+  "canonicalReference": {
+    "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/canonical-reference.png",
+    "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+  },
+  "alternateInference": {
+    "frames": [
+      11,
+      27
+    ],
+    "source": {
+      "file": "output/followup-round4/preacher-curl/reverse-inference-study/frame11-scale05.png",
+      "sha256": "770b6c8d173b3f41a3cc31e46057f4cd3275f317b7653b1755bd727e206f8079"
+    },
+    "jobManifest": {
+      "file": "output/followup-round4/preacher-curl/reverse-inference-study/jobs-scale05.json",
+      "sha256": "82d91a511f450ccd2881c25887d4bc485d474c88cfc2b53363e5e2c4a17b30f5"
+    },
+    "scale": 0.5,
+    "physicalProgress": 0.6945927106677212,
+    "reverseInputTimestep": 0.3054072893322788,
+    "reason": "Original scale1 estimate ghosts the connecting black bar; complementary input order at same physical instant with scale0.5 removes crossing ghost."
+  },
+  "pixelChecks": {
+    "staticOpaqueMaxRGBError": 0,
+    "unmaskedMovingMaxRGBError": 0,
+    "opaqueStaticPixels": 173414,
+    "fullyUnmaskedPixels": 80631,
+    "byteExactReverseCopies": 17
+  },
+  "sourceFrames": [
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0001.png",
+      "sha256": "fa6c1a644d9c82172786dccaac0cd14910b56ad94e1a88a477e7c0006b1c037a"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0002.png",
+      "sha256": "102ece05a40fd1bfaf8b3d1557a51f09f5119bd11adcf70c12fb5b9724078121"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0003.png",
+      "sha256": "42e4d67e5498fddc92bc405aeb05abdbb6674164a1a53ddcb8275a37b13aa351"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0004.png",
+      "sha256": "91bbfa7a3404d12ef9d727b92dea41191c312b51a7d89d832b2819ad27da213a"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0005.png",
+      "sha256": "d8928761c5d268da94facb62bac0536959c90874b4b398fe706b1bdbd5e5599a"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0006.png",
+      "sha256": "1426897c546f0b997da62d57cb6462b44c6700726ba69ac7554496f09e6d866c"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0007.png",
+      "sha256": "c7205e62d08f1c35e1b295b34876e8e9d5ad0ab333cebcb343e98ba7420a85ef"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0008.png",
+      "sha256": "173abfd663621e682086d205e0ea224a8f1e6a1a27ee96bb1fd518076b73aca7"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0009.png",
+      "sha256": "2663996efe1b007ae9594dd809d40c80f684c303ec776e8a8440cad72a7cf4fe"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0010.png",
+      "sha256": "04df6383592f3acb5c4d2bf4ee6aa1740cabb456aec653fa2edf974466cc02b0"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0011.png",
+      "sha256": "b32dad132810a58c3b6cca0404e876fc465890eeb9681844080b4e92510c488b"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0012.png",
+      "sha256": "3550e9787e1f79ff0b88722d17bda3e1dcfdbfe5eea80278535e1fd18e9d0d7d"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0013.png",
+      "sha256": "e6395aeffee25bbc6809f848ec1edcbfe5b4192a77d56ff1f874e6321404a4a3"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0014.png",
+      "sha256": "8cd6c28c6e4c9ebae8f1c5e47fe97a4f64d655b42bdf8511eabcf70f3cdf9927"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0015.png",
+      "sha256": "6264a888d1f07ab51528ff188735827a69e68abd187d4d84c63a8f2478113e95"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0016.png",
+      "sha256": "566eab99b7522f0c98a8a7288959245974db2d073ed3c2a6b23f0e0cd15a3ec6"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0017.png",
+      "sha256": "d5024f6689faf6310eff35145c436829c855b5649dfa433b5af7abcf71664c68"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0018.png",
+      "sha256": "79b024146e300d862ba4c82f135e3596f19c6be44ab4012e661272f23f52de14"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0019.png",
+      "sha256": "419e3b8f7e7777197be91a21c20ef0694efb6c718e94d35079bdb2703a2ee2a8"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0020.png",
+      "sha256": "79b024146e300d862ba4c82f135e3596f19c6be44ab4012e661272f23f52de14"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0021.png",
+      "sha256": "d5024f6689faf6310eff35145c436829c855b5649dfa433b5af7abcf71664c68"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0022.png",
+      "sha256": "566eab99b7522f0c98a8a7288959245974db2d073ed3c2a6b23f0e0cd15a3ec6"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0023.png",
+      "sha256": "6264a888d1f07ab51528ff188735827a69e68abd187d4d84c63a8f2478113e95"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0024.png",
+      "sha256": "8cd6c28c6e4c9ebae8f1c5e47fe97a4f64d655b42bdf8511eabcf70f3cdf9927"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0025.png",
+      "sha256": "e6395aeffee25bbc6809f848ec1edcbfe5b4192a77d56ff1f874e6321404a4a3"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0026.png",
+      "sha256": "3550e9787e1f79ff0b88722d17bda3e1dcfdbfe5eea80278535e1fd18e9d0d7d"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0027.png",
+      "sha256": "b32dad132810a58c3b6cca0404e876fc465890eeb9681844080b4e92510c488b"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0028.png",
+      "sha256": "04df6383592f3acb5c4d2bf4ee6aa1740cabb456aec653fa2edf974466cc02b0"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0029.png",
+      "sha256": "2663996efe1b007ae9594dd809d40c80f684c303ec776e8a8440cad72a7cf4fe"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0030.png",
+      "sha256": "173abfd663621e682086d205e0ea224a8f1e6a1a27ee96bb1fd518076b73aca7"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0031.png",
+      "sha256": "c7205e62d08f1c35e1b295b34876e8e9d5ad0ab333cebcb343e98ba7420a85ef"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0032.png",
+      "sha256": "1426897c546f0b997da62d57cb6462b44c6700726ba69ac7554496f09e6d866c"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0033.png",
+      "sha256": "d8928761c5d268da94facb62bac0536959c90874b4b398fe706b1bdbd5e5599a"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0034.png",
+      "sha256": "91bbfa7a3404d12ef9d727b92dea41191c312b51a7d89d832b2819ad27da213a"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0035.png",
+      "sha256": "42e4d67e5498fddc92bc405aeb05abdbb6674164a1a53ddcb8275a37b13aa351"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/frames/frame_0036.png",
+      "sha256": "102ece05a40fd1bfaf8b3d1557a51f09f5119bd11adcf70c12fb5b9724078121"
+    }
+  ],
+  "reviewStatus": "candidate for root review; not export approval"
+}

@@ -1,0 +1,284 @@
+{
+  "scope": "Projected landmark guide on the actual source; wrist/grip paths remain those of existing equipment. Do not treat projected lengths as 3D bones.",
+  "poses": [
+    {
+      "index": 0,
+      "near": {
+        "shoulder": [
+          230,
+          211
+        ],
+        "elbow": [
+          260,
+          211
+        ],
+        "wristOrGripReference": [
+          282,
+          205
+        ]
+      },
+      "far": {
+        "shoulder": [
+          173,
+          207
+        ],
+        "elbow": [
+          177.95,
+          202.3
+        ],
+        "wristOrGripReference": [
+          182,
+          193
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "near": {
+        "shoulder": [
+          230,
+          211
+        ],
+        "elbow": [
+          260.25,
+          210.7
+        ],
+        "wristOrGripReference": [
+          285,
+          205
+        ]
+      },
+      "far": {
+        "shoulder": [
+          173,
+          207
+        ],
+        "elbow": [
+          177.95,
+          202.3
+        ],
+        "wristOrGripReference": [
+          182,
+          193
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "near": {
+        "shoulder": [
+          230,
+          211
+        ],
+        "elbow": [
+          274.55,
+          216.2
+        ],
+        "wristOrGripReference": [
+          311,
+          215
+        ]
+      },
+      "far": {
+        "shoulder": [
+          173,
+          207
+        ],
+        "elbow": [
+          168.05,
+          207.8
+        ],
+        "wristOrGripReference": [
+          164,
+          203
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "near": {
+        "shoulder": [
+          230,
+          211
+        ],
+        "elbow": [
+          288.3,
+          218.95
+        ],
+        "wristOrGripReference": [
+          336,
+          220
+        ]
+      },
+      "far": {
+        "shoulder": [
+          173,
+          207
+        ],
+        "elbow": [
+          153.75,
+          212.2
+        ],
+        "wristOrGripReference": [
+          138,
+          211
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "near": {
+        "shoulder": [
+          230,
+          211
+        ],
+        "elbow": [
+          300.4,
+          217.85
+        ],
+        "wristOrGripReference": [
+          358,
+          218
+        ]
+      },
+      "far": {
+        "shoulder": [
+          173,
+          207
+        ],
+        "elbow": [
+          139.45,
+          214.95
+        ],
+        "wristOrGripReference": [
+          112,
+          216
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "near": {
+        "shoulder": [
+          230,
+          211
+        ],
+        "elbow": [
+          313.6,
+          215.65
+        ],
+        "wristOrGripReference": [
+          382,
+          214
+        ]
+      },
+      "far": {
+        "shoulder": [
+          173,
+          207
+        ],
+        "elbow": [
+          126.8,
+          212.2
+        ],
+        "wristOrGripReference": [
+          89,
+          211
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "near": {
+        "shoulder": [
+          230,
+          211
+        ],
+        "elbow": [
+          325.15,
+          214.0
+        ],
+        "wristOrGripReference": [
+          403,
+          211
+        ]
+      },
+      "far": {
+        "shoulder": [
+          173,
+          207
+        ],
+        "elbow": [
+          114.15,
+          208.35
+        ],
+        "wristOrGripReference": [
+          66,
+          204
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "near": {
+        "shoulder": [
+          230,
+          211
+        ],
+        "elbow": [
+          333.95,
+          211.25
+        ],
+        "wristOrGripReference": [
+          419,
+          206
+        ]
+      },
+      "far": {
+        "shoulder": [
+          173,
+          207
+        ],
+        "elbow": [
+          105.89999999999999,
+          204.5
+        ],
+        "wristOrGripReference": [
+          51,
+          197
+        ]
+      }
+    },
+    {
+      "index": 8,
+      "near": {
+        "shoulder": [
+          230,
+          211
+        ],
+        "elbow": [
+          340.55,
+          210.7
+        ],
+        "wristOrGripReference": [
+          431,
+          205
+        ]
+      },
+      "far": {
+        "shoulder": [
+          173,
+          207
+        ],
+        "elbow": [
+          99.85,
+          202.85
+        ],
+        "wristOrGripReference": [
+          40,
+          194
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "standing-machine-calf-raise",
+  "verdict": "PASS FOOT/HUMAN INPUT; final hardware composite review pending",
+  "sourceIndexSha256": "c7ce7e4696163f1ac43eb6a4dee1c52ec6ff54ccef81890b8b38b54c50d22f37",
+  "reviewer": "ab_machine_round4 independent visual review",
+  "scope": "Actual full1/10/19,19native feet crops,8-12pixel crops and18transition onions. No frame mutation or native-browser playback.",
+  "visualFindings": [
+    "Separated pale far-heel sole remnant present in original2key raw is absent in the repaired8-10frames.",
+    "Both shoes keep continuous uppers/soles and meet the actual ankle contours. No skin hole or old-sole fragment recovered by the HSV guard was seen.",
+    "White outsole-band width varies smoothly around11-13; no detached third sole appears. This limited raster variation is accepted visually, not explained as certified3D projection.",
+    "Heel-down and heel-up endpoints remain distinct and match the prescribed source demonstration.",
+    "Head/torso/knees use the two original body keys and rise with the heels rather than the rejected9key knee-bending compensation."
+  ],
+  "technicalCrossChecks": {
+    "checkedPNGs": 36,
+    "outsideFootROI": [
+      289,
+      370,
+      410,
+      447
+    ],
+    "maximumOutsideROIRGBDifferenceFromOriginal2keyBody": 0,
+    "return17ByteExact": true
+  },
+  "evidence": [
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/qa/feet19-native.png",
+      "sha256": "c8bcf15c07e2c06f9b4c96b8f35e5d60e76bd7cb3e35e8745d6cbed46c2b08d5"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/qa/feet8-12-native.png",
+      "sha256": "cf2a12f68bdc9972f6578cad2d2dfc5e7d1d5094b04a6328aa206cdefdc80cbe"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/qa/feet-onions-group-1.png",
+      "sha256": "254f5ecbc1ff3088a604fbdaf325f6abe1201639452415bb99d1f7bfa86fe82a"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/qa/feet-onions-group-2.png",
+      "sha256": "1833efb53c4a32a9d43e0c93a4563574b6da122474b7b3cb6aaa6b4711ea8a2e"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/qa/feet-onions-group-3.png",
+      "sha256": "b890c76118c97783416af00e3b24de2b1577535d663b925a0ebc58e794bd653b"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/body-preservation-check.json",
+      "sha256": "4470444f81b05ea38657aa18ceba1c2a1fbc232433af326f0d0d8c94ec938bd6"
+    }
+  ],
+  "limits": [
+    "Machine rails/weight block are still raw at this input stage; this review does not approve their final composition.",
+    "Pixel preservation and the visual shoe check do not certify exact3D bone lengths or ankle angles."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "status": "PASS moving-region raster/timeline audit; canonical static-mask/root playback release remains pending",
+  "reviewer": "legs_round3",
+  "fps": 12,
+  "frameCount": 36,
+  "reviewedForwardFrames": 19,
+  "reviewedAdjacentOnions": 18,
+  "returnByteExact": true,
+  "frameSha256": [
+    "86cb0f390461e2821d6c76ad0c19f2f512d3051e38ae2e7ba4fe9529bfa9ce08",
+    "6bc45e949d0ba1ec935d90cde5c1507e83222a0fc83651be76dd6dc004fa4dd4",
+    "a4f29fce32b12ac4ac0f15c08ea77b97d8a2b87be05c253b0997087997a36a86",
+    "8a0915d4531aa15247a017fd2329021568cf8b7b33c1c0fd8e7e9979ae363e35",
+    "4a527215713051bbac1762e0631d9406c613244e9d26db6032275953c5de9df7",
+    "1b1529efe76d37cee55cf34d92282a72675999874c6672e0107608f891aab434",
+    "e3c0d1e4b4e4cb7c063590d0f2ac4f297ebc4d00c5a7fdebb72de4a6cc394b40",
+    "058dd64db02cb267d1f2bd1231352b5bd5bee7af94f2c93b416357c3c852dd6f",
+    "bb7d5f1867af90d908cc4cc0a17a009be208034ef6d6aa010cb0bd7438eca1d9",
+    "b7c03a3b52f4ca0200ccc57ddb46304d09191be707b88ef9c7e333549d13fb72",
+    "0813462f86a8202199c1a5763841b32812a85966ff31c08a827c04cb8ece423d",
+    "8cd5d32e2c7024585abeb889de2245a24c595ac7e17434893cdf93d40d3650b4",
+    "e8e1045965435e78c026b74b9e94f86592b2f282a33d2f7959ffeab9b884295f",
+    "6fb56186b91874750a11954a4e8b82fefc1bc996346501d34405963ecfd91b7e",
+    "9b36572f12443b8b99f1610ffea3fc1e6a7d1e4e8a1ed076cbd52d1f82682484",
+    "08747652d1a9e99eac718993c7205f2dff2228f3667c5e03f037acf8de3e1f11",
+    "49490c265db1c003a3e493e548002a9e2270800e8777549058f163cf37c8d075",
+    "c0ef57d517504cb480e39a982153c2ecb17fb77ade21ac2c2723d9e714f70ff1",
+    "1062db476a9180fed090ace96ca10516081bd3cb73077badea021ed9fb4eabd4",
+    "c0ef57d517504cb480e39a982153c2ecb17fb77ade21ac2c2723d9e714f70ff1",
+    "49490c265db1c003a3e493e548002a9e2270800e8777549058f163cf37c8d075",
+    "08747652d1a9e99eac718993c7205f2dff2228f3667c5e03f037acf8de3e1f11",
+    "9b36572f12443b8b99f1610ffea3fc1e6a7d1e4e8a1ed076cbd52d1f82682484",
+    "6fb56186b91874750a11954a4e8b82fefc1bc996346501d34405963ecfd91b7e",
+    "e8e1045965435e78c026b74b9e94f86592b2f282a33d2f7959ffeab9b884295f",
+    "8cd5d32e2c7024585abeb889de2245a24c595ac7e17434893cdf93d40d3650b4",
+    "0813462f86a8202199c1a5763841b32812a85966ff31c08a827c04cb8ece423d",
+    "b7c03a3b52f4ca0200ccc57ddb46304d09191be707b88ef9c7e333549d13fb72",
+    "bb7d5f1867af90d908cc4cc0a17a009be208034ef6d6aa010cb0bd7438eca1d9",
+    "058dd64db02cb267d1f2bd1231352b5bd5bee7af94f2c93b416357c3c852dd6f",
+    "e3c0d1e4b4e4cb7c063590d0f2ac4f297ebc4d00c5a7fdebb72de4a6cc394b40",
+    "1b1529efe76d37cee55cf34d92282a72675999874c6672e0107608f891aab434",
+    "4a527215713051bbac1762e0631d9406c613244e9d26db6032275953c5de9df7",
+    "8a0915d4531aa15247a017fd2329021568cf8b7b33c1c0fd8e7e9979ae363e35",
+    "a4f29fce32b12ac4ac0f15c08ea77b97d8a2b87be05c253b0997087997a36a86",
+    "6bc45e949d0ba1ec935d90cde5c1507e83222a0fc83651be76dd6dc004fa4dd4"
+  ],
+  "fullForwardCriticalCrops": "docs\\generated-frames-v3-repairs\\dumbbell-stiff-leg-deadlift\\qa-first-render-all19-critical.png",
+  "findings": [
+    "Feet remain planted; tracked heel/toe displacement?.50px and ankle?.99px through19frames.",
+    "Hair/chin/shoulder move monotonically forward/down with the hinge, without independent directional oscillation. Valid tracking FBresidual?.25px on those points.",
+    "No extra limbs, sudden headsize jump, forearm warp or abrupt pelvic-contour break visible in19full-body crops/onions.",
+    "Hip/shorts surface tracker failed (FB25.8px), so it is expressly not used to claim exact pelvic dimensions, femur length or bodyvolume."
+  ],
+  "limits": [
+    "Review covers all19forward PNGs and18overlays plus exact return hashes. No native app/video playback was observed in this child task.",
+    "Final root playback at12fps and slow rate remains required."
+  ],
+  "referenceURLs": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/317/romanian-deadlift/",
+    "https://www.nasm.org/resource-center/exercise-library/dumbbell-romanian-deadlift"
+  ]
+}

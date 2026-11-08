@@ -1,0 +1,84 @@
+{
+  "reviewer": "legs_round3 independent read-only review",
+  "scope": "Nine actual512source rasters plus full-size0/4/8. Source topology/contact plausibility only; raw candidate contact sheet observed, final canonical composition not yet reviewed.",
+  "source": "sheet-v1.png",
+  "sourceSha256": "82f4ad0fc6b08682845c0017443a77ba85bad8f3713b98e94a5f5a6dde793c7a",
+  "sourceCellSha256": {
+    "cell-00.png": "930a6cc08f46d74a0fe0a8880ba30c94b9dcc2c58cd20d84821cdc3dab8230b4",
+    "cell-01.png": "76dc099533e38aa0155746a19119d92e94ad5341f3b8ed32c8f4b3adc1e39d53",
+    "cell-02.png": "26d192d70c38d06703f79f1117a52aeac3265e3c6b61e1b5f92cd5fe46a36d25",
+    "cell-03.png": "081ef884f5f17dfc07664e8cf6bff230c16505b02650fb2f46f51559685c54e3",
+    "cell-04.png": "a0e3b2e11d4df939d37bd660ede9b376eee126406955694ed10af0fc4802eadc",
+    "cell-05.png": "fbbb042b9189dde69d2860f4a4f338cc4ed92192747e39431b7e1fcc0c686808",
+    "cell-06.png": "52224288d990071d97fe444fa79f79470cf4667801086d39f0ab917a2bc43673",
+    "cell-07.png": "423219722f8c5e787ba70b85f55ced100aa0813bde6d375b6d6d1cdba5f473be",
+    "cell-08.png": "8d8cf847ccf52461abe3815510fce0e249b8e3a3fda29535ee2c72a5267bf5dd"
+  },
+  "verdict": "No visible source-topology blocker identified; final moving masks and temporal/native-rate preview required.",
+  "findings": [
+    "Floor chassis connects seat post, waist-axis support and closed resistance tower. The operating arm has a fixed waist-height pivot rather than a lever suspended from an implausible uppermast.",
+    "Seat, short vertical lumbar pad, feet and pelvis have the same source footprints. As torso flexes, the back separates visibly from the lumbar pad; the pad does not ride on the back.",
+    "Front pad/handles descend with trunk flexion toward upper thighs. Hands stay connected and feet remain supported on fixed platform.",
+    "Visible back/torso curve changes during the movement rather than the complete seated body translating with the bank.",
+    "No plates or cables are exposed to morph; resistance tower cover is stationary."
+  ],
+  "concreteCoordinatesApprox512": {
+    "waistPivotSource0_4_8": [
+      [
+        171,
+        278
+      ],
+      [
+        171,
+        278
+      ],
+      [
+        171,
+        278
+      ]
+    ],
+    "fixedLumbarPadBounds": [
+      170,
+      190,
+      204,
+      321
+    ],
+    "fixedSeatBounds": [
+      193,
+      332,
+      329,
+      362
+    ],
+    "fixedNearShoeRegion": [
+      339,
+      435,
+      445,
+      480
+    ],
+    "visibleFrontConnectorSource0_4_8": [
+      [
+        306,
+        190
+      ],
+      [
+        333,
+        252
+      ],
+      [
+        313,
+        301
+      ]
+    ]
+  },
+  "requiredFinalChecks": [
+    "Keep actual lumbar pad/seat/pivot/floorplate pixels canonical; body/forearm/pad mask should not make the lumbar pad flex with the back.",
+    "Inspect operating arm/front connector throughall19forwardframes for visible telescoping or unsupported pad/hand.",
+    "Check native12fps/slow for oscillating frame edges, bodyshape morph and anatomy-independent screen shake."
+  ],
+  "limits": [
+    "Single-view projected overlap does not measure real3Dclearance.",
+    "This review does not certify exact machine geometry, elbow angle, abdominal activation or exercise technique.",
+    "Do not describe this source review as observed real-time player playback."
+  ],
+  "reviewPointNotDeclaredBlocker": "The visible small front connector gives an apparent lever radius~163?165?145px forsource0/4/8. The connector/pad is partly occluded and may articulate/foreshorten, so this is not enough to prove a rigid-arm fault, but do not claim an exact one-DOFrigid lever from this raster. Owner should check whether same connected barendpoint truly shortens in final animation; if it visibly telescopes, use a rigid operating arm or regenerate the endpoint before release."
+}

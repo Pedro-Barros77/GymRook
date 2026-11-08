@@ -1,0 +1,1099 @@
+{
+  "id": "machine-ab-crunch",
+  "status": "frames composed; visual motion review required",
+  "sourceReview": "ROOT approved overhead-neck-grip sourceV2 for raw interpolation and temporal review. Export is not approved; actual frame/canonical occlusion QA still required.",
+  "render": "generated-interpolated",
+  "source": "docs/generated-frames-v4-followup/machine-ab-crunch/sheet-v2.png",
+  "sourceSha256": "f63bc75ce407a58e9ebf1fa39aea79b7402093089cf32397c2170c1107b2bcb2",
+  "sourceMetadataSha256": {
+    "docs/generated-frames-v4-followup/machine-ab-crunch/prompt-sheet-v2.json": "e0a65884486c14b61c18a4314f9337999cb9b2a5032bd589e42fb03233a304d0",
+    "docs/generated-frames-v4-followup/machine-ab-crunch/prompt-start-v2.json": "2e36ec3ee08d4d05f6898f56237f55a7a2f9c026018bcb0ea1fc9b0503a8d7ab",
+    "docs/generated-frames-v4-followup/machine-ab-crunch/prompt-v1.json": "f5841f47aabe193e0bb447dde3f291e992e33fdbb7d304ccbadb308a1cffe668",
+    "docs/generated-frames-v4-followup/machine-ab-crunch/source-review.json": "5053a0aa169e49caa2eee4b531dd2bba66f9115082b085dee8848670240c947c"
+  },
+  "sourceSize": [
+    1254,
+    1254
+  ],
+  "grid": [
+    3,
+    3
+  ],
+  "cellTrimPixels": 2,
+  "width": 512,
+  "height": 512,
+  "fps": 12,
+  "cycle": "ping-pong",
+  "frameCount": 36,
+  "phaseEasing": "cosine",
+  "referenceIndex": 0,
+  "registration": {
+    "enabled": false,
+    "regions": [],
+    "maxTranslationPixels": 10,
+    "minScore": 0.72
+  },
+  "preserveStaticRects": [],
+  "anchors": [
+    {
+      "index": 0,
+      "cell": 0,
+      "progress": 0,
+      "cropPixels": [
+        2,
+        2,
+        416,
+        416
+      ],
+      "raw": "output/followup-round4/machine-ab-crunch/anchors/raw/anchor_00.png",
+      "rawSha256": "71a98cc2ad27aed9f350bce8e39415cb8f60e6939e836e7284bbbbc2193830d8",
+      "file": "output/followup-round4/machine-ab-crunch/anchors/anchor_00.png",
+      "sha256": "71a98cc2ad27aed9f350bce8e39415cb8f60e6939e836e7284bbbbc2193830d8",
+      "registration": {
+        "method": "reference identity",
+        "accepted": true,
+        "translationPixels": [
+          0.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "maxTranslationPixels": 10.0,
+        "candidates": [],
+        "staticRegionMAEBefore": null,
+        "staticRegionMAEAfter": null
+      }
+    },
+    {
+      "index": 1,
+      "cell": 1,
+      "progress": 0.012,
+      "cropPixels": [
+        420,
+        2,
+        834,
+        416
+      ],
+      "raw": "output/followup-round4/machine-ab-crunch/anchors/raw/anchor_01.png",
+      "rawSha256": "4ce9d598d9d70068afb1c5594149f5a12e0fd50a6d1eac7e2861a6f5becb7e4b",
+      "file": "output/followup-round4/machine-ab-crunch/anchors/anchor_01.png",
+      "sha256": "4ce9d598d9d70068afb1c5594149f5a12e0fd50a6d1eac7e2861a6f5becb7e4b",
+      "registration": {
+        "method": "disabled; original crop retained",
+        "accepted": false,
+        "translationPixels": [
+          0.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "maxTranslationPixels": 10.0,
+        "candidates": [],
+        "staticRegionMAEBefore": null,
+        "staticRegionMAEAfter": null
+      }
+    },
+    {
+      "index": 2,
+      "cell": 2,
+      "progress": 0.025,
+      "cropPixels": [
+        838,
+        2,
+        1252,
+        416
+      ],
+      "raw": "output/followup-round4/machine-ab-crunch/anchors/raw/anchor_02.png",
+      "rawSha256": "fc597346f37858f97624843dcdf419e6d7cc37bb110660ad4a168262a08c0469",
+      "file": "output/followup-round4/machine-ab-crunch/anchors/anchor_02.png",
+      "sha256": "fc597346f37858f97624843dcdf419e6d7cc37bb110660ad4a168262a08c0469",
+      "registration": {
+        "method": "disabled; original crop retained",
+        "accepted": false,
+        "translationPixels": [
+          0.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "maxTranslationPixels": 10.0,
+        "candidates": [],
+        "staticRegionMAEBefore": null,
+        "staticRegionMAEAfter": null
+      }
+    },
+    {
+      "index": 3,
+      "cell": 3,
+      "progress": 0.085,
+      "cropPixels": [
+        2,
+        420,
+        416,
+        834
+      ],
+      "raw": "output/followup-round4/machine-ab-crunch/anchors/raw/anchor_03.png",
+      "rawSha256": "6bfbda607117b93ed1d931a7de5de63ba54724e25418da802799b75f134d15a7",
+      "file": "output/followup-round4/machine-ab-crunch/anchors/anchor_03.png",
+      "sha256": "6bfbda607117b93ed1d931a7de5de63ba54724e25418da802799b75f134d15a7",
+      "registration": {
+        "method": "disabled; original crop retained",
+        "accepted": false,
+        "translationPixels": [
+          0.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "maxTranslationPixels": 10.0,
+        "candidates": [],
+        "staticRegionMAEBefore": null,
+        "staticRegionMAEAfter": null
+      }
+    },
+    {
+      "index": 4,
+      "cell": 4,
+      "progress": 0.25,
+      "cropPixels": [
+        420,
+        420,
+        834,
+        834
+      ],
+      "raw": "output/followup-round4/machine-ab-crunch/anchors/raw/anchor_04.png",
+      "rawSha256": "f944c71732b8d852d40ccc9fd666e83bab58e718788e1491be5fd1b8214f5d9f",
+      "file": "output/followup-round4/machine-ab-crunch/anchors/anchor_04.png",
+      "sha256": "f944c71732b8d852d40ccc9fd666e83bab58e718788e1491be5fd1b8214f5d9f",
+      "registration": {
+        "method": "disabled; original crop retained",
+        "accepted": false,
+        "translationPixels": [
+          0.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "maxTranslationPixels": 10.0,
+        "candidates": [],
+        "staticRegionMAEBefore": null,
+        "staticRegionMAEAfter": null
+      }
+    },
+    {
+      "index": 5,
+      "cell": 5,
+      "progress": 0.45,
+      "cropPixels": [
+        838,
+        420,
+        1252,
+        834
+      ],
+      "raw": "output/followup-round4/machine-ab-crunch/anchors/raw/anchor_05.png",
+      "rawSha256": "7712923253e2cdf3a1267439c40311b34075c68d62fedafa5db57bcd746547eb",
+      "file": "output/followup-round4/machine-ab-crunch/anchors/anchor_05.png",
+      "sha256": "7712923253e2cdf3a1267439c40311b34075c68d62fedafa5db57bcd746547eb",
+      "registration": {
+        "method": "disabled; original crop retained",
+        "accepted": false,
+        "translationPixels": [
+          0.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "maxTranslationPixels": 10.0,
+        "candidates": [],
+        "staticRegionMAEBefore": null,
+        "staticRegionMAEAfter": null
+      }
+    },
+    {
+      "index": 6,
+      "cell": 6,
+      "progress": 0.7,
+      "cropPixels": [
+        2,
+        838,
+        416,
+        1252
+      ],
+      "raw": "output/followup-round4/machine-ab-crunch/anchors/raw/anchor_06.png",
+      "rawSha256": "b4d6276a1729febf9e6bb0c606051b0b3774d72930c8fb9684f89cc1032f2df2",
+      "file": "output/followup-round4/machine-ab-crunch/anchors/anchor_06.png",
+      "sha256": "b4d6276a1729febf9e6bb0c606051b0b3774d72930c8fb9684f89cc1032f2df2",
+      "registration": {
+        "method": "disabled; original crop retained",
+        "accepted": false,
+        "translationPixels": [
+          0.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "maxTranslationPixels": 10.0,
+        "candidates": [],
+        "staticRegionMAEBefore": null,
+        "staticRegionMAEAfter": null
+      }
+    },
+    {
+      "index": 7,
+      "cell": 7,
+      "progress": 0.9,
+      "cropPixels": [
+        420,
+        838,
+        834,
+        1252
+      ],
+      "raw": "output/followup-round4/machine-ab-crunch/anchors/raw/anchor_07.png",
+      "rawSha256": "2274b3181ba84367f951b2f3e50c3d2436647ab87ce13835f79511e1a18725f0",
+      "file": "output/followup-round4/machine-ab-crunch/anchors/anchor_07.png",
+      "sha256": "2274b3181ba84367f951b2f3e50c3d2436647ab87ce13835f79511e1a18725f0",
+      "registration": {
+        "method": "disabled; original crop retained",
+        "accepted": false,
+        "translationPixels": [
+          0.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "maxTranslationPixels": 10.0,
+        "candidates": [],
+        "staticRegionMAEBefore": null,
+        "staticRegionMAEAfter": null
+      }
+    },
+    {
+      "index": 8,
+      "cell": 8,
+      "progress": 1,
+      "cropPixels": [
+        838,
+        838,
+        1252,
+        1252
+      ],
+      "raw": "output/followup-round4/machine-ab-crunch/anchors/raw/anchor_08.png",
+      "rawSha256": "418fd866a9bf358f2ab035d3b7682d0b6dbef5940e168be2a51f0f209cc58ee3",
+      "file": "output/followup-round4/machine-ab-crunch/anchors/anchor_08.png",
+      "sha256": "418fd866a9bf358f2ab035d3b7682d0b6dbef5940e168be2a51f0f209cc58ee3",
+      "registration": {
+        "method": "disabled; original crop retained",
+        "accepted": false,
+        "translationPixels": [
+          0.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "maxTranslationPixels": 10.0,
+        "candidates": [],
+        "staticRegionMAEBefore": null,
+        "staticRegionMAEAfter": null
+      }
+    }
+  ],
+  "qa": {
+    "anchorsContact": "output/followup-round4/machine-ab-crunch/qa/anchors-contact.png",
+    "anchorsOnions": "output/followup-round4/machine-ab-crunch/qa/anchors-onions.png",
+    "framesContact": "output/followup-round4/machine-ab-crunch/qa/frames-contact.png",
+    "transitionsOnions": "output/followup-round4/machine-ab-crunch/qa/transitions-onions.png"
+  },
+  "sourceCellSelection": {
+    "extractedCellCount": 9,
+    "selectedCells": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "activeCells": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "excludedCells": [],
+    "originalSheetCellsUsed": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "imageOverrides": []
+  },
+  "selectedCells": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "activeCells": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "configSha256": "f61293ed7e4cffa55cb47ce514604d334a8ffe6c68eb3f31ec60ab326986ef98",
+  "frames": [
+    {
+      "frame": 1,
+      "phase": 0.0,
+      "progress": 0.0,
+      "anchor0": 0,
+      "anchor1": 0,
+      "timestep": 0.0,
+      "engine": "source-anchor copy",
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0001.png",
+      "sha256": "71a98cc2ad27aed9f350bce8e39415cb8f60e6939e836e7284bbbbc2193830d8"
+    },
+    {
+      "frame": 2,
+      "phase": 0.05555555555555555,
+      "progress": 0.00759612349389599,
+      "anchor0": 0,
+      "anchor1": 1,
+      "timestep": 0.6330102911579991,
+      "engine": "Practical-RIFE 4.25",
+      "requestedInterpolationTimestep": 0.6330102911579991,
+      "actualTimestep": 0.6330102911579991,
+      "localRetimingDelta": 0.0,
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0002.png",
+      "sha256": "0b5b9e8e9ae386b0c2d9f6887441a97ae4f6375b254e383f9747e3979adf78b8"
+    },
+    {
+      "frame": 3,
+      "phase": 0.1111111111111111,
+      "progress": 0.030153689607045786,
+      "anchor0": 2,
+      "anchor1": 3,
+      "timestep": 0.0858948267840964,
+      "engine": "Practical-RIFE 4.25",
+      "requestedInterpolationTimestep": 0.0858948267840964,
+      "actualTimestep": 0.0858948267840964,
+      "localRetimingDelta": 0.0,
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0003.png",
+      "sha256": "d395ebed1dc0763a3c856bea8545847d176f4652b83cc5e99d1ec2215d1f8e83"
+    },
+    {
+      "frame": 4,
+      "phase": 0.16666666666666666,
+      "progress": 0.06698729810778065,
+      "anchor0": 2,
+      "anchor1": 3,
+      "timestep": 0.699788301796344,
+      "engine": "Practical-RIFE 4.25",
+      "requestedInterpolationTimestep": 0.699788301796344,
+      "actualTimestep": 0.699788301796344,
+      "localRetimingDelta": 0.0,
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0004.png",
+      "sha256": "b52067420348f0c64a75f915f176271989328d0fee0b50b45f73f2ffd7bb9e4e"
+    },
+    {
+      "frame": 5,
+      "phase": 0.2222222222222222,
+      "progress": 0.116977778440511,
+      "anchor0": 3,
+      "anchor1": 4,
+      "timestep": 0.19380471782127873,
+      "engine": "Practical-RIFE 4.25",
+      "requestedInterpolationTimestep": 0.19380471782127873,
+      "actualTimestep": 0.19380471782127873,
+      "localRetimingDelta": 0.0,
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0005.png",
+      "sha256": "c3521ef01d0cc77cca528c89e24f831d4dc4eb215da794210296735ec56d5eab"
+    },
+    {
+      "frame": 6,
+      "phase": 0.2777777777777778,
+      "progress": 0.17860619515673032,
+      "anchor0": 3,
+      "anchor1": 4,
+      "timestep": 0.5673102736771535,
+      "engine": "Practical-RIFE 4.25",
+      "requestedInterpolationTimestep": 0.5673102736771535,
+      "actualTimestep": 0.5673102736771535,
+      "localRetimingDelta": 0.0,
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0006.png",
+      "sha256": "3dfa1aef29f95cd013457938d702cef77d2686e738888863d40f02e682e49c04"
+    },
+    {
+      "frame": 7,
+      "phase": 0.3333333333333333,
+      "progress": 0.24999999999999994,
+      "anchor0": 4,
+      "anchor1": 4,
+      "timestep": 0.0,
+      "engine": "source-anchor copy",
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0007.png",
+      "sha256": "f944c71732b8d852d40ccc9fd666e83bab58e718788e1491be5fd1b8214f5d9f"
+    },
+    {
+      "frame": 8,
+      "phase": 0.3888888888888889,
+      "progress": 0.32898992833716556,
+      "anchor0": 4,
+      "anchor1": 5,
+      "timestep": 0.3949496416858278,
+      "engine": "Practical-RIFE 4.25",
+      "requestedInterpolationTimestep": 0.3949496416858278,
+      "actualTimestep": 0.3949496416858278,
+      "localRetimingDelta": 0.0,
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0008.png",
+      "sha256": "919c97dfb52ffd65e99cad82d9a1e539b7c481983cd8576d07626e258f99d12b"
+    },
+    {
+      "frame": 9,
+      "phase": 0.4444444444444444,
+      "progress": 0.4131759111665348,
+      "anchor0": 4,
+      "anchor1": 5,
+      "timestep": 0.8158795558326739,
+      "engine": "Practical-RIFE 4.25",
+      "requestedInterpolationTimestep": 0.8158795558326739,
+      "actualTimestep": 0.8158795558326739,
+      "localRetimingDelta": 0.0,
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0009.png",
+      "sha256": "b525cb663c7cf710f0aa0612e3a11894da15a2225159d0c5236345acbd7fd327"
+    },
+    {
+      "frame": 10,
+      "phase": 0.5,
+      "progress": 0.49999999999999994,
+      "anchor0": 5,
+      "anchor1": 6,
+      "timestep": 0.1999999999999998,
+      "engine": "Practical-RIFE 4.25",
+      "requestedInterpolationTimestep": 0.1999999999999998,
+      "actualTimestep": 0.1999999999999998,
+      "localRetimingDelta": 0.0,
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0010.png",
+      "sha256": "9ef739e8eaa08af9a3f9f80e62ef838a40582458fe34ac3341972e563a7a0fd0"
+    },
+    {
+      "frame": 11,
+      "phase": 0.5555555555555556,
+      "progress": 0.5868240888334652,
+      "anchor0": 5,
+      "anchor1": 6,
+      "timestep": 0.5472963553338607,
+      "engine": "Practical-RIFE 4.25",
+      "requestedInterpolationTimestep": 0.5472963553338607,
+      "actualTimestep": 0.5472963553338607,
+      "localRetimingDelta": 0.0,
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0011.png",
+      "sha256": "63ebc20514f39b025042d7064987ec89d4afa516b5ea093392c6d28a6b0eb85f"
+    },
+    {
+      "frame": 12,
+      "phase": 0.6111111111111112,
+      "progress": 0.6710100716628343,
+      "anchor0": 5,
+      "anchor1": 6,
+      "timestep": 0.8840402866513375,
+      "engine": "Practical-RIFE 4.25",
+      "requestedInterpolationTimestep": 0.8840402866513375,
+      "actualTimestep": 0.8840402866513375,
+      "localRetimingDelta": 0.0,
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0012.png",
+      "sha256": "19cfb6af4acfddfd273c76a4d45d28c86d144536d5b1c29ceecdfb0d2b3ce8ef"
+    },
+    {
+      "frame": 13,
+      "phase": 0.6666666666666666,
+      "progress": 0.7499999999999999,
+      "anchor0": 6,
+      "anchor1": 7,
+      "timestep": 0.24999999999999958,
+      "engine": "Practical-RIFE 4.25",
+      "requestedInterpolationTimestep": 0.24999999999999958,
+      "actualTimestep": 0.24999999999999958,
+      "localRetimingDelta": 0.0,
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0013.png",
+      "sha256": "96fe6c9251d23cf60eae136340d3e6381be21e43f830af4996870314ebba9c29"
+    },
+    {
+      "frame": 14,
+      "phase": 0.7222222222222222,
+      "progress": 0.8213938048432696,
+      "anchor0": 6,
+      "anchor1": 7,
+      "timestep": 0.6069690242163481,
+      "engine": "Practical-RIFE 4.25",
+      "requestedInterpolationTimestep": 0.6069690242163481,
+      "actualTimestep": 0.6069690242163481,
+      "localRetimingDelta": 0.0,
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0014.png",
+      "sha256": "1a55e1807716892455aaabe1f673acbe6d1e9bf68c648f370e07a17bf81d15a1"
+    },
+    {
+      "frame": 15,
+      "phase": 0.7777777777777778,
+      "progress": 0.883022221559489,
+      "anchor0": 6,
+      "anchor1": 7,
+      "timestep": 0.9151111077974446,
+      "engine": "Practical-RIFE 4.25",
+      "requestedInterpolationTimestep": 0.9151111077974446,
+      "actualTimestep": 0.9151111077974446,
+      "localRetimingDelta": 0.0,
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0015.png",
+      "sha256": "0a75c595bd27040f80a8ae941af585175e611d59f56af49494b98a3883c390a6"
+    },
+    {
+      "frame": 16,
+      "phase": 0.8333333333333334,
+      "progress": 0.9330127018922194,
+      "anchor0": 7,
+      "anchor1": 8,
+      "timestep": 0.3301270189221939,
+      "engine": "Practical-RIFE 4.25",
+      "requestedInterpolationTimestep": 0.3301270189221939,
+      "actualTimestep": 0.3301270189221939,
+      "localRetimingDelta": 0.0,
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0016.png",
+      "sha256": "b5c45adbb54f27c9b7e5aaccfb32ad1924cd9b0153105fbb88743dd937b38ba6"
+    },
+    {
+      "frame": 17,
+      "phase": 0.8888888888888888,
+      "progress": 0.9698463103929542,
+      "anchor0": 7,
+      "anchor1": 8,
+      "timestep": 0.698463103929542,
+      "engine": "Practical-RIFE 4.25",
+      "requestedInterpolationTimestep": 0.698463103929542,
+      "actualTimestep": 0.698463103929542,
+      "localRetimingDelta": 0.0,
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0017.png",
+      "sha256": "675a82715a5384088ff7f4c304daaf040431933a6773cd48f3f03ec4072e5ee0"
+    },
+    {
+      "frame": 18,
+      "phase": 0.9444444444444444,
+      "progress": 0.9924038765061041,
+      "anchor0": 7,
+      "anchor1": 8,
+      "timestep": 0.9240387650610407,
+      "engine": "Practical-RIFE 4.25",
+      "requestedInterpolationTimestep": 0.9240387650610407,
+      "actualTimestep": 0.9240387650610407,
+      "localRetimingDelta": 0.0,
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0018.png",
+      "sha256": "d033a6c9d8a08482c9b2a2841ba70d66439b566e2d3c92b3eceaa3af6c3591c3"
+    },
+    {
+      "frame": 19,
+      "phase": 1.0,
+      "progress": 1.0,
+      "anchor0": 8,
+      "anchor1": 8,
+      "timestep": 0.0,
+      "engine": "source-anchor copy",
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0019.png",
+      "sha256": "418fd866a9bf358f2ab035d3b7682d0b6dbef5940e168be2a51f0f209cc58ee3"
+    },
+    {
+      "frame": 20,
+      "mirroredFromFrame": 18,
+      "engine": "byte-exact return copy",
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0020.png",
+      "sha256": "d033a6c9d8a08482c9b2a2841ba70d66439b566e2d3c92b3eceaa3af6c3591c3"
+    },
+    {
+      "frame": 21,
+      "mirroredFromFrame": 17,
+      "engine": "byte-exact return copy",
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0021.png",
+      "sha256": "675a82715a5384088ff7f4c304daaf040431933a6773cd48f3f03ec4072e5ee0"
+    },
+    {
+      "frame": 22,
+      "mirroredFromFrame": 16,
+      "engine": "byte-exact return copy",
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0022.png",
+      "sha256": "b5c45adbb54f27c9b7e5aaccfb32ad1924cd9b0153105fbb88743dd937b38ba6"
+    },
+    {
+      "frame": 23,
+      "mirroredFromFrame": 15,
+      "engine": "byte-exact return copy",
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0023.png",
+      "sha256": "0a75c595bd27040f80a8ae941af585175e611d59f56af49494b98a3883c390a6"
+    },
+    {
+      "frame": 24,
+      "mirroredFromFrame": 14,
+      "engine": "byte-exact return copy",
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0024.png",
+      "sha256": "1a55e1807716892455aaabe1f673acbe6d1e9bf68c648f370e07a17bf81d15a1"
+    },
+    {
+      "frame": 25,
+      "mirroredFromFrame": 13,
+      "engine": "byte-exact return copy",
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0025.png",
+      "sha256": "96fe6c9251d23cf60eae136340d3e6381be21e43f830af4996870314ebba9c29"
+    },
+    {
+      "frame": 26,
+      "mirroredFromFrame": 12,
+      "engine": "byte-exact return copy",
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0026.png",
+      "sha256": "19cfb6af4acfddfd273c76a4d45d28c86d144536d5b1c29ceecdfb0d2b3ce8ef"
+    },
+    {
+      "frame": 27,
+      "mirroredFromFrame": 11,
+      "engine": "byte-exact return copy",
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0027.png",
+      "sha256": "63ebc20514f39b025042d7064987ec89d4afa516b5ea093392c6d28a6b0eb85f"
+    },
+    {
+      "frame": 28,
+      "mirroredFromFrame": 10,
+      "engine": "byte-exact return copy",
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0028.png",
+      "sha256": "9ef739e8eaa08af9a3f9f80e62ef838a40582458fe34ac3341972e563a7a0fd0"
+    },
+    {
+      "frame": 29,
+      "mirroredFromFrame": 9,
+      "engine": "byte-exact return copy",
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0029.png",
+      "sha256": "b525cb663c7cf710f0aa0612e3a11894da15a2225159d0c5236345acbd7fd327"
+    },
+    {
+      "frame": 30,
+      "mirroredFromFrame": 8,
+      "engine": "byte-exact return copy",
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0030.png",
+      "sha256": "919c97dfb52ffd65e99cad82d9a1e539b7c481983cd8576d07626e258f99d12b"
+    },
+    {
+      "frame": 31,
+      "mirroredFromFrame": 7,
+      "engine": "byte-exact return copy",
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0031.png",
+      "sha256": "f944c71732b8d852d40ccc9fd666e83bab58e718788e1491be5fd1b8214f5d9f"
+    },
+    {
+      "frame": 32,
+      "mirroredFromFrame": 6,
+      "engine": "byte-exact return copy",
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0032.png",
+      "sha256": "3dfa1aef29f95cd013457938d702cef77d2686e738888863d40f02e682e49c04"
+    },
+    {
+      "frame": 33,
+      "mirroredFromFrame": 5,
+      "engine": "byte-exact return copy",
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0033.png",
+      "sha256": "c3521ef01d0cc77cca528c89e24f831d4dc4eb215da794210296735ec56d5eab"
+    },
+    {
+      "frame": 34,
+      "mirroredFromFrame": 4,
+      "engine": "byte-exact return copy",
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0034.png",
+      "sha256": "b52067420348f0c64a75f915f176271989328d0fee0b50b45f73f2ffd7bb9e4e"
+    },
+    {
+      "frame": 35,
+      "mirroredFromFrame": 3,
+      "engine": "byte-exact return copy",
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0035.png",
+      "sha256": "d395ebed1dc0763a3c856bea8545847d176f4652b83cc5e99d1ec2215d1f8e83"
+    },
+    {
+      "frame": 36,
+      "mirroredFromFrame": 2,
+      "engine": "byte-exact return copy",
+      "file": "output/followup-round4/machine-ab-crunch/frames/frame_0036.png",
+      "sha256": "0b5b9e8e9ae386b0c2d9f6887441a97ae4f6375b254e383f9747e3979adf78b8"
+    }
+  ],
+  "interpolationOverrides": [],
+  "seamMAE": 4.159715016682942,
+  "adjacentFrameMAE": [
+    4.159715016682942,
+    5.556039174397786,
+    4.707661946614583,
+    2.217637379964193,
+    3.325450897216797,
+    2.8108749389648438,
+    2.8077850341796875,
+    4.110190073649089,
+    1.9518801371256511,
+    3.306976318359375,
+    3.0602849324544272,
+    1.7950998942057292,
+    3.580286661783854,
+    2.7780227661132812,
+    2.6545257568359375,
+    3.8695971171061196,
+    2.282494862874349,
+    0.0027313232421875,
+    0.0027313232421875,
+    2.282494862874349,
+    3.8695971171061196,
+    2.6545257568359375,
+    2.7780227661132812,
+    3.580286661783854,
+    1.7950998942057292,
+    3.0602849324544272,
+    3.306976318359375,
+    1.9518801371256511,
+    4.110190073649089,
+    2.8077850341796875,
+    2.8108749389648438,
+    3.325450897216797,
+    2.217637379964193,
+    4.707661946614583,
+    5.556039174397786,
+    4.159715016682942
+  ],
+  "frameSpecSha256": "7ebbf0d7f3a573a61173969c1bad74f9958e7d6141929aa3aa326b393cd31646",
+  "frameGeneratorSha256": "24077ca05710b2591966ead087c3f68308cd90aa2bfbac7b2bf2f8e68b019c7b",
+  "generatedFrameTimesteps": [
+    {
+      "frame": 1,
+      "anchor0": 0,
+      "anchor1": 0,
+      "originalRequestedTimestep": 0.0,
+      "effectiveInterpolationTimestep": 0.0,
+      "engine": "source-anchor copy"
+    },
+    {
+      "frame": 2,
+      "anchor0": 0,
+      "anchor1": 1,
+      "originalRequestedTimestep": 0.6330102911579991,
+      "effectiveInterpolationTimestep": 0.6330102911579991,
+      "engine": "Practical-RIFE 4.25"
+    },
+    {
+      "frame": 3,
+      "anchor0": 2,
+      "anchor1": 3,
+      "originalRequestedTimestep": 0.0858948267840964,
+      "effectiveInterpolationTimestep": 0.0858948267840964,
+      "engine": "Practical-RIFE 4.25"
+    },
+    {
+      "frame": 4,
+      "anchor0": 2,
+      "anchor1": 3,
+      "originalRequestedTimestep": 0.699788301796344,
+      "effectiveInterpolationTimestep": 0.699788301796344,
+      "engine": "Practical-RIFE 4.25"
+    },
+    {
+      "frame": 5,
+      "anchor0": 3,
+      "anchor1": 4,
+      "originalRequestedTimestep": 0.19380471782127873,
+      "effectiveInterpolationTimestep": 0.19380471782127873,
+      "engine": "Practical-RIFE 4.25"
+    },
+    {
+      "frame": 6,
+      "anchor0": 3,
+      "anchor1": 4,
+      "originalRequestedTimestep": 0.5673102736771535,
+      "effectiveInterpolationTimestep": 0.5673102736771535,
+      "engine": "Practical-RIFE 4.25"
+    },
+    {
+      "frame": 7,
+      "anchor0": 4,
+      "anchor1": 4,
+      "originalRequestedTimestep": 0.0,
+      "effectiveInterpolationTimestep": 0.0,
+      "engine": "source-anchor copy"
+    },
+    {
+      "frame": 8,
+      "anchor0": 4,
+      "anchor1": 5,
+      "originalRequestedTimestep": 0.3949496416858278,
+      "effectiveInterpolationTimestep": 0.3949496416858278,
+      "engine": "Practical-RIFE 4.25"
+    },
+    {
+      "frame": 9,
+      "anchor0": 4,
+      "anchor1": 5,
+      "originalRequestedTimestep": 0.8158795558326739,
+      "effectiveInterpolationTimestep": 0.8158795558326739,
+      "engine": "Practical-RIFE 4.25"
+    },
+    {
+      "frame": 10,
+      "anchor0": 5,
+      "anchor1": 6,
+      "originalRequestedTimestep": 0.1999999999999998,
+      "effectiveInterpolationTimestep": 0.1999999999999998,
+      "engine": "Practical-RIFE 4.25"
+    },
+    {
+      "frame": 11,
+      "anchor0": 5,
+      "anchor1": 6,
+      "originalRequestedTimestep": 0.5472963553338607,
+      "effectiveInterpolationTimestep": 0.5472963553338607,
+      "engine": "Practical-RIFE 4.25"
+    },
+    {
+      "frame": 12,
+      "anchor0": 5,
+      "anchor1": 6,
+      "originalRequestedTimestep": 0.8840402866513375,
+      "effectiveInterpolationTimestep": 0.8840402866513375,
+      "engine": "Practical-RIFE 4.25"
+    },
+    {
+      "frame": 13,
+      "anchor0": 6,
+      "anchor1": 7,
+      "originalRequestedTimestep": 0.24999999999999958,
+      "effectiveInterpolationTimestep": 0.24999999999999958,
+      "engine": "Practical-RIFE 4.25"
+    },
+    {
+      "frame": 14,
+      "anchor0": 6,
+      "anchor1": 7,
+      "originalRequestedTimestep": 0.6069690242163481,
+      "effectiveInterpolationTimestep": 0.6069690242163481,
+      "engine": "Practical-RIFE 4.25"
+    },
+    {
+      "frame": 15,
+      "anchor0": 6,
+      "anchor1": 7,
+      "originalRequestedTimestep": 0.9151111077974446,
+      "effectiveInterpolationTimestep": 0.9151111077974446,
+      "engine": "Practical-RIFE 4.25"
+    },
+    {
+      "frame": 16,
+      "anchor0": 7,
+      "anchor1": 8,
+      "originalRequestedTimestep": 0.3301270189221939,
+      "effectiveInterpolationTimestep": 0.3301270189221939,
+      "engine": "Practical-RIFE 4.25"
+    },
+    {
+      "frame": 17,
+      "anchor0": 7,
+      "anchor1": 8,
+      "originalRequestedTimestep": 0.698463103929542,
+      "effectiveInterpolationTimestep": 0.698463103929542,
+      "engine": "Practical-RIFE 4.25"
+    },
+    {
+      "frame": 18,
+      "anchor0": 7,
+      "anchor1": 8,
+      "originalRequestedTimestep": 0.9240387650610407,
+      "effectiveInterpolationTimestep": 0.9240387650610407,
+      "engine": "Practical-RIFE 4.25"
+    },
+    {
+      "frame": 19,
+      "anchor0": 8,
+      "anchor1": 8,
+      "originalRequestedTimestep": 0.0,
+      "effectiveInterpolationTimestep": 0.0,
+      "engine": "source-anchor copy"
+    },
+    {
+      "frame": 20,
+      "mirroredFromFrame": 18
+    },
+    {
+      "frame": 21,
+      "mirroredFromFrame": 17
+    },
+    {
+      "frame": 22,
+      "mirroredFromFrame": 16
+    },
+    {
+      "frame": 23,
+      "mirroredFromFrame": 15
+    },
+    {
+      "frame": 24,
+      "mirroredFromFrame": 14
+    },
+    {
+      "frame": 25,
+      "mirroredFromFrame": 13
+    },
+    {
+      "frame": 26,
+      "mirroredFromFrame": 12
+    },
+    {
+      "frame": 27,
+      "mirroredFromFrame": 11
+    },
+    {
+      "frame": 28,
+      "mirroredFromFrame": 10
+    },
+    {
+      "frame": 29,
+      "mirroredFromFrame": 9
+    },
+    {
+      "frame": 30,
+      "mirroredFromFrame": 8
+    },
+    {
+      "frame": 31,
+      "mirroredFromFrame": 7
+    },
+    {
+      "frame": 32,
+      "mirroredFromFrame": 6
+    },
+    {
+      "frame": 33,
+      "mirroredFromFrame": 5
+    },
+    {
+      "frame": 34,
+      "mirroredFromFrame": 4
+    },
+    {
+      "frame": 35,
+      "mirroredFromFrame": 3
+    },
+    {
+      "frame": 36,
+      "mirroredFromFrame": 2
+    }
+  ]
+}

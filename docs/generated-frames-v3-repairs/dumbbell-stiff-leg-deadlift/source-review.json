@@ -1,0 +1,30 @@
+{
+  "stage": "source-ready-for-interpolation-review-only",
+  "reviewer": "legs_round3",
+  "sheet": "sheet.png",
+  "sha256": "5d2c48c0984e1960519289828eef2cf5fc77e6f95a86522de0f1aae9306a498f",
+  "selectedCells": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "grid": [
+    3,
+    3
+  ],
+  "findings": [
+    "Fixed side camera with identical planted shoe pixels/positions; source alignment found?0.35px shifts, not the initial mistaken impression of15?25px.",
+    "Pelvis/limb-contour continuity targeted by editV2; head and shoulders follow the torso, no independent headsize jump visible.",
+    "Gentle knee bend, hip hinge and dumbbells near legs in all9poses. Temporal wobble still requires actual-frame review."
+  ],
+  "limits": [
+    "Final19forward frames and12fps playback remain pending.",
+    "Manual/feature surface geometry estimates do not certify bone or machine3Dgeometry."
+  ]
+}

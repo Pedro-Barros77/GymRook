@@ -47,12 +47,12 @@
       mistakes: ['Balançar o quadril para iniciar a subida.', 'Elevar os ombros.', 'Soltar a barra na volta.']
     },
     'preacher-curl': {
-      name: 'Rosca Scott', nameEn: 'Preacher curl',
-      equipment: 'Banco Scott + barra EZ · variante de referência', equipmentEn: 'Preacher bench + EZ curl bar · reference variant',
+      name: 'Rosca Scott na máquina', nameEn: 'Machine preacher curl',
+      equipment: 'Máquina de rosca Scott com apoio dos braços', equipmentEn: 'Selectorized preacher curl machine',
       primary: ['Bíceps braquial', 'Braquial'], secondary: ['Braquiorradial'], muscleIds: ['biceps', 'forearms'],
-      setup: ['Ajuste o banco para apoiar a parte de trás dos braços no encosto inclinado.', 'Segure a barra com palmas para cima. Confirme se a ficha usa barra, halteres ou máquina.'],
-      steps: ['Dobre os cotovelos e eleve a barra sem tirar os braços do apoio.', 'Desça lentamente, sem forçar o fim da extensão dos cotovelos.'],
-      cues: ['Mantenha axilas próximas da borda e ombros estáveis.', 'A barra EZ é apenas a referência deste guia; o aparelho original não foi especificado.'],
+      setup: ['Ajuste a altura do assento para apoiar a parte de trás dos braços na almofada inclinada e alinhar os cotovelos ao eixo da máquina.', 'Selecione a carga e, na máquina ilustrada, segure a barra com as palmas para cima. Mantenha os punhos alinhados e confira a pegada prevista no seu aparelho.'],
+      steps: ['Dobre os cotovelos e aproxime os pegadores dos ombros, sem tirar os braços do apoio.', 'Retorne devagar, sem travar os cotovelos nem deixar a pilha de pesos bater.'],
+      cues: ['Mantenha axilas próximas da borda, quadril no assento e ombros estáveis.', 'O movimento vem dos cotovelos; ajuste o banco antes de iniciar para acompanhar o eixo do aparelho.'],
       mistakes: ['Quicar a carga no ponto mais baixo.', 'Tirar os braços do banco.', 'Dobrar os punhos para completar a repetição.']
     },
     'reverse-cable-curl': {
@@ -73,14 +73,14 @@
       cues: ['Movimento curto e controlado; pescoço acompanha o tronco.', 'Supra é o nome usado na ficha, não um músculo separado.'],
       mistakes: ['Puxar a cabeça com as mãos.', 'Usar impulso para sentar.', 'Prender a respiração.']
     },
-    'reverse-crunch': {
-      name: 'Abdominal infra · crunch reverso', nameEn: 'Supine reverse crunch',
-      equipment: 'Colchonete · variante sugerida', equipmentEn: 'Exercise mat · suggested variant',
-      primary: ['Reto abdominal'], secondary: ['Oblíquos', 'Flexores do quadril'], muscleIds: ['abs', 'obliques'],
-      setup: ['Deite de costas, braços ao lado do corpo e joelhos dobrados sobre o quadril.', 'Mantenha cabeça e ombros apoiados.'],
-      steps: ['Enrole a pelve em direção às costelas e tire o quadril apenas um pouco do chão.', 'Desça a pelve lentamente e volte ao início sem embalar as pernas.'],
-      cues: ['Pense em levantar o quadril, não em chutar os pés.', 'Sugestão para o infra não especificado: confirme com o professor antes de adotar.'],
-      mistakes: ['Balançar as pernas para gerar impulso.', 'Levantar demais o quadril e apoiar o peso no pescoço.', 'Arquear a lombar na volta.']
+    'lying-leg-raise': {
+      name: 'Abdominal infra · elevação de pernas', nameEn: 'Lying leg raise',
+      equipment: 'Colchonete', equipmentEn: 'Exercise mat',
+      primary: ['Flexores do quadril (iliopsoas)', 'Reto abdominal, na estabilização da pelve'], secondary: ['Oblíquos, na estabilização'], muscleIds: ['abs', 'obliques'],
+      setup: ['Deite de costas com cabeça e ombros apoiados, braços ao lado do corpo e palmas no colchonete.', 'Mantenha as pernas juntas, com os joelhos suavemente flexionados, e contraia o abdômen para controlar a pelve.'],
+      steps: ['Eleve as duas pernas juntas em direção ao teto, sem tirar a cabeça e os ombros do apoio.', 'Desça devagar até a amplitude em que mantém a lombar apoiada e o movimento controlado; não precisa encostar os pés no chão.', 'Faça as 20 repetições do infra e siga para a prancha.'],
+      cues: ['As pernas sobem juntas; o tronco permanece apoiado. O supra é o outro item, que eleva a parte alta das costas.', 'Os flexores do quadril elevam as pernas; o abdômen ajuda a estabilizar a pelve. Infra é o nome usual da variante, não um músculo separado.'],
+      mistakes: ['Embalar as pernas ou deixar a lombar arquear na descida.', 'Levantar a cabeça ou tentar sentar.', 'Forçar uma amplitude em que perde o controle da pelve.']
     },
     'forearm-plank': {
       name: 'Prancha nos antebraços', nameEn: 'Forearm plank',
@@ -137,13 +137,13 @@
       mistakes: ['Puxar com impulso do tronco.', 'Encolher os ombros.', 'Dobrar bastante os cotovelos e transformar em remada.']
     },
     'standing-machine-calf-raise': {
-      name: 'Panturrilha em pé na máquina', nameEn: 'Standing machine calf raise',
-      equipment: 'Máquina de panturrilha em pé', equipmentEn: 'Standing calf raise machine',
+      name: 'Panturrilha em pé na máquina inclinada', nameEn: 'Incline standing calf raise',
+      equipment: 'Máquina inclinada de panturrilha em pé', equipmentEn: 'Incline calf raise machine',
       primary: ['Gastrocnêmio', 'Sóleo'], secondary: ['Estabilizadores do tornozelo'], muscleIds: ['calves'],
-      setup: ['Ajuste os apoios e posicione a parte da frente dos pés na plataforma.', 'Deixe os calcanhares livres e os joelhos quase estendidos, sem travá-los.'],
-      steps: ['Eleve os calcanhares, pressionando a plataforma com a parte da frente dos pés.', 'Desça lentamente até a amplitude confortável.', 'Após 15 repetições, siga para as 20 na máquina de panturrilha sentada.'],
-      cues: ['Suba e desça sem quicar.', 'Distribua o apoio na parte da frente do pé, sem rolar os tornozelos para fora.'],
-      mistakes: ['Impulsionar com joelhos ou quadril.', 'Fazer repetições rápidas e muito curtas.', 'Deixar os pés escorregarem da plataforma.']
+      setup: ['Regule os apoios de peito e ombros e entre de frente para o aparelho, com o corpo acompanhando a inclinação dos trilhos.', 'Apoie apenas a parte da frente dos pés na borda, deixando os calcanhares livres. Mantenha os joelhos quase estendidos, sem travá-los.'],
+      steps: ['Deixe os calcanhares descerem abaixo do nível do apoio, com controle e até a amplitude confortável.', 'Pressione o apoio com o antepé e eleve os calcanhares. O corpo e o conjunto dos apoios sobem juntos.', 'Volte devagar, sem quicar no fundo. Após 15 repetições, siga para as 20 na máquina de panturrilha sentada.'],
+      cues: ['O movimento vem dos tornozelos; mantenha o corpo alinhado e a mesma pequena flexão dos joelhos.', 'Mostre a descida e a subida completas dentro do seu controle, sem ficar o tempo inteiro na ponta dos pés.'],
+      mistakes: ['Dobrar os joelhos ou o quadril para impulsionar a carga.', 'Fazer só a parte alta do movimento ou quicar no fundo.', 'Deixar os pés escorregarem ou os tornozelos tombarem para os lados.']
     },
     'seated-plate-calf-raise': {
       name: 'Panturrilha sentada na máquina', nameEn: 'Plate-loaded seated calf raise',
@@ -210,12 +210,12 @@
     },
     'machine-ab-crunch': {
       name: 'Abdominal na máquina · crunch sentado', nameEn: 'Seated machine abdominal crunch',
-      equipment: 'Máquina abdominal sentada · identificação provisória', equipmentEn: 'Seated abdominal crunch machine · provisional identification',
+      equipment: 'Máquina abdominal sentada com alças altas', equipmentEn: 'Seated abdominal crunch machine with high handles',
       primary: ['Reto abdominal'], secondary: ['Oblíquos'], muscleIds: ['abs', 'obliques'],
-      setup: ['Primeiro identifique a máquina com o professor: modelos têm apoios e ajustes diferentes.', 'No modelo sentado, ajuste banco, apoios e carga conforme a placa do aparelho.'],
-      steps: ['Com os pés e o quadril apoiados, aproxime as costelas da pelve pelo movimento do tronco.', 'Retorne devagar, acompanhando a máquina sem deixar a carga despencar.'],
-      cues: ['As mãos seguram as alças; evite fazer a força principalmente com os braços.', 'Sugestão provisória para o aparelho não especificado na ficha.'],
-      mistakes: ['Usar a máquina sem conferir os ajustes.', 'Puxar só com os braços.', 'Continuar no máximo depois de perder o controle do tronco.']
+      setup: ['Ajuste o assento e os apoios conforme a placa do aparelho, mantendo quadril e pés apoiados.', 'Segure as alças altas junto ao pescoço e aos ombros, com os punhos alinhados e o pescoço relaxado.'],
+      steps: ['Solte o ar e flexione o tronco, aproximando as costelas da pelve. As alças acompanham o movimento sem puxar com os braços.', 'Retorne devagar, mantendo o quadril no assento e sem deixar a carga despencar.'],
+      cues: ['O movimento vem do tronco; as mãos apenas mantêm a pegada nas alças altas.', 'A cabeça acompanha o tronco, sem forçar o queixo contra o peito. Confira os ajustes do modelo real.'],
+      mistakes: ['Puxar principalmente com os braços ou encolher os ombros.', 'Tirar o quadril do assento para vencer a carga.', 'Usar impulso ou continuar depois de perder o controle do tronco.']
     },
     'leg-extension': {
       name: 'Cadeira extensora', nameEn: 'Leg extension',
@@ -285,21 +285,25 @@
   const finalMotionIds = new Set([
     'incline-dumbbell-press', 'high-cable-crossover', 'pec-deck', 'push-up',
     'cable-biceps-curl', 'preacher-curl', 'reverse-cable-curl', 'floor-crunch',
-    'reverse-crunch', 'forearm-plank', 'lying-leg-curl', 'dumbbell-stiff-leg-deadlift',
+    'lying-leg-raise', 'forearm-plank', 'lying-leg-curl', 'dumbbell-stiff-leg-deadlift',
     'alternating-lunge', 'dumbbell-lateral-raise', 'reverse-pec-deck',
     'seated-plate-calf-raise', 'unilateral-cable-row', 'machine-ab-crunch'
   ]);
   const legMotionIds = new Set(['leg-extension', 'hack-squat', 'machine-hip-abduction', 'machine-hip-adduction']);
+  // Incline press intentionally stays on the previous v2 media, as requested.
+  const repairedMotionIds = new Set(['preacher-curl', 'reverse-pec-deck', 'seated-plate-calf-raise', 'machine-ab-crunch', 'leg-extension', 'hack-squat', 'lying-leg-curl', 'dumbbell-stiff-leg-deadlift', 'alternating-lunge']);
+  const followupMotionIds = new Set(['preacher-curl', 'lying-leg-raise', 'standing-machine-calf-raise', 'machine-ab-crunch']);
   Object.entries(exercises).forEach(([id, exercise]) => {
     exercise.id = id;
     exercise.pilot = true;
-    const directory = finalMotionIds.has(id) ? 'animations-v2' : legMotionIds.has(id) ? 'animations-d-v1' : 'animations-bc-v1';
+    const directory = followupMotionIds.has(id) ? 'animations-v4' : repairedMotionIds.has(id) ? 'animations-v3' : finalMotionIds.has(id) ? 'animations-v2' : legMotionIds.has(id) ? 'animations-d-v1' : 'animations-bc-v1';
+    const mediaId = exercise.sameMovementAs || id;
     exercise.media = {
-      video: `assets/${directory}/${id}.mp4`,
-      gif: `assets/${directory}/${id}.gif`,
-      poster: `assets/${directory}/${id}-poster.webp`,
+      video: `assets/${directory}/${mediaId}.mp4`,
+      gif: `assets/${directory}/${mediaId}.gif`,
+      poster: `assets/${directory}/${mediaId}-poster.webp`,
       fps: 12,
-      frameCount: id === 'alternating-lunge' ? 48 : 36,
+      frameCount: id === 'alternating-lunge' ? 72 : 36,
       render: id === 'forearm-plank' ? 'generated-static-hold' : 'generated-interpolated',
       ...(id === 'forearm-plank' ? { isometric: true } : {})
     };
@@ -316,9 +320,9 @@
           { id: 'a-crossover', title: 'Crossover diagonal na polia alta', prescription: '4 × 15', note: '', exerciseIds: ['high-cable-crossover'] },
           { id: 'a-chest-combo', title: 'Peck deck + flexão de braços', prescription: '4 × (12 + falha)', note: 'Faça 12 no peck deck e, em seguida, flexões até a falha. Complete a dupla quatro vezes. Use a perda da técnica como limite.', exerciseIds: ['pec-deck', 'push-up'] },
           { id: 'a-curl', title: 'Rosca bíceps na polia', prescription: '3 × 15', note: '', exerciseIds: ['cable-biceps-curl'] },
-          { id: 'a-scott', title: 'Rosca Scott', prescription: '3 × 8–12', note: 'Aparelho/acessório não especificado; o guia mostra a referência com banco e barra EZ.', exerciseIds: ['preacher-curl'] },
+          { id: 'a-scott', title: 'Rosca Scott na máquina', prescription: '3 × 8–12', note: 'Ajuste o assento e alinhe os cotovelos ao eixo da máquina.', exerciseIds: ['preacher-curl'] },
           { id: 'a-rest-pause', title: 'Rosca inversa · rest-pause', prescription: '2 séries · 4 blocos de 5', note: 'Carga alta. Em cada série: 5 repetições → 10 s → 5 → 10 s → 5 → 10 s → 5. Descanso entre séries completas conforme orientação do professor.', exerciseIds: ['reverse-cable-curl'] },
-          { id: 'a-abs', title: 'Supra + infra + prancha', prescription: '2 voltas · 20 + 20 + máximo', note: '20 supra, 20 infra e prancha pelo tempo máximo com técnica. Sugestão para o infra: crunch reverso deitado, com joelhos dobrados.', exerciseIds: ['floor-crunch', 'reverse-crunch', 'forearm-plank'] }
+          { id: 'a-abs', title: 'Supra + infra + prancha', prescription: '2 voltas · 20 + 20 + máximo', note: '20 crunches do tronco (supra), 20 elevações das pernas (infra) e prancha pelo tempo máximo com técnica.', exerciseIds: ['floor-crunch', 'lying-leg-raise', 'forearm-plank'] }
         ]
       },
       {
@@ -329,7 +333,7 @@
           { id: 'b-front', title: 'Elevação frontal na polia', prescription: '3 × 12', note: '', exerciseIds: ['cable-front-raise'] },
           { id: 'b-shrug', title: 'Encolhimento com halteres', prescription: '3 × 20', note: '', exerciseIds: ['dumbbell-shrug'] },
           { id: 'b-reverse-fly', title: 'Crucifixo inverso na máquina', prescription: '4 × 12', note: '', exerciseIds: ['reverse-pec-deck'] },
-          { id: 'b-calves', title: 'Panturrilha em pé + sentada', prescription: '3 voltas · 15 + 20', note: '15 em pé na máquina e, em seguida, 20 sentada na máquina com anilhas.', exerciseIds: ['standing-machine-calf-raise', 'seated-plate-calf-raise'] }
+          { id: 'b-calves', title: 'Panturrilha em pé + sentada', prescription: '3 voltas · 15 + 20', note: '15 em pé na máquina inclinada e, em seguida, 20 sentada na máquina com anilhas.', exerciseIds: ['standing-machine-calf-raise', 'seated-plate-calf-raise'] }
         ]
       },
       {
@@ -341,7 +345,7 @@
           { id: 'c-rope', title: 'Tríceps na polia com corda', prescription: '3 × 12', note: '', exerciseIds: ['rope-triceps-pushdown'] },
           { id: 'c-extension', title: 'Tríceps testa com halteres', prescription: '3 × 15', note: '', exerciseIds: ['dumbbell-lying-triceps-extension'] },
           { id: 'c-dip', title: 'Tríceps no banco', prescription: '3 × 20', note: '', exerciseIds: ['bench-dip'] },
-          { id: 'c-abs', title: 'Abdominal na máquina', prescription: '3 × máximo', note: 'Máximo de repetições com técnica. Referência provisória: máquina de crunch sentado; identifique o modelo com o professor.', exerciseIds: ['machine-ab-crunch'] }
+          { id: 'c-abs', title: 'Abdominal na máquina', prescription: '3 × máximo', note: 'Máximo de repetições com técnica. Máquina de crunch sentado com alças altas; confira os ajustes do modelo real.', exerciseIds: ['machine-ab-crunch'] }
         ]
       },
       {
@@ -378,7 +382,8 @@
       { title: 'ACE · Pec deck e crossover: orientação de execução', url: 'https://www.acefitness.org/certifiednewsarticle/2884/ace-sponsored-research-top-3-most-effective-chest-exercises/' },
       { title: 'NASM · Push-up', url: 'https://www.nasm.org/resource-center/exercise-library/push-up' },
       { title: 'ACE · Crunch', url: 'https://www.acefitness.org/resources/everyone/exercise-library/52/crunch/' },
-      { title: 'ACE · Reverse Ab Crunch', url: 'https://www.acefitness.org/resources/everyone/exercise-library/76/reverse-crunch/' },
+      { title: 'ExRx · Elevação das pernas deitado: movimento e estabilização abdominal', url: 'https://exrx.net/WeightExercises/HipFlexors/BWStraightLegRaise' },
+      { title: 'Atlantis · Máquina de panturrilha em pé inclinada: referência de arquitetura', url: 'https://atlantisstrength.com/gym-equipment/m318' },
       { title: 'ACE · Abdominais superiores e inferiores', url: 'https://www.acefitness.org/continuing-education/prosource/august-2014/4934/can-you-train-upper-and-lower-abs-separately/' },
       { title: 'ACE · Biblioteca de exercícios', url: 'https://www.acefitness.org/resources/everyone/exercise-library/' },
       { title: 'Life Fitness · Instruções de máquinas Circuit Series', url: 'https://kb.cybexintl.com/Product_Info/Life_Fitness_Circuit_Series_Machine_Use_Instructions.pdf' },

@@ -1,0 +1,7 @@
+{
+  "mode": "builtin image_gen",
+  "intent": "precise-object-edit",
+  "reference": "docs/generated-frames-v4-followup/lying-leg-raise/source-crops-v1/pose-00.png",
+  "prompt": "Use case: precise-object-edit. Asset type: clean static background plate for an exercise animation. Input image is the exact edit target, not loose style reference. Keep the camera, lighting, mat, head, shoulders, chest, arms, hands, shorts waistband, pelvis position and all right-side pixels unchanged. Remove ONLY both legs and shoes extending leftward from the black shorts. Remove their shadows in the air too, revealing the same smooth off-white studio background. Keep the black shorts/pelvis as a small static rounded hip area at the torso's left end; its LEFT boundary ends near the hip joint approximately x260,y415 in the original512square image. Preserve the athlete's near hand lying on the mat in front of the hip (bottom center), and preserve the entire mat uninterrupted. The intended plate is later composited with a separate rotating leg layer so no new anatomy or pose should be invented. No text, extra limbs or equipment. Return square full-frame, same framing and exact fixed objects as the target.",
+  "output": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v1/clean-plate-generated.png"
+}

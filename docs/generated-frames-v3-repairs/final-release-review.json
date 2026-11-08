@@ -1,0 +1,191 @@
+{
+  "complete": true,
+  "scope": "Ten round3 repairs: root plus owner visual checks of actual forward frames/critical contacts and transitions; approved source timeline and static body preservation. No claim of certified biomechanics from pixel metrics.",
+  "fps": 12,
+  "animations": [
+    {
+      "id": "incline-dumbbell-press",
+      "verdict": "PASS",
+      "sourceSha256": "a2e853b31ebe13858c99d6515023ffd728093f25b583402918a19a4176978b70",
+      "frameDigestBin32": "ada03318cbfbc636864c4c3bcf3c32c8fdef86bb4be4e57f8611cb960a7a33cd",
+      "sourceReview": "Root approved V2 side-biased45degree pressing source and all9 enlarged canonical head mask crops; moving dumbbells do not cross protected face. Render actual temporal candidates next.",
+      "notes": [
+        "Head contour remains canonical; side camera keeps passing dumbbells outside supported face. Root reviewed19 head crops and18 onions."
+      ],
+      "reviewEvidence": [
+        {
+          "file": "docs/generated-frames-v3-repairs/incline-dumbbell-press/canonical-head-temporal-review.json",
+          "sha256": "8ca8fd53053ce021489ff02dfbb1b8ec22fba60c20da503bb5cbdb9d3475476c"
+        }
+      ]
+    },
+    {
+      "id": "preacher-curl",
+      "verdict": "PASS",
+      "sourceSha256": "df9282591285c7a2b5c48b0e31db2885d82549f529913c95e4432afe5401240c",
+      "frameDigestBin32": "91407849f98277420819f5905a7e15c37df9ad7cce996a665849a892e3af8e5f",
+      "sourceReview": "Root visually approved fixed-body raster machineScott sources at1,10,19 and all19poses. Native36-frame loop copied exactly without RIFE, source generator/parameters/inputs hashed. Final encode awaits root authorization.",
+      "notes": [
+        "Machine Scott uses generated muscular raster forearms rotating rigidly around fixed elbows; body/pad/head stay canonical. Root reviewed actual36PNG source and19 contacts."
+      ],
+      "reviewEvidence": [
+        {
+          "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/parameters.json",
+          "sha256": "b96842a65b9c9e9c93e4e84b2fa1aebf586c6f875d64b17e8501c7f3e4b4a19d"
+        }
+      ]
+    },
+    {
+      "id": "reverse-pec-deck",
+      "verdict": "PASS",
+      "sourceSha256": "fa4b4ca1f572710522372b3173302bf4a5dde6083a9c8c23b1ba8ca9e58444ff",
+      "frameDigestBin32": "067a117b74866c99baeb0f17bffcbac560e22090b424cbb8a7173a164fb0870c",
+      "sourceReview": "Root visually approved V2 elevated-elbow rear-delt source and final19upper crops; independent legs owner checked19 actual composites and18 onions. Adaptive per-frame static masks preserve connected booms, opaque hands over tower, canonical head/seat/legs/tower with continuous waist handoff. Old V1/unversioned mask packets rejected.",
+      "notes": [
+        "Integrated machine V2 with raised elbows; both shoulders open together. Root/independent owner reviewed19 composites and18 onions, foreground opaque hands and continuous waist."
+      ],
+      "reviewEvidence": [
+        {
+          "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/qa-reviewed-mask-v2.json",
+          "sha256": "173ad1bbb83f95dc8c8a7e9e3ae7839e6bff1d41eb7e048b2346da5ec16ac8b2"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/independent-final-composition-review.json",
+          "sha256": "3fc1bd78f10f2a08f33917b62c3eff63dee02ba0b62fdcb11022a4d8e03a494e"
+        }
+      ]
+    },
+    {
+      "id": "seated-plate-calf-raise",
+      "verdict": "PASS",
+      "sourceSha256": "9d3ca71e42bb141a43ab5a8bbefb8812af8fac8a1e8bd243baaa9d64e752433e",
+      "frameDigestBin32": "2f82f0edfd4c02c5626c91f1f6cdb30830a88d1d42f378a796d7db0b3e2f798e",
+      "sourceReview": "Root reviewed horizontal plate equipment-only input edits, preserving approved original human pixels. Per-frame restoration outside equipment rectangle is mandatory.",
+      "notes": [
+        "Horizontal plate hardware patch only; all approved human RGB outside the equipment rectangle preserved exactly over36frames."
+      ],
+      "reviewEvidence": [
+        {
+          "file": "docs/generated-frames-v3-repairs/seated-plate-calf-raise/immutable-body-review.json",
+          "sha256": "438f0cb908f7a3ce183c054445711c773c7b04e952aa4792e1c519b7feef420a"
+        }
+      ]
+    },
+    {
+      "id": "machine-ab-crunch",
+      "verdict": "PASS",
+      "sourceSha256": "c8e10a74c3a6ff0f249fd4af1be05812b73204d2b7bc1e32796ea038448f1549",
+      "frameDigestBin32": "44863b4dcc249dbfd39f7852a0ff3bf3fda3a840f6d7b309cf9913d4f208cd5c",
+      "sourceReview": "Root, machine owner and independent legs owner approved V3 full1/10/19, all19hardware crops and18onions. Native rigid arm152px with fixed24to6px taper keeps full terminal in actual dark cushion without crossing the thigh; continuous pad has no white rim. Original moving upper-body opaque RGB exact, fixed seat/back/lowerbody canonical;36final PNG inputs copied byte-exact, no further RIFE.",
+      "notes": [
+        "Native rigid152px arm with tapered6px terminal fits behind the continuous pad, avoiding a wide metal lip on the thigh. Reviewed athlete upper-body RGB remains exact on opaque masks; seat/feet/back structure canonical. Root and machine owner reviewed19 native composites and18 transitions."
+      ],
+      "reviewEvidence": [
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/junction-review.json",
+          "sha256": "21d29fee58b1c769d92e987c0c4f00983a51994cb8f0768724eb10a740fd0ae0"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/machines-owner-qa/review.json",
+          "sha256": "66845c0bd9f379f8d85179e730dac44e660b0bab451926a9acdebb875435771a"
+        }
+      ]
+    },
+    {
+      "id": "leg-extension",
+      "verdict": "PASS",
+      "sourceSha256": "89e900b26a0a05cf4536e1b165f775eab99478b08e56260ccac83b7b97c3fe11",
+      "frameDigestBin32": "8d4e48003c367829e84b631e0ca15fa016c235576887ed51be02fd633c2eb6bc",
+      "sourceReview": "Owner legs_round3 reviewed all9 actual source poses and enlarged shoe contact; root authorizes interpolation candidates for temporal QA.",
+      "notes": [
+        "Foot follows a gradual neutral-ankle profile without abrupt front flip. Root/legs owner reviewed all19 foot crops and18 onions."
+      ],
+      "reviewEvidence": [
+        {
+          "file": "docs/generated-frames-v3-repairs/leg-extension/temporal-review.json",
+          "sha256": "e567e4dc9563dd8162e6f272c4b8ef7ec7872866885645ee95fd287bdec9f360"
+        }
+      ]
+    },
+    {
+      "id": "hack-squat",
+      "verdict": "PASS",
+      "sourceSha256": "a88f904bf48d61184e232d69466a45b583646a4a0ac998108586c013b29ec289",
+      "frameDigestBin32": "bdd4f651d948f616706e4c164daf7546a11d9c7be751f548ff352f3ee26febf7",
+      "sourceReview": "Owner legs_round3 reviewed all9 actual source poses and enlarged shoe contact; root authorizes interpolation candidates for temporal QA.",
+      "notes": [
+        "Heel and forefoot stay planted and aligned on platform throughout19poses; root and legs owner reviewed actualsole crops/onions."
+      ],
+      "reviewEvidence": [
+        {
+          "file": "docs/generated-frames-v3-repairs/hack-squat/temporal-review.json",
+          "sha256": "6ff95d6a22d7ca2d775e52750d9e8f61d26f77988972d81e9e9496d985e29b7c"
+        }
+      ]
+    },
+    {
+      "id": "lying-leg-curl",
+      "verdict": "PASS",
+      "sourceSha256": "9d679ed4390c194bbed86862f1e4cdc7fb0826811541efc5afabe3a9e670fd6b",
+      "frameDigestBin32": "548355bd5de44a1a894cda5f55f95f66837b22a8e45cf72c36f53acac96560d5",
+      "sourceReview": "Root and legs owner approved native V2 after all19 contact crops/full views. Original generated raster leg restored to approved girth, rigid tibia100px and lever92.892px; tangent pad stays outside leg core. Final36PNG bytes copied without RIFE or old static mask. See rig-v2/freeze-verification.json and owner/root reviews.",
+      "notes": [
+        "Native V2 keeps original raster calf girth, fixed knee/tibia and rigid lever; tangent pad stays outside both lower-leg opaque cores. Original RIFE candidate archived."
+      ],
+      "reviewEvidence": [
+        {
+          "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig-v2/freeze-verification.json",
+          "sha256": "b79dec183e6220af112818b31bfad3dcc801e5b56d6bd0b9ea9878ffbc152967"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig-v2/contact-clearance-independent.json",
+          "sha256": "5df76e7f3b9bfd82a3de90b587af92ab4a4786be1dad9b8c848562307f47ea16"
+        }
+      ]
+    },
+    {
+      "id": "dumbbell-stiff-leg-deadlift",
+      "verdict": "PASS",
+      "sourceSha256": "5d2c48c0984e1960519289828eef2cf5fc77e6f95a86522de0f1aae9306a498f",
+      "frameDigestBin32": "f1d8ab9bbe9f207edcba72fabeab9bdeb1fe24fcd81c57c237e6edb85addb300",
+      "sourceReview": "Owner legs_round3 selected sourceV2 after reviewing rollerposteriorcontact or bodycontinuity and fixed feet. Actual temporal rendering is only a candidate until framecontact review; known projected lever radius uncertainty documented in source-review.json.",
+      "notes": [
+        "New continuous hip-hinge source and gradual timeline; root/legs owner reviewed19 actualbody/hip crops and18 onions. This is visual continuity review, not a skeletal motion-capture measurement."
+      ],
+      "reviewEvidence": [
+        {
+          "file": "docs/generated-frames-v3-repairs/dumbbell-stiff-leg-deadlift/temporal-review.json",
+          "sha256": "b50b6e27faa20298a5d427f081669d6c2f5f0c4297d622b2c2acdd0a97f0317a"
+        }
+      ]
+    },
+    {
+      "id": "alternating-lunge",
+      "verdict": "PASS",
+      "sourceSha256": "840cfa2b2ecda5fe6d3044595c42af0002b80912f740a34e7cd8299ea0dfd674",
+      "frameDigestBin32": "e157e892743d216f76054ed19f0fe24979f205de06a523ec21c90c1ca45d74aa",
+      "sourceReview": "Root and independent legs reviewer approved eased72frame/6s study, all foot-transfer crops and both seams. Same inherited descent drawings; foot transfer8frames and knee descent10frames each use half cosine; returns copy forward17frames exactly. No .9 interpolation overrides.",
+      "notes": [
+        "Same inherited source drawings, eased8frame foot transfer then10frame knee descent per leg; both17frame returns exact reverse copies. Root/independent legs owner reviewed both seams and36foot-transfer crops."
+      ],
+      "reviewEvidence": [
+        {
+          "file": "docs/generated-frames-v3-repairs/alternating-lunge/independent-feet-review.json",
+          "sha256": "c00bd001985a13ae2bc400f4ff18fc1071e43065e404d708547f43f3dd0e60a3"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/alternating-lunge/timing-v2/independent-timing-review.json",
+          "sha256": "3ca0edf9ba3a534765d710061a7c4b397eb10bc59210a5a48fe3be52b6f6ab91"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/alternating-lunge/timing-v2/actual-foot-comparison.json",
+          "sha256": "d0051f38bc76a2726097e1d308c91599155a8f47160a6ac281261c9ee21052b2"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/alternating-lunge/timing-v2/relocation-proof.json",
+          "sha256": "941a81289f00ced9345a860e6570744edb340c049a3e86fc393e029a1250e043"
+        }
+      ]
+    }
+  ]
+}

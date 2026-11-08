@@ -1,0 +1,8 @@
+{
+  "mode": "builtin-image_gen",
+  "source": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b859-1287-7690-bb8e-b7a241c21ae2\\exec-02c6f8be-3a72-4b87-b96b-776d61a70a8a.png",
+  "prompt": "Use case: precise-object-edit, production animation background plate. Edit the reference at EXACT same camera, scale and framing. Keep this seated muscular athlete's HEAD, TORSO, HIPS, LEGS, FEET, SHOULDERS and the TWO UPPER ARMS resting on the sloped black preacher pad pixel-consistent. Keep selectorized tower, seat, pad, chassis, material and shadows. For this animation compositing BASE, REMOVE ONLY BOTH FOREARMS and HANDS DISTAL TO THE ELBOW, and REMOVE ALL OPERATING METAL LEVER, ORANGE BEARING AND THE SLANTED SUPPORT ARM that crosses the pad from tower to hands. The upper-arm ends/elbows remain naturally rounded on the pad, no wounds or gore: it is an educational animation part separation, final forearms will be composited over them. The near elbow centre in this1024px composition is around645,422; do not remove biceps/upper-arm skin before that joint. Clear all the image area beyond elbows where forearms/handles used to be: recover clean warm white background and the unobstructed black sloped pad or legs where appropriate. No grey placeholders, no dotted stumps, no connectors, no phantom hands or operating arms. Keep the entire man and machine fixed in all other respects. The opaque weight tower is fully enclosed. No new furniture, no change of pose or lighting. Output ONE square full scene, no sheet, labels, guide marks or watermark.",
+  "reference": "../master-start-reference.png",
+  "transparent_background": false,
+  "status": "candidate"
+}

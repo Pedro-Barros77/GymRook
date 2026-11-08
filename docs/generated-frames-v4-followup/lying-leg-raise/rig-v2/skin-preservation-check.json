@@ -1,0 +1,120 @@
+{
+  "passed": false,
+  "comparison": "V2 fixed pelvis overlay compared against V1 using the same native leg sprite; rotated source skin core mask eroded1px",
+  "frames": [
+    {
+      "frame": 1,
+      "muscularSkinCorePixels": 5250,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 2,
+      "muscularSkinCorePixels": 5255,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 3,
+      "muscularSkinCorePixels": 5265,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 4,
+      "muscularSkinCorePixels": 5261,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 5,
+      "muscularSkinCorePixels": 5264,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 6,
+      "muscularSkinCorePixels": 5264,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 7,
+      "muscularSkinCorePixels": 5284,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 8,
+      "muscularSkinCorePixels": 5294,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 9,
+      "muscularSkinCorePixels": 5289,
+      "changedByPelvisOverlay": 0,
+      "maxRGBDifference": 0
+    },
+    {
+      "frame": 10,
+      "muscularSkinCorePixels": 5304,
+      "changedByPelvisOverlay": 2,
+      "maxRGBDifference": 205
+    },
+    {
+      "frame": 11,
+      "muscularSkinCorePixels": 5292,
+      "changedByPelvisOverlay": 4,
+      "maxRGBDifference": 228
+    },
+    {
+      "frame": 12,
+      "muscularSkinCorePixels": 5289,
+      "changedByPelvisOverlay": 5,
+      "maxRGBDifference": 222
+    },
+    {
+      "frame": 13,
+      "muscularSkinCorePixels": 5294,
+      "changedByPelvisOverlay": 6,
+      "maxRGBDifference": 214
+    },
+    {
+      "frame": 14,
+      "muscularSkinCorePixels": 5302,
+      "changedByPelvisOverlay": 6,
+      "maxRGBDifference": 213
+    },
+    {
+      "frame": 15,
+      "muscularSkinCorePixels": 5282,
+      "changedByPelvisOverlay": 6,
+      "maxRGBDifference": 229
+    },
+    {
+      "frame": 16,
+      "muscularSkinCorePixels": 5275,
+      "changedByPelvisOverlay": 6,
+      "maxRGBDifference": 218
+    },
+    {
+      "frame": 17,
+      "muscularSkinCorePixels": 5259,
+      "changedByPelvisOverlay": 5,
+      "maxRGBDifference": 221
+    },
+    {
+      "frame": 18,
+      "muscularSkinCorePixels": 5269,
+      "changedByPelvisOverlay": 7,
+      "maxRGBDifference": 222
+    },
+    {
+      "frame": 19,
+      "muscularSkinCorePixels": 5253,
+      "changedByPelvisOverlay": 6,
+      "maxRGBDifference": 223
+    }
+  ]
+}

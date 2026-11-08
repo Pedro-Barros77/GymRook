@@ -1,0 +1,27 @@
+{
+  "id": "standing-machine-calf-raise",
+  "sourceKind": "image-keyframes",
+  "method": "Two actual original generated bottom/top poses; one shared512 normalization, no human geometry warp or new artwork.",
+  "originalSources": [
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/start-v2.png",
+      "sha256": "97c58d5d048ed8ec9b6eaf9c032a59a6f8cef349599031e6d7ac03d0cc34883f"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/end-v1.png",
+      "sha256": "9d302ffc3040b2e16958241ed377c72489167954a8556de0fd0c9da621caedb5"
+    }
+  ],
+  "keys": [
+    {
+      "progress": 0,
+      "imageOverride": "output/followup-round4/calf-two-key-study/key-00.png",
+      "imageOverrideSha256": "15d95af938be88c3b7f25460a7362dd7e0e9efaac3dc0353fc02215ea8de9181"
+    },
+    {
+      "progress": 1,
+      "imageOverride": "output/followup-round4/calf-two-key-study/key-01.png",
+      "imageOverrideSha256": "d2a9fd1221024e7f4ac85147986f667e8aa6ffd2e48041c1ce6630293e75c827"
+    }
+  ]
+}

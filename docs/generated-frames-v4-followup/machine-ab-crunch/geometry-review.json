@@ -1,0 +1,62 @@
+{
+  "id": "machine-ab-crunch",
+  "method": "Manual estimates on actual512source crops and measurement-grid.png, uncertainty about3pixels. These are projected2D distances, not known3D length or joint-angle measurements.",
+  "points": [
+    {
+      "sourceCell": 0,
+      "hingeApprox": [
+        403,
+        125
+      ],
+      "nearGripCapApprox": [
+        316,
+        134
+      ],
+      "upperYokeCornerApprox": [
+        406,
+        36
+      ],
+      "nearGripProjectedRadiusPixels": 87.46427842267951,
+      "upperCornerProjectedRadiusPixels": 89.05054744357274
+    },
+    {
+      "sourceCell": 4,
+      "hingeApprox": [
+        403,
+        125
+      ],
+      "nearGripCapApprox": [
+        317,
+        166
+      ],
+      "upperYokeCornerApprox": [
+        408,
+        39
+      ],
+      "nearGripProjectedRadiusPixels": 95.2732911156112,
+      "upperCornerProjectedRadiusPixels": 86.14522621712709
+    },
+    {
+      "sourceCell": 8,
+      "hingeApprox": [
+        403,
+        125
+      ],
+      "nearGripCapApprox": [
+        311,
+        209
+      ],
+      "upperYokeCornerApprox": [
+        390,
+        55
+      ],
+      "nearGripProjectedRadiusPixels": 124.57929201917949,
+      "upperCornerProjectedRadiusPixels": 71.19691004531025
+    }
+  ],
+  "observation": "The projected distance from fixed bearing to near cap varies about87to125pixels, while upper yoke corner varies about89to71pixels. This is recorded explicitly; the artwork is not a native rigid-machine certificate.",
+  "reviewRule": "Judge actual moving raster contacts/shape and document limitations. Do not use a projected-radius difference alone to claim either valid3D perspective or proven nonrigidity. No exact3D fit was performed.",
+  "fixedDisc": "Final housing centre is canonical in all36frames; moving yoke and both grips remain rawRIFE and require visual contact review.",
+  "fixedVisiblePadDarkPixelsAll36": 42,
+  "grid": "qa-v2/yoke-measurement-grid.png"
+}

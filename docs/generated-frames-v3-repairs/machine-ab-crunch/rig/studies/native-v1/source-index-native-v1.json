@@ -1,0 +1,164 @@
+{
+  "id": "machine-ab-crunch",
+  "sourceKind": "reviewed-png-loop",
+  "frameCount": 36,
+  "fps": 12,
+  "cycle": "ping-pong",
+  "generator": "scripts/render-machine-ab-crunch.py",
+  "generatorSha256": "30ae4863f55b732ea4069585b7af0490d0593c8e8779c2a4f7559ee26f18dad1",
+  "parameters": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/parameters.json",
+  "inputs": {
+    "docs/generated-frames-v3-repairs/machine-ab-crunch/sheet-hardware-clean-v2.png": "a9766bdb9d3ba6654b6a46bfb6abc639b6f5ffa4a68b1aa322080d84a796e549",
+    "docs/generated-frames-v3-repairs/machine-ab-crunch/clean-lowerbody-machine-v2.png": "5ee5661448225c53d2618decc5e44a2b377e01963d2227426a240a5a083cc685",
+    "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition-review.json": "eb8c3448a7088bd239ddb9067e3840ae99e9eda88f79bdfe83ce5e853e12e4be",
+    "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/index.json": "111a7c0dc3a46d4f0c55abec479cbd27550250b800c0d90c14cc686fe621cce9",
+    "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/canonical-machine-lowerbody.png": "69cea66f3081d1dc5e856984a786aa1b7e67b304a33b3799f4fd740296ccb469"
+  },
+  "sourceFrames": [
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0001.png",
+      "sha256": "8b1bc9d1237119bfc5f3b18fb1ef79c5139bd04925ef22bc476b29ef1f4619b6"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0002.png",
+      "sha256": "e933d389e5681992568c5d7eaf439cbbeeb027ce63dd0546da0f47d6035c0331"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0003.png",
+      "sha256": "060f864380069909bed7293e4164ada4dd6d911b4d21624a01e15eff4c53f046"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0004.png",
+      "sha256": "2b8271716d4011b9a3056ace6ef3d5c27500f9bd637462a458947551996c5062"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0005.png",
+      "sha256": "23b4d88be2c79fd82fb99674417cff77746ba4086468d8271fea65d752b97666"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0006.png",
+      "sha256": "a524c7bbf8b85ad32bca5eef982481855393c45d1438ef2ffc0bb71b7cb0796d"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0007.png",
+      "sha256": "95f8834054b7cb2c6b387970bcb78f6efbe1c1edb828757dd7629632fefda5f2"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0008.png",
+      "sha256": "d06e517fb9a9f4803e75dee3ee4c09361d400f3915a460bcfd379d1b7f9c223c"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0009.png",
+      "sha256": "5d622c44a272d37d236721cb89172a09571ece56555acc72217261ceb11a6c70"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0010.png",
+      "sha256": "2426a02d6f30bf3c0c69206dd3b5310bbf1529c64c37a77ec7748c19ffe57150"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0011.png",
+      "sha256": "9e1c63b541e61f84c3540a220299dcd893b7ffa207ca6a76cde7fd1f9deb7d78"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0012.png",
+      "sha256": "20950cc62a1e5776fc883803f0460bc6f39c171752085377fa8529addde2cee2"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0013.png",
+      "sha256": "e9c65d87b5d833e7bedbddc7b7120e0676490da5cc0fcca4e479d85a99c31c27"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0014.png",
+      "sha256": "b541cde20e17c3e2425bc5beae6188c6b4614182212c546e616c29ff036f8409"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0015.png",
+      "sha256": "8e4fb985db62a1a7382ce3f61b6a8f0cd082a2cf506075b79d673dae95372fe6"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0016.png",
+      "sha256": "06f5fc5c4644956b840f90c2df238c0de5560e41c81254de410b13d7ad6f822e"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0017.png",
+      "sha256": "c58072276c7be186c6e2f261f87720be4d1f7a88acd74a1ad626e0505ea16e8b"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0018.png",
+      "sha256": "cbda6d5909725061efd35fc6087de7fad4a3b1731372c9cdf38d134d690508bb"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0019.png",
+      "sha256": "7f37f00a943483d41f35804d384ad6d9981e76a71895316ab80e1c059eea51b4"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0020.png",
+      "sha256": "cbda6d5909725061efd35fc6087de7fad4a3b1731372c9cdf38d134d690508bb"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0021.png",
+      "sha256": "c58072276c7be186c6e2f261f87720be4d1f7a88acd74a1ad626e0505ea16e8b"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0022.png",
+      "sha256": "06f5fc5c4644956b840f90c2df238c0de5560e41c81254de410b13d7ad6f822e"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0023.png",
+      "sha256": "8e4fb985db62a1a7382ce3f61b6a8f0cd082a2cf506075b79d673dae95372fe6"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0024.png",
+      "sha256": "b541cde20e17c3e2425bc5beae6188c6b4614182212c546e616c29ff036f8409"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0025.png",
+      "sha256": "e9c65d87b5d833e7bedbddc7b7120e0676490da5cc0fcca4e479d85a99c31c27"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0026.png",
+      "sha256": "20950cc62a1e5776fc883803f0460bc6f39c171752085377fa8529addde2cee2"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0027.png",
+      "sha256": "9e1c63b541e61f84c3540a220299dcd893b7ffa207ca6a76cde7fd1f9deb7d78"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0028.png",
+      "sha256": "2426a02d6f30bf3c0c69206dd3b5310bbf1529c64c37a77ec7748c19ffe57150"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0029.png",
+      "sha256": "5d622c44a272d37d236721cb89172a09571ece56555acc72217261ceb11a6c70"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0030.png",
+      "sha256": "d06e517fb9a9f4803e75dee3ee4c09361d400f3915a460bcfd379d1b7f9c223c"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0031.png",
+      "sha256": "95f8834054b7cb2c6b387970bcb78f6efbe1c1edb828757dd7629632fefda5f2"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0032.png",
+      "sha256": "a524c7bbf8b85ad32bca5eef982481855393c45d1438ef2ffc0bb71b7cb0796d"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0033.png",
+      "sha256": "23b4d88be2c79fd82fb99674417cff77746ba4086468d8271fea65d752b97666"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0034.png",
+      "sha256": "2b8271716d4011b9a3056ace6ef3d5c27500f9bd637462a458947551996c5062"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0035.png",
+      "sha256": "060f864380069909bed7293e4164ada4dd6d911b4d21624a01e15eff4c53f046"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/frames/frame_0036.png",
+      "sha256": "e933d389e5681992568c5d7eaf439cbbeeb027ce63dd0546da0f47d6035c0331"
+    }
+  ],
+  "reviewStatus": "candidate: inspect all19actual composites, old shaft/cap disappearance, actor edges and pants before release"
+}

@@ -1,6 +1,6 @@
 {
   "name": "gymrook",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "description": "Guia de treino ABCD estático, com piloto visual e acesso offline.",
   "scripts": {

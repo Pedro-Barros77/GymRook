@@ -1,0 +1,57 @@
+{
+  "reviewer": "legs_round3 independent read-only review",
+  "scope": "Native one-DOFScott machine19forward contact plus full512frames1/10/19. No native-rate player observation.",
+  "verdict": "PASS raster/topology/grip review; no blocking leftover forearm, floating grip or axis mismatch visible.",
+  "frameSha256": [
+    "2b350ff5f10d75e72bd2aa3833792bd2a3d4dd7377ccb12dbf9f790bfa67c1df",
+    "79babebc8b65cb6ab79a8d90b08462c0d457e732e5c834592764df5e24ccf147",
+    "1edf4116c8b59503c6e9cba6d6c9f5eae018fe6f43254ecb7f833c9ce756a2e3",
+    "ee395ad90645177531d9184a6c760985bec325b9cc7bcb4bf1b6615cab976949",
+    "cd09085a93e1498201ed139c7db147c35410be76b35d83e4d4384b5fce27d428",
+    "da94e5f70041a9a33ce217224476c19cc63ba1d8720ec65d3d13bd5749b0540d",
+    "d62463c4cc1647cc1926a83ccda85d55617b58d55dccbc7a39c50d1950215993",
+    "eb1ba86ea09d46aa9dc77ea7c104764eb8cadedc8de5919371f236dc5f9bba31",
+    "210bb182d935310903212bd06c5234f43b18a2f4a3e11f526d74af155cb0eb36",
+    "4f6db07de4e55cbdfac0ad2bb37116b31f441c16c81217482b6a3ebadd074d45",
+    "8d833d856937e5ea55b4eb52c46b2a4263067651281ffe2718b5c4f3f5c9a87e",
+    "c9b32319acd112e6cecc06ac7c9c425c93b3fd25fb4986ad764116de5ea32f45",
+    "49f4dbef887038615c708730f703ac7be8fc56f260c1439a33b189e0a63cb4bd",
+    "17837bcbf2ede75926669fa987f358018c36d7fd4d71fec62ad3d44dfffe172d",
+    "65988bcae17354aba48931ed16387e5964107fc80039063ce9bc5f9c591b0e68",
+    "be87fc9ed5cca2cd2c1a0fb16659095c0b9516f50020b3c3125c9b8db2eb40db",
+    "9264d89d5b66a58fcd262c131b318d649c8865a5c4a68e5b4d3b582b8b871c31",
+    "45f2ddda7996fef55bbcd1dd28917721f6d80afac7ae6cc95ee18c924e8c307d",
+    "aec465cebd6c0684e0dfe03b4b5dbc0d9b29d916c73ddf13925b7ca7183ab732"
+  ],
+  "findings": [
+    "Fixed elbow pivot atapproximately(291,202) stays inside the visible elbow region, adjacent to upperarm support inall19poses.",
+    "Upper arms remain on fixed angled pad; forearm cutouts originate at the same supported elbow region and do not slide off the pad.",
+    "At peak and middle, the old downward forearm/hand positions are cleanly removed; no extra forearm branch or oldhand remains in the vacated background.",
+    "Two generated forearms/hands overlap plausibly in near-side projection. At top both fists are distinguishable; no third fist or detached wrist.",
+    "Blackgrips remain inside closed hands, operatinglever stays under the forearms and ends at the gripped crossbar; no visible air gap.",
+    "Thefixeddiagonalaxlesupport connectsthereartower mounttoelbowaxis, while onlytheforward lever/forearms rotate. Seatpost, floorframe and tower remain one supported unit.",
+    "Skintexture and forearm silhouettes stay rigid under rotation rather than RIFE morphing."
+  ],
+  "approxCoordinates512": {
+    "elbowPivot": [
+      291,
+      202
+    ],
+    "towerSupportMount": [
+      150,
+      268
+    ],
+    "initialGrip": [
+      384,
+      239
+    ],
+    "peakGrip": [
+      340,
+      116
+    ]
+  },
+  "limits": [
+    "Elbow-axis placement is a visual anatomical approximation, not bone-center certification.",
+    "Grip perspective supports machine-specific neutral position; do not infer an exact supinated grip from the view."
+  ]
+}

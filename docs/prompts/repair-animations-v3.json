@@ -1,0 +1,582 @@
+{
+  "date": "2026-11-07",
+  "mode": "builtin image_gen; referenced local sources inspected before editing",
+  "config": {
+    "file": "docs/generated-frames-v3-repairs/config.json",
+    "sha256": "2cc023b392e58859767caa7f475597ae3844586f27df2cc799a69edcb09699c0"
+  },
+  "notes": [
+    "Source prompts are retained per exercise, including rejected studies. Selection is explicit in the final configuration.",
+    "Intermediate frames use local Practical-RIFE or native rigid raster composition; image_gen did not independently generate every final frame.",
+    "Alternating lunge inherits its earlier image_gen source sheet, with new timing and reviewed reversible returns."
+  ],
+  "promptFiles": [
+    {
+      "file": "docs/generated-frames-v3-repairs/dumbbell-stiff-leg-deadlift/prompt-v1.json",
+      "sha256": "eabaed5df2b1961a87b8f1184ec119264234ee08760171d85866f69db345dade"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/dumbbell-stiff-leg-deadlift/prompt-v2.json",
+      "sha256": "2e2a2a53a12f2489c7bad8aca3cb61ed753ee2eb6409da8b21073244a197c9c9"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/hack-squat/prompt-v1.json",
+      "sha256": "89c39c51626d6f9a6e5f6933a9ce6372e0805749326fdcb8c528e8e96d3953c2"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/incline-dumbbell-press/prompt-v1.json",
+      "sha256": "c7b1ba7e9da57b108e922f56dbbcdaa37fde5001bc461a974b5e77a2fd917dd0"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/incline-dumbbell-press/prompt-v2.json",
+      "sha256": "3388a6fd07066cbce398f30abe4e7162607bf3cd07a18c3e57583ceaf5db97a0"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/leg-extension/prompt-v1.json",
+      "sha256": "08bc39c4aef29eb0d468263d23951b90ba4782a1e8f11557193080bf7708b8a2"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/legs-prompt-index.json",
+      "sha256": "c734da32b4c1ce6f16f7baf630e84ebeaed5d2b0acab69bc6df92e7c859923c9"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/prompt-v1.json",
+      "sha256": "eb7d77b52013c37398b3d13ede6d1eb78c0aa153b07bd2600140cd0e37bba87e"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/prompt-v2.json",
+      "sha256": "afd72d6f05b9cc20b5e5a97ed445161b147046dea32248a6837f6f615b653e19"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/prompt-v3.json",
+      "sha256": "50c6e401b5b7de78739ef6f846b6235d74f91a6dc7314641c441a6d83086fc73"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/clean-base-v1-prompt.json",
+      "sha256": "ad5b8634b7bd109a3865c96e00c73e904b6f38346bee456d79cceb3b7a82274d"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/lower-leg-sprite-v1-prompt.json",
+      "sha256": "872a8983c1c7001a4e4eb7d0958aa2d8f0d41465b6fa4ee2e32a28bd6a95dbd4"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/original-leg-sprite-v2-prompt.json",
+      "sha256": "ba6eb913d96ee9045a9f9aaba5ae4b4f0be5a3aa4b994e6c1e0bf3dab31363aa"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/prompt-clean-fixed-machine-v1.json",
+      "sha256": "363bdcaa373c9b9153e9f955ea879cb3665f6db7b22da9a53a472cda0755bcc7"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/prompt-clean-lowerbody-machine-v2.json",
+      "sha256": "953045e6b7674615bc38e67a8093c3a37b3ac4b5afeeefc051b73b0bbfcd0e40"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/prompt-hardware-clean-v2.json",
+      "sha256": "cd17a73a78b5701bb7cd620daf057344b5f1b8c6c5fec3c4bac5c5da14be4107"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/prompt-v1.json",
+      "sha256": "4f8f2d900e799bd040dd4dc0fba35ebe6b51d03b1ffd200211a6ed415fcb345b"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/prompt-v1.json",
+      "sha256": "42df70d077a647c2b4a406686bb3ff2984d9f33596cc02b334286d2e351c2aac"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/prompt-v2.json",
+      "sha256": "cf41380d0d6b29583a49b4a2fd6fe67f3f20676a8283706411293e99ff61cacb"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/prompt-v3.json",
+      "sha256": "58285d082fc1ce2152c8e925265247774b9af4af0204b6eb33a872e391d314f5"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/clean-base-v1-prompt.json",
+      "sha256": "c62feff35feb3fe3cd29125cd80243ccc3cb133056b080c639576d26567d3cec"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/forearm-sprite-v1-prompt.json",
+      "sha256": "a08a385c718e2ecfcedee344b7a6a05bfa176b6cb3289adcd98668e7de616fbd"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/prompt-clean-fixed-machine-v1.json",
+      "sha256": "24f3be897ab5311eda51c81544a831da6343dd57fa30a37ef1ee051d42ef8146"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/prompt-clean-head-v2.json",
+      "sha256": "c131f0f4711385aa8e9600886f8991fe479481d040117ba324a840534edf4a2c"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/prompt-v1.json",
+      "sha256": "a3e58d91f0ab8391376c8157e02998e180342b9a44e7ec181421ca692f212b52"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/prompt-v2-arms.json",
+      "sha256": "0b13fd85053ba0c310c35b1ae0a51e28dde87f0afe1051c482be995beb7bb607"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/seated-plate-calf-raise/prompt-v1.json",
+      "sha256": "89b2f5a777d055435e8009184a33f82dcbbfd0d3ef91f72c181294711b9a3e64"
+    }
+  ],
+  "selectedExercises": {
+    "incline-dumbbell-press": {
+      "sourceKind": "pose-sheet",
+      "selectedSource": "docs/generated-frames-v3-repairs/incline-dumbbell-press/sheet-v2.png",
+      "sourceSha256": "a2e853b31ebe13858c99d6515023ffd728093f25b583402918a19a4176978b70",
+      "frameCount": 36,
+      "fps": 12,
+      "reviewedInputs": []
+    },
+    "preacher-curl": {
+      "sourceKind": "reviewed-png-loop",
+      "selectedSource": "docs/generated-frames-v3-repairs/preacher-curl/source-index.json",
+      "sourceSha256": "df9282591285c7a2b5c48b0e31db2885d82549f529913c95e4432afe5401240c",
+      "frameCount": 36,
+      "fps": 12,
+      "reviewedInputs": [
+        {
+          "file": "scripts/render-machine-preacher.py",
+          "sha256": "29f320857f16fc22980e79e3eaffd7b1d2216cdb9756bba0efc4353e124b1e1b"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/parameters.json",
+          "sha256": "b96842a65b9c9e9c93e4e84b2fa1aebf586c6f875d64b17e8501c7f3e4b4a19d"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/clean-base-v1.png",
+          "sha256": "d2d4ab74c13f312984840641e30659c0bde205cabdf29891e6f0aceac78390d4"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/preacher-curl/rig/forearm-sprite-v1.png",
+          "sha256": "d46bba5964b179658f91d57f0c236de2cee74c70c585802f5801db5c148edace"
+        }
+      ]
+    },
+    "reverse-pec-deck": {
+      "sourceKind": "pose-sheet",
+      "selectedSource": "docs/generated-frames-v3-repairs/reverse-pec-deck/sheet.png",
+      "sourceSha256": "fa4b4ca1f572710522372b3173302bf4a5dde6083a9c8c23b1ba8ca9e58444ff",
+      "frameCount": 36,
+      "fps": 12,
+      "reviewedInputs": []
+    },
+    "seated-plate-calf-raise": {
+      "sourceKind": "image-keyframes",
+      "selectedSource": "docs/generated-frames-v3-repairs/seated-plate-calf-raise/source-index.json",
+      "sourceSha256": "9d3ca71e42bb141a43ab5a8bbefb8812af8fac8a1e8bd243baaa9d64e752433e",
+      "frameCount": 36,
+      "fps": 12,
+      "reviewedInputs": []
+    },
+    "machine-ab-crunch": {
+      "sourceKind": "reviewed-png-loop",
+      "selectedSource": "docs/generated-frames-v3-repairs/machine-ab-crunch/source-index-native-v3.json",
+      "sourceSha256": "c8e10a74c3a6ff0f249fd4af1be05812b73204d2b7bc1e32796ea038448f1549",
+      "frameCount": 36,
+      "fps": 12,
+      "reviewedInputs": [
+        {
+          "file": "scripts/render-machine-ab-crunch.py",
+          "sha256": "321933d4940fa4329b73f4e1ddc2564ca557532114a466b42ecfa6a64dc9eaa6"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/parameters.json",
+          "sha256": "6470311e2a8272ccb7bd427a4adeee39f4378939d2c29d84b10c4688d51549c4"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/sheet-hardware-clean-v2.png",
+          "sha256": "a9766bdb9d3ba6654b6a46bfb6abc639b6f5ffa4a68b1aa322080d84a796e549"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/clean-lowerbody-machine-v2.png",
+          "sha256": "5ee5661448225c53d2618decc5e44a2b377e01963d2227426a240a5a083cc685"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/static-composition-review.json",
+          "sha256": "eb8c3448a7088bd239ddb9067e3840ae99e9eda88f79bdfe83ce5e853e12e4be"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/index.json",
+          "sha256": "111a7c0dc3a46d4f0c55abec479cbd27550250b800c0d90c14cc686fe621cce9"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/canonical-machine-lowerbody.png",
+          "sha256": "8237da98381ff2393c8b4d09d69576a545e35d8c35169d603395d731baddd7be"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0001.png",
+          "sha256": "930a6cc08f46d74a0fe0a8880ba30c94b9dcc2c58cd20d84821cdc3dab8230b4"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0002.png",
+          "sha256": "8b23f4298a54b55611f5730125289e9bf17c46eb5a642d5a113a2e765bf3cdce"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0003.png",
+          "sha256": "8f07cd281bacc979c3bc755a0c408423761d8466d1a1a1865d773ad9717c9c31"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0004.png",
+          "sha256": "0bfbf73a3878447cb1311194f45f2477b16335b08abc2194242753277c6ddaac"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0005.png",
+          "sha256": "bd9ca2158062f70c484cd024b045f8fa38fb2e60f2f01d8e1bd4126f35c07f31"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0006.png",
+          "sha256": "9073561eeaa2085510768f10f724b2da99789f07a606a33eb291fbc2cbb707e5"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0007.png",
+          "sha256": "26d192d70c38d06703f79f1117a52aeac3265e3c6b61e1b5f92cd5fe46a36d25"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0008.png",
+          "sha256": "09f661b8cfab3c64a3a8e5704142753094b326e95f15180ff42ae1cbdba11fb4"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0009.png",
+          "sha256": "d2e4d74e455faa01ab09b074b4d6ad32f571f18a6c079196815f4c82d2a7dc8c"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0010.png",
+          "sha256": "a0e3b2e11d4df939d37bd660ede9b376eee126406955694ed10af0fc4802eadc"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0011.png",
+          "sha256": "7869bb10114410a9f055182311504085071c1ac6f511bb5b77c8fb2b799960ce"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0012.png",
+          "sha256": "9f34c1df7e34603cade7bd97f6cee0d42c8806ce8b1b56424059718645aaed19"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0013.png",
+          "sha256": "52224288d990071d97fe444fa79f79470cf4667801086d39f0ab917a2bc43673"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0014.png",
+          "sha256": "33334a9d89e858682253be1dde7e2d6ef9861c17cf3e2e0df425961713de4461"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0015.png",
+          "sha256": "f857e66d1925325ac69ab3f743eef2a5c4d648f3b5f0a9b5ccbb1dd72df39b73"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0016.png",
+          "sha256": "25b1fd17ce3bf352d0e01635e86396cb2f51f426a2456505f50f54be334260fd"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0017.png",
+          "sha256": "c9a483c744d264d4fdf280d3024a6d25d06a7e32409cd29639457bf6c59ab382"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0018.png",
+          "sha256": "f7c9369e4460390bd900b4808dbd84d434c4a458c7ab116590d791047e2ed3d6"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0019.png",
+          "sha256": "8d8cf847ccf52461abe3815510fce0e249b8e3a3fda29535ee2c72a5267bf5dd"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0020.png",
+          "sha256": "f7c9369e4460390bd900b4808dbd84d434c4a458c7ab116590d791047e2ed3d6"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0021.png",
+          "sha256": "c9a483c744d264d4fdf280d3024a6d25d06a7e32409cd29639457bf6c59ab382"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0022.png",
+          "sha256": "25b1fd17ce3bf352d0e01635e86396cb2f51f426a2456505f50f54be334260fd"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0023.png",
+          "sha256": "f857e66d1925325ac69ab3f743eef2a5c4d648f3b5f0a9b5ccbb1dd72df39b73"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0024.png",
+          "sha256": "33334a9d89e858682253be1dde7e2d6ef9861c17cf3e2e0df425961713de4461"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0025.png",
+          "sha256": "52224288d990071d97fe444fa79f79470cf4667801086d39f0ab917a2bc43673"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0026.png",
+          "sha256": "9f34c1df7e34603cade7bd97f6cee0d42c8806ce8b1b56424059718645aaed19"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0027.png",
+          "sha256": "7869bb10114410a9f055182311504085071c1ac6f511bb5b77c8fb2b799960ce"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0028.png",
+          "sha256": "a0e3b2e11d4df939d37bd660ede9b376eee126406955694ed10af0fc4802eadc"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0029.png",
+          "sha256": "d2e4d74e455faa01ab09b074b4d6ad32f571f18a6c079196815f4c82d2a7dc8c"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0030.png",
+          "sha256": "09f661b8cfab3c64a3a8e5704142753094b326e95f15180ff42ae1cbdba11fb4"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0031.png",
+          "sha256": "26d192d70c38d06703f79f1117a52aeac3265e3c6b61e1b5f92cd5fe46a36d25"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0032.png",
+          "sha256": "9073561eeaa2085510768f10f724b2da99789f07a606a33eb291fbc2cbb707e5"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0033.png",
+          "sha256": "bd9ca2158062f70c484cd024b045f8fa38fb2e60f2f01d8e1bd4126f35c07f31"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0034.png",
+          "sha256": "0bfbf73a3878447cb1311194f45f2477b16335b08abc2194242753277c6ddaac"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0035.png",
+          "sha256": "8f07cd281bacc979c3bc755a0c408423761d8466d1a1a1865d773ad9717c9c31"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0036.png",
+          "sha256": "8b23f4298a54b55611f5730125289e9bf17c46eb5a642d5a113a2e765bf3cdce"
+        },
+        {
+          "file": "output/repair-animations/candidates/ab-hardware-clean-v2/machine-ab-crunch/frames/frame_0001.png",
+          "sha256": "de7996afb3d7701f9fa9e8deb388bb87b2708670b863512e3154008e22f7bdda"
+        },
+        {
+          "file": "output/repair-animations/candidates/ab-hardware-clean-v2/machine-ab-crunch/frames/frame_0002.png",
+          "sha256": "0e4ca91c31e9450430a91341251c61d020fb5fbca83cd4501afe8037e5102aba"
+        },
+        {
+          "file": "output/repair-animations/candidates/ab-hardware-clean-v2/machine-ab-crunch/frames/frame_0003.png",
+          "sha256": "dcde67a0e15a34082de8e3ad379124e40babc067c0c1a8de363bc84c8e79d193"
+        },
+        {
+          "file": "output/repair-animations/candidates/ab-hardware-clean-v2/machine-ab-crunch/frames/frame_0004.png",
+          "sha256": "68773a13a1b0cfd00a6ad1d67a0a7df6a245f783f9754206821e04b662cbc82a"
+        },
+        {
+          "file": "output/repair-animations/candidates/ab-hardware-clean-v2/machine-ab-crunch/frames/frame_0005.png",
+          "sha256": "90c17aefef39a46ab324640d53ffccb89333a20db03a94623150b12d0b40b248"
+        },
+        {
+          "file": "output/repair-animations/candidates/ab-hardware-clean-v2/machine-ab-crunch/frames/frame_0006.png",
+          "sha256": "499fcf074697bff1c060e8240bfdad5ecbae97236211cef7d7a55cb6095fe5f5"
+        },
+        {
+          "file": "output/repair-animations/candidates/ab-hardware-clean-v2/machine-ab-crunch/frames/frame_0007.png",
+          "sha256": "a16dd5ad88abded7121f3e34a027640fef7013ea43d787188efe15c056aa7187"
+        },
+        {
+          "file": "output/repair-animations/candidates/ab-hardware-clean-v2/machine-ab-crunch/frames/frame_0008.png",
+          "sha256": "72ae230c4eae9b3defbae83f2ca403ad718c0f71c2c3377edd165f57de5e7e4e"
+        },
+        {
+          "file": "output/repair-animations/candidates/ab-hardware-clean-v2/machine-ab-crunch/frames/frame_0009.png",
+          "sha256": "e05bf8f4db897bb518cfc33688f3a185463143dca83e94a1214ced9d7c91a5bf"
+        },
+        {
+          "file": "output/repair-animations/candidates/ab-hardware-clean-v2/machine-ab-crunch/frames/frame_0010.png",
+          "sha256": "25171bd3487c8d926faf24be279f6fb720972ee41d34fda9691f83b69e5e3b8f"
+        },
+        {
+          "file": "output/repair-animations/candidates/ab-hardware-clean-v2/machine-ab-crunch/frames/frame_0011.png",
+          "sha256": "e0078a3e8ddc25962c564b6268ced0ee0d5d2e2274f018a0759e0af4a78da8b4"
+        },
+        {
+          "file": "output/repair-animations/candidates/ab-hardware-clean-v2/machine-ab-crunch/frames/frame_0012.png",
+          "sha256": "c8a02b7b82ca76eab04bd58c33e192cc0e799b4d676f59bf20c8d6311559e4ac"
+        },
+        {
+          "file": "output/repair-animations/candidates/ab-hardware-clean-v2/machine-ab-crunch/frames/frame_0013.png",
+          "sha256": "6d4a4985dc9fbfbe16e3be928520775c57e91dfcc7fa99f37bfd1619457e8219"
+        },
+        {
+          "file": "output/repair-animations/candidates/ab-hardware-clean-v2/machine-ab-crunch/frames/frame_0014.png",
+          "sha256": "94806e5e39e3d67574a1373ad62ebed14f0262ff016eb5a88aa2b432771edf4f"
+        },
+        {
+          "file": "output/repair-animations/candidates/ab-hardware-clean-v2/machine-ab-crunch/frames/frame_0015.png",
+          "sha256": "052fb99ae8fe5b8591ec43d98f5d1a1d7164640d6c61dc578d8ef7a94e63b09c"
+        },
+        {
+          "file": "output/repair-animations/candidates/ab-hardware-clean-v2/machine-ab-crunch/frames/frame_0016.png",
+          "sha256": "24188abf41cdc06cc1f1c66c361bdc4903e107af4632095af89f36b5b89db8ad"
+        },
+        {
+          "file": "output/repair-animations/candidates/ab-hardware-clean-v2/machine-ab-crunch/frames/frame_0017.png",
+          "sha256": "8af5a4971d2f0fa9c9b66af004af45c7154d56d8428e09232c874e6dfa7271a4"
+        },
+        {
+          "file": "output/repair-animations/candidates/ab-hardware-clean-v2/machine-ab-crunch/frames/frame_0018.png",
+          "sha256": "912416f8e6f18745f052103c5d58a8f685186d5c71df3db5f12f6df4ee67d554"
+        },
+        {
+          "file": "output/repair-animations/candidates/ab-hardware-clean-v2/machine-ab-crunch/frames/frame_0019.png",
+          "sha256": "df13bcc88643299b4f81f756d75924121a9c4c337167302f6abd8493b902b2e6"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/actor-masks/actor_0001.png",
+          "sha256": "e84d25c78285a3874a5a7abe739a1fccbd6b74bc44bfd3c0fd8cef33a15861b5"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/actor-masks/actor_0002.png",
+          "sha256": "264f0bf0e5ddc9e29201e2a387bb817dc645d04e22b783612082fc4ba267562b"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/actor-masks/actor_0003.png",
+          "sha256": "68fb270c56f88c7ad6600d70b1958ee16d1140a4ed6fdc033022639fe1a3589b"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/actor-masks/actor_0004.png",
+          "sha256": "f390a0d33f3b632156a1cde4e41cc9e026a353700f9fea2e5560c6e78a87f4a1"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/actor-masks/actor_0005.png",
+          "sha256": "23eb155e369e19dcf31baeb660c2fdd1f0def9bdcb24f7c2aa4de8271fb6b7e0"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/actor-masks/actor_0006.png",
+          "sha256": "853c0693b10c9e32879e4ac8d7712e90b12e20945aa7812c12daaf8cf605191f"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/actor-masks/actor_0007.png",
+          "sha256": "adb473b98e4b91b580fe6b1bb2ef66d69e1540a07f24aa6362d7d4f741a69860"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/actor-masks/actor_0008.png",
+          "sha256": "d96198f81cee01ccb6e40602cfe1fc2aa7b1da2197396edb664b1b7e0e34cfb2"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/actor-masks/actor_0009.png",
+          "sha256": "a3914b613c0914b91f33851acacc012b5289fe31b629f97d05b42a8f91a97d58"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/actor-masks/actor_0010.png",
+          "sha256": "20ec3d3cfaf32c6a8fbeab9e8ed1738919500c27d83f888790b4e9c909072ca3"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/actor-masks/actor_0011.png",
+          "sha256": "a9de911f2938baf2aa27b23d27fc97ed0a2ed1e68a7b5ce658246fcb3fa14d3b"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/actor-masks/actor_0012.png",
+          "sha256": "839147080ae9a58849462b27f33c4945a8fa67a2ecd43af385def42140238d8e"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/actor-masks/actor_0013.png",
+          "sha256": "1a2a3fc2d8c7eed529a69a7dac21836ebeecd582bab1201a2237fcf9b7000a9b"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/actor-masks/actor_0014.png",
+          "sha256": "b8857f343a887551aed4ea9b47f568d6904fec6279f3c82f47ca7c7e82e279d9"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/actor-masks/actor_0015.png",
+          "sha256": "ed00a40cdef6da16f9424a71b08b2b4a0e082e883f8dcea6b8239983f93582de"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/actor-masks/actor_0016.png",
+          "sha256": "36e3eb45a1b6d7a213fea99f17c470a90518dee8b19ce6feecf99b2b587022a1"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/actor-masks/actor_0017.png",
+          "sha256": "62f32917f4f46666a42e592b1b238b13f0ae61f103f5d4dd0802d67a60a8d5d8"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/actor-masks/actor_0018.png",
+          "sha256": "1d9ccfff03366064c0829fb97024fc0747dca473254d2fe18dc410d5a5d1a475"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/actor-masks/actor_0019.png",
+          "sha256": "6f0a40111c146b3b31e0fb2124445d38a7c45a74657aab8ae2c3c81750d87f26"
+        }
+      ]
+    },
+    "leg-extension": {
+      "sourceKind": "pose-sheet",
+      "selectedSource": "docs/generated-frames-v3-repairs/leg-extension/sheet.png",
+      "sourceSha256": "89e900b26a0a05cf4536e1b165f775eab99478b08e56260ccac83b7b97c3fe11",
+      "frameCount": 36,
+      "fps": 12,
+      "reviewedInputs": []
+    },
+    "hack-squat": {
+      "sourceKind": "pose-sheet",
+      "selectedSource": "docs/generated-frames-v3-repairs/hack-squat/sheet.png",
+      "sourceSha256": "a88f904bf48d61184e232d69466a45b583646a4a0ac998108586c013b29ec289",
+      "frameCount": 36,
+      "fps": 12,
+      "reviewedInputs": []
+    },
+    "lying-leg-curl": {
+      "sourceKind": "reviewed-png-loop",
+      "selectedSource": "docs/generated-frames-v3-repairs/lying-leg-curl/rig-v2/source-index-rig.json",
+      "sourceSha256": "9d679ed4390c194bbed86862f1e4cdc7fb0826811541efc5afabe3a9e670fd6b",
+      "frameCount": 36,
+      "fps": 12,
+      "reviewedInputs": [
+        {
+          "file": "scripts/render-lying-leg-curl-rig-v2.py",
+          "sha256": "a67349257a88a57076e7249890d1d5643c3f8d7a923bc989042a4eb2795b8909"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig-v2/parameters.json",
+          "sha256": "8dde9d61fa30c247e2a5f935552ec7d22de04f07b4351786a37e8e14f4e7c5da"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/clean-base-v1-512.png",
+          "sha256": "c27a83f8f0f7f07f58f6c32c47d4ecd618f15af553fe415e792df075340ebe25"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/original-leg-sprite-v2.png",
+          "sha256": "a3aecbd54b327223b85720baa8a68b9d5ff442eebfd82c61e784c180fd5cf503"
+        },
+        {
+          "file": "scripts/render-lying-leg-curl-rig.py",
+          "sha256": "9cbf0116c483d2d0e011bd76a661746cfd55c302a6835d2e9bf93f8c04fe7e27"
+        }
+      ]
+    },
+    "dumbbell-stiff-leg-deadlift": {
+      "sourceKind": "pose-sheet",
+      "selectedSource": "docs/generated-frames-v3-repairs/dumbbell-stiff-leg-deadlift/sheet.png",
+      "sourceSha256": "5d2c48c0984e1960519289828eef2cf5fc77e6f95a86522de0f1aae9306a498f",
+      "frameCount": 36,
+      "fps": 12,
+      "reviewedInputs": []
+    },
+    "alternating-lunge": {
+      "sourceKind": "pose-sheet",
+      "selectedSource": "docs/generated-frames-d-v1/alternating-lunge/sheet.png",
+      "sourceSha256": "840cfa2b2ecda5fe6d3044595c42af0002b80912f740a34e7cd8299ea0dfd674",
+      "frameCount": 72,
+      "fps": 12,
+      "reviewedInputs": [
+        {
+          "file": "docs/generated-frames-v3-repairs/alternating-lunge/timing-v2/study-result.json",
+          "sha256": "1c99ef46dfbd3b6b57b7092fb0a96df789d3e96b70d52d7ffb8effe1a42d3231"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/alternating-lunge/timing-v2/independent-timing-review.json",
+          "sha256": "3ca0edf9ba3a534765d710061a7c4b397eb10bc59210a5a48fe3be52b6f6ab91"
+        },
+        {
+          "file": "docs/generated-frames-v3-repairs/alternating-lunge/timing-v2/actual-foot-comparison.json",
+          "sha256": "d0051f38bc76a2726097e1d308c91599155a8f47160a6ac281261c9ee21052b2"
+        }
+      ]
+    }
+  },
+  "inheritedLungePrompts": "docs/prompts/leg-animations-v1.json"
+}

@@ -1,0 +1,2657 @@
+{
+  "fps": 12,
+  "frameCount": 72,
+  "durationSeconds": 6,
+  "method": "Manual ankle/shoe-collar surface points tracked by LK on actual19forward RGB frames per leg; returns derived only after byte-equality verification.",
+  "limits": "Projected surface points, not anatomical joints or a biomechanical assessment. No native-player playback is claimed.",
+  "baseline": {
+    "folder": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames",
+    "sourceFiles": [
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0001.png",
+        "sha256": "072b7907b541ad63c10a73bb1616f8d4b09ea7c7122648fa97f6ce6cf7a58a0c"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0002.png",
+        "sha256": "d5db8cc30217fe3ee3bf17c829275197fdf7e04a06e1f7f75158a921c8442835"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0003.png",
+        "sha256": "0e1ae8ce5319403920c4651d374fd238dce07e411f35fd5f21fc4d39d6497ebc"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0004.png",
+        "sha256": "d0cdad9ec924fcd6bd24744dce033cf9c1b4fe9160d58d8388426e8da0d539aa"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0005.png",
+        "sha256": "2fc99766e3ec2c5efc3d7e8d5523209e11b4cddb960ec9c5b9a56d6fdc1ea8da"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0006.png",
+        "sha256": "0aeaf15681e14e0987f5fc4712fb98bc68632acf4d6a30ba25992d0b2408a652"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0007.png",
+        "sha256": "c5c1d9b25b686a3ec50411325d6224865a4e7ccf9a07e59903dd756ad5f5f11b"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0008.png",
+        "sha256": "3fef2a5549d359a0cff3db9b6c0eefe55d826e753c0cd22b9832b8f1aba023b8"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0009.png",
+        "sha256": "1b2c4664fbb781c400a69c952affb99d8c47f0bb4acceb8b8c2c42feaa48ddf7"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0010.png",
+        "sha256": "d41913daee973d38a46d503aa8bdce3b4c997ed68db32f41ecf7bc8cedb85a8b"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0011.png",
+        "sha256": "ab36f568bb26417173bcfed9d5e47afd80831b24d5e68333002b7f6916128379"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0012.png",
+        "sha256": "fb34310a6d373188c90ca6377f6d4b8c50c84bd2a395e3efe73554184b575bb8"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0013.png",
+        "sha256": "b5fd04c935d488dcb24fd61c78c7e4b46bbaf57ff85ca10297eb4fb651b2d421"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0014.png",
+        "sha256": "55ebf6a13d249271c1736bc155bc9022412a0f76b013e41fdfae09a216b6471b"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0015.png",
+        "sha256": "eef9998f905e235c5461edc3e1dd66da6202377e8a4807ffdfa3f7c51c273a9f"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0016.png",
+        "sha256": "17bf2b386d8f9eb58fafcc065f7448a485a3350ebd5ed9dda954647e884e5673"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0017.png",
+        "sha256": "1eac2974a036868fc340e749965e2374b828351b8de35baa6354cdd8e04889dd"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0018.png",
+        "sha256": "3ae60de1cdf4fb4d6d2d277cf097ba9f3206c64b7b75c7988cf0f826690e4e7b"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0019.png",
+        "sha256": "8ed843529ecae816bb9b2a6161c6be6ee0fddb360d0a0ce74823d59e287de9a3"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0020.png",
+        "sha256": "3ae60de1cdf4fb4d6d2d277cf097ba9f3206c64b7b75c7988cf0f826690e4e7b"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0021.png",
+        "sha256": "1eac2974a036868fc340e749965e2374b828351b8de35baa6354cdd8e04889dd"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0022.png",
+        "sha256": "17bf2b386d8f9eb58fafcc065f7448a485a3350ebd5ed9dda954647e884e5673"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0023.png",
+        "sha256": "eef9998f905e235c5461edc3e1dd66da6202377e8a4807ffdfa3f7c51c273a9f"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0024.png",
+        "sha256": "55ebf6a13d249271c1736bc155bc9022412a0f76b013e41fdfae09a216b6471b"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0025.png",
+        "sha256": "b5fd04c935d488dcb24fd61c78c7e4b46bbaf57ff85ca10297eb4fb651b2d421"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0026.png",
+        "sha256": "fb34310a6d373188c90ca6377f6d4b8c50c84bd2a395e3efe73554184b575bb8"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0027.png",
+        "sha256": "ab36f568bb26417173bcfed9d5e47afd80831b24d5e68333002b7f6916128379"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0028.png",
+        "sha256": "d41913daee973d38a46d503aa8bdce3b4c997ed68db32f41ecf7bc8cedb85a8b"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0029.png",
+        "sha256": "1b2c4664fbb781c400a69c952affb99d8c47f0bb4acceb8b8c2c42feaa48ddf7"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0030.png",
+        "sha256": "3fef2a5549d359a0cff3db9b6c0eefe55d826e753c0cd22b9832b8f1aba023b8"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0031.png",
+        "sha256": "c5c1d9b25b686a3ec50411325d6224865a4e7ccf9a07e59903dd756ad5f5f11b"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0032.png",
+        "sha256": "0aeaf15681e14e0987f5fc4712fb98bc68632acf4d6a30ba25992d0b2408a652"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0033.png",
+        "sha256": "2fc99766e3ec2c5efc3d7e8d5523209e11b4cddb960ec9c5b9a56d6fdc1ea8da"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0034.png",
+        "sha256": "d0cdad9ec924fcd6bd24744dce033cf9c1b4fe9160d58d8388426e8da0d539aa"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0035.png",
+        "sha256": "0e1ae8ce5319403920c4651d374fd238dce07e411f35fd5f21fc4d39d6497ebc"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0036.png",
+        "sha256": "d5db8cc30217fe3ee3bf17c829275197fdf7e04a06e1f7f75158a921c8442835"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0037.png",
+        "sha256": "072b7907b541ad63c10a73bb1616f8d4b09ea7c7122648fa97f6ce6cf7a58a0c"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0038.png",
+        "sha256": "e4782ec093539ea75097a00e5b26511015c6c7cd80fc60775a4bd98e300cb848"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0039.png",
+        "sha256": "e81af3ae76d58570f9c2345518f394466107ee4242201da87dac3d05b40e3577"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0040.png",
+        "sha256": "ba1d94270cf9ca21cd152030370be53d439a1b466cecaeb06d8851275dfecb85"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0041.png",
+        "sha256": "7a2050e09ec9a1b8d230456997c1dfbc2252e22400f13d9c8b3422367075ee67"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0042.png",
+        "sha256": "8e35af56c1fc2d7b1399c46e5feb8919ca295626d3775c8c448b35f3f03509c1"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0043.png",
+        "sha256": "cc7ceb83e4336e5c8668cba1d01ba2aa9da44e4e85b7db031131aac1b9caba39"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0044.png",
+        "sha256": "7a65b522bafd77b23034f6132ca3fe6c389748e9b16af3e9153b1b80144d012e"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0045.png",
+        "sha256": "1628469aeabf588f5a2f121f84b74151cd0fd2814e88b81780564713ba5a87b9"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0046.png",
+        "sha256": "c1b95c07732285d7c33eb0fa1aec7a42db8ee73fa17af63bd0cf1a97f408193a"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0047.png",
+        "sha256": "94779036cafd62846d3854b13bde2ba86e4ed8914867d678ae3dfabcb36e9f6d"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0048.png",
+        "sha256": "ee27cc74a4970ed89666ce8f0f3473159ed87385c6239d0a88bd84a893c84ca0"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0049.png",
+        "sha256": "72f1c7b660ef2eac5216add04cfb2e30c56fa6ff0e19c7116a23746d886031dd"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0050.png",
+        "sha256": "a341f83a37ab882bc00b1e01c1707703bb52931db772bee8940b8c2d37effa02"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0051.png",
+        "sha256": "20643b495277bc595f162f4a5cd14959ff8b42923cf3186dbcb4887bfb195cbc"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0052.png",
+        "sha256": "287e536bf316e4068d4f866478a6c87db736a0d196841778ddf800afa105a16e"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0053.png",
+        "sha256": "3d5c751c27412cfafb07b222fdcdedc6ac625c02096a483be3f133ba9e1679c4"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0054.png",
+        "sha256": "d469b40af2ff677c1c85e1f7dfce6a51b9161be2a0decb8048ab1a40a5a68fd9"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0055.png",
+        "sha256": "bfe745d97339ebd9f4fca974b7435ab8ed66cf4f21c461d1d328f034edeaf311"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0056.png",
+        "sha256": "d469b40af2ff677c1c85e1f7dfce6a51b9161be2a0decb8048ab1a40a5a68fd9"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0057.png",
+        "sha256": "3d5c751c27412cfafb07b222fdcdedc6ac625c02096a483be3f133ba9e1679c4"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0058.png",
+        "sha256": "287e536bf316e4068d4f866478a6c87db736a0d196841778ddf800afa105a16e"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0059.png",
+        "sha256": "20643b495277bc595f162f4a5cd14959ff8b42923cf3186dbcb4887bfb195cbc"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0060.png",
+        "sha256": "a341f83a37ab882bc00b1e01c1707703bb52931db772bee8940b8c2d37effa02"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0061.png",
+        "sha256": "72f1c7b660ef2eac5216add04cfb2e30c56fa6ff0e19c7116a23746d886031dd"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0062.png",
+        "sha256": "ee27cc74a4970ed89666ce8f0f3473159ed87385c6239d0a88bd84a893c84ca0"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0063.png",
+        "sha256": "94779036cafd62846d3854b13bde2ba86e4ed8914867d678ae3dfabcb36e9f6d"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0064.png",
+        "sha256": "c1b95c07732285d7c33eb0fa1aec7a42db8ee73fa17af63bd0cf1a97f408193a"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0065.png",
+        "sha256": "1628469aeabf588f5a2f121f84b74151cd0fd2814e88b81780564713ba5a87b9"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0066.png",
+        "sha256": "7a65b522bafd77b23034f6132ca3fe6c389748e9b16af3e9153b1b80144d012e"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0067.png",
+        "sha256": "cc7ceb83e4336e5c8668cba1d01ba2aa9da44e4e85b7db031131aac1b9caba39"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0068.png",
+        "sha256": "8e35af56c1fc2d7b1399c46e5feb8919ca295626d3775c8c448b35f3f03509c1"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0069.png",
+        "sha256": "7a2050e09ec9a1b8d230456997c1dfbc2252e22400f13d9c8b3422367075ee67"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0070.png",
+        "sha256": "ba1d94270cf9ca21cd152030370be53d439a1b466cecaeb06d8851275dfecb85"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0071.png",
+        "sha256": "e81af3ae76d58570f9c2345518f394466107ee4242201da87dac3d05b40e3577"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/reference-linear/frames/frame_0072.png",
+        "sha256": "e4782ec093539ea75097a00e5b26511015c6c7cd80fc60775a4bd98e300cb848"
+      }
+    ],
+    "manualInitialSurfacePoints": [
+      [
+        206,
+        450
+      ],
+      [
+        299,
+        450
+      ]
+    ],
+    "tracksPixels": [
+      [
+        [
+          206.0,
+          450.0
+        ],
+        [
+          299.0,
+          450.0
+        ]
+      ],
+      [
+        [
+          208.10939025878906,
+          450.7474670410156
+        ],
+        [
+          293.9453430175781,
+          443.45233154296875
+        ]
+      ],
+      [
+        [
+          211.58038330078125,
+          451.42169189453125
+        ],
+        [
+          287.6562194824219,
+          436.0582275390625
+        ]
+      ],
+      [
+        [
+          214.4776153564453,
+          451.9539794921875
+        ],
+        [
+          281.13458251953125,
+          428.130859375
+        ]
+      ],
+      [
+        [
+          216.88455200195312,
+          451.0684814453125
+        ],
+        [
+          276.32269287109375,
+          421.56268310546875
+        ]
+      ],
+      [
+        [
+          218.07789611816406,
+          452.58953857421875
+        ],
+        [
+          277.24835205078125,
+          418.3515930175781
+        ]
+      ],
+      [
+        [
+          219.53956604003906,
+          454.335693359375
+        ],
+        [
+          277.9994812011719,
+          414.1051330566406
+        ]
+      ],
+      [
+        [
+          221.01719665527344,
+          455.67791748046875
+        ],
+        [
+          278.8917236328125,
+          409.3262634277344
+        ]
+      ],
+      [
+        [
+          222.75193786621094,
+          456.6883544921875
+        ],
+        [
+          279.7364807128906,
+          405.765869140625
+        ]
+      ],
+      [
+        [
+          222.8115997314453,
+          456.43902587890625
+        ],
+        [
+          280.1587219238281,
+          404.76812744140625
+        ]
+      ],
+      [
+        [
+          223.12469482421875,
+          455.677001953125
+        ],
+        [
+          280.6911315917969,
+          403.3869934082031
+        ]
+      ],
+      [
+        [
+          223.37779235839844,
+          454.7951354980469
+        ],
+        [
+          281.6385498046875,
+          402.2672119140625
+        ]
+      ],
+      [
+        [
+          223.4585418701172,
+          454.5444030761719
+        ],
+        [
+          282.3753967285156,
+          401.8403015136719
+        ]
+      ],
+      [
+        [
+          223.41664123535156,
+          454.5545959472656
+        ],
+        [
+          282.55841064453125,
+          403.0198059082031
+        ]
+      ],
+      [
+        [
+          223.3354949951172,
+          454.6487731933594
+        ],
+        [
+          283.3834533691406,
+          404.557373046875
+        ]
+      ],
+      [
+        [
+          223.1750946044922,
+          454.8404235839844
+        ],
+        [
+          283.8676452636719,
+          406.3658142089844
+        ]
+      ],
+      [
+        [
+          222.98216247558594,
+          455.10235595703125
+        ],
+        [
+          284.28619384765625,
+          408.22723388671875
+        ]
+      ],
+      [
+        [
+          222.89013671875,
+          455.2411804199219
+        ],
+        [
+          284.9720153808594,
+          410.0092468261719
+        ]
+      ],
+      [
+        [
+          222.8076934814453,
+          455.2073059082031
+        ],
+        [
+          285.2264404296875,
+          411.1865539550781
+        ]
+      ],
+      [
+        [
+          222.89013671875,
+          455.2411804199219
+        ],
+        [
+          284.9720153808594,
+          410.0092468261719
+        ]
+      ],
+      [
+        [
+          222.98216247558594,
+          455.10235595703125
+        ],
+        [
+          284.28619384765625,
+          408.22723388671875
+        ]
+      ],
+      [
+        [
+          223.1750946044922,
+          454.8404235839844
+        ],
+        [
+          283.8676452636719,
+          406.3658142089844
+        ]
+      ],
+      [
+        [
+          223.3354949951172,
+          454.6487731933594
+        ],
+        [
+          283.3834533691406,
+          404.557373046875
+        ]
+      ],
+      [
+        [
+          223.41664123535156,
+          454.5545959472656
+        ],
+        [
+          282.55841064453125,
+          403.0198059082031
+        ]
+      ],
+      [
+        [
+          223.4585418701172,
+          454.5444030761719
+        ],
+        [
+          282.3753967285156,
+          401.8403015136719
+        ]
+      ],
+      [
+        [
+          223.37779235839844,
+          454.7951354980469
+        ],
+        [
+          281.6385498046875,
+          402.2672119140625
+        ]
+      ],
+      [
+        [
+          223.12469482421875,
+          455.677001953125
+        ],
+        [
+          280.6911315917969,
+          403.3869934082031
+        ]
+      ],
+      [
+        [
+          222.8115997314453,
+          456.43902587890625
+        ],
+        [
+          280.1587219238281,
+          404.76812744140625
+        ]
+      ],
+      [
+        [
+          222.75193786621094,
+          456.6883544921875
+        ],
+        [
+          279.7364807128906,
+          405.765869140625
+        ]
+      ],
+      [
+        [
+          221.01719665527344,
+          455.67791748046875
+        ],
+        [
+          278.8917236328125,
+          409.3262634277344
+        ]
+      ],
+      [
+        [
+          219.53956604003906,
+          454.335693359375
+        ],
+        [
+          277.9994812011719,
+          414.1051330566406
+        ]
+      ],
+      [
+        [
+          218.07789611816406,
+          452.58953857421875
+        ],
+        [
+          277.24835205078125,
+          418.3515930175781
+        ]
+      ],
+      [
+        [
+          216.88455200195312,
+          451.0684814453125
+        ],
+        [
+          276.32269287109375,
+          421.56268310546875
+        ]
+      ],
+      [
+        [
+          214.4776153564453,
+          451.9539794921875
+        ],
+        [
+          281.13458251953125,
+          428.130859375
+        ]
+      ],
+      [
+        [
+          211.58038330078125,
+          451.42169189453125
+        ],
+        [
+          287.6562194824219,
+          436.0582275390625
+        ]
+      ],
+      [
+        [
+          208.10939025878906,
+          450.7474670410156
+        ],
+        [
+          293.9453430175781,
+          443.45233154296875
+        ]
+      ],
+      [
+        [
+          206.0,
+          450.0
+        ],
+        [
+          299.0,
+          450.0
+        ]
+      ],
+      [
+        [
+          210.1847381591797,
+          443.9263610839844
+        ],
+        [
+          297.2725524902344,
+          451.1986083984375
+        ]
+      ],
+      [
+        [
+          215.4937744140625,
+          435.45648193359375
+        ],
+        [
+          295.3113098144531,
+          451.3874816894531
+        ]
+      ],
+      [
+        [
+          220.7139434814453,
+          427.2510681152344
+        ],
+        [
+          293.10565185546875,
+          452.3306884765625
+        ]
+      ],
+      [
+        [
+          223.9842071533203,
+          421.39990234375
+        ],
+        [
+          291.06707763671875,
+          451.9429626464844
+        ]
+      ],
+      [
+        [
+          223.84893798828125,
+          418.65118408203125
+        ],
+        [
+          290.1784973144531,
+          453.3046569824219
+        ]
+      ],
+      [
+        [
+          223.56155395507812,
+          414.66217041015625
+        ],
+        [
+          289.4797058105469,
+          454.4028625488281
+        ]
+      ],
+      [
+        [
+          223.16281127929688,
+          410.6523132324219
+        ],
+        [
+          288.58905029296875,
+          454.786376953125
+        ]
+      ],
+      [
+        [
+          223.044189453125,
+          407.4580078125
+        ],
+        [
+          287.8355712890625,
+          455.5240173339844
+        ]
+      ],
+      [
+        [
+          222.60052490234375,
+          407.292236328125
+        ],
+        [
+          287.82452392578125,
+          455.54803466796875
+        ]
+      ],
+      [
+        [
+          221.653564453125,
+          407.841796875
+        ],
+        [
+          287.95135498046875,
+          455.9934997558594
+        ]
+      ],
+      [
+        [
+          220.67678833007812,
+          409.1998596191406
+        ],
+        [
+          288.0078430175781,
+          456.2427978515625
+        ]
+      ],
+      [
+        [
+          220.10086059570312,
+          410.0139465332031
+        ],
+        [
+          288.0355529785156,
+          456.25689697265625
+        ]
+      ],
+      [
+        [
+          220.01052856445312,
+          411.2962646484375
+        ],
+        [
+          287.9905700683594,
+          456.2239685058594
+        ]
+      ],
+      [
+        [
+          220.02993774414062,
+          412.70660400390625
+        ],
+        [
+          287.949462890625,
+          456.2134094238281
+        ]
+      ],
+      [
+        [
+          219.9793701171875,
+          414.5635681152344
+        ],
+        [
+          287.9214172363281,
+          456.2281799316406
+        ]
+      ],
+      [
+        [
+          219.88290405273438,
+          416.48724365234375
+        ],
+        [
+          287.8957824707031,
+          456.2162170410156
+        ]
+      ],
+      [
+        [
+          219.7545623779297,
+          418.4109802246094
+        ],
+        [
+          287.8676452636719,
+          456.21429443359375
+        ]
+      ],
+      [
+        [
+          219.60025024414062,
+          419.54833984375
+        ],
+        [
+          287.8679504394531,
+          456.1346740722656
+        ]
+      ],
+      [
+        [
+          219.7545623779297,
+          418.4109802246094
+        ],
+        [
+          287.8676452636719,
+          456.21429443359375
+        ]
+      ],
+      [
+        [
+          219.88290405273438,
+          416.48724365234375
+        ],
+        [
+          287.8957824707031,
+          456.2162170410156
+        ]
+      ],
+      [
+        [
+          219.9793701171875,
+          414.5635681152344
+        ],
+        [
+          287.9214172363281,
+          456.2281799316406
+        ]
+      ],
+      [
+        [
+          220.02993774414062,
+          412.70660400390625
+        ],
+        [
+          287.949462890625,
+          456.2134094238281
+        ]
+      ],
+      [
+        [
+          220.01052856445312,
+          411.2962646484375
+        ],
+        [
+          287.9905700683594,
+          456.2239685058594
+        ]
+      ],
+      [
+        [
+          220.10086059570312,
+          410.0139465332031
+        ],
+        [
+          288.0355529785156,
+          456.25689697265625
+        ]
+      ],
+      [
+        [
+          220.67678833007812,
+          409.1998596191406
+        ],
+        [
+          288.0078430175781,
+          456.2427978515625
+        ]
+      ],
+      [
+        [
+          221.653564453125,
+          407.841796875
+        ],
+        [
+          287.95135498046875,
+          455.9934997558594
+        ]
+      ],
+      [
+        [
+          222.60052490234375,
+          407.292236328125
+        ],
+        [
+          287.82452392578125,
+          455.54803466796875
+        ]
+      ],
+      [
+        [
+          223.044189453125,
+          407.4580078125
+        ],
+        [
+          287.8355712890625,
+          455.5240173339844
+        ]
+      ],
+      [
+        [
+          223.16281127929688,
+          410.6523132324219
+        ],
+        [
+          288.58905029296875,
+          454.786376953125
+        ]
+      ],
+      [
+        [
+          223.56155395507812,
+          414.66217041015625
+        ],
+        [
+          289.4797058105469,
+          454.4028625488281
+        ]
+      ],
+      [
+        [
+          223.84893798828125,
+          418.65118408203125
+        ],
+        [
+          290.1784973144531,
+          453.3046569824219
+        ]
+      ],
+      [
+        [
+          223.9842071533203,
+          421.39990234375
+        ],
+        [
+          291.06707763671875,
+          451.9429626464844
+        ]
+      ],
+      [
+        [
+          220.7139434814453,
+          427.2510681152344
+        ],
+        [
+          293.10565185546875,
+          452.3306884765625
+        ]
+      ],
+      [
+        [
+          215.4937744140625,
+          435.45648193359375
+        ],
+        [
+          295.3113098144531,
+          451.3874816894531
+        ]
+      ],
+      [
+        [
+          210.1847381591797,
+          443.9263610839844
+        ],
+        [
+          297.2725524902344,
+          451.1986083984375
+        ]
+      ]
+    ],
+    "speedsPixelsPerSecond": [
+      [
+        26.854901428680634,
+        99.26076162499128
+      ],
+      [
+        42.43043184430856,
+        116.48399991410653
+      ],
+      [
+        35.34867534465746,
+        123.18274113910576
+      ],
+      [
+        30.775849559957386,
+        97.70625310325728
+      ],
+      [
+        23.19971197125554,
+        40.10216956233713
+      ],
+      [
+        27.326125066871295,
+        51.74855434559798
+      ],
+      [
+        23.95483097395238,
+        58.33739430343084
+      ],
+      [
+        24.090758464501427,
+        43.910854792173424
+      ],
+      [
+        3.076410011883234,
+        13.00091396612713
+      ],
+      [
+        9.886055638311472,
+        17.762396887792697
+      ],
+      [
+        11.009611261147468,
+        17.601639370299615
+      ],
+      [
+        3.160974733715094,
+        10.219012016471957
+      ],
+      [
+        0.5174710864821719,
+        14.32341992210807
+      ],
+      [
+        1.4917726039784958,
+        20.939254554139332
+      ],
+      [
+        2.998995612812554,
+        22.465657719415706
+      ],
+      [
+        3.9038081299743945,
+        22.894748814279183
+      ],
+      [
+        1.99867453183505,
+        22.91315486825891
+      ],
+      [
+        1.0695743399550812,
+        14.453820328869204
+      ],
+      [
+        1.0695743399550812,
+        14.453820328869204
+      ],
+      [
+        1.99867453183505,
+        22.91315486825891
+      ],
+      [
+        3.9038081299743945,
+        22.894748814279183
+      ],
+      [
+        2.998995612812554,
+        22.465657719415706
+      ],
+      [
+        1.4917726039784958,
+        20.939254554139332
+      ],
+      [
+        0.5174710864821719,
+        14.32341992210807
+      ],
+      [
+        3.160974733715094,
+        10.219012016471957
+      ],
+      [
+        11.009611261147468,
+        17.601639370299615
+      ],
+      [
+        9.886055638311472,
+        17.762396887792697
+      ],
+      [
+        3.076410011883234,
+        13.00091396612713
+      ],
+      [
+        24.090758464501427,
+        43.910854792173424
+      ],
+      [
+        23.95483097395238,
+        58.33739430343084
+      ],
+      [
+        27.326125066871295,
+        51.74855434559798
+      ],
+      [
+        23.19971197125554,
+        40.10216956233713
+      ],
+      [
+        30.775849559957386,
+        97.70625310325728
+      ],
+      [
+        35.34867534465746,
+        123.18274113910576
+      ],
+      [
+        42.43043184430856,
+        116.48399991410653
+      ],
+      [
+        26.854901428680634,
+        99.26076162499128
+      ],
+      [
+        88.50854045004303,
+        25.23065846979133
+      ],
+      [
+        119.95482276263427,
+        23.64379447729388
+      ],
+      [
+        116.70207053541081,
+        28.786411982745687
+      ],
+      [
+        80.43649801633896,
+        24.901420194666002
+      ],
+      [
+        33.02453596073043,
+        19.511669567836602
+      ],
+      [
+        47.99222885634913,
+        15.620133309625796
+      ],
+      [
+        48.35560819857051,
+        11.636600839530349
+      ],
+      [
+        38.3580863506989,
+        12.653281292829789
+      ],
+      [
+        5.6834718514181075,
+        0.3172352844098985
+      ],
+      [
+        13.138497925467817,
+        5.558024611191156
+      ],
+      [
+        20.07419601546034,
+        3.0674131113211898
+      ],
+      [
+        11.966534890155042,
+        0.37308753625852514
+      ],
+      [
+        15.425950406118602,
+        0.6689659505291842
+      ],
+      [
+        16.92567485192191,
+        0.5092998876364057
+      ],
+      [
+        22.291829951229005,
+        0.3803690762154152
+      ],
+      [
+        23.11311297527083,
+        0.33946469970916393
+      ],
+      [
+        23.13615555434419,
+        0.33843379380582334
+      ],
+      [
+        13.77336109508564,
+        0.9554513541359
+      ],
+      [
+        13.77336109508564,
+        0.9554513541359
+      ],
+      [
+        23.13615555434419,
+        0.33843379380582334
+      ],
+      [
+        23.11311297527083,
+        0.33946469970916393
+      ],
+      [
+        22.291829951229005,
+        0.3803690762154152
+      ],
+      [
+        16.92567485192191,
+        0.5092998876364057
+      ],
+      [
+        15.425950406118602,
+        0.6689659505291842
+      ],
+      [
+        11.966534890155042,
+        0.37308753625852514
+      ],
+      [
+        20.07419601546034,
+        3.0674131113211898
+      ],
+      [
+        13.138497925467817,
+        5.558024611191156
+      ],
+      [
+        5.6834718514181075,
+        0.3172352844098985
+      ],
+      [
+        38.3580863506989,
+        12.653281292829789
+      ],
+      [
+        48.35560819857051,
+        11.636600839530349
+      ],
+      [
+        47.99222885634913,
+        15.620133309625796
+      ],
+      [
+        33.02453596073043,
+        19.511669567836602
+      ],
+      [
+        80.43649801633896,
+        24.901420194666002
+      ],
+      [
+        116.70207053541081,
+        28.786411982745687
+      ],
+      [
+        119.95482276263427,
+        23.64379447729388
+      ],
+      [
+        88.50854045004303,
+        25.23065846979133
+      ]
+    ],
+    "trackingMaxForwardBackwardErrorPixels": 0.6650259494781494,
+    "standingSeam35to36Speed": [
+      26.854901428680634,
+      99.26076162499128
+    ],
+    "standingSeam71to0Speed": [
+      88.50854045004303,
+      25.23065846979133
+    ],
+    "lastThreeTransitionsMaximumSpeed": 119.95482276263427
+  },
+  "candidate": {
+    "folder": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames",
+    "sourceFiles": [
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0001.png",
+        "sha256": "072b7907b541ad63c10a73bb1616f8d4b09ea7c7122648fa97f6ce6cf7a58a0c"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0002.png",
+        "sha256": "412b5a1683663f1f1e67082a38e34779ce0f1200a064430d34c75968ff4eb72e"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0003.png",
+        "sha256": "5c2083908de554556d938ae5b70ecd6d8babc1a131565fccd8048503da975246"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0004.png",
+        "sha256": "bac5cd274314150e8cf8e5ff4968eddcd276de32e32f98df609e2fb5571625a4"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0005.png",
+        "sha256": "0e1ae8ce5319403920c4651d374fd238dce07e411f35fd5f21fc4d39d6497ebc"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0006.png",
+        "sha256": "f0bd0eed56bad5d70031453eaa2e690723cb1050656dfe6c47ba827b08424f1c"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0007.png",
+        "sha256": "0798d46e32fd1c8da16ae15c9f3a72cf1f12bcd9aec77ca2a01506b479f8ea99"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0008.png",
+        "sha256": "d0339211758e0b6abb07dc23b7f319e31d8331b86f2a05f4cc964e179c95863d"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0009.png",
+        "sha256": "2fc99766e3ec2c5efc3d7e8d5523209e11b4cddb960ec9c5b9a56d6fdc1ea8da"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0010.png",
+        "sha256": "9086bb713b29c6403bb74ab32639f1ba966e6f9f67f13c9ed94f88412fea9f7e"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0011.png",
+        "sha256": "76b1722da652e45015db99ea61bd25bda546484be239099b576c2f275373b66f"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0012.png",
+        "sha256": "435e9ff17f748187813754ddb0f06a965e5e28cbc7cc3fa8ec951a7ba1a47d3a"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0013.png",
+        "sha256": "024a101c27b4c03f10253cbf79ef649de6f7e1c349b7841249c12df5c14a23af"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0014.png",
+        "sha256": "2e04ba1787516cc71a8fccf858b3701616daf123af70a61f0cb21af4333a2984"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0015.png",
+        "sha256": "0d1a36af8d82414a7f106feee2444b7e34a33bdaf7a62f0bc3f253b121789967"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0016.png",
+        "sha256": "5f038ca2a35813d83ff38e171b8d3c9fd59a83948319c93bd9c9209d51e8eadc"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0017.png",
+        "sha256": "581339767a12cf55db989299e4c3f57f14642b4452ba92b1d3175b5faef59b76"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0018.png",
+        "sha256": "213c2165c7c92e1f60a633c0ad5735cd3b4dd5a8e6f50cb2a9287890a6f399a3"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0019.png",
+        "sha256": "8ed843529ecae816bb9b2a6161c6be6ee0fddb360d0a0ce74823d59e287de9a3"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0020.png",
+        "sha256": "213c2165c7c92e1f60a633c0ad5735cd3b4dd5a8e6f50cb2a9287890a6f399a3"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0021.png",
+        "sha256": "581339767a12cf55db989299e4c3f57f14642b4452ba92b1d3175b5faef59b76"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0022.png",
+        "sha256": "5f038ca2a35813d83ff38e171b8d3c9fd59a83948319c93bd9c9209d51e8eadc"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0023.png",
+        "sha256": "0d1a36af8d82414a7f106feee2444b7e34a33bdaf7a62f0bc3f253b121789967"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0024.png",
+        "sha256": "2e04ba1787516cc71a8fccf858b3701616daf123af70a61f0cb21af4333a2984"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0025.png",
+        "sha256": "024a101c27b4c03f10253cbf79ef649de6f7e1c349b7841249c12df5c14a23af"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0026.png",
+        "sha256": "435e9ff17f748187813754ddb0f06a965e5e28cbc7cc3fa8ec951a7ba1a47d3a"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0027.png",
+        "sha256": "76b1722da652e45015db99ea61bd25bda546484be239099b576c2f275373b66f"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0028.png",
+        "sha256": "9086bb713b29c6403bb74ab32639f1ba966e6f9f67f13c9ed94f88412fea9f7e"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0029.png",
+        "sha256": "2fc99766e3ec2c5efc3d7e8d5523209e11b4cddb960ec9c5b9a56d6fdc1ea8da"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0030.png",
+        "sha256": "d0339211758e0b6abb07dc23b7f319e31d8331b86f2a05f4cc964e179c95863d"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0031.png",
+        "sha256": "0798d46e32fd1c8da16ae15c9f3a72cf1f12bcd9aec77ca2a01506b479f8ea99"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0032.png",
+        "sha256": "f0bd0eed56bad5d70031453eaa2e690723cb1050656dfe6c47ba827b08424f1c"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0033.png",
+        "sha256": "0e1ae8ce5319403920c4651d374fd238dce07e411f35fd5f21fc4d39d6497ebc"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0034.png",
+        "sha256": "bac5cd274314150e8cf8e5ff4968eddcd276de32e32f98df609e2fb5571625a4"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0035.png",
+        "sha256": "5c2083908de554556d938ae5b70ecd6d8babc1a131565fccd8048503da975246"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0036.png",
+        "sha256": "412b5a1683663f1f1e67082a38e34779ce0f1200a064430d34c75968ff4eb72e"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0037.png",
+        "sha256": "072b7907b541ad63c10a73bb1616f8d4b09ea7c7122648fa97f6ce6cf7a58a0c"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0038.png",
+        "sha256": "164382e3b666e339d1b8e52c37766b31ce2ec91ea5131dad5b96062972e85a59"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0039.png",
+        "sha256": "3c33ce6358fe36edfa92354ed982af58e8a0c38968cc621b52830f6ed9a916b9"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0040.png",
+        "sha256": "6e42036a2e109c799cc6c5d9f3a14198c5c90cedcbcd16dab4ef82df7b396dc1"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0041.png",
+        "sha256": "e81af3ae76d58570f9c2345518f394466107ee4242201da87dac3d05b40e3577"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0042.png",
+        "sha256": "5128a967a6e5d1cabd1b47c0e3bfe5d1c7446263478db3f343577392a6b58522"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0043.png",
+        "sha256": "7315d50beef18eb3376fb2a50c8a00837f1ca6de59c88f70933581f29d9ebb36"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0044.png",
+        "sha256": "0ab0090d4e6f8bc24403e1e9a1d705772f416dd8f5cfb596202723fbae242fe0"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0045.png",
+        "sha256": "7a2050e09ec9a1b8d230456997c1dfbc2252e22400f13d9c8b3422367075ee67"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0046.png",
+        "sha256": "3d7673d2cd131696bcdaa69fac3622d1c813adbc07fac43963cb52111adc93a4"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0047.png",
+        "sha256": "e610e5212c1357c1465e9b1dd75fb492c1545f1ef3b41a0e23d60593d11be5aa"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0048.png",
+        "sha256": "03b7c85a9a9507e6844909f8a7ecf4a4a73d32aa98056ed76ed837a5fa77917f"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0049.png",
+        "sha256": "e2b9d395f3f24e303362a15b907ad8f7bcc4d63465c0d4a081ef6cbc81e68cd1"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0050.png",
+        "sha256": "0b6db5b4381d1b0941db8f3b7cda2312d86d4d207df060e18df7dd202625056c"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0051.png",
+        "sha256": "2f4cac806a96b34a6dd6dce40a57146eff7b05e039a6f7d176b41ca0e1040469"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0052.png",
+        "sha256": "033468307aee8ba5ded8940f7a441b2b0fea3a2806aa5f5443b4d09c751ed417"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0053.png",
+        "sha256": "f3f1f838f40c1ed43bfea5981b0090f84cccb2ff4f13b6d53f6f7595f24d871f"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0054.png",
+        "sha256": "fa99c3ad957d7042871d17a02bff18d512fb6c0a9351d98f17cbe52233338072"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0055.png",
+        "sha256": "bfe745d97339ebd9f4fca974b7435ab8ed66cf4f21c461d1d328f034edeaf311"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0056.png",
+        "sha256": "fa99c3ad957d7042871d17a02bff18d512fb6c0a9351d98f17cbe52233338072"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0057.png",
+        "sha256": "f3f1f838f40c1ed43bfea5981b0090f84cccb2ff4f13b6d53f6f7595f24d871f"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0058.png",
+        "sha256": "033468307aee8ba5ded8940f7a441b2b0fea3a2806aa5f5443b4d09c751ed417"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0059.png",
+        "sha256": "2f4cac806a96b34a6dd6dce40a57146eff7b05e039a6f7d176b41ca0e1040469"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0060.png",
+        "sha256": "0b6db5b4381d1b0941db8f3b7cda2312d86d4d207df060e18df7dd202625056c"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0061.png",
+        "sha256": "e2b9d395f3f24e303362a15b907ad8f7bcc4d63465c0d4a081ef6cbc81e68cd1"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0062.png",
+        "sha256": "03b7c85a9a9507e6844909f8a7ecf4a4a73d32aa98056ed76ed837a5fa77917f"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0063.png",
+        "sha256": "e610e5212c1357c1465e9b1dd75fb492c1545f1ef3b41a0e23d60593d11be5aa"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0064.png",
+        "sha256": "3d7673d2cd131696bcdaa69fac3622d1c813adbc07fac43963cb52111adc93a4"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0065.png",
+        "sha256": "7a2050e09ec9a1b8d230456997c1dfbc2252e22400f13d9c8b3422367075ee67"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0066.png",
+        "sha256": "0ab0090d4e6f8bc24403e1e9a1d705772f416dd8f5cfb596202723fbae242fe0"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0067.png",
+        "sha256": "7315d50beef18eb3376fb2a50c8a00837f1ca6de59c88f70933581f29d9ebb36"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0068.png",
+        "sha256": "5128a967a6e5d1cabd1b47c0e3bfe5d1c7446263478db3f343577392a6b58522"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0069.png",
+        "sha256": "e81af3ae76d58570f9c2345518f394466107ee4242201da87dac3d05b40e3577"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0070.png",
+        "sha256": "6e42036a2e109c799cc6c5d9f3a14198c5c90cedcbcd16dab4ef82df7b396dc1"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0071.png",
+        "sha256": "3c33ce6358fe36edfa92354ed982af58e8a0c38968cc621b52830f6ed9a916b9"
+      },
+      {
+        "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0072.png",
+        "sha256": "164382e3b666e339d1b8e52c37766b31ce2ec91ea5131dad5b96062972e85a59"
+      }
+    ],
+    "manualInitialSurfacePoints": [
+      [
+        206,
+        450
+      ],
+      [
+        299,
+        450
+      ]
+    ],
+    "tracksPixels": [
+      [
+        [
+          206.0,
+          450.0
+        ],
+        [
+          299.0,
+          450.0
+        ]
+      ],
+      [
+        [
+          206.00096130371094,
+          450.0025939941406
+        ],
+        [
+          299.0010681152344,
+          449.9986267089844
+        ]
+      ],
+      [
+        [
+          206.98358154296875,
+          450.7076110839844
+        ],
+        [
+          295.9292907714844,
+          446.1475524902344
+        ]
+      ],
+      [
+        [
+          208.85186767578125,
+          450.75390625
+        ],
+        [
+          292.7601623535156,
+          441.9685974121094
+        ]
+      ],
+      [
+        [
+          211.57733154296875,
+          451.4155578613281
+        ],
+        [
+          287.68377685546875,
+          436.1104431152344
+        ]
+      ],
+      [
+        [
+          213.87371826171875,
+          451.8653869628906
+        ],
+        [
+          282.55938720703125,
+          429.7545166015625
+        ]
+      ],
+      [
+        [
+          215.4383087158203,
+          451.42034912109375
+        ],
+        [
+          279.3191833496094,
+          425.16290283203125
+        ]
+      ],
+      [
+        [
+          216.90484619140625,
+          450.9493713378906
+        ],
+        [
+          276.35675048828125,
+          421.6481628417969
+        ]
+      ],
+      [
+        [
+          216.90463256835938,
+          450.9496154785156
+        ],
+        [
+          276.35675048828125,
+          421.648193359375
+        ]
+      ],
+      [
+        [
+          216.89111328125,
+          450.9565734863281
+        ],
+        [
+          276.35595703125,
+          421.646728515625
+        ]
+      ],
+      [
+        [
+          218.59942626953125,
+          453.33740234375
+        ],
+        [
+          277.496337890625,
+          417.5419921875
+        ]
+      ],
+      [
+        [
+          220.426513671875,
+          455.77777099609375
+        ],
+        [
+          278.70721435546875,
+          410.50750732421875
+        ]
+      ],
+      [
+        [
+          222.678466796875,
+          456.87945556640625
+        ],
+        [
+          279.9310607910156,
+          405.47344970703125
+        ]
+      ],
+      [
+        [
+          223.2243194580078,
+          455.3951721191406
+        ],
+        [
+          281.1219787597656,
+          401.2779541015625
+        ]
+      ],
+      [
+        [
+          223.36953735351562,
+          454.8631591796875
+        ],
+        [
+          282.1949462890625,
+          400.5830993652344
+        ]
+      ],
+      [
+        [
+          223.1046905517578,
+          455.1043395996094
+        ],
+        [
+          283.5386047363281,
+          404.5835876464844
+        ]
+      ],
+      [
+        [
+          222.8274383544922,
+          455.4614562988281
+        ],
+        [
+          284.2557678222656,
+          407.6275329589844
+        ]
+      ],
+      [
+        [
+          222.71548461914062,
+          455.4818115234375
+        ],
+        [
+          284.7781677246094,
+          409.5166320800781
+        ]
+      ],
+      [
+        [
+          222.71543884277344,
+          455.4817810058594
+        ],
+        [
+          284.77935791015625,
+          409.51690673828125
+        ]
+      ],
+      [
+        [
+          222.71548461914062,
+          455.4818115234375
+        ],
+        [
+          284.7781677246094,
+          409.5166320800781
+        ]
+      ],
+      [
+        [
+          222.8274383544922,
+          455.4614562988281
+        ],
+        [
+          284.2557678222656,
+          407.6275329589844
+        ]
+      ],
+      [
+        [
+          223.1046905517578,
+          455.1043395996094
+        ],
+        [
+          283.5386047363281,
+          404.5835876464844
+        ]
+      ],
+      [
+        [
+          223.36953735351562,
+          454.8631591796875
+        ],
+        [
+          282.1949462890625,
+          400.5830993652344
+        ]
+      ],
+      [
+        [
+          223.2243194580078,
+          455.3951721191406
+        ],
+        [
+          281.1219787597656,
+          401.2779541015625
+        ]
+      ],
+      [
+        [
+          222.678466796875,
+          456.87945556640625
+        ],
+        [
+          279.9310607910156,
+          405.47344970703125
+        ]
+      ],
+      [
+        [
+          220.426513671875,
+          455.77777099609375
+        ],
+        [
+          278.70721435546875,
+          410.50750732421875
+        ]
+      ],
+      [
+        [
+          218.59942626953125,
+          453.33740234375
+        ],
+        [
+          277.496337890625,
+          417.5419921875
+        ]
+      ],
+      [
+        [
+          216.89111328125,
+          450.9565734863281
+        ],
+        [
+          276.35595703125,
+          421.646728515625
+        ]
+      ],
+      [
+        [
+          216.90463256835938,
+          450.9496154785156
+        ],
+        [
+          276.35675048828125,
+          421.648193359375
+        ]
+      ],
+      [
+        [
+          216.90484619140625,
+          450.9493713378906
+        ],
+        [
+          276.35675048828125,
+          421.6481628417969
+        ]
+      ],
+      [
+        [
+          215.4383087158203,
+          451.42034912109375
+        ],
+        [
+          279.3191833496094,
+          425.16290283203125
+        ]
+      ],
+      [
+        [
+          213.87371826171875,
+          451.8653869628906
+        ],
+        [
+          282.55938720703125,
+          429.7545166015625
+        ]
+      ],
+      [
+        [
+          211.57733154296875,
+          451.4155578613281
+        ],
+        [
+          287.68377685546875,
+          436.1104431152344
+        ]
+      ],
+      [
+        [
+          208.85186767578125,
+          450.75390625
+        ],
+        [
+          292.7601623535156,
+          441.9685974121094
+        ]
+      ],
+      [
+        [
+          206.98358154296875,
+          450.7076110839844
+        ],
+        [
+          295.9292907714844,
+          446.1475524902344
+        ]
+      ],
+      [
+        [
+          206.00096130371094,
+          450.0025939941406
+        ],
+        [
+          299.0010681152344,
+          449.9986267089844
+        ]
+      ],
+      [
+        [
+          206.0,
+          450.0
+        ],
+        [
+          299.0,
+          450.0
+        ]
+      ],
+      [
+        [
+          206.00279235839844,
+          450.0041198730469
+        ],
+        [
+          298.9999694824219,
+          450.0
+        ]
+      ],
+      [
+        [
+          208.23207092285156,
+          446.0635986328125
+        ],
+        [
+          297.998046875,
+          450.84490966796875
+        ]
+      ],
+      [
+        [
+          211.44480895996094,
+          442.3232727050781
+        ],
+        [
+          297.0109558105469,
+          451.2988586425781
+        ]
+      ],
+      [
+        [
+          215.47369384765625,
+          435.4795837402344
+        ],
+        [
+          295.3064270019531,
+          451.3883972167969
+        ]
+      ],
+      [
+        [
+          219.4535675048828,
+          428.7154235839844
+        ],
+        [
+          293.6351318359375,
+          452.2558288574219
+        ]
+      ],
+      [
+        [
+          221.953857421875,
+          424.4670104980469
+        ],
+        [
+          292.2119445800781,
+          452.01702880859375
+        ]
+      ],
+      [
+        [
+          223.96139526367188,
+          421.4583740234375
+        ],
+        [
+          291.04779052734375,
+          451.8785095214844
+        ]
+      ],
+      [
+        [
+          223.96139526367188,
+          421.4583740234375
+        ],
+        [
+          291.0487976074219,
+          451.87823486328125
+        ]
+      ],
+      [
+        [
+          223.9619903564453,
+          421.46270751953125
+        ],
+        [
+          291.04876708984375,
+          451.8782043457031
+        ]
+      ],
+      [
+        [
+          223.79605102539062,
+          417.7853698730469
+        ],
+        [
+          290.06207275390625,
+          453.4812316894531
+        ]
+      ],
+      [
+        [
+          223.2333984375,
+          411.6648254394531
+        ],
+        [
+          288.685302734375,
+          454.6015319824219
+        ]
+      ],
+      [
+        [
+          222.712158203125,
+          407.5635070800781
+        ],
+        [
+          287.7607421875,
+          455.3539123535156
+        ]
+      ],
+      [
+        [
+          221.37649536132812,
+          407.3187561035156
+        ],
+        [
+          287.9419860839844,
+          456.0435791015625
+        ]
+      ],
+      [
+        [
+          220.52493286132812,
+          408.5662841796875
+        ],
+        [
+          287.97454833984375,
+          456.086181640625
+        ]
+      ],
+      [
+        [
+          220.5179901123047,
+          412.7212829589844
+        ],
+        [
+          287.86859130859375,
+          456.0332336425781
+        ]
+      ],
+      [
+        [
+          220.36314392089844,
+          415.9161376953125
+        ],
+        [
+          287.8302917480469,
+          456.021484375
+        ]
+      ],
+      [
+        [
+          220.2064208984375,
+          417.7654113769531
+        ],
+        [
+          287.8152160644531,
+          455.9314880371094
+        ]
+      ],
+      [
+        [
+          220.20639038085938,
+          417.7654724121094
+        ],
+        [
+          287.81561279296875,
+          455.92999267578125
+        ]
+      ],
+      [
+        [
+          220.2064208984375,
+          417.7654113769531
+        ],
+        [
+          287.8152160644531,
+          455.9314880371094
+        ]
+      ],
+      [
+        [
+          220.36314392089844,
+          415.9161376953125
+        ],
+        [
+          287.8302917480469,
+          456.021484375
+        ]
+      ],
+      [
+        [
+          220.5179901123047,
+          412.7212829589844
+        ],
+        [
+          287.86859130859375,
+          456.0332336425781
+        ]
+      ],
+      [
+        [
+          220.52493286132812,
+          408.5662841796875
+        ],
+        [
+          287.97454833984375,
+          456.086181640625
+        ]
+      ],
+      [
+        [
+          221.37649536132812,
+          407.3187561035156
+        ],
+        [
+          287.9419860839844,
+          456.0435791015625
+        ]
+      ],
+      [
+        [
+          222.712158203125,
+          407.5635070800781
+        ],
+        [
+          287.7607421875,
+          455.3539123535156
+        ]
+      ],
+      [
+        [
+          223.2333984375,
+          411.6648254394531
+        ],
+        [
+          288.685302734375,
+          454.6015319824219
+        ]
+      ],
+      [
+        [
+          223.79605102539062,
+          417.7853698730469
+        ],
+        [
+          290.06207275390625,
+          453.4812316894531
+        ]
+      ],
+      [
+        [
+          223.9619903564453,
+          421.46270751953125
+        ],
+        [
+          291.04876708984375,
+          451.8782043457031
+        ]
+      ],
+      [
+        [
+          223.96139526367188,
+          421.4583740234375
+        ],
+        [
+          291.0487976074219,
+          451.87823486328125
+        ]
+      ],
+      [
+        [
+          223.96139526367188,
+          421.4583740234375
+        ],
+        [
+          291.04779052734375,
+          451.8785095214844
+        ]
+      ],
+      [
+        [
+          221.953857421875,
+          424.4670104980469
+        ],
+        [
+          292.2119445800781,
+          452.01702880859375
+        ]
+      ],
+      [
+        [
+          219.4535675048828,
+          428.7154235839844
+        ],
+        [
+          293.6351318359375,
+          452.2558288574219
+        ]
+      ],
+      [
+        [
+          215.47369384765625,
+          435.4795837402344
+        ],
+        [
+          295.3064270019531,
+          451.3883972167969
+        ]
+      ],
+      [
+        [
+          211.44480895996094,
+          442.3232727050781
+        ],
+        [
+          297.0109558105469,
+          451.2988586425781
+        ]
+      ],
+      [
+        [
+          208.23207092285156,
+          446.0635986328125
+        ],
+        [
+          297.998046875,
+          450.84490966796875
+        ]
+      ],
+      [
+        [
+          206.00279235839844,
+          450.0041198730469
+        ],
+        [
+          298.9999694824219,
+          450.0
+        ]
+      ]
+    ],
+    "speedsPixelsPerSecond": [
+      [
+        0.03319667304687778,
+        0.020877235567000815
+      ],
+      [
+        14.512518559719386,
+        59.113355268138264
+      ],
+      [
+        22.426315559396947,
+        62.93658576962364
+      ],
+      [
+        33.65553156675668,
+        93.0194778241186
+      ],
+      [
+        28.08035431228752,
+        97.97261168680926
+      ],
+      [
+        19.519843330220695,
+        67.43726476253973
+      ],
+      [
+        18.483709651958996,
+        55.16007990008214
+      ],
+      [
+        0.0038928756638432556,
+        0.0003662109375
+      ],
+      [
+        0.182457226548283,
+        0.01999122665618581
+      ],
+      [
+        35.16364345817845,
+        51.12243491082509
+      ],
+      [
+        36.58258117001753,
+        85.65528980219351
+      ],
+      [
+        30.083886963477873,
+        62.168265308747806
+      ],
+      [
+        18.977659419615478,
+        52.33495517975618
+      ],
+      [
+        6.617714462611939,
+        15.33974800925106
+      ],
+      [
+        4.298476772430543,
+        50.6413144540213
+      ],
+      [
+        5.425289020497411,
+        37.52744779297395
+      ],
+      [
+        1.365469977715173,
+        23.519991267200233
+      ],
+      [
+        0.0006601961563959941,
+        0.014657589914201295
+      ],
+      [
+        0.0006601961563959941,
+        0.014657589914201295
+      ],
+      [
+        1.365469977715173,
+        23.519991267200233
+      ],
+      [
+        5.425289020497411,
+        37.52744779297395
+      ],
+      [
+        4.298476772430543,
+        50.6413144540213
+      ],
+      [
+        6.617714462611939,
+        15.33974800925106
+      ],
+      [
+        18.977659419615478,
+        52.33495517975618
+      ],
+      [
+        30.083886963477873,
+        62.168265308747806
+      ],
+      [
+        36.58258117001753,
+        85.65528980219351
+      ],
+      [
+        35.16364345817845,
+        51.12243491082509
+      ],
+      [
+        0.182457226548283,
+        0.01999122665618581
+      ],
+      [
+        0.0038928756638432556,
+        0.0003662109375
+      ],
+      [
+        18.483709651958996,
+        55.16007990008214
+      ],
+      [
+        19.519843330220695,
+        67.43726476253973
+      ],
+      [
+        28.08035431228752,
+        97.97261168680926
+      ],
+      [
+        33.65553156675668,
+        93.0194778241186
+      ],
+      [
+        22.426315559396947,
+        62.93658576962364
+      ],
+      [
+        14.512518559719386,
+        59.113355268138264
+      ],
+      [
+        0.03319667304687778,
+        0.020877235567000815
+      ],
+      [
+        0.059724108918154495,
+        0.0003662109375
+      ],
+      [
+        54.32885274901593,
+        15.727423857510043
+      ],
+      [
+        59.16830417268255,
+        13.03764762195939
+      ],
+      [
+        95.29843052411003,
+        20.482546927720644
+      ],
+      [
+        94.17764596947397,
+        22.59592410960567
+      ],
+      [
+        59.15460026202529,
+        17.316991358569272
+      ],
+      [
+        43.40302562787391,
+        14.068393092371245
+      ],
+      [
+        0.0,
+        0.012526341340200493
+      ],
+      [
+        0.05248998597552054,
+        0.0005179004745018659
+      ],
+      [
+        44.17295684023502,
+        22.588266474940276
+      ],
+      [
+        73.75622320963015,
+        21.29980878710549
+      ],
+      [
+        49.611697491926186,
+        14.304122957415998
+      ],
+      [
+        16.294825881790484,
+        8.55701458254643
+      ],
+      [
+        18.125502444981834,
+        0.6434592956327125
+      ],
+      [
+        49.86005495696975,
+        1.4213990106447558
+      ],
+      [
+        38.383260343661576,
+        0.4807346817587449
+      ],
+      [
+        22.270833769179514,
+        1.0950035881284166
+      ],
+      [
+        0.0008188725503539269,
+        0.01856512478853014
+      ],
+      [
+        0.0008188725503539269,
+        0.01856512478853014
+      ],
+      [
+        22.270833769179514,
+        1.0950035881284166
+      ],
+      [
+        38.383260343661576,
+        0.4807346817587449
+      ],
+      [
+        49.86005495696975,
+        1.4213990106447558
+      ],
+      [
+        18.125502444981834,
+        0.6434592956327125
+      ],
+      [
+        16.294825881790484,
+        8.55701458254643
+      ],
+      [
+        49.611697491926186,
+        14.304122957415998
+      ],
+      [
+        73.75622320963015,
+        21.29980878710549
+      ],
+      [
+        44.17295684023502,
+        22.588266474940276
+      ],
+      [
+        0.05248998597552054,
+        0.0005179004745018659
+      ],
+      [
+        0.0,
+        0.012526341340200493
+      ],
+      [
+        43.40302562787391,
+        14.068393092371245
+      ],
+      [
+        59.15460026202529,
+        17.316991358569272
+      ],
+      [
+        94.17764596947397,
+        22.59592410960567
+      ],
+      [
+        95.29843052411003,
+        20.482546927720644
+      ],
+      [
+        59.16830417268255,
+        13.03764762195939
+      ],
+      [
+        54.32885274901593,
+        15.727423857510043
+      ],
+      [
+        0.059724108918154495,
+        0.0003662109375
+      ]
+    ],
+    "trackingMaxForwardBackwardErrorPixels": 0.9103925824165344,
+    "standingSeam35to36Speed": [
+      0.03319667304687778,
+      0.020877235567000815
+    ],
+    "standingSeam71to0Speed": [
+      0.059724108918154495,
+      0.0003662109375
+    ],
+    "lastThreeTransitionsMaximumSpeed": 59.16830417268255
+  }
+}

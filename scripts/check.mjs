@@ -14,9 +14,11 @@ const nonempty = value => typeof value === 'string' && value.trim().length > 0;
 const stringList = value => Array.isArray(value) && value.length > 0 && value.every(nonempty);
 const legMotionIds = ['leg-extension', 'hack-squat', 'lying-leg-curl', 'dumbbell-stiff-leg-deadlift', 'machine-hip-abduction', 'machine-hip-adduction', 'alternating-lunge'];
 const bcMotionIds = ['machine-shoulder-press', 'dumbbell-lateral-raise', 'cable-front-raise', 'dumbbell-shrug', 'reverse-pec-deck', 'standing-machine-calf-raise', 'seated-plate-calf-raise', 'lat-pulldown', 'unilateral-cable-row', 'seated-cable-row', 'rope-triceps-pushdown', 'dumbbell-lying-triceps-extension', 'bench-dip', 'machine-ab-crunch'];
-const aMotionIds = ['incline-dumbbell-press', 'high-cable-crossover', 'pec-deck', 'push-up', 'cable-biceps-curl', 'preacher-curl', 'reverse-cable-curl', 'floor-crunch', 'reverse-crunch', 'forearm-plank'];
+const aMotionIds = ['incline-dumbbell-press', 'high-cable-crossover', 'pec-deck', 'push-up', 'cable-biceps-curl', 'preacher-curl', 'reverse-cable-curl', 'floor-crunch', 'lying-leg-raise', 'forearm-plank'];
 const pilotIds = [...aMotionIds, ...legMotionIds, ...bcMotionIds];
 const revisedIds = new Set([...aMotionIds, 'lying-leg-curl', 'dumbbell-stiff-leg-deadlift', 'alternating-lunge', 'dumbbell-lateral-raise', 'reverse-pec-deck', 'seated-plate-calf-raise', 'unilateral-cable-row', 'machine-ab-crunch']);
+const repairedIds = new Set(['preacher-curl', 'reverse-pec-deck', 'seated-plate-calf-raise', 'machine-ab-crunch', 'leg-extension', 'hack-squat', 'lying-leg-curl', 'dumbbell-stiff-leg-deadlift', 'alternating-lunge']);
+const followupIds = new Set(['preacher-curl', 'lying-leg-raise', 'standing-machine-calf-raise', 'machine-ab-crunch']);
 async function walk(directory = root) {
   const result = [];
   for (const entry of await readdir(directory, { withFileTypes: true })) {
@@ -72,15 +74,16 @@ function gifFrames(bytes, file) {
 async function checkVideoMedia(id, media, renderManifests) {
   assert(pilotIds.includes(id), `${id}: unexpected motion video`);
   const fps = 12;
-  const frames = id === 'alternating-lunge' ? 48 : 36;
+  const frames = id === 'alternating-lunge' ? 72 : 36;
   const duration = frames / fps;
   assert(['generated-static-hold', 'generated-interpolated'].includes(media.render), `${id}: video must identify its rendering/interpolation source`);
   assert.equal(media.fps, fps, `${id}: motion video has the wrong frame rate`);
   assert.equal(media.frameCount, frames, `${id}: motion cycle has the wrong frame count`);
-  const directory = revisedIds.has(id) ? 'animations-v2' : legMotionIds.includes(id) ? 'animations-d-v1' : 'animations-bc-v1';
-  assert.equal(media.video, `assets/${directory}/${id}.mp4`, `${id}: incorrect video path`);
-  assert.equal(media.gif, `assets/${directory}/${id}.gif`, `${id}: incorrect GIF path`);
-  assert.equal(media.poster, `assets/${directory}/${id}-poster.webp`, `${id}: incorrect poster path`);
+  const directory = followupIds.has(id) ? 'animations-v4' : repairedIds.has(id) ? 'animations-v3' : revisedIds.has(id) ? 'animations-v2' : legMotionIds.includes(id) ? 'animations-d-v1' : 'animations-bc-v1';
+  const mediaId = id;
+  assert.equal(media.video, `assets/${directory}/${mediaId}.mp4`, `${id}: incorrect video path`);
+  assert.equal(media.gif, `assets/${directory}/${mediaId}.gif`, `${id}: incorrect GIF path`);
+  assert.equal(media.poster, `assets/${directory}/${mediaId}-poster.webp`, `${id}: incorrect poster path`);
   const video = await exists(media.video);
   const gif = await exists(media.gif);
   const poster = await exists(media.poster);
@@ -91,7 +94,7 @@ async function checkVideoMedia(id, media, renderManifests) {
   const renders = renderManifests.get(manifestPath);
   assert.equal(renders.preferredFormat, 'MP4', `${id}: motion manifest must prefer MP4`);
   assert.equal(renders.fps, fps, `${id}: motion manifest has the wrong frame rate`);
-  const record = renders.animations.find(animation => animation.id === id);
+  const record = renders.animations.find(animation => animation.id === mediaId);
   assert(record, `${id}: missing motion record`);
   assert.equal(record.frameCount, frames, `${id}: manifest has the wrong frame count`);
   assert.equal(record.fps, fps, `${id}: manifest has the wrong frame rate`);
@@ -135,6 +138,7 @@ async function checkStatic() {
     }
   }
   assert.equal(assigned.size, ids.length, 'Some exercises are not assigned to a workout');
+  assert.notEqual(data.exercises['floor-crunch'].media.video, data.exercises['lying-leg-raise'].media.video, 'Supra and infra must demonstrate different movements');
   const pilots = [];
   const renderManifests = new Map();
   for (const [id, exercise] of Object.entries(data.exercises)) {

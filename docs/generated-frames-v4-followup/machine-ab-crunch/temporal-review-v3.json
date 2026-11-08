@@ -1,0 +1,48 @@
+{
+  "id": "machine-ab-crunch",
+  "verdict": "PASS",
+  "scope": "Source-owner actual raster temporal review: all19forward enlarged crops in4groups,18transition onions in3groups, full1/10/19. No native browser playback or clinical certification claimed.",
+  "sourceSha256": "f63bc75ce407a58e9ebf1fa39aea79b7402093089cf32397c2170c1107b2bcb2",
+  "frameDigestBin32": "f0fcb5c8fc355431ef6a27d4445d060981096720c4943bc0e17618da11362c6e",
+  "compositionIndexSha256": "bb773a85e174acc5a29afe7101e868ddd922f2a2069c07f2e6ab7875ed51039c",
+  "checks": [
+    "Hands hold high grips alongside neck/shoulders, both move with connected overhead work arm.",
+    "Visible spinal flexion/abdominal shortening; pelvis remains seated and legs supported.",
+    "Tower, bearing housing, seat/lumbar support and floor chassis remain stable. Occlusion reveals the fixed pad rather than translating it.",
+    "No old arm fragment along tower edge, no clean-plate patch on legs or skin/hand clipping.",
+    "All36candidate PNG bytes match actual PIL composite from preserved RIFEframes, canonical machine plate and per-frame masks.",
+    "Skin/hair opaque selected cores remain exactly rawRIFE; lowerbody/feet belowy305 remain exactly source0;17return copies exact."
+  ],
+  "limits": [
+    "Moving overhead work arm is generated/interpolated raster perspective, not a certified3D rigid mechanism.",
+    "Projected apparent radii are documented in geometry-review.json and do not prove3D validity.",
+    "Generated exercise illustration remains subject to practical review by the user/professional."
+  ],
+  "independentReview": {
+    "file": "docs/generated-frames-v4-followup/machine-ab-crunch/independent-scott-review-v3.json",
+    "sha256": "dba3c4ee506330f1256115195d776f7d4b1c5fdae761a76b11641da96d2c4e91"
+  },
+  "rootGate": "ROOT visually approved same final V3 and authorized import/encode after owner plus independent PASS.",
+  "frozenInputs": [
+    {
+      "file": "docs/generated-frames-v4-followup/machine-ab-crunch/source-review.json",
+      "sha256": "41886a40cc540b56b351c161e98d9332a84cda23a7fa12d4d120fadd7cac8132"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/machine-ab-crunch/geometry-review.json",
+      "sha256": "3b71da868f4e0f59f6f7d45b417b8bec899799e4a46d1ca7b5ac73eafd192c15"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v3/composition-index.json",
+      "sha256": "bb773a85e174acc5a29afe7101e868ddd922f2a2069c07f2e6ab7875ed51039c"
+    },
+    {
+      "file": "scripts/compose-ab-high-handles.py",
+      "sha256": "0d974e992507bca5c479d6de20931418127b0edabd3f10959cc3a86240eaab84"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/machine-ab-crunch/clean-equipment-v1.png",
+      "sha256": "0052a2aef0d43f3c8ec32d1615c08dc7c4dc6fe12df945c5b6a1bbd88b79accb"
+    }
+  ]
+}

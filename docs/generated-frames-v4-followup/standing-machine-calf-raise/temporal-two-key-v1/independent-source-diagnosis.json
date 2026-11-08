@@ -1,0 +1,56 @@
+{
+  "id": "standing-machine-calf-raise",
+  "scope": "Independent visual source diagnosis and isolated two-original-key RIFE study. No active config or published media changed.",
+  "ninePoseSheet": {
+    "verdict": "REJECT",
+    "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/sheet-v1.png",
+    "sha256": "2a31fb2176c2c1cace7ad4db919dec2c7da9ff0bedb5ccaa7735422b8e297dfc",
+    "findings": [
+      "Compared full source cell00 and07 against original start-v2/end-v1.",
+      "Cell07 flexes knees visibly while the upper body rises too little relative to the heels; shin becomes more vertical under a still-diagonal thigh.",
+      "This additional bending is an execution compensation and should not be accepted merely because fixed machine RGB can be stabilized.",
+      "No exact3D knee angle or bone length was inferred from the single projection."
+    ]
+  },
+  "twoOriginalKeys": {
+    "bodySourceVerdict": "PREFER FOR CANONICAL CANDIDATE",
+    "overallExportVerdict": "PENDING FEET/GHOST AND MACHINE QA",
+    "sourceIndex": {
+      "file": "output/followup-round4/calf-two-key-study/source-index.json",
+      "sha256": "032c9fab07df958f372708c7a9bcb1c20a0cdba54b4c007a2958d1a5c85d667f"
+    },
+    "viewed": [
+      "Full frame1",
+      "Full frame10",
+      "Full frame19",
+      "19 knees/ankles crops",
+      "18 fullbody transition onions",
+      "Actual feet8-12 pixel crops without onion blending"
+    ],
+    "findings": [
+      "Torso/head now rise along the carriage with the heel lift; the added knee-folding compensation of the9pose grid is absent.",
+      "The inherited original soft knee position is broadly maintained, with consistent visible thigh/calf volume.",
+      "No head clipping in final original or studied frames; top head margin remains about7pixels in512 image.",
+      "Confirmed separate pale sole remnant under the far heel around frame10. This is an actual RIFE occlusion artifact, not a diagnostic onion ghost.",
+      "Machine rails/weight plates are still raw interpolated pixels, pending the renderer canonical/rigid hardware pass."
+    ],
+    "recommendation": "Use these two original body keys for the next candidate, but repair false sole fragment(s) with reviewed contour matte and background or a corrected intermediate feet-only key before export.",
+    "fps": 12,
+    "frameCount": 36,
+    "return17CopiesExact": true,
+    "registrationPixels": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "criticalFeetEvidence": {
+      "file": "output/followup-round4/calf-two-key-study/feet8-12-native-pixel-crops.png",
+      "sha256": "c45e894662ada2a364ea718f8f2e0463aa00d9c4f74d37e350d4fa205c494f8f"
+    }
+  }
+}

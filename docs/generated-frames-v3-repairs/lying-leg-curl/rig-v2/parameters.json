@@ -1,0 +1,123 @@
+{
+  "method": "Generated canonical body/machine plus rigidly rotated generated RGBA lower-leg raster; exactly invariant tibia, shoe and roller/lever geometry.",
+  "authorization": "Root explicitly requested planar one-DOF raster-leg study, no human mesh or limb warp.",
+  "base": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/clean-base-v1-512.png",
+  "baseSha256": "c27a83f8f0f7f07f58f6c32c47d4ecd618f15af553fe415e792df075340ebe25",
+  "sprite": "docs/generated-frames-v3-repairs/lying-leg-curl/rig/original-leg-sprite-v2.png",
+  "spriteSha256": "a3aecbd54b327223b85720baa8a68b9d5ff442eebfd82c61e784c180fd5cf503",
+  "sourceKnee": [
+    535.0,
+    652.0
+  ],
+  "sourceAnkle": [
+    187.0,
+    658.0
+  ],
+  "fixedUniformScale": 0.2873136208474131,
+  "sourceAxisCorrectionDegrees": 0.987760399639825,
+  "nearKnee": [
+    160.0,
+    274.0
+  ],
+  "farKnee": [
+    156.0,
+    273.0
+  ],
+  "tibiaRadius": 100.0,
+  "posteriorRollerOffset": [
+    90.0,
+    23.0
+  ],
+  "rollerRadius": 15.0,
+  "leverRadius": 92.89241088485109,
+  "kneeFlexionRangeDegrees": [
+    0,
+    95
+  ],
+  "fps": 12,
+  "frameCount": 36,
+  "supersampling": 4,
+  "contactChecks": [
+    {
+      "frame": 1,
+      "nearCapLegCoreOverlapSupersamplePixels": 0
+    },
+    {
+      "frame": 2,
+      "nearCapLegCoreOverlapSupersamplePixels": 0
+    },
+    {
+      "frame": 3,
+      "nearCapLegCoreOverlapSupersamplePixels": 0
+    },
+    {
+      "frame": 4,
+      "nearCapLegCoreOverlapSupersamplePixels": 0
+    },
+    {
+      "frame": 5,
+      "nearCapLegCoreOverlapSupersamplePixels": 0
+    },
+    {
+      "frame": 6,
+      "nearCapLegCoreOverlapSupersamplePixels": 0
+    },
+    {
+      "frame": 7,
+      "nearCapLegCoreOverlapSupersamplePixels": 0
+    },
+    {
+      "frame": 8,
+      "nearCapLegCoreOverlapSupersamplePixels": 0
+    },
+    {
+      "frame": 9,
+      "nearCapLegCoreOverlapSupersamplePixels": 0
+    },
+    {
+      "frame": 10,
+      "nearCapLegCoreOverlapSupersamplePixels": 0
+    },
+    {
+      "frame": 11,
+      "nearCapLegCoreOverlapSupersamplePixels": 0
+    },
+    {
+      "frame": 12,
+      "nearCapLegCoreOverlapSupersamplePixels": 0
+    },
+    {
+      "frame": 13,
+      "nearCapLegCoreOverlapSupersamplePixels": 0
+    },
+    {
+      "frame": 14,
+      "nearCapLegCoreOverlapSupersamplePixels": 0
+    },
+    {
+      "frame": 15,
+      "nearCapLegCoreOverlapSupersamplePixels": 0
+    },
+    {
+      "frame": 16,
+      "nearCapLegCoreOverlapSupersamplePixels": 0
+    },
+    {
+      "frame": 17,
+      "nearCapLegCoreOverlapSupersamplePixels": 0
+    },
+    {
+      "frame": 18,
+      "nearCapLegCoreOverlapSupersamplePixels": 0
+    },
+    {
+      "frame": 19,
+      "nearCapLegCoreOverlapSupersamplePixels": 0
+    }
+  ],
+  "limits": [
+    "Planar side-profile illustration, not a biomechanical certification.",
+    "Muscle texture is fixed raster art and does not bulge dynamically.",
+    "The generated near-leg texture is duplicated for the mostly hidden far leg with fixed knee offset."
+  ]
+}

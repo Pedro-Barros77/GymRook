@@ -1,0 +1,72 @@
+{
+  "id": "standing-machine-calf-raise",
+  "verdict": "PASS FINAL SCENE",
+  "reviewer": "ab_machine_round4 independent final visual review",
+  "sourceIndexSha256": "5cfd6f9c4a0ef9851e3f875fa70fce56cc748f93d0ff2f9f6767cf9b43223dc6",
+  "frameDigestBin32": "db34a83070dcb00a232a904f5e0a454e1680d6d64f0f39cf87a7786cfd61af57",
+  "scope": "Full1/10/19, all19feet crops,18feet onions,18fullbody onions and direct approved-source-vs-final8/10/12 comparison. No native-browser playback or exact3D certification claimed.",
+  "visualFindings": [
+    "Final apparatus is connected and stable; rails, fixed tower/chassis and forefoot ledge do not shake.",
+    "Single weight block translates upward with the carriage rather than multiplying or stretching.",
+    "Both real shoes remain opaque with continuous toe/sole/heel contours. No material sole clipping or detached old-sole fragment returns in the final matte.",
+    "The calf/ankle skin meets the shoe collars without a cut or hole. The HSV ankle guard did not visibly erase the foot.",
+    "Source-vs-final8/10/12 shows the same approved shoe shape and contact, with canonical hardware behind it; small edge differences are antialias/compositing, not a missing shoe section.",
+    "The white outsole stripe changes width continuously around11-13 as in the accepted input. No detached third sole appears; this limited raster change is accepted visually without asserting3D shoe rigidity.",
+    "Body rises with the heels along the incline; there is no additional squat-like compensation from the rejected9pose sheet.",
+    "Heel-down and heel-up positions are clearly distinct, and the reversed loop returns through the same actual poses."
+  ],
+  "technicalCrossChecks": {
+    "checkedPNGHashes": 36,
+    "return17ByteExact": true,
+    "minimumOpaqueActorPixelsChecked": 40908,
+    "maximumOpaqueActorRGBDifferenceFromApprovedFootMotion": 0,
+    "fixedROIs": {
+      "tower left pillar": [
+        45,
+        90,
+        57,
+        426
+      ],
+      "tower top cap": [
+        48,
+        34,
+        138,
+        55
+      ],
+      "fixed base crossbeam": [
+        165,
+        450,
+        275,
+        456
+      ]
+    },
+    "maximumFixedROIRGBDifferences": {
+      "tower left pillar": 0,
+      "tower top cap": 0,
+      "fixed base crossbeam": 0
+    }
+  },
+  "evidence": [
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/feet19-critical.png",
+      "sha256": "444ff3f27185854e03e458f78fcc3722146c0fc5bd92ba1ead7895cc203e15d3"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/feet18-onions.png",
+      "sha256": "a6cc4b8b0cf8dc0851a677af4ceaab76989c3acbe07e5490f9868c03854fc04b"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/full18-onions.png",
+      "sha256": "bfd54ca8873b80057b3403064791b2320b5f4651474ddcd3861c02741b0c4a50"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/source-vs-final-feet-8-10-12.png",
+      "sha256": "b7215e09828ab361b16db2d4b794effcf5c020b58f973fbf8f0f1e312551cb04"
+    }
+  ],
+  "limits": [
+    "Pixel preservation is an integrity check, not an anatomy or coaching certificate.",
+    "Moving human/shoe silhouettes remain reviewed raster estimates; no complete3D body/shoe model was fitted."
+  ],
+  "rootGate": "ROOT already approved this same final source-index and authorized encoding after this independent PASS."
+}

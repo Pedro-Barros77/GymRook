@@ -1,0 +1,34 @@
+{
+  "id": "lying-leg-raise",
+  "reviewer": "independent scott_round4 agent",
+  "verdict": "PASS visual continuity; final output already exported by renderer",
+  "index": {
+    "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/source-index-native-v2.json",
+    "sha256": "02cd87e16d538c430046a1c2668d6bf33fd56ec2c7e83dcbf6c26285c0eaf8f1"
+  },
+  "reviewed": [
+    "All19full contact poses.",
+    "All19enlarged hip/pelvis crops.",
+    "All18transition onions.",
+    "Full512 frames1,10,19."
+  ],
+  "observations": [
+    "Legs lift together around the hip while head/shoulders/arms stay still.",
+    "The low pose visibly hovers above the mat; the high pose is nearly vertical.",
+    "No old wrist island was seen floating with the legs.",
+    "Muscular thigh/calf proportions remain stable; no sudden leg-length/volume growth or direction flip found.",
+    "Pelvis overlay forms a rounded anchored hip while thigh/shorts flex forward; no obvious hard square cutoff, limb detachment or hand crossing found."
+  ],
+  "technicalChecks": {
+    "frames": 36,
+    "hashErrors": [],
+    "opaqueFixedPixels": 134937,
+    "fixedMaxRGBError": 0,
+    "byteExactReverse17": true
+  },
+  "limits": [
+    "This is a generated raster silhouette rotating in a single plane, not motion capture or complete3D biomechanics.",
+    "Pixel stability does not certify appropriate individual exercise amplitude or muscle activation.",
+    "No native realtime playback or phone test claimed."
+  ]
+}

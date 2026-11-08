@@ -1,0 +1,43 @@
+{
+  "id": "lying-leg-raise",
+  "verdict": "PASS",
+  "reviewer": "ab_machine_round4 independent visual review",
+  "sourceIndexSha256": "02cd87e16d538c430046a1c2668d6bf33fd56ec2c7e83dcbf6c26285c0eaf8f1",
+  "scope": "Actual full frames1/10/19,19hip crops and18transition onions. No claim of native browser playback.",
+  "visualFindings": [
+    "Both legs lift together in side profile; the pose is visibly different from the supra crunch.",
+    "Head, torso, supporting pelvis and hands remain on the mat. Hands do not rotate with the legs.",
+    "Thigh/calf volume and shoe shape remain consistent through the trajectory; the visible proportions do not grow at the upper endpoint.",
+    "Larger fixed pelvis overlay gives a continuous fabric junction without a large wedge, torn seam or body cut.",
+    "No abrupt endpoint/return jump visible in the reviewed transitions."
+  ],
+  "technicalCrossChecks": {
+    "pngHashesMatched": 36,
+    "return17PNGHashesExact": true,
+    "fixedForegroundOpaquePixels": 134937,
+    "maximumFixedForegroundRGBDifference": 0
+  },
+  "evidence": [
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/hip19-critical.png",
+      "sha256": "43ee057a4faad11208ffa4422b024c8cb3ab6189fe8fa468e9c5beaa07ca1046"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/forward18-onions.png",
+      "sha256": "de0e016eade666d0f37163b681df37e32b67834b1eac155e28c40c9124c54d0f"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/technical-study-qa.json",
+      "sha256": "b3ee035c5ced6181c814d96272eb3c7e98e59dbb7732bb21ac72be8fe2faab66"
+    },
+    {
+      "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/independent-scott-review.json",
+      "sha256": "f9fca98e48001062b36c729cabf19c5b52a813f9a48ed4c88aee35382abd0d1a"
+    }
+  ],
+  "historicalCheckClarification": "skin-preservation-check.json is a retained failed early comparison containing2to7pixels from the original resting wrist in the moving mask. technical-study-qa.json records the corrected actual leg-skin scope x<235 and excludes that wrist; this historical check is not reported as a final passing check.",
+  "limits": [
+    "Visual raster continuity and a fixed mask do not certify3D skeletal lengths, clinical anatomy or coaching technique.",
+    "The legs are a textured raster sprite transformed at fixed scale; this review inspected the actual resulting images, not only its parameter invariants."
+  ]
+}

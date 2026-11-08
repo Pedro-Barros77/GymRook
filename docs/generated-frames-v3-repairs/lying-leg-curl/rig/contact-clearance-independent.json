@@ -1,0 +1,100 @@
+{
+  "method": "Nearendcap full disk versus eroded2px opaque near+farleg union; distance fromcap toactual transformed tan-skin mask, excluding shoe. Negative gap is small skin-rim compression, never core crossing.",
+  "frames": [
+    {
+      "frame": 1,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "nearestNearSkinClearancePixels": 1.0
+    },
+    {
+      "frame": 2,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "nearestNearSkinClearancePixels": 1.25
+    },
+    {
+      "frame": 3,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "nearestNearSkinClearancePixels": 1.0
+    },
+    {
+      "frame": 4,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "nearestNearSkinClearancePixels": 1.0
+    },
+    {
+      "frame": 5,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "nearestNearSkinClearancePixels": 1.177520751953125
+    },
+    {
+      "frame": 6,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "nearestNearSkinClearancePixels": 0.9275217056274414
+    },
+    {
+      "frame": 7,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "nearestNearSkinClearancePixels": 0.7282962799072266
+    },
+    {
+      "frame": 8,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "nearestNearSkinClearancePixels": 0.8782958984375
+    },
+    {
+      "frame": 9,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "nearestNearSkinClearancePixels": 1.100006103515625
+    },
+    {
+      "frame": 10,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "nearestNearSkinClearancePixels": 1.0461273193359375
+    },
+    {
+      "frame": 11,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "nearestNearSkinClearancePixels": 1.0782966613769531
+    },
+    {
+      "frame": 12,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "nearestNearSkinClearancePixels": 1.02984619140625
+    },
+    {
+      "frame": 13,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "nearestNearSkinClearancePixels": 1.1775226593017578
+    },
+    {
+      "frame": 14,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "nearestNearSkinClearancePixels": 1.2775211334228516
+    },
+    {
+      "frame": 15,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "nearestNearSkinClearancePixels": 1.25
+    },
+    {
+      "frame": 16,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "nearestNearSkinClearancePixels": 1.25
+    },
+    {
+      "frame": 17,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "nearestNearSkinClearancePixels": 1.25
+    },
+    {
+      "frame": 18,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "nearestNearSkinClearancePixels": 1.5
+    },
+    {
+      "frame": 19,
+      "nearCapUnionCoreOverlapSupersamplePixels": 0,
+      "nearestNearSkinClearancePixels": 1.299224853515625
+    }
+  ]
+}

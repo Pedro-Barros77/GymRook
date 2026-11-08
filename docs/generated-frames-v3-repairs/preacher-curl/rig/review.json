@@ -1,0 +1,64 @@
+{
+  "id": "preacher-curl",
+  "status": "source-rig-reviewed; root and independent legs reviewer accepted anatomy, contact and integrated apparatus",
+  "sourceIndexSha256": "df9282591285c7a2b5c48b0e31db2885d82549f529913c95e4432afe5401240c",
+  "reviewedCanonicalForwardFrames": 19,
+  "byteExactReturn": true,
+  "frameCount": 36,
+  "fps": 12,
+  "nativeGripRadiusMinimum": 94.99999999999997,
+  "nativeGripRadiusMaximum": 95.00000000000003,
+  "twoHandSeparationMinimum": 10.63014581273465,
+  "twoHandSeparationMaximum": 10.63014581273465,
+  "fixedRegions": {
+    "head": {
+      "rectangle": [
+        205,
+        5,
+        290,
+        121
+      ],
+      "maximumAbsoluteRGBDifference": 0
+    },
+    "tower": {
+      "rectangle": [
+        45,
+        0,
+        195,
+        512
+      ],
+      "maximumAbsoluteRGBDifference": 0
+    },
+    "hips_legs_seat_feet": {
+      "rectangle": [
+        0,
+        290,
+        512,
+        512
+      ],
+      "maximumAbsoluteRGBDifference": 0
+    },
+    "torso_back_and_pad": {
+      "rectangle": [
+        195,
+        121,
+        270,
+        277
+      ],
+      "maximumAbsoluteRGBDifference": 0
+    }
+  },
+  "visualChecks": [
+    "The generated clean base contains upper arms and rounded elbow ends only; no hidden original forearm remains below the moving sprites.",
+    "The two generated forearm sprites retain one fixed uniform scale, pivot about two fixed elbow axes, and remain connected through the full20-to110degree elbow-flexion range.",
+    "Native metal operating arm has a constant profile and length; its pivot aligns with the elbow instead of sliding along the machine pad.",
+    "The canonical muscular torso/head, preacher pad, seat, feet and tower do not tremble.",
+    "Opaque selectorized tower contains internal resistance; no exposed stationary stack contradicts the operating arm."
+  ],
+  "limits": [
+    "One side-plane raster limb rig, not a human mesh or exact clinical biomechanics simulation.",
+    "Grip is ergonomic/rotating and appears neutral in profile; user-facing text must match that choice instead of asserting an EZbar.",
+    "Forearm muscle texture is static through the rigid rotation; no dynamic muscle-bulge claim."
+  ],
+  "artMode": "builtin image_gen for canonical clean base and RGBA forearm; local rigid native composition for animation"
+}

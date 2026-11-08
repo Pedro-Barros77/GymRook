@@ -298,7 +298,7 @@ async function assertAllMotionControls(ui) {
   for (const [index, id] of ids.entries()) {
     const media = ui.data.exercises[id].media;
     assert(media && media.fps === 12 && media.render === (media.isometric ? 'generated-static-hold' : 'generated-interpolated'), `${id}: missing 12 fps generated demonstration`);
-    assert.equal(media.frameCount, id === 'alternating-lunge' ? 48 : 36, `${id}: incorrect motion cycle`);
+    assert.equal(media.frameCount, id === 'alternating-lunge' ? 72 : 36, `${id}: incorrect motion cycle`);
     assert(!media.experimental && !media.legacy, `${id}: unexpected comparison version`);
     ui.location.hash = '#exercise/' + id;
     const video = ui.main.querySelector('#demo-video');
@@ -378,7 +378,7 @@ export async function checkUI() {
       if (exercise.media && exercise.media.render !== '3d') assert(!ui.main.querySelector('.media-caption').textContent.includes('3D'), `${id}: generated illustration is mislabeled as a 3D scene`);
       if (exercise.media && !exercise.media.legacy) assert(!ui.main.querySelector('#media-version'), `${id}: no comparison should expose a rejected/absent source`);
       assertSVG(ui.window.GYMROOK_ANATOMY(exercise), id);
-      const svg = ui.main.querySelector('svg');
+      const svg = ui.main.querySelector('.anatomy-card').querySelector('svg');
       assert(svg && svg.getAttribute('viewBox'), `${id}: anatomy map is missing`);
       assert(svg.querySelectorAll('[data-emphasis="primary"]').length > 0, `${id}: primary muscles are not highlighted`);
       assert(svg.querySelectorAll('[data-muscle]').length > 50, `${id}: detailed anatomical regions are missing`);

@@ -1,0 +1,604 @@
+{
+  "pivotPixels": [
+    172.0,
+    277.0
+  ],
+  "operatingArmRadiusPixels": 152.0,
+  "operatingArmMaximumWidthPixels": 24,
+  "angleSource": "atan2 of actual old pad side-cap material point relative to fixed pivot; source point is not treated as a3D joint certificate",
+  "canonicalMachine": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/canonical-machine-lowerbody.png",
+  "rawBodySourceIndex": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/index.json",
+  "review": [
+    {
+      "frame": 1,
+      "angleDegrees": -32.22875743509856,
+      "pivotPixels": [
+        172.0,
+        277.0
+      ],
+      "endpointPixels": [
+        300.5806915945392,
+        195.93825964692095
+      ],
+      "radiusPixels": 152.0,
+      "bodySource": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0001.png",
+      "bodySourceSha256": "930a6cc08f46d74a0fe0a8880ba30c94b9dcc2c58cd20d84821cdc3dab8230b4",
+      "changedOpaqueActorRGBPixels": 0,
+      "cleanupAlignment": {
+        "translationPixels": [
+          0.0,
+          0.0
+        ],
+        "scores": [
+          0.9684988260269165,
+          0.9665970802307129
+        ],
+        "scope": "equipment cleanup only; never applied to athlete RGB"
+      },
+      "actorMask": {
+        "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/actor-masks/actor_0001.png",
+        "sha256": "e84d25c78285a3874a5a7abe739a1fccbd6b74bc44bfd3c0fd8cef33a15861b5"
+      }
+    },
+    {
+      "frame": 2,
+      "angleDegrees": -32.2242876289054,
+      "pivotPixels": [
+        172.0,
+        277.0
+      ],
+      "endpointPixels": [
+        300.5870150594362,
+        195.9482908378589
+      ],
+      "radiusPixels": 151.99999999999994,
+      "bodySource": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0002.png",
+      "bodySourceSha256": "8b23f4298a54b55611f5730125289e9bf17c46eb5a642d5a113a2e765bf3cdce",
+      "changedOpaqueActorRGBPixels": 0,
+      "cleanupAlignment": {
+        "translationPixels": [
+          0.0,
+          0.0
+        ],
+        "scores": [
+          0.9682621359825134,
+          0.9663006663322449
+        ],
+        "scope": "equipment cleanup only; never applied to athlete RGB"
+      },
+      "actorMask": {
+        "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/actor-masks/actor_0002.png",
+        "sha256": "264f0bf0e5ddc9e29201e2a387bb817dc645d04e22b783612082fc4ba267562b"
+      }
+    },
+    {
+      "frame": 3,
+      "angleDegrees": -30.942416699349486,
+      "pivotPixels": [
+        172.0,
+        277.0
+      ],
+      "endpointPixels": [
+        302.36804253369127,
+        198.84519537524474
+      ],
+      "radiusPixels": 152.0,
+      "bodySource": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0003.png",
+      "bodySourceSha256": "8f07cd281bacc979c3bc755a0c408423761d8466d1a1a1865d773ad9717c9c31",
+      "changedOpaqueActorRGBPixels": 0,
+      "cleanupAlignment": {
+        "translationPixels": [
+          0.0,
+          0.0
+        ],
+        "scores": [
+          0.9793254137039185,
+          0.9606420993804932
+        ],
+        "scope": "equipment cleanup only; never applied to athlete RGB"
+      },
+      "actorMask": {
+        "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/actor-masks/actor_0003.png",
+        "sha256": "68fb270c56f88c7ad6600d70b1958ee16d1140a4ed6fdc033022639fe1a3589b"
+      }
+    },
+    {
+      "frame": 4,
+      "angleDegrees": -28.852517751559297,
+      "pivotPixels": [
+        172.0,
+        277.0
+      ],
+      "endpointPixels": [
+        305.13143939545273,
+        203.65138144112797
+      ],
+      "radiusPixels": 152.00000000000003,
+      "bodySource": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0004.png",
+      "bodySourceSha256": "0bfbf73a3878447cb1311194f45f2477b16335b08abc2194242753277c6ddaac",
+      "changedOpaqueActorRGBPixels": 0,
+      "cleanupAlignment": {
+        "translationPixels": [
+          0.0,
+          0.0
+        ],
+        "scores": [
+          0.9810289144515991,
+          0.9612861275672913
+        ],
+        "scope": "equipment cleanup only; never applied to athlete RGB"
+      },
+      "actorMask": {
+        "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/actor-masks/actor_0004.png",
+        "sha256": "f390a0d33f3b632156a1cde4e41cc9e026a353700f9fea2e5560c6e78a87f4a1"
+      }
+    },
+    {
+      "frame": 5,
+      "angleDegrees": -26.101134322900045,
+      "pivotPixels": [
+        172.0,
+        277.0
+      ],
+      "endpointPixels": [
+        308.49886760378746,
+        210.12654380934316
+      ],
+      "radiusPixels": 152.0,
+      "bodySource": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0005.png",
+      "bodySourceSha256": "bd9ca2158062f70c484cd024b045f8fa38fb2e60f2f01d8e1bd4126f35c07f31",
+      "changedOpaqueActorRGBPixels": 0,
+      "cleanupAlignment": {
+        "translationPixels": [
+          0.0,
+          0.0
+        ],
+        "scores": [
+          0.9710893034934998,
+          0.9565030336380005
+        ],
+        "scope": "equipment cleanup only; never applied to athlete RGB"
+      },
+      "actorMask": {
+        "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/actor-masks/actor_0005.png",
+        "sha256": "23eb155e369e19dcf31baeb660c2fdd1f0def9bdcb24f7c2aa4de8271fb6b7e0"
+      }
+    },
+    {
+      "frame": 6,
+      "angleDegrees": -23.457506216729307,
+      "pivotPixels": [
+        172.0,
+        277.0
+      ],
+      "endpointPixels": [
+        311.43804465676936,
+        216.49353999532948
+      ],
+      "radiusPixels": 152.0,
+      "bodySource": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0006.png",
+      "bodySourceSha256": "9073561eeaa2085510768f10f724b2da99789f07a606a33eb291fbc2cbb707e5",
+      "changedOpaqueActorRGBPixels": 0,
+      "cleanupAlignment": {
+        "translationPixels": [
+          0.0,
+          0.0
+        ],
+        "scores": [
+          0.980180025100708,
+          0.9813055992126465
+        ],
+        "scope": "equipment cleanup only; never applied to athlete RGB"
+      },
+      "actorMask": {
+        "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/actor-masks/actor_0006.png",
+        "sha256": "853c0693b10c9e32879e4ac8d7712e90b12e20945aa7812c12daaf8cf605191f"
+      }
+    },
+    {
+      "frame": 7,
+      "angleDegrees": -20.161738282341346,
+      "pivotPixels": [
+        172.0,
+        277.0
+      ],
+      "endpointPixels": [
+        314.68595698031794,
+        224.6099467397593
+      ],
+      "radiusPixels": 152.0,
+      "bodySource": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0007.png",
+      "bodySourceSha256": "26d192d70c38d06703f79f1117a52aeac3265e3c6b61e1b5f92cd5fe46a36d25",
+      "changedOpaqueActorRGBPixels": 0,
+      "cleanupAlignment": {
+        "translationPixels": [
+          0.5,
+          0.0
+        ],
+        "scores": [
+          0.9421788454055786,
+          0.9668610692024231
+        ],
+        "scope": "equipment cleanup only; never applied to athlete RGB"
+      },
+      "actorMask": {
+        "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/actor-masks/actor_0007.png",
+        "sha256": "adb473b98e4b91b580fe6b1bb2ef66d69e1540a07f24aa6362d7d4f741a69860"
+      }
+    },
+    {
+      "frame": 8,
+      "angleDegrees": -17.073281246999723,
+      "pivotPixels": [
+        172.0,
+        277.0
+      ],
+      "endpointPixels": [
+        317.3013646748067,
+        232.37362412609747
+      ],
+      "radiusPixels": 151.99999999999994,
+      "bodySource": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0008.png",
+      "bodySourceSha256": "09f661b8cfab3c64a3a8e5704142753094b326e95f15180ff42ae1cbdba11fb4",
+      "changedOpaqueActorRGBPixels": 0,
+      "cleanupAlignment": {
+        "translationPixels": [
+          0.0,
+          0.0
+        ],
+        "scores": [
+          0.9503806829452515,
+          0.9755884408950806
+        ],
+        "scope": "equipment cleanup only; never applied to athlete RGB"
+      },
+      "actorMask": {
+        "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/actor-masks/actor_0008.png",
+        "sha256": "d96198f81cee01ccb6e40602cfe1fc2aa7b1da2197396edb664b1b7e0e34cfb2"
+      }
+    },
+    {
+      "frame": 9,
+      "angleDegrees": -14.018678729430285,
+      "pivotPixels": [
+        172.0,
+        277.0
+      ],
+      "endpointPixels": [
+        319.4729546471359,
+        240.1797929440396
+      ],
+      "radiusPixels": 152.0,
+      "bodySource": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0009.png",
+      "bodySourceSha256": "d2e4d74e455faa01ab09b074b4d6ad32f571f18a6c079196815f4c82d2a7dc8c",
+      "changedOpaqueActorRGBPixels": 0,
+      "cleanupAlignment": {
+        "translationPixels": [
+          0.0,
+          0.0
+        ],
+        "scores": [
+          0.9749940633773804,
+          0.9887758493423462
+        ],
+        "scope": "equipment cleanup only; never applied to athlete RGB"
+      },
+      "actorMask": {
+        "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/actor-masks/actor_0009.png",
+        "sha256": "a3914b613c0914b91f33851acacc012b5289fe31b629f97d05b42a8f91a97d58"
+      }
+    },
+    {
+      "frame": 10,
+      "angleDegrees": -9.618525674630632,
+      "pivotPixels": [
+        172.0,
+        277.0
+      ],
+      "endpointPixels": [
+        321.863193655343,
+        251.60269330379398
+      ],
+      "radiusPixels": 152.0,
+      "bodySource": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0010.png",
+      "bodySourceSha256": "a0e3b2e11d4df939d37bd660ede9b376eee126406955694ed10af0fc4802eadc",
+      "changedOpaqueActorRGBPixels": 0,
+      "cleanupAlignment": {
+        "translationPixels": [
+          0.0,
+          0.0
+        ],
+        "scores": [
+          0.965229332447052,
+          0.98612380027771
+        ],
+        "scope": "equipment cleanup only; never applied to athlete RGB"
+      },
+      "actorMask": {
+        "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/actor-masks/actor_0010.png",
+        "sha256": "20ec3d3cfaf32c6a8fbeab9e8ed1738919500c27d83f888790b4e9c909072ca3"
+      }
+    },
+    {
+      "frame": 11,
+      "angleDegrees": -5.3301608308382775,
+      "pivotPixels": [
+        172.0,
+        277.0
+      ],
+      "endpointPixels": [
+        323.34274224378316,
+        262.88000105765536
+      ],
+      "radiusPixels": 152.0,
+      "bodySource": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0011.png",
+      "bodySourceSha256": "7869bb10114410a9f055182311504085071c1ac6f511bb5b77c8fb2b799960ce",
+      "changedOpaqueActorRGBPixels": 0,
+      "cleanupAlignment": {
+        "translationPixels": [
+          0.0,
+          0.0
+        ],
+        "scores": [
+          0.9830611348152161,
+          0.9738531708717346
+        ],
+        "scope": "equipment cleanup only; never applied to athlete RGB"
+      },
+      "actorMask": {
+        "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/actor-masks/actor_0011.png",
+        "sha256": "a9de911f2938baf2aa27b23d27fc97ed0a2ed1e68a7b5ce658246fcb3fa14d3b"
+      }
+    },
+    {
+      "frame": 12,
+      "angleDegrees": -2.0151753206373204,
+      "pivotPixels": [
+        172.0,
+        277.0
+      ],
+      "endpointPixels": [
+        323.9059953733257,
+        271.65504259706984
+      ],
+      "radiusPixels": 151.99999999999997,
+      "bodySource": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0012.png",
+      "bodySourceSha256": "9f34c1df7e34603cade7bd97f6cee0d42c8806ce8b1b56424059718645aaed19",
+      "changedOpaqueActorRGBPixels": 0,
+      "cleanupAlignment": {
+        "translationPixels": [
+          0.0,
+          -0.5
+        ],
+        "scores": [
+          0.9626551270484924,
+          0.9835492968559265
+        ],
+        "scope": "equipment cleanup only; never applied to athlete RGB"
+      },
+      "actorMask": {
+        "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/actor-masks/actor_0012.png",
+        "sha256": "839147080ae9a58849462b27f33c4945a8fa67a2ecd43af385def42140238d8e"
+      }
+    },
+    {
+      "frame": 13,
+      "angleDegrees": 0.48907714460000135,
+      "pivotPixels": [
+        172.0,
+        277.0
+      ],
+      "endpointPixels": [
+        323.994462414734,
+        278.29745722704126
+      ],
+      "radiusPixels": 151.99999999999997,
+      "bodySource": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0013.png",
+      "bodySourceSha256": "52224288d990071d97fe444fa79f79470cf4667801086d39f0ab917a2bc43673",
+      "changedOpaqueActorRGBPixels": 0,
+      "cleanupAlignment": {
+        "translationPixels": [
+          -0.5,
+          -0.5
+        ],
+        "scores": [
+          0.962835967540741,
+          0.9861253499984741
+        ],
+        "scope": "equipment cleanup only; never applied to athlete RGB"
+      },
+      "actorMask": {
+        "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/actor-masks/actor_0013.png",
+        "sha256": "1a2a3fc2d8c7eed529a69a7dac21836ebeecd582bab1201a2237fcf9b7000a9b"
+      }
+    },
+    {
+      "frame": 14,
+      "angleDegrees": 1.8172323815600737,
+      "pivotPixels": [
+        172.0,
+        277.0
+      ],
+      "endpointPixels": [
+        323.92355433646253,
+        281.8201283982802
+      ],
+      "radiusPixels": 151.99999999999997,
+      "bodySource": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0014.png",
+      "bodySourceSha256": "33334a9d89e858682253be1dde7e2d6ef9861c17cf3e2e0df425961713de4461",
+      "changedOpaqueActorRGBPixels": 0,
+      "cleanupAlignment": {
+        "translationPixels": [
+          -0.5,
+          0.0
+        ],
+        "scores": [
+          0.9752076268196106,
+          0.9750083088874817
+        ],
+        "scope": "equipment cleanup only; never applied to athlete RGB"
+      },
+      "actorMask": {
+        "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/actor-masks/actor_0014.png",
+        "sha256": "b8857f343a887551aed4ea9b47f568d6904fec6279f3c82f47ca7c7e82e279d9"
+      }
+    },
+    {
+      "frame": 15,
+      "angleDegrees": 2.798870920948451,
+      "pivotPixels": [
+        172.0,
+        277.0
+      ],
+      "endpointPixels": [
+        323.8186791678129,
+        284.42217324917084
+      ],
+      "radiusPixels": 152.00000000000003,
+      "bodySource": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0015.png",
+      "bodySourceSha256": "f857e66d1925325ac69ab3f743eef2a5c4d648f3b5f0a9b5ccbb1dd72df39b73",
+      "changedOpaqueActorRGBPixels": 0,
+      "cleanupAlignment": {
+        "translationPixels": [
+          0.0,
+          0.0
+        ],
+        "scores": [
+          0.9734030961990356,
+          0.983496367931366
+        ],
+        "scope": "equipment cleanup only; never applied to athlete RGB"
+      },
+      "actorMask": {
+        "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/actor-masks/actor_0015.png",
+        "sha256": "ed00a40cdef6da16f9424a71b08b2b4a0e082e883f8dcea6b8239983f93582de"
+      }
+    },
+    {
+      "frame": 16,
+      "angleDegrees": 4.206819263314221,
+      "pivotPixels": [
+        172.0,
+        277.0
+      ],
+      "endpointPixels": [
+        323.59047452489983,
+        288.1502481279876
+      ],
+      "radiusPixels": 152.0,
+      "bodySource": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0016.png",
+      "bodySourceSha256": "25b1fd17ce3bf352d0e01635e86396cb2f51f426a2456505f50f54be334260fd",
+      "changedOpaqueActorRGBPixels": 0,
+      "cleanupAlignment": {
+        "translationPixels": [
+          0.0,
+          0.0
+        ],
+        "scores": [
+          0.9807528853416443,
+          0.99176424741745
+        ],
+        "scope": "equipment cleanup only; never applied to athlete RGB"
+      },
+      "actorMask": {
+        "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/actor-masks/actor_0016.png",
+        "sha256": "36e3eb45a1b6d7a213fea99f17c470a90518dee8b19ce6feecf99b2b587022a1"
+      }
+    },
+    {
+      "frame": 17,
+      "angleDegrees": 5.262951957261145,
+      "pivotPixels": [
+        172.0,
+        277.0
+      ],
+      "endpointPixels": [
+        323.35920110522085,
+        290.9424617908499
+      ],
+      "radiusPixels": 152.0,
+      "bodySource": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0017.png",
+      "bodySourceSha256": "c9a483c744d264d4fdf280d3024a6d25d06a7e32409cd29639457bf6c59ab382",
+      "changedOpaqueActorRGBPixels": 0,
+      "cleanupAlignment": {
+        "translationPixels": [
+          0.0,
+          0.0
+        ],
+        "scores": [
+          0.993259847164154,
+          0.9939760565757751
+        ],
+        "scope": "equipment cleanup only; never applied to athlete RGB"
+      },
+      "actorMask": {
+        "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/actor-masks/actor_0017.png",
+        "sha256": "62f32917f4f46666a42e592b1b238b13f0ae61f103f5d4dd0802d67a60a8d5d8"
+      }
+    },
+    {
+      "frame": 18,
+      "angleDegrees": 5.963426201123827,
+      "pivotPixels": [
+        172.0,
+        277.0
+      ],
+      "endpointPixels": [
+        323.1774393436768,
+        292.7918280603903
+      ],
+      "radiusPixels": 152.0,
+      "bodySource": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0018.png",
+      "bodySourceSha256": "f7c9369e4460390bd900b4808dbd84d434c4a458c7ab116590d791047e2ed3d6",
+      "changedOpaqueActorRGBPixels": 0,
+      "cleanupAlignment": {
+        "translationPixels": [
+          0.0,
+          0.0
+        ],
+        "scores": [
+          0.9867179989814758,
+          0.9848856925964355
+        ],
+        "scope": "equipment cleanup only; never applied to athlete RGB"
+      },
+      "actorMask": {
+        "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/actor-masks/actor_0018.png",
+        "sha256": "1d9ccfff03366064c0829fb97024fc0747dca473254d2fe18dc410d5a5d1a475"
+      }
+    },
+    {
+      "frame": 19,
+      "angleDegrees": 5.963453716256988,
+      "pivotPixels": [
+        172.0,
+        277.0
+      ],
+      "endpointPixels": [
+        323.17743175995497,
+        292.79190066027996
+      ],
+      "radiusPixels": 151.99999999999997,
+      "bodySource": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig/body-source/frames/frame_0019.png",
+      "bodySourceSha256": "8d8cf847ccf52461abe3815510fce0e249b8e3a3fda29535ee2c72a5267bf5dd",
+      "changedOpaqueActorRGBPixels": 0,
+      "cleanupAlignment": {
+        "translationPixels": [
+          0.0,
+          0.0
+        ],
+        "scores": [
+          0.9866524338722229,
+          0.9848859310150146
+        ],
+        "scope": "equipment cleanup only; never applied to athlete RGB"
+      },
+      "actorMask": {
+        "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v2/actor-masks/actor_0019.png",
+        "sha256": "6f0a40111c146b3b31e0fb2124445d38a7c45a74657aab8ae2c3c81750d87f26"
+      }
+    }
+  ],
+  "radiusSelection": "Actual dark-cushion silhouette has common radial interior149..156px across19poses; R152 keeps the fixed-length endpoint in the roller instead of extending R165 into the stationary thigh.",
+  "scope": "Candidate native equipment repair. Original visible upper-body skin/hair RGB preserved on opaque mask; static lowerbody restored from a single master. Tool cleanup only restores old gray cap/shaft regions, not new full athlete poses."
+}

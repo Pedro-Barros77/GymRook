@@ -1,0 +1,824 @@
+{
+  "id": "standing-machine-calf-raise",
+  "studyOnly": true,
+  "fps": 12,
+  "frameCount": 36,
+  "durationSeconds": 3,
+  "originalsUnchanged": true,
+  "generator": {
+    "file": "scripts/study-calf-two-key.py",
+    "sha256": "eb9b8c9cf9dd2ec506588825115803dcd91b42cd0074e0ad3748cc95663f9f1e"
+  },
+  "sourceIndex": {
+    "file": "output/followup-round4/calf-two-key-study/source-index.json",
+    "sha256": "032c9fab07df958f372708c7a9bcb1c20a0cdba54b4c007a2958d1a5c85d667f"
+  },
+  "record": {
+    "id": "standing-machine-calf-raise",
+    "status": "frames composed; visual motion review required",
+    "sourceKind": "image-keyframes",
+    "sourceReview": "Root and independent source owner visually preferred the two original fullbody calf keys over the knee-bending9pose sheet. Actual intermediate frames remain a study only.",
+    "render": "generated-interpolated",
+    "source": "output/followup-round4/calf-two-key-study/source-index.json",
+    "sourceSha256": "032c9fab07df958f372708c7a9bcb1c20a0cdba54b4c007a2958d1a5c85d667f",
+    "sourceSize": [
+      512,
+      512
+    ],
+    "width": 512,
+    "height": 512,
+    "fps": 12,
+    "cycle": "ping-pong",
+    "frameCount": 36,
+    "phaseEasing": "cosine",
+    "referenceIndex": 0,
+    "registration": {
+      "enabled": true,
+      "regions": [
+        [
+          0.080078125,
+          0.17578125,
+          0.126953125,
+          0.83203125
+        ],
+        [
+          0.15234375,
+          0.0625,
+          0.2734375,
+          0.115234375
+        ]
+      ],
+      "maxTranslationPixels": 2,
+      "minScore": 0.72
+    },
+    "preserveStaticRects": [],
+    "anchors": [
+      {
+        "index": 0,
+        "cell": null,
+        "progress": 0,
+        "cropPixels": null,
+        "raw": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/anchors/raw/anchor_00.png",
+        "rawSha256": "15d95af938be88c3b7f25460a7362dd7e0e9efaac3dc0353fc02215ea8de9181",
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/anchors/anchor_00.png",
+        "sha256": "15d95af938be88c3b7f25460a7362dd7e0e9efaac3dc0353fc02215ea8de9181",
+        "registration": {
+          "method": "reference identity",
+          "accepted": true,
+          "translationPixels": [
+            0.0,
+            0.0
+          ],
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "maxTranslationPixels": 2.0,
+          "candidates": [],
+          "staticRegionMAEBefore": 0.0,
+          "staticRegionMAEAfter": 0.0
+        },
+        "imageOverride": {
+          "file": "output/followup-round4/calf-two-key-study/key-00.png",
+          "sha256": "15d95af938be88c3b7f25460a7362dd7e0e9efaac3dc0353fc02215ea8de9181"
+        }
+      },
+      {
+        "index": 1,
+        "cell": null,
+        "progress": 1,
+        "cropPixels": null,
+        "raw": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/anchors/raw/anchor_01.png",
+        "rawSha256": "d2a9fd1221024e7f4ac85147986f667e8aa6ffd2e48041c1ce6630293e75c827",
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/anchors/anchor_01.png",
+        "sha256": "d2a9fd1221024e7f4ac85147986f667e8aa6ffd2e48041c1ce6630293e75c827",
+        "registration": {
+          "method": "template increased fixed-region error; original crop retained",
+          "accepted": false,
+          "translationPixels": [
+            0.0,
+            0.0
+          ],
+          "matrix": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ]
+          ],
+          "maxTranslationPixels": 2.0,
+          "candidates": [
+            {
+              "regionPixels": [
+                41,
+                90,
+                65,
+                426
+              ],
+              "score": 0.9919275641441345,
+              "translationPixels": [
+                -0.17567484080791473,
+                0.22115609049797058
+              ],
+              "usable": true,
+              "atSearchLimit": false
+            },
+            {
+              "regionPixels": [
+                78,
+                32,
+                140,
+                59
+              ],
+              "score": 0.997017502784729,
+              "translationPixels": [
+                -0.2984777092933655,
+                0.07558712363243103
+              ],
+              "usable": true,
+              "atSearchLimit": false
+            }
+          ],
+          "staticRegionMAEBefore": 1.443520188331604,
+          "staticRegionMAEAfter": 1.443520188331604
+        },
+        "imageOverride": {
+          "file": "output/followup-round4/calf-two-key-study/key-01.png",
+          "sha256": "d2a9fd1221024e7f4ac85147986f667e8aa6ffd2e48041c1ce6630293e75c827"
+        }
+      }
+    ],
+    "reviewedKeyCount": 2,
+    "qa": {
+      "anchorsContact": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/qa/anchors-contact.png",
+      "anchorsOnions": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/qa/anchors-onions.png",
+      "framesContact": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/qa/frames-contact.png",
+      "transitionsOnions": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/qa/transitions-onions.png"
+    },
+    "frames": [
+      {
+        "frame": 1,
+        "phase": 0.0,
+        "progress": 0.0,
+        "anchor0": 0,
+        "anchor1": 0,
+        "timestep": 0.0,
+        "engine": "source-anchor copy",
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0001.png",
+        "sha256": "15d95af938be88c3b7f25460a7362dd7e0e9efaac3dc0353fc02215ea8de9181"
+      },
+      {
+        "frame": 2,
+        "phase": 0.05555555555555555,
+        "progress": 0.00759612349389599,
+        "anchor0": 0,
+        "anchor1": 1,
+        "timestep": 0.00759612349389599,
+        "engine": "Practical-RIFE 4.25",
+        "requestedInterpolationTimestep": 0.00759612349389599,
+        "actualTimestep": 0.00759612349389599,
+        "localRetimingDelta": 0.0,
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0002.png",
+        "sha256": "06d7ac5989a904dc3e76e9965b97097081d62eabc63130490b6cc891562f368c"
+      },
+      {
+        "frame": 3,
+        "phase": 0.1111111111111111,
+        "progress": 0.030153689607045786,
+        "anchor0": 0,
+        "anchor1": 1,
+        "timestep": 0.030153689607045786,
+        "engine": "Practical-RIFE 4.25",
+        "requestedInterpolationTimestep": 0.030153689607045786,
+        "actualTimestep": 0.030153689607045786,
+        "localRetimingDelta": 0.0,
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0003.png",
+        "sha256": "b40d48015c803ec5b4e9e1a289af5d25db976a2d968caa629f7205142a54009e"
+      },
+      {
+        "frame": 4,
+        "phase": 0.16666666666666666,
+        "progress": 0.06698729810778065,
+        "anchor0": 0,
+        "anchor1": 1,
+        "timestep": 0.06698729810778065,
+        "engine": "Practical-RIFE 4.25",
+        "requestedInterpolationTimestep": 0.06698729810778065,
+        "actualTimestep": 0.06698729810778065,
+        "localRetimingDelta": 0.0,
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0004.png",
+        "sha256": "ca989d3a69104f754290b49957eb123dacd47e60ea9800f88f88118a1e568292"
+      },
+      {
+        "frame": 5,
+        "phase": 0.2222222222222222,
+        "progress": 0.116977778440511,
+        "anchor0": 0,
+        "anchor1": 1,
+        "timestep": 0.116977778440511,
+        "engine": "Practical-RIFE 4.25",
+        "requestedInterpolationTimestep": 0.116977778440511,
+        "actualTimestep": 0.116977778440511,
+        "localRetimingDelta": 0.0,
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0005.png",
+        "sha256": "f00f06046f4b04e2f8d6bfa2eb76e35104f20f5459c74886686c95705a420b09"
+      },
+      {
+        "frame": 6,
+        "phase": 0.2777777777777778,
+        "progress": 0.17860619515673032,
+        "anchor0": 0,
+        "anchor1": 1,
+        "timestep": 0.17860619515673032,
+        "engine": "Practical-RIFE 4.25",
+        "requestedInterpolationTimestep": 0.17860619515673032,
+        "actualTimestep": 0.17860619515673032,
+        "localRetimingDelta": 0.0,
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0006.png",
+        "sha256": "9a3626d9306c130f5cfbb4f5f6f8e74a07169bc8ba683a9f0dda01e204a434e7"
+      },
+      {
+        "frame": 7,
+        "phase": 0.3333333333333333,
+        "progress": 0.24999999999999994,
+        "anchor0": 0,
+        "anchor1": 1,
+        "timestep": 0.24999999999999994,
+        "engine": "Practical-RIFE 4.25",
+        "requestedInterpolationTimestep": 0.24999999999999994,
+        "actualTimestep": 0.24999999999999994,
+        "localRetimingDelta": 0.0,
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0007.png",
+        "sha256": "acc5883bca8a24c90da2d3de74d98e0302d22c17680bf97873ebabbe1827aeb2"
+      },
+      {
+        "frame": 8,
+        "phase": 0.3888888888888889,
+        "progress": 0.32898992833716556,
+        "anchor0": 0,
+        "anchor1": 1,
+        "timestep": 0.32898992833716556,
+        "engine": "Practical-RIFE 4.25",
+        "requestedInterpolationTimestep": 0.32898992833716556,
+        "actualTimestep": 0.32898992833716556,
+        "localRetimingDelta": 0.0,
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0008.png",
+        "sha256": "9f74e1961620ec8510e4538957b0744e82b8f9e7b9c8c76d90484b167a7cb49a"
+      },
+      {
+        "frame": 9,
+        "phase": 0.4444444444444444,
+        "progress": 0.4131759111665348,
+        "anchor0": 0,
+        "anchor1": 1,
+        "timestep": 0.4131759111665348,
+        "engine": "Practical-RIFE 4.25",
+        "requestedInterpolationTimestep": 0.4131759111665348,
+        "actualTimestep": 0.4131759111665348,
+        "localRetimingDelta": 0.0,
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0009.png",
+        "sha256": "858fa9100a0150b9eb8aedb0eea3a490aee03d4041f5ce1efcd54bbaa2bd104b"
+      },
+      {
+        "frame": 10,
+        "phase": 0.5,
+        "progress": 0.49999999999999994,
+        "anchor0": 0,
+        "anchor1": 1,
+        "timestep": 0.49999999999999994,
+        "engine": "Practical-RIFE 4.25",
+        "requestedInterpolationTimestep": 0.49999999999999994,
+        "actualTimestep": 0.49999999999999994,
+        "localRetimingDelta": 0.0,
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0010.png",
+        "sha256": "05d9d04b2ecd31d7ee801335b4b1fac79424c79a0f3716dee1c30e00309a4b20"
+      },
+      {
+        "frame": 11,
+        "phase": 0.5555555555555556,
+        "progress": 0.5868240888334652,
+        "anchor0": 0,
+        "anchor1": 1,
+        "timestep": 0.5868240888334652,
+        "engine": "Practical-RIFE 4.25",
+        "requestedInterpolationTimestep": 0.5868240888334652,
+        "actualTimestep": 0.5868240888334652,
+        "localRetimingDelta": 0.0,
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0011.png",
+        "sha256": "6f18a09c3c7dc86d6e553e91ff6d5c48b92c60cbd7112bcb29898e5b22f18cc9"
+      },
+      {
+        "frame": 12,
+        "phase": 0.6111111111111112,
+        "progress": 0.6710100716628343,
+        "anchor0": 0,
+        "anchor1": 1,
+        "timestep": 0.6710100716628343,
+        "engine": "Practical-RIFE 4.25",
+        "requestedInterpolationTimestep": 0.6710100716628343,
+        "actualTimestep": 0.6710100716628343,
+        "localRetimingDelta": 0.0,
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0012.png",
+        "sha256": "4d77a7da27d9d7d85c36477a62d4d656be0220982d328e85fa24b6013cd79df3"
+      },
+      {
+        "frame": 13,
+        "phase": 0.6666666666666666,
+        "progress": 0.7499999999999999,
+        "anchor0": 0,
+        "anchor1": 1,
+        "timestep": 0.7499999999999999,
+        "engine": "Practical-RIFE 4.25",
+        "requestedInterpolationTimestep": 0.7499999999999999,
+        "actualTimestep": 0.7499999999999999,
+        "localRetimingDelta": 0.0,
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0013.png",
+        "sha256": "ad89c3bbc69b3396dfd67f6b78765a8630fbd83991a716d8d8fde598dfd21480"
+      },
+      {
+        "frame": 14,
+        "phase": 0.7222222222222222,
+        "progress": 0.8213938048432696,
+        "anchor0": 0,
+        "anchor1": 1,
+        "timestep": 0.8213938048432696,
+        "engine": "Practical-RIFE 4.25",
+        "requestedInterpolationTimestep": 0.8213938048432696,
+        "actualTimestep": 0.8213938048432696,
+        "localRetimingDelta": 0.0,
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0014.png",
+        "sha256": "04b86fdb57f5b364ba1b47634272fc91b2d2c68c042d18cd76d17996ad5da6a2"
+      },
+      {
+        "frame": 15,
+        "phase": 0.7777777777777778,
+        "progress": 0.883022221559489,
+        "anchor0": 0,
+        "anchor1": 1,
+        "timestep": 0.883022221559489,
+        "engine": "Practical-RIFE 4.25",
+        "requestedInterpolationTimestep": 0.883022221559489,
+        "actualTimestep": 0.883022221559489,
+        "localRetimingDelta": 0.0,
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0015.png",
+        "sha256": "b9ed181f212c2d21917b37f4f0e28e126d2d2dbc7112f34483463aa3ae08c03b"
+      },
+      {
+        "frame": 16,
+        "phase": 0.8333333333333334,
+        "progress": 0.9330127018922194,
+        "anchor0": 0,
+        "anchor1": 1,
+        "timestep": 0.9330127018922194,
+        "engine": "Practical-RIFE 4.25",
+        "requestedInterpolationTimestep": 0.9330127018922194,
+        "actualTimestep": 0.9330127018922194,
+        "localRetimingDelta": 0.0,
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0016.png",
+        "sha256": "28fa691a0e8fd2e5db01a81b6b1032912093c7da6c4c8f134a3aa1c6140885d4"
+      },
+      {
+        "frame": 17,
+        "phase": 0.8888888888888888,
+        "progress": 0.9698463103929542,
+        "anchor0": 0,
+        "anchor1": 1,
+        "timestep": 0.9698463103929542,
+        "engine": "Practical-RIFE 4.25",
+        "requestedInterpolationTimestep": 0.9698463103929542,
+        "actualTimestep": 0.9698463103929542,
+        "localRetimingDelta": 0.0,
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0017.png",
+        "sha256": "e02908d905a4c4396b7504adef4c1766b6aef73a9e65e3b531a6be86a79c0ac3"
+      },
+      {
+        "frame": 18,
+        "phase": 0.9444444444444444,
+        "progress": 0.9924038765061041,
+        "anchor0": 0,
+        "anchor1": 1,
+        "timestep": 0.9924038765061041,
+        "engine": "Practical-RIFE 4.25",
+        "requestedInterpolationTimestep": 0.9924038765061041,
+        "actualTimestep": 0.9924038765061041,
+        "localRetimingDelta": 0.0,
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0018.png",
+        "sha256": "b0c46651d277a143e01cd66e8043134efcc85de76db16bc690caa5136b2a9d47"
+      },
+      {
+        "frame": 19,
+        "phase": 1.0,
+        "progress": 1.0,
+        "anchor0": 1,
+        "anchor1": 1,
+        "timestep": 0.0,
+        "engine": "source-anchor copy",
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0019.png",
+        "sha256": "d2a9fd1221024e7f4ac85147986f667e8aa6ffd2e48041c1ce6630293e75c827"
+      },
+      {
+        "frame": 20,
+        "mirroredFromFrame": 18,
+        "engine": "byte-exact return copy",
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0020.png",
+        "sha256": "b0c46651d277a143e01cd66e8043134efcc85de76db16bc690caa5136b2a9d47"
+      },
+      {
+        "frame": 21,
+        "mirroredFromFrame": 17,
+        "engine": "byte-exact return copy",
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0021.png",
+        "sha256": "e02908d905a4c4396b7504adef4c1766b6aef73a9e65e3b531a6be86a79c0ac3"
+      },
+      {
+        "frame": 22,
+        "mirroredFromFrame": 16,
+        "engine": "byte-exact return copy",
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0022.png",
+        "sha256": "28fa691a0e8fd2e5db01a81b6b1032912093c7da6c4c8f134a3aa1c6140885d4"
+      },
+      {
+        "frame": 23,
+        "mirroredFromFrame": 15,
+        "engine": "byte-exact return copy",
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0023.png",
+        "sha256": "b9ed181f212c2d21917b37f4f0e28e126d2d2dbc7112f34483463aa3ae08c03b"
+      },
+      {
+        "frame": 24,
+        "mirroredFromFrame": 14,
+        "engine": "byte-exact return copy",
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0024.png",
+        "sha256": "04b86fdb57f5b364ba1b47634272fc91b2d2c68c042d18cd76d17996ad5da6a2"
+      },
+      {
+        "frame": 25,
+        "mirroredFromFrame": 13,
+        "engine": "byte-exact return copy",
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0025.png",
+        "sha256": "ad89c3bbc69b3396dfd67f6b78765a8630fbd83991a716d8d8fde598dfd21480"
+      },
+      {
+        "frame": 26,
+        "mirroredFromFrame": 12,
+        "engine": "byte-exact return copy",
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0026.png",
+        "sha256": "4d77a7da27d9d7d85c36477a62d4d656be0220982d328e85fa24b6013cd79df3"
+      },
+      {
+        "frame": 27,
+        "mirroredFromFrame": 11,
+        "engine": "byte-exact return copy",
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0027.png",
+        "sha256": "6f18a09c3c7dc86d6e553e91ff6d5c48b92c60cbd7112bcb29898e5b22f18cc9"
+      },
+      {
+        "frame": 28,
+        "mirroredFromFrame": 10,
+        "engine": "byte-exact return copy",
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0028.png",
+        "sha256": "05d9d04b2ecd31d7ee801335b4b1fac79424c79a0f3716dee1c30e00309a4b20"
+      },
+      {
+        "frame": 29,
+        "mirroredFromFrame": 9,
+        "engine": "byte-exact return copy",
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0029.png",
+        "sha256": "858fa9100a0150b9eb8aedb0eea3a490aee03d4041f5ce1efcd54bbaa2bd104b"
+      },
+      {
+        "frame": 30,
+        "mirroredFromFrame": 8,
+        "engine": "byte-exact return copy",
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0030.png",
+        "sha256": "9f74e1961620ec8510e4538957b0744e82b8f9e7b9c8c76d90484b167a7cb49a"
+      },
+      {
+        "frame": 31,
+        "mirroredFromFrame": 7,
+        "engine": "byte-exact return copy",
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0031.png",
+        "sha256": "acc5883bca8a24c90da2d3de74d98e0302d22c17680bf97873ebabbe1827aeb2"
+      },
+      {
+        "frame": 32,
+        "mirroredFromFrame": 6,
+        "engine": "byte-exact return copy",
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0032.png",
+        "sha256": "9a3626d9306c130f5cfbb4f5f6f8e74a07169bc8ba683a9f0dda01e204a434e7"
+      },
+      {
+        "frame": 33,
+        "mirroredFromFrame": 5,
+        "engine": "byte-exact return copy",
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0033.png",
+        "sha256": "f00f06046f4b04e2f8d6bfa2eb76e35104f20f5459c74886686c95705a420b09"
+      },
+      {
+        "frame": 34,
+        "mirroredFromFrame": 4,
+        "engine": "byte-exact return copy",
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0034.png",
+        "sha256": "ca989d3a69104f754290b49957eb123dacd47e60ea9800f88f88118a1e568292"
+      },
+      {
+        "frame": 35,
+        "mirroredFromFrame": 3,
+        "engine": "byte-exact return copy",
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0035.png",
+        "sha256": "b40d48015c803ec5b4e9e1a289af5d25db976a2d968caa629f7205142a54009e"
+      },
+      {
+        "frame": 36,
+        "mirroredFromFrame": 2,
+        "engine": "byte-exact return copy",
+        "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0036.png",
+        "sha256": "06d7ac5989a904dc3e76e9965b97097081d62eabc63130490b6cc891562f368c"
+      }
+    ],
+    "interpolationOverrides": [],
+    "seamMAE": 0.0025952657063802085,
+    "adjacentFrameMAE": [
+      0.0025952657063802085,
+      0.0029856363932291665,
+      0.023255666097005207,
+      2.8602447509765625,
+      2.9566942850748696,
+      2.4977086385091147,
+      3.127100626627604,
+      3.2889073689778647,
+      3.8079071044921875,
+      3.7030677795410156,
+      3.3566500345865884,
+      3.204931894938151,
+      3.042261759440104,
+      3.0634307861328125,
+      3.1565017700195312,
+      0.023919423421223957,
+      0.0028203328450520835,
+      0.0032564798990885415,
+      0.0032564798990885415,
+      0.0028203328450520835,
+      0.023919423421223957,
+      3.1565017700195312,
+      3.0634307861328125,
+      3.042261759440104,
+      3.204931894938151,
+      3.3566500345865884,
+      3.7030677795410156,
+      3.8079071044921875,
+      3.2889073689778647,
+      3.127100626627604,
+      2.4977086385091147,
+      2.9566942850748696,
+      2.8602447509765625,
+      0.023255666097005207,
+      0.0029856363932291665,
+      0.0025952657063802085
+    ],
+    "frameSpecSha256": "eb7ab470caacbafe44cf2eb0d25194d98ebaf8e42fb2727bd703ab2f18b0a39a",
+    "frameGeneratorSha256": "14e25e53329a84f3670aeae8c46f15f7879ad8aa000806e2834f9e9170744d6f"
+  },
+  "frames": [
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0001.png",
+      "sha256": "15d95af938be88c3b7f25460a7362dd7e0e9efaac3dc0353fc02215ea8de9181"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0002.png",
+      "sha256": "06d7ac5989a904dc3e76e9965b97097081d62eabc63130490b6cc891562f368c"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0003.png",
+      "sha256": "b40d48015c803ec5b4e9e1a289af5d25db976a2d968caa629f7205142a54009e"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0004.png",
+      "sha256": "ca989d3a69104f754290b49957eb123dacd47e60ea9800f88f88118a1e568292"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0005.png",
+      "sha256": "f00f06046f4b04e2f8d6bfa2eb76e35104f20f5459c74886686c95705a420b09"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0006.png",
+      "sha256": "9a3626d9306c130f5cfbb4f5f6f8e74a07169bc8ba683a9f0dda01e204a434e7"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0007.png",
+      "sha256": "acc5883bca8a24c90da2d3de74d98e0302d22c17680bf97873ebabbe1827aeb2"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0008.png",
+      "sha256": "9f74e1961620ec8510e4538957b0744e82b8f9e7b9c8c76d90484b167a7cb49a"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0009.png",
+      "sha256": "858fa9100a0150b9eb8aedb0eea3a490aee03d4041f5ce1efcd54bbaa2bd104b"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0010.png",
+      "sha256": "05d9d04b2ecd31d7ee801335b4b1fac79424c79a0f3716dee1c30e00309a4b20"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0011.png",
+      "sha256": "6f18a09c3c7dc86d6e553e91ff6d5c48b92c60cbd7112bcb29898e5b22f18cc9"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0012.png",
+      "sha256": "4d77a7da27d9d7d85c36477a62d4d656be0220982d328e85fa24b6013cd79df3"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0013.png",
+      "sha256": "ad89c3bbc69b3396dfd67f6b78765a8630fbd83991a716d8d8fde598dfd21480"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0014.png",
+      "sha256": "04b86fdb57f5b364ba1b47634272fc91b2d2c68c042d18cd76d17996ad5da6a2"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0015.png",
+      "sha256": "b9ed181f212c2d21917b37f4f0e28e126d2d2dbc7112f34483463aa3ae08c03b"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0016.png",
+      "sha256": "28fa691a0e8fd2e5db01a81b6b1032912093c7da6c4c8f134a3aa1c6140885d4"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0017.png",
+      "sha256": "e02908d905a4c4396b7504adef4c1766b6aef73a9e65e3b531a6be86a79c0ac3"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0018.png",
+      "sha256": "b0c46651d277a143e01cd66e8043134efcc85de76db16bc690caa5136b2a9d47"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0019.png",
+      "sha256": "d2a9fd1221024e7f4ac85147986f667e8aa6ffd2e48041c1ce6630293e75c827"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0020.png",
+      "sha256": "b0c46651d277a143e01cd66e8043134efcc85de76db16bc690caa5136b2a9d47"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0021.png",
+      "sha256": "e02908d905a4c4396b7504adef4c1766b6aef73a9e65e3b531a6be86a79c0ac3"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0022.png",
+      "sha256": "28fa691a0e8fd2e5db01a81b6b1032912093c7da6c4c8f134a3aa1c6140885d4"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0023.png",
+      "sha256": "b9ed181f212c2d21917b37f4f0e28e126d2d2dbc7112f34483463aa3ae08c03b"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0024.png",
+      "sha256": "04b86fdb57f5b364ba1b47634272fc91b2d2c68c042d18cd76d17996ad5da6a2"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0025.png",
+      "sha256": "ad89c3bbc69b3396dfd67f6b78765a8630fbd83991a716d8d8fde598dfd21480"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0026.png",
+      "sha256": "4d77a7da27d9d7d85c36477a62d4d656be0220982d328e85fa24b6013cd79df3"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0027.png",
+      "sha256": "6f18a09c3c7dc86d6e553e91ff6d5c48b92c60cbd7112bcb29898e5b22f18cc9"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0028.png",
+      "sha256": "05d9d04b2ecd31d7ee801335b4b1fac79424c79a0f3716dee1c30e00309a4b20"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0029.png",
+      "sha256": "858fa9100a0150b9eb8aedb0eea3a490aee03d4041f5ce1efcd54bbaa2bd104b"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0030.png",
+      "sha256": "9f74e1961620ec8510e4538957b0744e82b8f9e7b9c8c76d90484b167a7cb49a"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0031.png",
+      "sha256": "acc5883bca8a24c90da2d3de74d98e0302d22c17680bf97873ebabbe1827aeb2"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0032.png",
+      "sha256": "9a3626d9306c130f5cfbb4f5f6f8e74a07169bc8ba683a9f0dda01e204a434e7"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0033.png",
+      "sha256": "f00f06046f4b04e2f8d6bfa2eb76e35104f20f5459c74886686c95705a420b09"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0034.png",
+      "sha256": "ca989d3a69104f754290b49957eb123dacd47e60ea9800f88f88118a1e568292"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0035.png",
+      "sha256": "b40d48015c803ec5b4e9e1a289af5d25db976a2d968caa629f7205142a54009e"
+    },
+    {
+      "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0036.png",
+      "sha256": "06d7ac5989a904dc3e76e9965b97097081d62eabc63130490b6cc891562f368c"
+    }
+  ],
+  "registration": [
+    {
+      "method": "reference identity",
+      "accepted": true,
+      "translationPixels": [
+        0.0,
+        0.0
+      ],
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "maxTranslationPixels": 2.0,
+      "candidates": [],
+      "staticRegionMAEBefore": 0.0,
+      "staticRegionMAEAfter": 0.0
+    },
+    {
+      "method": "template increased fixed-region error; original crop retained",
+      "accepted": false,
+      "translationPixels": [
+        0.0,
+        0.0
+      ],
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "maxTranslationPixels": 2.0,
+      "candidates": [
+        {
+          "regionPixels": [
+            41,
+            90,
+            65,
+            426
+          ],
+          "score": 0.9919275641441345,
+          "translationPixels": [
+            -0.17567484080791473,
+            0.22115609049797058
+          ],
+          "usable": true,
+          "atSearchLimit": false
+        },
+        {
+          "regionPixels": [
+            78,
+            32,
+            140,
+            59
+          ],
+          "score": 0.997017502784729,
+          "translationPixels": [
+            -0.2984777092933655,
+            0.07558712363243103
+          ],
+          "usable": true,
+          "atSearchLimit": false
+        }
+      ],
+      "staticRegionMAEBefore": 1.443520188331604,
+      "staticRegionMAEAfter": 1.443520188331604
+    }
+  ],
+  "frameDigestBin32": "131fce060feff1124459c5f237a06844ca91051f83da66449d3704a3e18731d5",
+  "note": "Study actual head/knee/ankle/forefoot travel. No canonical machine or plate fix here, no media export and no clinical3D/anatomy certification."
+}

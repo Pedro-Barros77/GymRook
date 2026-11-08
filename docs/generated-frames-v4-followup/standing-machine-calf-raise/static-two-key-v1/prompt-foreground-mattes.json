@@ -1,0 +1,11 @@
+{
+  "mode": "builtin image_gen",
+  "intent": "background-extraction",
+  "transparent_background": true,
+  "references": [
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/start-v2.png",
+    "docs/generated-frames-v4-followup/standing-machine-calf-raise/end-v1.png"
+  ],
+  "prompt": "Use case: background-extraction. Asset type: precise animation foreground matte. Edit target is the supplied ORIGINAL exercise frame. Extract ONLY the exact same muscular athlete together with the moving black chest/shoulder carriage, its attached handles and lower moving carriage bracket. Keep the whole person, hair, both hands, both calves and the complete white soles of BOTH shoes. Remove ALL fixed apparatus: tower, rails, footstep, floor chassis, guide rods, weights and studio background; the result must be genuinely transparent. Critical: do not invent or move any human/body pixel, do not alter anatomy, no new pose. The asset will be used ONLY as an alpha reference, and original frame RGB restored by code. Maintain exact source camera/framing/scale and original square canvas coordinates, with empty transparent pixels where background was; do NOT center or enlarge the isolated subject. Preserve fine contours and every true shoe sole while excluding steel fragments behind feet. No text/shadows on a floor, no logos.",
+  "usage": "Alpha references only. Generated human RGB must never be used in the actual exercise frames."
+}

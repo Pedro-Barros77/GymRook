@@ -1,0 +1,104 @@
+{
+  "complete": true,
+  "fps": 12,
+  "scope": "All4round4sourceandfinal-frame reviews passed byROOT/owners/independent reviewers. Technical pixel andfile checks do not certify biomechanics.",
+  "restoredPress": {
+    "file": "docs/generated-frames-v4-followup/supino-restore-preflight.json",
+    "sha256": "5dc9e9a48547942f4534a8f082270b5e7bd14ee5520437e41d8cee7c183b5b6e",
+    "instruction": "Select unchanged animations-v2 press files; never regenerate/reencode."
+  },
+  "animations": [
+    {
+      "id": "preacher-curl",
+      "verdict": "PASS",
+      "sourceSha256": "648fa8a70edfd4b3b20871a4db7ba068373165d6247c7162f5ced0756543c44b",
+      "frameDigestBin32": "ce98e2c32766b3c0898fd20dfa47d8a2790b54f786803b1f8e2ce14d987e89fb",
+      "sourceReview": "ROOT final approved Scott staticV1 after full1/10/11/19 and all19upper crops; actual source/muscular forearms andsupinatedgrip coherent. Sameclock alternateRIFE11/27 removes barghost; no retiming. Copy final36PNG exactly, no further inference.",
+      "notes": [
+        "ROOT approved natural nine-pose machine Scott with supinated grips, canonical head/base/mast and same-clock alternative frame11/27 inference; no further RGBbody transform."
+      ],
+      "reviewEvidence": [
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/root-final-review.json",
+          "sha256": "b0ce2fdcf2f09503611c9276870914eda4d219466384a25bcc45b4ef53540d12"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/source-index.json",
+          "sha256": "648fa8a70edfd4b3b20871a4db7ba068373165d6247c7162f5ced0756543c44b"
+        }
+      ]
+    },
+    {
+      "id": "lying-leg-raise",
+      "verdict": "PASS",
+      "sourceSha256": "02cd87e16d538c430046a1c2668d6bf33fd56ec2c7e83dcbf6c26285c0eaf8f1",
+      "frameDigestBin32": "ea9994231df48d26620ece4a6edd6ca30e45fe301662a6d925bf7e2f31eafb94",
+      "sourceReview": "ROOT approved full1/10/19,19hipcrops,19fullcontact and18onions, then technical leg-skin/fixed-body/return checks passed. Native36PNG copies, no RIFE.",
+      "notes": [
+        "ROOT approved fixed pelvis/waist raster leg-raise V2 at12to80degrees; one unscaled muscular legpair, fixedbody/mat, sourcewrist island excluded from movingmatte. IndependentScott andAB passed."
+      ],
+      "reviewEvidence": [
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/technical-study-qa.json",
+          "sha256": "b3ee035c5ced6181c814d96272eb3c7e98e59dbb7732bb21ac72be8fe2faab66"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/independent-scott-review.json",
+          "sha256": "f9fca98e48001062b36c729cabf19c5b52a813f9a48ed4c88aee35382abd0d1a"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/lying-leg-raise/rig-v2/independent-ab-review.json",
+          "sha256": "90085d502407ca4adc4346796911ca623684d51ace982994ac9a3b5909367bb4"
+        }
+      ]
+    },
+    {
+      "id": "machine-ab-crunch",
+      "verdict": "PASS",
+      "sourceSha256": "6a63c2e55cc55e1172bbfaa2f932697877202052d10a0e60477e9013895f6e1e",
+      "frameDigestBin32": "f0fcb5c8fc355431ef6a27d4445d060981096720c4943bc0e17618da11362c6e",
+      "sourceReview": "ROOT finalV3 plus machineowner and independentScott approved19critical,18onions,full1/10/19. Highneck grips/yoke move with hands, actor and seat stable. Native import copies exactly the36alreadycomposited reviewed PNGs; no new RIFE or body transform.",
+      "notes": [
+        "ROOT plus machineowner andindependentScott approved highneckgrip machinecrunch V3; fixedseat/chassis and coherent movinghands/yoke, exact36reviewedcomposites."
+      ],
+      "reviewEvidence": [
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/temporal-review-v3.json",
+          "sha256": "16d0380c4a15b54671a236d7808f0663b872a831a8b63e9a9af22594fc13c99a"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/machine-ab-crunch/independent-scott-review-v3.json",
+          "sha256": "dba3c4ee506330f1256115195d776f7d4b1c5fdae761a76b11641da96d2c4e91"
+        }
+      ]
+    },
+    {
+      "id": "standing-machine-calf-raise",
+      "verdict": "PASS",
+      "sourceSha256": "5cfd6f9c4a0ef9851e3f875fa70fce56cc748f93d0ff2f9f6767cf9b43223dc6",
+      "frameDigestBin32": "db34a83070dcb00a232a904f5e0a454e1680d6d64f0f39cf87a7786cfd61af57",
+      "sourceReview": "ROOT final andindependent AB approved finalcompositionV1 full1/10/19,19feet,18onions,source-vs-final8/10/12. Original2key body preserves knee posture; ROOTapproved local3key reverse-scale1 feet remove soleghost. Actor RGB copied exactly under opaque transported matte; machinecanonical, one weightunit translates25px. Copy36frozenPNG exactly without newRIFE.",
+      "notes": [
+        "ROOT andindependentAB approved full1/10/19,19feet,18onions andsourcecomparison8/10/12. Bodyuses2originalkeys andlocal3keyfootrepair, exactopaqueactorRGB, fixedmachine andone rigidweightunit rising25px. Rejected9pose source is preserved and inactive."
+      ],
+      "reviewEvidence": [
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/root-final-review.json",
+          "sha256": "73000a8f4bdf5fff9b7893677282d7e1166c7122246435c19c059392705c1c2e"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/independent-ab-final-review.json",
+          "sha256": "9d2199b81d97c797a556482d0a6a31a6f159d6ffb27ca3751c6f2cf2ce331aba"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/technical-composition-review.json",
+          "sha256": "4347e6aa7c5f56dff016435c2b7e2be74b66dfd9e3cd472fb43e2d274bdefe42"
+        },
+        {
+          "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/independent-ab-foot-review.json",
+          "sha256": "da87878736e4fdb1f3dd74fdb12a8620707734478f60e47df53cb55d11a7eb87"
+        }
+      ]
+    }
+  ]
+}

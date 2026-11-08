@@ -1,0 +1,43 @@
+{
+  "id": "preacher-curl",
+  "ownerVerdict": "PASS for submitted final candidate; root gate still pending",
+  "source": "sheet-v1.png",
+  "sourceSha256": "695dd5b41ce6e33e3214bd3f3b034ef566da14c4207c72623b3d270385cccd9b",
+  "finalInputIndex": {
+    "file": "docs/generated-frames-v4-followup/preacher-curl/static-v1/source-index.json",
+    "sha256": "648fa8a70edfd4b3b20871a4db7ba068373165d6247c7162f5ced0756543c44b"
+  },
+  "frameDigestBin32": "ce98e2c32766b3c0898fd20dfa47d8a2790b54f786803b1f8e2ce14d987e89fb",
+  "reviewed": [
+    "All19actual forward upper-body crops at enlarged native detail.",
+    "All18transition onions, especially grip/handle at10>11>12.",
+    "Full512 frames1,10,11,12,19 plus19full-scene contact.",
+    "All19head/nearhand clearance crops; no visible hand clipped by canonical face mask.",
+    "Both palms stay on the same curved handle, both forearms curl simultaneously, and posterior upperarms remain supported on the slopingpad.",
+    "No new visible object duplication, skin cut, disconnected handle or foreground metal passing through the visible body."
+  ],
+  "selectedFrame11": {
+    "problemBefore": "Scale1 RIFE produces two crossing black surfaces on the connecting handle.",
+    "selection": "Complementary input order and scale0.5 at the same physical interpolation instant produces a single coherent handle.",
+    "physicalProgress": 0.6945927106677212,
+    "actualReverseTimestep": 0.3054072893322788,
+    "scale": 0.5,
+    "pairedFrame": 27,
+    "tradeoff": "Slightly softer local moving texture in this single estimate, no clock or pose jump.",
+    "comparison": "temporal-raw-v1/frame11-bar-alternatives.png"
+  },
+  "pixelChecks": {
+    "staticOpaqueMaxRGBError": 0,
+    "unmaskedMovingMaxRGBError": 0,
+    "opaqueStaticPixels": 173414,
+    "fullyUnmaskedPixels": 80631,
+    "byteExactReverseCopies": 17
+  },
+  "limits": [
+    "Some apparent elbow motion/rotation remains possible in this projected3/4 raster view; no exact skeletal/3D joint certificate is claimed.",
+    "Machine lever geometry is illustrated/interpolated, not a full rigid mechanism simulation.",
+    "Visual PNG/onion review, not native realtime playback or phone testing."
+  ],
+  "qaDirectory": "static-v1/",
+  "preservation": "Earlier v3 sources/media and every rejected image_gen study retained. No dist/global config modified by this compositor."
+}

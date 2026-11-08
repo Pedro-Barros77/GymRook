@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-08",
+  "id": "standing-machine-calf-raise",
+  "stage": "ROOT APPROVED FOOT/HUMAN INPUT; canonical hardware composition/final scene gate still pending",
+  "inputIndex": {
+    "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/source-index.json",
+    "sha256": "c7ce7e4696163f1ac43eb6a4dee1c52ec6ff54ccef81890b8b38b54c50d22f37"
+  },
+  "frameDigestBin32": "5f40937a929b621c3d9d296e9bdb95da01d2e5a65e534b5c9d308f99b740832c",
+  "reviewers": [
+    "root",
+    "scott_round4 owner"
+  ],
+  "rootReviewed": [
+    "All19foot crops and frames8to12 in native-pixel enlargement."
+  ],
+  "ownerReviewed": [
+    "All19foot crops.",
+    "All18foot transition onions.",
+    "Full512frames7,8,12,13 for continuous body/foot join.",
+    "Five two-key inference alternatives failed to remove the sole fragments; four3-key local-foot alternatives compared at the original times."
+  ],
+  "selection": "3-key local foot estimate, reverse input order atscale1; unchanged original2-key body outsidefootROI and protected ankle tissue.",
+  "observations": [
+    "The former loose outsole fragment is absent; there is one connected sole perfoot.",
+    "Lowheel to neutral to raisedheel is legible; forefoot stays at the step edge in projection.",
+    "No separate clockretiming, wholebody3-key pose, sourcelegwarp, hardwarematte hiding a shoe artefact or new body mesh.",
+    "A small continuous white-band width variation aroundframe12 remains and was accepted by root; this is not a rigid3Dshoe certificate."
+  ],
+  "rejectedRefinements": [
+    "Two-key direction/scales0.5,1,2 preserve central ghost sole.",
+    "3-key scale0.5 andforward1 showed larger white-band/sole distortion than reverse1.",
+    "Additional same-clock scale2 estimates11to13 were not clearly better for form; not selected."
+  ],
+  "technicalFacts": {
+    "frameCount": 36,
+    "fps": 12,
+    "durationSeconds": 3,
+    "forwardFrames": 19,
+    "returnCopiesByteExact": 17,
+    "outsideROIPixelsPerFrameExact": 252827,
+    "bodyPreservationProof": "foot-motion-v1/body-preservation-check.json",
+    "midpointExactToRootApprovedV4": true
+  },
+  "scopeLimit": "Native PNG/onion review only; no phone/realtime playback or complete biomechanical certification. The renderer will now keep these human RGB inputs while correcting machine/weight motion, followed by root final scene review."
+}

@@ -1,0 +1,517 @@
+{
+  "id": "machine-ab-crunch",
+  "method": "Actual final-RIFE pixel segmentation and conservative mechanical capsules; alpha only, not image warp. The reference uses an image_gen empty-machine plate only where original moving parts need clearing.",
+  "scope": "candidate: inspect all19composed frames and overlaps before release",
+  "reverseDepth": "Hands and drop arms are foreground of the tower when silhouettes overlap. Their current masks retain actual source foreground pixels over the canonical tower.",
+  "trackerPoints": [
+    [
+      310,
+      190
+    ],
+    [
+      291,
+      129
+    ],
+    [
+      327,
+      130
+    ]
+  ],
+  "trackedPoints": [
+    [
+      [
+        310.0,
+        190.0
+      ],
+      [
+        291.0,
+        129.0
+      ],
+      [
+        327.0,
+        130.0
+      ]
+    ],
+    [
+      [
+        309.999755859375,
+        190.01519775390625
+      ],
+      [
+        290.99993896484375,
+        129.0067138671875
+      ],
+      [
+        327.0048828125,
+        130.00669860839844
+      ]
+    ],
+    [
+      [
+        312.1199951171875,
+        192.99896240234375
+      ],
+      [
+        293.8928527832031,
+        131.189697265625
+      ],
+      [
+        330.0797424316406,
+        132.0456085205078
+      ]
+    ],
+    [
+      [
+        315.47198486328125,
+        197.9542694091797
+      ],
+      [
+        297.9390563964844,
+        135.246826171875
+      ],
+      [
+        334.5490417480469,
+        135.19375610351562
+      ]
+    ],
+    [
+      [
+        319.7818298339844,
+        204.5988006591797
+      ],
+      [
+        304.0321350097656,
+        140.57901000976562
+      ],
+      [
+        341.4813537597656,
+        139.77793884277344
+      ]
+    ],
+    [
+      [
+        323.2196960449219,
+        211.38111877441406
+      ],
+      [
+        309.2725524902344,
+        146.80892944335938
+      ],
+      [
+        346.6675720214844,
+        146.42349243164062
+      ]
+    ],
+    [
+      [
+        327.6778564453125,
+        219.83970642089844
+      ],
+      [
+        316.48077392578125,
+        154.46205139160156
+      ],
+      [
+        354.008056640625,
+        154.43702697753906
+      ]
+    ],
+    [
+      [
+        330.7143249511719,
+        228.2541046142578
+      ],
+      [
+        321.6321105957031,
+        162.57774353027344
+      ],
+      [
+        358.1808776855469,
+        163.0918731689453
+      ]
+    ],
+    [
+      [
+        333.7948913574219,
+        236.60397338867188
+      ],
+      [
+        327.9174499511719,
+        171.50128173828125
+      ],
+      [
+        362.64385986328125,
+        171.98599243164062
+      ]
+    ],
+    [
+      [
+        337.2247314453125,
+        248.99937438964844
+      ],
+      [
+        336.3275451660156,
+        184.04978942871094
+      ],
+      [
+        368.9236145019531,
+        183.58480834960938
+      ]
+    ],
+    [
+      [
+        335.8420715332031,
+        261.7138366699219
+      ],
+      [
+        339.5859375,
+        198.3087615966797
+      ],
+      [
+        370.1370544433594,
+        197.29820251464844
+      ]
+    ],
+    [
+      [
+        334.0332336425781,
+        271.2987060546875
+      ],
+      [
+        340.9199523925781,
+        208.57176208496094
+      ],
+      [
+        370.6272277832031,
+        207.24017333984375
+      ]
+    ],
+    [
+      [
+        331.3552551269531,
+        278.36029052734375
+      ],
+      [
+        341.2801513671875,
+        218.2691192626953
+      ],
+      [
+        371.2280578613281,
+        216.76602172851562
+      ]
+    ],
+    [
+      [
+        327.0025329589844,
+        281.9178161621094
+      ],
+      [
+        340.2431945800781,
+        225.53741455078125
+      ],
+      [
+        368.86810302734375,
+        224.10304260253906
+      ]
+    ],
+    [
+      [
+        323.72393798828125,
+        284.41754150390625
+      ],
+      [
+        339.2602844238281,
+        230.22259521484375
+      ],
+      [
+        367.126953125,
+        228.80670166015625
+      ]
+    ],
+    [
+      [
+        319.4953308105469,
+        287.8490295410156
+      ],
+      [
+        336.6831359863281,
+        236.47955322265625
+      ],
+      [
+        364.2202453613281,
+        234.90797424316406
+      ]
+    ],
+    [
+      [
+        316.5723571777344,
+        290.3172912597656
+      ],
+      [
+        335.3196716308594,
+        240.5863494873047
+      ],
+      [
+        362.4653625488281,
+        239.04293823242188
+      ]
+    ],
+    [
+      [
+        314.6202087402344,
+        291.89794921875
+      ],
+      [
+        334.1942138671875,
+        243.00448608398438
+      ],
+      [
+        361.26812744140625,
+        241.22015380859375
+      ]
+    ],
+    [
+      [
+        314.62042236328125,
+        291.8980407714844
+      ],
+      [
+        334.1953125,
+        243.0110626220703
+      ],
+      [
+        361.26922607421875,
+        241.22181701660156
+      ]
+    ]
+  ],
+  "trackForwardBackwardErrors": [
+    [
+      0.0005375340115278959,
+      0.0001258271950064227,
+      0.0003452669770922512
+    ],
+    [
+      0.0017063256818801165,
+      0.0008079957333393395,
+      0.002866256982088089
+    ],
+    [
+      0.01392609253525734,
+      0.006062023341655731,
+      0.003560009878128767
+    ],
+    [
+      0.008321959525346756,
+      0.005292226560413837,
+      0.012341332621872425
+    ],
+    [
+      0.0037989176344126463,
+      0.014209562912583351,
+      0.007522830739617348
+    ],
+    [
+      0.019219249486923218,
+      0.06953214108943939,
+      0.022456957027316093
+    ],
+    [
+      0.024014832451939583,
+      0.030379202216863632,
+      0.0030513000674545765
+    ],
+    [
+      0.007135177031159401,
+      0.05282635986804962,
+      0.012811577878892422
+    ],
+    [
+      0.023183098062872887,
+      0.02723105624318123,
+      0.02232162095606327
+    ],
+    [
+      0.04687178507447243,
+      0.019573785364627838,
+      0.043078478425741196
+    ],
+    [
+      1.1604925394058228,
+      0.008285114541649818,
+      0.0594383180141449
+    ],
+    [
+      0.4158781170845032,
+      0.02133869007229805,
+      0.09957267343997955
+    ],
+    [
+      0.1262744814157486,
+      0.04164033755660057,
+      0.07834789901971817
+    ],
+    [
+      0.04064296558499336,
+      0.00885009765625,
+      0.04467308521270752
+    ],
+    [
+      0.07551351934671402,
+      0.01695089414715767,
+      0.018697140738368034
+    ],
+    [
+      0.017908437177538872,
+      0.002857918618246913,
+      0.014494315721094608
+    ],
+    [
+      0.01832958497107029,
+      0.00036906087188981473,
+      0.011026996187865734
+    ],
+    [
+      0.0001100326917367056,
+      0.00038602022686973214,
+      0.0003040292067453265
+    ]
+  ],
+  "maximumForwardBackwardError": 1.1604925394058228,
+  "frames": [
+    {
+      "frame": 1,
+      "source": "output/repair-animations/machine-ab-crunch/frames/frame_0001.png",
+      "sourceSha256": "930a6cc08f46d74a0fe0a8880ba30c94b9dcc2c58cd20d84821cdc3dab8230b4",
+      "dynamicFraction": 0.1776580810546875,
+      "previewSha256": "ae4a2ad9e54571c9249efb1ef3852c6edf432e8c11796785474034a0ef6b98f4"
+    },
+    {
+      "frame": 2,
+      "source": "output/repair-animations/machine-ab-crunch/frames/frame_0002.png",
+      "sourceSha256": "8b23f4298a54b55611f5730125289e9bf17c46eb5a642d5a113a2e765bf3cdce",
+      "dynamicFraction": 0.177459716796875,
+      "previewSha256": "02a3a2c098db03e70ca9cca8785e7c965d3f7089fca69c537ee3283c83a84371"
+    },
+    {
+      "frame": 3,
+      "source": "output/repair-animations/machine-ab-crunch/frames/frame_0003.png",
+      "sourceSha256": "8f07cd281bacc979c3bc755a0c408423761d8466d1a1a1865d773ad9717c9c31",
+      "dynamicFraction": 0.17868423461914062,
+      "previewSha256": "8f564141d1ab8ef31bd33160feecfc0d2744f4e6ddfc280468e08e9a781165aa"
+    },
+    {
+      "frame": 4,
+      "source": "output/repair-animations/machine-ab-crunch/frames/frame_0004.png",
+      "sourceSha256": "0bfbf73a3878447cb1311194f45f2477b16335b08abc2194242753277c6ddaac",
+      "dynamicFraction": 0.18073272705078125,
+      "previewSha256": "6deabda822e37e072c5fb76d3c0f0bd308345b2b7948ddf034c90ad2eeb3174e"
+    },
+    {
+      "frame": 5,
+      "source": "output/repair-animations/machine-ab-crunch/frames/frame_0005.png",
+      "sourceSha256": "bd9ca2158062f70c484cd024b045f8fa38fb2e60f2f01d8e1bd4126f35c07f31",
+      "dynamicFraction": 0.18405914306640625,
+      "previewSha256": "526d6ecc1654bf8e70ee4acc7d9fb8b73cf4af20df44181696e14aea733cc22d"
+    },
+    {
+      "frame": 6,
+      "source": "output/repair-animations/machine-ab-crunch/frames/frame_0006.png",
+      "sourceSha256": "9073561eeaa2085510768f10f724b2da99789f07a606a33eb291fbc2cbb707e5",
+      "dynamicFraction": 0.18423080444335938,
+      "previewSha256": "b9744e3b6e834b676466fc9904067a03868bfdfb82dcb1252cc019aff6a37871"
+    },
+    {
+      "frame": 7,
+      "source": "output/repair-animations/machine-ab-crunch/frames/frame_0007.png",
+      "sourceSha256": "26d192d70c38d06703f79f1117a52aeac3265e3c6b61e1b5f92cd5fe46a36d25",
+      "dynamicFraction": 0.18577194213867188,
+      "previewSha256": "87fd3f6346d0d10912dbe05e4e86371feebc1aa714c91d3343e20d501eb19fa0"
+    },
+    {
+      "frame": 8,
+      "source": "output/repair-animations/machine-ab-crunch/frames/frame_0008.png",
+      "sourceSha256": "09f661b8cfab3c64a3a8e5704142753094b326e95f15180ff42ae1cbdba11fb4",
+      "dynamicFraction": 0.18701934814453125,
+      "previewSha256": "3cc689253c36d46c6d31116843ed5472a4135f3c8f82f339f6d7b58cab9a20c5"
+    },
+    {
+      "frame": 9,
+      "source": "output/repair-animations/machine-ab-crunch/frames/frame_0009.png",
+      "sourceSha256": "d2e4d74e455faa01ab09b074b4d6ad32f571f18a6c079196815f4c82d2a7dc8c",
+      "dynamicFraction": 0.1862945556640625,
+      "previewSha256": "e0188b4838878b1308974f3d68c84dc240e5633272c6ba3ea1c5756d9a7f2b71"
+    },
+    {
+      "frame": 10,
+      "source": "output/repair-animations/machine-ab-crunch/frames/frame_0010.png",
+      "sourceSha256": "a0e3b2e11d4df939d37bd660ede9b376eee126406955694ed10af0fc4802eadc",
+      "dynamicFraction": 0.18503570556640625,
+      "previewSha256": "d452f9c20ef09c7bc5c69591d74b536b6903d87d17aa08bdf487474ba04bda64"
+    },
+    {
+      "frame": 11,
+      "source": "output/repair-animations/machine-ab-crunch/frames/frame_0011.png",
+      "sourceSha256": "7869bb10114410a9f055182311504085071c1ac6f511bb5b77c8fb2b799960ce",
+      "dynamicFraction": 0.17950820922851562,
+      "previewSha256": "6eb13e8040c89d5ba6c45e0d2660c80e58a27a812121f9af2ebe5bc317811807"
+    },
+    {
+      "frame": 12,
+      "source": "output/repair-animations/machine-ab-crunch/frames/frame_0012.png",
+      "sourceSha256": "9f34c1df7e34603cade7bd97f6cee0d42c8806ce8b1b56424059718645aaed19",
+      "dynamicFraction": 0.17612838745117188,
+      "previewSha256": "636c921a5d6778266f046787b9986a5ebf47c3c8429001be0557fd649a788fca"
+    },
+    {
+      "frame": 13,
+      "source": "output/repair-animations/machine-ab-crunch/frames/frame_0013.png",
+      "sourceSha256": "52224288d990071d97fe444fa79f79470cf4667801086d39f0ab917a2bc43673",
+      "dynamicFraction": 0.17608261108398438,
+      "previewSha256": "cb1a0e1f760b6b5ba98d1fa59e5774132ce4c1563d591091e39932bff385bfc6"
+    },
+    {
+      "frame": 14,
+      "source": "output/repair-animations/machine-ab-crunch/frames/frame_0014.png",
+      "sourceSha256": "33334a9d89e858682253be1dde7e2d6ef9861c17cf3e2e0df425961713de4461",
+      "dynamicFraction": 0.17162322998046875,
+      "previewSha256": "b2e319ce69144b0db254ef5e58d73b567c971f00f421ad8bfa4852c708cde5e6"
+    },
+    {
+      "frame": 15,
+      "source": "output/repair-animations/machine-ab-crunch/frames/frame_0015.png",
+      "sourceSha256": "f857e66d1925325ac69ab3f743eef2a5c4d648f3b5f0a9b5ccbb1dd72df39b73",
+      "dynamicFraction": 0.16901779174804688,
+      "previewSha256": "fc2033cc179a3019bf2c7ea220f9a3327e52901cc6a153e714ac28906b5c824f"
+    },
+    {
+      "frame": 16,
+      "source": "output/repair-animations/machine-ab-crunch/frames/frame_0016.png",
+      "sourceSha256": "25b1fd17ce3bf352d0e01635e86396cb2f51f426a2456505f50f54be334260fd",
+      "dynamicFraction": 0.16501617431640625,
+      "previewSha256": "75441aee42f5a286ea8852504d2593ae2d86fab797fc82615749a9fd8a19af83"
+    },
+    {
+      "frame": 17,
+      "source": "output/repair-animations/machine-ab-crunch/frames/frame_0017.png",
+      "sourceSha256": "c9a483c744d264d4fdf280d3024a6d25d06a7e32409cd29639457bf6c59ab382",
+      "dynamicFraction": 0.16265869140625,
+      "previewSha256": "6307ee2b7e03b480321b36416fcaf45702f83514f0a01fd49173a03c89d62b9d"
+    },
+    {
+      "frame": 18,
+      "source": "output/repair-animations/machine-ab-crunch/frames/frame_0018.png",
+      "sourceSha256": "f7c9369e4460390bd900b4808dbd84d434c4a458c7ab116590d791047e2ed3d6",
+      "dynamicFraction": 0.16133499145507812,
+      "previewSha256": "f8cbb8361f1994c6ae40b114949dfc1e3ab5fadb9eb093343ffa5362a6372f04"
+    },
+    {
+      "frame": 19,
+      "source": "output/repair-animations/machine-ab-crunch/frames/frame_0019.png",
+      "sourceSha256": "8d8cf847ccf52461abe3815510fce0e249b8e3a3fda29535ee2c72a5267bf5dd",
+      "dynamicFraction": 0.16133499145507812,
+      "previewSha256": "ead83affc8a564c75ee72c6afeaa4061988525b9551ba28d54f87b9e735a0e86"
+    }
+  ],
+  "staticSpecSha256": "136e35c081cb8f5c295ad11d033fe32b25cfe7de6e022a7d05a83e23bb335c2b"
+}

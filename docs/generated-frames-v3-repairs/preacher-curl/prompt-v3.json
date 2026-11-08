@@ -1,0 +1,9 @@
+{
+  "mode": "builtin-image_gen",
+  "source": "C:\\Users\\pedrao\\.codex\\generated_images\\01a1b859-1287-7690-bb8e-b7a241c21ae2\\exec-5103223c-ad19-422f-8158-1ef738dd08e0.png",
+  "prompt": "Use case: precise-object-edit. Edit this nine-panel machine preacher curl sheet with ONLY ONE localized equipment change in EVERY panel: enclose the visible weight stack and guide rods at the LEFT side of the selectorized tower with a smooth opaque DARK GREY SAFETY SHROUD, matching the existing machine's right-side finish. This is a normal real full-shroud curl machine. There must be NO visible stationary weight plates or rods behind the operating lever in any panel. Preserve exact tower dimensions and all mechanics. LOCK ALL athlete pixels, hands, elbows, machine fixed pivot, sloped pad, seat, camera, shadows, chassis and the moving lever angles EXACTLY as in the input. Do not alter the 9poses, no limb proportions changes, no reposed elbows, no floating hinge. Keep the orange-ring bearing FIXED BESIDE THE ELBOW at exactly the same coordinates in all nine cells. It remains fixed while the ONE rigid lever from pivot to hand rotates. Preserve each lever's length. Full-sheet3x3 equally sizedsquare panels, no text/labels, no watermark. Only install the same opaque grey panel over the stack/rod slot of the left tower, WITHOUT changing any other feature. No extra column or detached part.",
+  "references": [
+    "sheet-v2.png"
+  ],
+  "status": "candidate"
+}

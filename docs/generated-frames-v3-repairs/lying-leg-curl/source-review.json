@@ -1,0 +1,33 @@
+{
+  "stage": "source-ready-for-interpolation-review-only",
+  "reviewer": "legs_round3",
+  "sheet": "sheet.png",
+  "sha256": "43b7d7fd8bed11894e1774803f6146cf576df0e28ebfc80733f0243bf51c4e89",
+  "selectedCells": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "grid": [
+    3,
+    3
+  ],
+  "findings": [
+    "Local edit of previous body preserves bench, hips, thighs and knee location.",
+    "One lever connects knee-axis and one posterior roller, no disconnected secondary endpoint.",
+    "Cap stays at posterior lower shin, outside its centerline. Near-side cap partially occludes shoe/heel in2D; do not claim an exterior silhouette gap proves depth.",
+    "Mechanical-circle landmarks documented separately; generated lever radius varies slightly and is not an exact rigid rig."
+  ],
+  "limits": [
+    "Final19forward frames and12fps playback remain pending.",
+    "Manual/feature surface geometry estimates do not certify bone or machine3Dgeometry."
+  ],
+  "selectedVariant": "V2",
+  "rejectedVariant": "V3 did not improve mechanical radius (93?106px versus93?104px inV2); preserve but do not select it."
+}

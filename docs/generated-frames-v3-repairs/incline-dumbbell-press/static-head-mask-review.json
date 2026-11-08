@@ -1,0 +1,163 @@
+{
+  "mask": "docs/generated-frames-v3-repairs/incline-dumbbell-press/static-head-mask.png",
+  "sha256": "1ad5c13e37f59b55a3c5ae2b444bb3cd29be16ea9f55bb2ab2e0a3ecfecea457",
+  "type": "manually traced canonical head contour; one-pixel edge smoothing; no human geometry warp",
+  "referenceIndex": 0,
+  "polygonPixels": [
+    [
+      49,
+      80
+    ],
+    [
+      50,
+      97
+    ],
+    [
+      58,
+      108
+    ],
+    [
+      76,
+      117
+    ],
+    [
+      99,
+      119
+    ],
+    [
+      115,
+      114
+    ],
+    [
+      130,
+      108
+    ],
+    [
+      141,
+      102
+    ],
+    [
+      141,
+      96
+    ],
+    [
+      136,
+      91
+    ],
+    [
+      135,
+      87
+    ],
+    [
+      131,
+      82
+    ],
+    [
+      128,
+      80
+    ],
+    [
+      136,
+      77
+    ],
+    [
+      136,
+      72
+    ],
+    [
+      129,
+      69
+    ],
+    [
+      126,
+      68
+    ],
+    [
+      125,
+      63
+    ],
+    [
+      121,
+      60
+    ],
+    [
+      112,
+      56
+    ],
+    [
+      108,
+      53
+    ],
+    [
+      106,
+      47
+    ],
+    [
+      101,
+      42
+    ],
+    [
+      92,
+      40
+    ],
+    [
+      83,
+      42
+    ],
+    [
+      74,
+      47
+    ],
+    [
+      66,
+      54
+    ],
+    [
+      58,
+      64
+    ],
+    [
+      52,
+      72
+    ]
+  ],
+  "review": "All9actual source head/near-dumbbell crops inspected at4x. Mask follows hair/ear/face/chin and upperneck, not a large rectangle; excludes moving dumbbells even at narrow nose clearance. Dark-object overlap diagnostic supplements this per-pose visual review. Canonical head is physically supported by the fixed bench.",
+  "poses": [
+    {
+      "sourcePose": 0,
+      "darkDumbbellIntrusionOnProtectedHeadPixels": 0
+    },
+    {
+      "sourcePose": 1,
+      "darkDumbbellIntrusionOnProtectedHeadPixels": 0
+    },
+    {
+      "sourcePose": 2,
+      "darkDumbbellIntrusionOnProtectedHeadPixels": 0
+    },
+    {
+      "sourcePose": 3,
+      "darkDumbbellIntrusionOnProtectedHeadPixels": 0
+    },
+    {
+      "sourcePose": 4,
+      "darkDumbbellIntrusionOnProtectedHeadPixels": 0
+    },
+    {
+      "sourcePose": 5,
+      "darkDumbbellIntrusionOnProtectedHeadPixels": 0
+    },
+    {
+      "sourcePose": 6,
+      "darkDumbbellIntrusionOnProtectedHeadPixels": 0
+    },
+    {
+      "sourcePose": 7,
+      "darkDumbbellIntrusionOnProtectedHeadPixels": 0
+    },
+    {
+      "sourcePose": 8,
+      "darkDumbbellIntrusionOnProtectedHeadPixels": 0
+    }
+  ]
+}

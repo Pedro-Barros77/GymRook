@@ -1,0 +1,11 @@
+{
+  "source": "docs/generated-frames-v2-fixes/lying-leg-curl/sheet.png",
+  "finding": "Roller circle is centered on the projected leg/ankle instead of visibly outside the posterior skin boundary, making the pad appear to pierce the calf.",
+  "repair": "New side-profile guide offsets the roller circle by shin radius + roller radius from the lower-shin centerline.",
+  "acceptance": [
+    "Roller circle stays tangent and outside posterior shin skin, never crossing through the calf.",
+    "Lever radius remains constant around fixed knee pivot, not through the leg.",
+    "Knee/hip/thigh remain fixed; tibia/foot lengths constant."
+  ],
+  "scope": "Source diagnosis only; no final repair approval until actual rendered motion is inspected at native12fps and slower."
+}

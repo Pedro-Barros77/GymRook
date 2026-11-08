@@ -1,0 +1,157 @@
+{
+  "enabled": true,
+  "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-mask-union.png",
+  "sha256": "672cf5d930116dc5008c2b7440f2ac18d30869d93c57066494464b021236d95e",
+  "referenceIndex": 0,
+  "referenceImage": {
+    "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/canonical-fixed-reference.png",
+    "sha256": "8d9ae02c92735e0b0427240fd0b69f34a39cb7835b7afdcb0cf719e7b06ec7e6"
+  },
+  "frameMasks": [
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0001.png",
+      "sha256": "8e68e25a598c3eff7fae308391f7b0e856540385a14733e8c169686f4e8e2ff0"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0002.png",
+      "sha256": "3964f17a163496570fb149c1cc77acb80d79eb2299424a55914650fc704e2772"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0003.png",
+      "sha256": "afce36fc17f26fd23946de1b95ffa4f5d954c3217768c488c12679d187846a9f"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0004.png",
+      "sha256": "b25fa9446f9b3d8a1600b911ee603c8bf5398b8bfed971eacd699e578784d9a8"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0005.png",
+      "sha256": "0c131f51c0797a83ef6b355adc7248a94e21208d70dfbb31c17c7633c1f408e6"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0006.png",
+      "sha256": "c28c18c0877350cec5931d5cb05fc73c3e17eff99474dcec0a9796a48edb0e84"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0007.png",
+      "sha256": "7b308a6ee04822faaf8d435e4d6b1052337a8c99d23ebcabd59723c8e4deeab6"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0008.png",
+      "sha256": "1262d3c4b2957950e4ad613d2324b1cf6d560b6e699676e3285f3c0c1b4e0475"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0009.png",
+      "sha256": "0d6cc7463073eb0887223686f715a4e32f40a02d3d652520a3679ab0eacfc5ee"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0010.png",
+      "sha256": "38969edd9a784d95b66ba9b131304df72fbdff899498a5d74e20f726f20b1514"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0011.png",
+      "sha256": "479fc780bbe69a2f09e8cf944bb7f7872b757d143c58b90f75467b298ada5c59"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0012.png",
+      "sha256": "0986164b4f7a07bf8e504301d0f0978a9e33c631bdb1f29cb8d992b518c45bcb"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0013.png",
+      "sha256": "42d612399eb6ff385b71407faabe302c1398260640cc934032a942be1b155728"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0014.png",
+      "sha256": "5130abaeeb5e2fb92988c83fb98b0611e70c4e51aa6bcff2e2c3276db4dc1f26"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0015.png",
+      "sha256": "048d96ce92872d057597090500a4425d9336219731b78045a5640c6fffb2895c"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0016.png",
+      "sha256": "9bcd442cb5ef99b293854e05701b4a86093dbc5979552f12616bfd6d83875fbc"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0017.png",
+      "sha256": "f9fff34285f3fde0bf0faac4104878d94571733537d2ee9d857e286531f45cc4"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0018.png",
+      "sha256": "ed908addb03f266065ea4c3851b814c86da3ef8270f9123236924895b8856973"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0019.png",
+      "sha256": "ed908addb03f266065ea4c3851b814c86da3ef8270f9123236924895b8856973"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0020.png",
+      "sha256": "ed908addb03f266065ea4c3851b814c86da3ef8270f9123236924895b8856973"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0021.png",
+      "sha256": "f9fff34285f3fde0bf0faac4104878d94571733537d2ee9d857e286531f45cc4"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0022.png",
+      "sha256": "9bcd442cb5ef99b293854e05701b4a86093dbc5979552f12616bfd6d83875fbc"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0023.png",
+      "sha256": "048d96ce92872d057597090500a4425d9336219731b78045a5640c6fffb2895c"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0024.png",
+      "sha256": "5130abaeeb5e2fb92988c83fb98b0611e70c4e51aa6bcff2e2c3276db4dc1f26"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0025.png",
+      "sha256": "42d612399eb6ff385b71407faabe302c1398260640cc934032a942be1b155728"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0026.png",
+      "sha256": "0986164b4f7a07bf8e504301d0f0978a9e33c631bdb1f29cb8d992b518c45bcb"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0027.png",
+      "sha256": "479fc780bbe69a2f09e8cf944bb7f7872b757d143c58b90f75467b298ada5c59"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0028.png",
+      "sha256": "38969edd9a784d95b66ba9b131304df72fbdff899498a5d74e20f726f20b1514"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0029.png",
+      "sha256": "0d6cc7463073eb0887223686f715a4e32f40a02d3d652520a3679ab0eacfc5ee"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0030.png",
+      "sha256": "1262d3c4b2957950e4ad613d2324b1cf6d560b6e699676e3285f3c0c1b4e0475"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0031.png",
+      "sha256": "7b308a6ee04822faaf8d435e4d6b1052337a8c99d23ebcabd59723c8e4deeab6"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0032.png",
+      "sha256": "c28c18c0877350cec5931d5cb05fc73c3e17eff99474dcec0a9796a48edb0e84"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0033.png",
+      "sha256": "0c131f51c0797a83ef6b355adc7248a94e21208d70dfbb31c17c7633c1f408e6"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0034.png",
+      "sha256": "b25fa9446f9b3d8a1600b911ee603c8bf5398b8bfed971eacd699e578784d9a8"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0035.png",
+      "sha256": "afce36fc17f26fd23946de1b95ffa4f5d954c3217768c488c12679d187846a9f"
+    },
+    {
+      "file": "docs/generated-frames-v3-repairs/reverse-pec-deck/static-composition/static-0036.png",
+      "sha256": "3964f17a163496570fb149c1cc77acb80d79eb2299424a55914650fc704e2772"
+    }
+  ],
+  "review": "Candidate per-frame envelopes, actual raster-skin segmentation and mechanical capsules. Canonical fixed apparatus/lower body; reverse head fixed. No athlete RGB warp/recolour. All19composed frames/edges must be visually reviewed before motion/export release."
+}

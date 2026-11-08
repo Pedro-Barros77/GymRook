@@ -1,0 +1,351 @@
+{
+  "scope": "projected drawing scaffold only; no exact3D anatomy certificate",
+  "near": {
+    "shoulder": [
+      166,
+      144
+    ],
+    "elbow": [
+      211,
+      226
+    ],
+    "gripRadius": 105
+  },
+  "far": {
+    "shoulder": [
+      254,
+      143
+    ],
+    "elbow": [
+      293,
+      207
+    ],
+    "gripRadius": 100
+  },
+  "poses": [
+    {
+      "cell": 0,
+      "angleDegrees": 45,
+      "arms": {
+        "far": {
+          "shoulder": [
+            254,
+            143
+          ],
+          "elbow": [
+            293,
+            207
+          ],
+          "gripCenter": [
+            363.71067811865476,
+            277.71067811865476
+          ],
+          "projectedRadius": 100
+        },
+        "near": {
+          "shoulder": [
+            166,
+            144
+          ],
+          "elbow": [
+            211,
+            226
+          ],
+          "gripCenter": [
+            285.2462120245875,
+            300.2462120245875
+          ],
+          "projectedRadius": 105
+        }
+      }
+    },
+    {
+      "cell": 1,
+      "angleDegrees": 32,
+      "arms": {
+        "far": {
+          "shoulder": [
+            254,
+            143
+          ],
+          "elbow": [
+            293,
+            207
+          ],
+          "gripCenter": [
+            377.8048096156426,
+            259.9919264233205
+          ],
+          "projectedRadius": 100
+        },
+        "near": {
+          "shoulder": [
+            166,
+            144
+          ],
+          "elbow": [
+            211,
+            226
+          ],
+          "gripCenter": [
+            300.04505009642475,
+            281.6415227444865
+          ],
+          "projectedRadius": 105
+        }
+      }
+    },
+    {
+      "cell": 2,
+      "angleDegrees": 19,
+      "arms": {
+        "far": {
+          "shoulder": [
+            254,
+            143
+          ],
+          "elbow": [
+            293,
+            207
+          ],
+          "gripCenter": [
+            387.5518575599317,
+            239.55681544571567
+          ],
+          "projectedRadius": 100
+        },
+        "near": {
+          "shoulder": [
+            166,
+            144
+          ],
+          "elbow": [
+            211,
+            226
+          ],
+          "gripCenter": [
+            310.2794504379283,
+            260.18465621800146
+          ],
+          "projectedRadius": 105
+        }
+      }
+    },
+    {
+      "cell": 3,
+      "angleDegrees": 6,
+      "arms": {
+        "far": {
+          "shoulder": [
+            254,
+            143
+          ],
+          "elbow": [
+            293,
+            207
+          ],
+          "gripCenter": [
+            392.45218953682735,
+            217.45284632676535
+          ],
+          "projectedRadius": 100
+        },
+        "near": {
+          "shoulder": [
+            166,
+            144
+          ],
+          "elbow": [
+            211,
+            226
+          ],
+          "gripCenter": [
+            315.4247990136687,
+            236.9754886431036
+          ],
+          "projectedRadius": 105
+        }
+      }
+    },
+    {
+      "cell": 4,
+      "angleDegrees": -7,
+      "arms": {
+        "far": {
+          "shoulder": [
+            254,
+            143
+          ],
+          "elbow": [
+            293,
+            207
+          ],
+          "gripCenter": [
+            392.2546151641322,
+            194.81306565948526
+          ],
+          "projectedRadius": 100
+        },
+        "near": {
+          "shoulder": [
+            166,
+            144
+          ],
+          "elbow": [
+            211,
+            226
+          ],
+          "gripCenter": [
+            315.21734592233884,
+            213.20371894245952
+          ],
+          "projectedRadius": 105
+        }
+      }
+    },
+    {
+      "cell": 5,
+      "angleDegrees": -20,
+      "arms": {
+        "far": {
+          "shoulder": [
+            254,
+            143
+          ],
+          "elbow": [
+            293,
+            207
+          ],
+          "gripCenter": [
+            386.9692620785909,
+            172.79798566743312
+          ],
+          "projectedRadius": 100
+        },
+        "near": {
+          "shoulder": [
+            166,
+            144
+          ],
+          "elbow": [
+            211,
+            226
+          ],
+          "gripCenter": [
+            309.66772518252037,
+            190.08788495080478
+          ],
+          "projectedRadius": 105
+        }
+      }
+    },
+    {
+      "cell": 6,
+      "angleDegrees": -33,
+      "arms": {
+        "far": {
+          "shoulder": [
+            254,
+            143
+          ],
+          "elbow": [
+            293,
+            207
+          ],
+          "gripCenter": [
+            376.8670567945424,
+            152.5360964984973
+          ],
+          "projectedRadius": 100
+        },
+        "near": {
+          "shoulder": [
+            166,
+            144
+          ],
+          "elbow": [
+            211,
+            226
+          ],
+          "gripCenter": [
+            299.0604096342695,
+            168.81290132342215
+          ],
+          "projectedRadius": 105
+        }
+      }
+    },
+    {
+      "cell": 7,
+      "angleDegrees": -46,
+      "arms": {
+        "far": {
+          "shoulder": [
+            254,
+            143
+          ],
+          "elbow": [
+            293,
+            207
+          ],
+          "gripCenter": [
+            362.4658370458997,
+            135.0660199661349
+          ],
+          "projectedRadius": 100
+        },
+        "near": {
+          "shoulder": [
+            166,
+            144
+          ],
+          "elbow": [
+            211,
+            226
+          ],
+          "gripCenter": [
+            283.9391288981947,
+            150.46932096444164
+          ],
+          "projectedRadius": 105
+        }
+      }
+    },
+    {
+      "cell": 8,
+      "angleDegrees": -59,
+      "arms": {
+        "far": {
+          "shoulder": [
+            254,
+            143
+          ],
+          "elbow": [
+            293,
+            207
+          ],
+          "gripCenter": [
+            344.50380749100543,
+            121.28326992978877
+          ],
+          "projectedRadius": 100
+        },
+        "near": {
+          "shoulder": [
+            166,
+            144
+          ],
+          "elbow": [
+            211,
+            226
+          ],
+          "gripCenter": [
+            265.07899786555566,
+            135.9974334262782
+          ],
+          "projectedRadius": 105
+        }
+      }
+    }
+  ]
+}

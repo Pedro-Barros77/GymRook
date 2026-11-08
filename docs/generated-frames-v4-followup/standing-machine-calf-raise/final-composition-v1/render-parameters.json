@@ -1,0 +1,277 @@
+{
+  "forwardParameters": [
+    {
+      "frame": 1,
+      "phase": 0.0,
+      "weightTranslationPixels": [
+        0,
+        -0.0
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0001.png",
+        "sha256": "b89bc79ab5b499ce6fb978e8a35df8bcab0ac42ba48651101e86877da66239ba"
+      },
+      "skinCorePixels": 19762,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 2,
+      "phase": 0.00759612349389599,
+      "weightTranslationPixels": [
+        0,
+        -0.18990308734739975
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0002.png",
+        "sha256": "e56f73255f0cc9e05d78c4aa1a3581162dec9260a9e1107cbdc83ccd2fe3bf5a"
+      },
+      "skinCorePixels": 19763,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 3,
+      "phase": 0.030153689607045786,
+      "weightTranslationPixels": [
+        0,
+        -0.7538422401761447
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0003.png",
+        "sha256": "bf713841711f28a4c524225bcf1eef870dd965845c6752cea0b10df2df0d4006"
+      },
+      "skinCorePixels": 19763,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 4,
+      "phase": 0.06698729810778065,
+      "weightTranslationPixels": [
+        0,
+        -1.674682452694516
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0004.png",
+        "sha256": "6d65f3188f3b5699554716fff127b6df51a5186f3e6a5a4927d13698360bd9c2"
+      },
+      "skinCorePixels": 19749,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 5,
+      "phase": 0.116977778440511,
+      "weightTranslationPixels": [
+        0,
+        -2.924444461012775
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0005.png",
+        "sha256": "2c4b72e5814acfc2f6bfbe00e070d95119f7d9a2ab89f4850c89945f902c2072"
+      },
+      "skinCorePixels": 19638,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 6,
+      "phase": 0.17860619515673032,
+      "weightTranslationPixels": [
+        0,
+        -4.465154878918258
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0006.png",
+        "sha256": "960171b5fd21ffaa72634b27b33d244448c067e70e6e0ddcf0ed8651e8578b9c"
+      },
+      "skinCorePixels": 19625,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 7,
+      "phase": 0.24999999999999994,
+      "weightTranslationPixels": [
+        0,
+        -6.249999999999998
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0007.png",
+        "sha256": "2aedf92aea5ca0b6a389c2a283628ed268cbb10ee43b641025d2c29a2ab4fbd3"
+      },
+      "skinCorePixels": 19469,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 8,
+      "phase": 0.32898992833716556,
+      "weightTranslationPixels": [
+        0,
+        -8.224748208429139
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0008.png",
+        "sha256": "6c13055e09cf0f9b3383049c30ddc331f877c7cf79017e734ba3c106cccc7838"
+      },
+      "skinCorePixels": 19471,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 9,
+      "phase": 0.4131759111665348,
+      "weightTranslationPixels": [
+        0,
+        -10.32939777916337
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0009.png",
+        "sha256": "0b1160aed92c835a38ac729465b01237014b3d17a8f34b196b44f9fb58e18c0c"
+      },
+      "skinCorePixels": 19350,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 10,
+      "phase": 0.49999999999999994,
+      "weightTranslationPixels": [
+        0,
+        -12.499999999999998
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0010.png",
+        "sha256": "5f1c12cc9e1fc958181a823f48d6fbc5a7231c82251569e56189979abac84a91"
+      },
+      "skinCorePixels": 19207,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 11,
+      "phase": 0.5868240888334652,
+      "weightTranslationPixels": [
+        0,
+        -14.67060222083663
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0011.png",
+        "sha256": "a4a9fba06afed2b66c08c8efba7718e450b29ae6a1f8ac62b5fb1325e4dce3ee"
+      },
+      "skinCorePixels": 19073,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 12,
+      "phase": 0.6710100716628342,
+      "weightTranslationPixels": [
+        0,
+        -16.775251791570856
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0012.png",
+        "sha256": "5d2bafee67c9a5e16422c13e2c71de84ab4c8500b42544b12b0f639d605c1927"
+      },
+      "skinCorePixels": 18959,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 13,
+      "phase": 0.7499999999999999,
+      "weightTranslationPixels": [
+        0,
+        -18.749999999999996
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0013.png",
+        "sha256": "127e7243ec0d800543be8d146647bbf4a6dfc89c47546a321b7da07db0614fc0"
+      },
+      "skinCorePixels": 18941,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 14,
+      "phase": 0.8213938048432696,
+      "weightTranslationPixels": [
+        0,
+        -20.53484512108174
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0014.png",
+        "sha256": "1fa8f09063e153aff47f7056ffe971194840d2e66533801231cf486d15e18482"
+      },
+      "skinCorePixels": 18815,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 15,
+      "phase": 0.883022221559489,
+      "weightTranslationPixels": [
+        0,
+        -22.075555538987224
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0015.png",
+        "sha256": "a4e61d8d5c46c016cd2e6534fa078663133ab4576b0c8f8daf9b82c800aeda90"
+      },
+      "skinCorePixels": 18700,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 16,
+      "phase": 0.9330127018922192,
+      "weightTranslationPixels": [
+        0,
+        -23.32531754730548
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0016.png",
+        "sha256": "f80d064c12b590d950844a8621bf8dbaed826392b65033c2ba225f1ca1510241"
+      },
+      "skinCorePixels": 18655,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 17,
+      "phase": 0.9698463103929542,
+      "weightTranslationPixels": [
+        0,
+        -24.246157759823856
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0017.png",
+        "sha256": "dd15e3a6e6ec8218023e8b55a319beeb6afbf7afcb04f48de85a1e1d1a981ffd"
+      },
+      "skinCorePixels": 18641,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 18,
+      "phase": 0.9924038765061041,
+      "weightTranslationPixels": [
+        0,
+        -24.8100969126526
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0018.png",
+        "sha256": "308415a391c9703c252dcc0d23a834ca3e2ee74932c78b69b85184fc50a5765d"
+      },
+      "skinCorePixels": 18642,
+      "skinCoreMaxRGBDifference": 0
+    },
+    {
+      "frame": 19,
+      "phase": 1.0,
+      "weightTranslationPixels": [
+        0,
+        -25.0
+      ],
+      "actorMask": {
+        "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/actor-masks/actor-0019.png",
+        "sha256": "9894b2bf1c930d8746ee496cbf75686561e5a00dd25c86c937804a7a5cb0dccf"
+      },
+      "skinCorePixels": 18641,
+      "skinCoreMaxRGBDifference": 0
+    }
+  ],
+  "alphaTracking": "alpha-tracking-parameters.json",
+  "nativeWeightUnitTranslation": [
+    0,
+    -25
+  ],
+  "weightScale": 1.0,
+  "sourceBody": "exact chosen two-keybody plus ROOTapproved local3keyfoot RGB"
+}

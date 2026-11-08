@@ -1,0 +1,718 @@
+{
+  "id": "machine-ab-crunch",
+  "status": "Canonical candidate; root final visual gate pending. No export.",
+  "method": "Raw reviewed RIFE human and moving yoke kept, fixed equipment/lowerbody canonical. Skin core is exact raw RGB; no human warping.",
+  "sourceSha256": "f63bc75ce407a58e9ebf1fa39aea79b7402093089cf32397c2170c1107b2bcb2",
+  "rawIndex": {
+    "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/raw-index.json",
+    "sha256": "cee36af1de74896da833ba79c35fd34adc95a39722a885d1b02644c5f851c57f"
+  },
+  "canonical": {
+    "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/canonical-fixed-reference.png",
+    "sha256": "fb5d4fb232e61adb5cad7e8b625d5590ec7d0ca74222fa460f83d734ed141064"
+  },
+  "canonicalEquipmentEdit": {
+    "file": "docs/generated-frames-v4-followup/machine-ab-crunch/clean-equipment-v1.png",
+    "sha256": "0052a2aef0d43f3c8ec32d1615c08dc7c4dc6fe12df945c5b6a1bbd88b79accb",
+    "selectedPatchPixels": [
+      282,
+      137,
+      386,
+      282
+    ]
+  },
+  "entries": [
+    {
+      "frame": 1,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0001.png",
+        "sha256": "ef24c5d09281c3cad050c986788b61dfa7fb15feb58233edbabf9dbd8f95eb0a"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0001.png",
+        "sha256": "0a6744ac86cdf68da9b2b8071b840a0ec667de62437584caa8b35e2a2583aacb"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0001.png",
+        "sha256": "becafd9115abae79be2ea21a8347bfa346da90e419ab48f99313b420ae31f47c"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0001.png",
+        "sha256": "71a98cc2ad27aed9f350bce8e39415cb8f60e6939e836e7284bbbbc2193830d8"
+      }
+    },
+    {
+      "frame": 2,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0002.png",
+        "sha256": "fd6047c7153e0d98545c24794fd0a7e0580150d50258cdae43acdbd214adf48d"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0002.png",
+        "sha256": "0a6744ac86cdf68da9b2b8071b840a0ec667de62437584caa8b35e2a2583aacb"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0002.png",
+        "sha256": "c404aeb1595925ce12919ad8cd24b4bd87293c4996aed49995a0a09bb1914138"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0002.png",
+        "sha256": "0b33200122f6fb411db800c02a2818ad5a8a46e768aeb363c5ec0621eaa1b0a0"
+      }
+    },
+    {
+      "frame": 3,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0003.png",
+        "sha256": "ca42290601d8f9995af1c58b4967c72a1aceac0e865577e84e331b5c7f3738c6"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0003.png",
+        "sha256": "d10c80896b69c974538f15decce2815b292edacd4fbd8b7bba1b36f64a78edc3"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0003.png",
+        "sha256": "c1c8c44ceb921d9414890b9bd7c8b43b062b59b10ee884677a08d69ee8b2c03f"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0003.png",
+        "sha256": "2bffcccfb4ad9f2259e2f7fe20f35e2801066d00822309fbc1cd19b3693c92ef"
+      }
+    },
+    {
+      "frame": 4,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0004.png",
+        "sha256": "6bc08896fd636c4301b0bcdfc1fe3413f52a48de88b5f4533fea2dcda8d653eb"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0004.png",
+        "sha256": "1a5da38ebbe454a41289426e861b1b5e145ce3a3dbc94ad3955a7588da47f4f4"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0004.png",
+        "sha256": "f66146a7e71dc6b4b83697af97bd379aee0394b4bc0e089e2126ff51b1571f68"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0004.png",
+        "sha256": "3139827e4b356eda5afe9671e7d68f986aba1d44b7fcaa943872466855256cf4"
+      }
+    },
+    {
+      "frame": 5,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0005.png",
+        "sha256": "7aaed6b166604ffd11c2153f0785032f0848732377e4ea5b6507d45a547c6fcf"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0005.png",
+        "sha256": "705137027969120b6f53fdb09263ad917dfb22be1c38d53ae25f5d3b2833ba0c"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0005.png",
+        "sha256": "ae4bca66af4eb7a82c5663b726c4b346c43bcdb685ce1d0535322fbee0124703"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0005.png",
+        "sha256": "c3521ef01d0cc77cca528c89e24f831d4dc4eb215da794210296735ec56d5eab"
+      }
+    },
+    {
+      "frame": 6,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0006.png",
+        "sha256": "28841f96b2af8405a34656ff55e047f40de5799c882c06c228922eb53b2425da"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0006.png",
+        "sha256": "8c778eba8597363b627ded8c2b167b5619c1e84d9fdd1789fe368483f2b157d1"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0006.png",
+        "sha256": "fd921bff11bf5da062d9f36517579ad930f46cc82fcd1a01d888afcb5df52db9"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0006.png",
+        "sha256": "3dfa1aef29f95cd013457938d702cef77d2686e738888863d40f02e682e49c04"
+      }
+    },
+    {
+      "frame": 7,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0007.png",
+        "sha256": "b55fd7972493e6bbf9a39d7b33c28b02739db9f3dba2ffe16dd0052ce8b16d80"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0007.png",
+        "sha256": "e881b5aee552db1c02ad3360b98d9d685b1b3fa176531dd6c181879c8c3d4f94"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0007.png",
+        "sha256": "f18ebbe0ffa7611c0d2c18c1058b9ee963b25d0475cbc7e215aa6036e4024776"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0007.png",
+        "sha256": "f944c71732b8d852d40ccc9fd666e83bab58e718788e1491be5fd1b8214f5d9f"
+      }
+    },
+    {
+      "frame": 8,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0008.png",
+        "sha256": "aad398cd76e2b63b680ccadea28d33b780131060bf719aa8a6c0f99b9a297e11"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0008.png",
+        "sha256": "7b0213408c853b1c291a9dd543332b2e3a17ef969c79ea24ba306746b515544e"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0008.png",
+        "sha256": "c8715acb460278c8349cc8844a93ce6337eb7b4faae9cc8a8a4ecf95326214f8"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0008.png",
+        "sha256": "919c97dfb52ffd65e99cad82d9a1e539b7c481983cd8576d07626e258f99d12b"
+      }
+    },
+    {
+      "frame": 9,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0009.png",
+        "sha256": "fd3fed679fa1fc466b1723bfbb58622dc8d229d033ae32239667aabdcd61a3a4"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0009.png",
+        "sha256": "4ec9b391a7dd10cfdb9ad43f671765e8c2e81ee7862965273b3e7a48eca56dd7"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0009.png",
+        "sha256": "c0fde293598cb343a10edc6739f09442ea6d87e5c3b3943075e7ad867b8c6ef2"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0009.png",
+        "sha256": "b525cb663c7cf710f0aa0612e3a11894da15a2225159d0c5236345acbd7fd327"
+      }
+    },
+    {
+      "frame": 10,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0010.png",
+        "sha256": "7597565018227ea30dd34d2d69b5d5d6251e164d958cdc17f3b33708e9fe453c"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0010.png",
+        "sha256": "94af92da172d9663a88c82bb36f819c2a7bbc128b35ecc3597c82d53027fa016"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0010.png",
+        "sha256": "4d996b538e2c1560f33e0b208f3cb5c967312e2f695e7f515f1657c36491edbc"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0010.png",
+        "sha256": "9ef739e8eaa08af9a3f9f80e62ef838a40582458fe34ac3341972e563a7a0fd0"
+      }
+    },
+    {
+      "frame": 11,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0011.png",
+        "sha256": "7b73a6cf31eba9e0d1cd4c15229e0c66fcfc0f7df37c5ce2b4c28f64bef60358"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0011.png",
+        "sha256": "148abe0d7d1d568080099d51aac946426b9a8e64e423d04f8e6f649471c5932e"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0011.png",
+        "sha256": "db11a9e119a46b0ba821855cc99018a1e628e7102528d57b31bd4c2bc3bc11ca"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0011.png",
+        "sha256": "63ebc20514f39b025042d7064987ec89d4afa516b5ea093392c6d28a6b0eb85f"
+      }
+    },
+    {
+      "frame": 12,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0012.png",
+        "sha256": "0a0450a7b1eddb2994fd91e3fbbb3002996da7c7d6ef8c4347f2a443619431fc"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0012.png",
+        "sha256": "f2e478509040f63e3f7b570189aa854fa96882938136a309c1f3ed1b05609503"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0012.png",
+        "sha256": "b95674ca920d53a3a0af04731b89e35da6c0931280dd60cd7e84c9844a8b49e8"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0012.png",
+        "sha256": "19cfb6af4acfddfd273c76a4d45d28c86d144536d5b1c29ceecdfb0d2b3ce8ef"
+      }
+    },
+    {
+      "frame": 13,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0013.png",
+        "sha256": "2aba4fad7c5dbb42080bf0932c21ee44c066f5ca3f8b7762ac7a3f96b861e3d5"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0013.png",
+        "sha256": "0380d571cdf6bd92ad9637f9c5d448a068d2d6507bb0cc4b38c34482050ac5ea"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0013.png",
+        "sha256": "04b254d2826ab1fc575dea78b58cc95f05b5d85b6f0656b05a58af40da363159"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0013.png",
+        "sha256": "96fe6c9251d23cf60eae136340d3e6381be21e43f830af4996870314ebba9c29"
+      }
+    },
+    {
+      "frame": 14,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0014.png",
+        "sha256": "ef3abc8edb60e5c19ee5e39333d69d6e5383f6df1b839b87370015a16a7e3ebc"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0014.png",
+        "sha256": "1fc8cfa7bc823fac2c3910ecc840b00c93610341452e063f6e039bc3e5dca6e7"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0014.png",
+        "sha256": "41d29f277510f736b941e120da83f5c8125e46d799fb672b2c1925de1f102c2b"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0014.png",
+        "sha256": "1a55e1807716892455aaabe1f673acbe6d1e9bf68c648f370e07a17bf81d15a1"
+      }
+    },
+    {
+      "frame": 15,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0015.png",
+        "sha256": "3b7e942609457bf89a79f2486913471b65185adbfe3faded88eb2227ee0fb73b"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0015.png",
+        "sha256": "9bd38659c1465be9d08fbe93aace3101ee5faa31607f1b37ed9e593b15ff2ad1"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0015.png",
+        "sha256": "e44334e679e9a1b42d1222760b8ea35018a420dde11230aaf4fc65e2fb5ddd46"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0015.png",
+        "sha256": "0a75c595bd27040f80a8ae941af585175e611d59f56af49494b98a3883c390a6"
+      }
+    },
+    {
+      "frame": 16,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0016.png",
+        "sha256": "9bb2d2bc392d69beedf0dd18f39b9f2a784e446d25da1405ebc81a981bf8a93f"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0016.png",
+        "sha256": "b692c1b72df2faba35d46ad031920c4acef88a93534863a8ffe5ca55ee555d32"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0016.png",
+        "sha256": "cd246bb5ea813700fdc039cf9ec81dfa04067e4f87fa88804ce8033305b29590"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0016.png",
+        "sha256": "b5c45adbb54f27c9b7e5aaccfb32ad1924cd9b0153105fbb88743dd937b38ba6"
+      }
+    },
+    {
+      "frame": 17,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0017.png",
+        "sha256": "e45e7a5d1be20fa357df5d81d41e9daeec0514ebd6a6adaa586cfab3d7c5e4b2"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0017.png",
+        "sha256": "ba2657bb7dadeac2a68de650aedd1276ed232961e290535f700ad21c768074bb"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0017.png",
+        "sha256": "fef6496c554e6930b7ebad5dc1d40be45b172359636d54aa66e5e2fa2ca7a99e"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0017.png",
+        "sha256": "675a82715a5384088ff7f4c304daaf040431933a6773cd48f3f03ec4072e5ee0"
+      }
+    },
+    {
+      "frame": 18,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0018.png",
+        "sha256": "45d47210ff58bff5e6b0941700bd0296b197422b3614f54f4447f2043b8c0642"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0018.png",
+        "sha256": "1782799b5770bb8604776d3ea460892920977a2aa56943affdc529c219ec5153"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0018.png",
+        "sha256": "8fcc20d00d35ecd3aaa954438033ca024d891861db1c6f1373befcfa66adc00c"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0018.png",
+        "sha256": "d033a6c9d8a08482c9b2a2841ba70d66439b566e2d3c92b3eceaa3af6c3591c3"
+      }
+    },
+    {
+      "frame": 19,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0019.png",
+        "sha256": "c0eb2a528d61c8576e763cf1c9c85b7d7792b64704f0e481945fea1a2cb64800"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0019.png",
+        "sha256": "1bfb67f9ecee42cfba6326ac55f0739c9e8bc4c9009c9fd4968d5f91a5a2e908"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0019.png",
+        "sha256": "8fcc20d00d35ecd3aaa954438033ca024d891861db1c6f1373befcfa66adc00c"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0019.png",
+        "sha256": "418fd866a9bf358f2ab035d3b7682d0b6dbef5940e168be2a51f0f209cc58ee3"
+      }
+    },
+    {
+      "frame": 20,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0020.png",
+        "sha256": "45d47210ff58bff5e6b0941700bd0296b197422b3614f54f4447f2043b8c0642"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0020.png",
+        "sha256": "1782799b5770bb8604776d3ea460892920977a2aa56943affdc529c219ec5153"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0020.png",
+        "sha256": "8fcc20d00d35ecd3aaa954438033ca024d891861db1c6f1373befcfa66adc00c"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0020.png",
+        "sha256": "d033a6c9d8a08482c9b2a2841ba70d66439b566e2d3c92b3eceaa3af6c3591c3"
+      }
+    },
+    {
+      "frame": 21,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0021.png",
+        "sha256": "e45e7a5d1be20fa357df5d81d41e9daeec0514ebd6a6adaa586cfab3d7c5e4b2"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0021.png",
+        "sha256": "ba2657bb7dadeac2a68de650aedd1276ed232961e290535f700ad21c768074bb"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0021.png",
+        "sha256": "fef6496c554e6930b7ebad5dc1d40be45b172359636d54aa66e5e2fa2ca7a99e"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0021.png",
+        "sha256": "675a82715a5384088ff7f4c304daaf040431933a6773cd48f3f03ec4072e5ee0"
+      }
+    },
+    {
+      "frame": 22,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0022.png",
+        "sha256": "9bb2d2bc392d69beedf0dd18f39b9f2a784e446d25da1405ebc81a981bf8a93f"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0022.png",
+        "sha256": "b692c1b72df2faba35d46ad031920c4acef88a93534863a8ffe5ca55ee555d32"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0022.png",
+        "sha256": "cd246bb5ea813700fdc039cf9ec81dfa04067e4f87fa88804ce8033305b29590"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0022.png",
+        "sha256": "b5c45adbb54f27c9b7e5aaccfb32ad1924cd9b0153105fbb88743dd937b38ba6"
+      }
+    },
+    {
+      "frame": 23,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0023.png",
+        "sha256": "3b7e942609457bf89a79f2486913471b65185adbfe3faded88eb2227ee0fb73b"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0023.png",
+        "sha256": "9bd38659c1465be9d08fbe93aace3101ee5faa31607f1b37ed9e593b15ff2ad1"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0023.png",
+        "sha256": "e44334e679e9a1b42d1222760b8ea35018a420dde11230aaf4fc65e2fb5ddd46"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0023.png",
+        "sha256": "0a75c595bd27040f80a8ae941af585175e611d59f56af49494b98a3883c390a6"
+      }
+    },
+    {
+      "frame": 24,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0024.png",
+        "sha256": "ef3abc8edb60e5c19ee5e39333d69d6e5383f6df1b839b87370015a16a7e3ebc"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0024.png",
+        "sha256": "1fc8cfa7bc823fac2c3910ecc840b00c93610341452e063f6e039bc3e5dca6e7"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0024.png",
+        "sha256": "41d29f277510f736b941e120da83f5c8125e46d799fb672b2c1925de1f102c2b"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0024.png",
+        "sha256": "1a55e1807716892455aaabe1f673acbe6d1e9bf68c648f370e07a17bf81d15a1"
+      }
+    },
+    {
+      "frame": 25,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0025.png",
+        "sha256": "2aba4fad7c5dbb42080bf0932c21ee44c066f5ca3f8b7762ac7a3f96b861e3d5"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0025.png",
+        "sha256": "0380d571cdf6bd92ad9637f9c5d448a068d2d6507bb0cc4b38c34482050ac5ea"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0025.png",
+        "sha256": "04b254d2826ab1fc575dea78b58cc95f05b5d85b6f0656b05a58af40da363159"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0025.png",
+        "sha256": "96fe6c9251d23cf60eae136340d3e6381be21e43f830af4996870314ebba9c29"
+      }
+    },
+    {
+      "frame": 26,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0026.png",
+        "sha256": "0a0450a7b1eddb2994fd91e3fbbb3002996da7c7d6ef8c4347f2a443619431fc"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0026.png",
+        "sha256": "f2e478509040f63e3f7b570189aa854fa96882938136a309c1f3ed1b05609503"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0026.png",
+        "sha256": "b95674ca920d53a3a0af04731b89e35da6c0931280dd60cd7e84c9844a8b49e8"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0026.png",
+        "sha256": "19cfb6af4acfddfd273c76a4d45d28c86d144536d5b1c29ceecdfb0d2b3ce8ef"
+      }
+    },
+    {
+      "frame": 27,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0027.png",
+        "sha256": "7b73a6cf31eba9e0d1cd4c15229e0c66fcfc0f7df37c5ce2b4c28f64bef60358"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0027.png",
+        "sha256": "148abe0d7d1d568080099d51aac946426b9a8e64e423d04f8e6f649471c5932e"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0027.png",
+        "sha256": "db11a9e119a46b0ba821855cc99018a1e628e7102528d57b31bd4c2bc3bc11ca"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0027.png",
+        "sha256": "63ebc20514f39b025042d7064987ec89d4afa516b5ea093392c6d28a6b0eb85f"
+      }
+    },
+    {
+      "frame": 28,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0028.png",
+        "sha256": "7597565018227ea30dd34d2d69b5d5d6251e164d958cdc17f3b33708e9fe453c"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0028.png",
+        "sha256": "94af92da172d9663a88c82bb36f819c2a7bbc128b35ecc3597c82d53027fa016"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0028.png",
+        "sha256": "4d996b538e2c1560f33e0b208f3cb5c967312e2f695e7f515f1657c36491edbc"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0028.png",
+        "sha256": "9ef739e8eaa08af9a3f9f80e62ef838a40582458fe34ac3341972e563a7a0fd0"
+      }
+    },
+    {
+      "frame": 29,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0029.png",
+        "sha256": "fd3fed679fa1fc466b1723bfbb58622dc8d229d033ae32239667aabdcd61a3a4"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0029.png",
+        "sha256": "4ec9b391a7dd10cfdb9ad43f671765e8c2e81ee7862965273b3e7a48eca56dd7"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0029.png",
+        "sha256": "c0fde293598cb343a10edc6739f09442ea6d87e5c3b3943075e7ad867b8c6ef2"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0029.png",
+        "sha256": "b525cb663c7cf710f0aa0612e3a11894da15a2225159d0c5236345acbd7fd327"
+      }
+    },
+    {
+      "frame": 30,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0030.png",
+        "sha256": "aad398cd76e2b63b680ccadea28d33b780131060bf719aa8a6c0f99b9a297e11"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0030.png",
+        "sha256": "7b0213408c853b1c291a9dd543332b2e3a17ef969c79ea24ba306746b515544e"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0030.png",
+        "sha256": "c8715acb460278c8349cc8844a93ce6337eb7b4faae9cc8a8a4ecf95326214f8"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0030.png",
+        "sha256": "919c97dfb52ffd65e99cad82d9a1e539b7c481983cd8576d07626e258f99d12b"
+      }
+    },
+    {
+      "frame": 31,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0031.png",
+        "sha256": "b55fd7972493e6bbf9a39d7b33c28b02739db9f3dba2ffe16dd0052ce8b16d80"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0031.png",
+        "sha256": "e881b5aee552db1c02ad3360b98d9d685b1b3fa176531dd6c181879c8c3d4f94"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0031.png",
+        "sha256": "f18ebbe0ffa7611c0d2c18c1058b9ee963b25d0475cbc7e215aa6036e4024776"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0031.png",
+        "sha256": "f944c71732b8d852d40ccc9fd666e83bab58e718788e1491be5fd1b8214f5d9f"
+      }
+    },
+    {
+      "frame": 32,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0032.png",
+        "sha256": "28841f96b2af8405a34656ff55e047f40de5799c882c06c228922eb53b2425da"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0032.png",
+        "sha256": "8c778eba8597363b627ded8c2b167b5619c1e84d9fdd1789fe368483f2b157d1"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0032.png",
+        "sha256": "fd921bff11bf5da062d9f36517579ad930f46cc82fcd1a01d888afcb5df52db9"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0032.png",
+        "sha256": "3dfa1aef29f95cd013457938d702cef77d2686e738888863d40f02e682e49c04"
+      }
+    },
+    {
+      "frame": 33,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0033.png",
+        "sha256": "7aaed6b166604ffd11c2153f0785032f0848732377e4ea5b6507d45a547c6fcf"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0033.png",
+        "sha256": "705137027969120b6f53fdb09263ad917dfb22be1c38d53ae25f5d3b2833ba0c"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0033.png",
+        "sha256": "ae4bca66af4eb7a82c5663b726c4b346c43bcdb685ce1d0535322fbee0124703"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0033.png",
+        "sha256": "c3521ef01d0cc77cca528c89e24f831d4dc4eb215da794210296735ec56d5eab"
+      }
+    },
+    {
+      "frame": 34,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0034.png",
+        "sha256": "6bc08896fd636c4301b0bcdfc1fe3413f52a48de88b5f4533fea2dcda8d653eb"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0034.png",
+        "sha256": "1a5da38ebbe454a41289426e861b1b5e145ce3a3dbc94ad3955a7588da47f4f4"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0034.png",
+        "sha256": "f66146a7e71dc6b4b83697af97bd379aee0394b4bc0e089e2126ff51b1571f68"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0034.png",
+        "sha256": "3139827e4b356eda5afe9671e7d68f986aba1d44b7fcaa943872466855256cf4"
+      }
+    },
+    {
+      "frame": 35,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0035.png",
+        "sha256": "ca42290601d8f9995af1c58b4967c72a1aceac0e865577e84e331b5c7f3738c6"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0035.png",
+        "sha256": "d10c80896b69c974538f15decce2815b292edacd4fbd8b7bba1b36f64a78edc3"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0035.png",
+        "sha256": "c1c8c44ceb921d9414890b9bd7c8b43b062b59b10ee884677a08d69ee8b2c03f"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0035.png",
+        "sha256": "2bffcccfb4ad9f2259e2f7fe20f35e2801066d00822309fbc1cd19b3693c92ef"
+      }
+    },
+    {
+      "frame": 36,
+      "preview": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/preview-0036.png",
+        "sha256": "fd6047c7153e0d98545c24794fd0a7e0580150d50258cdae43acdbd214adf48d"
+      },
+      "mask": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/static-0036.png",
+        "sha256": "0a6744ac86cdf68da9b2b8071b840a0ec667de62437584caa8b35e2a2583aacb"
+      },
+      "actorCore": {
+        "file": "docs/generated-frames-v4-followup/machine-ab-crunch/static-composition-v2/actor-core-0036.png",
+        "sha256": "c404aeb1595925ce12919ad8cd24b4bd87293c4996aed49995a0a09bb1914138"
+      },
+      "raw": {
+        "file": "output/followup-round4/machine-ab-crunch/frames/frame_0036.png",
+        "sha256": "0b33200122f6fb411db800c02a2818ad5a8a46e768aeb363c5ec0621eaa1b0a0"
+      }
+    }
+  ],
+  "identicalProtectedPixelsAcross36": 196356,
+  "bodyCoreChangedRGBPixels": 0,
+  "returnCopiesByteExact": true,
+  "limitations": [
+    "Protected pixels measure stability, not exercise accuracy.",
+    "Moving overhead yoke remains generated raster perspective, not a complete3D rigid rig.",
+    "Masks and pad/skin boundaries require actual visual inspection at all19poses."
+  ]
+}

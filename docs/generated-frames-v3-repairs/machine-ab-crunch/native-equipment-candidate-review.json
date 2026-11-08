@@ -1,0 +1,244 @@
+{
+  "scope": "Rendered36PNG candidate; inspect all19hardware/actor edges before root release.",
+  "rigidOperatingArmRadiusPixels": 165,
+  "fixedPivotPixels": [
+    172,
+    277
+  ],
+  "allEndpointsOccludedByDarkPad": false,
+  "fixedCanvasRegionsCompared": [
+    "x<148 allheight",
+    "y>=333 allwidth"
+  ],
+  "humanRGB": "Opaque original upperbody actor mask core unchanged on every frame; no athlete warp or recolour",
+  "frames": [
+    {
+      "frame": 1,
+      "endpointRGB": [
+        67,
+        63,
+        59
+      ],
+      "endpointOccludedByDarkPad": true,
+      "changedFixedTowerPixels": 0,
+      "changedFixedBaseLegPixels": 0,
+      "radiusPixels": 165.0
+    },
+    {
+      "frame": 2,
+      "endpointRGB": [
+        67,
+        63,
+        59
+      ],
+      "endpointOccludedByDarkPad": true,
+      "changedFixedTowerPixels": 0,
+      "changedFixedBaseLegPixels": 0,
+      "radiusPixels": 165.0
+    },
+    {
+      "frame": 3,
+      "endpointRGB": [
+        69,
+        65,
+        61
+      ],
+      "endpointOccludedByDarkPad": true,
+      "changedFixedTowerPixels": 0,
+      "changedFixedBaseLegPixels": 0,
+      "radiusPixels": 165.00000000000003
+    },
+    {
+      "frame": 4,
+      "endpointRGB": [
+        74,
+        70,
+        66
+      ],
+      "endpointOccludedByDarkPad": true,
+      "changedFixedTowerPixels": 0,
+      "changedFixedBaseLegPixels": 0,
+      "radiusPixels": 165.0
+    },
+    {
+      "frame": 5,
+      "endpointRGB": [
+        76,
+        72,
+        68
+      ],
+      "endpointOccludedByDarkPad": true,
+      "changedFixedTowerPixels": 0,
+      "changedFixedBaseLegPixels": 0,
+      "radiusPixels": 165.0
+    },
+    {
+      "frame": 6,
+      "endpointRGB": [
+        75,
+        71,
+        67
+      ],
+      "endpointOccludedByDarkPad": true,
+      "changedFixedTowerPixels": 0,
+      "changedFixedBaseLegPixels": 0,
+      "radiusPixels": 165.0
+    },
+    {
+      "frame": 7,
+      "endpointRGB": [
+        71,
+        66,
+        63
+      ],
+      "endpointOccludedByDarkPad": true,
+      "changedFixedTowerPixels": 0,
+      "changedFixedBaseLegPixels": 0,
+      "radiusPixels": 165.0
+    },
+    {
+      "frame": 8,
+      "endpointRGB": [
+        72,
+        68,
+        64
+      ],
+      "endpointOccludedByDarkPad": true,
+      "changedFixedTowerPixels": 0,
+      "changedFixedBaseLegPixels": 0,
+      "radiusPixels": 164.99999999999997
+    },
+    {
+      "frame": 9,
+      "endpointRGB": [
+        73,
+        69,
+        65
+      ],
+      "endpointOccludedByDarkPad": true,
+      "changedFixedTowerPixels": 0,
+      "changedFixedBaseLegPixels": 0,
+      "radiusPixels": 165.0
+    },
+    {
+      "frame": 10,
+      "endpointRGB": [
+        70,
+        65,
+        61
+      ],
+      "endpointOccludedByDarkPad": true,
+      "changedFixedTowerPixels": 0,
+      "changedFixedBaseLegPixels": 0,
+      "radiusPixels": 164.99999999999997
+    },
+    {
+      "frame": 11,
+      "endpointRGB": [
+        64,
+        60,
+        55
+      ],
+      "endpointOccludedByDarkPad": true,
+      "changedFixedTowerPixels": 0,
+      "changedFixedBaseLegPixels": 0,
+      "radiusPixels": 165.00000000000003
+    },
+    {
+      "frame": 12,
+      "endpointRGB": [
+        56,
+        52,
+        47
+      ],
+      "endpointOccludedByDarkPad": true,
+      "changedFixedTowerPixels": 0,
+      "changedFixedBaseLegPixels": 0,
+      "radiusPixels": 164.99999999999997
+    },
+    {
+      "frame": 13,
+      "endpointRGB": [
+        51,
+        47,
+        40
+      ],
+      "endpointOccludedByDarkPad": true,
+      "changedFixedTowerPixels": 0,
+      "changedFixedBaseLegPixels": 0,
+      "radiusPixels": 165.00000000000003
+    },
+    {
+      "frame": 14,
+      "endpointRGB": [
+        48,
+        40,
+        33
+      ],
+      "endpointOccludedByDarkPad": true,
+      "changedFixedTowerPixels": 0,
+      "changedFixedBaseLegPixels": 0,
+      "radiusPixels": 164.99999999999997
+    },
+    {
+      "frame": 15,
+      "endpointRGB": [
+        238,
+        184,
+        154
+      ],
+      "endpointOccludedByDarkPad": false,
+      "changedFixedTowerPixels": 0,
+      "changedFixedBaseLegPixels": 0,
+      "radiusPixels": 165.0
+    },
+    {
+      "frame": 16,
+      "endpointRGB": [
+        105,
+        70,
+        47
+      ],
+      "endpointOccludedByDarkPad": true,
+      "changedFixedTowerPixels": 0,
+      "changedFixedBaseLegPixels": 0,
+      "radiusPixels": 165.00000000000003
+    },
+    {
+      "frame": 17,
+      "endpointRGB": [
+        198,
+        130,
+        89
+      ],
+      "endpointOccludedByDarkPad": false,
+      "changedFixedTowerPixels": 0,
+      "changedFixedBaseLegPixels": 0,
+      "radiusPixels": 165.0
+    },
+    {
+      "frame": 18,
+      "endpointRGB": [
+        224,
+        163,
+        123
+      ],
+      "endpointOccludedByDarkPad": false,
+      "changedFixedTowerPixels": 0,
+      "changedFixedBaseLegPixels": 0,
+      "radiusPixels": 164.99999999999997
+    },
+    {
+      "frame": 19,
+      "endpointRGB": [
+        224,
+        163,
+        123
+      ],
+      "endpointOccludedByDarkPad": false,
+      "changedFixedTowerPixels": 0,
+      "changedFixedBaseLegPixels": 0,
+      "radiusPixels": 165.0
+    }
+  ]
+}

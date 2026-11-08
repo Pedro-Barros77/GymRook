@@ -1,0 +1,46 @@
+{
+  "id": "reverse-pec-deck",
+  "sourceKind": "pose-sheet",
+  "grid": [
+    3,
+    3
+  ],
+  "selectedCells": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "source": "sheet.png",
+  "sourceSha256": "fa4b4ca1f572710522372b3173302bf4a5dde6083a9c8c23b1ba8ca9e58444ff",
+  "status": "root final visual approval for V2 source and canonical composition; frozen for media promotion",
+  "style": "builtin image_gen realistic coloured raster athlete, no native human mesh",
+  "physicalChecks": [
+    "Machine seat, pad, mast and tower connect through the same floor chassis.",
+    "No distant separated tower or fabricated long bridge.",
+    "Both hands remain attached to moving handles.",
+    "Static lower body and chassis will use canonical pixels rather than generated frame interpolation.",
+    "Architecture refers to real selectorized pecfly/reardelt arrangement with long drop arms and connected chestpad.",
+    "The near hand projects over the weight-tower silhouette at the end because the hand/lever are in front in depth. The opaque near limb must occlude the tower, not pass through it.",
+    "No tower shift is used to manufacture clearance; both arms open together while chest remains supported."
+  ],
+  "limits": [
+    "Actual9raster poses reviewed; proportions and projected angles are approximate, not clinical certification.",
+    "Final output cannot pass on contact grids alone; full-size moving parts and all interpolated frames require review.",
+    "Moving machine parts are reviewed raster poses plus RIFE interpolation; this is not a complete rigid kinematic machine rig."
+  ],
+  "selectedVersion": "v2-arms",
+  "executionCorrection": {
+    "objectiveBefore": "Early near elbow dropped~24pixels below shoulder, resembling a row and elbow extension.",
+    "after": "Near elbow is now at shoulder level with forward foreshortened reach, then both shoulders open; gentle elbow flexion remains. Hands retain the same actual machine grips, with stable collar-to-hand placement.",
+    "guide": "guide-straight-soft-elbows-v2.json",
+    "limits": "No exact3D angle certification from a single projected bitmap."
+  },
+  "compositionReview": "qa-reviewed-mask-v2.json",
+  "independentCompositionReview": "independent-final-composition-review.json"
+}

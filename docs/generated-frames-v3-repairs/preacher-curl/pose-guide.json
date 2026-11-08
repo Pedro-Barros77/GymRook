@@ -1,0 +1,276 @@
+{
+  "purpose": "Native kinematic pose/composition guide only; final athlete art must be generated and independently measured.",
+  "coordinateSpace": "512 pixels per 3x3 cell",
+  "poses": [
+    {
+      "index": 0,
+      "progress": 0.0,
+      "points": {
+        "hip": [
+          142,
+          286
+        ],
+        "shoulder": [
+          148,
+          139
+        ],
+        "elbow": [
+          226,
+          219
+        ],
+        "wrist": [
+          295.48128937411445,
+          271.3579070142282
+        ],
+        "machineAxis": [
+          226,
+          219
+        ],
+        "heel": [
+          225,
+          420
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "progress": 0.125,
+      "points": {
+        "hip": [
+          142,
+          286
+        ],
+        "shoulder": [
+          148,
+          139
+        ],
+        "elbow": [
+          226,
+          219
+        ],
+        "wrist": [
+          306.30469304283287,
+          252.46873578873854
+        ],
+        "machineAxis": [
+          226,
+          219
+        ],
+        "heel": [
+          225,
+          420
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "progress": 0.25,
+      "points": {
+        "hip": [
+          142,
+          286
+        ],
+        "shoulder": [
+          148,
+          139
+        ],
+        "elbow": [
+          226,
+          219
+        ],
+        "wrist": [
+          312.0996706533113,
+          231.4838581132326
+        ],
+        "machineAxis": [
+          226,
+          219
+        ],
+        "heel": [
+          225,
+          420
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "progress": 0.375,
+      "points": {
+        "hip": [
+          142,
+          286
+        ],
+        "shoulder": [
+          148,
+          139
+        ],
+        "elbow": [
+          226,
+          219
+        ],
+        "wrist": [
+          312.50335902384376,
+          209.717280700571
+        ],
+        "machineAxis": [
+          226,
+          219
+        ],
+        "heel": [
+          225,
+          420
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "progress": 0.5,
+      "points": {
+        "hip": [
+          142,
+          286
+        ],
+        "shoulder": [
+          148,
+          139
+        ],
+        "elbow": [
+          226,
+          219
+        ],
+        "wrist": [
+          307.4904804646106,
+          188.53195783042634
+        ],
+        "machineAxis": [
+          226,
+          219
+        ],
+        "heel": [
+          225,
+          420
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "progress": 0.625,
+      "points": {
+        "hip": [
+          142,
+          286
+        ],
+        "shoulder": [
+          148,
+          139
+        ],
+        "elbow": [
+          226,
+          219
+        ],
+        "wrist": [
+          297.37492558671966,
+          169.25444746019772
+        ],
+        "machineAxis": [
+          226,
+          219
+        ],
+        "heel": [
+          225,
+          420
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "progress": 0.75,
+      "points": {
+        "hip": [
+          142,
+          286
+        ],
+        "shoulder": [
+          148,
+          139
+        ],
+        "elbow": [
+          226,
+          219
+        ],
+        "wrist": [
+          282.79009846425686,
+          153.0918463585877
+        ],
+        "machineAxis": [
+          226,
+          219
+        ],
+        "heel": [
+          225,
+          420
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "progress": 0.875,
+      "points": {
+        "hip": [
+          142,
+          286
+        ],
+        "shoulder": [
+          148,
+          139
+        ],
+        "elbow": [
+          226,
+          219
+        ],
+        "wrist": [
+          264.6492548731753,
+          141.05620552123258
+        ],
+        "machineAxis": [
+          226,
+          219
+        ],
+        "heel": [
+          225,
+          420
+        ]
+      }
+    },
+    {
+      "index": 8,
+      "progress": 1.0,
+      "points": {
+        "hip": [
+          142,
+          286
+        ],
+        "shoulder": [
+          148,
+          139
+        ],
+        "elbow": [
+          226,
+          219
+        ],
+        "wrist": [
+          244.08831710114507,
+          133.90115873615892
+        ],
+        "machineAxis": [
+          226,
+          219
+        ],
+        "heel": [
+          225,
+          420
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "reviewer": "legs_round3 independent raster review",
+  "candidate": "static-composition-v2",
+  "status": "PASS for visible raster continuity and topology, pending root playback/publish approval",
+  "observed": [
+    "upper-review-group-1.png through upper-review-group-4.png, all19 forward frames at native crop scale",
+    "transition-onions-group-1.png through transition-onions-group-3.png, all18 forward transitions",
+    "preview-0001.png, preview-0010.png, preview-0019.png, full512 frames"
+  ],
+  "findings": {
+    "chassis": "Seat, base, mast and tower form one connected assembly in all three full frames; no separated or floating equipment.",
+    "twoArms": "Both drop-arms and booms change angle from the early phase. The far hand becomes visible as it clears the torso; no one-arm stationary interval or disconnected elbow appeared in the19-frame inspection.",
+    "towerDepth": "Near drop-arm, grip and fingers stay opaque and connected while passing in front of the black tower. No masked hole, disappearing skin or tower-colored incision through the hand/forearm appears across the19-frame sequence.",
+    "boomConnections": "The two horizontal booms remain joined to their top rotating hubs and drop-arms throughout; their smooth perspective changes do not introduce a loose metal segment.",
+    "staticBody": "Head and legs remain aligned to the same background/seat. Onions show changes concentrated on moving arms/booms, without displaced fixed tower or lower body edges.",
+    "waist": "The lower back joins the shorts without the previously reported horizontal compositing cutoff in the three full frames or the visible upper crop area.",
+    "limits": "This is an independent static-frame and transition audit, not a claim of observed realtime playback or certified biomechanics. The terminal elbows are quite extended; current user requested machine/direction/jitter repairs and there is no visible hyperextension or backwards bend."
+  },
+  "visibleBlockers": []
+}

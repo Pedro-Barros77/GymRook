@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "manifest": "backups/visual-v3-before-followup-20261107/manifest.json",
+  "manifestSha256": "eae79fbf1ba109287eecd02d4ca1066b81a75610045b717878d7ec27043fc595",
+  "verifiedOriginalFiles": 5735,
+  "restoredPressFiles": 3
+}

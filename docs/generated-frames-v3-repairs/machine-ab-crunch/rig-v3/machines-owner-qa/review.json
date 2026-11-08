@@ -1,0 +1,1599 @@
+{
+  "id": "machine-ab-crunch",
+  "version": "native-v3-R152-tab6",
+  "status": "owner final visual and pixel QA passed; root and independent visual approvals received; frozen for media promotion",
+  "sourceIndex": "docs/generated-frames-v3-repairs/machine-ab-crunch/source-index-native-v3.json",
+  "sourceIndexSHA256": "c8e10a74c3a6ff0f249fd4af1be05812b73204d2b7bc1e32796ea038448f1549",
+  "generatorSHA256": "321933d4940fa4329b73f4e1ddc2564ca557532114a466b42ecfa6a64dc9eaa6",
+  "frames": [
+    {
+      "frame": 1,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0001.png",
+      "sha256": "999843af143bc3191106fb1bd2bac5754ca9c7c98039c816ce50c6310c50f4c2"
+    },
+    {
+      "frame": 2,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0002.png",
+      "sha256": "9a84b1d12544ee4fcdba55ebb2e72ffba5fb071bbb957acb00173c5b0b184154"
+    },
+    {
+      "frame": 3,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0003.png",
+      "sha256": "a3346099af62c9ac826a587ccb5ac44643efbbfdb4884f688bfc1f19b8e75c0e"
+    },
+    {
+      "frame": 4,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0004.png",
+      "sha256": "42e828e6fcb65387d95470244be3a1160b59ab0b77cebe68ceaa2e3386eac467"
+    },
+    {
+      "frame": 5,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0005.png",
+      "sha256": "f9c93050b02cb2c509f5c3508b5018b37bdf071972708f0a66dfde61918b0f09"
+    },
+    {
+      "frame": 6,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0006.png",
+      "sha256": "ee8bab4607d86e3440bdcbfcc366e8f7427420a3f9196a856eafa16a305f4537"
+    },
+    {
+      "frame": 7,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0007.png",
+      "sha256": "401de88dd70b2ae27b9cbd9e2e8b7d5992c89c640746cf085a083122823c7135"
+    },
+    {
+      "frame": 8,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0008.png",
+      "sha256": "1e7582db6a749fbca8062939c59902cd7e111e648082a14e3d29db61bbacd38f"
+    },
+    {
+      "frame": 9,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0009.png",
+      "sha256": "bbcc0dff89fdcfce7b81dd720a898966740bf9dcef9d0af29db9a0aa10bdcf70"
+    },
+    {
+      "frame": 10,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0010.png",
+      "sha256": "f684d0fdb0e63228e9c01baef029d3d191346da90c452e85b63d516fee09382c"
+    },
+    {
+      "frame": 11,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0011.png",
+      "sha256": "42e2cb973216fde4dc1bf3f983f6f95d30fd910802ec247940e8704bb553c164"
+    },
+    {
+      "frame": 12,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0012.png",
+      "sha256": "54645e4f819d7af052415352fd4903398991ac1a8455a0f0839f2bc2838a71a9"
+    },
+    {
+      "frame": 13,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0013.png",
+      "sha256": "fd7266b017fea4fa668864541d7d952dcb33fb9e2e71cb512451e4f1543602ef"
+    },
+    {
+      "frame": 14,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0014.png",
+      "sha256": "5bb42cb9d58f2b045d7ebff9baca6094afe79dcafee5d15e158064882faa4bd7"
+    },
+    {
+      "frame": 15,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0015.png",
+      "sha256": "ac373883a7cc72bc210968dd546884fbae883fbd798e491717f87131aabc4bbe"
+    },
+    {
+      "frame": 16,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0016.png",
+      "sha256": "07d596c14e4c921922edc20b877a50a30fd6684a18d8ebd41bf4092bdb31f2b0"
+    },
+    {
+      "frame": 17,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0017.png",
+      "sha256": "978f2401946467f81bde879fd264fc34d339d6bb7cb32c92b31c997840451042"
+    },
+    {
+      "frame": 18,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0018.png",
+      "sha256": "627f7f4c6c733bcd94582e0986aa4c6f75a2a9d7fcf60267ac404e0912ac6f8a"
+    },
+    {
+      "frame": 19,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0019.png",
+      "sha256": "0720ba3e8d558b38be96ddad7bdda9abf6118afb512c2519195e97cde0efd6f3"
+    },
+    {
+      "frame": 20,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0020.png",
+      "sha256": "627f7f4c6c733bcd94582e0986aa4c6f75a2a9d7fcf60267ac404e0912ac6f8a"
+    },
+    {
+      "frame": 21,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0021.png",
+      "sha256": "978f2401946467f81bde879fd264fc34d339d6bb7cb32c92b31c997840451042"
+    },
+    {
+      "frame": 22,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0022.png",
+      "sha256": "07d596c14e4c921922edc20b877a50a30fd6684a18d8ebd41bf4092bdb31f2b0"
+    },
+    {
+      "frame": 23,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0023.png",
+      "sha256": "ac373883a7cc72bc210968dd546884fbae883fbd798e491717f87131aabc4bbe"
+    },
+    {
+      "frame": 24,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0024.png",
+      "sha256": "5bb42cb9d58f2b045d7ebff9baca6094afe79dcafee5d15e158064882faa4bd7"
+    },
+    {
+      "frame": 25,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0025.png",
+      "sha256": "fd7266b017fea4fa668864541d7d952dcb33fb9e2e71cb512451e4f1543602ef"
+    },
+    {
+      "frame": 26,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0026.png",
+      "sha256": "54645e4f819d7af052415352fd4903398991ac1a8455a0f0839f2bc2838a71a9"
+    },
+    {
+      "frame": 27,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0027.png",
+      "sha256": "42e2cb973216fde4dc1bf3f983f6f95d30fd910802ec247940e8704bb553c164"
+    },
+    {
+      "frame": 28,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0028.png",
+      "sha256": "f684d0fdb0e63228e9c01baef029d3d191346da90c452e85b63d516fee09382c"
+    },
+    {
+      "frame": 29,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0029.png",
+      "sha256": "bbcc0dff89fdcfce7b81dd720a898966740bf9dcef9d0af29db9a0aa10bdcf70"
+    },
+    {
+      "frame": 30,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0030.png",
+      "sha256": "1e7582db6a749fbca8062939c59902cd7e111e648082a14e3d29db61bbacd38f"
+    },
+    {
+      "frame": 31,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0031.png",
+      "sha256": "401de88dd70b2ae27b9cbd9e2e8b7d5992c89c640746cf085a083122823c7135"
+    },
+    {
+      "frame": 32,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0032.png",
+      "sha256": "ee8bab4607d86e3440bdcbfcc366e8f7427420a3f9196a856eafa16a305f4537"
+    },
+    {
+      "frame": 33,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0033.png",
+      "sha256": "f9c93050b02cb2c509f5c3508b5018b37bdf071972708f0a66dfde61918b0f09"
+    },
+    {
+      "frame": 34,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0034.png",
+      "sha256": "42e828e6fcb65387d95470244be3a1160b59ab0b77cebe68ceaa2e3386eac467"
+    },
+    {
+      "frame": 35,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0035.png",
+      "sha256": "a3346099af62c9ac826a587ccb5ac44643efbbfdb4884f688bfc1f19b8e75c0e"
+    },
+    {
+      "frame": 36,
+      "file": "docs/generated-frames-v3-repairs/machine-ab-crunch/rig-v3/frames/frame_0036.png",
+      "sha256": "9a84b1d12544ee4fcdba55ebb2e72ffba5fb071bbb957acb00173c5b0b184154"
+    }
+  ],
+  "fixedRegionProof": {
+    "tower": {
+      "box": [
+        72,
+        62,
+        151,
+        450
+      ],
+      "maximumRGBDifferenceAcross36": 0
+    },
+    "seat": {
+      "box": [
+        197,
+        336,
+        333,
+        353
+      ],
+      "maximumRGBDifferenceAcross36": 0
+    },
+    "feetAndBase": {
+      "box": [
+        0,
+        340,
+        512,
+        512
+      ],
+      "maximumRGBDifferenceAcross36": 0
+    },
+    "thighFront": {
+      "box": [
+        360,
+        310,
+        400,
+        339
+      ],
+      "maximumRGBDifferenceAcross36": 0
+    },
+    "pelvisShorts": {
+      "box": [
+        200,
+        303,
+        274,
+        324
+      ],
+      "maximumRGBDifferenceAcross36": 0
+    },
+    "pivotBearing": {
+      "box": [
+        158,
+        264,
+        184,
+        289
+      ],
+      "maximumRGBDifferenceAcross36": 0
+    },
+    "visibleFixedLumbarSupport": {
+      "box": [
+        170,
+        200,
+        179,
+        243
+      ],
+      "maximumRGBDifferenceAcross36": 0
+    }
+  },
+  "maximumRigidRadiusError": 5.684341886080802e-14,
+  "maximumOpaqueActorRGBError": 0,
+  "allOpaqueActorPixelsUnchangedFromReviewedV2": true,
+  "all19Full6pxTerminalCrossSectionSamplesAreDarkHardware": true,
+  "terminalSamples": [
+    {
+      "frame": 1,
+      "samples": [
+        {
+          "offsetNormal": -3,
+          "xy": [
+            299,
+            193
+          ],
+          "cleanRGB": [
+            65,
+            62,
+            58
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": -2,
+          "xy": [
+            300,
+            194
+          ],
+          "cleanRGB": [
+            65,
+            62,
+            58
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 0,
+          "xy": [
+            301,
+            196
+          ],
+          "cleanRGB": [
+            65,
+            61,
+            57
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 2,
+          "xy": [
+            302,
+            198
+          ],
+          "cleanRGB": [
+            64,
+            59,
+            55
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 3,
+          "xy": [
+            302,
+            198
+          ],
+          "cleanRGB": [
+            64,
+            59,
+            55
+          ],
+          "darkHardwareMaterial": true
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "samples": [
+        {
+          "offsetNormal": -3,
+          "xy": [
+            299,
+            193
+          ],
+          "cleanRGB": [
+            65,
+            62,
+            58
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": -2,
+          "xy": [
+            300,
+            194
+          ],
+          "cleanRGB": [
+            65,
+            62,
+            58
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 0,
+          "xy": [
+            301,
+            196
+          ],
+          "cleanRGB": [
+            65,
+            61,
+            57
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 2,
+          "xy": [
+            302,
+            198
+          ],
+          "cleanRGB": [
+            64,
+            59,
+            55
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 3,
+          "xy": [
+            302,
+            198
+          ],
+          "cleanRGB": [
+            64,
+            59,
+            55
+          ],
+          "darkHardwareMaterial": true
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "samples": [
+        {
+          "offsetNormal": -3,
+          "xy": [
+            301,
+            196
+          ],
+          "cleanRGB": [
+            66,
+            63,
+            59
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": -2,
+          "xy": [
+            301,
+            197
+          ],
+          "cleanRGB": [
+            64,
+            61,
+            57
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 0,
+          "xy": [
+            302,
+            199
+          ],
+          "cleanRGB": [
+            64,
+            60,
+            56
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 2,
+          "xy": [
+            303,
+            201
+          ],
+          "cleanRGB": [
+            63,
+            58,
+            55
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 3,
+          "xy": [
+            304,
+            201
+          ],
+          "cleanRGB": [
+            64,
+            59,
+            55
+          ],
+          "darkHardwareMaterial": true
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "samples": [
+        {
+          "offsetNormal": -3,
+          "xy": [
+            304,
+            201
+          ],
+          "cleanRGB": [
+            67,
+            64,
+            59
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": -2,
+          "xy": [
+            304,
+            202
+          ],
+          "cleanRGB": [
+            67,
+            63,
+            58
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 0,
+          "xy": [
+            305,
+            204
+          ],
+          "cleanRGB": [
+            66,
+            61,
+            57
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 2,
+          "xy": [
+            306,
+            205
+          ],
+          "cleanRGB": [
+            64,
+            59,
+            55
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 3,
+          "xy": [
+            307,
+            206
+          ],
+          "cleanRGB": [
+            63,
+            58,
+            54
+          ],
+          "darkHardwareMaterial": true
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "samples": [
+        {
+          "offsetNormal": -3,
+          "xy": [
+            307,
+            207
+          ],
+          "cleanRGB": [
+            69,
+            64,
+            60
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": -2,
+          "xy": [
+            308,
+            208
+          ],
+          "cleanRGB": [
+            69,
+            65,
+            60
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 0,
+          "xy": [
+            308,
+            210
+          ],
+          "cleanRGB": [
+            66,
+            61,
+            56
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 2,
+          "xy": [
+            309,
+            212
+          ],
+          "cleanRGB": [
+            63,
+            58,
+            52
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 3,
+          "xy": [
+            310,
+            213
+          ],
+          "cleanRGB": [
+            61,
+            56,
+            51
+          ],
+          "darkHardwareMaterial": true
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "samples": [
+        {
+          "offsetNormal": -3,
+          "xy": [
+            310,
+            214
+          ],
+          "cleanRGB": [
+            68,
+            63,
+            59
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": -2,
+          "xy": [
+            311,
+            215
+          ],
+          "cleanRGB": [
+            68,
+            64,
+            59
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 0,
+          "xy": [
+            311,
+            216
+          ],
+          "cleanRGB": [
+            67,
+            63,
+            57
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 2,
+          "xy": [
+            312,
+            218
+          ],
+          "cleanRGB": [
+            64,
+            60,
+            55
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 3,
+          "xy": [
+            313,
+            219
+          ],
+          "cleanRGB": [
+            63,
+            59,
+            54
+          ],
+          "darkHardwareMaterial": true
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "samples": [
+        {
+          "offsetNormal": -3,
+          "xy": [
+            314,
+            222
+          ],
+          "cleanRGB": [
+            68,
+            65,
+            60
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": -2,
+          "xy": [
+            314,
+            223
+          ],
+          "cleanRGB": [
+            68,
+            64,
+            59
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 0,
+          "xy": [
+            315,
+            225
+          ],
+          "cleanRGB": [
+            66,
+            62,
+            57
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 2,
+          "xy": [
+            315,
+            226
+          ],
+          "cleanRGB": [
+            65,
+            61,
+            56
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 3,
+          "xy": [
+            316,
+            227
+          ],
+          "cleanRGB": [
+            64,
+            60,
+            56
+          ],
+          "darkHardwareMaterial": true
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "samples": [
+        {
+          "offsetNormal": -3,
+          "xy": [
+            316,
+            230
+          ],
+          "cleanRGB": [
+            67,
+            63,
+            59
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": -2,
+          "xy": [
+            317,
+            230
+          ],
+          "cleanRGB": [
+            69,
+            65,
+            60
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 0,
+          "xy": [
+            317,
+            232
+          ],
+          "cleanRGB": [
+            66,
+            62,
+            58
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 2,
+          "xy": [
+            318,
+            234
+          ],
+          "cleanRGB": [
+            64,
+            59,
+            56
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 3,
+          "xy": [
+            318,
+            235
+          ],
+          "cleanRGB": [
+            64,
+            60,
+            55
+          ],
+          "darkHardwareMaterial": true
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "samples": [
+        {
+          "offsetNormal": -3,
+          "xy": [
+            319,
+            237
+          ],
+          "cleanRGB": [
+            67,
+            63,
+            59
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": -2,
+          "xy": [
+            319,
+            238
+          ],
+          "cleanRGB": [
+            67,
+            62,
+            58
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 0,
+          "xy": [
+            319,
+            240
+          ],
+          "cleanRGB": [
+            64,
+            60,
+            55
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 2,
+          "xy": [
+            320,
+            242
+          ],
+          "cleanRGB": [
+            63,
+            59,
+            55
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 3,
+          "xy": [
+            320,
+            243
+          ],
+          "cleanRGB": [
+            63,
+            58,
+            54
+          ],
+          "darkHardwareMaterial": true
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "samples": [
+        {
+          "offsetNormal": -3,
+          "xy": [
+            321,
+            249
+          ],
+          "cleanRGB": [
+            66,
+            62,
+            57
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": -2,
+          "xy": [
+            322,
+            250
+          ],
+          "cleanRGB": [
+            66,
+            61,
+            56
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 0,
+          "xy": [
+            322,
+            252
+          ],
+          "cleanRGB": [
+            63,
+            59,
+            53
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 2,
+          "xy": [
+            322,
+            254
+          ],
+          "cleanRGB": [
+            61,
+            57,
+            51
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 3,
+          "xy": [
+            322,
+            255
+          ],
+          "cleanRGB": [
+            59,
+            56,
+            50
+          ],
+          "darkHardwareMaterial": true
+        }
+      ]
+    },
+    {
+      "frame": 11,
+      "samples": [
+        {
+          "offsetNormal": -3,
+          "xy": [
+            323,
+            260
+          ],
+          "cleanRGB": [
+            67,
+            62,
+            58
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": -2,
+          "xy": [
+            323,
+            261
+          ],
+          "cleanRGB": [
+            65,
+            60,
+            56
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 0,
+          "xy": [
+            323,
+            263
+          ],
+          "cleanRGB": [
+            62,
+            57,
+            52
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 2,
+          "xy": [
+            324,
+            265
+          ],
+          "cleanRGB": [
+            59,
+            55,
+            51
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 3,
+          "xy": [
+            324,
+            266
+          ],
+          "cleanRGB": [
+            58,
+            54,
+            50
+          ],
+          "darkHardwareMaterial": true
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "samples": [
+        {
+          "offsetNormal": -3,
+          "xy": [
+            324,
+            269
+          ],
+          "cleanRGB": [
+            60,
+            56,
+            52
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": -2,
+          "xy": [
+            324,
+            270
+          ],
+          "cleanRGB": [
+            58,
+            55,
+            50
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 0,
+          "xy": [
+            324,
+            272
+          ],
+          "cleanRGB": [
+            57,
+            53,
+            49
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 2,
+          "xy": [
+            324,
+            274
+          ],
+          "cleanRGB": [
+            53,
+            49,
+            44
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 3,
+          "xy": [
+            324,
+            275
+          ],
+          "cleanRGB": [
+            52,
+            48,
+            42
+          ],
+          "darkHardwareMaterial": true
+        }
+      ]
+    },
+    {
+      "frame": 13,
+      "samples": [
+        {
+          "offsetNormal": -3,
+          "xy": [
+            324,
+            275
+          ],
+          "cleanRGB": [
+            55,
+            51,
+            47
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": -2,
+          "xy": [
+            324,
+            276
+          ],
+          "cleanRGB": [
+            54,
+            51,
+            46
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 0,
+          "xy": [
+            324,
+            278
+          ],
+          "cleanRGB": [
+            53,
+            49,
+            44
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 2,
+          "xy": [
+            324,
+            280
+          ],
+          "cleanRGB": [
+            49,
+            45,
+            39
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 3,
+          "xy": [
+            324,
+            281
+          ],
+          "cleanRGB": [
+            48,
+            44,
+            38
+          ],
+          "darkHardwareMaterial": true
+        }
+      ]
+    },
+    {
+      "frame": 14,
+      "samples": [
+        {
+          "offsetNormal": -3,
+          "xy": [
+            324,
+            279
+          ],
+          "cleanRGB": [
+            52,
+            47,
+            42
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": -2,
+          "xy": [
+            324,
+            280
+          ],
+          "cleanRGB": [
+            51,
+            46,
+            42
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 0,
+          "xy": [
+            324,
+            282
+          ],
+          "cleanRGB": [
+            51,
+            46,
+            41
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 2,
+          "xy": [
+            324,
+            284
+          ],
+          "cleanRGB": [
+            46,
+            41,
+            36
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 3,
+          "xy": [
+            324,
+            285
+          ],
+          "cleanRGB": [
+            45,
+            41,
+            35
+          ],
+          "darkHardwareMaterial": true
+        }
+      ]
+    },
+    {
+      "frame": 15,
+      "samples": [
+        {
+          "offsetNormal": -3,
+          "xy": [
+            324,
+            281
+          ],
+          "cleanRGB": [
+            46,
+            42,
+            37
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": -2,
+          "xy": [
+            324,
+            282
+          ],
+          "cleanRGB": [
+            48,
+            44,
+            40
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 0,
+          "xy": [
+            324,
+            284
+          ],
+          "cleanRGB": [
+            47,
+            43,
+            38
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 2,
+          "xy": [
+            324,
+            286
+          ],
+          "cleanRGB": [
+            46,
+            41,
+            36
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 3,
+          "xy": [
+            324,
+            287
+          ],
+          "cleanRGB": [
+            44,
+            39,
+            33
+          ],
+          "darkHardwareMaterial": true
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "samples": [
+        {
+          "offsetNormal": -3,
+          "xy": [
+            324,
+            285
+          ],
+          "cleanRGB": [
+            35,
+            28,
+            23
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": -2,
+          "xy": [
+            324,
+            286
+          ],
+          "cleanRGB": [
+            45,
+            41,
+            36
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 0,
+          "xy": [
+            324,
+            288
+          ],
+          "cleanRGB": [
+            50,
+            44,
+            39
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 2,
+          "xy": [
+            323,
+            290
+          ],
+          "cleanRGB": [
+            49,
+            43,
+            37
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 3,
+          "xy": [
+            323,
+            291
+          ],
+          "cleanRGB": [
+            48,
+            42,
+            37
+          ],
+          "darkHardwareMaterial": true
+        }
+      ]
+    },
+    {
+      "frame": 17,
+      "samples": [
+        {
+          "offsetNormal": -3,
+          "xy": [
+            324,
+            288
+          ],
+          "cleanRGB": [
+            53,
+            38,
+            28
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": -2,
+          "xy": [
+            324,
+            289
+          ],
+          "cleanRGB": [
+            46,
+            39,
+            32
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 0,
+          "xy": [
+            323,
+            291
+          ],
+          "cleanRGB": [
+            54,
+            48,
+            40
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 2,
+          "xy": [
+            323,
+            293
+          ],
+          "cleanRGB": [
+            54,
+            46,
+            38
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 3,
+          "xy": [
+            323,
+            294
+          ],
+          "cleanRGB": [
+            53,
+            45,
+            38
+          ],
+          "darkHardwareMaterial": true
+        }
+      ]
+    },
+    {
+      "frame": 18,
+      "samples": [
+        {
+          "offsetNormal": -3,
+          "xy": [
+            323,
+            290
+          ],
+          "cleanRGB": [
+            57,
+            39,
+            27
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": -2,
+          "xy": [
+            323,
+            291
+          ],
+          "cleanRGB": [
+            43,
+            36,
+            28
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 0,
+          "xy": [
+            323,
+            293
+          ],
+          "cleanRGB": [
+            52,
+            49,
+            41
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 2,
+          "xy": [
+            323,
+            295
+          ],
+          "cleanRGB": [
+            56,
+            48,
+            41
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 3,
+          "xy": [
+            323,
+            296
+          ],
+          "cleanRGB": [
+            52,
+            45,
+            37
+          ],
+          "darkHardwareMaterial": true
+        }
+      ]
+    },
+    {
+      "frame": 19,
+      "samples": [
+        {
+          "offsetNormal": -3,
+          "xy": [
+            323,
+            290
+          ],
+          "cleanRGB": [
+            57,
+            39,
+            27
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": -2,
+          "xy": [
+            323,
+            291
+          ],
+          "cleanRGB": [
+            43,
+            36,
+            28
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 0,
+          "xy": [
+            323,
+            293
+          ],
+          "cleanRGB": [
+            52,
+            49,
+            41
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 2,
+          "xy": [
+            323,
+            295
+          ],
+          "cleanRGB": [
+            56,
+            48,
+            41
+          ],
+          "darkHardwareMaterial": true
+        },
+        {
+          "offsetNormal": 3,
+          "xy": [
+            323,
+            296
+          ],
+          "cleanRGB": [
+            52,
+            45,
+            37
+          ],
+          "darkHardwareMaterial": true
+        }
+      ]
+    }
+  ],
+  "all17ReturnPairsByteExact": true,
+  "visualReview": [
+    "Viewed full512 frames1/10/19, all19 critical hardware crops and all18 transition onions of V3. Original19 upper-body poses and support topology already reviewed on V2; opaque moving actor pixels proved identical between V2 and V3.",
+    "Fixed waist bearing, single native operating beam, rigid taper and narrow terminal are connected in all19. Terminal stays behind the moving black cushion; former gray lower lip is absent in final16..19. No telescope or changing shaft shape: R152 with fixed width profile24 to125, taper125..145 and tab6 to152.",
+    "Cushion/grips form a continuous opaque foreground object. Former white U hole and skin-colored island under cushion are gone. Two actual raster hands remain on grips; no old loose sidecap or extra handles.",
+    "Short vertical lumbar support stays in place and becomes exposed as torso flexes; pelvis, seat, feet and enclosed tower stay fixed. Abdomen visibly shortens while torso curves over supported pelvis.",
+    "Upper-body raster motion and padding/grips remain visually reviewed interpolated raster; only the operating beam has an exact native rigid-shape guarantee. No claim of clinical or exact3D biomechanical certification."
+  ]
+}

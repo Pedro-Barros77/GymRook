@@ -1,0 +1,29 @@
+{
+  "method": "image_gen precise shoe repair; composited only in foot ROI; same-clock two-key body and core ankle skin restored exactly",
+  "roiPixels": [
+    289,
+    370,
+    410,
+    447
+  ],
+  "featherPixels": 6,
+  "sourceFrame10": {
+    "file": "output/followup-round4/calf-two-key-study/standing-machine-calf-raise/frames/frame_0010.png",
+    "sha256": "05d9d04b2ecd31d7ee801335b4b1fac79424c79a0f3716dee1c30e00309a4b20"
+  },
+  "generatedEdit": {
+    "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/mid-repair-v2.png",
+    "sha256": "46e590f164d4fd36c2f29bc43fc13ec026e7b1872143cc2bb071d8aa9ddff9c3"
+  },
+  "repairedKey": {
+    "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/mid-repaired-key-512.png",
+    "sha256": "6025015811935d61178987256597d51d58021c8e3e1678caf10701f57749c7b8"
+  },
+  "mask": {
+    "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/mid-foot-edit-mask.png",
+    "sha256": "86330cb7b5a9b69002f11483d647a9119674f969222530e90bbcf935ac307cc3"
+  },
+  "outsideRoiPixelsExact": 252827,
+  "ankleSkinCorePixelsExact": 946,
+  "status": "Prepared key, visual gate required before any interpolation/export"
+}

@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "frameCount": 36,
+  "fps": 12,
+  "sourceIndex": {
+    "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/source-index.json",
+    "sha256": "c7ce7e4696163f1ac43eb6a4dee1c52ec6ff54ccef81890b8b38b54c50d22f37"
+  },
+  "maximumOpaqueActorRGBDifference": 0,
+  "opaqueActorPixelsPerFrame": [
+    44683,
+    44667,
+    44638,
+    44370,
+    43911,
+    43522,
+    43003,
+    42596,
+    42280,
+    42068,
+    41824,
+    41572,
+    41370,
+    41166,
+    41050,
+    40947,
+    40908,
+    40909,
+    40909,
+    40909,
+    40908,
+    40947,
+    41050,
+    41166,
+    41370,
+    41572,
+    41824,
+    42068,
+    42280,
+    42596,
+    43003,
+    43522,
+    43911,
+    44370,
+    44638,
+    44667
+  ],
+  "commonStaticPixels": 190351,
+  "commonStaticRGBDifference": 0,
+  "staticMask": {
+    "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/final-composition-v1/verified-common-static-mask.png",
+    "sha256": "e229146780b963a3de04b89fbf7c33b9d12ba07c454dac2b916209effd9bc80a"
+  },
+  "return17ByteExact": true,
+  "weightUnitTranslationRangePixels": [
+    0,
+    -25
+  ],
+  "weightUnitScale": 1.0,
+  "limits": "Only alpha labels are transported. Human RGB never warped. These are integrity/pixel checks, not anatomy or machine-physics certification."
+}

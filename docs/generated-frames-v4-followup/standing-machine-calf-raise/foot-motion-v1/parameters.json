@@ -1,0 +1,171 @@
+{
+  "id": "standing-machine-calf-raise",
+  "fps": 12,
+  "frameCount": 36,
+  "durationSeconds": 3,
+  "selectedVariant": "reverse-scale1",
+  "interpolator": "Practical-RIFE4.25",
+  "scale": 1,
+  "reverseInputs": true,
+  "timeline": "Original two-key cosine physical progress; third local foot key atphysical0.5. No local retiming.",
+  "footROI": [
+    289,
+    370,
+    410,
+    447
+  ],
+  "ankleSkinGuard": {
+    "method": "Baseline hue4..30/S>45/V>120, per-frame anatomical calf corridor, dilated1pixel. No dark-shoe or sole colour recovery.",
+    "midpointPolicy": "Atphysical.5 this matches root V4 anatomical bounds x325..385, nearx<357/y<398, farx>=357/y<391.",
+    "dynamicBounds": "xMin334-18t;xMax394-18t;nearFarSplit366-18t;nearMaxY420-44t;farMaxY412-42t"
+  },
+  "keys": {
+    "low": {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/keys/low.png",
+      "sha256": "15d95af938be88c3b7f25460a7362dd7e0e9efaac3dc0353fc02215ea8de9181"
+    },
+    "mid": {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/keys/mid.png",
+      "sha256": "040c789b1c157a5a5359cc5106a6880a59b9d344e00584d9b25625ffda49c21c"
+    },
+    "high": {
+      "file": "docs/generated-frames-v4-followup/standing-machine-calf-raise/foot-motion-v1/keys/high.png",
+      "sha256": "d2a9fd1221024e7f4ac85147986f667e8aa6ffd2e48041c1ce6630293e75c827"
+    }
+  },
+  "forwardTiming": [
+    {
+      "frame": 1,
+      "physicalT": 0.0,
+      "copiedEndpoint": true
+    },
+    {
+      "frame": 2,
+      "physicalT": 0.00759612349389599,
+      "segmentT": 0.01519224698779198,
+      "actualInferenceT": 0.984807753012208,
+      "reversed": true
+    },
+    {
+      "frame": 3,
+      "physicalT": 0.030153689607045786,
+      "segmentT": 0.06030737921409157,
+      "actualInferenceT": 0.9396926207859084,
+      "reversed": true
+    },
+    {
+      "frame": 4,
+      "physicalT": 0.06698729810778065,
+      "segmentT": 0.1339745962155613,
+      "actualInferenceT": 0.8660254037844387,
+      "reversed": true
+    },
+    {
+      "frame": 5,
+      "physicalT": 0.116977778440511,
+      "segmentT": 0.233955556881022,
+      "actualInferenceT": 0.766044443118978,
+      "reversed": true
+    },
+    {
+      "frame": 6,
+      "physicalT": 0.17860619515673032,
+      "segmentT": 0.35721239031346064,
+      "actualInferenceT": 0.6427876096865394,
+      "reversed": true
+    },
+    {
+      "frame": 7,
+      "physicalT": 0.24999999999999994,
+      "segmentT": 0.4999999999999999,
+      "actualInferenceT": 0.5000000000000001,
+      "reversed": true
+    },
+    {
+      "frame": 8,
+      "physicalT": 0.32898992833716556,
+      "segmentT": 0.6579798566743311,
+      "actualInferenceT": 0.3420201433256689,
+      "reversed": true
+    },
+    {
+      "frame": 9,
+      "physicalT": 0.4131759111665348,
+      "segmentT": 0.8263518223330696,
+      "actualInferenceT": 0.17364817766693041,
+      "reversed": true
+    },
+    {
+      "frame": 10,
+      "physicalT": 0.49999999999999994,
+      "copiedMidKey": true
+    },
+    {
+      "frame": 11,
+      "physicalT": 0.5868240888334652,
+      "segmentT": 0.1736481776669303,
+      "actualInferenceT": 0.8263518223330697,
+      "reversed": true
+    },
+    {
+      "frame": 12,
+      "physicalT": 0.6710100716628343,
+      "segmentT": 0.34202014332566866,
+      "actualInferenceT": 0.6579798566743313,
+      "reversed": true
+    },
+    {
+      "frame": 13,
+      "physicalT": 0.7499999999999999,
+      "segmentT": 0.4999999999999998,
+      "actualInferenceT": 0.5000000000000002,
+      "reversed": true
+    },
+    {
+      "frame": 14,
+      "physicalT": 0.8213938048432696,
+      "segmentT": 0.6427876096865393,
+      "actualInferenceT": 0.35721239031346075,
+      "reversed": true
+    },
+    {
+      "frame": 15,
+      "physicalT": 0.883022221559489,
+      "segmentT": 0.7660444431189779,
+      "actualInferenceT": 0.2339555568810221,
+      "reversed": true
+    },
+    {
+      "frame": 16,
+      "physicalT": 0.9330127018922194,
+      "segmentT": 0.8660254037844388,
+      "actualInferenceT": 0.13397459621556118,
+      "reversed": true
+    },
+    {
+      "frame": 17,
+      "physicalT": 0.9698463103929542,
+      "segmentT": 0.9396926207859084,
+      "actualInferenceT": 0.06030737921409157,
+      "reversed": true
+    },
+    {
+      "frame": 18,
+      "physicalT": 0.9924038765061041,
+      "segmentT": 0.9848077530122081,
+      "actualInferenceT": 0.015192246987791869,
+      "reversed": true
+    },
+    {
+      "frame": 19,
+      "physicalT": 1.0,
+      "copiedEndpoint": true
+    }
+  ],
+  "sourceBodyClock": {
+    "file": "output/followup-round4/calf-two-key-study/study-result.json",
+    "sha256": "a9b6874ca8724ce4530eb87927fa27786e8c9b077fe6a14732265f535a062e5a"
+  },
+  "scope": "Selected human input only; body outside foot ROI and protected ankle skin stays exact2-key raw. Canonical hardware/weight block is a separate next step.",
+  "limits": "Raster foot disocclusion estimates, not a rigid3D shoe model. Slight continuous white-band width variation aroundframe12 accepted by root."
+}

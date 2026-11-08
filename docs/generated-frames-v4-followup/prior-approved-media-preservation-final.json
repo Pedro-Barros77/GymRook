@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "scope": "All9files from the3earlier round4exports are byte-identical after finalcalfencode.",
+  "baseline": {
+    "file": "docs/generated-frames-v4-followup/prior-approved-media-preservation.json",
+    "sha256": "3e8ee179f594f2be7df501b06a269b77049442f8a132f470c48b43ba07474782"
+  },
+  "verifiedFiles": 9
+}

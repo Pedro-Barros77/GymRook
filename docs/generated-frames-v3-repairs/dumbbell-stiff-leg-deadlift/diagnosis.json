@@ -1,0 +1,11 @@
+{
+  "source": "docs/generated-frames-v2-fixes/dumbbell-stiff-leg-deadlift/sheet.png",
+  "finding": "Generated per-pose head/hip/shoulder and clothing silhouettes vary independently; interpolation turns those differences into visible wobble.",
+  "repair": "New constant-segment side-profile guide with continuous joint trajectories, shared exact planted feet, same head/pelvic volume and neutral spine.",
+  "acceptance": [
+    "Both feet fully planted at identical coordinates in every key.",
+    "No changing bone lengths, pelvis volume or head size.",
+    "No independent shoulder/head shake; dumbbells move close to legs."
+  ],
+  "scope": "Source diagnosis only; no final repair approval until actual rendered motion is inspected at native12fps and slower."
+}

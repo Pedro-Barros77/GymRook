@@ -1,0 +1,890 @@
+{
+  "id": "alternating-lunge",
+  "fps": 12,
+  "frames": 72,
+  "durationSeconds": 6,
+  "studyOnly": true,
+  "sourceDrawingsUnchanged": true,
+  "plan": [
+    {
+      "frame": 1,
+      "phase": 0.0,
+      "progress": 0.0,
+      "anchor0": 0,
+      "anchor1": 1,
+      "timestep": 0.0,
+      "controlledStepPhase": "foot transfer",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 2,
+      "phase": 0.013888888888888888,
+      "progress": 0.00422891486048407,
+      "anchor0": 0,
+      "anchor1": 1,
+      "timestep": 0.03806023374435663,
+      "controlledStepPhase": "foot transfer",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 3,
+      "phase": 0.027777777777777776,
+      "progress": 0.016271845489636245,
+      "anchor0": 0,
+      "anchor1": 1,
+      "timestep": 0.1464466094067262,
+      "controlledStepPhase": "foot transfer",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 4,
+      "phase": 0.041666666666666664,
+      "progress": 0.03429536486860612,
+      "anchor0": 0,
+      "anchor1": 1,
+      "timestep": 0.3086582838174551,
+      "controlledStepPhase": "foot transfer",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 5,
+      "phase": 0.05555555555555555,
+      "progress": 0.055555555555555546,
+      "anchor0": 0,
+      "anchor1": 1,
+      "timestep": 0.49999999999999994,
+      "controlledStepPhase": "foot transfer",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 6,
+      "phase": 0.06944444444444445,
+      "progress": 0.07681574624250498,
+      "anchor0": 0,
+      "anchor1": 1,
+      "timestep": 0.6913417161825448,
+      "controlledStepPhase": "foot transfer",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 7,
+      "phase": 0.08333333333333333,
+      "progress": 0.09483926562147485,
+      "anchor0": 0,
+      "anchor1": 1,
+      "timestep": 0.8535533905932737,
+      "controlledStepPhase": "foot transfer",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 8,
+      "phase": 0.09722222222222222,
+      "progress": 0.10688219625062703,
+      "anchor0": 0,
+      "anchor1": 1,
+      "timestep": 0.9619397662556434,
+      "controlledStepPhase": "foot transfer",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 9,
+      "phase": 0.1111111111111111,
+      "progress": 0.1111111111111111,
+      "anchor0": 1,
+      "anchor1": 2,
+      "timestep": 0.0,
+      "controlledStepPhase": "foot transfer",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 10,
+      "phase": 0.125,
+      "progress": 0.11450996414616989,
+      "anchor0": 1,
+      "anchor1": 2,
+      "timestep": 0.08157247284141074,
+      "controlledStepPhase": "knee descent",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 11,
+      "phase": 0.1388888888888889,
+      "progress": 0.12437381983507309,
+      "anchor0": 1,
+      "anchor1": 2,
+      "timestep": 0.3183050093750875,
+      "controlledStepPhase": "knee descent",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 12,
+      "phase": 0.1527777777777778,
+      "progress": 0.13973713525746714,
+      "anchor0": 1,
+      "anchor1": 2,
+      "timestep": 0.6870245795125446,
+      "controlledStepPhase": "knee descent",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 13,
+      "phase": 0.16666666666666666,
+      "progress": 0.15909604205729533,
+      "anchor0": 2,
+      "anchor1": 3,
+      "timestep": 0.15163834270842094,
+      "controlledStepPhase": "knee descent",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 14,
+      "phase": 0.18055555555555555,
+      "progress": 0.18055555555555552,
+      "anchor0": 2,
+      "anchor1": 3,
+      "timestep": 0.6666666666666657,
+      "controlledStepPhase": "knee descent",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 15,
+      "phase": 0.19444444444444445,
+      "progress": 0.20201506905381578,
+      "anchor0": 3,
+      "anchor1": 4,
+      "timestep": 0.13627124296868393,
+      "controlledStepPhase": "knee descent",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 16,
+      "phase": 0.20833333333333334,
+      "progress": 0.22137397585364393,
+      "anchor0": 3,
+      "anchor1": 4,
+      "timestep": 0.48473156536559076,
+      "controlledStepPhase": "knee descent",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 17,
+      "phase": 0.2222222222222222,
+      "progress": 0.23673729127603801,
+      "anchor0": 3,
+      "anchor1": 4,
+      "timestep": 0.7612712429686842,
+      "controlledStepPhase": "knee descent",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 18,
+      "phase": 0.2361111111111111,
+      "progress": 0.24660114696494123,
+      "anchor0": 3,
+      "anchor1": 4,
+      "timestep": 0.9388206453689422,
+      "controlledStepPhase": "knee descent",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 19,
+      "phase": 0.25,
+      "progress": 0.25,
+      "anchor0": 4,
+      "anchor1": 5,
+      "timestep": 0.0,
+      "controlledStepPhase": "knee descent",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 20,
+      "phase": 0.2638888888888889,
+      "mirroredFromFrame": 18,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 21,
+      "phase": 0.2777777777777778,
+      "mirroredFromFrame": 17,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 22,
+      "phase": 0.2916666666666667,
+      "mirroredFromFrame": 16,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 23,
+      "phase": 0.3055555555555556,
+      "mirroredFromFrame": 15,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 24,
+      "phase": 0.3194444444444444,
+      "mirroredFromFrame": 14,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 25,
+      "phase": 0.3333333333333333,
+      "mirroredFromFrame": 13,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 26,
+      "phase": 0.3472222222222222,
+      "mirroredFromFrame": 12,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 27,
+      "phase": 0.3611111111111111,
+      "mirroredFromFrame": 11,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 28,
+      "phase": 0.375,
+      "mirroredFromFrame": 10,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 29,
+      "phase": 0.3888888888888889,
+      "mirroredFromFrame": 9,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 30,
+      "phase": 0.4027777777777778,
+      "mirroredFromFrame": 8,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 31,
+      "phase": 0.4166666666666667,
+      "mirroredFromFrame": 7,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 32,
+      "phase": 0.4305555555555556,
+      "mirroredFromFrame": 6,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 33,
+      "phase": 0.4444444444444444,
+      "mirroredFromFrame": 5,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 34,
+      "phase": 0.4583333333333333,
+      "mirroredFromFrame": 4,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 35,
+      "phase": 0.4722222222222222,
+      "mirroredFromFrame": 3,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 36,
+      "phase": 0.4861111111111111,
+      "mirroredFromFrame": 2,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 37,
+      "phase": 0.5,
+      "progress": 0.5,
+      "anchor0": 8,
+      "anchor1": 9,
+      "timestep": 0.0,
+      "controlledStepPhase": "foot transfer",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 38,
+      "phase": 0.5138888888888888,
+      "progress": 0.504228914860484,
+      "anchor0": 8,
+      "anchor1": 9,
+      "timestep": 0.038060233744356395,
+      "controlledStepPhase": "foot transfer",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 39,
+      "phase": 0.5277777777777778,
+      "progress": 0.5162718454896362,
+      "anchor0": 8,
+      "anchor1": 9,
+      "timestep": 0.146446609406726,
+      "controlledStepPhase": "foot transfer",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 40,
+      "phase": 0.5416666666666666,
+      "progress": 0.5342953648686061,
+      "anchor0": 8,
+      "anchor1": 9,
+      "timestep": 0.3086582838174545,
+      "controlledStepPhase": "foot transfer",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 41,
+      "phase": 0.5555555555555556,
+      "progress": 0.5555555555555556,
+      "anchor0": 8,
+      "anchor1": 9,
+      "timestep": 0.5,
+      "controlledStepPhase": "foot transfer",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 42,
+      "phase": 0.5694444444444444,
+      "progress": 0.576815746242505,
+      "anchor0": 8,
+      "anchor1": 9,
+      "timestep": 0.6913417161825445,
+      "controlledStepPhase": "foot transfer",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 43,
+      "phase": 0.5833333333333334,
+      "progress": 0.5948392656214748,
+      "anchor0": 8,
+      "anchor1": 9,
+      "timestep": 0.8535533905932731,
+      "controlledStepPhase": "foot transfer",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 44,
+      "phase": 0.5972222222222222,
+      "progress": 0.606882196250627,
+      "anchor0": 8,
+      "anchor1": 9,
+      "timestep": 0.9619397662556426,
+      "controlledStepPhase": "foot transfer",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 45,
+      "phase": 0.6111111111111112,
+      "progress": 0.6111111111111112,
+      "anchor0": 9,
+      "anchor1": 10,
+      "timestep": 0.0,
+      "controlledStepPhase": "foot transfer",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 46,
+      "phase": 0.625,
+      "progress": 0.6145099641461699,
+      "anchor0": 9,
+      "anchor1": 10,
+      "timestep": 0.08157247284140919,
+      "controlledStepPhase": "knee descent",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 47,
+      "phase": 0.6388888888888888,
+      "progress": 0.6243738198350731,
+      "anchor0": 9,
+      "anchor1": 10,
+      "timestep": 0.31830500937508727,
+      "controlledStepPhase": "knee descent",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 48,
+      "phase": 0.6527777777777778,
+      "progress": 0.6397371352574671,
+      "anchor0": 9,
+      "anchor1": 10,
+      "timestep": 0.6870245795125435,
+      "controlledStepPhase": "knee descent",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 49,
+      "phase": 0.6666666666666666,
+      "progress": 0.6590960420572953,
+      "anchor0": 10,
+      "anchor1": 11,
+      "timestep": 0.15163834270842105,
+      "controlledStepPhase": "knee descent",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 50,
+      "phase": 0.6805555555555556,
+      "progress": 0.6805555555555556,
+      "anchor0": 10,
+      "anchor1": 11,
+      "timestep": 0.6666666666666675,
+      "controlledStepPhase": "knee descent",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 51,
+      "phase": 0.6944444444444444,
+      "progress": 0.7020150690538158,
+      "anchor0": 11,
+      "anchor1": 12,
+      "timestep": 0.13627124296868537,
+      "controlledStepPhase": "knee descent",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 52,
+      "phase": 0.7083333333333334,
+      "progress": 0.7213739758536439,
+      "anchor0": 11,
+      "anchor1": 12,
+      "timestep": 0.48473156536559103,
+      "controlledStepPhase": "knee descent",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 53,
+      "phase": 0.7222222222222222,
+      "progress": 0.736737291276038,
+      "anchor0": 11,
+      "anchor1": 12,
+      "timestep": 0.7612712429686849,
+      "controlledStepPhase": "knee descent",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 54,
+      "phase": 0.7361111111111112,
+      "progress": 0.7466011469649412,
+      "anchor0": 11,
+      "anchor1": 12,
+      "timestep": 0.9388206453689412,
+      "controlledStepPhase": "knee descent",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 55,
+      "phase": 0.75,
+      "progress": 0.75,
+      "anchor0": 12,
+      "anchor1": 13,
+      "timestep": 0.0,
+      "controlledStepPhase": "knee descent",
+      "timeEasing": "half cosine"
+    },
+    {
+      "frame": 56,
+      "phase": 0.7638888888888888,
+      "mirroredFromFrame": 54,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 57,
+      "phase": 0.7777777777777778,
+      "mirroredFromFrame": 53,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 58,
+      "phase": 0.7916666666666666,
+      "mirroredFromFrame": 52,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 59,
+      "phase": 0.8055555555555556,
+      "mirroredFromFrame": 51,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 60,
+      "phase": 0.8194444444444444,
+      "mirroredFromFrame": 50,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 61,
+      "phase": 0.8333333333333334,
+      "mirroredFromFrame": 49,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 62,
+      "phase": 0.8472222222222222,
+      "mirroredFromFrame": 48,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 63,
+      "phase": 0.8611111111111112,
+      "mirroredFromFrame": 47,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 64,
+      "phase": 0.875,
+      "mirroredFromFrame": 46,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 65,
+      "phase": 0.8888888888888888,
+      "mirroredFromFrame": 45,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 66,
+      "phase": 0.9027777777777778,
+      "mirroredFromFrame": 44,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 67,
+      "phase": 0.9166666666666666,
+      "mirroredFromFrame": 43,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 68,
+      "phase": 0.9305555555555556,
+      "mirroredFromFrame": 42,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 69,
+      "phase": 0.9444444444444444,
+      "mirroredFromFrame": 41,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 70,
+      "phase": 0.9583333333333334,
+      "mirroredFromFrame": 40,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 71,
+      "phase": 0.9722222222222222,
+      "mirroredFromFrame": 39,
+      "symmetricStepReturn": true
+    },
+    {
+      "frame": 72,
+      "phase": 0.9861111111111112,
+      "mirroredFromFrame": 38,
+      "symmetricStepReturn": true
+    }
+  ],
+  "frameFiles": [
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0001.png",
+      "sha256": "072b7907b541ad63c10a73bb1616f8d4b09ea7c7122648fa97f6ce6cf7a58a0c"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0002.png",
+      "sha256": "412b5a1683663f1f1e67082a38e34779ce0f1200a064430d34c75968ff4eb72e"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0003.png",
+      "sha256": "5c2083908de554556d938ae5b70ecd6d8babc1a131565fccd8048503da975246"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0004.png",
+      "sha256": "bac5cd274314150e8cf8e5ff4968eddcd276de32e32f98df609e2fb5571625a4"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0005.png",
+      "sha256": "0e1ae8ce5319403920c4651d374fd238dce07e411f35fd5f21fc4d39d6497ebc"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0006.png",
+      "sha256": "f0bd0eed56bad5d70031453eaa2e690723cb1050656dfe6c47ba827b08424f1c"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0007.png",
+      "sha256": "0798d46e32fd1c8da16ae15c9f3a72cf1f12bcd9aec77ca2a01506b479f8ea99"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0008.png",
+      "sha256": "d0339211758e0b6abb07dc23b7f319e31d8331b86f2a05f4cc964e179c95863d"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0009.png",
+      "sha256": "2fc99766e3ec2c5efc3d7e8d5523209e11b4cddb960ec9c5b9a56d6fdc1ea8da"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0010.png",
+      "sha256": "9086bb713b29c6403bb74ab32639f1ba966e6f9f67f13c9ed94f88412fea9f7e"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0011.png",
+      "sha256": "76b1722da652e45015db99ea61bd25bda546484be239099b576c2f275373b66f"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0012.png",
+      "sha256": "435e9ff17f748187813754ddb0f06a965e5e28cbc7cc3fa8ec951a7ba1a47d3a"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0013.png",
+      "sha256": "024a101c27b4c03f10253cbf79ef649de6f7e1c349b7841249c12df5c14a23af"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0014.png",
+      "sha256": "2e04ba1787516cc71a8fccf858b3701616daf123af70a61f0cb21af4333a2984"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0015.png",
+      "sha256": "0d1a36af8d82414a7f106feee2444b7e34a33bdaf7a62f0bc3f253b121789967"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0016.png",
+      "sha256": "5f038ca2a35813d83ff38e171b8d3c9fd59a83948319c93bd9c9209d51e8eadc"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0017.png",
+      "sha256": "581339767a12cf55db989299e4c3f57f14642b4452ba92b1d3175b5faef59b76"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0018.png",
+      "sha256": "213c2165c7c92e1f60a633c0ad5735cd3b4dd5a8e6f50cb2a9287890a6f399a3"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0019.png",
+      "sha256": "8ed843529ecae816bb9b2a6161c6be6ee0fddb360d0a0ce74823d59e287de9a3"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0020.png",
+      "sha256": "213c2165c7c92e1f60a633c0ad5735cd3b4dd5a8e6f50cb2a9287890a6f399a3"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0021.png",
+      "sha256": "581339767a12cf55db989299e4c3f57f14642b4452ba92b1d3175b5faef59b76"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0022.png",
+      "sha256": "5f038ca2a35813d83ff38e171b8d3c9fd59a83948319c93bd9c9209d51e8eadc"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0023.png",
+      "sha256": "0d1a36af8d82414a7f106feee2444b7e34a33bdaf7a62f0bc3f253b121789967"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0024.png",
+      "sha256": "2e04ba1787516cc71a8fccf858b3701616daf123af70a61f0cb21af4333a2984"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0025.png",
+      "sha256": "024a101c27b4c03f10253cbf79ef649de6f7e1c349b7841249c12df5c14a23af"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0026.png",
+      "sha256": "435e9ff17f748187813754ddb0f06a965e5e28cbc7cc3fa8ec951a7ba1a47d3a"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0027.png",
+      "sha256": "76b1722da652e45015db99ea61bd25bda546484be239099b576c2f275373b66f"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0028.png",
+      "sha256": "9086bb713b29c6403bb74ab32639f1ba966e6f9f67f13c9ed94f88412fea9f7e"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0029.png",
+      "sha256": "2fc99766e3ec2c5efc3d7e8d5523209e11b4cddb960ec9c5b9a56d6fdc1ea8da"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0030.png",
+      "sha256": "d0339211758e0b6abb07dc23b7f319e31d8331b86f2a05f4cc964e179c95863d"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0031.png",
+      "sha256": "0798d46e32fd1c8da16ae15c9f3a72cf1f12bcd9aec77ca2a01506b479f8ea99"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0032.png",
+      "sha256": "f0bd0eed56bad5d70031453eaa2e690723cb1050656dfe6c47ba827b08424f1c"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0033.png",
+      "sha256": "0e1ae8ce5319403920c4651d374fd238dce07e411f35fd5f21fc4d39d6497ebc"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0034.png",
+      "sha256": "bac5cd274314150e8cf8e5ff4968eddcd276de32e32f98df609e2fb5571625a4"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0035.png",
+      "sha256": "5c2083908de554556d938ae5b70ecd6d8babc1a131565fccd8048503da975246"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0036.png",
+      "sha256": "412b5a1683663f1f1e67082a38e34779ce0f1200a064430d34c75968ff4eb72e"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0037.png",
+      "sha256": "072b7907b541ad63c10a73bb1616f8d4b09ea7c7122648fa97f6ce6cf7a58a0c"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0038.png",
+      "sha256": "164382e3b666e339d1b8e52c37766b31ce2ec91ea5131dad5b96062972e85a59"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0039.png",
+      "sha256": "3c33ce6358fe36edfa92354ed982af58e8a0c38968cc621b52830f6ed9a916b9"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0040.png",
+      "sha256": "6e42036a2e109c799cc6c5d9f3a14198c5c90cedcbcd16dab4ef82df7b396dc1"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0041.png",
+      "sha256": "e81af3ae76d58570f9c2345518f394466107ee4242201da87dac3d05b40e3577"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0042.png",
+      "sha256": "5128a967a6e5d1cabd1b47c0e3bfe5d1c7446263478db3f343577392a6b58522"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0043.png",
+      "sha256": "7315d50beef18eb3376fb2a50c8a00837f1ca6de59c88f70933581f29d9ebb36"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0044.png",
+      "sha256": "0ab0090d4e6f8bc24403e1e9a1d705772f416dd8f5cfb596202723fbae242fe0"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0045.png",
+      "sha256": "7a2050e09ec9a1b8d230456997c1dfbc2252e22400f13d9c8b3422367075ee67"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0046.png",
+      "sha256": "3d7673d2cd131696bcdaa69fac3622d1c813adbc07fac43963cb52111adc93a4"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0047.png",
+      "sha256": "e610e5212c1357c1465e9b1dd75fb492c1545f1ef3b41a0e23d60593d11be5aa"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0048.png",
+      "sha256": "03b7c85a9a9507e6844909f8a7ecf4a4a73d32aa98056ed76ed837a5fa77917f"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0049.png",
+      "sha256": "e2b9d395f3f24e303362a15b907ad8f7bcc4d63465c0d4a081ef6cbc81e68cd1"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0050.png",
+      "sha256": "0b6db5b4381d1b0941db8f3b7cda2312d86d4d207df060e18df7dd202625056c"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0051.png",
+      "sha256": "2f4cac806a96b34a6dd6dce40a57146eff7b05e039a6f7d176b41ca0e1040469"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0052.png",
+      "sha256": "033468307aee8ba5ded8940f7a441b2b0fea3a2806aa5f5443b4d09c751ed417"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0053.png",
+      "sha256": "f3f1f838f40c1ed43bfea5981b0090f84cccb2ff4f13b6d53f6f7595f24d871f"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0054.png",
+      "sha256": "fa99c3ad957d7042871d17a02bff18d512fb6c0a9351d98f17cbe52233338072"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0055.png",
+      "sha256": "bfe745d97339ebd9f4fca974b7435ab8ed66cf4f21c461d1d328f034edeaf311"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0056.png",
+      "sha256": "fa99c3ad957d7042871d17a02bff18d512fb6c0a9351d98f17cbe52233338072"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0057.png",
+      "sha256": "f3f1f838f40c1ed43bfea5981b0090f84cccb2ff4f13b6d53f6f7595f24d871f"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0058.png",
+      "sha256": "033468307aee8ba5ded8940f7a441b2b0fea3a2806aa5f5443b4d09c751ed417"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0059.png",
+      "sha256": "2f4cac806a96b34a6dd6dce40a57146eff7b05e039a6f7d176b41ca0e1040469"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0060.png",
+      "sha256": "0b6db5b4381d1b0941db8f3b7cda2312d86d4d207df060e18df7dd202625056c"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0061.png",
+      "sha256": "e2b9d395f3f24e303362a15b907ad8f7bcc4d63465c0d4a081ef6cbc81e68cd1"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0062.png",
+      "sha256": "03b7c85a9a9507e6844909f8a7ecf4a4a73d32aa98056ed76ed837a5fa77917f"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0063.png",
+      "sha256": "e610e5212c1357c1465e9b1dd75fb492c1545f1ef3b41a0e23d60593d11be5aa"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0064.png",
+      "sha256": "3d7673d2cd131696bcdaa69fac3622d1c813adbc07fac43963cb52111adc93a4"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0065.png",
+      "sha256": "7a2050e09ec9a1b8d230456997c1dfbc2252e22400f13d9c8b3422367075ee67"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0066.png",
+      "sha256": "0ab0090d4e6f8bc24403e1e9a1d705772f416dd8f5cfb596202723fbae242fe0"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0067.png",
+      "sha256": "7315d50beef18eb3376fb2a50c8a00837f1ca6de59c88f70933581f29d9ebb36"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0068.png",
+      "sha256": "5128a967a6e5d1cabd1b47c0e3bfe5d1c7446263478db3f343577392a6b58522"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0069.png",
+      "sha256": "e81af3ae76d58570f9c2345518f394466107ee4242201da87dac3d05b40e3577"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0070.png",
+      "sha256": "6e42036a2e109c799cc6c5d9f3a14198c5c90cedcbcd16dab4ef82df7b396dc1"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0071.png",
+      "sha256": "3c33ce6358fe36edfa92354ed982af58e8a0c38968cc621b52830f6ed9a916b9"
+    },
+    {
+      "file": "output/repair-animations/candidates/lunge-retime-v2/alternating-lunge/frames/frame_0072.png",
+      "sha256": "164382e3b666e339d1b8e52c37766b31ce2ec91ea5131dad5b96062972e85a59"
+    }
+  ],
+  "timeContract": {
+    "footTransferFrames": 8,
+    "kneeDescentFrames": 10,
+    "easing": "half cosine separately in foot-transfer and knee-descent phases",
+    "reason": "Decelerate the returning foot before the standing seam instead of retaining a fast linear last step."
+  }
+}
