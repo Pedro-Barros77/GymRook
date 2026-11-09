@@ -16,7 +16,7 @@ const voidTags = new Set(['area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'in
 
 // Small in-memory DOM for exercising our rendering and bound handlers. This is not
 // a browser, a layout engine or a claim about real-device behavior.
-class Element {
+export class Element {
   constructor(tag, attrs = {}, document) {
     this.tagName = tag;
     this.attributes = { ...attrs };
@@ -32,6 +32,33 @@ class Element {
     this.playCalls = 0;
     this.pauseCalls = 0;
     this._text = null;
+    this._value = undefined;
+  }
+  get id() { return this.getAttribute('id') || ''; }
+  set id(value) { this.setAttribute('id', value); }
+  get className() { return this.getAttribute('class') || ''; }
+  set className(value) { this.setAttribute('class', value); }
+  get value() {
+    if (this._value !== undefined) return this._value;
+    if (this.tagName === 'select') {
+      const options = this.querySelectorAll('option');
+      return (options.find(option => option.hasAttribute('selected')) || options[0])?.getAttribute('value') || '';
+    }
+    return this.getAttribute('value') || '';
+  }
+  set value(value) { this._value = String(value); }
+  get valueAsNumber() { return this.value === '' ? NaN : Number(this.value); }
+  get checked() { return this.hasAttribute('checked'); }
+  set checked(value) { if (value) this.setAttribute('checked', ''); else this.removeAttribute('checked'); }
+  get classList() {
+    const values = () => new Set(this.className.split(/\s+/).filter(Boolean));
+    const write = set => { this.className = [...set].join(' '); };
+    return {
+      contains: value => values().has(value),
+      add: (...items) => { const set = values(); items.forEach(item => set.add(item)); write(set); },
+      remove: (...items) => { const set = values(); items.forEach(item => set.delete(item)); write(set); },
+      toggle: (value, force) => { const set = values(), next = force ?? !set.has(value); if (next) set.add(value); else set.delete(value); write(set); return next; }
+    };
   }
   get dataset() { return Object.fromEntries(Object.entries(this.attributes).filter(([key]) => key.startsWith('data-')).map(([key, value]) => [key.slice(5).replace(/-([a-z])/g, (_, char) => char.toUpperCase()), value])); }
   get textContent() { return this._text ?? this.children.map(child => typeof child === 'string' ? decode(child) : child.textContent).join(''); }
@@ -47,7 +74,44 @@ class Element {
   set src(value) { this.setAttribute('src', value); }
   getAttribute(name) { return Object.hasOwn(this.attributes, name) ? this.attributes[name] : null; }
   setAttribute(name, value) { this.attributes[name] = String(value); }
+  hasAttribute(name) { return Object.hasOwn(this.attributes, name); }
+  removeAttribute(name) { delete this.attributes[name]; }
+  appendChild(child) { child.remove?.(); child.parentElement = this; this.children.push(child); return child; }
+  append(...children) { children.forEach(child => { if (typeof child === 'string') this.children.push(child); else this.appendChild(child); }); }
+  prepend(...children) { children.slice().reverse().forEach(child => { child.remove?.(); if (typeof child !== 'string') child.parentElement = this; this.children.unshift(child); }); }
+  remove() { if (this.parentElement) this.parentElement.children = this.parentElement.children.filter(child => child !== this); this.parentElement = null; }
+  replaceWith(...children) { const parent = this.parentElement; if (!parent) return; const index = parent.children.indexOf(this); this.remove(); parent.children.splice(index, 0, ...children); children.forEach(child => { if (typeof child !== 'string') child.parentElement = parent; }); }
+  replaceChildren(...children) { this.children.forEach(child => { if (typeof child !== 'string') child.parentElement = null; }); this.children = []; this._text = null; this.append(...children); }
+  insertAdjacentHTML(position, html) {
+    const nodes = parse(html, this.ownerDocument);
+    if (position === 'beforeend') this.append(...nodes);
+    else if (position === 'afterbegin') this.prepend(...nodes);
+    else {
+      const parent = this.parentElement;
+      if (!parent) return;
+      const index = parent.children.indexOf(this) + (position === 'afterend' ? 1 : 0);
+      parent.children.splice(index, 0, ...nodes);
+      nodes.forEach(node => { if (typeof node !== 'string') node.parentElement = parent; });
+    }
+  }
   matches(selector) {
+    if (selector.includes(',')) return selector.split(',').some(part => this.matches(part.trim()));
+    if (selector.includes(' ')) {
+      const parts = selector.trim().split(/\s+/), last = parts.pop();
+      if (!this.matches(last)) return false;
+      let ancestor = this.parentElement;
+      while (parts.length) {
+        const part = parts.pop();
+        while (ancestor && !ancestor.matches(part)) ancestor = ancestor.parentElement;
+        if (!ancestor) return false;
+        ancestor = ancestor.parentElement;
+      }
+      return true;
+    }
+    const compound = selector.match(/^([\w-]+)([.#\[].*)$/);
+    if (compound) return this.tagName === compound[1].toLowerCase() && this.matches(compound[2]);
+    const chained = selector.match(/^(\.[\w-]+|#[\w-]+|\[[^\]]+\])([.#\[].*)$/);
+    if (chained) return this.matches(chained[1]) && this.matches(chained[2]);
     if (selector.startsWith('#')) return this.getAttribute('id') === selector.slice(1);
     if (selector.startsWith('.')) return (this.getAttribute('class') || '').split(/\s+/).includes(selector.slice(1));
     const attribute = selector.match(/^\[([^=\]]+)(?:=["']?([^"'\]]+)["']?)?\]$/);
@@ -69,8 +133,8 @@ class Element {
     this.listeners.get(type).push(handler);
   }
   dispatch(type, values = {}) {
-    const event = { type, target: this, defaultPrevented: false, preventDefault() { this.defaultPrevented = true; }, ...values };
-    for (let current = this; current; current = current.parentElement) for (const handler of current.listeners.get(type) || []) handler(event);
+    const event = { type, target: this, defaultPrevented: false, propagationStopped: false, preventDefault() { this.defaultPrevented = true; }, stopPropagation() { this.propagationStopped = true; }, ...values };
+    for (let current = this; current && !event.propagationStopped; current = current.parentElement) for (const handler of current.listeners.get(type) || []) handler(event);
     return event;
   }
   click() {
@@ -111,9 +175,13 @@ function parse(html, document) {
   return root.children;
 }
 
-function harness(html, scripts, initialHash = '') {
+export function harness(html, scripts, initialHash = '', options = {}) {
   const windowEvents = new Map();
-  const window = { scrollTo() {}, addEventListener(type, handler) { if (!windowEvents.has(type)) windowEvents.set(type, []); windowEvents.get(type).push(handler); } };
+  let now = options.now ?? Date.now();
+  const intervals = new Map();
+  const timeouts = new Map();
+  let timerId = 0;
+  const window = { scrollTo() {}, addEventListener(type, handler) { if (!windowEvents.has(type)) windowEvents.set(type, []); windowEvents.get(type).push(handler); }, ...options.window };
   let currentHash = initialHash;
   const location = {
     get hash() { return currentHash; },
@@ -123,10 +191,22 @@ function harness(html, scripts, initialHash = '') {
   document.ownerDocument = document;
   document.location = location;
   document.getElementById = id => document.querySelector('#' + id);
+  document.createElement = tag => new Element(tag, {}, document);
   document.innerHTML = html;
-  const context = vm.createContext({ window, document, location, navigator: {}, setTimeout() { return 0; }, clearTimeout() {}, console });
+  document.body = document.querySelector('body');
+  const ClockDate = class extends Date { constructor(...args) { super(...(args.length ? args : [now])); } static now() { return now; } };
+  const navigator = options.navigator || {};
+  const setInterval = callback => { const id = ++timerId; intervals.set(id, callback); return id; };
+  const clearInterval = id => intervals.delete(id);
+  const setTimeout = (callback, delay = 0) => { const id = ++timerId; timeouts.set(id, {callback, at: now + Number(delay)}); return id; };
+  const clearTimeout = id => timeouts.delete(id);
+  const runTimeouts = () => { for (const [id, item] of [...timeouts]) if (item.at <= now) { timeouts.delete(id); item.callback(); } };
+  Object.assign(window, { document, location, navigator, setInterval, clearInterval, setTimeout, clearTimeout });
+  const context = vm.createContext({ window, document, location, navigator, Date: ClockDate, setTimeout, clearTimeout, setInterval, clearInterval, structuredClone, Blob, URL, console, ...options.globals });
   for (const [filename, source] of scripts) vm.runInContext(source, context, { filename, timeout: 3000 });
-  return { document, window, location, data: window.GYMROOK_DATA, main: document.getElementById('main') };
+  return { document, window, location, data: window.GYMROOK_DATA, main: document.getElementById('main'), context,
+    advance(ms) { now += ms; runTimeouts(); for (const callback of intervals.values()) callback(); }, runTimeouts,
+    event(type) { for (const callback of windowEvents.get(type) || []) callback({type}); }, now: () => now };
 }
 
 function assertNavigation(ui, ids, index) {

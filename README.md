@@ -1,6 +1,6 @@
 # GymRook
 
-Guia estático de musculação em português brasileiro, preparado para celular e GitHub Pages. Não exige conta, API, banco de dados ou serviço pago. Os nomes dos exercícios e dos equipamentos também aparecem em inglês.
+Guia estático de musculação em português brasileiro, preparado para celular e GitHub Pages, com registro pessoal de treinos no aparelho. Não exige conta, API, banco remoto ou serviço pago. Os nomes dos exercícios e dos equipamentos também aparecem em inglês.
 
 ## Abrir
 
@@ -16,7 +16,13 @@ O modo offline exige HTTP em localhost ou HTTPS na hospedagem. Abrir `dist/index
 
 ## Estado atual
 
-Versão **1.0**, identificada ao lado de **Treinos** no cabeçalho. [Notas da versão](docs/release-1.0.md).
+Versão **1.1**, identificada ao lado de **Treinos** no cabeçalho. [Notas da versão](docs/release-1.1.md). O catálogo e todas as animações aprovadas da versão 1.0 permanecem preservados.
+
+O botão **Iniciar treino** abre uma sessão com tempo total no cabeçalho fixo. O descanso tem cronômetro independente, sem pausar o treino. Cada exercício tem séries editáveis com repetições e carga opcional; fora da edição, tocar em uma série marca sua conclusão. A configuração inicial editável é 3 × 10 e não substitui a programação da ficha. **Finalizar treino** fica depois dos exercícios.
+
+**Histórico** mostra os treinos por dia em um calendário, com início, fim, duração e séries/exercícios concluídos. **Progressão** agrupa alterações por exercício e dia local, com gráficos de maior carga por série, total de repetições ou quantidade de séries. Editar várias vezes no mesmo dia atualiza o mesmo ponto; concluir uma série ou confirmar valores idênticos não cria um novo ponto.
+
+**Seus dados** reúne backup diário, exportação e importação JSON. Um único arquivo automático é substituído no armazenamento privado do app, com alternativa em IndexedDB. Android/iPhone não garantem sobrescrita automática em Downloads: use **Exportar dados atuais** para uma cópia fora do navegador. Quando suportado, **Vincular arquivo** permite atualizar o mesmo arquivo externo enquanto a autorização estiver válida. Apagar dados do site pode remover tanto o histórico quanto o backup interno. [Formato e limites do armazenamento](docs/local-data.md).
 
 Os 31 itens das fichas A, B, C e D têm demonstrações distintas e coloridas em MP4 a **12 fps**, GIF de compatibilidade e pôster no card. Os ciclos duram três segundos, com 36 quadros; o afundo alternado dura seis segundos, com 72 quadros. A prancha mostra uma sustentação isométrica estável.
 
@@ -40,6 +46,8 @@ Detalhes: [estado da mídia](docs/current-media-status.md).
 - Reprodução manual, iniciada no pôster. Não há autoplay.
 - Download explícito do guia para consulta offline, com progresso e confirmação de conclusão.
 - Manifest e ícones para adicionar à tela inicial no Android e iPhone.
+- Registro local de sessões, cronômetros, séries e cargas, com retomada após reabrir.
+- Calendário de treinos, progressão por dia e exportação/importação de backups.
 
 ## Conferir o guia
 

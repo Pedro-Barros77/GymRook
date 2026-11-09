@@ -4,20 +4,34 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f5f4ef">
-  <meta name="description" content="Um guia simples para consultar seu treino de musculação.">
+  <meta name="description" content="Guia de musculação com registro de treinos e histórico offline no seu aparelho.">
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./assets/icons/icon-192.png">
   <link rel="apple-touch-icon" href="./assets/icons/apple-touch-icon.png">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./tracking.css">
+  <link rel="stylesheet" href="./history.css">
   <title>Guia de treino ABCD</title>
 </head>
 <body>
   <a class="skip" href="#main">Pular para o conteúdo</a>
+  <div id="session-header" hidden aria-label="Treino em andamento"></div>
+  <nav id="app-navigation" class="app-navigation container" aria-label="Navegação principal">
+    <a href="#" data-app-route="workouts" aria-current="page">Treinos</a>
+    <a href="#history" data-app-route="history">Histórico</a>
+    <a href="#progression" data-app-route="progression">Progressão</a>
+    <a href="#backup" data-app-route="backup">Seus dados</a>
+  </nav>
+  <div id="tracking-status" class="tracking-status" role="status" aria-live="polite" hidden></div>
+  <div id="backup-warning" class="tracking-status" data-error="true" role="status" aria-live="polite" hidden></div>
   <main id="main" tabindex="-1"></main>
   <footer><div class="footer-inner"><button class="text-button" id="footer-info">Guia e fontes</button></div></footer>
   <dialog id="info-dialog" aria-labelledby="info-title"><div class="dialog-inner"><div class="dialog-heading"><h2 id="info-title">Guia e fontes</h2><button class="icon-button" id="info-close" aria-label="Fechar">×</button></div><div class="dialog-section"><h3>Usar offline</h3><p>Na tela inicial, toque em <strong>Baixar para usar offline</strong> e mantenha a página aberta até a confirmação. Depois, abra o guia novamente no mesmo navegador, mesmo sem internet.</p><p><strong>Android:</strong> no Chrome, use “Instalar app” quando aparecer, ou abra o menu ⋮ e escolha “Adicionar à tela inicial”.</p><p><strong>iPhone:</strong> no Safari, toque em Compartilhar e depois em “Adicionar à Tela de Início”. Abra o app pela tela inicial e baixe o conteúdo nele também.</p><button class="button button-dark install-button" hidden>Instalar app</button></div><div class="dialog-section"><h3>Glossário</h3><dl id="glossary"></dl></div><div class="dialog-section"><h3>Fontes</h3><ul id="sources" class="source-list"></ul></div></div></dialog>
   <script src="./data.js"></script>
   <script src="./anatomy.js"></script>
+  <script src="./store.js"></script>
+  <script src="./history.js"></script>
+  <script src="./tracking.js"></script>
   <script src="./app.js"></script>
 </body>
 </html>

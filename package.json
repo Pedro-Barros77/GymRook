@@ -1,11 +1,12 @@
 {
   "name": "gymrook",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
-  "description": "Guia de treino ABCD estático, com piloto visual e acesso offline.",
+  "description": "Guia de treino ABCD offline, com registro local de séries, cargas e histórico.",
   "scripts": {
     "start": "node scripts/serve.mjs",
     "build": "node scripts/build.mjs",
-    "check": "node scripts/check.mjs"
+    "check": "node scripts/check.mjs",
+    "check:browser": "node scripts/check-browser.mjs"
   }
 }

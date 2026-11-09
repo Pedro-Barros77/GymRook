@@ -1,6 +1,6 @@
 {
-  "version": "340cfce2fc43d3df",
-  "bytes": 217390243,
+  "version": "d8963b14ebf7a7b9",
+  "bytes": 217470782,
   "files": [
     "./anatomy.js",
     "./app.js",
@@ -222,8 +222,13 @@
     "./assets/thumbnails/standing-machine-calf-raise.webp",
     "./assets/thumbnails/unilateral-converging-row.webp",
     "./data.js",
+    "./history.css",
+    "./history.js",
     "./index.html",
     "./manifest.webmanifest",
-    "./styles.css"
+    "./store.js",
+    "./styles.css",
+    "./tracking.css",
+    "./tracking.js"
   ]
 }

@@ -1,6 +1,7 @@
 (() => {
   'use strict';
   const data = window.GYMROOK_DATA;
+  const tracking = window.GYMROOK_TRACKING;
   const main = document.getElementById('main');
   const dialog = document.getElementById('info-dialog');
   if (!data || !data.workouts || !data.exercises) {
@@ -46,18 +47,28 @@
   function renderHome() {
     const workout = workouts.find(w => w.id === selected) || workouts[0];
     const blocks = workout.blocks || [];
-    main.innerHTML = `<div class="container"><div class="page-top"><div class="page-title"><h1>Treinos</h1><span class="app-version">1.0</span></div><button class="button button-light" id="info-open">Guia e fontes</button></div><div class="offline-tools"><button class="button button-dark offline-button" id="offline-download"></button><p id="offline-status" class="offline-status" role="status" aria-live="polite"></p></div><section class="workout-area" aria-label="Ficha de exercícios"><div class="tabs" role="tablist" aria-label="Treinos">${workouts.map(w => `<button class="tab" role="tab" id="tab-${esc(w.id)}" aria-selected="${w.id === workout.id}" aria-controls="workout-panel" tabindex="${w.id === workout.id ? 0 : -1}" data-workout="${esc(w.id)}"><span>Treino</span><strong>${esc(w.id)}</strong></button>`).join('')}</div><div id="workout-panel" role="tabpanel" aria-labelledby="tab-${esc(workout.id)}"><div class="workout-head"><div><h2>${esc(workout.name)}</h2><p>${esc(workout.subtitle)}</p></div></div><div class="blocks">${blocks.map((block, index) => {
+    main.innerHTML = `<div class="container"><div class="page-top"><div class="page-title"><h1>Treinos</h1><span class="app-version">1.1</span></div><button class="button button-light" id="info-open">Guia e fontes</button></div><div class="offline-tools"><button class="button button-dark offline-button" id="offline-download"></button><p id="offline-status" class="offline-status" role="status" aria-live="polite"></p></div><section class="workout-area" aria-label="Ficha de exercícios"><div class="tabs" role="tablist" aria-label="Treinos">${workouts.map(w => `<button class="tab" role="tab" id="tab-${esc(w.id)}" aria-selected="${w.id === workout.id}" aria-controls="workout-panel" tabindex="${w.id === workout.id ? 0 : -1}" data-workout="${esc(w.id)}"><span>Treino</span><strong>${esc(w.id)}</strong></button>`).join('')}</div><div id="workout-panel" role="tabpanel" aria-labelledby="tab-${esc(workout.id)}"><div class="workout-head"><div><h2>${esc(workout.name)}</h2><p>${esc(workout.subtitle)}</p></div></div>${tracking?.workoutControls(workout) || ''}<div class="blocks">${blocks.map((block, index) => {
       const ids = (block.exerciseIds || []).filter(id => exercises[id]);
       return `<section class="exercise-group${ids.length > 1 ? ' combined-group' : ''}" aria-label="${esc(block.title)}">${ids.length > 1 ? `<div class="group-label">${ids.length > 2 ? 'Circuito' : 'Conjugado'} <span>· seguir esta sequência</span></div>` : ''}${ids.map(id => {
         const exercise = exercises[id];
-        return `<a class="exercise-card" href="#exercise/${encodeURIComponent(id)}" data-exercise="${esc(id)}"><div class="exercise-photo"><img src="${esc(thumbnail(id, exercise))}" width="128" height="128" loading="lazy" alt="${esc(exercise.name)}"></div><div class="exercise-card-content"><h3>${esc(exercise.name)}</h3><p class="exercise-name-en" lang="en">${esc(exercise.nameEn)}</p><div class="card-equipment"><p>${esc(exercise.equipment)}</p><p class="equipment-en" lang="en">${esc(exercise.equipmentEn)}</p></div></div></a>`;
+        return `<div class="exercise-entry"><a class="exercise-card" href="#exercise/${encodeURIComponent(id)}" data-exercise="${esc(id)}"><div class="exercise-photo"><img src="${esc(thumbnail(id, exercise))}" width="128" height="128" loading="lazy" alt="${esc(exercise.name)}"></div><div class="exercise-card-content"><h3>${esc(exercise.name)}</h3><p class="exercise-name-en" lang="en">${esc(exercise.nameEn)}</p><div class="card-equipment"><p>${esc(exercise.equipment)}</p><p class="equipment-en" lang="en">${esc(exercise.equipmentEn)}</p></div></div></a>${tracking?.exerciseCard(id) || ''}</div>`;
       }).join('')}</section>`;
-    }).join('')}</div>${data.restNote || data.safetyNote ? `<aside class="training-notes"><h2>Orientações da ficha</h2>${data.restNote ? `<p>${esc(data.restNote)}</p>` : ''}${data.safetyNote ? `<p>${esc(data.safetyNote)}</p>` : ''}</aside>` : ''}</div></section></div>`;
+    }).join('')}</div>${data.restNote || data.safetyNote ? `<aside class="training-notes"><h2>Orientações da ficha</h2>${data.restNote ? `<p>${esc(data.restNote)}</p>` : ''}${data.safetyNote ? `<p>${esc(data.safetyNote)}</p>` : ''}</aside>` : ''}${tracking?.workoutFooter(workout) || ''}</div></section></div>`;
+    tracking?.bind(main, workout);
     setOfflineUI();
     document.getElementById('offline-download').addEventListener('click', downloadOffline);
     const tabs = [...main.querySelectorAll('[role="tab"]')];
+    const selectWorkout = id => {
+      selected = id;
+      // Keep the URL aligned with the visible tab. Otherwise a resume link to
+      // the already-current hash would not navigate back from another tab.
+      window.history?.replaceState(null, '', '#workout/' + selected);
+      renderHome();
+      tracking?.routeChanged();
+      document.getElementById(`tab-${selected}`).focus();
+    };
     tabs.forEach((tab, i) => {
-      tab.addEventListener('click', () => { selected = tab.dataset.workout; renderHome(); document.getElementById(`tab-${selected}`).focus(); });
+      tab.addEventListener('click', () => selectWorkout(tab.dataset.workout));
       tab.addEventListener('keydown', event => {
         let next = i;
         if (event.key === 'ArrowRight') next = (i + 1) % tabs.length;
@@ -65,7 +76,7 @@
         else if (event.key === 'Home') next = 0;
         else if (event.key === 'End') next = tabs.length - 1;
         else return;
-        event.preventDefault(); selected = tabs[next].dataset.workout; renderHome(); document.getElementById(`tab-${selected}`).focus();
+        event.preventDefault(); selectWorkout(tabs[next].dataset.workout);
       });
     });
     main.querySelectorAll('[data-exercise]').forEach(a => a.addEventListener('click', () => { previousFocus = a.dataset.exercise; }));
@@ -82,7 +93,8 @@
     const items = (values, ordered = false) => `<${ordered ? 'ol' : 'ul'}>${list(values).map(item => `<li>${esc(item)}</li>`).join('')}</${ordered ? 'ol' : 'ul'}>`;
     const media = exercise.media;
     const navigation = position => `<nav class="detail-nav detail-nav-${position}" aria-label="Navegação entre exercícios — ${position === 'top' ? 'topo' : 'fim'}">${prev ? `<a class="nav-button" href="#exercise/${encodeURIComponent(prev)}">← Anterior</a>` : '<button class="nav-button" disabled>← Anterior</button>'}${next ? `<a class="nav-button" href="#exercise/${encodeURIComponent(next)}">Próximo →</a>` : '<button class="nav-button" disabled>Próximo →</button>'}</nav>`;
-    main.innerHTML = `<div class="container"><a class="detail-back" href="#" id="detail-back"><span aria-hidden="true">←</span> Voltar ao treino ${esc(selected)}</a>${navigation('top')}<section class="detail-intro"><div><span class="eyebrow">TREINO ${esc(selected)} · GUIA DE EXERCÍCIO</span><h1>${esc(exercise.name)}</h1><p class="english">${esc(exercise.nameEn)}</p></div><span class="detail-counter">${String(index + 1).padStart(2,'0')} / ${String(ids.length).padStart(2,'0')}</span></section><div class="detail-grid"><div><div class="media-card">${media ? `<img id="demo-image" src="${esc(media.poster)}" alt="Demonstração de ${esc(exercise.name)}"><div class="media-overlay"><span class="media-label">DEMONSTRAÇÃO</span><button class="media-toggle" id="media-toggle" aria-label="Reproduzir demonstração" aria-pressed="false">${mediaIcon(false)}</button></div>` : `<img src="${esc(thumbnail(id, exercise))}" alt="Imagem de referência de ${esc(exercise.name)}"><div class="media-overlay"><span class="media-label">IMAGEM DE REFERÊNCIA</span></div>`}</div>${media ? '<p class="media-caption">Ilustração gerada por IA · piloto para revisão.</p>' : '<p class="media-caption">Animação em preparação. Consulte o passo a passo abaixo.</p>'}</div><section class="anatomy-card" aria-labelledby="muscle-title"><div class="card-top"><h2 id="muscle-title">Músculos trabalhados</h2><span>MAPA CORPORAL</span></div>${anatomy(exercise)}<div class="legend"><span>Principal</span><span>Secundário</span></div><p class="muscle-description"><strong>Principal:</strong> ${label(exercise.primary) || '—'}<br><strong>Secundário:</strong> ${label(exercise.secondary) || '—'}</p></section></div><div class="detail-content"><section class="detail-section"><span class="eyebrow">01 · PREPARAÇÃO</span><h2>Antes de começar.</h2>${items(exercise.setup)}</section><aside class="equipment-card"><span class="eyebrow">EQUIPAMENTO</span><h2>${esc(exercise.equipment)}</h2><p>${esc(exercise.equipmentEn)}</p></aside><section class="detail-section"><span class="eyebrow">02 · MOVIMENTO</span><h2>Passo a passo.</h2>${items(exercise.steps, true)}</section><section class="detail-section"><span class="eyebrow">03 · ATENÇÃO AOS DETALHES</span><h2>Pontos de atenção.</h2>${items(exercise.cues)}</section><section class="detail-section"><span class="eyebrow">04 · PARA AJUSTAR</span><h2>Evite estes erros.</h2>${items(exercise.mistakes)}</section><section class="detail-section"><span class="eyebrow">NO SEU TREINO</span><h2>Como fazer.</h2><p><strong>${esc(locationInfo?.block.prescription || '')}</strong></p>${locationInfo?.block.note ? `<p>${esc(locationInfo.block.note)}</p>` : ''}</section></div>${navigation('bottom')}</div>`;
+    main.innerHTML = `<div class="container"><a class="detail-back" href="#" id="detail-back"><span aria-hidden="true">←</span> Voltar ao treino ${esc(selected)}</a>${navigation('top')}<section class="detail-intro"><div><span class="eyebrow">TREINO ${esc(selected)} · GUIA DE EXERCÍCIO</span><h1>${esc(exercise.name)}</h1><p class="english">${esc(exercise.nameEn)}</p></div><span class="detail-counter">${String(index + 1).padStart(2,'0')} / ${String(ids.length).padStart(2,'0')}</span></section><div class="detail-tracking">${tracking?.exerciseCard(id) || ''}</div><div class="detail-grid"><div><div class="media-card">${media ? `<img id="demo-image" src="${esc(media.poster)}" alt="Demonstração de ${esc(exercise.name)}"><div class="media-overlay"><span class="media-label">DEMONSTRAÇÃO</span><button class="media-toggle" id="media-toggle" aria-label="Reproduzir demonstração" aria-pressed="false">${mediaIcon(false)}</button></div>` : `<img src="${esc(thumbnail(id, exercise))}" alt="Imagem de referência de ${esc(exercise.name)}"><div class="media-overlay"><span class="media-label">IMAGEM DE REFERÊNCIA</span></div>`}</div>${media ? '<p class="media-caption">Ilustração gerada por IA · piloto para revisão.</p>' : '<p class="media-caption">Animação em preparação. Consulte o passo a passo abaixo.</p>'}</div><section class="anatomy-card" aria-labelledby="muscle-title"><div class="card-top"><h2 id="muscle-title">Músculos trabalhados</h2><span>MAPA CORPORAL</span></div>${anatomy(exercise)}<div class="legend"><span>Principal</span><span>Secundário</span></div><p class="muscle-description"><strong>Principal:</strong> ${label(exercise.primary) || '—'}<br><strong>Secundário:</strong> ${label(exercise.secondary) || '—'}</p></section></div><div class="detail-content"><section class="detail-section"><span class="eyebrow">01 · PREPARAÇÃO</span><h2>Antes de começar.</h2>${items(exercise.setup)}</section><aside class="equipment-card"><span class="eyebrow">EQUIPAMENTO</span><h2>${esc(exercise.equipment)}</h2><p>${esc(exercise.equipmentEn)}</p></aside><section class="detail-section"><span class="eyebrow">02 · MOVIMENTO</span><h2>Passo a passo.</h2>${items(exercise.steps, true)}</section><section class="detail-section"><span class="eyebrow">03 · ATENÇÃO AOS DETALHES</span><h2>Pontos de atenção.</h2>${items(exercise.cues)}</section><section class="detail-section"><span class="eyebrow">04 · PARA AJUSTAR</span><h2>Evite estes erros.</h2>${items(exercise.mistakes)}</section><section class="detail-section"><span class="eyebrow">NO SEU TREINO</span><h2>Como fazer.</h2><p><strong>${esc(locationInfo?.block.prescription || '')}</strong></p>${locationInfo?.block.note ? `<p>${esc(locationInfo.block.note)}</p>` : ''}</section></div>${navigation('bottom')}</div>`;
+    tracking?.bind(main);
     if (media) {
       const card = document.getElementById('demo-image').parentElement;
       const caption = main.querySelector('.media-caption');
@@ -168,8 +180,21 @@
     }
   }
   function render() {
+    if (tracking?.hasPendingEdits()) {
+      const target = location.hash;
+      tracking.flushEdits().then(() => { if (location.hash === target) render(); }).catch(() => {});
+      return;
+    }
     if (stopDemo) { stopDemo(); stopDemo = null; }
-    if (isDetail()) renderDetail(routeId()); else renderHome();
+    const workoutRoute = location.hash.match(/^#workout\/([ABCD])$/);
+    if (workoutRoute) selected = workoutRoute[1];
+    if (location.hash.startsWith('#history') || location.hash.startsWith('#progression')) {
+      if (tracking?.isReady() && window.GYMROOK_HISTORY) window.GYMROOK_HISTORY.render(main, location.hash);
+      else main.innerHTML = `<div class="container"><div class="page-top"><h1>Seus registros</h1></div><p>${esc(tracking?.getLoadError() || 'Carregando registros locais…')}</p>${tracking?.getLoadError() ? '<a class="button button-light" href="#backup">Ver opções de recuperação</a>' : ''}</div>`;
+    } else if (location.hash.startsWith('#backup') && tracking) tracking.renderBackup(main);
+    else if (isDetail()) renderDetail(routeId());
+    else renderHome();
+    tracking?.routeChanged();
     window.scrollTo(0, 0);
     if (!isDetail() && previousFocus) {
       const target = [...main.querySelectorAll('[data-exercise]')].find(a => a.dataset.exercise === previousFocus);
@@ -214,4 +239,11 @@
     }).catch(() => {});
   }
   render();
+  if (tracking) {
+    tracking.onRefresh(() => { const scroll = window.scrollY; render(); window.scrollTo(0, scroll || 0); });
+    tracking.ready.then(() => {
+      if (!location.hash && tracking.isReady()) selected = window.GYMROOK_STORE.getActiveSession()?.workoutId || selected;
+      render();
+    });
+  }
 })();

@@ -1,5 +1,5 @@
 /* Generated asset list: npm run build. All URLs stay within this application's scope. */
-const VERSION = '340cfce2fc43d3df';
+const VERSION = 'd8963b14ebf7a7b9';
 const ROOT = new URL('./', self.location.href);
 // Include the scope in every cache name: GitHub Pages projects share an origin.
 const PREFIX = 'gymrook-' + encodeURIComponent(ROOT.pathname) + '-';
@@ -7,7 +7,7 @@ const SHELL = PREFIX + 'shell-' + VERSION;
 const MEDIA = PREFIX + 'media-' + VERSION;
 const META = PREFIX + 'metadata-' + VERSION;
 const url = relative => new URL(relative, ROOT).href;
-const CORE = ['./', './index.html', './styles.css', './app.js', './data.js', './anatomy.js', './manifest.webmanifest', './asset-manifest.json', './assets/icons/icon-192.png', './assets/icons/icon-512.png', './assets/icons/apple-touch-icon.png'];
+const CORE = ['./', './index.html', './styles.css', './tracking.css', './history.css', './app.js', './data.js', './anatomy.js', './store.js', './history.js', './tracking.js', './manifest.webmanifest', './asset-manifest.json', './assets/icons/icon-192.png', './assets/icons/icon-512.png', './assets/icons/apple-touch-icon.png'];
 const marker = url('./__offline_ready__');
 let downloading;
 

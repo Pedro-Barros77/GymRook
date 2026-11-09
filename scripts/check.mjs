@@ -5,6 +5,8 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import vm from 'node:vm';
 import { checkUI } from './check-ui.mjs';
+import { checkTrackingUI } from './check-tracking-ui.mjs';
+import { checkStore } from './check-store.mjs';
 
 const root = fileURLToPath(new URL('../dist/', import.meta.url));
 const read = file => readFile(path.join(root, file));
@@ -271,6 +273,13 @@ async function checkWorker(manifest, gif, video) {
   await h.event('install'); await h.event('activate');
   assert(!h.stores.has('gymrook-%2FGymRook%2F-shell-obsolete'), 'Old cache for this scope was not cleaned up');
   assert(h.stores.has('gymrook-%2Fsibling%2F-shell-obsolete'), 'Activation removed a sibling project cache');
+  h.setOffline(true);
+  for (const file of ['store.js', 'history.js', 'tracking.js', 'history.css', 'tracking.css']) {
+    const response = await h.event('fetch', {request: new Request(new URL(file, h.scope))});
+    assert.equal(response.status, 200, `Tracking shell asset ${file} must be available offline after install`);
+    assert.equal(await response.text(), await text(file));
+  }
+  h.setOffline(false);
   assert.equal((await h.message('CHECK_OFFLINE'))[0].type, 'OFFLINE_STATUS', 'Install alone should not mark full download ready');
   h.requests.length = 0;
   const messages = await h.message('DOWNLOAD_OFFLINE');
@@ -338,6 +347,8 @@ async function checkWorker(manifest, gif, video) {
 try {
   const { generated, gif, video } = await checkStatic();
   await checkUI();
+  await checkStore();
+  await checkTrackingUI();
   await checkWorker(generated, gif, video);
 } catch (error) {
   console.error(`Check failed: ${error.stack || error}`);
