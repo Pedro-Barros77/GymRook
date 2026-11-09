@@ -16,6 +16,12 @@
 .app-navigation a:hover { background:#e8eddf; }
 .tracking-status { max-width:952px; margin:12px auto 0; padding:10px 14px; background:#e4efd3; border:1px solid #bdcfaa; border-radius:8px; font-size:13px; overflow-wrap:anywhere; }
 .tracking-status[data-error=true] { background:#fae8e4; color:#8e3027; border-color:#e3b0a8; }
+.action-icon { width:18px; height:18px; flex:none; }
+.button-success { background:#2f743b; border-color:#2f743b; color:white; }
+.button-success:hover:not(:disabled) { background:#235d2d; border-color:#235d2d; }
+.button-danger { background:#b53232; border-color:#b53232; color:white; }
+.button-danger:hover:not(:disabled) { background:#922626; border-color:#922626; }
+.button-success:disabled,.button-danger:disabled { opacity:.6; }
 .workout-session-actions { display:flex; align-items:center; flex-wrap:wrap; gap:8px 16px; margin:18px 0 22px; }
 .workout-session-actions p { margin:0; font-size:12px; color:var(--muted); }
 .series-card { padding:13px 14px 14px; border:1px solid #bdc9b5; border-radius:12px; background:var(--card); }

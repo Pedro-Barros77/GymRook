@@ -32,8 +32,8 @@
     if (typeof value !== 'string' || !Number.isFinite(Date.parse(value))) fail('Data inválida no backup.');
     return new Date(value).toISOString();
   }
-  function day(value) {
-    if (typeof value !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(value) || new Date(`${value}T12:00:00`).getFullYear() < 2000 || localDate(`${value}T12:00:00`) !== value) fail('Dia inválido no backup.');
+  function day(value, message = 'Dia inválido no backup.') {
+    if (typeof value !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(value) || new Date(`${value}T12:00:00`).getFullYear() < 2000 || localDate(`${value}T12:00:00`) !== value) fail(message);
     return value;
   }
   function series(value) {
@@ -175,6 +175,12 @@
   }
   function active(snapshot = state) { return snapshot.sessions.find(session => !session.endedAt) || null; }
   function currentSeries(snapshot, id) { return copy(snapshot.settings[id] || defaults()); }
+  function updateActiveSeries(snapshot, id, normalized) {
+    const entry = active(snapshot)?.exercises[id];
+    if (!entry) return;
+    const completed = normalized.reps.map((rep, index) => entry.completed[index] === true && rep === entry.reps[index] && (normalized.weights[index] ?? null) === (entry.weights[index] ?? null));
+    Object.assign(entry, {weights: [...normalized.weights], reps: [...normalized.reps], completed});
+  }
   const api = {
     ready: null,
     getState: () => copy(state),
@@ -210,6 +216,25 @@
       session.restStartedAt = null;
       return session;
     }),
+    deleteSession: sessionId => mutate(snapshot => {
+      if (typeof sessionId !== 'string' || !sessionId || sessionId.length > 100) fail('Identificador de treino inválido.');
+      const index = snapshot.sessions.findIndex(session => session.id === sessionId);
+      if (index < 0) fail('Treino não encontrado. Ele pode já ter sido excluído.');
+      if (!snapshot.sessions[index].endedAt) fail('Finalize o treino em andamento antes de excluí-lo.');
+      return snapshot.sessions.splice(index, 1)[0];
+    }),
+    deleteProgression: (id, date) => mutate(snapshot => {
+      exerciseId(id);
+      day(date, 'Data de edição inválida.');
+      const index = snapshot.progression.findIndex(point => point.exerciseId === id && point.date === date);
+      if (index < 0) fail('Registro de progressão não encontrado. Ele pode já ter sido excluído.');
+      const removed = snapshot.progression.splice(index, 1)[0];
+      const latest = snapshot.progression.filter(point => point.exerciseId === id).sort((a, b) => b.date.localeCompare(a.date) || b.editedAt.localeCompare(a.editedAt))[0];
+      if (latest) snapshot.settings[id] = {...series(latest), updatedAt: latest.editedAt};
+      else delete snapshot.settings[id];
+      updateActiveSeries(snapshot, id, snapshot.settings[id] || defaults());
+      return removed;
+    }),
     updateExercise: (id, value) => mutate(snapshot => {
       exerciseId(id);
       const normalized = series(value);
@@ -217,11 +242,7 @@
       if (JSON.stringify(normalized.reps) === JSON.stringify(current.reps) && JSON.stringify(normalized.weights) === JSON.stringify(current.weights)) return current;
       const editedAt = now();
       snapshot.settings[id] = {...normalized, updatedAt: editedAt};
-      const sessionExercise = active(snapshot)?.exercises[id];
-      if (sessionExercise) {
-        const completed = normalized.reps.map((rep, index) => sessionExercise.completed[index] === true && rep === sessionExercise.reps[index] && (normalized.weights[index] ?? null) === (sessionExercise.weights[index] ?? null));
-        Object.assign(sessionExercise, normalized, {completed});
-      }
+      updateActiveSeries(snapshot, id, normalized);
       const date = localDate();
       const index = snapshot.progression.findIndex(item => item.exerciseId === id && item.date === date);
       const point = {exerciseId: id, date, editedAt, ...normalized};

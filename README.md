@@ -16,11 +16,13 @@ O modo offline exige HTTP em localhost ou HTTPS na hospedagem. Abrir `dist/index
 
 ## Estado atual
 
-Versão **1.1**, identificada ao lado de **Treinos** no cabeçalho. [Notas da versão](docs/release-1.1.md). O catálogo e todas as animações aprovadas da versão 1.0 permanecem preservados.
+Versão **1.2**, identificada ao lado de **Treinos** no cabeçalho. [Notas da versão](docs/release-1.2.md). O catálogo e todas as animações aprovadas da versão 1.0 permanecem preservados.
 
 O botão **Iniciar treino** abre uma sessão com tempo total no cabeçalho fixo. O descanso tem cronômetro independente, sem pausar o treino. Na tela de cada exercício, o card **Suas séries** fica no fim do conteúdo, depois de **Como fazer**, com repetições e carga opcional editáveis; fora da edição, tocar em uma série marca sua conclusão. A listagem mantém apenas os cards de consulta com imagem, nome e equipamento. A configuração inicial editável é 3 × 10 e não substitui a programação da ficha. **Finalizar treino** fica depois dos exercícios.
 
 **Histórico** mostra os treinos por dia em um calendário, com início, fim, duração e séries/exercícios concluídos. **Progressão** agrupa alterações por exercício e dia local, com gráficos de maior carga por série, total de repetições ou quantidade de séries. Editar várias vezes no mesmo dia atualiza o mesmo ponto; concluir uma série ou confirmar valores idênticos não cria um novo ponto.
+
+**Iniciar treino** tem botão verde com ícone de play; **Finalizar treino** tem botão vermelho com ícone de stop. É possível excluir um treino finalizado ou um ajuste diário pelos botões vermelhos de lixeira, com confirmação. Ao excluir um ajuste, a configuração atual volta ao último ajuste restante; sem ajustes, volta ao padrão inicial. Excluir um treino não remove a progressão, e excluir ajustes preserva os registros das sessões já finalizadas.
 
 **Seus dados** reúne exportação e importação manual de arquivos JSON. Use **Exportar dados atuais** para guardar uma cópia em Downloads ou Arquivos e restaurá-la quando precisar ou transferir os registros para outro aparelho. O app não gera backups automáticos nem mantém arquivos vinculados. Apagar os dados do site pode remover o histórico deste navegador; o arquivo exportado fica no local escolhido pelo usuário. [Formato e limites do armazenamento](docs/local-data.md).
 

@@ -5,6 +5,8 @@
   const data = window.GYMROOK_DATA;
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const pencil = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5 4 4M4 20l4-1L20 7a2.8 2.8 0 0 0-4-4L4 15z"/></svg>';
+  const playIcon = '<svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>';
+  const stopIcon = '<svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect fill="currentColor" x="5" y="5" width="14" height="14" rx="1"/></svg>';
   const edits = new Map();
   const pending = new Map();
   const inFlight = new Set();
@@ -134,6 +136,15 @@
     for (const id of pending.keys()) await saveDraft(id);
     await Promise.all([...inFlight]);
   }
+  function discardExerciseDraft(id) {
+    const item = pending.get(id);
+    if (item) clearTimeout(item.timer);
+    pending.delete(id);
+    edits.delete(id);
+    document.querySelectorAll('[data-series-exercise]').forEach(card => {
+      if (card.dataset.seriesExercise === id) repaintSeries(card);
+    });
+  }
   function bindCard(card) {
     const id = card.dataset.seriesExercise;
     card.querySelectorAll('[data-series-action]').forEach(button => button.addEventListener('click', () => act(button, async () => {
@@ -186,14 +197,14 @@
     }));
   }
   function workoutControls(workout) {
-    if (!loaded) return `<div class="workout-session-actions"><button class="button button-dark" disabled>Iniciar treino</button><p>${esc(loadError || 'Carregando registros…')}</p></div>`;
+    if (!loaded) return `<div class="workout-session-actions"><button class="button button-success" disabled>${playIcon}Iniciar treino</button><p>${esc(loadError || 'Carregando registros…')}</p></div>`;
     const session = active();
     if (session) return `<div class="workout-session-actions"><p>${session.workoutId === workout.id ? 'Treino em andamento. Marque as séries conforme concluir.' : `O treino ${esc(session.workoutId)} está em andamento.`}</p>${session.workoutId !== workout.id ? `<a class="button button-dark" href="#workout/${esc(session.workoutId)}">Retomar treino ${esc(session.workoutId)}</a>` : ''}</div>`;
-    return '<div class="workout-session-actions"><button type="button" class="button button-dark" id="start-workout">Iniciar treino</button><p>O tempo e as séries ficam salvos neste aparelho.</p></div>';
+    return `<div class="workout-session-actions"><button type="button" class="button button-success" id="start-workout">${playIcon}Iniciar treino</button><p>O tempo e as séries ficam salvos neste aparelho.</p></div>`;
   }
   function workoutFooter(workout) {
     const session = active();
-    return session?.workoutId === workout.id ? `<div class="workout-finish"><p>${seriesCount(session)} séries concluídas neste treino.</p><button type="button" class="button button-dark" id="finish-workout">Finalizar treino</button></div>` : '';
+    return session?.workoutId === workout.id ? `<div class="workout-finish"><p>${seriesCount(session)} séries concluídas neste treino.</p><button type="button" class="button button-danger" id="finish-workout">${stopIcon}Finalizar treino</button></div>` : '';
   }
   function bind(main, workout) {
     main.querySelectorAll('[data-series-exercise]').forEach(bindCard);
@@ -300,5 +311,5 @@
   setInterval(updateClocks, 1000);
   document.addEventListener('visibilitychange', () => { updateClocks(); if (document.visibilityState === 'hidden') flushEdits().catch(() => {}); });
   window.addEventListener('pagehide', () => { flushEdits().catch(() => {}); });
-  window.GYMROOK_TRACKING = {ready, isReady: () => loaded, getLoadError: () => loadError, hasPendingEdits: () => pending.size > 0 || inFlight.size > 0, exerciseCard, workoutControls, workoutFooter, bind, routeChanged, renderBackup, flushEdits, onRefresh: callback => { refresh = callback; }};
+  window.GYMROOK_TRACKING = {ready, isReady: () => loaded, getLoadError: () => loadError, hasPendingEdits: () => pending.size > 0 || inFlight.size > 0, exerciseCard, workoutControls, workoutFooter, bind, routeChanged, renderBackup, flushEdits, discardExerciseDraft, onRefresh: callback => { refresh = callback; }};
 })();

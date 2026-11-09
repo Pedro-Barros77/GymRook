@@ -1,6 +1,6 @@
 {
   "name": "gymrook",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
   "description": "Guia de treino ABCD offline, com registro local de séries, cargas e histórico.",
   "scripts": {

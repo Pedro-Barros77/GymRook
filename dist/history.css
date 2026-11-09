@@ -1,4 +1,8 @@
 .history-page { padding-bottom:32px; }
+.history-action-status { margin:0 0 20px; padding:12px 14px; border:1px solid #bdcfaa; border-radius:9px; background:#e4efd3; color:var(--ink); font-size:13px; overflow-wrap:anywhere; }
+.history-action-status[data-error=true] { border-color:#e3b0a8; background:#fae8e4; color:#8e3027; }
+.history-record-actions { display:flex; flex-wrap:wrap; gap:8px; margin-top:14px; }
+.history-record-actions .button { max-width:100%; min-height:44px; }
 .history-description { margin:0 0 22px; max-width:620px; color:var(--muted); font-size:13px; }
 .history-layout { display:grid; grid-template-columns:minmax(300px, .9fr) minmax(0, 1.1fr); gap:24px; align-items:start; }
 .history-calendar { min-width:0; padding:18px; border:1px solid var(--line); border-radius:14px; background:var(--card); }

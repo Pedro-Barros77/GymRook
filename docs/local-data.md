@@ -10,6 +10,14 @@ A progressão tem uma entrada por exercício e dia local (`YYYY-MM-DD`). Uma nov
 
 Todas as alterações fazem leitura, modificação e escrita na mesma transação IndexedDB. A memória só muda após a confirmação da transação. Abas concorrentes recebem notificações por BroadcastChannel; voltar o foco à janela também recarrega os registros. Cada exercício aceita até 30 séries, 10000 repetições e 10000 kg por série.
 
+## Exclusão de registros
+
+`deleteSession(sessionId)` exclui apenas o treino concluído identificado. Outro treino no mesmo dia continua no calendário. O treino em andamento não pode ser excluído por esse método, e a exclusão de uma sessão não altera as configurações nem os pontos de progressão.
+
+`deleteProgression(exerciseId, date)` exclui somente o ponto daquele exercício e dia. As configurações atuais voltam ao ponto restante mais recente, ordenado por dia e horário de edição. Sem pontos restantes, o exercício volta a três séries de dez repetições, sem carga informada. Essa restauração não cria um novo ponto de progressão.
+
+Se o exercício estiver no treino em andamento, a configuração restaurada também passa a valer nessa sessão. Apenas as séries cujos valores mudaram perdem a marcação de conclusão. Os valores de sessões já concluídas permanecem intactos. Alvos inexistentes, identificadores inválidos e datas inválidas geram erros; falhas de gravação mantêm os registros anteriores.
+
 ## Exportação e importação manuais
 
 O aplicativo salva os registros de treino automaticamente em IndexedDB, mas não cria arquivos nem cópias de backup automáticas. Para guardar uma cópia fora do navegador, o usuário escolhe exportar seus dados. A interface baixa o JSON retornado por `exportBackup()`; o navegador ou o sistema determina o destino do arquivo.
@@ -24,4 +32,4 @@ Na primeira abertura após uma versão que mantinha backups automáticos, a apli
 
 ## Verificação
 
-`node scripts/check-store.mjs` exercita sessões e retomada, timers de descanso, cargas opcionais, conclusões, progressão por dia, falha de transação, exportação e importação manuais, recuperação de estado inválido e gravações concorrentes em duas instâncias. Também verifica que treinos não criam backups e que a limpeza de cópias antigas preserva o estado principal e arquivos externos. A simulação transacional não substitui testes em um navegador real.
+`node scripts/check-store.mjs` exercita sessões e retomada, timers de descanso, cargas opcionais, conclusões, progressão por dia, falha de transação, exportação e importação manuais, recuperação de estado inválido e gravações concorrentes em duas instâncias. Verifica exclusões de sessões e de pontos antigos, intermediários, mais recentes e de toda a progressão de um exercício, incluindo restauração de configuração, proteção do treino ativo, preservação de outros registros, recarga e falhas atômicas. Também verifica que treinos não criam backups e que a limpeza de cópias antigas preserva o estado principal e arquivos externos. A simulação transacional não substitui testes em um navegador real.

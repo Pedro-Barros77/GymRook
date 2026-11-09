@@ -49,6 +49,29 @@ function fixture(now) {
       return state.settings[id];
     }); },
     toggleSet(id, index) { return mutate(() => { if (!active()?.exercises[id]) throw new Error('Inicie o treino antes de marcar séries.'); const entry = active().exercises[id]; entry.completed[index] = !entry.completed[index]; return entry; }); },
+    deleteSession(id) { return mutate(() => {
+      const index = state.sessions.findIndex(session => session.id === id);
+      if (index < 0 || !state.sessions[index].endedAt) throw new Error('Treino não encontrado ou em andamento.');
+      return state.sessions.splice(index, 1)[0];
+    }); },
+    deleteProgression(id, date) { return mutate(() => {
+      const records = state.progression.filter(point => point.exerciseId === id).sort((a, b) => b.date.localeCompare(a.date) || b.editedAt.localeCompare(a.editedAt));
+      const target = records.find(point => point.date === date);
+      if (!target) throw new Error('Registro de progressão não encontrado.');
+      state.progression = state.progression.filter(point => point !== target);
+      if (records[0] === target) {
+        const latest = records[1];
+        if (latest) state.settings[id] = { weights: clone(latest.weights), reps: clone(latest.reps), updatedAt: latest.editedAt };
+        else delete state.settings[id];
+        const entry = active()?.exercises[id];
+        if (entry) {
+          const next = setting(id);
+          entry.completed = next.reps.map((reps, index) => entry.reps[index] === reps && (entry.weights[index] ?? null) === (next.weights[index] ?? null) && Boolean(entry.completed[index]));
+          entry.weights = next.weights; entry.reps = next.reps;
+        }
+      }
+      return target;
+    }); },
     exportBackup: async () => JSON.stringify({ app: 'GymRook', formatVersion: 1, exportedAt: new Date(clock()).toISOString(), state }),
     importBackup: async text => { state = clone(JSON.parse(text).state); emit(); },
     setClock: fn => { clock = fn; }, failNext: error => { nextError = error; }, replace: value => { state = clone(value); emit(); }
@@ -225,14 +248,105 @@ async function checkTrackingRegressions(html, scripts) {
   assert.equal(failed.main.querySelectorAll('[data-exercise]').length, 10, 'Storage failure must not prevent catalog consultation');
 }
 
+async function checkDeletionScreens(html) {
+  const scripts = await Promise.all(['data.js', 'history.js'].map(async name => [name, await read(name)]));
+  const now = new Date(2026, 10, 23, 10).getTime();
+  const store = fixture(() => now);
+  let allow = false;
+  const confirmations = [];
+  const ui = harness(html, scripts, '', { now, window: { GYMROOK_STORE: store, confirm: text => { confirmations.push(text); return allow; } } });
+  const id = ui.data.workouts[0].blocks[0].exerciseIds[0];
+  const other = ui.data.workouts[0].blocks[1].exerciseIds[0];
+  const iso = (date, hour = 10) => new Date(2026, 10, date, hour).toISOString();
+  const points = [1, 8, 22].map((date, index) => ({exerciseId: id, date: `2026-11-${String(date).padStart(2, '0')}`, editedAt: iso(date), weights: [(index + 1) * 10], reps: [12 - index * 2, 10, 10]}));
+  store.replace({schemaVersion: 1, updatedAt: iso(23), settings: {[id]: {weights: [30], reps: [8, 10, 10], updatedAt: iso(22)}, [other]: {weights: [55], reps: [9, 9], updatedAt: iso(22)}},
+    sessions: ['one', 'two'].map((sessionId, index) => ({id: sessionId, workoutId: 'A', startedAt: iso(22, 10 + index), endedAt: new Date(2026, 10, 22, 10 + index, 30).toISOString(), restStartedAt: null,
+      exercises: {[id]: {weights: [30], reps: [8, 10, 10], completed: [true, true, true]}}})),
+    progression: [...points, {exerciseId: other, date: '2026-11-22', editedAt: iso(22), weights: [55], reps: [9, 9]}]});
+  ui.window.GYMROOK_HISTORY.render(ui.main, '#history');
+  const sessionDelete = () => ui.main.querySelector('[data-delete-session="two"]');
+  assert(sessionDelete()?.querySelector('svg'), 'History delete action must use a trash SVG');
+  sessionDelete().click(); await settle();
+  assert.equal(store.getState().sessions.length, 2, 'Canceling history deletion changed saved sessions');
+  assert(confirmations.at(-1).includes('A') && confirmations.at(-1).includes('22'), 'History confirmation must identify the concrete workout and day');
+  allow = true;
+  store.failNext(new Error('Falha ao excluir de teste'));
+  sessionDelete().click(); await settle();
+  assert.equal(store.getState().sessions.length, 2, 'Failed history deletion removed data');
+  assert(ui.main.querySelector('.history-action-status').textContent.includes('Falha ao excluir'), 'History deletion failure was not shown');
+  assert(!sessionDelete().disabled, 'Failed deletion left history action disabled');
+  sessionDelete().click(); await settle();
+  assert.equal(store.getState().sessions.length, 1);
+  assert(ui.main.querySelector('[data-history-day="2026-11-22"]').classList.contains('has-workout'), 'Deleting one of two sessions cleared the whole trained day');
+  assert.equal(ui.main.querySelectorAll('.history-session').length, 1);
+  ui.main.querySelector('[data-delete-session="one"]').click(); await settle();
+  assert.equal(store.getState().sessions.length, 0);
+  assert(!ui.main.querySelector('[data-history-day="2026-11-22"]').classList.contains('has-workout'), 'Deleting the final session did not clear its calendar marker');
+  assert.equal(store.getState().progression.length, 4, 'Deleting workout history must preserve load progression');
+
+  ui.window.GYMROOK_HISTORY.render(ui.main, '#progression/' + id);
+  let metric = ui.main.querySelector('#progression-metric'); metric.value = 'reps'; metric.dispatch('change');
+  const progressionDelete = date => ui.main.querySelector(`[data-delete-progression="${date}"]`);
+  assert(progressionDelete('2026-11-08')?.querySelector('svg'), 'Daily progression delete action must use a trash SVG');
+  progressionDelete('2026-11-08').click(); await settle();
+  assert.deepEqual(store.getExercise(id).weights, [30], 'Deleting a middle point changed current loads');
+  assert.equal(ui.main.querySelectorAll('.history-chart-point').length, 2, 'Deleted middle point remains in chart');
+  assert.equal(ui.main.querySelector('#progression-exercise').value, id, 'Deletion lost selected exercise');
+  assert.equal(ui.main.querySelector('#progression-metric').value, 'reps', 'Deletion lost selected progression metric');
+  allow = false;
+  progressionDelete('2026-11-22').click(); await settle();
+  assert.deepEqual(store.getExercise(id).weights, [30], 'Canceling latest progression deletion changed loads');
+  assert(confirmations.at(-1).includes(ui.data.exercises[id].name), 'Progression confirmation must identify the exercise');
+  allow = true; store.failNext(new Error('Progressão não excluída de teste'));
+  progressionDelete('2026-11-22').click(); await settle();
+  assert.deepEqual(store.getExercise(id).weights, [30]);
+  assert(ui.main.querySelector('.history-action-status').textContent.includes('não excluída'), 'Progression deletion error was not shown');
+  progressionDelete('2026-11-22').click(); await settle();
+  assert.deepEqual(store.getExercise(id).weights, [10], 'Deleting latest point did not restore previous remaining load');
+  assert.deepEqual(store.getExercise(id).reps, [12, 10, 10], 'Deleting latest point did not restore previous remaining reps');
+  assert.equal(ui.main.querySelectorAll('.progression-day').length, 1);
+  progressionDelete('2026-11-01').click(); await settle();
+  assert.deepEqual(store.getExercise(id).weights, [], 'Deleting every point did not restore optional blank weights');
+  assert.deepEqual(store.getExercise(id).reps, [10, 10, 10], 'Deleting every point did not restore default sets');
+  assert.equal(ui.main.querySelectorAll('.history-chart-point').length, 0);
+  assert(ui.main.textContent.includes('Ainda não há ajustes'), 'Empty progression state missing after last deletion');
+  assert.deepEqual(store.getExercise(other).weights, [55], 'Progression deletion changed another exercise');
+  assert.equal(store.getState().progression.filter(point => point.exerciseId === other).length, 1);
+}
+
+async function checkDeletedCurrentReturnsToDetail(html, scripts) {
+  const now = new Date(2026, 10, 23, 10).getTime();
+  const store = fixture(() => now);
+  const ui = harness(html, scripts, '', {now, window: {GYMROOK_STORE: store, confirm: () => true}});
+  await settle();
+  const id = ui.data.workouts[0].blocks[0].exerciseIds[0];
+  const previousAt = new Date(2026, 10, 22, 10).toISOString();
+  store.replace({schemaVersion: 1, updatedAt: previousAt, settings: {[id]: {weights: [30], reps: [10, 10, 10], updatedAt: previousAt}}, sessions: [],
+    progression: [{exerciseId: id, date: '2026-11-22', editedAt: previousAt, weights: [30], reps: [10, 10, 10]}]});
+  await openSeries(ui, id);
+  action(card(ui, id), 'edit').click(); await settle();
+  input(card(ui, id), 'weight', 0).value = '40';
+  input(card(ui, id), 'weight', 0).dispatch('change');
+  await settle();
+  ui.location.hash = '#progression/' + id; await settle();
+  ui.main.querySelector('[data-delete-progression="2026-11-23"]').click(); await settle();
+  assert.deepEqual(store.getExercise(id).weights, [30]);
+  await openSeries(ui, id);
+  const weightInput = card(ui, id).querySelector('[data-field="weight"]');
+  if (weightInput) assert.equal(Number(weightInput.value.replace(',', '.')), 30, 'Returning to exercise detail must not show a deleted edit draft as the current load');
+  else assert(card(ui, id).textContent.includes('30 kg'), 'Restored current load missing from exercise detail');
+}
+
 export async function checkTrackingUI() {
   const html = await read('index.html');
   await checkHistoryScreens(html);
+  await checkDeletionScreens(html);
   const names = ['data.js', 'anatomy.js', 'history.js', 'tracking.js', 'app.js'];
   const scripts = await Promise.all(names.map(async name => [name, await read(name)]));
   const scriptPaths = [...html.matchAll(/<script\b[^>]*\bsrc=["']([^"']+)["']/g)].map(match => match[1].replace(/^\.\//, ''));
   for (const name of ['store.js', 'history.js', 'tracking.js']) assert(scriptPaths.includes(name), `${name} must be included in offline app shell`);
   assert(scriptPaths.indexOf('store.js') < scriptPaths.indexOf('tracking.js') && scriptPaths.indexOf('tracking.js') < scriptPaths.indexOf('app.js'), 'Tracking script order is incorrect');
+  await checkDeletedCurrentReturnsToDetail(html, scripts);
   await checkTrackingRegressions(html, scripts);
   const initialNow = new Date(2026, 10, 9, 10, 0, 0).getTime();
   const store = fixture(() => initialNow);
@@ -243,11 +357,13 @@ export async function checkTrackingUI() {
   assert(ui.window.GYMROOK_TRACKING.isReady(), 'Tracking did not initialize');
   const firstId = ui.data.workouts[0].blocks[0].exerciseIds[0];
   assert(ui.document.getElementById('start-workout'), 'Workout start is missing');
+  assert(ui.document.getElementById('start-workout').querySelector('svg'), 'Workout start must show a play SVG');
   assert(!store.getActiveSession(), 'Opening the guide must not start a workout');
   assert.equal(ui.main.querySelectorAll('[data-series-exercise]').length, 0, 'Workout listing must not contain series cards');
   for (const anchor of ui.main.querySelectorAll('[data-exercise]')) assert.equal(anchor.querySelectorAll('button').length + anchor.querySelectorAll('input').length, 0, 'Series controls must not be nested in catalog links');
 
   ui.document.getElementById('start-workout').click(); await settle();
+  assert(ui.document.getElementById('finish-workout').querySelector('svg'), 'Workout finish must show a stop SVG');
   let session = store.getActiveSession();
   assert.equal(session.workoutId, 'A');
   assert.deepEqual(session.exercises[firstId].reps, [10, 10, 10], 'Initial configuration must be three sets of ten');
@@ -367,7 +483,7 @@ export async function checkTrackingUI() {
   importer.files = [{name: 'bad.json', size: 2, text: async () => '{}'}]; importer.dispatch('change'); await settle();
   assert(ui.main.querySelector('#backup-import-status').textContent.includes('não é um backup'), 'Invalid backup import is not explained');
   assert.deepEqual(store.getState(), previousState, 'Invalid import modified existing data');
-  console.log('Tracking UI: defaults, set edits/completion, restored timers, calendar/progression, backup export, delayed save/import races, invalid finish and unavailable storage passed (in-memory DOM; no browser/layout test).');
+  console.log('Tracking UI: defaults, edits/completion, restored timers, calendar/progression deletion and rollback, backup export, save/import races and error states passed (in-memory DOM; no browser/layout test).');
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {

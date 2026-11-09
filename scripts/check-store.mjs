@@ -86,6 +86,92 @@ function harness({idb = memoryIndexedDB(), initialTime = '2026-11-08T15:00:00.00
   };
 }
 
+async function checkDeletions() {
+  const h = harness({initialTime: '2026-11-01T15:00:00.000Z'});
+  const store = h.store;
+  const id = 'incline-dumbbell-press';
+  const other = 'pec-deck';
+  await store.ready;
+  await store.updateExercise(id, {weights: [10, 20, 30], reps: [10, 10, 10]});
+  await store.startSession('A', [id]);
+  await store.toggleSet(id, 0);
+  const first = await store.finishSession();
+  await store.startSession('A', [id]);
+  const second = await store.finishSession();
+  assert.equal(store.getState().sessions.filter(session => session.startedAt.slice(0, 10) === '2026-11-01').length, 2);
+  h.setTime('2026-11-08T15:00:00.000Z');
+  await store.updateExercise(id, {weights: [12, 22, 32], reps: [10, 10, 10]});
+  h.setTime('2026-11-15T15:00:00.000Z');
+  await store.updateExercise(id, {weights: [16, 24, 36], reps: [10, 10, 10]});
+  h.setTime('2026-11-22T15:00:00.000Z');
+  await store.updateExercise(id, {weights: [16, 26, 36], reps: [10, 10, 10]});
+  await store.updateExercise(other, {weights: [40], reps: [12]});
+  await store.startSession('A', [id]);
+  for (const index of [0, 1, 2]) await store.toggleSet(id, index);
+  const activeId = store.getActiveSession().id;
+  const finishedSnapshots = plain(store.getState().sessions.filter(session => session.endedAt));
+  const unrelatedSettings = plain(store.getExercise(other));
+  const unrelatedProgression = plain(store.getState().progression.filter(point => point.exerciseId === other));
+  await store.deleteProgression(id, '2026-11-08');
+  assert.deepEqual(plain(store.getExercise(id).weights), [16, 26, 36], 'Removing a middle point preserves the latest configuration');
+  assert.deepEqual(plain(store.getActiveSession().exercises[id].completed), [true, true, true]);
+  await store.deleteProgression(id, '2026-11-01');
+  assert.deepEqual(plain(store.getExercise(id).weights), [16, 26, 36], 'Removing the oldest point preserves the latest configuration');
+  await store.deleteProgression(id, '2026-11-22');
+  assert.deepEqual(plain(store.getExercise(id).weights), [16, 24, 36], 'Removing the latest point restores the preceding configuration');
+  assert.equal(store.getExercise(id).updatedAt, '2026-11-15T15:00:00.000Z');
+  assert.deepEqual(plain(store.getActiveSession().exercises[id].completed), [true, false, true], 'Only active sets whose restored values change lose completion');
+  assert.deepEqual(plain(store.getState().sessions.filter(session => session.endedAt)), finishedSnapshots, 'Progression deletion never rewrites finished workout snapshots');
+  await store.deleteProgression(id, '2026-11-15');
+  assert.deepEqual(plain(store.getExercise(id)), {weights: [], reps: [10, 10, 10], updatedAt: null}, 'Removing all points restores default sets and no load');
+  assert.deepEqual(plain(store.getActiveSession().exercises[id].weights), []);
+  assert.equal(store.getState().progression.filter(point => point.exerciseId === id).length, 0, 'Deletion does not create a new point for today');
+  assert.deepEqual(plain(store.getExercise(other)), unrelatedSettings);
+  assert.deepEqual(plain(store.getState().progression.filter(point => point.exerciseId === other)), unrelatedProgression);
+  await assert.rejects(store.deleteProgression(id, '2026-11-15'), /não encontrado/);
+  await assert.rejects(store.deleteProgression(id, '2026-02-30'), /Data de edição inválida/);
+  await assert.rejects(store.deleteProgression('unknown', '2026-11-15'), /não encontrado/);
+  await assert.rejects(store.deleteSession(activeId), /em andamento/);
+  const beforeSessionDeletion = plain(store.getState());
+  await store.deleteSession(first.id);
+  assert.equal(store.getState().sessions.filter(session => session.startedAt.slice(0, 10) === '2026-11-01').length, 1, 'Removing one workout retains another workout on the same calendar day');
+  assert(store.getState().sessions.some(session => session.id === second.id));
+  assert.deepEqual(plain(store.getState().settings), beforeSessionDeletion.settings);
+  assert.deepEqual(plain(store.getState().progression), beforeSessionDeletion.progression);
+  await assert.rejects(store.deleteSession(first.id), /não encontrado/);
+  await assert.rejects(store.deleteSession(''), /inválido/);
+  const reopened = harness({idb: h.idb});
+  await reopened.store.ready;
+  assert.deepEqual(plain(reopened.store.getState()), plain(store.getState()), 'Deleted records and restored configuration survive reload');
+  h.setTime('2026-11-30T15:00:00.000Z');
+  await store.updateExercise(id, {weights: [18], reps: [8]});
+  const beforeFailure = plain(store.getState());
+  h.idb.failWrite();
+  await assert.rejects(store.deleteProgression(id, '2026-11-30'), /quota/);
+  assert.deepEqual(plain(store.getState()), beforeFailure, 'A failed point deletion preserves both the point and active configuration');
+  assert.deepEqual(h.idb.records.get('state'), beforeFailure);
+  h.idb.failWrite();
+  await assert.rejects(store.deleteSession(second.id), /quota/);
+  assert.deepEqual(plain(store.getState()), beforeFailure, 'A failed workout deletion preserves the completed session');
+  const concurrent = harness({idb: h.idb});
+  await concurrent.store.ready;
+  await Promise.all([
+    store.deleteProgression(id, '2026-11-30'),
+    concurrent.store.updateExercise(other, {weights: [66], reps: [12]})
+  ]);
+  const merged = JSON.parse(await store.exportBackup()).state;
+  assert.equal(merged.settings[other].weights[0], 66, 'A concurrent edit to another exercise survives point deletion');
+  assert.equal(merged.progression.some(point => point.exerciseId === id), false);
+  assert.deepEqual(plain(merged.sessions.find(session => !session.endedAt).exercises[id].weights), []);
+  await Promise.all([
+    store.deleteSession(second.id),
+    concurrent.store.updateExercise(other, {weights: [68], reps: [12]})
+  ]);
+  const mergedSessions = JSON.parse(await store.exportBackup()).state;
+  assert.equal(mergedSessions.sessions.some(session => session.id === second.id), false);
+  assert.equal(mergedSessions.settings[other].weights[0], 68, 'Concurrent workout deletion preserves other exercise edits');
+}
+
 export async function checkStore() {
   const h = harness();
   const store = h.store;
@@ -214,7 +300,8 @@ export async function checkStore() {
   assert.deepEqual(plain(recovery.store.getState().sessions), payload.state.sessions, 'A fully validated backup replaces malformed state atomically');
   unsubscribe();
   assert(changes > 0);
-  console.log('Store: persistent sessions, rest, series, manual export/import, legacy cleanup and concurrent transactions passed.');
+  await checkDeletions();
+  console.log('Store: persistent sessions, rest, series, manual export/import, deletion, legacy cleanup and concurrent transactions passed.');
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) await checkStore();
