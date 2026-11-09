@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { harness } from './check-ui.mjs';
 
 // This exercises rendering and bound controls with a storage fixture. Durable
-// IndexedDB, import validation and backup writes have separate model tests.
+// IndexedDB and import validation have separate model tests.
 const root = new URL('../dist/', import.meta.url);
 const read = name => readFile(new URL(name, root), 'utf8');
 const clone = value => structuredClone(value);
@@ -14,7 +14,6 @@ const day = value => { const date = new Date(value); return `${date.getFullYear(
 function fixture(now) {
   let state = { schemaVersion: 1, updatedAt: new Date(now()).toISOString(), settings: {}, sessions: [], progression: [] };
   const listeners = new Set();
-  let daily = null;
   let nextError = null;
   let clock = now;
   const active = () => state.sessions.find(session => !session.endedAt) || null;
@@ -31,7 +30,7 @@ function fixture(now) {
       if (active()) throw new Error('Já existe treino em andamento.');
       const session = { id: `session-${state.sessions.length + 1}`, workoutId, startedAt: new Date(clock()).toISOString(), endedAt: null, restStartedAt: null,
         exercises: Object.fromEntries(exerciseIds.map(id => { const config = setting(id); return [id, { weights: config.weights, reps: config.reps, completed: config.reps.map(() => false) }]; })) };
-      state.sessions.push(session); daily = JSON.stringify({ app: 'GymRook', formatVersion: 1, exportedAt: new Date(clock()).toISOString(), state }); return session;
+      state.sessions.push(session); return session;
     }); },
     toggleRest() { return mutate(() => { if (!active()) throw new Error('Nenhum treino ativo.'); active().restStartedAt = active().restStartedAt ? null : new Date(clock()).toISOString(); return active(); }); },
     finishSession() { return mutate(() => { if (!active()) throw new Error('Nenhum treino ativo.'); const session = active(); session.endedAt = new Date(clock()).toISOString(); session.restStartedAt = null; return session; }); },
@@ -50,12 +49,8 @@ function fixture(now) {
       return state.settings[id];
     }); },
     toggleSet(id, index) { return mutate(() => { if (!active()?.exercises[id]) throw new Error('Inicie o treino antes de marcar séries.'); const entry = active().exercises[id]; entry.completed[index] = !entry.completed[index]; return entry; }); },
-    backupStatus: () => ({ date: daily ? day(clock()) : null, updatedAt: daily ? new Date(clock()).toISOString() : null, storage: daily ? 'indexeddb' : null, externalSupported: false, externalConnected: false, externalPermission: 'unsupported', externalDate: null, error: null }),
     exportBackup: async () => JSON.stringify({ app: 'GymRook', formatVersion: 1, exportedAt: new Date(clock()).toISOString(), state }),
-    getDailyBackup: async () => daily,
     importBackup: async text => { state = clone(JSON.parse(text).state); emit(); },
-    connectBackupFile: async () => { throw new Error('Vínculo de arquivo não disponível neste navegador.'); },
-    requestBackupPermission: async () => false,
     setClock: fn => { clock = fn; }, failNext: error => { nextError = error; }, replace: value => { state = clone(value); emit(); }
   };
   return store;
@@ -75,6 +70,21 @@ function input(element, field, index) {
   const result = element.querySelectorAll(`[data-field="${field}"]`).find(node => node.dataset.seriesIndex === String(index));
   assert(result, `Missing ${field} input for series ${index}`);
   return result;
+}
+async function openSeries(ui, id) {
+  ui.location.hash = '#exercise/' + id;
+  await settle();
+  assert.equal(ui.main.querySelectorAll('[data-series-exercise]').length, 1, 'Exercise detail must contain exactly its own series card');
+  const series = card(ui, id);
+  const nodes = [];
+  const walk = node => { for (const child of node.children || []) if (typeof child !== 'string') { nodes.push(child); walk(child); } };
+  walk(ui.main);
+  const how = ui.main.querySelectorAll('h2').find(node => node.textContent === 'Como fazer.');
+  const bottom = ui.main.querySelector('.detail-nav-bottom');
+  assert(how && nodes.indexOf(how) < nodes.indexOf(series), 'Personal series must follow Como fazer');
+  assert.equal(ui.main.querySelectorAll('section').at(-1), series, 'Personal series must be the last content section');
+  assert(nodes.indexOf(series) < nodes.indexOf(bottom), 'Personal series must precede the bottom previous/next buttons');
+  return series;
 }
 
 async function checkHistoryScreens(html) {
@@ -139,14 +149,17 @@ async function checkTrackingRegressions(html, scripts) {
   await settle();
   const id = ui.data.workouts[0].blocks[0].exerciseIds[0];
   ui.document.getElementById('start-workout').click(); await settle();
+  await openSeries(ui, id);
 
   // Invalid edits must block finalization without losing the draft or closing
   // the session using an older, silently substituted configuration.
   action(card(ui, id), 'edit').click(); await settle();
   input(card(ui, id), 'reps', 0).value = '-2';
   input(card(ui, id), 'reps', 0).dispatch('input');
+  ui.location.hash = '#workout/A'; await settle();
   ui.document.getElementById('finish-workout').click(); await settle();
   assert(store.getActiveSession(), 'Invalid series must block workout finalization');
+  await openSeries(ui, id);
   assert.equal(input(card(ui, id), 'reps', 0).value, '-2', 'Invalid draft was discarded while finalizing');
   assert(ui.document.getElementById('tracking-status').textContent.includes('inválidos'), 'Blocked finalization must explain the invalid fields');
   input(card(ui, id), 'reps', 0).value = '10';
@@ -169,9 +182,9 @@ async function checkTrackingRegressions(html, scripts) {
   assert(ui.main.querySelector('.history-chart-point')?.textContent.includes('23 kg'), 'Fast navigation rendered a stale progression value');
   store.updateExercise = immediateUpdate;
 
-  // Model an import whose data replacement finishes before a slow backup write.
+  // Model an import whose data replacement finishes before its promise settles.
   // Any earlier queued autosave must have been canceled before restoration starts.
-  ui.location.hash = '#workout/A'; await settle();
+  await openSeries(ui, id);
   action(card(ui, id), 'done').click(); await settle();
   action(card(ui, id), 'edit').click(); await settle();
   input(card(ui, id), 'weight', 0).value = '99';
@@ -231,6 +244,7 @@ export async function checkTrackingUI() {
   const firstId = ui.data.workouts[0].blocks[0].exerciseIds[0];
   assert(ui.document.getElementById('start-workout'), 'Workout start is missing');
   assert(!store.getActiveSession(), 'Opening the guide must not start a workout');
+  assert.equal(ui.main.querySelectorAll('[data-series-exercise]').length, 0, 'Workout listing must not contain series cards');
   for (const anchor of ui.main.querySelectorAll('[data-exercise]')) assert.equal(anchor.querySelectorAll('button').length + anchor.querySelectorAll('input').length, 0, 'Series controls must not be nested in catalog links');
 
   ui.document.getElementById('start-workout').click(); await settle();
@@ -249,6 +263,7 @@ export async function checkTrackingUI() {
   assert.equal(store.getActiveSession().restStartedAt, null, 'Second rest press must reset rest');
   assert.equal(store.getActiveSession().startedAt, startedAt, 'Rest changed workout start');
 
+  await openSeries(ui, firstId);
   let firstCard = card(ui, firstId);
   action(firstCard, 'complete').click(); await settle();
   assert.equal(store.getActiveSession().exercises[firstId].completed[0], true, 'Pressing a series must mark it complete');
@@ -283,6 +298,7 @@ export async function checkTrackingUI() {
   assert.equal(store.getState().progression.length, 1, 'Completion must not alter progression history');
 
   const secondId = ui.data.workouts[0].blocks[1].exerciseIds[0];
+  await openSeries(ui, secondId);
   action(card(ui, secondId), 'edit').click(); await settle();
   input(card(ui, secondId), 'weight', 0).value = '0';
   input(card(ui, secondId), 'weight', 0).dispatch('input');
@@ -304,6 +320,8 @@ export async function checkTrackingUI() {
   assert(!ui.document.getElementById('rest-toggle').disabled, 'Failed write left the rest button stuck');
 
   // Navigation and a fresh app runtime both derive total time from persisted start.
+  ui.location.hash = '#workout/A'; await settle();
+  assert.equal(ui.main.querySelectorAll('[data-series-exercise]').length, 0, 'Active workout list must remain free of series cards');
   const tabB = ui.main.querySelectorAll('[role="tab"]').find(tab => tab.dataset.workout === 'B');
   tabB.click(); await settle();
   assert.equal(store.getActiveSession().workoutId, 'A', 'Browsing another workout must not switch the active session');
@@ -320,9 +338,11 @@ export async function checkTrackingUI() {
   await settle();
   assert(restored.document.getElementById('workout-clock').textContent.includes('01:27'), 'Reopening runtime did not restore elapsed time');
   assert.equal(store.getActiveSession().startedAt, startedAt);
+  await openSeries(restored, firstId);
   assert.equal(action(card(restored, firstId), 'complete').getAttribute('aria-pressed'), 'true', 'Completion did not survive reopening runtime');
   store.setClock(restored.now);
   restored.advance(33000);
+  restored.location.hash = '#workout/A'; await settle();
   restored.document.getElementById('finish-workout').click(); await settle();
   assert.equal(store.getActiveSession(), null, 'Finishing did not close active session');
   assert.equal(store.getState().sessions.length, 1, 'Finishing invented extra sessions');
@@ -334,9 +354,9 @@ export async function checkTrackingUI() {
   assert(restored.main.textContent.includes('1 de 10'), 'History must report fully completed exercise count');
 
   ui.location.hash = '#backup'; await settle();
-  assert(ui.main.textContent.includes('armazenamento privado'), 'Daily backup must explain its actual storage location');
-  assert(ui.main.textContent.includes('não permite vincular'), 'Unsupported automatic Downloads overwrite must be disclosed');
-  assert(!ui.main.querySelector('#backup-connect'), 'Unsupported external-file API must not be offered');
+  assert(!/Backup diário|Arquivo vinculado|cópia diária/i.test(ui.main.textContent), 'Manual backup screen must not offer automatic backup');
+  assert(!ui.main.querySelector('#backup-connect') && !ui.main.querySelector('#backup-daily'), 'Removed backup actions must not remain');
+  for (const word of ['séries', 'progressão', 'cópia', 'restauração']) assert(ui.main.textContent.includes(word), `Manual backup text must preserve UTF-8 accents in ${word}`);
   ui.main.querySelector('#backup-export').click(); await settle();
   assert.equal(downloads.length, 1, 'Export did not prepare exactly one JSON download');
   const exported = JSON.parse(await downloads[0].text());

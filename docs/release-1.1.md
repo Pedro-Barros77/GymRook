@@ -7,6 +7,7 @@ Publicação de 9 de novembro de 2026. O catálogo bilíngue, os mapas musculare
 - Iniciar e finalizar uma sessão A/B/C/D, com horário de início/fim e duração total.
 - Cabeçalho fixo com tempo total e descanso independente. Os tempos são calculados a partir de instantes salvos, preservando a contagem ao reabrir ou bloquear a tela.
 - Três séries de dez repetições como configuração inicial editável, com carga opcional por série, adição/remoção de séries e botão de lápis para editar.
+- Cards da listagem com imagem, nome e equipamento para consulta rápida. As séries ficam somente dentro do exercício, como último card de conteúdo depois de **Como fazer**.
 - Salvamento automático, confirmação explícita da edição e marcação de conclusão fora do modo de edição.
 - Referência das séries da sessão anterior. Sessões concluídas preservam suas cargas, repetições e conclusões mesmo se a configuração mudar depois.
 - Um treino ativo por aparelho/navegador, com link para retomá-lo ao consultar outra ficha.
@@ -19,18 +20,18 @@ Os ajustes de séries/cargas geram um ponto por exercício e data local. Editar 
 
 ## Dados e backup
 
-IndexedDB mantém os registros sem login ou envio de dados a um servidor. Um único backup automático é criado/substituído no armazenamento privado do site (OPFS), com cópia independente em IndexedDB como alternativa. Ele acompanha as alterações após o primeiro início de treino.
+IndexedDB mantém os registros sem login ou envio de dados a um servidor. A exportação manual de um arquivo JSON permite guardar uma cópia em Downloads ou Arquivos e transferir os registros para outro aparelho.
 
-O backup interno pode ser apagado junto com os dados do site. Exportação/importação JSON permite manter uma cópia fora do navegador ou transferir os registros para outro aparelho. A importação valida o conteúdo antes da confirmação/substituição e cancela edições pendentes para impedir gravações antigas depois da restauração.
+A importação valida o conteúdo antes da confirmação/substituição e cancela edições pendentes para impedir gravações antigas depois da restauração. Limpar os dados do site pode apagar o histórico local; o arquivo exportado permanece no local escolhido pelo usuário.
 
-O navegador não oferece sobrescrita silenciosa de arquivos em Downloads/Arquivos de maneira uniforme no Android/iPhone. O vínculo a um arquivo externo aparece apenas nos navegadores com suporte, depende da autorização inicial e pode exigir nova autorização. O app informa falhas de gravação e mantém os registros do treino salvos.
+Não há backup automático, cópia privada redundante ou arquivo externo vinculado. Ao atualizar a partir da implementação anterior, apenas as cópias internas obsoletas e seus metadados são removidos; os registros de treino e eventuais arquivos externos do usuário são preservados.
 
 Detalhes técnicos e formato: [local-data.md](local-data.md).
 
 ## Verificação
 
 - `npm run build` e `npm run check`: integridade de mídia/manifest, regressão dos 31 exercícios, persistência simulada transacional, integração de interface e service worker.
-- Casos adicionais: duas abas concorrentes, falha de gravação, estado inválido e recuperação, término em outro dia, edição inválida, navegação com salvamento pendente e importação com autosave pendente.
-- `npm run check:browser`: Edge instalado, com perfil isolado, HTTP local e interface de 360 px. Verificou IndexedDB e OPFS reais, recarga, descanso independente, conclusão, histórico, restauração, gráficos e ausência de rolagem horizontal. Capturas das telas de treino, histórico, progressão e dados foram inspecionadas.
+- Casos adicionais: duas abas concorrentes, falha de gravação, estado inválido e recuperação, término em outro dia, edição inválida, navegação com salvamento pendente, importação com autosave pendente e ausência de gravações automáticas de backup.
+- `npm run check:browser`: Edge instalado, com perfil isolado, HTTP local e interface de 360 px. Exercita IndexedDB real, recarga, descanso independente, conclusão, histórico, exportação/restauração manual, gráficos e ausência de rolagem horizontal. Gera capturas das telas para inspeção visual.
 
-O teste de navegador é opcional e não instala software. Por padrão usa o Edge no Windows; `GYMROOK_BROWSER` permite informar outro executável Chromium instalado. Os artefatos e o perfil de teste ficam em `output/browser-qa/`, ignorado pelo Git. Não houve teste em aparelhos físicos Android/iPhone nem autorização de um arquivo externo em uma interface real.
+O teste de navegador é opcional e não instala software. Por padrão usa o Edge no Windows; `GYMROOK_BROWSER` permite informar outro executável Chromium instalado. Os artefatos e o perfil de teste ficam em `output/browser-qa/`, ignorado pelo Git. Não houve teste em aparelhos físicos Android/iPhone.

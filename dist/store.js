@@ -4,7 +4,6 @@
   const DB_NAME = 'gymrook-personal';
   const DB_VERSION = 1;
   const TABLE = 'records';
-  const BACKUP_FILE = 'gymrook-backup.json';
   const MAX_SETS = 30;
   const MAX_RECORDS = 50000;
   const validExercises = new Set(Object.keys(window.GYMROOK_DATA?.exercises || {}));
@@ -21,10 +20,8 @@
   let state = blankState();
   let database;
   let queue = Promise.resolve();
-  let externalFile = null;
   let channel = null;
   let initializationError = null;
-  let backup = {date: null, updatedAt: null, storage: null, externalSupported: typeof window.showSaveFilePicker === 'function', externalConnected: false, externalPermission: 'unavailable', externalDate: null, externalUpdatedAt: null, error: null};
 
   function notify() { for (const listener of listeners) { try { listener(); } catch (error) { console.error(error); } } }
   function object(value) { return value && typeof value === 'object' && !Array.isArray(value); }
@@ -141,114 +138,38 @@
     });
   }
   function envelope(snapshot) { return JSON.stringify({app: 'GymRook', formatVersion: 1, exportedAt: now(), state: snapshot}, null, 2); }
-  async function permission() {
-    if (!externalFile) return 'unavailable';
-    try { return await externalFile.queryPermission({mode: 'readwrite'}); } catch { return 'prompt'; }
-  }
-  async function writeFile(handle, json) {
-    const writable = await handle.createWritable();
-    try { await writable.write(json); await writable.close(); }
-    catch (error) { try { await writable.abort(); } catch { /* Original error is more useful. */ } throw error; }
-  }
-  async function syncBackupMetadata() {
-    const storedBackup = await readRecord('daily-backup');
-    const metadata = await readRecord('backup-meta');
-    externalFile = await readRecord('external-file') || null;
-    backup = {...backup, date: storedBackup?.date || null, updatedAt: storedBackup?.updatedAt || null, storage: storedBackup?.storage || null, externalConnected: Boolean(externalFile), externalPermission: await permission(), externalDate: metadata?.externalDate || null, externalUpdatedAt: metadata?.externalUpdatedAt || null};
-  }
-  function lease(owner, release = false) {
-    return new Promise((resolve, reject) => {
-      const transaction = database.transaction(TABLE, 'readwrite');
-      const records = transaction.objectStore(TABLE);
-      const request = records.get('backup-lease');
-      let acquired = false;
-      request.onsuccess = () => {
-        const current = request.result;
-        if (release) {
-          if (current?.owner === owner) records.put(null, 'backup-lease');
-        } else if (!current || current.expiresAt <= Date.now()) {
-          records.put({owner, expiresAt: Date.now() + 15000}, 'backup-lease');
-          acquired = true;
-        }
-      };
-      transaction.oncomplete = () => resolve(acquired);
-      transaction.onabort = transaction.onerror = () => reject(transaction.error || new Error('Não foi possível acessar o backup diário.'));
-    });
-  }
-  async function backupLock(operation) {
-    if (navigator.locks?.request) return navigator.locks.request('gymrook-daily-backup', operation);
-    // Older browsers still serialize file writes across tabs using a short-lived
-    // IDB lease. An interrupted tab releases it automatically after expiry.
-    const owner = `${Date.now()}-${Math.random().toString(36).slice(2)}`;
-    for (let attempt = 0; attempt < 100; attempt++) {
-      if (await lease(owner)) {
-        try { return await operation(); }
-        finally { await lease(owner, true); }
-      }
-      await new Promise(resolve => setTimeout(resolve, 25));
-    }
-    throw new Error('Outro treino está atualizando o backup. Tente novamente em alguns segundos.');
-  }
-  async function refreshBackup(activate = false) {
-    const operation = async () => {
-      // Another tab may have chosen a new file or updated its metadata.
-      await syncBackupMetadata();
-      const existing = await readRecord('daily-backup');
-      if (!activate && !existing) return;
-      const snapshot = await readRecord('state');
-      const json = envelope(snapshot || state);
-      const date = localDate();
-      const updatedAt = now();
-      let storage = 'indexeddb';
-      let opfsError = null;
+  async function cleanupLegacyBackups() {
+    const keys = ['daily-backup', 'backup-meta', 'external-file', 'backup-lease'];
+    try {
+      const previous = await Promise.all(keys.map(readRecord));
+      if (!previous.some(value => value !== undefined)) return;
+      // Only the app's obsolete private copy is removed. A linked user file is
+      // never opened, changed or deleted, and fresh profiles never access OPFS.
       if (navigator.storage?.getDirectory) {
         try {
           const directory = await navigator.storage.getDirectory();
-          const file = await directory.getFileHandle(BACKUP_FILE, {create: true});
-          await writeFile(file, json);
-          storage = 'opfs';
-        } catch (error) { opfsError = error; }
+          await directory.removeEntry('gymrook-backup.json');
+        } catch { /* Legacy cleanup must not prevent access to workout records. */ }
       }
-      // This is a separate recovery snapshot, never a growing collection of files.
-      await writeRecords({'daily-backup': {date, updatedAt, json, storage}});
-      backup = {...backup, date, updatedAt, storage, error: null};
-      if (externalFile) {
-        backup.externalPermission = await permission();
-        if (backup.externalPermission === 'granted') {
-          try {
-            await writeFile(externalFile, json);
-            backup.externalDate = date;
-            backup.externalUpdatedAt = updatedAt;
-          } catch {
-            backup.error = 'O backup local foi salvo, mas não foi possível atualizar o arquivo vinculado.';
-          }
-        } else {
-          backup.error = 'O backup local foi salvo. Toque em autorizar para voltar a atualizar o arquivo vinculado.';
-        }
-      }
-      // OPFS failure is recoverable: the independently stored IDB snapshot remains available.
-      if (opfsError && storage === 'indexeddb') backup.storage = 'indexeddb';
-      await writeRecords({'backup-meta': {externalDate: backup.externalDate, externalUpdatedAt: backup.externalUpdatedAt}});
-    };
-    try {
-      await backupLock(operation);
-    } catch {
-      backup.error = 'O treino foi salvo, mas o backup diário não pôde ser atualizado. Exporte uma cópia.';
-    }
-    notify();
-    channel?.postMessage({type: 'changed'});
+      await new Promise((resolve, reject) => {
+        const transaction = database.transaction(TABLE, 'readwrite');
+        const records = transaction.objectStore(TABLE);
+        keys.forEach(key => records.delete(key));
+        transaction.oncomplete = resolve;
+        transaction.onabort = transaction.onerror = () => reject(transaction.error);
+      });
+    } catch { /* Best effort: keep the main state untouched if cleanup fails. */ }
   }
   function enqueue(operation, allowRecovery = false) {
     const task = queue.then(() => allowRecovery && database && initializationError ? undefined : api.ready).then(operation);
     queue = task.catch(() => {});
     return task;
   }
-  function mutate(change, activateBackup = false) {
+  function mutate(change) {
     return enqueue(async () => {
       const result = await changeState(change);
       notify();
       channel?.postMessage({type: 'changed'});
-      await refreshBackup(activateBackup);
       return result;
     });
   }
@@ -263,7 +184,6 @@
     getInitializationError: () => initializationError?.message || null,
     validateBackup: json => copy(validateBackup(json)),
     subscribe: listener => { listeners.add(listener); return () => listeners.delete(listener); },
-    backupStatus: () => copy(backup),
     startSession: (workoutId, ids) => mutate(snapshot => {
       if (!workoutIds.has(workoutId)) fail('Ficha não encontrada.');
       if (active(snapshot)) fail('Já existe um treino em andamento. Finalize-o antes de iniciar outro.');
@@ -276,7 +196,7 @@
       for (const id of new Set(requested)) { exerciseId(id); const entry = currentSeries(snapshot, id); session.exercises[id] = {weights: entry.weights, reps: entry.reps, completed: entry.reps.map(() => false)}; }
       snapshot.sessions.push(session);
       return session;
-    }, true),
+    }),
     toggleRest: () => mutate(snapshot => {
       const session = active(snapshot);
       if (!session) fail('Inicie um treino antes de marcar descanso.');
@@ -321,7 +241,6 @@
       return item;
     }),
     exportBackup: () => enqueue(async () => { state = (await readRecord('state')) || state; return envelope(state); }),
-    getDailyBackup: () => enqueue(async () => (await readRecord('daily-backup'))?.json || null, true),
     importBackup: json => {
       let replacement;
       try { replacement = validateBackup(json); }
@@ -334,35 +253,9 @@
         state = next;
         if (initializationError) { initializationError = null; api.ready = Promise.resolve(); }
         notify();
-        await refreshBackup(true);
+        channel?.postMessage({type: 'changed'});
         return copy(state);
       }, true);
-    },
-    connectBackupFile: () => {
-      if (typeof window.showSaveFilePicker !== 'function') return Promise.reject(new Error('Este navegador não permite vincular um arquivo. Use Exportar backup para salvar em Downloads ou Arquivos.'));
-      // Open synchronously in the click handler, before any awaited IndexedDB operation.
-      let picker;
-      try { picker = window.showSaveFilePicker({suggestedName: BACKUP_FILE, types: [{description: 'Backup GymRook', accept: {'application/json': ['.json']}}]}); }
-      catch (error) { return Promise.reject(error); }
-      return picker.then(handle => enqueue(async () => {
-        await writeRecords({'external-file': handle});
-        externalFile = handle;
-        backup.externalConnected = true;
-        backup.externalPermission = await permission();
-        await refreshBackup(true);
-        return api.backupStatus();
-      }));
-    },
-    requestBackupPermission: () => {
-      if (!externalFile?.requestPermission) return Promise.reject(new Error('Vincule um arquivo de backup primeiro.'));
-      let request;
-      try { request = externalFile.requestPermission({mode: 'readwrite'}); } catch (error) { return Promise.reject(error); }
-      return request.then(result => enqueue(async () => {
-        backup.externalPermission = result;
-        if (result === 'granted') await refreshBackup(true);
-        else { backup.error = 'A autorização não foi concedida. O backup diário local continua disponível.'; notify(); }
-        return api.backupStatus();
-      }));
     }
   };
   window.GYMROOK_STORE = api;
@@ -375,9 +268,8 @@
     request.onsuccess = async () => {
       try {
         database = request.result;
-        database.onversionchange = () => { database.close(); backup.error = 'Uma atualização dos dados está disponível. Reabra o GymRook.'; notify(); };
-        // Recovery information remains available even if the main state fails validation.
-        await syncBackupMetadata();
+        database.onversionchange = () => { database.close(); initializationError = new Error('Uma atualização dos dados está disponível. Reabra o GymRook.'); notify(); };
+        await cleanupLegacyBackups();
         const saved = await readRecord('state');
         state = saved ? validateState(saved) : blankState();
         // Re-read inside a write transaction so simultaneous first opens cannot
@@ -387,11 +279,10 @@
           channel = new BroadcastChannel('gymrook-personal');
           channel.onmessage = () => enqueue(async () => {
             state = validateState(await readRecord('state'));
-            await syncBackupMetadata();
             notify();
-          }).catch(error => { backup.error = error.message; notify(); });
+          }).catch(error => { initializationError = error; notify(); });
         }
-        window.addEventListener('focus', () => enqueue(async () => { const latest = await readRecord('state'); if (latest) state = validateState(latest); await syncBackupMetadata(); notify(); }).catch(() => {}));
+        window.addEventListener('focus', () => enqueue(async () => { const latest = await readRecord('state'); if (latest) state = validateState(latest); notify(); }).catch(() => {}));
         if (navigator.storage?.persist) navigator.storage.persist().catch(() => {});
         resolve();
       } catch (error) { initializationError = error; reject(error); }

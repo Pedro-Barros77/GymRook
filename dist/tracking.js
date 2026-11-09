@@ -12,7 +12,6 @@
   let loadError = '';
   let refresh = () => {};
   let lastActive = null;
-  let backupWarning = '';
   const duration = (start, now = Date.now()) => {
     const seconds = Math.max(0, Math.floor((now - new Date(start).getTime()) / 1000));
     const hours = Math.floor(seconds / 3600);
@@ -235,14 +234,11 @@
     setTimeout(() => URL.revokeObjectURL(url), 30000);
   }
   function backupContent() {
-    const info = store.backupStatus();
-    const timestamp = info.updatedAt ? new Date(info.updatedAt).toLocaleString('pt-BR') : '';
-    const externalTimestamp = info.externalUpdatedAt ? new Date(info.externalUpdatedAt).toLocaleString('pt-BR') : '';
-    return `<div class="backup-card"><h2>Backup diário automático</h2><p class="backup-state">${info.date ? `Última cópia: ${esc(timestamp)}` : 'A primeira cópia será criada ao iniciar um treino.'}</p><p>Uma única cópia é mantida neste aparelho. Ao iniciar um treino em outro dia, ela é substituída pelos dados atuais. Durante o dia, acompanha as alterações salvas.</p><p class="backup-warning">Essa cópia fica no armazenamento privado do app. Limpar os dados do site também pode apagá-la. Exporte um arquivo para guardar uma cópia fora do navegador.</p>${info.error ? `<p class="backup-error" role="status">${esc(info.error)}</p>` : ''}<div class="backup-actions"><button type="button" class="button button-dark" id="backup-export">Exportar dados atuais</button><button type="button" class="button button-light" id="backup-daily" ${!info.date ? 'disabled' : ''}>Baixar cópia diária</button></div></div><div class="backup-card"><h2>Arquivo vinculado</h2>${info.externalSupported ? `<p>Escolha um arquivo uma vez para permitir a atualização automática da mesma cópia enquanto o navegador mantiver a autorização.</p><p>${info.externalConnected ? `Arquivo vinculado. ${info.externalPermission === 'granted' ? `Última gravação: ${esc(externalTimestamp || 'aguardando')}.` : 'A gravação precisa de autorização novamente.'}` : 'Nenhum arquivo vinculado.'}</p><div class="backup-actions"><button type="button" class="button button-light" id="backup-connect">${info.externalConnected ? 'Escolher outro arquivo' : 'Vincular arquivo'}</button>${info.externalConnected && info.externalPermission !== 'granted' ? '<button type="button" class="button button-dark" id="backup-permission">Autorizar gravação</button>' : ''}</div>` : '<p>Este navegador não permite vincular e sobrescrever automaticamente um arquivo em Downloads. Use a cópia diária interna e o botão de exportar para salvar em Downloads ou Arquivos.</p>'}</div><div class="backup-card"><h2>Restaurar um backup</h2><p>Importe um arquivo JSON exportado pelo GymRook. A restauração substitui seus registros e inclui o treino em andamento, caso exista no arquivo.</p><label class="button button-light backup-import-label" for="backup-import">Escolher arquivo de backup</label><input id="backup-import" class="backup-file-input" type="file" accept="application/json,.json"><p id="backup-import-status" role="status"></p></div><p class="backup-footnote">Seus registros ficam apenas neste aparelho e navegador. Não são enviados ao GitHub nem sincronizados com outras pessoas.</p>`;
+    return '<div class="backup-card"><h2>Exportar backup</h2><p>Salve um arquivo JSON com seus treinos, séries, cargas e progressão. Você pode guardá-lo em Downloads ou Arquivos e usá-lo para restaurar seus registros ou transferi-los para outro aparelho.</p><p>O backup é manual. Exporte uma nova cópia quando quiser atualizar o arquivo. Limpar os dados do site pode apagar seus registros neste navegador.</p><button type="button" class="button button-dark" id="backup-export">Exportar dados atuais</button></div><div class="backup-card"><h2>Restaurar um backup</h2><p>Importe um arquivo JSON exportado pelo GymRook. A restauração substitui seus registros e inclui o treino em andamento, caso exista no arquivo.</p><label class="button button-light backup-import-label" for="backup-import">Escolher arquivo de backup</label><input id="backup-import" class="backup-file-input" type="file" accept="application/json,.json"><p id="backup-import-status" role="status"></p></div><p class="backup-footnote">Seus registros ficam apenas neste aparelho e navegador. Não são enviados ao GitHub nem sincronizados com outras pessoas.</p>';
   }
   function renderBackup(main) {
     const recovery = !loaded && store.canRestore?.();
-    const recoveryContent = `<p class="backup-error">${esc(loadError)}</p><div class="backup-card"><h2>Restaurar um backup</h2><p>O armazenamento está acessível, mas os registros não puderam ser lidos. Você pode restaurar um arquivo JSON exportado pelo GymRook.</p>${store.backupStatus().date ? '<p><button type="button" class="button button-light" id="backup-daily">Baixar cópia diária</button></p>' : ''}<label class="button button-light backup-import-label" for="backup-import">Escolher arquivo de backup</label><input id="backup-import" class="backup-file-input" type="file" accept="application/json,.json"><p id="backup-import-status" role="status"></p></div>`;
+    const recoveryContent = `<p class="backup-error">${esc(loadError)}</p><div class="backup-card"><h2>Restaurar um backup</h2><p>O armazenamento está acessível, mas os registros não puderam ser lidos. Você pode restaurar um arquivo JSON exportado pelo GymRook.</p><label class="button button-light backup-import-label" for="backup-import">Escolher arquivo de backup</label><input id="backup-import" class="backup-file-input" type="file" accept="application/json,.json"><p id="backup-import-status" role="status"></p></div>`;
     main.innerHTML = `<div class="container tracking-page"><div class="page-top"><h1>Seus dados</h1></div>${loaded ? backupContent() : recovery ? recoveryContent : `<p>${esc(loadError || 'Carregando registros…')}</p>`}</div>`;
     if (!loaded && !recovery) return;
     const exportButton = document.getElementById('backup-export');
@@ -251,23 +247,6 @@
       download(await store.exportBackup());
       announce('Arquivo preparado. Confira o download ou salve em Arquivos.');
     }));
-    const daily = document.getElementById('backup-daily');
-    daily?.addEventListener('click', () => act(daily, async () => {
-      const json = await store.getDailyBackup();
-      if (!json) throw new Error('Ainda não há uma cópia diária.');
-      download(json, 'gymrook-backup-diario.json');
-    }));
-    const connect = document.getElementById('backup-connect');
-    if (connect) connect.addEventListener('click', () => {
-      // Start the picker synchronously from the user gesture, before awaiting anything.
-      const operation = store.connectBackupFile();
-      act(connect, async () => { await operation; renderBackup(main); });
-    });
-    const permission = document.getElementById('backup-permission');
-    if (permission) permission.addEventListener('click', () => {
-      const operation = store.requestBackupPermission();
-      act(permission, async () => { await operation; renderBackup(main); });
-    });
     document.getElementById('backup-import').addEventListener('change', async event => {
       const file = event.target.files?.[0];
       if (!file) return;
@@ -309,12 +288,6 @@
   });
   store.subscribe(() => {
     if (!loaded) return;
-    const warning = store.backupStatus().error || '';
-    const warningBanner = document.getElementById('backup-warning');
-    if (warningBanner) { warningBanner.hidden = !warning; warningBanner.textContent = warning; }
-    if (warning && warning !== backupWarning) announce(warning, true);
-    else if (!warning && backupWarning && document.getElementById('tracking-status')?.textContent === backupWarning) announce('Backup diário atualizado.');
-    backupWarning = warning;
     renderBar();
     document.querySelectorAll('[data-series-exercise]').forEach(card => {
       if (!edits.has(card.dataset.seriesExercise)) repaintSeries(card);

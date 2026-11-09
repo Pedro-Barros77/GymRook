@@ -35,10 +35,16 @@ async function browserTest() {
     let store = win().GYMROOK_STORE;
     check(win().GYMROOK_TRACKING.isReady(), 'Real IndexedDB initialized');
     check(doc().querySelector('#start-workout'), 'Start button rendered');
+    check(doc().querySelectorAll('[data-series-exercise]').length === 0, 'Workout listing remains compact without series controls');
     const id = 'incline-dumbbell-press';
     doc().querySelector('#start-workout').click();
     await wait(() => store.getActiveSession() && doc().querySelector('#finish-workout'));
     const startedAt = store.getActiveSession().startedAt;
+    await route('#exercise/' + id);
+    check(doc().querySelectorAll('[data-series-exercise]').length === 1, 'Series card appears only for the opened exercise');
+    const how = [...doc().querySelectorAll('h2')].find(heading => heading.textContent === 'Como fazer.');
+    check(Boolean(how.compareDocumentPosition(card(id)) & 4), 'Personal series follow Como fazer');
+    check([...doc().querySelectorAll('main section')].at(-1) === card(id) && Boolean(card(id).compareDocumentPosition(doc().querySelector('.detail-nav-bottom')) & 4), 'Series are the final content before bottom navigation');
     action(id, 'edit');
     type(card(id).querySelector('[data-field="weight"]'), '20,5');
     type(card(id).querySelector('[data-field="reps"]'), '12');
@@ -70,13 +76,15 @@ async function browserTest() {
     const exported = await store.exportBackup();
     const snapshot = JSON.parse(exported);
     check(snapshot.state.sessions[0].exercises[id].weights[0] === 20.5, 'Finished session keeps load snapshot');
-    const daily = JSON.parse(await store.getDailyBackup());
-    check(daily.state.sessions[0].endedAt, 'Daily backup includes finished session');
+    check(typeof store.getDailyBackup === 'undefined' && typeof store.connectBackupFile === 'undefined', 'Automatic and linked backup features removed');
     if (win().navigator.storage?.getDirectory) {
       const dir = await win().navigator.storage.getDirectory();
-      const file = await dir.getFileHandle('gymrook-backup.json');
-      check(JSON.parse(await (await file.getFile()).text()).state.sessions[0].endedAt, 'Actual OPFS backup file written');
+      let hasSnapshot = false;
+      try { await dir.getFileHandle('gymrook-backup.json'); hasSnapshot = true; } catch (error) { if (error.name !== 'NotFoundError') throw error; }
+      check(!hasSnapshot, 'No automatic snapshot file created during workout');
     }
+    await route('#backup');
+    check(doc().querySelector('#backup-export') && doc().querySelector('#backup-import') && !doc().querySelector('#backup-daily') && !doc().querySelector('#backup-connect'), 'Backup screen offers manual export and import only');
     await store.updateExercise(id, {weights: [30], reps: [8, 8, 8]});
     check(store.getState().sessions[0].exercises[id].reps[0] === 12, 'Editing after finish preserves session history');
     await store.importBackup(exported);
@@ -123,8 +131,9 @@ const server = http.createServer(async (request, response) => {
     }
     if (url.pathname === '/__qa') { response.writeHead(200, {'Content-Type':'text/html; charset=utf-8'}).end(qa); return; }
     if (url.pathname === '/__preview') {
-      const routes = {workout:'#workout/A',history:'#history',progression:'#progression/incline-dumbbell-press',backup:'#backup'};
-      const html = page(routes[url.searchParams.get('view')] || routes.progression, `(async()=>{const frame=document.querySelector('iframe');while(!frame.contentWindow.GYMROOK_TRACKING?.isReady()){await fetch('/__tick');}})();`);
+      const routes = {workout:'#workout/A',detail:'#exercise/incline-dumbbell-press',history:'#history',progression:'#progression/incline-dumbbell-press',backup:'#backup'};
+      const view = url.searchParams.get('view');
+      const html = page(routes[view] || routes.progression, `(async()=>{const frame=document.querySelector('iframe');while(!frame.contentWindow.GYMROOK_TRACKING?.isReady()){await fetch('/__tick');}${view === 'detail' ? "await fetch('/__tick');const reveal=()=>{frame.contentDocument.documentElement.style.scrollBehavior='auto';frame.contentWindow.scrollTo({top:100000,behavior:'instant'});};reveal();setInterval(reveal,50);" : ''}})();`);
       response.writeHead(200, {'Content-Type':'text/html; charset=utf-8'}).end(html); return;
     }
     const file = path.resolve(root, '.' + (url.pathname === '/' ? '/index.html' : decodeURIComponent(url.pathname)));
@@ -147,7 +156,7 @@ try {
   const stopped = new Promise(resolve => child.once('exit', resolve));
   child.kill();
   await Promise.race([stopped, new Promise(resolve => setTimeout(resolve, 5000))]);
-  for (const view of ['workout','history','progression','backup']) {
+  for (const view of ['workout','detail','history','progression','backup']) {
     const target = path.join(output, `mobile-${view}.png`);
     const capture = spawn(browser, ['--headless=new', '--disable-gpu', '--no-first-run', `--user-data-dir=${profile}`, '--window-size=520,1000', '--hide-scrollbars', '--virtual-time-budget=2000', `--screenshot=${target}`, `http://127.0.0.1:${port}/__preview?view=${view}`], {stdio:'ignore', windowsHide:true});
     await Promise.race([new Promise(resolve => capture.once('exit', resolve)), new Promise(resolve => setTimeout(resolve, 10000))]);
