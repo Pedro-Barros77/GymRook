@@ -39,9 +39,9 @@ button:focus-visible,a:focus-visible { outline:3px solid #879f42; outline-offset
 .workout-head p { margin:5px 0 0; color:var(--muted); font-size:13px; }
 .blocks { display:grid; gap:14px; }
 .exercise-group { display:grid; gap:10px; min-width:0; }
-.combined-group { padding:13px; border:1px solid #ccd6c4; border-radius:14px; background:#eaf0e2; }
+.combined-group { padding:13px; border:1px solid #c4d4e3; border-radius:14px; background:#e8eff7; }
 .group-label { padding:0 2px 2px; font-size:12px; font-weight:750; }
-.group-label span { color:#52604d; font-weight:400; }
+.group-label span { color:#52677b; font-weight:400; }
 .exercise-card { display:grid; grid-template-columns:128px minmax(0,1fr); gap:20px; align-items:center; min-width:0; padding:14px; background:var(--card); border:1px solid #bdc9b5; border-radius:12px; text-decoration:none; transition:border-color .15s,box-shadow .15s; }
 .exercise-card:hover { border-color:#728c5e; box-shadow:0 2px 10px #17241e0b; }
 .exercise-photo { width:128px; height:128px; border-radius:8px; overflow:hidden; background:#f3f2ed; }

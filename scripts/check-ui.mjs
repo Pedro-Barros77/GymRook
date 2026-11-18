@@ -40,6 +40,7 @@ export class Element {
   set className(value) { this.setAttribute('class', value); }
   get value() {
     if (this._value !== undefined) return this._value;
+    if (this.tagName === 'textarea') return this.textContent;
     if (this.tagName === 'select') {
       const options = this.querySelectorAll('option');
       return (options.find(option => option.hasAttribute('selected')) || options[0])?.getAttribute('value') || '';
@@ -141,6 +142,7 @@ export class Element {
     if (this.disabled) return;
     const event = this.dispatch('click');
     if (this.tagName === 'a' && !event.defaultPrevented && this.getAttribute('href')?.startsWith('#')) this.ownerDocument.location.hash = this.getAttribute('href');
+    if (this.tagName === 'button' && this.getAttribute('type') === 'submit' && !event.defaultPrevented) this.closest('form')?.dispatch('submit');
   }
   focus() { this.ownerDocument.activeElement = this; }
   async play() {
@@ -152,7 +154,7 @@ export class Element {
   }
   pause() { this.paused = true; this.pauseCalls++; this.dispatch('pause'); }
   showModal() { this.open = true; }
-  close() { this.open = false; }
+  close() { this.open = false; this.dispatch('close'); }
 }
 
 function parse(html, document) {

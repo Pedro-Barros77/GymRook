@@ -29,6 +29,16 @@
 .history-session-facts { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:15px 12px; margin:18px 0; }
 .history-session-facts dt { color:var(--muted); font-size:11px; }
 .history-session-facts dd { margin:2px 0 0; font-size:14px; font-weight:650; }
+.history-time-editor { min-width:0; margin:0 0 16px; padding:15px; border:1px solid #bdc9b5; border-radius:10px; background:#f2f5eb; }
+.history-time-editor h4 { margin:0; font-size:15px; }
+.history-time-editor>p { margin:5px 0 12px; color:var(--muted); font-size:12px; }
+.history-time-fields { display:grid; gap:12px; min-width:0; }
+.history-time-fields label { display:flex; flex-direction:column; gap:5px; min-width:0; font-size:12px; font-weight:650; }
+.history-time-fields input { box-sizing:border-box; display:block; width:100%; min-width:0; max-width:100%; min-height:46px; padding:8px; border:1px solid #aebbaa; border-radius:7px; background:var(--card); color:var(--ink); font:16px var(--sans); }
+.history-time-fields input:focus-visible { outline:3px solid #879f42; outline-offset:3px; }
+.history-time-fields input[aria-invalid=true] { border-color:#b03f32; background:#fff4f0; }
+.history-time-fields input:disabled { opacity:.65; }
+.history-time-editor .history-time-error { margin:10px 0 0; color:#8e3027; overflow-wrap:anywhere; }
 .history-session-details { border-top:1px solid var(--line); padding-top:7px; }
 .history-session-details summary { min-height:44px; padding:10px 0; cursor:pointer; font-size:13px; font-weight:650; }
 .history-session-details>ul { padding:0; margin:8px 0 0; list-style:none; }
@@ -39,6 +49,9 @@
 .history-set-list { padding:0; margin:8px 0 0; list-style:none; }
 .history-set-list li { display:flex; gap:7px; margin:5px 0; color:#536054; font-size:12px; }
 .history-set-state { width:14px; flex:none; color:#506c2c; font-weight:750; }
+.history-exercise-notes { margin:12px 0 0; padding:10px 12px; border-left:3px solid #9cad80; border-radius:0 7px 7px 0; background:#f0f3e8; }
+.history-exercise-notes h4 { margin:0 0 5px; font-size:11px; font-weight:750; color:#53644b; }
+.history-exercise-notes p { margin:0; white-space:pre-wrap; overflow-wrap:anywhere; color:#536054; font-size:12px; }
 .history-empty { padding:20px; border:1px dashed #bdc9b5; border-radius:10px; color:var(--muted); font-size:13px; }
 .history-empty p { margin:0 0 12px; }
 .history-empty p:last-child { margin-bottom:0; }

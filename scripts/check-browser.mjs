@@ -47,18 +47,35 @@ async function browserTest() {
     check(doc().querySelector('#finish-workout svg') && red(doc().querySelector('#finish-workout')), 'Finish button has red styling and a stop SVG');
     const startedAt = store.getActiveSession().startedAt;
     await route('#exercise/' + id);
+    const summary = location => doc().querySelector(`[data-exercise-progress="${id}"][data-progress-location="${location}"]`);
+    check(/0\s*(?:\/|de)\s*3/.test(summary('detail')?.textContent || ''), 'Detail header starts with zero completed sets');
+    check(!doc().querySelector('#finish-workout-top'), 'Top finish control is absent on non-final exercise');
     check(doc().querySelectorAll('[data-series-exercise]').length === 1, 'Series card appears only for the opened exercise');
     const how = [...doc().querySelectorAll('h2')].find(heading => heading.textContent === 'Como fazer.');
     check(Boolean(how.compareDocumentPosition(card(id)) & 4), 'Personal series follow Como fazer');
-    check([...doc().querySelectorAll('main section')].at(-1) === card(id) && Boolean(card(id).compareDocumentPosition(doc().querySelector('.detail-nav-bottom')) & 4), 'Series are the final content before bottom navigation');
+    const notes = doc().querySelector('#exercise-notes');
+    check([...doc().querySelectorAll('main section')].at(-1) === notes && Boolean(card(id).compareDocumentPosition(notes) & 4) && Boolean(notes.compareDocumentPosition(doc().querySelector('.detail-nav-bottom')) & 4) && notes.querySelectorAll('textarea').length === 2, 'Both note fields follow series as the final content before bottom navigation');
     action(id, 'edit');
     type(card(id).querySelector('[data-field="weight"]'), '20,5');
     type(card(id).querySelector('[data-field="reps"]'), '12');
     action(id, 'done');
     await wait(() => store.getExercise(id).weights[0] === 20.5 && !card(id).querySelector('input'));
     check(store.getExercise(id).weights.length === 1, 'Decimal load and optional blank weights saved');
+    const privateText = 'Banco 3 <script>window.noteInjected=true</script>\nControle & postura';
+    const sessionText = 'Última série: esforço 8/10\nSem impulso hoje.';
+    const progressionBeforeNotes = store.getState().progression.length;
+    type(doc().querySelector('#exercise-private-note'), privateText);
+    type(doc().querySelector('#exercise-session-note'), sessionText);
+    await route('#exercise/high-cable-crossover');
+    check(store.getExerciseNote(id) === privateText && store.getActiveSession().exercises[id].notes === sessionText, 'Fast exercise navigation flushes private and session notes');
+    check(store.getState().progression.length === progressionBeforeNotes, 'Notes do not create load progression points');
+    await route('#exercise/' + id);
+    check(doc().querySelector('#exercise-private-note').value === privateText && !win().noteInjected, 'Private notes render escaped literal text');
     action(id, 'complete');
     await wait(() => store.getActiveSession().exercises[id].completed[0]);
+    check(/1\s*(?:\/|de)\s*3/.test(summary('detail')?.textContent || '') && !summary('detail').classList.contains('is-complete'), 'Partial completion remains neutral in detail header');
+    for (let index = 1; index < 3; index++) { card(id).querySelectorAll('[data-series-action="complete"]')[index].click(); await wait(() => store.getActiveSession().exercises[id].completed[index]); }
+    check(summary('detail').classList.contains('is-complete'), 'Completed exercise turns header summary green');
     doc().querySelector('#rest-toggle').click();
     await wait(() => store.getActiveSession().restStartedAt);
     const restedAt = store.getActiveSession().restStartedAt;
@@ -68,7 +85,11 @@ async function browserTest() {
     store = win().GYMROOK_STORE;
     check(store.getActiveSession().startedAt === startedAt && store.getActiveSession().restStartedAt === restedAt, 'Session and rest restored after real page reload');
     check(store.getActiveSession().exercises[id].completed[0], 'Completed set persisted across reload');
+    check(doc().querySelector('#exercise-private-note').value === privateText && doc().querySelector('#exercise-session-note').value === sessionText, 'Both note scopes persist after a real page reload');
     await route('#workout/A');
+    check(doc().querySelector(`[data-exercise="${id}"]`).classList.contains('is-completed') && /3\s*(?:\/|de)\s*3/.test(summary('list')?.textContent || ''), 'Active workout list shows completed exercise count and green card');
+    const groupColor = channels(win().getComputedStyle(doc().querySelector('.combined-group')).backgroundColor);
+    check(groupColor[2] > groupColor[0] && groupColor[2] > groupColor[1], 'Conjugated group background is blue');
     doc().querySelector('[data-workout="B"]').click();
     check(win().location.hash === '#workout/B', 'Workout tab keeps URL aligned with visible workout');
     doc().querySelector('.session-return').click();
@@ -76,12 +97,48 @@ async function browserTest() {
     check(store.getActiveSession().workoutId === 'A', 'Sticky resume link returns from another workout tab');
     doc().querySelector('#rest-toggle').click();
     await wait(() => store.getActiveSession().restStartedAt === null);
-    doc().querySelector('#finish-workout').click();
+    const lastId = win().GYMROOK_DATA.workouts[0].blocks.flatMap(block => block.exerciseIds).at(-1);
+    await route('#exercise/' + lastId);
+    check(doc().querySelector('#finish-workout-top'), 'Last exercise exposes a top finish control');
+    doc().querySelector('#finish-workout-top').click();
+    check(doc().querySelector('#finish-dialog').open && store.getActiveSession(), 'Top finish opens a native confirmation dialog');
+    doc().dispatchEvent(new (win().KeyboardEvent)('keydown', {key: 'Escape', bubbles: true}));
+    check(win().location.hash === '#exercise/' + lastId, 'Escape handler keeps the exercise route while finish dialog is open');
+    doc().querySelector('#finish-cancel').click();
+    check(!doc().querySelector('#finish-dialog').open && store.getActiveSession(), 'Canceling finish preserves the active session');
+    doc().querySelector('#finish-workout-top').click();
+    doc().querySelector('#finish-confirm').click();
     await wait(() => win().location.hash === '#history' && doc().querySelector('.history-session'));
     check(!store.getActiveSession() && doc().querySelector('.history-calendar-day.has-workout'), 'Finished session visible in calendar');
+    check(doc().querySelector('.history-exercise-notes p')?.textContent === sessionText, 'Finalized workout history displays saved session notes');
     const exported = await store.exportBackup();
     const snapshot = JSON.parse(exported);
     check(snapshot.state.sessions[0].exercises[id].weights[0] === 20.5, 'Finished session keeps load snapshot');
+    const longHistory = JSON.parse(exported);
+    const longSession = longHistory.state.sessions[0];
+    longSession.endedAt = new Date().toISOString();
+    longSession.startedAt = new Date(new Date(longSession.endedAt).getTime() - 58 * 3600000).toISOString();
+    await store.importBackup(JSON.stringify(longHistory));
+    await route('#workout/A'); await route('#history');
+    check(doc().querySelector('.history-session').textContent.includes('58h'), 'History displays a 58-hour session without wrapping duration');
+    const localInput = date => `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}T${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}:00`;
+    const correctedStart = new Date(); correctedStart.setHours(9, 0, 0, 0);
+    const correctedEnd = new Date(correctedStart.getTime() + 3600000);
+    const editTimes = () => doc().querySelector('[data-edit-session="' + longSession.id + '"]').click();
+    const timeField = key => doc().querySelector('[data-session-times="' + longSession.id + '"] [data-session-time="' + key + '"]');
+    editTimes();
+    timeField('startedAt').value = localInput(correctedStart);
+    timeField('endedAt').value = localInput(correctedEnd);
+    doc().querySelector('[data-cancel-session-times="' + longSession.id + '"]').click();
+    check(store.getState().sessions[0].startedAt === longSession.startedAt, 'Canceling history time correction preserves original timestamps');
+    editTimes();
+    timeField('startedAt').value = localInput(correctedStart);
+    timeField('endedAt').value = localInput(correctedEnd);
+    doc().querySelector('[data-save-session-times="' + longSession.id + '"]').click();
+    await wait(() => store.getState().sessions[0].startedAt === correctedStart.toISOString() && !doc().querySelector('[data-session-times]'));
+    check(doc().querySelector('.history-session').textContent.includes('1h 00min'), 'Corrected history duration and selected calendar day update');
+    check(store.getState().sessions[0].exercises[id].notes === sessionText, 'Editing session timestamps preserves exercise notes');
+    await store.importBackup(exported);
     check(typeof store.getDailyBackup === 'undefined' && typeof store.connectBackupFile === 'undefined', 'Automatic and linked backup features removed');
     if (win().navigator.storage?.getDirectory) {
       const dir = await win().navigator.storage.getDirectory();
@@ -174,7 +231,49 @@ async function browserTest() {
   }
 }
 
-const page = (route, script) => `<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>html,body{margin:0;width:100%;height:100%;background:#dedfd7}iframe{margin:auto;width:360px;max-width:100%;height:100%;border:0;display:block}</style><iframe src="/${route}"></iframe><script>${script}</script>`;
+// These previews modify only the disposable QA profile created below, giving
+// visual review access to transient states that disappear after the smoke test.
+async function previewBrowser(view) {
+  const frame = document.querySelector('iframe');
+  const wait = async predicate => { for (let index = 0; index < 400; index++) { if (predicate()) return; await fetch('/__tick'); } throw new Error('Preview did not become ready'); };
+  await wait(() => frame.contentWindow.GYMROOK_TRACKING?.isReady());
+  const win = frame.contentWindow, doc = frame.contentDocument, store = win.GYMROOK_STORE;
+  await fetch('/__tick');
+  const id = 'incline-dumbbell-press';
+  if (['active-workout', 'active-detail', 'active-notes', 'finish-confirmation'].includes(view)) {
+    const workout = win.GYMROOK_DATA.workouts.find(item => item.id === 'A');
+    const ids = workout.blocks.flatMap(block => block.exerciseIds);
+    if (!store.getActiveSession()) await store.startSession('A', ids);
+    for (let index = 0; index < store.getActiveSession().exercises[id].reps.length; index++) if (!store.getActiveSession().exercises[id].completed[index]) await store.toggleSet(id, index);
+    await store.updateExerciseNote(id, 'Banco no pino 3. Apoiar os pés e controlar a descida.');
+    await store.updateSessionExerciseNote(id, 'Última série exigiu mais esforço; mantive a postura.', store.getActiveSession().id);
+    if (view === 'finish-confirmation') {
+      await wait(() => doc.querySelector('#finish-workout-top'));
+      doc.querySelector('#finish-workout-top').click();
+    }
+  }
+  if (view === 'history-edit') {
+    if (store.getActiveSession()) await store.finishSession();
+    const session = store.getState().sessions.filter(item => item.endedAt).sort((a, b) => b.startedAt.localeCompare(a.startedAt))[0];
+    const end = new Date(), start = new Date(end.getTime() - 58 * 3600000);
+    await store.updateSessionTimes(session.id, {startedAt: start.toISOString(), endedAt: end.toISOString()});
+    win.GYMROOK_HISTORY.render(doc.getElementById('main'), '#history');
+    const date = `${start.getFullYear()}-${String(start.getMonth() + 1).padStart(2, '0')}-${String(start.getDate()).padStart(2, '0')}`;
+    for (let index = 0; index < 3 && !doc.querySelector(`[data-history-day="${date}"]`); index++) doc.querySelector('#history-month-prev').click();
+    doc.querySelector(`[data-history-day="${date}"]`).click();
+    doc.querySelector(`[data-edit-session="${session.id}"]`).click();
+  }
+  const reveal = () => {
+    doc.documentElement.style.scrollBehavior = 'auto';
+    if (view === 'detail' || view === 'active-notes') win.scrollTo({top: 100000, behavior: 'instant'});
+    else if (view === 'history-edit') doc.querySelector('.history-session').scrollIntoView({block: 'start', behavior: 'instant'});
+    else win.scrollTo({top: 0, behavior: 'instant'});
+  };
+  reveal();
+  setInterval(reveal, 50);
+}
+
+const page = (route, script) => `<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>html,body{margin:0;width:100%;height:100%;background:#dedfd7}iframe{margin:auto;width:360px;max-width:100%;height:100%;border:0;display:block}</style><iframe src="/${route}"></iframe><script>${script.replace(/<\/script/gi, '<\\/script')}</script>`;
 const qa = page('', `(${browserTest.toString()})();`);
 let reportResolve;
 const reported = new Promise(resolve => { reportResolve = resolve; });
@@ -189,9 +288,9 @@ const server = http.createServer(async (request, response) => {
     }
     if (url.pathname === '/__qa') { response.writeHead(200, {'Content-Type':'text/html; charset=utf-8'}).end(qa); return; }
     if (url.pathname === '/__preview') {
-      const routes = {workout:'#workout/A',detail:'#exercise/incline-dumbbell-press',history:'#history',progression:'#progression/incline-dumbbell-press',backup:'#backup'};
+      const routes = {workout:'#workout/A',detail:'#exercise/incline-dumbbell-press',history:'#history',progression:'#progression/incline-dumbbell-press',backup:'#backup','active-workout':'#workout/A','active-detail':'#exercise/incline-dumbbell-press','active-notes':'#exercise/incline-dumbbell-press','finish-confirmation':'#exercise/forearm-plank','history-edit':'#history'};
       const view = url.searchParams.get('view');
-      const html = page(routes[view] || routes.progression, `(async()=>{const frame=document.querySelector('iframe');while(!frame.contentWindow.GYMROOK_TRACKING?.isReady()){await fetch('/__tick');}${view === 'detail' ? "await fetch('/__tick');const reveal=()=>{frame.contentDocument.documentElement.style.scrollBehavior='auto';frame.contentWindow.scrollTo({top:100000,behavior:'instant'});};reveal();setInterval(reveal,50);" : ''}})();`);
+      const html = page(routes[view] || routes.progression, `(${previewBrowser.toString()})(${JSON.stringify(view)});`);
       response.writeHead(200, {'Content-Type':'text/html; charset=utf-8'}).end(html); return;
     }
     const file = path.resolve(root, '.' + (url.pathname === '/' ? '/index.html' : decodeURIComponent(url.pathname)));
@@ -214,7 +313,7 @@ try {
   const stopped = new Promise(resolve => child.once('exit', resolve));
   child.kill();
   await Promise.race([stopped, new Promise(resolve => setTimeout(resolve, 5000))]);
-  for (const view of ['workout','detail','history','progression','backup']) {
+  for (const view of ['workout','detail','history','progression','backup','active-workout','active-detail','active-notes','finish-confirmation','history-edit']) {
     const target = path.join(output, `mobile-${view}.png`);
     const capture = spawn(browser, ['--headless=new', '--disable-gpu', '--no-first-run', `--user-data-dir=${profile}`, '--window-size=520,1000', '--hide-scrollbars', '--virtual-time-budget=2000', `--screenshot=${target}`, `http://127.0.0.1:${port}/__preview?view=${view}`], {stdio:'ignore', windowsHide:true});
     await Promise.race([new Promise(resolve => capture.once('exit', resolve)), new Promise(resolve => setTimeout(resolve, 10000))]);

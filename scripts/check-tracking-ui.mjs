@@ -12,7 +12,7 @@ const settle = async () => { for (let i = 0; i < 4; i++) await new Promise(resol
 const day = value => { const date = new Date(value); return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`; };
 
 function fixture(now) {
-  let state = { schemaVersion: 1, updatedAt: new Date(now()).toISOString(), settings: {}, sessions: [], progression: [] };
+  let state = { schemaVersion: 1, updatedAt: new Date(now()).toISOString(), settings: {}, exerciseNotes: {}, sessions: [], progression: [] };
   const listeners = new Set();
   let nextError = null;
   let clock = now;
@@ -29,7 +29,7 @@ function fixture(now) {
     startSession(workoutId, exerciseIds) { return mutate(() => {
       if (active()) throw new Error('Já existe treino em andamento.');
       const session = { id: `session-${state.sessions.length + 1}`, workoutId, startedAt: new Date(clock()).toISOString(), endedAt: null, restStartedAt: null,
-        exercises: Object.fromEntries(exerciseIds.map(id => { const config = setting(id); return [id, { weights: config.weights, reps: config.reps, completed: config.reps.map(() => false) }]; })) };
+        exercises: Object.fromEntries(exerciseIds.map(id => { const config = setting(id); return [id, { weights: config.weights, reps: config.reps, completed: config.reps.map(() => false), notes: '' }]; })) };
       state.sessions.push(session); return session;
     }); },
     toggleRest() { return mutate(() => { if (!active()) throw new Error('Nenhum treino ativo.'); active().restStartedAt = active().restStartedAt ? null : new Date(clock()).toISOString(); return active(); }); },
@@ -49,6 +49,26 @@ function fixture(now) {
       return state.settings[id];
     }); },
     toggleSet(id, index) { return mutate(() => { if (!active()?.exercises[id]) throw new Error('Inicie o treino antes de marcar séries.'); const entry = active().exercises[id]; entry.completed[index] = !entry.completed[index]; return entry; }); },
+    getExerciseNote: id => state.exerciseNotes?.[id] || '',
+    updateExerciseNote(id, text) { return mutate(() => {
+      if (typeof text !== 'string' || text.length > 4000) throw new Error('Use até 4000 caracteres na anotação.');
+      state.exerciseNotes ||= {};
+      if (text) state.exerciseNotes[id] = text; else delete state.exerciseNotes[id];
+      return text;
+    }); },
+    updateSessionExerciseNote(id, text, expectedSessionId) { return mutate(() => {
+      if (!active()?.exercises[id] || expectedSessionId && active().id !== expectedSessionId) throw new Error('O treino desta anotação não está mais em andamento.');
+      if (typeof text !== 'string' || text.length > 4000) throw new Error('Use até 4000 caracteres na anotação.');
+      active().exercises[id].notes = text; return text;
+    }); },
+    updateSessionTimes(id, value) { return mutate(() => {
+      const session = state.sessions.find(item => item.id === id && item.endedAt);
+      if (!session) throw new Error('Treino finalizado não encontrado.');
+      const start = new Date(value.startedAt).getTime(), end = new Date(value.endedAt).getTime();
+      if (!Number.isFinite(start) || !Number.isFinite(end) || end < start) throw new Error('O fim do treino deve ser posterior ao início.');
+      session.startedAt = new Date(start).toISOString(); session.endedAt = new Date(end).toISOString();
+      return session;
+    }); },
     deleteSession(id) { return mutate(() => {
       const index = state.sessions.findIndex(session => session.id === id);
       if (index < 0 || !state.sessions[index].endedAt) throw new Error('Treino não encontrado ou em andamento.');
@@ -104,9 +124,12 @@ async function openSeries(ui, id) {
   walk(ui.main);
   const how = ui.main.querySelectorAll('h2').find(node => node.textContent === 'Como fazer.');
   const bottom = ui.main.querySelector('.detail-nav-bottom');
+  const notes = ui.main.querySelector('#exercise-notes');
   assert(how && nodes.indexOf(how) < nodes.indexOf(series), 'Personal series must follow Como fazer');
-  assert.equal(ui.main.querySelectorAll('section').at(-1), series, 'Personal series must be the last content section');
-  assert(nodes.indexOf(series) < nodes.indexOf(bottom), 'Personal series must precede the bottom previous/next buttons');
+  assert(notes && nodes.indexOf(series) < nodes.indexOf(notes), 'Both exercise note fields must follow personal series');
+  assert.equal(ui.main.querySelectorAll('section').at(-1), notes, 'Exercise notes must be the last content section');
+  assert(notes.querySelector('#exercise-private-note') && notes.querySelector('#exercise-session-note'), 'Final notes section must contain both note fields');
+  assert(nodes.indexOf(notes) < nodes.indexOf(bottom), 'Exercise notes must precede the bottom previous/next buttons');
   return series;
 }
 
@@ -162,6 +185,54 @@ async function checkHistoryScreens(html) {
   exerciseSelect.value = 'forearm-plank'; exerciseSelect.dispatch('change');
   assert.equal(ui.main.querySelectorAll('.history-chart-point').length, 0, 'No-history exercise must not invent progression points');
   assert(ui.main.textContent.includes('Ainda não há ajustes'), 'No-history exercise lacks useful empty state');
+}
+
+async function checkSessionTimeEditing(html) {
+  const scripts = await Promise.all(['data.js', 'history.js'].map(async name => [name, await read(name)]));
+  const now = new Date(2026, 10, 18, 10).getTime();
+  const store = fixture(() => now);
+  const ui = harness(html, scripts, '', {now, window: {GYMROOK_STORE: store, confirm: () => true}});
+  const id = ui.data.workouts[0].blocks[0].exerciseIds[0];
+  const startedAt = new Date(2026, 10, 15, 7).toISOString(), endedAt = new Date(2026, 10, 17, 17).toISOString();
+  const note = 'Banco no ajuste 3\n<script>window.bad = true</script> & "controle"';
+  store.replace({schemaVersion: 1, updatedAt: endedAt, settings: {}, exerciseNotes: {}, progression: [], sessions: [{id: 'long', workoutId: 'A', startedAt, endedAt, restStartedAt: null,
+    exercises: {[id]: {weights: [20], reps: [10], completed: [true], notes: note}}}]});
+  ui.window.GYMROOK_HISTORY.render(ui.main, '#history');
+  assert(ui.main.querySelector('.history-session').textContent.includes('58h'), 'History must preserve durations exceeding one day');
+  assert.equal(ui.main.querySelector('.history-exercise-notes p').textContent, note, 'Historical exercise note must display its literal saved text');
+  assert.equal(ui.main.querySelectorAll('script').length, 0, 'Historical note HTML was interpreted as markup');
+  const edit = () => ui.main.querySelector('[data-edit-session="long"]');
+  const form = () => ui.main.querySelector('[data-session-times="long"]');
+  const field = name => form().querySelector(`[data-session-time="${name}"]`);
+  edit().click();
+  field('startedAt').value = '2026-11-18T10:00:00';
+  field('endedAt').value = '2026-11-18T11:00:00';
+  ui.main.querySelector('[data-cancel-session-times="long"]').click();
+  assert.equal(store.getState().sessions[0].startedAt, startedAt, 'Canceling time edits changed session data');
+  assert(!form(), 'Canceling time edits did not close the form');
+
+  edit().click();
+  field('startedAt').value = '2026-11-18T20:00:00';
+  field('endedAt').value = '2026-11-18T19:00:00';
+  form().dispatch('submit'); await settle();
+  assert.equal(store.getState().sessions[0].endedAt, endedAt, 'Invalid time interval changed the session');
+  assert(form().querySelector('.history-time-error').textContent, 'Invalid time interval needs a visible error');
+  field('endedAt').value = '2026-11-19T00:30:00';
+  store.failNext(new Error('Sem espaço para corrigir o horário'));
+  form().dispatch('submit'); await settle();
+  assert.equal(store.getState().sessions[0].startedAt, startedAt, 'Failed time edit changed the session');
+  assert(form().querySelector('.history-time-error').textContent.includes('Sem espaço'), 'Time-save failure was not explained');
+  assert(!ui.main.querySelector('[data-save-session-times="long"]').disabled, 'Failed time edit left the form stuck');
+  form().dispatch('submit'); await settle();
+  const saved = store.getState().sessions[0];
+  assert.equal(saved.startedAt, new Date(2026, 10, 18, 20).toISOString());
+  assert.equal(saved.endedAt, new Date(2026, 10, 19, 0, 30).toISOString());
+  assert.equal(saved.exercises[id].notes, note, 'Editing timestamps changed exercise notes');
+  assert.deepEqual(saved.exercises[id].completed, [true], 'Editing timestamps changed completed sets');
+  assert(!ui.main.querySelector('[data-history-day="2026-11-15"]').classList.contains('has-workout'), 'Time correction left the old calendar day marked');
+  assert(ui.main.querySelector('[data-history-day="2026-11-18"]').classList.contains('has-workout'), 'Time correction did not move the calendar marker');
+  assert.equal(ui.main.querySelector('[data-history-day="2026-11-18"]').getAttribute('aria-pressed'), 'true', 'Time correction did not select the corrected day');
+  assert(ui.main.querySelector('.history-session').textContent.includes('4h 30min'), 'History duration did not update after correcting timestamps');
 }
 
 async function checkTrackingRegressions(html, scripts) {
@@ -337,9 +408,170 @@ async function checkDeletedCurrentReturnsToDetail(html, scripts) {
   else assert(card(ui, id).textContent.includes('30 kg'), 'Restored current load missing from exercise detail');
 }
 
+async function checkExerciseNotesAndCompletion(html, scripts) {
+  const now = new Date(2026, 10, 18, 10).getTime();
+  const store = fixture(() => now);
+  const ui = harness(html, scripts, '', {now, window: {GYMROOK_STORE: store, confirm: () => true}});
+  store.setClock(ui.now);
+  await settle();
+  const ids = ui.data.workouts[0].blocks.flatMap(block => block.exerciseIds);
+  const id = ids[0], lastId = ids.at(-1);
+  const progress = (scope, location = 'detail') => scope.main.querySelector(`[data-exercise-progress="${id}"][data-progress-location="${location}"]`);
+  const checkCount = (node, completed, total) => assert(new RegExp(`${completed}\\s*(?:/|de)\\s*${total}`).test(node?.textContent || ''), `Missing completion summary ${completed}/${total}`);
+  ui.document.getElementById('start-workout').click(); await settle();
+  await openSeries(ui, id);
+  checkCount(progress(ui), 0, 3);
+  assert(!progress(ui).classList.contains('is-complete'));
+  assert(!ui.main.querySelector('#finish-workout-top'), 'Top finish control must appear only on last exercise');
+
+  const privateText = '<img src=x onerror="window.bad=true"> Banco 3\nAssento 2 & "controle"';
+  const sessionText = 'Hoje: <script>window.bad=true</script>\nÚltima série sem impulso.';
+  const privateInput = ui.main.querySelector('#exercise-private-note');
+  const sessionInput = ui.main.querySelector('#exercise-session-note');
+  assert(privateInput && sessionInput && !sessionInput.disabled, 'Exercise notes must provide fixed and active-session fields');
+  privateInput.value = privateText; privateInput.dispatch('input');
+  sessionInput.value = sessionText; sessionInput.dispatch('input');
+  // Fast navigation flushes both note scopes rather than dropping their debounces.
+  ui.location.hash = '#exercise/' + ids[1]; await settle();
+  assert.equal(store.getExerciseNote(id), privateText, 'Navigation did not save private exercise note');
+  assert.equal(store.getActiveSession().exercises[id].notes, sessionText, 'Navigation did not save session exercise note');
+  assert.equal(store.getState().progression.length, 0, 'Note edits must not create load progression points');
+  await openSeries(ui, id);
+  assert.equal(ui.main.querySelector('#exercise-private-note').value, privateText);
+  assert.equal(ui.main.querySelector('#exercise-session-note').value, sessionText);
+  assert.equal(ui.main.querySelectorAll('script').length, 0, 'Exercise notes were interpreted as executable HTML');
+  assert(!ui.main.querySelectorAll('img').some(image => image.getAttribute('src') === 'x'), 'Exercise note created an injected image');
+  action(card(ui, id), 'complete').click(); await settle();
+  checkCount(progress(ui), 1, 3);
+  assert(!progress(ui).classList.contains('is-complete'), 'Partial completion must not turn summary green');
+  for (let index = 1; index < 3; index++) { card(ui, id).querySelectorAll('[data-series-action="complete"]')[index].click(); await settle(); }
+  checkCount(progress(ui), 3, 3);
+  assert(progress(ui).classList.contains('is-complete'), 'Fully completed exercise summary must be complete');
+  ui.location.hash = '#workout/A'; await settle();
+  checkCount(progress(ui, 'list'), 3, 3);
+  assert(ui.main.querySelector(`[data-exercise="${id}"]`).classList.contains('is-completed'), 'Workout list does not mark a completed exercise');
+  assert(!ui.main.querySelector(`[data-exercise="${ids[1]}"]`).classList.contains('is-completed'), 'Untouched exercise inherited another exercise completion');
+
+  const restored = harness(html, scripts, '#exercise/' + id, {now: ui.now(), window: {GYMROOK_STORE: store, confirm: () => true}});
+  await settle();
+  store.setClock(restored.now);
+  checkCount(progress(restored), 3, 3);
+  assert.equal(restored.main.querySelector('#exercise-private-note').value, privateText, 'Private note did not survive app reopening');
+  assert.equal(restored.main.querySelector('#exercise-session-note').value, sessionText, 'Session note did not survive app reopening');
+
+  const beforeNote = store.getExerciseNote(id);
+  store.failNext(new Error('Falha de gravação da nota'));
+  const failing = restored.main.querySelector('#exercise-private-note');
+  failing.value = 'Rascunho ainda não salvo'; failing.dispatch('input');
+  restored.advance(350); await settle();
+  assert.equal(store.getExerciseNote(id), beforeNote, 'Failed note write changed saved data');
+  assert(restored.document.getElementById('tracking-status').textContent.includes('Falha de gravação'), 'Failed note save needs a visible error');
+  restored.advance(6000); await settle();
+  assert(!restored.document.getElementById('tracking-status').hidden, 'Error toast disappeared before it was resolved');
+  const retry = restored.main.querySelector('#exercise-private-note');
+  retry.value = privateText; retry.dispatch('input');
+  restored.advance(350); await settle();
+  assert(restored.document.getElementById('tracking-status').hidden, 'Successful note retry must clear its persistent error without a saved banner');
+
+  await openSeries(restored, lastId);
+  const finish = restored.main.querySelector('#finish-workout-top');
+  assert(finish, 'Last exercise must offer a top finish control');
+  finish.click(); await settle();
+  const dialog = restored.document.getElementById('finish-dialog');
+  assert(dialog.open && store.getActiveSession(), 'Top finish must open confirmation before ending the workout');
+  assert(dialog.getAttribute('aria-labelledby'), 'Finish dialog needs an accessible title');
+  restored.document.dispatch('keydown', {key: 'Escape'});
+  assert.equal(restored.location.hash, '#exercise/' + lastId, 'Escape from the finish dialog must not navigate away from the exercise');
+  restored.document.getElementById('finish-cancel').click(); await settle();
+  assert(!dialog.open && store.getActiveSession(), 'Canceling finish must keep session active');
+  finish.click(); await settle();
+  store.failNext(new Error('Não foi possível finalizar de teste'));
+  restored.document.getElementById('finish-confirm').click(); await settle();
+  assert(dialog.open && store.getActiveSession(), 'Failed finish must keep confirmation and session available');
+  assert(restored.document.getElementById('finish-dialog-error').textContent.includes('finalizar'), 'Finish failure needs dialog feedback');
+  restored.document.getElementById('finish-confirm').click(); await settle();
+  assert(!dialog.open && !store.getActiveSession(), 'Confirming finish did not close the session/dialog');
+  assert.equal(store.getState().sessions[0].exercises[id].notes, sessionText, 'Finishing dropped session notes');
+  assert(restored.main.querySelector('.history-exercise-notes p').textContent.includes('<script>'), 'Session notes missing from history');
+  restored.advance(5000); await settle();
+  assert(restored.document.getElementById('tracking-status').hidden || !restored.document.getElementById('tracking-status').textContent, 'Success notification remained persistently visible');
+  restored.location.hash = '#workout/A'; await settle();
+  assert(!restored.main.querySelector(`[data-exercise="${id}"]`).classList.contains('is-completed'), 'Previous session completion stayed green after finishing');
+  restored.document.getElementById('start-workout').click(); await settle();
+  await openSeries(restored, id);
+  checkCount(progress(restored), 0, 3);
+  assert.equal(restored.main.querySelector('#exercise-session-note').value, '', 'New session reused the previous session note');
+  assert.equal(restored.main.querySelector('#exercise-private-note').value, privateText, 'New session lost the fixed exercise note');
+  assert(!progress(restored).classList.contains('is-complete'), 'New session inherited the previous session completion');
+}
+
+async function checkNoteImportRace(html, scripts) {
+  const now = new Date(2026, 10, 18, 10).getTime();
+  const store = fixture(() => now);
+  const ui = harness(html, scripts, '', {now, window: {GYMROOK_STORE: store, confirm: () => true}});
+  await settle();
+  const id = ui.data.workouts[0].blocks[0].exerciseIds[0];
+  ui.document.getElementById('start-workout').click(); await settle();
+  await openSeries(ui, id);
+  const restoredState = store.getState();
+  restoredState.exerciseNotes[id] = 'Anotação fixa restaurada';
+  restoredState.sessions[0].exercises[id].notes = 'Anotação da sessão restaurada';
+  for (const selector of ['#exercise-private-note', '#exercise-session-note']) {
+    const textarea = ui.main.querySelector(selector);
+    textarea.value = 'Rascunho antigo ainda aguardando autosave'; textarea.dispatch('input');
+  }
+  let releaseImport;
+  const gate = new Promise(resolve => { releaseImport = resolve; });
+  const importNow = store.importBackup.bind(store);
+  let replacing = false;
+  store.importBackup = async json => { await importNow(json); replacing = true; await gate; };
+  ui.window.GYMROOK_TRACKING.renderBackup(ui.main);
+  const json = JSON.stringify({app: 'GymRook', formatVersion: 1, exportedAt: new Date(now).toISOString(), state: restoredState});
+  const importer = ui.main.querySelector('#backup-import');
+  importer.files = [{name: 'notes.json', size: json.length, text: async () => json}];
+  importer.dispatch('change'); await settle();
+  assert(replacing, 'Valid note backup import did not start');
+  ui.advance(350); await settle();
+  assert.equal(store.getExerciseNote(id), 'Anotação fixa restaurada', 'Queued private note overwrote imported backup');
+  assert.equal(store.getActiveSession().exercises[id].notes, 'Anotação da sessão restaurada', 'Queued session note overwrote imported backup');
+  releaseImport(); await settle();
+  await openSeries(ui, id);
+  assert.equal(ui.main.querySelector('#exercise-private-note').value, 'Anotação fixa restaurada', 'Private note draft was not reset after import');
+  assert.equal(ui.main.querySelector('#exercise-session-note').value, 'Anotação da sessão restaurada', 'Session note draft was not reset after import');
+}
+
+async function checkSaveErrorRetries(html, scripts) {
+  const now = new Date(2026, 10, 18, 10).getTime();
+  const store = fixture(() => now);
+  const ui = harness(html, scripts, '', {now, window: {GYMROOK_STORE: store, confirm: () => true}});
+  await settle();
+  ui.document.getElementById('start-workout').click(); await settle();
+  const id = ui.data.workouts[0].blocks[0].exerciseIds[0];
+  await openSeries(ui, id);
+  store.failNext(new Error('Nota ainda pendente de gravação'));
+  const note = ui.main.querySelector('#exercise-private-note');
+  note.value = 'Anotação para nova tentativa'; note.dispatch('change'); await settle();
+  assert(ui.document.getElementById('tracking-status').textContent.includes('Nota ainda pendente'));
+  action(card(ui, id), 'edit').click(); await settle();
+  const load = input(card(ui, id), 'weight', 0);
+  store.failNext(new Error('Carga ainda pendente de gravação'));
+  load.value = '30'; load.dispatch('change'); await settle();
+  assert(ui.document.getElementById('tracking-status').textContent.includes('Carga ainda pendente'));
+  action(card(ui, id), 'done').click(); await settle();
+  assert.deepEqual(store.getExercise(id).weights, [30], 'Retry did not save the previously failed series load');
+  const status = ui.document.getElementById('tracking-status');
+  assert(!status.hidden && status.textContent.includes('Nota ainda pendente'), 'Successful series retry must preserve another pending write error');
+  assert(!status.textContent.includes('Carga ainda pendente'), 'Successful series retry retained its resolved error');
+  const retry = ui.main.querySelector('#exercise-private-note');
+  retry.value = 'Anotação salva após nova tentativa'; retry.dispatch('change'); await settle();
+  assert.equal(store.getExerciseNote(id), retry.value);
+  assert(status.hidden && !status.textContent, 'Final successful retry must clear all resolved errors without a saved notice');
+}
+
 export async function checkTrackingUI() {
   const html = await read('index.html');
   await checkHistoryScreens(html);
+  await checkSessionTimeEditing(html);
   await checkDeletionScreens(html);
   const names = ['data.js', 'anatomy.js', 'history.js', 'tracking.js', 'app.js'];
   const scripts = await Promise.all(names.map(async name => [name, await read(name)]));
@@ -347,6 +579,9 @@ export async function checkTrackingUI() {
   for (const name of ['store.js', 'history.js', 'tracking.js']) assert(scriptPaths.includes(name), `${name} must be included in offline app shell`);
   assert(scriptPaths.indexOf('store.js') < scriptPaths.indexOf('tracking.js') && scriptPaths.indexOf('tracking.js') < scriptPaths.indexOf('app.js'), 'Tracking script order is incorrect');
   await checkDeletedCurrentReturnsToDetail(html, scripts);
+  await checkExerciseNotesAndCompletion(html, scripts);
+  await checkNoteImportRace(html, scripts);
+  await checkSaveErrorRetries(html, scripts);
   await checkTrackingRegressions(html, scripts);
   const initialNow = new Date(2026, 10, 9, 10, 0, 0).getTime();
   const store = fixture(() => initialNow);
@@ -483,7 +718,7 @@ export async function checkTrackingUI() {
   importer.files = [{name: 'bad.json', size: 2, text: async () => '{}'}]; importer.dispatch('change'); await settle();
   assert(ui.main.querySelector('#backup-import-status').textContent.includes('não é um backup'), 'Invalid backup import is not explained');
   assert.deepEqual(store.getState(), previousState, 'Invalid import modified existing data');
-  console.log('Tracking UI: defaults, edits/completion, restored timers, calendar/progression deletion and rollback, backup export, save/import races and error states passed (in-memory DOM; no browser/layout test).');
+  console.log('Tracking UI: summaries, private/session notes, time correction, confirmed finish, timers, calendar/progression, deletion rollback, autosave/import races and errors passed (in-memory DOM; no browser/layout test).');
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {

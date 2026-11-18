@@ -2,6 +2,7 @@
   'use strict';
   const esc = value => String(value ?? '').replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
   const trashIcon = '<svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13M10 10v7M14 10v7"/></svg>';
+  const editIcon = '<svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m15 5 4 4M4 20l4-1L20 7a2.8 2.8 0 0 0-4-4L4 15z"/></svg>';
   let viewSequence = 0;
   const currentView = (container, id) => container.querySelector('[data-history-view]')?.dataset.historyView === String(id);
   const actionStatus = feedback => `<p class="history-action-status" role="status" aria-live="polite" data-error="${feedback.error}"${feedback.message ? '' : ' hidden'}>${esc(feedback.message)}</p>`;
@@ -28,6 +29,21 @@
     const date = new Date(value);
     return Number.isNaN(date.getTime()) ? '—' : date.toLocaleTimeString('pt-BR', {hour:'2-digit', minute:'2-digit'});
   };
+  const localDateTime = value => {
+    const date = new Date(value);
+    if (Number.isNaN(date.getTime())) return '';
+    return `${dayKey(date)}T${String(date.getHours()).padStart(2, '0')}:${String(date.getMinutes()).padStart(2, '0')}:${String(date.getSeconds()).padStart(2, '0')}`;
+  };
+  const parseLocalDateTime = value => {
+    const match = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})(?::(\d{2}))?$/.exec(value || '');
+    if (!match) return null;
+    const [year, month, day, hour, minute, second] = match.slice(1).map(part => Number(part ?? '0'));
+    const date = new Date(0);
+    date.setFullYear(year, month - 1, day);
+    date.setHours(hour, minute, second, 0);
+    if (year < 1 || date.getFullYear() !== year || date.getMonth() !== month - 1 || date.getDate() !== day || date.getHours() !== hour || date.getMinutes() !== minute || date.getSeconds() !== Number(second)) return null;
+    return date;
+  };
   const duration = (start, end) => {
     const seconds = Math.max(0, Math.floor((new Date(end) - new Date(start)) / 1000));
     if (!Number.isFinite(seconds)) return '—';
@@ -40,14 +56,22 @@
   const completedExercise = exercise => Array.isArray(exercise?.reps) && exercise.reps.length > 0 && completedCount(exercise) >= exercise.reps.length;
   const completedSessions = state => (state.sessions || []).filter(session => session.endedAt && dayKey(session.startedAt)).sort((a, b) => new Date(b.startedAt) - new Date(a.startedAt));
 
-  function sessionCard(session, exercises, deleting = false) {
+  function sessionCard(session, exercises, deleting = false, draft = null) {
     const entries = Object.entries(session.exercises || {});
     const finished = entries.filter(([, exercise]) => completedExercise(exercise)).length;
     const doneSets = entries.reduce((sum, [, exercise]) => sum + completedCount(exercise), 0);
     const plannedSets = entries.reduce((sum, [, exercise]) => sum + (exercise.reps || []).length, 0);
     const endDay = dayKey(session.endedAt);
     const endTime = endDay !== dayKey(session.startedAt) ? `${shortDay(endDay)} às ${time(session.endedAt)}` : time(session.endedAt);
-    return `<article class="history-session"><div class="history-session-head"><h3>Treino ${esc(session.workoutId)}</h3><strong>${duration(session.startedAt, session.endedAt)}</strong></div><dl class="history-session-facts"><div><dt>Início</dt><dd>${time(session.startedAt)}</dd></div><div><dt>Fim</dt><dd>${endTime}</dd></div><div><dt>Exercícios concluídos</dt><dd>${finished} de ${entries.length}</dd></div><div><dt>Séries concluídas</dt><dd>${doneSets} de ${plannedSets}</dd></div></dl><details class="history-session-details"><summary>Ver exercícios e séries</summary><ul>${entries.map(([id, exercise]) => `<li><div class="history-exercise-title"><strong>${esc(exercises[id]?.name || id)}</strong><span>${completedCount(exercise)}/${(exercise.reps || []).length} séries</span></div><ol class="history-set-list">${(exercise.reps || []).map((reps, index) => `<li><span class="history-set-state" aria-label="${exercise.completed?.[index] ? 'Concluída' : 'Não concluída'}">${exercise.completed?.[index] ? '✓' : '○'}</span><span>Série ${index + 1}: ${number(reps)} rep. · ${exercise.weights?.[index] == null ? 'carga não informada' : `${number(exercise.weights[index])} kg`}</span></li>`).join('')}</ol></li>`).join('')}</ul></details><div class="history-record-actions"><button type="button" class="button button-danger" data-delete-session="${esc(session.id)}" ${deleting ? 'disabled' : ''} aria-label="Excluir treino ${esc(session.workoutId)} de ${esc(longDay(dayKey(session.startedAt)))} às ${esc(time(session.startedAt))}">${trashIcon}<span>Excluir treino</span></button></div></article>`;
+    const busy = deleting || draft?.saving;
+    const timeEditor = draft ? `<form class="history-time-editor" data-session-times="${esc(session.id)}" novalidate aria-label="Editar horários do treino ${esc(session.workoutId)}"><h4>Editar horários</h4><p>Use a data e o horário locais deste aparelho.</p><div class="history-time-fields"><label><span>Início</span><input type="datetime-local" data-session-time="startedAt" step="1" required value="${esc(draft.startedAt)}" aria-invalid="${Boolean(draft.invalid?.startedAt)}" ${busy ? 'disabled' : ''}></label><label><span>Término</span><input type="datetime-local" data-session-time="endedAt" step="1" required value="${esc(draft.endedAt)}" aria-invalid="${Boolean(draft.invalid?.endedAt)}" ${busy ? 'disabled' : ''}></label></div><p class="history-time-error" role="status" aria-live="polite" ${draft.error ? '' : 'hidden'}>${esc(draft.error)}</p><div class="history-record-actions"><button type="submit" class="button button-dark" data-save-session-times="${esc(session.id)}" ${busy ? 'disabled' : ''}>${draft.saving ? 'Salvando…' : 'Salvar horários'}</button><button type="button" class="button button-light" data-cancel-session-times="${esc(session.id)}" ${busy ? 'disabled' : ''}>Cancelar</button></div></form>` : '';
+    return `<article class="history-session">
+      <div class="history-session-head"><h3>Treino ${esc(session.workoutId)}</h3><strong>${duration(session.startedAt, session.endedAt)}</strong></div>
+      <dl class="history-session-facts"><div><dt>Início</dt><dd>${time(session.startedAt)}</dd></div><div><dt>Fim</dt><dd>${endTime}</dd></div><div><dt>Exercícios concluídos</dt><dd>${finished} de ${entries.length}</dd></div><div><dt>Séries concluídas</dt><dd>${doneSets} de ${plannedSets}</dd></div></dl>
+      ${timeEditor}
+      <details class="history-session-details"><summary>Ver exercícios e séries</summary><ul>${entries.map(([id, exercise]) => `<li><div class="history-exercise-title"><strong>${esc(exercises[id]?.name || id)}</strong><span>${completedCount(exercise)}/${(exercise.reps || []).length} séries</span></div><ol class="history-set-list">${(exercise.reps || []).map((reps, index) => `<li><span class="history-set-state" aria-label="${exercise.completed?.[index] ? 'Concluída' : 'Não concluída'}">${exercise.completed?.[index] ? '✓' : '○'}</span><span>Série ${index + 1}: ${number(reps)} rep. · ${exercise.weights?.[index] == null ? 'carga não informada' : `${number(exercise.weights[index])} kg`}</span></li>`).join('')}</ol>${typeof exercise.notes === 'string' && exercise.notes.trim() ? `<div class="history-exercise-notes"><h4>Notas deste treino</h4><p>${esc(exercise.notes)}</p></div>` : ''}</li>`).join('')}</ul></details>
+      <div class="history-record-actions">${!draft ? `<button type="button" class="button button-light" data-edit-session="${esc(session.id)}" ${busy ? 'disabled' : ''} aria-label="Editar horários do treino ${esc(session.workoutId)} de ${esc(longDay(dayKey(session.startedAt)))}">${editIcon}<span>Editar horários</span></button>` : ''}<button type="button" class="button button-danger" data-delete-session="${esc(session.id)}" ${busy ? 'disabled' : ''} aria-label="Excluir treino ${esc(session.workoutId)} de ${esc(longDay(dayKey(session.startedAt)))} às ${esc(time(session.startedAt))}">${trashIcon}<span>Excluir treino</span></button></div>
+    </article>`;
   }
 
   function renderCalendar(container, state, exercises) {
@@ -55,7 +79,9 @@
     let sessions;
     const grouped = new Map();
     const deletingSessions = new Set();
+    const timeDrafts = new Map();
     let feedback = {message:'', error:false};
+    const findTimeForm = id => [...container.querySelectorAll('[data-session-times]')].find(form => form.dataset.sessionTimes === id);
     const readState = () => {
       state = window.GYMROOK_STORE.getState();
       sessions = completedSessions(state);
@@ -86,19 +112,84 @@
         const date = `${prefix}${String(index + 1).padStart(2, '0')}`;
         const count = (grouped.get(date) || []).length;
         return `<button type="button" class="history-calendar-day${count ? ' has-workout' : ''}${date === today ? ' is-today' : ''}" data-history-day="${date}" aria-pressed="${date === selected}" ${date === today ? 'aria-current="date"' : ''} aria-label="${esc(longDay(date))}${count ? `, ${count} treino${count > 1 ? 's' : ''} finalizado${count > 1 ? 's' : ''}` : ', sem treino finalizado'}"><span>${index + 1}</span><span class="history-calendar-mark" aria-hidden="true">${count > 1 ? count : count ? '●' : ''}</span></button>`;
-      }).join('')}</div><p class="history-calendar-note"><span class="history-calendar-dot" aria-hidden="true"></span>${trainedDays} dia${trainedDays === 1 ? '' : 's'} de treino neste mês</p><button class="button button-light" type="button" id="history-today">Ir para hoje</button></section><section class="history-day-details" aria-labelledby="history-selected-day"><h2 id="history-selected-day">${esc(longDay(selected))}</h2>${active ? '<p class="history-ongoing">Há um treino em andamento neste dia. Ele aparecerá no calendário quando for finalizado.</p>' : ''}${currentSessions.length ? currentSessions.map(session => sessionCard(session, exercises, deletingSessions.has(session.id))).join('') : '<div class="history-empty"><p>Nenhum treino finalizado neste dia.</p><a class="button button-light" href="#">Ir para os treinos</a></div>'}</section></div>${!sessions.length ? '<p class="history-description">Seu histórico começa quando você iniciar e finalizar o primeiro treino.</p>' : ''}</div>`;
+      }).join('')}</div><p class="history-calendar-note"><span class="history-calendar-dot" aria-hidden="true"></span>${trainedDays} dia${trainedDays === 1 ? '' : 's'} de treino neste mês</p><button class="button button-light" type="button" id="history-today">Ir para hoje</button></section><section class="history-day-details" aria-labelledby="history-selected-day"><h2 id="history-selected-day">${esc(longDay(selected))}</h2>${active ? '<p class="history-ongoing">Há um treino em andamento neste dia. Ele aparecerá no calendário quando for finalizado.</p>' : ''}${currentSessions.length ? currentSessions.map(session => sessionCard(session, exercises, deletingSessions.has(session.id), timeDrafts.get(session.id))).join('') : '<div class="history-empty"><p>Nenhum treino finalizado neste dia.</p><a class="button button-light" href="#">Ir para os treinos</a></div>'}</section></div>${!sessions.length ? '<p class="history-description">Seu histórico começa quando você iniciar e finalizar o primeiro treino.</p>' : ''}</div>`;
       container.querySelector('#history-month-prev').addEventListener('click', () => changeMonth(-1));
       container.querySelector('#history-month-next').addEventListener('click', () => changeMonth(1));
       container.querySelector('#history-today').addEventListener('click', () => { selected = today; month = parseDay(today); month.setDate(1); draw('history-today'); });
       container.querySelectorAll('[data-history-day]').forEach(button => button.addEventListener('click', () => { selected = button.dataset.historyDay; draw(`[data-history-day="${selected}"]`); }));
+      container.querySelectorAll('[data-edit-session]').forEach(button => button.addEventListener('click', () => {
+        if (button.disabled) return;
+        const session = sessions.find(item => item.id === button.dataset.editSession);
+        if (!session) return;
+        timeDrafts.set(session.id, {startedAt:localDateTime(session.startedAt), endedAt:localDateTime(session.endedAt), saving:false, error:'', invalid:{}});
+        feedback = {message:'', error:false};
+        draw();
+        findTimeForm(session.id)?.querySelector('[data-session-time="startedAt"]')?.focus({preventScroll:true});
+      }));
+      container.querySelectorAll('[data-cancel-session-times]').forEach(button => button.addEventListener('click', () => {
+        const id = button.dataset.cancelSessionTimes;
+        if (button.disabled || timeDrafts.get(id)?.saving) return;
+        timeDrafts.delete(id);
+        draw();
+        [...container.querySelectorAll('[data-edit-session]')].find(target => target.dataset.editSession === id)?.focus({preventScroll:true});
+      }));
+      container.querySelectorAll('[data-session-times]').forEach(form => {
+        const id = form.dataset.sessionTimes;
+        const draft = timeDrafts.get(id);
+        form.querySelectorAll('[data-session-time]').forEach(input => input.addEventListener('input', () => {
+          draft[input.dataset.sessionTime] = input.value;
+          draft.error = '';
+          draft.invalid[input.dataset.sessionTime] = false;
+          input.setAttribute('aria-invalid', 'false');
+          form.querySelector('.history-time-error').hidden = true;
+        }));
+        form.addEventListener('submit', async event => {
+          event.preventDefault();
+          if (draft.saving || deletingSessions.has(id)) return;
+          draft.startedAt = form.querySelector('[data-session-time="startedAt"]').value;
+          draft.endedAt = form.querySelector('[data-session-time="endedAt"]').value;
+          const start = parseLocalDateTime(draft.startedAt);
+          const end = parseLocalDateTime(draft.endedAt);
+          draft.invalid = {startedAt:!start, endedAt:!end || Boolean(start && end < start)};
+          if (!start || !end || end < start) {
+            draft.error = !start ? 'Informe uma data e um horário de início válidos.' : !end ? 'Informe uma data e um horário de término válidos.' : 'O término deve ser igual ou posterior ao início.';
+            draw();
+            findTimeForm(id)?.querySelector(`[data-session-time="${!start ? 'startedAt' : 'endedAt'}"]`)?.focus({preventScroll:true});
+            return;
+          }
+          draft.error = '';
+          draft.saving = true;
+          draw();
+          try {
+            await window.GYMROOK_STORE.updateSessionTimes(id, {startedAt:start.toISOString(), endedAt:end.toISOString()});
+            timeDrafts.delete(id);
+            const revised = window.GYMROOK_STORE.getState().sessions.find(session => session.id === id);
+            selected = dayKey(revised?.startedAt || start);
+            month = parseDay(selected);
+            month.setDate(1);
+            feedback = {message:'Horários atualizados. A duração e o calendário foram recalculados.', error:false};
+          } catch (error) {
+            draft.error = error.message || 'Não foi possível salvar os horários. Tente novamente.';
+          } finally {
+            draft.saving = false;
+            if (currentView(container, viewId)) {
+              draw();
+              if (draft.error) findTimeForm(id)?.querySelector('[data-save-session-times]')?.focus({preventScroll:true});
+              else container.querySelector(`[data-history-day="${selected}"]`)?.focus({preventScroll:true});
+            }
+          }
+        });
+      });
       container.querySelectorAll('[data-delete-session]').forEach(button => button.addEventListener('click', async () => {
         if (button.disabled) return;
         const session = sessions.find(item => item.id === button.dataset.deleteSession);
         if (!session || !window.confirm(`Excluir o treino ${session.workoutId} de ${longDay(dayKey(session.startedAt))}, iniciado às ${time(session.startedAt)}? O registro será removido do histórico.`)) return;
         deletingSessions.add(session.id);
         button.disabled = true;
+        draw();
         try {
           await window.GYMROOK_STORE.deleteSession(session.id);
+          timeDrafts.delete(session.id);
           feedback = {message:'Treino excluído do histórico.', error:false};
         } catch (error) {
           feedback = {message:error.message || 'Não foi possível excluir o treino. Tente novamente.', error:true};

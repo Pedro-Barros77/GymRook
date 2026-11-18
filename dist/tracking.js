@@ -9,11 +9,18 @@
   const stopIcon = '<svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect fill="currentColor" x="5" y="5" width="14" height="14" rx="1"/></svg>';
   const edits = new Map();
   const pending = new Map();
+  const pendingNotes = new Map();
+  const noteDrafts = new Map();
+  const savingNotes = new Map();
+  const saveErrors = new Map();
   const inFlight = new Set();
   let loaded = false;
   let loadError = '';
   let refresh = () => {};
   let lastActive = null;
+  let announcementTimer = null;
+  let finishingSessionId = null;
+  let finishBusy = false;
   const duration = (start, now = Date.now()) => {
     const seconds = Math.max(0, Math.floor((now - new Date(start).getTime()) / 1000));
     const hours = Math.floor(seconds / 3600);
@@ -29,6 +36,118 @@
     status.textContent = message;
     status.hidden = !message;
     status.setAttribute('data-error', String(error));
+    clearTimeout(announcementTimer);
+    if (message && !error) announcementTimer = setTimeout(() => { status.hidden = true; status.textContent = ''; }, 4500);
+  }
+  function saveError(key, message) {
+    saveErrors.set(key, message);
+    announce(message, true);
+  }
+  function clearSaveError(key) {
+    const message = saveErrors.get(key);
+    saveErrors.delete(key);
+    if (message && document.getElementById('tracking-status')?.textContent === message) {
+      const remaining = [...saveErrors.values()].at(-1);
+      announce(remaining || '', Boolean(remaining));
+    }
+  }
+  const progressValue = id => {
+    const exercise = active()?.exercises[id];
+    const total = exercise?.reps.length || 0;
+    const completed = exercise ? exercise.completed.filter(Boolean).length : 0;
+    return {running: Boolean(exercise), total, completed, complete: total > 0 && completed === total};
+  };
+  const progressBody = value => `${value.complete ? '<svg class="progress-check" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>' : ''}<span>${value.completed}/${value.total} séries</span>`;
+  function exerciseProgress(id, position = 'detail') {
+    const value = progressValue(id);
+    return `<span class="exercise-progress${value.complete ? ' is-complete' : ''}" data-exercise-progress="${esc(id)}" data-progress-location="${position}" aria-label="${value.completed} de ${value.total} séries concluídas neste treino"${value.running ? '' : ' hidden'}>${progressBody(value)}</span>`;
+  }
+  function updateProgress() {
+    document.querySelectorAll('[data-exercise-progress]').forEach(badge => {
+      const value = progressValue(badge.dataset.exerciseProgress);
+      badge.hidden = !value.running;
+      badge.classList.toggle('is-complete', value.complete);
+      badge.setAttribute('aria-label', `${value.completed} de ${value.total} séries concluídas neste treino`);
+      badge.innerHTML = progressBody(value);
+    });
+    document.querySelectorAll('[data-exercise]').forEach(card => card.classList.toggle('is-completed', progressValue(card.dataset.exercise).complete));
+  }
+  function detailControls(id, last) {
+    const session = active();
+    if (!session?.exercises[id]) return '';
+    return `<div class="detail-tools">${exerciseProgress(id)}${last && session?.exercises[id] ? `<button type="button" class="button button-danger" id="finish-workout-top" aria-haspopup="dialog" aria-controls="finish-dialog">${stopIcon}Finalizar treino</button>` : ''}</div>`;
+  }
+  const noteKey = (id, sessionId) => sessionId ? `session:${sessionId}:${id}` : `private:${id}`;
+  function exerciseNotes(id) {
+    const session = active();
+    const running = Boolean(session?.exercises[id]);
+    const privateKey = noteKey(id);
+    const sessionKey = running ? noteKey(id, session.id) : '';
+    const privateValue = loaded ? noteDrafts.get(privateKey) ?? store.getExerciseNote(id) : '';
+    const sessionValue = running ? noteDrafts.get(sessionKey) ?? session.exercises[id].notes ?? '' : '';
+    return `<section class="exercise-notes" id="exercise-notes" data-notes-exercise="${esc(id)}" aria-labelledby="exercise-notes-title"><h2 id="exercise-notes-title">Anotações</h2><div class="exercise-note-fields"><div class="exercise-note"><label for="exercise-private-note">Descrição privada do exercício <span>opcional · permanece nos próximos treinos</span></label><textarea id="exercise-private-note" rows="2" maxlength="4000" data-note-key="${esc(privateKey)}" placeholder="Ex.: ajustar o banco no pino 2"${loaded ? '' : ' disabled'}>${esc(privateValue)}</textarea><p class="note-save-state" data-note-status="${esc(privateKey)}" role="status"></p></div><div class="exercise-note"><label for="exercise-session-note">Notas deste treino <span>opcional · somente nesta sessão</span></label><textarea id="exercise-session-note" rows="2" maxlength="4000" data-note-key="${esc(sessionKey)}" data-note-session="${running ? esc(session.id) : ''}" placeholder="${running ? 'Como foi este exercício hoje?' : 'Inicie o treino para anotar sobre esta sessão'}"${running ? '' : ' disabled'}>${esc(sessionValue)}</textarea><p class="note-save-state" data-note-status="${esc(sessionKey)}" role="status"></p></div></div></section>`;
+  }
+  function noteStatus(key, message, error = false) {
+    document.querySelectorAll('[data-note-status]').forEach(status => {
+      if (status.dataset.noteStatus !== key) return;
+      status.textContent = message;
+      status.setAttribute('data-error', String(error));
+    });
+  }
+  async function saveNote(key) {
+    const item = pendingNotes.get(key);
+    if (!item) return;
+    clearTimeout(item.timer);
+    pendingNotes.delete(key);
+    const operation = item.sessionId ? store.updateSessionExerciseNote(item.id, item.value, item.sessionId) : store.updateExerciseNote(item.id, item.value);
+    savingNotes.set(key, (savingNotes.get(key) || 0) + 1);
+    inFlight.add(operation);
+    try {
+      await operation;
+      clearSaveError(key);
+      if (!pendingNotes.has(key) && noteDrafts.get(key) === item.value) {
+        noteDrafts.delete(key);
+        noteStatus(key, '');
+      }
+    } catch (error) {
+      if (!pendingNotes.has(key)) pendingNotes.set(key, {...item, timer: null});
+      noteStatus(key, 'Não foi possível salvar a anotação. Tente novamente.', true);
+      saveError(key, error.message || 'Não foi possível salvar a anotação.');
+      throw error;
+    } finally {
+      inFlight.delete(operation);
+      const count = (savingNotes.get(key) || 1) - 1;
+      if (count) savingNotes.set(key, count); else savingNotes.delete(key);
+    }
+  }
+  function updateNoteFields() {
+    document.querySelectorAll('[data-note-key]').forEach(input => {
+      const key = input.dataset.noteKey;
+      if (!key || pendingNotes.has(key) || savingNotes.has(key) || document.activeElement === input) return;
+      const id = input.closest('[data-notes-exercise]')?.dataset.notesExercise;
+      if (!id) return;
+      const session = active();
+      if (input.dataset.noteSession && session?.id !== input.dataset.noteSession) {
+        input.value = '';
+        input.disabled = true;
+      } else input.value = input.dataset.noteSession ? session?.exercises[id]?.notes || '' : store.getExerciseNote(id);
+    });
+  }
+  function bindNotes(main) {
+    main.querySelectorAll('textarea[data-note-key]').forEach(input => {
+      const key = input.dataset.noteKey;
+      if (!key) return;
+      const id = input.closest('[data-notes-exercise]').dataset.notesExercise;
+      const queue = () => {
+        const previous = pendingNotes.get(key);
+        if (previous) clearTimeout(previous.timer);
+        noteDrafts.set(key, input.value);
+        noteStatus(key, 'Salvando…');
+        pendingNotes.set(key, {id, value: input.value, sessionId: input.dataset.noteSession || null, timer: setTimeout(() => saveNote(key).catch(() => {}), 300)});
+      };
+      input.addEventListener('input', queue);
+      input.addEventListener('change', () => { queue(); saveNote(key).catch(() => {}); });
+    });
   }
   async function act(button, operation) {
     if (button?.disabled) return;
@@ -115,6 +234,7 @@
     inFlight.add(operation);
     try {
       await operation;
+      clearSaveError(`series:${id}`);
       if (!pending.has(id)) document.querySelectorAll('[data-series-exercise]').forEach(card => {
         const status = card.dataset.seriesExercise === id && card.querySelector('[data-save-state]');
         if (status && edits.get(id)?.valid) status.textContent = 'Alterações salvas neste aparelho.';
@@ -123,7 +243,7 @@
     catch (error) {
       // Keep the failed write available for an explicit retry instead of claiming it saved.
       if (!pending.has(id)) pending.set(id, {...item, timer: null});
-      announce(`Alterações ainda não salvas: ${error.message}`, true);
+      saveError(`series:${id}`, `Alterações ainda não salvas: ${error.message}`);
       throw error;
     } finally { inFlight.delete(operation); }
   }
@@ -134,6 +254,7 @@
       throw new Error(message);
     }
     for (const id of pending.keys()) await saveDraft(id);
+    for (const key of pendingNotes.keys()) await saveNote(key);
     await Promise.all([...inFlight]);
   }
   function discardExerciseDraft(id) {
@@ -161,7 +282,8 @@
         await saveDraft(id);
         edits.delete(id);
         repaintSeries(card);
-        announce('Séries e cargas salvas neste aparelho.');
+        const status = document.getElementById('tracking-status');
+        if (status?.getAttribute('data-error') === 'true' && /^(Há campos de séries inválidos|Confira os campos)/.test(status.textContent)) announce('');
       } else if (action === 'add' || action === 'remove') {
         const draft = readDraft(card);
         if (!draft.valid) { announce('Confira os campos antes de alterar a quantidade de séries.', true); return; }
@@ -208,6 +330,10 @@
   }
   function bind(main, workout) {
     main.querySelectorAll('[data-series-exercise]').forEach(bindCard);
+    bindNotes(main);
+    updateProgress();
+    const finishTop = document.getElementById('finish-workout-top');
+    if (finishTop) finishTop.addEventListener('click', openFinishDialog);
     const start = document.getElementById('start-workout');
     if (start) start.addEventListener('click', () => act(start, async () => {
       await flushEdits();
@@ -217,13 +343,56 @@
       refresh();
     }));
     const finish = document.getElementById('finish-workout');
-    if (finish) finish.addEventListener('click', () => act(finish, async () => {
-      await flushEdits();
-      await store.finishSession();
-      edits.clear();
-      announce('Treino finalizado e salvo no histórico.');
-      location.hash = '#history';
-    }));
+    if (finish) finish.addEventListener('click', () => act(finish, () => completeWorkout(active()?.id)));
+  }
+  async function completeWorkout(expectedId) {
+    await flushEdits();
+    if (!expectedId || active()?.id !== expectedId) throw new Error('O treino em andamento mudou. Confira a sessão antes de finalizar.');
+    await store.finishSession(expectedId);
+    edits.clear();
+    noteDrafts.clear();
+    announce('Treino finalizado e salvo no histórico.');
+    location.hash = '#history';
+  }
+  function openFinishDialog() {
+    const session = active();
+    const dialog = document.getElementById('finish-dialog');
+    if (!session || !dialog) return;
+    finishingSessionId = session.id;
+    const total = Object.values(session.exercises).reduce((sum, exercise) => sum + exercise.reps.length, 0);
+    document.getElementById('finish-dialog-title').textContent = `Finalizar treino ${session.workoutId}?`;
+    document.getElementById('finish-dialog-summary').textContent = `${seriesCount(session)} de ${total} séries concluídas. O treino será salvo no histórico com os registros atuais.`;
+    const error = document.getElementById('finish-dialog-error');
+    error.textContent = '';
+    error.hidden = true;
+    if (typeof dialog.showModal === 'function') dialog.showModal(); else dialog.setAttribute('open', '');
+    document.getElementById('finish-cancel').focus();
+  }
+  const finishDialog = document.getElementById('finish-dialog');
+  if (finishDialog) {
+    const confirm = document.getElementById('finish-confirm');
+    const cancel = document.getElementById('finish-cancel');
+    cancel.addEventListener('click', () => { if (!finishBusy) finishDialog.close(); });
+    finishDialog.addEventListener('cancel', event => { if (finishBusy) event.preventDefault(); });
+    finishDialog.addEventListener('close', () => { finishingSessionId = null; });
+    confirm.addEventListener('click', async () => {
+      if (finishBusy) return;
+      finishBusy = true;
+      confirm.disabled = true;
+      cancel.disabled = true;
+      try {
+        await completeWorkout(finishingSessionId);
+        finishDialog.close();
+      } catch (error) {
+        const status = document.getElementById('finish-dialog-error');
+        status.textContent = error.message || 'Não foi possível finalizar. Tente novamente.';
+        status.hidden = false;
+      } finally {
+        finishBusy = false;
+        confirm.disabled = false;
+        cancel.disabled = false;
+      }
+    });
   }
   function routeChanged() {
     const route = location.hash;
@@ -273,11 +442,17 @@
         // Otherwise a delayed autosave could overwrite the restored backup afterwards.
         pending.forEach(item => clearTimeout(item.timer));
         pending.clear();
+        pendingNotes.forEach(item => clearTimeout(item.timer));
+        pendingNotes.clear();
         await Promise.allSettled([...inFlight]);
         pending.forEach(item => clearTimeout(item.timer));
         pending.clear();
+        pendingNotes.forEach(item => clearTimeout(item.timer));
+        pendingNotes.clear();
         await store.importBackup(json);
         edits.clear();
+        noteDrafts.clear();
+        saveErrors.clear();
         if (recovery) { window.location.reload(); return; }
         renderBackup(main);
         renderBar();
@@ -293,6 +468,8 @@
     loaded = true;
     lastActive = active()?.id || null;
     renderBar();
+    updateProgress();
+    updateNoteFields();
   }).catch(error => {
     loadError = 'Não foi possível abrir o armazenamento. Verifique se o navegador permite salvar dados deste site.';
     announce(`${loadError} ${error.message || ''}`, true);
@@ -300,6 +477,8 @@
   store.subscribe(() => {
     if (!loaded) return;
     renderBar();
+    updateProgress();
+    updateNoteFields();
     document.querySelectorAll('[data-series-exercise]').forEach(card => {
       if (!edits.has(card.dataset.seriesExercise)) repaintSeries(card);
     });
@@ -311,5 +490,5 @@
   setInterval(updateClocks, 1000);
   document.addEventListener('visibilitychange', () => { updateClocks(); if (document.visibilityState === 'hidden') flushEdits().catch(() => {}); });
   window.addEventListener('pagehide', () => { flushEdits().catch(() => {}); });
-  window.GYMROOK_TRACKING = {ready, isReady: () => loaded, getLoadError: () => loadError, hasPendingEdits: () => pending.size > 0 || inFlight.size > 0, exerciseCard, workoutControls, workoutFooter, bind, routeChanged, renderBackup, flushEdits, discardExerciseDraft, onRefresh: callback => { refresh = callback; }};
+  window.GYMROOK_TRACKING = {ready, isReady: () => loaded, getLoadError: () => loadError, hasPendingEdits: () => pending.size > 0 || pendingNotes.size > 0 || inFlight.size > 0, exerciseCard, exerciseProgress, detailControls, exerciseNotes, workoutControls, workoutFooter, bind, routeChanged, renderBackup, flushEdits, discardExerciseDraft, onRefresh: callback => { refresh = callback; }};
 })();

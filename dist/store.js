@@ -6,6 +6,7 @@
   const TABLE = 'records';
   const MAX_SETS = 30;
   const MAX_RECORDS = 50000;
+  const MAX_NOTE_LENGTH = 4000;
   const validExercises = new Set(Object.keys(window.GYMROOK_DATA?.exercises || {}));
   const workoutIds = new Set((window.GYMROOK_DATA?.workouts || []).map(workout => workout.id));
   const listeners = new Set();
@@ -15,7 +16,7 @@
     const date = value ? new Date(value) : new Date();
     return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
   };
-  const blankState = () => ({schemaVersion: 1, updatedAt: now(), settings: {}, sessions: [], progression: []});
+  const blankState = () => ({schemaVersion: 1, updatedAt: now(), settings: {}, exerciseNotes: {}, sessions: [], progression: []});
   const defaults = () => ({weights: [], reps: [10, 10, 10], updatedAt: null});
   let state = blankState();
   let database;
@@ -31,6 +32,21 @@
     if (value == null && nullable) return null;
     if (typeof value !== 'string' || !Number.isFinite(Date.parse(value))) fail('Data inválida no backup.');
     return new Date(value).toISOString();
+  }
+  function strictTimestamp(value) {
+    const match = typeof value === 'string' && /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})(?:\.(\d{1,3}))?(Z|[+-]\d{2}:\d{2})$/.exec(value);
+    if (!match) fail('Informe uma data e horário válidos, com fuso horário.');
+    const year = Number(match[1]), month = Number(match[2]), dayOfMonth = Number(match[3]);
+    const leap = year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0);
+    const days = [31, leap ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+    const zone = match[8];
+    if (month < 1 || month > 12 || dayOfMonth < 1 || dayOfMonth > days[month - 1] || Number(match[4]) > 23 || Number(match[5]) > 59 || Number(match[6]) > 59 || (zone !== 'Z' && (Number(zone.slice(1, 3)) > 23 || Number(zone.slice(4, 6)) > 59)) || !Number.isFinite(Date.parse(value))) fail('Informe uma data e horário válidos.');
+    return new Date(value).toISOString();
+  }
+  function note(value) {
+    if (typeof value !== 'string') fail('A observação deve ser um texto.');
+    if (value.length > MAX_NOTE_LENGTH) fail('A observação pode ter até 4000 caracteres.');
+    return value;
   }
   function day(value, message = 'Dia inválido no backup.') {
     if (typeof value !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(value) || new Date(`${value}T12:00:00`).getFullYear() < 2000 || localDate(`${value}T12:00:00`) !== value) fail(message);
@@ -53,7 +69,13 @@
   function validateState(input) {
     if (!object(input) || input.schemaVersion !== 1 || !object(input.settings) || !Array.isArray(input.sessions) || !Array.isArray(input.progression)) fail('Formato de backup incompatível.');
     if (input.sessions.length > MAX_RECORDS || input.progression.length > MAX_RECORDS || Object.keys(input.settings).length > validExercises.size) fail('O backup ultrapassa o limite de registros.');
-    const clean = {schemaVersion: 1, updatedAt: timestamp(input.updatedAt), settings: {}, sessions: [], progression: []};
+    const exerciseNotes = input.exerciseNotes === undefined ? {} : input.exerciseNotes;
+    if (!object(exerciseNotes) || Object.keys(exerciseNotes).length > validExercises.size) fail('Observações de exercícios inválidas no backup.');
+    const clean = {schemaVersion: 1, updatedAt: timestamp(input.updatedAt), settings: {}, exerciseNotes: {}, sessions: [], progression: []};
+    for (const [id, value] of Object.entries(exerciseNotes)) {
+      exerciseId(id);
+      clean.exerciseNotes[id] = note(value);
+    }
     for (const [id, value] of Object.entries(input.settings)) {
       exerciseId(id);
       clean.settings[id] = {...series(value), updatedAt: timestamp(value.updatedAt, true)};
@@ -76,7 +98,7 @@
         if (!allowed.has(id)) fail('O exercício não pertence à ficha informada.');
         const normalized = series(value);
         if (!Array.isArray(value.completed) || value.completed.length !== normalized.reps.length || value.completed.some(done => typeof done !== 'boolean')) fail('Conclusão de séries inválida.');
-        exercises[id] = {...normalized, completed: [...value.completed]};
+        exercises[id] = {...normalized, completed: [...value.completed], notes: value.notes === undefined ? '' : note(value.notes)};
       }
       clean.sessions.push({id: item.id, workoutId: item.workoutId, startedAt, endedAt, restStartedAt, exercises});
     }
@@ -186,10 +208,30 @@
     getState: () => copy(state),
     getActiveSession: () => copy(active()),
     getExercise: id => { exerciseId(id); return currentSeries(state, id); },
+    getExerciseNote: id => { exerciseId(id); return state.exerciseNotes?.[id] || ''; },
     canRestore: () => Boolean(database),
     getInitializationError: () => initializationError?.message || null,
     validateBackup: json => copy(validateBackup(json)),
     subscribe: listener => { listeners.add(listener); return () => listeners.delete(listener); },
+    updateExerciseNote: (id, text) => mutate(snapshot => {
+      exerciseId(id);
+      note(text);
+      if (text === '') delete snapshot.exerciseNotes[id];
+      else snapshot.exerciseNotes[id] = text;
+      return text;
+    }),
+    updateSessionExerciseNote: (id, text, expectedSessionId) => {
+      const intendedSessionId = expectedSessionId === undefined ? active()?.id : expectedSessionId;
+      return mutate(snapshot => {
+        exerciseId(id);
+        note(text);
+        const session = active(snapshot);
+        if (!session || !session.exercises[id]) fail('Inicie a ficha deste exercício antes de anotar nesta sessão.');
+        if (typeof intendedSessionId !== 'string' || session.id !== intendedSessionId) fail('O treino em andamento mudou. Abra novamente o exercício antes de salvar a observação.');
+        session.exercises[id].notes = text;
+        return text;
+      });
+    },
     startSession: (workoutId, ids) => mutate(snapshot => {
       if (!workoutIds.has(workoutId)) fail('Ficha não encontrada.');
       if (active(snapshot)) fail('Já existe um treino em andamento. Finalize-o antes de iniciar outro.');
@@ -199,7 +241,7 @@
       if (!Array.isArray(requested) || requested.some(id => !allowed.includes(id))) fail('Exercícios inválidos para esta ficha.');
       const startedAt = now();
       const session = {id: typeof crypto?.randomUUID === 'function' ? crypto.randomUUID() : `${Date.now()}-${Math.random().toString(36).slice(2)}`, workoutId, startedAt, endedAt: null, restStartedAt: null, exercises: {}};
-      for (const id of new Set(requested)) { exerciseId(id); const entry = currentSeries(snapshot, id); session.exercises[id] = {weights: entry.weights, reps: entry.reps, completed: entry.reps.map(() => false)}; }
+      for (const id of new Set(requested)) { exerciseId(id); const entry = currentSeries(snapshot, id); session.exercises[id] = {weights: entry.weights, reps: entry.reps, completed: entry.reps.map(() => false), notes: ''}; }
       snapshot.sessions.push(session);
       return session;
     }),
@@ -209,11 +251,24 @@
       session.restStartedAt = session.restStartedAt ? null : now();
       return session;
     }),
-    finishSession: () => mutate(snapshot => {
+    finishSession: expectedSessionId => mutate(snapshot => {
       const session = active(snapshot);
       if (!session) fail('Não há treino em andamento.');
+      if (expectedSessionId !== undefined && session.id !== expectedSessionId) fail('O treino em andamento mudou. Confira o treino antes de finalizar.');
       session.endedAt = new Date(Math.max(Date.now(), Date.parse(session.startedAt))).toISOString();
       session.restStartedAt = null;
+      return session;
+    }),
+    updateSessionTimes: (sessionId, value) => mutate(snapshot => {
+      if (typeof sessionId !== 'string' || !sessionId || sessionId.length > 100) fail('Identificador de treino inválido.');
+      const session = snapshot.sessions.find(item => item.id === sessionId);
+      if (!session) fail('Treino não encontrado. Ele pode já ter sido excluído.');
+      if (!session.endedAt) fail('Finalize o treino em andamento antes de editar seus horários.');
+      if (!object(value)) fail('Informe o início e o término do treino.');
+      const startedAt = strictTimestamp(value.startedAt);
+      const endedAt = strictTimestamp(value.endedAt);
+      if (Date.parse(endedAt) < Date.parse(startedAt)) fail('O término do treino deve ser igual ou posterior ao início.');
+      Object.assign(session, {startedAt, endedAt, restStartedAt: null});
       return session;
     }),
     deleteSession: sessionId => mutate(snapshot => {
@@ -261,7 +316,7 @@
       item.completed[index] = !item.completed[index];
       return item;
     }),
-    exportBackup: () => enqueue(async () => { state = (await readRecord('state')) || state; return envelope(state); }),
+    exportBackup: () => enqueue(async () => { const saved = await readRecord('state'); if (saved) state = validateState(saved); return envelope(state); }),
     importBackup: json => {
       let replacement;
       try { replacement = validateBackup(json); }
